@@ -7,6 +7,8 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintStream;
+import java.time.Duration;
+import java.time.Instant;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -18,42 +20,68 @@ public class RunningCommand {
 
 	public static void main(String[] args) {
 
-		String baseDir = "C:\\Users\\premendra.kumar\\git\\";
-		JsonObject json = new JsonObject();
-		json = JsonUtils.add(json, "baseDir", baseDir);
-		List<String> children = getGitRepoDirNames(baseDir);
-		json = JsonUtils.add(json, "children", children);
-		// json.
-		JsonArray outputArray = new JsonArray();
-		for (String child : children) {
-			JsonObject childJson = new JsonObject();
-			childJson = JsonUtils.add(childJson, "dir", child);
-			try {
-				String output = gitStatus(child);
-				System.out.println("==================");
-				System.out.println(output);
-				System.out.println("==================");
-				childJson = JsonUtils.add(childJson, "output", output);
+		try (PrintStream ps = new PrintStream(new File("C:\\Users\\premendra.kumar\\Desktop\\DUMP\\GitStatus.json"));
+				PrintStream cout = new PrintStream(
+						new File("C:\\Users\\premendra.kumar\\Desktop\\DUMP\\GitStatus.txt"));) {
+			String baseDir = "C:\\Users\\premendra.kumar\\git\\";
+			JsonObject json = new JsonObject();
+			json = JsonUtils.add(json, "baseDir", baseDir);
+			List<String> children = getGitRepoDirNames(baseDir);
 
-			} catch (Exception e) {
-				childJson = JsonUtils.add(childJson, "output", "Error : " + ((e.getMessage() != null) ? e.getMessage()
-						: " Exception occured. Please check in logs for detail."));
-				e.printStackTrace();
+			cout.println("==================");
+			for (String s : children) {
+				cout.println(s);
 			}
-			outputArray.add(childJson);			
-		}
-		
-		json.add("outputs", outputArray);
-		
-		try (PrintStream ps=new PrintStream(new File("C:\\Users\\premendra.kumar\\Desktop\\DUMP\\GitStatus.json"));){
-			
+
+			cout.println("==================");
+			json = JsonUtils.add(json, "children", children);
+			Instant first = Instant.now();
+			// json.
+			JsonArray outputArray = new JsonArray();
+			for (String child : children) {
+				cout.println("==================");
+				JsonObject childJson = new JsonObject();
+				childJson = JsonUtils.add(childJson, "dir", child);
+				Instant second = Instant.now();
+				Instant third = null;
+				try {
+					String output = gitStatus(child);
+
+					cout.println(output);
+
+					childJson = JsonUtils.add(childJson, "output", output);
+					third = Instant.now();
+
+				} catch (Exception e) {
+					childJson = JsonUtils.add(childJson, "output",
+							"Error : " + ((e.getMessage() != null) ? e.getMessage()
+									: " Exception occured. Please check in logs for detail."));
+					third = Instant.now();
+					e.printStackTrace();
+				}
+				Duration diff = Duration.between(second, third);
+				long diffMs = diff.toMillis();
+				childJson = JsonUtils.add(childJson, "duration", diffMs);
+				outputArray.add(childJson);
+
+				cout.println("@@@ Total duration : " + diffMs + " ms @@@");
+
+				cout.println("==================");
+			}
+
+			json.add("outputs", outputArray);
+			Instant fourth = Instant.now();
+
+			Duration diff = Duration.between(first, fourth);
+			long diffMs = diff.toMillis();
+			json = JsonUtils.add(json, "duration", diffMs);
+
 			ps.println(json.toString());
-			
+
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
-		
-		
+
 	}
 
 	private static class JsonUtils {
