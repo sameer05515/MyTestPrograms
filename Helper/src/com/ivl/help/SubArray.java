@@ -14,7 +14,7 @@ class SubArray
 		String[] arr = { "A", "B", "C", "D", "E", "F", "G", "H" };
 		int beg = 0, end = 4;
 
-		String[] subarray = subArray(arr, beg, arr.length-1);
+		String[] subarray = subArray(arr, beg, beg);
 		System.out.println(Arrays.toString(subarray));
 	}
 }

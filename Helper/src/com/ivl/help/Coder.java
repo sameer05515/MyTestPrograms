@@ -57,6 +57,8 @@ public class Coder {
 						+ "\", \"secret_key\":\"5\", \"req_app_name\":\"equity\", \"req_src_ip\":\"\", \"client_ip\":\"\", \"filler1\":\"\", \"filler2\":\"\", \"filler3\":\"\", \"device_id\":\"\" }");
 			}
 			//////////
+			
+			int cout=1;
 
 			for (String str : encStringList) {
 
@@ -66,8 +68,10 @@ public class Coder {
 				System.out.println(
 						"\n$$$$$$$$ re-endoded\n===========\n" + encStrs + "\nre-decoded \n===========\n" + decStrs);
 
-				// ps.println("\n$$$$$$$$\nre-endoded\n===========\n" +decStrs+"\n\n"+encStrs);
-				ps.println(decStrs);
+				 ps.println("\n$$$$$$$$\n "
+				 		+ cout++
+				 		+ ". re-endoded\n===========\n" +decStrs+"\n\nparam="+encStrs);
+//				ps.println(encStrs+"\n");
 			}
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
