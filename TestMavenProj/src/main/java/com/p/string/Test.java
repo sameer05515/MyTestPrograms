@@ -11,20 +11,21 @@ public class Test {
 				"2219,1,2219,82439708184289,8568,4,2675000,2,1000000000015509,2,10725,1,594103,08756,,2,6001,1257930117,1,,333333333333100,P,08756,USDINR, ,OPTCUR,1259280000,715000000,CE,,,,,,,,",
 				"2566,1,31250325,82762511250182,47841,75,1211665,2,1100000000003015,25,37359,1,557208,08756,,2,6001,1262855701,1,,111111111111100,P,08756, , , ,0,0, ,,,,,,,,",
 				"20437,1,2291,82128275724619,4952,1,719125000,2,1000000000019811,2,14180,1,149593,08756,,2,6001,1253178035,1,,111111111111100,P,08756,JPYINR, ,OPTCUR,1264775400,602500,PE,,,,,,,,",
-				"855960,N,2019122000008290,82660590026752,685,200,30500,1,1000000000065680,20,8945,1,574947,08756,1,2,6001,1261299914,1,0,N,,0,1.111111111111E14,4096,N,,,,,,,,"};
-		 Utility.splitData(data[5], ",");
-//		Utility.splitData(data[1], "\\|");
+				"855960,N,2019122000008290,82660590026752,685,200,30500,1,1000000000065680,20,8945,1,574947,08756,1,2,6001,1261299914,1,0,N,,0,1.111111111111E14,4096,N,,,,,,,,",
+				"855960,N,2019122000008290,82660590026752,685,200,30500,1,1000000000065680,20,8945,1,574947,08756,1,2,6001,1261299914,1,0,N,,0,111111111111100,4096,N,CHOLAFIN,EQ,CHOLAMANDALAM IN \\u0026 FIN CO,EQ,,,,,,,," };
+		Utility.splitData(data[6], ",");
+		// Utility.splitData(data[1], "\\|");
 		System.out.println("============================================");
-//		 Utility.splitDataWithStringTokenizer(data[0]);
+		// Utility.splitDataWithStringTokenizer(data[0]);
 	}
 
 }
 
 class Utility {
 	static void splitData(String data, String splitString) {
-		 String[] t = data.split(splitString, -1);
-		System.out.println("data : " + data + "\nsplitString : \"" + splitString+"\"");
-//		String[] t = data.split(splitString);
+		String[] t = data.split(splitString, -1);
+		System.out.println("data : " + data + "\nsplitString : \"" + splitString + "\"");
+		// String[] t = data.split(splitString);
 
 		System.out.println("t.length() : " + ((t != null) ? t.length : 0));
 		int i = 0;
@@ -45,8 +46,8 @@ class Utility {
 	 */
 	static void splitDataWithStringTokenizer(String data) {
 		StringTokenizer stt = null;
-		
-		stt = new StringTokenizer(data, ",",true);
+
+		stt = new StringTokenizer(data, ",", true);
 
 		System.out.println("t.length() : " + stt.countTokens());
 
