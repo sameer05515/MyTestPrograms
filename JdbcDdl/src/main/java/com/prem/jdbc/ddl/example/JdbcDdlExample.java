@@ -29,6 +29,8 @@ public class JdbcDdlExample implements DbQueryConstants {
 			Class.forName(JDBC_DRIVER);
 			connObj = DriverManager.getConnection(JDBC_DB_URL, JDBC_USER, JDBC_PASS);
 
+			connObj.setAutoCommit(false);
+			
 			stmtOBj = connObj.createStatement();
 
 			// DDL Statement 1 - Create Database Schema!
@@ -70,16 +72,19 @@ public class JdbcDdlExample implements DbQueryConstants {
 
 			logger.info("\n=======SHOW TABLE STRUCTURE=======");
 			showDbTableStructure();	
+			System.out.println(0/0);
+			
+			connObj.commit();
 
 			// DDL Statement 4(b) - Drop Table!
-			logger.info("\n=======DROP TABLE=======");
-			stmtOBj.executeUpdate(DROP_TABLE);
-			logger.info("\n=======TABLE IS SUCCESSFULLY DROPPED FROM THE DATABASE=======\n");
+			//logger.info("\n=======DROP TABLE=======");
+			//stmtOBj.executeUpdate(DROP_TABLE);
+			//logger.info("\n=======TABLE IS SUCCESSFULLY DROPPED FROM THE DATABASE=======\n");
 
 			// DDL Statement 4(c) - Drop Database!
-			logger.info("\n=======DROP DATABASE=======");
-			stmtOBj.executeUpdate(DROP_DATABASE);
-			logger.info("\n=======DATABASE IS SUCCESSFULLY DROPPED=======");
+			//logger.info("\n=======DROP DATABASE=======");
+			//stmtOBj.executeUpdate(DROP_DATABASE);
+			//logger.info("\n=======DATABASE IS SUCCESSFULLY DROPPED=======");
 		} catch(Exception sqlException) {
 			sqlException.printStackTrace();
 		} finally {
