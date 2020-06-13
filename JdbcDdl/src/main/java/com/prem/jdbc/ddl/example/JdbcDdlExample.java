@@ -1,4 +1,4 @@
-package com.jcg.jdbc.ddl.example;
+package com.prem.jdbc.ddl.example;
 
 import java.sql.Connection;
 import java.sql.DatabaseMetaData;

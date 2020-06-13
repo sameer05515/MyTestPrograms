@@ -1,4 +1,4 @@
-package com.jcg.jdbc.ddl.example;
+package com.prem.jdbc.ddl.example;
 
 public interface DbQueryConstants {	
 	public static final String TABLE_NAME = "employee";
