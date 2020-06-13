@@ -85,7 +85,7 @@ public class QueryExecutorController {
 
 		try (Connection con = DataSourceConfig.getConnection(objDBQueryRequestPojo.getDataSourcePojo());) {
 
-			System.out.println();
+			//System.out.println();
 			ir.setStatus("Success");
 			ir.setMessage("Successfully connected from given Database");
 			
@@ -136,7 +136,7 @@ public class QueryExecutorController {
 			response = ResponseHandler.generateResponse(HttpStatus.OK, false, "Success", ir);
 		}
 		
-		System.out.println("ir ===>> "+ir);
+		//System.out.println("ir ===>> "+ir);
 		return response;
 	}
 

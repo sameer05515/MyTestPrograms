@@ -5,6 +5,7 @@ import java.sql.DatabaseMetaData;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Savepoint;
 import java.sql.Statement;
 
 import org.apache.log4j.Logger;
@@ -21,17 +22,25 @@ public class JdbcDdlExample implements DbQueryConstants {
 
 	public final static Logger logger = Logger.getLogger(JdbcDdlExample.class);
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 
 		Connection connObj = null;
 		Statement stmtOBj = null;
+		Savepoint savepoint1 = null;
 		try {
 			Class.forName(JDBC_DRIVER);
 			connObj = DriverManager.getConnection(JDBC_DB_URL, JDBC_USER, JDBC_PASS);
 
-			connObj.setAutoCommit(false);
+			//connObj.setAutoCommit(false);
+			//System.out.println("connObj.getAutoCommit() ==>>"+connObj.getAutoCommit());
 			
 			stmtOBj = connObj.createStatement();
+			stmtOBj.executeUpdate("SET autocommit=0;");
+			stmtOBj.executeUpdate("START TRANSACTION;");
+			
+			
+			//set a Savepoint
+			savepoint1 = connObj.setSavepoint("Savepoint1");
 
 			// DDL Statement 1 - Create Database Schema!
 			logger.info("\n=======CREATE " + DATABASE_NAME + " DATABASE=======");			
@@ -74,7 +83,10 @@ public class JdbcDdlExample implements DbQueryConstants {
 			showDbTableStructure();	
 			System.out.println(0/0);
 			
-			connObj.commit();
+//			connObj.commit();
+			
+			stmtOBj.executeUpdate("COMMIT;");
+			stmtOBj.executeUpdate("SET autocommit = 1;");
 
 			// DDL Statement 4(b) - Drop Table!
 			//logger.info("\n=======DROP TABLE=======");
@@ -87,12 +99,17 @@ public class JdbcDdlExample implements DbQueryConstants {
 			//logger.info("\n=======DATABASE IS SUCCESSFULLY DROPPED=======");
 		} catch(Exception sqlException) {
 			sqlException.printStackTrace();
+			if(connObj != null) {
+				//connObj.rollback(savepoint1);
+				//connObj.close();	// Close Connection Object
+			}
 		} finally {
 			try {
 				if(stmtOBj != null) {
 					stmtOBj.close();	// Close Statement Object
 				}
 				if(connObj != null) {
+					//connObj.rollback();
 					connObj.close();	// Close Connection Object
 				}
 			} catch (Exception sqlException) {
