@@ -1,0 +1,53 @@
+2017-07-26 22:00:42 INFO  JdbcDdlExample:35 - 
+=======CREATE tutorialDb DATABASE=======
+2017-07-26 22:00:42 INFO  JdbcDdlExample:37 - 
+=======DATABASE IS SUCCESSFULLY CREATED=======
+
+2017-07-26 22:00:42 INFO  JdbcDdlExample:39 - 
+=======USING tutorialDb DATABASE=======
+
+2017-07-26 22:00:42 INFO  JdbcDdlExample:43 - 
+=======CREATE employee TABLE=======
+2017-07-26 22:00:43 INFO  JdbcDdlExample:45 - 
+=======TABLE IS SUCCESSFULLY CREATED=======
+
+2017-07-26 22:00:43 INFO  JdbcDdlExample:47 - 
+=======SHOW TABLE STRUCTURE=======
+2017-07-26 22:00:43 INFO  JdbcDdlExample:111 - employee Columns Are?= (emp_id, emp_fname, emp_lname)
+
+2017-07-26 22:00:43 INFO  JdbcDdlExample:51 - 
+=======ALTER employee TABLE=======
+2017-07-26 22:00:44 INFO  JdbcDdlExample:53 - 
+=======TABLE IS SUCCESSFULLY ALTERED=======
+
+2017-07-26 22:00:44 INFO  JdbcDdlExample:55 - 
+=======SHOW TABLE STRUCTURE=======
+2017-07-26 22:00:44 INFO  JdbcDdlExample:111 - employee Columns Are?= (emp_id, emp_fname, emp_lname, emp_joining_date)
+
+2017-07-26 22:00:44 INFO  JdbcDdlExample:59 - 
+=======ALTER employee TABLE WITH AFTER CLAUSE=======
+2017-07-26 22:00:45 INFO  JdbcDdlExample:61 - 
+=======TABLE IS SUCCESSFULLY ALTERED=======
+
+2017-07-26 22:00:45 INFO  JdbcDdlExample:63 - 
+=======SHOW TABLE STRUCTURE=======
+2017-07-26 22:00:45 INFO  JdbcDdlExample:111 - employee Columns Are?= (emp_id, emp_fname, emp_lname, emp_dob, emp_joining_date)
+
+2017-07-26 22:00:45 INFO  JdbcDdlExample:67 - 
+=======DROP COLUMN=======
+2017-07-26 22:00:45 INFO  JdbcDdlExample:69 - 
+=======COLUMN IS SUCCESSFULLY DROPPED FROM THE TABLE=======
+
+2017-07-26 22:00:45 INFO  JdbcDdlExample:71 - 
+=======SHOW TABLE STRUCTURE=======
+2017-07-26 22:00:45 INFO  JdbcDdlExample:111 - employee Columns Are?= (emp_id, emp_fname, emp_dob, emp_joining_date)
+
+2017-07-26 22:00:45 INFO  JdbcDdlExample:75 - 
+=======DROP TABLE=======
+2017-07-26 22:00:45 INFO  JdbcDdlExample:77 - 
+=======TABLE IS SUCCESSFULLY DROPPED FROM THE DATABASE=======
+
+2017-07-26 22:00:45 INFO  JdbcDdlExample:80 - 
+=======DROP DATABASE=======
+2017-07-26 22:00:46 INFO  JdbcDdlExample:82 - 
+=======DATABASE IS SUCCESSFULLY DROPPED=======
