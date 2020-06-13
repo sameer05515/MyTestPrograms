@@ -93,7 +93,12 @@ public class QueryExecutorController {
 			ResultSet rs=s.executeQuery(objDBQueryRequestPojo.getQuery());
 			ResultSetMetaData rsmd = rs.getMetaData();
 			int colCount=rsmd.getColumnCount();
-			
+			System.out.println("========================================================");
+			System.out.println("==>>>metadata column count"+colCount);
+			for(int i=1;i<=colCount;i++) {
+				System.out.print("("+i+")"+rsmd.getColumnName(i)+"\t");
+			}
+			System.out.println("========================================================");
 			JSONObject result=new JSONObject();
 			JSONArray resultArr=new JSONArray();
 			while(rs.next()) {
