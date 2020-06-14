@@ -96,7 +96,7 @@ public class QueryExecutorController {
 			System.out.println("========================================================");
 			System.out.println("==>>>metadata column count"+colCount);
 			for(int i=1;i<=colCount;i++) {
-				System.out.print("("+i+")"+rsmd.getColumnName(i)+"\t");
+				System.out.print("("+i+")"+rsmd.getColumnLabel(i)+"\t");
 			}
 			System.out.println("========================================================");
 			JSONObject result=new JSONObject();
@@ -104,7 +104,7 @@ public class QueryExecutorController {
 			while(rs.next()) {
 				JSONObject resultJ=new JSONObject();
 				for(int i=1;i<=colCount;i++)
-				resultJ.put(rsmd.getColumnName(i), rs.getObject(i));
+				resultJ.put(rsmd.getColumnLabel(i), rs.getObject(i));
 				resultArr.put(resultJ);
 			}
 			
