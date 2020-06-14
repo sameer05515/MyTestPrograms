@@ -17,13 +17,14 @@ public class GetStoredProcedureSignature {
     DatabaseMetaData dbMetaData = conn.getMetaData();
     ResultSet rs = dbMetaData.getProcedureColumns(conn.getCatalog(),
                           null,
-                          "procedureNamePattern",
-                          "columnNamePattern");
+                          "GetCategoryQuestionWithAnswer",
+                          null);
     
     System.out.println("==>>> "+conn.getCatalog());
 
     while(rs.next()) {
       // get stored procedure metadata
+    	System.out.println("=================================");
       String procedureCatalog     = rs.getString(1);
       String procedureSchema      = rs.getString(2);
       String procedureName        = rs.getString(3);

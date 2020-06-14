@@ -17,8 +17,8 @@ public class GetProcedureNameAndType {
 //		st.executeUpdate("insert into survey (id,name ) values (1,'nameValue')");
 
 		ResultSet rs = null;
-		DatabaseMetaData meta = conn.getMetaData();
-		rs = meta.getProcedures(null, null, "%");
+		DatabaseMetaData dbMetaData = conn.getMetaData();
+		rs = dbMetaData.getProcedures(null, null, "%");
 
 		while (rs.next()) {
 			String spName = rs.getString("PROCEDURE_NAME");
