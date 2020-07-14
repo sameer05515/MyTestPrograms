@@ -1,10 +1,10 @@
-package com.mkyong.rmiserver;
+package com.prem.rmiserver;
 
 import java.rmi.Naming;
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 
-import com.mkyong.rmiinterface.RMIInterface;
+import com.prem.rmiinterface.RMIInterface;
 
 public class ServerOperation extends UnicastRemoteObject implements RMIInterface{
 	private static final long serialVersionUID = 1L;
