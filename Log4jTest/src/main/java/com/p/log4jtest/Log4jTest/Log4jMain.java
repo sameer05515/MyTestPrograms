@@ -20,8 +20,10 @@ public class Log4jMain {
 			for(int i=0;i<10000;i++) {
 				logger.info("Response from External Service : "+new Date()+" : "+extService.getOutput());
 				logger.info("Response from Internal Service : "+new Date()+" : "+intService.getOutput());
+				logger.info("Response from External Service : "+new Date()+" : "+extService.getOutput());
+				logger.info("Response from Internal Service : "+new Date()+" : "+intService.getOutput());
 			}
-			Thread.sleep(1000);
+//			Thread.sleep(1000);
 		}
 	}
 }
