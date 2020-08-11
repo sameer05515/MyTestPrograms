@@ -3,6 +3,9 @@ import java.util.Date;
 
 import org.apache.log4j.Logger;
 
+import com.p.log4jtest.Log4jTest.external.ExternalService;
+import com.p.log4jtest.Log4jTest.internal.InternalService;
+
 
 public class Log4jMain {
 	private final static Logger logger = Logger.getLogger(Log4jMain.class);

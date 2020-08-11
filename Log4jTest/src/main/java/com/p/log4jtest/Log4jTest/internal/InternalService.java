@@ -1,8 +1,9 @@
-package com.p.log4jtest.Log4jTest;
+package com.p.log4jtest.Log4jTest.internal;
+
 import org.apache.log4j.Logger;
 
-public class ExternalService {
-	private final static Logger logger = Logger.getLogger(ExternalService.class);
+public class InternalService {
+	private final static Logger logger = Logger.getLogger(InternalService.class);
 	private String input;
 	private String output;
 	
@@ -30,10 +31,9 @@ public class ExternalService {
 	public void setOutput(String output) {
 		this.output = output;
 	}
-	
 	public void service(){
-		logger.info("External Service Request: "+input);
-		setOutput("Hi "+input); // Here your SErvice call to External Service
-		logger.info("External Service Response: "+output);
+		logger.info("Internal Service Request: "+input);
+		setOutput("Hi "+input); // Here your Service call to Internal Service
+		logger.info("Internal Service Response: "+input);
 	}
-}  
+}
