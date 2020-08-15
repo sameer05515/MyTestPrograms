@@ -25,7 +25,7 @@ public class ConvertXMLToJSONArrayTest {
 		// String fileContent = "Hello Learner !! Welcome to howtodoinjava.com.";
 
 		Path path = Paths.get(filePath);
-		Files.write(path, fileContent.getBytes(), StandardOpenOption.CREATE,StandardOpenOption.TRUNCATE_EXISTING);
+		Files.write(path, fileContent.getBytes(), StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING);
 	}
 
 	public static void main(String[] args) throws Exception {
