@@ -12,7 +12,7 @@ public class TreeExample {
 	public static void main(String[] args) throws FileNotFoundException {
 //		Node<String> root = createTree();
 
-		Node<String> root = createTreeOfGivenSize("ROOT", "Node ", 3);
+		Node<String> root = createTreeOfGivenSize("ROOT", "Node ", 2);
 //		for (int i = 0; i < root.getChildren().size(); i++) {
 //
 //		}
