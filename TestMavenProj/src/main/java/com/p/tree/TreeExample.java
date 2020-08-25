@@ -12,7 +12,7 @@ public class TreeExample {
 	public static void main(String[] args) throws FileNotFoundException {
 //		Node<String> root = createTree();
 
-		Node<String> root = createTreeOfGivenSize("ROOT", "Node ", 5);
+		Node<String> root = createTreeOfGivenSize("ROOT", "Node ", 3);
 //		for (int i = 0; i < root.getChildren().size(); i++) {
 //
 //		}
@@ -21,7 +21,7 @@ public class TreeExample {
 		PrintStream ps = new PrintStream(new File("C:\\Users\\premendra.kumar\\Desktop\\treeData.json"));
 		ps.print(rootJson.toString(0));
 
-		System.out.println(rootJson.toString(1));
+		System.out.println(rootJson.toString(0));
 //		System.out.println("=====================================");
 		// printULLi(true,rootJson," ");
 	}
@@ -29,7 +29,8 @@ public class TreeExample {
 	private static Node<String> createTreeOfGivenSize(String parentData, String childDataPrefix, int childrenSize) {
 		Node<String> parentNode = new Node<>(parentData);
 		//System.out.println(parentNode.getData());
-		for (int i = childrenSize; i >0; i--) {
+//		for (int i = childrenSize; i >=0; i--) {
+		for (int i = 0; i <=childrenSize; i++) {
 //			Node<String> childNode = new Node<String>(childDataPrefix + (i + 1));
 			Node<String> childNode = createTreeOfGivenSize(childDataPrefix + (i + 1), childDataPrefix + (i + 1),
 					childrenSize-1);
