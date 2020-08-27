@@ -33,8 +33,9 @@ public final class HtmlCodeGenerator {
 		for(String link:linksArr) {
 			sb.append("<li>");
 			String padded = String.format("%03d" , count++);
-			sb.append("<a ").append(" href=").append("\"").append((padded)+"_"+link+".html").append("\"").append(" >");
-			sb.append(link+".html");
+//			sb.append("<a ").append(" href=").append("\"").append((padded)+"_"+link+".html").append("\"").append(" >");
+			sb.append("<a ").append(" href=").append("\"").append(link+".html").append("\"").append(" >");
+			sb.append(link+".html");			
 			sb.append("</a>");
 			sb.append("</li>\n");
 		}
