@@ -1,11 +1,22 @@
 package com.p.html.code.generator;
 
+import java.util.List;
+
 public class Main {
 
 	public static void main(String[] args) {
+		List<String> files = HtmlCodeGenerator.getAllHtmlFiles(
+				"D:\\Prem\\CUST-INST\\apache-tomcat-8.5.56-windows-x86\\webapps\\my-pages\\other-sample-application\\Chart-Examples",
+				"../examples");
+		
+		for (String string : files) {
+			System.out.println(string);
+		}
+		System.out.println("\n\n\n");
+		HtmlCodeGenerator.generateLinksHtmlTextFromList(files);
 //		HtmlCodeGenerator.generateLinksHtmlFiles(LINKS_TEXT_ARRAY, "D:\\Prem\\CUST-INST\\apache-tomcat-8.5.56-windows-x86\\webapps\\my-pages\\other-sample-application\\Menu-Examples");
-		HtmlCodeGenerator.generateCanvasJsLinksHtmlText(CANVAS_JS_FILE_ARR);
-		//HtmlCodeGenerator.canvasJsFiles("C:\\Users\\premendra.kumar\\Desktop\\DUMP\\charts\\canvasjs-3.0\\examples");
+		// HtmlCodeGenerator.generateCanvasJsLinksHtmlText(CANVAS_JS_FILE_ARR);
+		// HtmlCodeGenerator.canvasJsFiles("C:\\Users\\premendra.kumar\\Desktop\\DUMP\\charts\\canvasjs-3.0\\examples");
 	}
 
 	private static final String[] CANVAS_JS_FILE_ARR = { "01-overview/animated-chart.html",

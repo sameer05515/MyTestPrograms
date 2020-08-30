@@ -3,6 +3,9 @@ package com.p.html.code.generator;
 import java.io.File;
 import java.io.FileFilter;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 
 public final class HtmlCodeGenerator {
 
@@ -58,15 +61,8 @@ public final class HtmlCodeGenerator {
 //			sb.append(link + ".html");
 //			sb.append("</a>");
 //			sb.append("</li>\n");
-			sb.append("<li><a onclick=\"load(this,"
-					+ (index++)
-					+ ",'"
-					+ "examples/"+link
-					+ "')\">"
-					+ ""
-					+ link
-					+ "</a>\r\n" + 
-					"                                </li>\n");
+			sb.append("<li><a onclick=\"load(this," + (index++) + ",'" + "examples/" + link + "')\">" + "" + link
+					+ "</a>\r\n" + "                                </li>\n");
 		}
 		sb.append("</ul>\n");
 
@@ -100,6 +96,65 @@ public final class HtmlCodeGenerator {
 				}
 			}
 		}
+
+		System.out.println(sb.toString());
+		return sb.toString();
+	}
+
+	public static List<String> getAllHtmlFiles(String exampleDirPath, String appender) {
+		StringBuffer sb = new StringBuffer();
+
+		List<String> allHtmlFiles = new ArrayList<>();
+
+		File[] htmlFilesArr = new File(exampleDirPath).listFiles(new FileFilter() {
+
+			@Override
+			public boolean accept(File pathname) {
+				if (pathname != null && pathname.isFile() && pathname.getName() != null
+						&& pathname.getName().endsWith(".html")) {
+					return true;
+				}
+				return false;
+			}
+		});
+		for (File file : htmlFilesArr) {
+			allHtmlFiles.add((appender.length() > 0 ? (appender + "/") : "") + file.getName());
+		}
+
+		File[] exDirSubDirectories = new File(exampleDirPath).listFiles(new FileFilter() {
+
+			@Override
+			public boolean accept(File pathname) {
+				if (pathname != null && pathname.isDirectory()) {
+					return true;
+				}
+				return false;
+			}
+		});
+
+		for (File file : exDirSubDirectories) {
+			if (file != null && file.isDirectory()) {
+				List<String> files=getAllHtmlFiles(file.getAbsolutePath(), (appender.length() > 0 ? (appender + "/") : "") + file.getName());
+				for(String child:files) {
+					allHtmlFiles.add(child);
+				}				
+			}
+		}
+
+		System.out.println(sb.toString());
+		return allHtmlFiles;
+	}
+	
+	public static String generateLinksHtmlTextFromList(List<String> linksArr) {
+
+		StringBuffer sb = new StringBuffer();
+		int index = 0;
+		sb.append("<ul>\n");
+		for (String link : linksArr) {
+			sb.append("<li><a onclick=\"load(this," + (index++) + ",'" +link + "')\">" + "" + link
+					+ "</a>\r\n" + "                                </li>\n");
+		}
+		sb.append("</ul>\n");
 
 		System.out.println(sb.toString());
 		return sb.toString();
