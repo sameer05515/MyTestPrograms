@@ -5,15 +5,21 @@ import java.util.List;
 public class Main {
 
 	public static void main(String[] args) {
-		List<String> files = HtmlCodeGenerator.getAllHtmlFiles(
-				"D:\\Prem\\CUST-INST\\apache-tomcat-8.5.56-windows-x86\\webapps\\my-pages\\other-sample-application\\Chart-Examples",
-				"../examples");
 		
-		for (String string : files) {
-			System.out.println(string);
-		}
-		System.out.println("\n\n\n");
-		HtmlCodeGenerator.generateLinksHtmlTextFromList(files);
+		HtmlCodeGenerator.generateGivenFiles(GIVEN_FILES,"C:\\Users\\premendra.kumar\\Desktop\\1");
+		
+		
+//		List<String> files = HtmlCodeGenerator.getAllHtmlFiles(
+//				"D:\\Prem\\CUST-INST\\apache-tomcat-8.5.56-windows-x86\\webapps\\my-pages\\other-sample-application\\Chart-Examples",
+//				"../examples");
+//		
+//		for (String string : files) {
+//			System.out.println(string);
+//		}
+//		System.out.println("\n\n\n");
+		
+		
+//		HtmlCodeGenerator.generateLinksHtmlTextFromList(files);
 //		HtmlCodeGenerator.generateLinksHtmlFiles(LINKS_TEXT_ARRAY, "D:\\Prem\\CUST-INST\\apache-tomcat-8.5.56-windows-x86\\webapps\\my-pages\\other-sample-application\\Menu-Examples");
 		// HtmlCodeGenerator.generateCanvasJsLinksHtmlText(CANVAS_JS_FILE_ARR);
 		// HtmlCodeGenerator.canvasJsFiles("C:\\Users\\premendra.kumar\\Desktop\\DUMP\\charts\\canvasjs-3.0\\examples");
@@ -130,5 +136,7 @@ public class Main {
 			"Dropdown-in-Sidenav", "Resp-Navbar-Dropdown", "Subnavigation-Menu", "Dropup", "Mega-Menu", "Mobile-Menu",
 			"Curtain-Menu", "Collapsed-Sidebar", "Collapsed-Sidepanel", "Pagination", "Breadcrumbs", "Button-Group",
 			"Vertical-Button-Group", "Sticky-Social-Bar", "Pill-Navigation", "Responsive-Header" };
+	
+	private static final String[] GIVEN_FILES= {"32-CSS-break-before-Property.html","33-CSS-break-inside-Property.html","34-CSS-caption-side-Property.html","35-CSS-caret-color-Property.html","36-CSS-at-charset-Rule.html","37-CSS-clear-Property.html","38-CSS-clip-Property.html","39-CSS-clip-path-Property.html","40-CSS-color-Property.html","41-CSS-column-count-Property.html","42-CSS-column-fill-Property.html","43-CSS-column-gap-Property.html","44-CSS-column-rule-Property.html","45-CSS-column-rule-color-Property.html","46-CSS-column-rule-style-Property.html","47-CSS-column-rule-width-Property.html","48-CSS-column-span-Property.html","49-CSS-column-width-Property.html","50-CSS-columns-Property.html","51-CSS-content-Property.html","52-CSS-counter-increment-Property.html","53-CSS-counter-reset-Property.html","54-CSS-cursor-Property.html","55-CSS-direction-Property.html","56-CSS-display-Property.html","57-CSS-empty-cells-Property.html","58-CSS-filter-Property.html","59-CSS-flex-Property.html","60-CSS-flex-basis-Property.html","61-CSS-flex-direction-Property.html","62-CSS-flex-flow-Property.html","63-CSS-flex-grow-Property.html","64-CSS-flex-shrink-Property.html","65-CSS-flex-wrap-Property.html","66-CSS-float-Property.html","67-CSS-font-Property.html","68-CSS-at-font-face-Rule.html","69-CSS-font-family-Property.html","70-CSS-font-feature-settings-Property.html","71-CSS-font-kerning-Property.html","72-CSS-font-size-Property.html","73-CSS-font-size-adjust-Property.html","74-CSS-font-stretch-Property.html","75-CSS-font-style-Property.html","76-CSS-font-variant-Property.html","77-CSS-font-variant-caps-Property.html","78-CSS-font-weight-Property.html","79-CSS-grid-Property.html","80-CSS-grid-area-Property.html","81-CSS-grid-auto-columns-Property.html","82-CSS-grid-auto-flow-Property.html","83-CSS-grid-auto-rows-Property.html","84-CSS-grid-column-Property.html","85-CSS-grid-column-end-Property.html","86-CSS-grid-column-gap-Property.html","87-CSS-grid-column-start-Property.html","88-CSS-grid-gap-Property.html","89-CSS-grid-row-Property.html","90-CSS-grid-row-end-Property.html","91-CSS-grid-row-gap-Property.html","92-CSS-grid-row-start-Property.html","93-CSS-grid-template-Property.html","94-CSS-grid-template-areas-Property.html","95-CSS-grid-template-columns-Property.html","96-CSS-grid-template-rows-Property.html","97-CSS-hanging-punctuation-Property.html","98-CSS-height-Property.html","99-CSS-hyphens-Property.html","100-CSS-at-import-Rule.html","101-CSS-isolation-Property.html","102-CSS-justify-content-Property.html","103-CSS-at-keyframes-Rule.html","104-CSS-left-Property.html","105-CSS-letter-spacing-Property.html","106-CSS-line-height-Property.html","107-CSS-list-style-Property.html","108-CSS-list-style-image-Property.html","109-CSS-list-style-position-Property.html","110-CSS-list-style-type-Property.html","111-CSS-margin-Property.html","112-CSS-margin-bottom-Property.html","113-CSS-margin-left-Property.html","114-CSS-margin-right-Property.html","115-CSS-margin-top-Property.html","116-CSS-max-height-Property.html","117-CSS-max-width-Property.html","118-CSS-at-media-Rule.html","119-CSS-min-height-Property.html","120-CSS-min-width-Property.html","121-CSS-mix-blend-mode-Property.html","122-CSS-object-fit-Property.html","123-CSS-object-position-Property.html","124-CSS-opacity-Property.html","125-CSS-order-Property.html","126-CSS-outline-Property.html","127-CSS-outline-color-Property.html","128-CSS-outline-offset-Property.html","129-CSS-outline-style-Property.html","130-CSS-outline-width-Property.html","131-CSS-overflow-Property.html","132-CSS-overflow-x-Property.html","133-CSS-overflow-y-Property.html","134-CSS-padding-Property.html","135-CSS-padding-bottom-Property.html","136-CSS-padding-left-Property.html","137-CSS-padding-right-Property.html","138-CSS-padding-top-Property.html","139-CSS-page-break-after-Property.html","140-CSS-page-break-before-Property.html","141-CSS-page-break-inside-Property.html","142-CSS-perspective-Property.html","143-CSS-perspective-origin-Property.html","144-CSS-pointer-events-Property.html","145-CSS-position-Property.html","146-CSS-quotes-Property.html","147-CSS-resize-Property.html","148-CSS-right-Property.html","149-CSS-scroll-behavior-Property.html","150-CSS-tab-size-Property.html","151-CSS-table-layout-Property.html","152-CSS-text-align-Property.html","153-CSS-text-align-last-Property.html","154-CSS-text-decoration-Property.html","155-CSS-text-decoration-color-Property.html","156-CSS-text-decoration-line-Property.html","157-CSS-text-decoration-style-Property.html","158-CSS-text-indent-Property.html","159-CSS-text-justify-Property.html","160-CSS-text-overflow-Property.html","161-CSS-text-shadow-Property.html","162-CSS-text-transform-Property.html","163-CSS-top-Property.html","164-CSS-transform-Property.html","165-CSS-transform-origin-Property.html","166-CSS-transform-style-Property.html","167-CSS-transition-Property.html","168-CSS-transition-delay-Property.html","169-CSS-transition-duration-Property.html","170-CSS-transition-property-Property.html","171-CSS-transition-timing-function-Property.html","172-CSS-unicode-bidi-Property.html","173-CSS-user-select-Property.html","174-CSS-vertical-align-Property.html","175-CSS-visibility-Property.html","176-CSS-white-space-Property.html","177-CSS-width-Property.html","178-CSS-word-break-Property.html","179-CSS-word-spacing-Property.html","180-CSS-word-wrap-Property.html","181-CSS-writing-mode-Property.html","182-CSS-z-index-Property.html"};
 
 }

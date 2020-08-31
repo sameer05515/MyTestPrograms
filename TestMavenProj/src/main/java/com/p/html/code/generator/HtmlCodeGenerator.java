@@ -9,6 +9,27 @@ import java.util.List;
 
 public final class HtmlCodeGenerator {
 
+	public static String generateGivenFiles(String[] givenFiles,String directoryPath) {
+		StringBuffer sb = new StringBuffer();
+		int count = 1;
+		for (String fileeName : givenFiles) {
+			try {
+				//String padded = String.format("%03d", count++);
+				File file = new File(directoryPath + File.separator +fileeName);
+
+				if (file.createNewFile())
+					sb.append(file.getName() + " : Creation : Success!\n");
+				else
+					sb.append("Error, file " + file.getName() + " already exists.\n");
+			} catch (IOException ioe) {
+				ioe.printStackTrace();
+			}
+		}
+		System.out.println(sb.toString());
+		return sb.toString();
+		
+	}
+	
 	public static String generateLinksHtmlFiles(String[] linksArr, String directoryPath) {
 
 		StringBuffer sb = new StringBuffer();
@@ -159,5 +180,7 @@ public final class HtmlCodeGenerator {
 		System.out.println(sb.toString());
 		return sb.toString();
 	}
+
+	
 
 }
