@@ -181,6 +181,26 @@ public final class HtmlCodeGenerator {
 		return sb.toString();
 	}
 
+	public static String generateReferenceDiv(String href, String title, String subtitle) {
+		StringBuffer sb=new StringBuffer();
+		
+		sb.append("<div id=\"referenceDivId\" style=\"background-color: darkgrey;font-size: small;color: black;border: medium none black;\">\r\n" + 
+				"Reference : <a style=\"background-color: darkgrey;\"\r\n" + 
+				" href=\""
+				+ href
+				+ "\"  \r\n" + 
+				"	target=\"_blank\">Click here</a>\r\n" + 
+				"<h1 style=\"background-color: darkgrey;border: medium none black;color:black;\">"
+				+ title
+				+ "</h1>\r\n" + 
+				"<h2 style=\"background-color: darkgrey;border: medium none black;color:black;\">"
+				+ subtitle
+				+ "</h2>\r\n" + 
+				"</div>");
+		System.out.println(sb.toString());
+		return sb.toString();
+	}
+
 	
 
 }

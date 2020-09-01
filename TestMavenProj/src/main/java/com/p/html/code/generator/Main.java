@@ -1,12 +1,15 @@
 package com.p.html.code.generator;
 
-import java.util.List;
-
 public class Main {
 
 	public static void main(String[] args) {
+		String href="https://www.w3schools.com/cssref/css3_pr_column-width.asp";
+		String title="CSS column-width Property";
+		String subtitle="Specify that the column width should be 100px:";
+		HtmlCodeGenerator.generateReferenceDiv(href,title,subtitle);
 		
-		HtmlCodeGenerator.generateGivenFiles(GIVEN_FILES,"C:\\Users\\premendra.kumar\\Desktop\\1");
+		
+//		HtmlCodeGenerator.generateGivenFiles(GIVEN_FILES,"C:\\Users\\premendra.kumar\\Desktop\\1");
 		
 		
 //		List<String> files = HtmlCodeGenerator.getAllHtmlFiles(
