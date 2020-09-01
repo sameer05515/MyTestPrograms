@@ -3,9 +3,9 @@ package com.p.html.code.generator;
 public class Main {
 
 	public static void main(String[] args) {
-		String href="https://www.w3schools.com/cssref/pr_gen_counter-reset.asp";
-		String title="CSS counter-reset Property";
-		String subtitle="Create a counter (\"my-sec-counter\") and increase it by one for each occurrence of the &lt;h2&gt; selector:";
+		String href="https://www.w3schools.com/cssref/css3_pr_isolation.asp";
+		String title="CSS isolation Property";
+		String subtitle="Create a new stacking context for the element with id=\"e\":";
 		HtmlCodeGenerator.generateReferenceDiv(href,title,subtitle);
 		
 		
