@@ -3,9 +3,9 @@ package com.p.html.code.generator;
 public class Main {
 
 	public static void main(String[] args) {
-		String href="https://www.w3schools.com/cssref/css3_pr_isolation.asp";
-		String title="CSS isolation Property";
-		String subtitle="Create a new stacking context for the element with id=\"e\":";
+		String href="https://www.w3schools.com/cssref/pr_list-style-type.asp";
+		String title="CSS list-style-type Property";
+		String subtitle="Set some different list styles:";
 		HtmlCodeGenerator.generateReferenceDiv(href,title,subtitle);
 		
 		

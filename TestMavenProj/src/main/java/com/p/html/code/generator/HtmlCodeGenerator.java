@@ -7,6 +7,8 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+import org.apache.commons.lang3.StringEscapeUtils;
+
 public final class HtmlCodeGenerator {
 
 	public static String generateGivenFiles(String[] givenFiles,String directoryPath) {
@@ -183,6 +185,8 @@ public final class HtmlCodeGenerator {
 
 	public static String generateReferenceDiv(String href, String title, String subtitle) {
 		StringBuffer sb=new StringBuffer();
+		
+		subtitle=StringEscapeUtils.escapeHtml4(subtitle);
 		
 		sb.append("<div id=\"referenceDivId\" style=\"background-color: darkgrey;font-size: small;color: black;border: medium none black;\">\r\n" + 
 				"Reference : <a style=\"background-color: darkgrey;\"\r\n" + 
