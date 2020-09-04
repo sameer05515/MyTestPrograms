@@ -3,9 +3,9 @@ package com.p.html.code.generator;
 public class Main {
 
 	public static void main(String[] args) {
-		String href="https://www.w3schools.com/cssref/pr_list-style-type.asp";
-		String title="CSS list-style-type Property";
-		String subtitle="Set some different list styles:";
+		String href="https://www.w3schools.com/cssref/css3_pr_tab-size.asp";
+		String title="CSS tab-size Property";
+		String subtitle="Set the width of the tab character to 16 spaces:";
 		HtmlCodeGenerator.generateReferenceDiv(href,title,subtitle);
 		
 		

@@ -188,7 +188,7 @@ public final class HtmlCodeGenerator {
 		
 		subtitle=StringEscapeUtils.escapeHtml4(subtitle);
 		
-		sb.append("<div id=\"referenceDivId\" style=\"background-color: darkgrey;font-size: small;color: black;border: medium none black;\">\r\n" + 
+		sb.append("<div id=\"referenceDivId\" style=\"opacity: 1.0;background-color: darkgrey;font-size: small;color: black;border: medium none black;\">\r\n" + 
 				"Reference : <a style=\"background-color: darkgrey;\"\r\n" + 
 				" href=\""
 				+ href
