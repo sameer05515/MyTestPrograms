@@ -3,9 +3,9 @@ package com.p.html.code.generator;
 public class Main {
 
 	public static void main(String[] args) {
-		String href="https://www.w3schools.com/cssref/css3_pr_tab-size.asp";
-		String title="CSS tab-size Property";
-		String subtitle="Set the width of the tab character to 16 spaces:";
+		String href="https://www.w3schools.com/cssref/pr_pos_z-index.asp";
+		String title="CSS z-index Property";
+		String subtitle="Set the z-index for an image:";
 		HtmlCodeGenerator.generateReferenceDiv(href,title,subtitle);
 		
 		
