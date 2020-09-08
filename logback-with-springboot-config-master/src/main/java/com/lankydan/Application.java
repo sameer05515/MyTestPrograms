@@ -26,7 +26,8 @@ public class Application implements CommandLineRunner {
 
   @Override
   public void run(String args[]) {
-  	myService.doStuff("value");
+  	//myService.doStuff("value");
+	  System.out.println("Application started");
 	}
   
   @Scheduled(cron = "${console.cronExpression}")
