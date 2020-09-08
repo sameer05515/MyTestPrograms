@@ -5,6 +5,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Date;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -17,6 +19,8 @@ import org.springframework.scheduling.annotation.Scheduled;
 @EnableAutoConfiguration(exclude = { DataSourceAutoConfiguration.class })
 @EnableScheduling
 public class TaskSchedulerApplication {
+	
+	private static final Logger LOGGER = LoggerFactory.getLogger(TaskSchedulerApplication.class);
 
 	public static void main(String[] args) {
 		SpringApplication.run(TaskSchedulerApplication.class, args);
@@ -31,7 +35,7 @@ public class TaskSchedulerApplication {
 	// @Scheduled(fixedRateString = "${console.fetchMetrics}")
 	@Scheduled(cron = "${console.cronExpression}")
 	public void run() {
-		System.out.println(new Date() + " : I am running : batchFile  " + batchFilePath
+		System.out.println(new Date() + " : Running : batchFile  " + batchFilePath
 				+ " :\nAs per cron expression : " + cronExpression);
 
 		ProcessBuilder processBuilder = new ProcessBuilder(batchFilePath);
@@ -47,7 +51,7 @@ public class TaskSchedulerApplication {
 			String line;
 			while ((line = reader.readLine()) != null) {
 				output.append(line + "\n");
-				System.out.println(line);
+				LOGGER.debug(line);
 			}
 
 //			int exitVal = process.waitFor();
