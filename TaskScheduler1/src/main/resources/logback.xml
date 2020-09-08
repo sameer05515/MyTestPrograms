@@ -6,7 +6,7 @@
   <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
     <encoder>
       <pattern>
-        %d{dd-MM-yyyy HH:mm:ss.SSS} %magenta([%thread]) %highlight(%-5level) %logger.%M - %msg%n
+        %d{dd-MM-yyyy HH:mm:ss.SSS} {%-5level) %logger.%M - %msg%n
       </pattern>
     </encoder>
   </appender>
@@ -26,7 +26,7 @@
     <file>${LOG_PATH}/log.log</file>
     <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
       <Pattern>
-        %d{dd-MM-yyyy HH:mm:ss.SSS} [%thread] %-5level %logger{36}.%M - %msg%n
+        %d{dd-MM-yyyy HH:mm:ss.SSS} %logger{36}.%M - %msg%n
       </Pattern>
     </encoder>
 
@@ -51,18 +51,18 @@
       <totalSizeCap>100MB</totalSizeCap>
     </rollingPolicy>
 
-    <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+    <!-- <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
       <fileNamePattern>
         ${LOG_PATH}/log_%i.log
       </fileNamePattern>
       <minIndex>2</minIndex>
       <maxIndex>3</maxIndex>
-    </rollingPolicy>
+    </rollingPolicy> -->
 
-    <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
-      <!-- rollover on size-->
+    <!-- <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+      rollover on size
       <maxFileSize>1KB</maxFileSize>
-    </triggeringPolicy>
+    </triggeringPolicy> -->
 
   </appender>
 
