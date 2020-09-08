@@ -34,6 +34,9 @@ public class Application implements CommandLineRunner {
 //  	logger.info("info message : "+new Date());
 //  	logger.debug("debug message : "+new Date());
 //  	System.out.println("sysout message : "+new Date());
+	  System.out.println("================================");
+	  System.out.println(new Date());
+	  System.out.println("================================");
 	  myService.doStuff("value");
   }
 }
