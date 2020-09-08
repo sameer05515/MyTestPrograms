@@ -16,5 +16,6 @@ public class MyServiceImpl implements MyService {
     LOGGER.info("doStuff took input - {}", value);
     LOGGER.warn("doStuff needed to warn - {}", value);
     LOGGER.error("doStuff encountered an error with value - {}", value);
+    System.out.println("sysout statement");
   }
 }
