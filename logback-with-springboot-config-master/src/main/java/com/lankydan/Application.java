@@ -16,7 +16,7 @@ public class Application implements CommandLineRunner {
   }
 
   @Override
-  public void run(final String args[]) {
+  public void run(String args[]) {
   	myService.doStuff("value");
 	}
 }
