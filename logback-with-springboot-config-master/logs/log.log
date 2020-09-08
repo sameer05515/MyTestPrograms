@@ -3,3 +3,7 @@
 08-09-2020 22:25:00.015 [scheduling-1] INFO  com.lankydan.service.MyServiceImpl.doStuff - doStuff took input - value
 08-09-2020 22:25:00.017 [scheduling-1] WARN  com.lankydan.service.MyServiceImpl.doStuff - doStuff needed to warn - value
 08-09-2020 22:25:00.018 [scheduling-1] ERROR com.lankydan.service.MyServiceImpl.doStuff - doStuff encountered an error with value - value
+08-09-2020 22:26:00.002 [scheduling-1] DEBUG com.lankydan.service.MyServiceImpl.doStuff - doStuff needed to debug - value
+08-09-2020 22:26:00.048 [scheduling-1] INFO  com.lankydan.service.MyServiceImpl.doStuff - doStuff took input - value
+08-09-2020 22:26:00.049 [scheduling-1] WARN  com.lankydan.service.MyServiceImpl.doStuff - doStuff needed to warn - value
+08-09-2020 22:26:00.049 [scheduling-1] ERROR com.lankydan.service.MyServiceImpl.doStuff - doStuff encountered an error with value - value
