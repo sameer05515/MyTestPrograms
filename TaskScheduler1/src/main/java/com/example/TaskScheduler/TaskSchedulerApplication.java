@@ -47,19 +47,20 @@ public class TaskSchedulerApplication {
 			String line;
 			while ((line = reader.readLine()) != null) {
 				output.append(line + "\n");
+				System.out.println(line);
 			}
 
-			int exitVal = process.waitFor();
-			if (exitVal == 0) {
-				System.out.println(output);
-				// System.exit(0);
-			} else {
-				// abnormal...
-			}
+//			int exitVal = process.waitFor();
+//			if (exitVal == 0) {
+//				System.out.println(output);
+//				// System.exit(0);
+//			} else {
+//				// abnormal...
+//			}
 
 		} catch (IOException e) {
 			e.printStackTrace();
-		} catch (InterruptedException e) {
+		} catch (Throwable e) {
 			e.printStackTrace();
 		}
 
