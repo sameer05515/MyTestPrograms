@@ -1,0 +1,10 @@
+08-09-2020 22:19:11.240 [main] INFO  com.lankydan.Application.logStarting - Starting Application on ASFICPL270578L1 with PID 1216 (D:\Prem\GIT-PROJ\MyTestPrograms\logback-with-springboot-config-master\target\classes started by premendra.kumar in D:\Prem\GIT-PROJ\MyTestPrograms\logback-with-springboot-config-master)
+08-09-2020 22:19:11.244 [main] INFO  com.lankydan.Application.logStartupProfileInfo - The following profiles are active: dev
+08-09-2020 22:19:11.956 [main] INFO  com.lankydan.Application.logStarted - Started Application in 1.355 seconds (JVM running for 2.284)
+08-09-2020 22:19:11.958 [main] DEBUG com.lankydan.service.MyServiceImpl.doStuff - doStuff needed to debug - value
+08-09-2020 22:19:11.960 [main] INFO  com.lankydan.service.MyServiceImpl.doStuff - doStuff took input - value
+08-09-2020 22:19:11.962 [main] WARN  com.lankydan.service.MyServiceImpl.doStuff - doStuff needed to warn - value
+08-09-2020 22:19:11.963 [main] ERROR com.lankydan.service.MyServiceImpl.doStuff - doStuff encountered an error with value - value
+08-09-2020 22:24:13.338 [main] INFO  com.lankydan.Application.logStarting - Starting Application on ASFICPL270578L1 with PID 13420 (D:\Prem\GIT-PROJ\MyTestPrograms\logback-with-springboot-config-master\target\classes started by premendra.kumar in D:\Prem\GIT-PROJ\MyTestPrograms\logback-with-springboot-config-master)
+08-09-2020 22:24:13.341 [main] INFO  com.lankydan.Application.logStartupProfileInfo - The following profiles are active: dev
+08-09-2020 22:24:13.983 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler.initialize - Initializing ExecutorService 'taskScheduler'
