@@ -12,20 +12,17 @@ class Main {
 	public static void main(String[] args) {
 		Map<Integer, Employee> map = new HashMap<>();
 
-		
-
 		map.put(1, new Employee(1, "ABC444", 35));
 		map.put(2, new Employee(2, "ABC277", 36));
 		map.put(3, new Employee(3, "ABC83", 37));
 		map.put(4, new Employee(4, "ABC74", 38));
 		map.put(5, new Employee(5, "ABC50000", 45));
-		
-		Map<Integer, Employee> hm1 = sortByValue(map); 
 
-		// print the sorted hashmap 
-		for (Map.Entry<Integer, Employee> en : hm1.entrySet()) { 
-			System.out.println("Key = " + en.getKey() + 
-						", Value = " + en.getValue()); 
+		Map<Integer, Employee> hm1 = sortByValue(map);
+
+		// print the sorted hashmap
+		for (Map.Entry<Integer, Employee> en : hm1.entrySet()) {
+			System.out.println("Key = " + en.getKey() + ", Value = " + en.getValue());
 		}
 
 //		Collections.sort(list, new Comparator<Map.Entry<Integer, Employee>>() {
