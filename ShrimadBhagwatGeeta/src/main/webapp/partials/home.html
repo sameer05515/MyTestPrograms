@@ -1,1 +1,17 @@
 <h2>Home Page</h2>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-12 px-0">
+            <img src="data/images/krishna_arjun2.jpg" class="img-responsive" alt="Responsive image"></img>
+        </div>
+        <div class="col-sm-2"></div>
+    </div>
+    <div class="row">
+        <div ng-repeat="chapSummObj in chapterSummaryList" class="col-sm-6 panel panel-default">
+            <div class="panel-heading"><a href="#/chapter/{{chapSummObj.id}}"><b>{{chapSummObj.chapterTitle}}</b></a></div>
+            <div class="panel-body">{{chapSummObj.briefDescription}}</div>
+        </div>
+    </div>
+</div>
+<!-- /. container -->

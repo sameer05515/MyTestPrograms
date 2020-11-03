@@ -4,7 +4,7 @@ var appRoot = angular.module('smapp', ['ngRoute', 'ui.bootstrap']);
 appRoot.config([
     '$routeProvider', function ($routeProvider) {
         $routeProvider
-            .when('/', { templateUrl: 'partials/home.html' })
+            .when('/', { templateUrl: 'partials/home.html', controller: 'homeCtrl' })
             .when('/chapter/:chapterNo', { templateUrl: 'partials/chapter.html' })
             .when('/chapter/:chapterNo/verse/:verseNo', { templateUrl: 'partials/verse.html' })
 //            .when('/ngIndex', { templateUrl: 'ngIndex.html', controller: 'IndexCtrl' })
@@ -37,6 +37,18 @@ appRoot.config([
             .otherwise({ redirectTo: '/' });
     }
 ]);
+
+appRoot.controller('homeCtrl',function ($scope,$http) {
+
+    $scope.chapterSummaryList=[];
+    $http({method: 'GET', url: 'data/json/chapter-summary.json'}).
+        then(function(response) {
+            $scope.chapterSummaryList = response.data;
+        }, function(response) {          
+          $scope.status = response.status;
+      });
+
+});
 
 appRoot.controller('IndexCtrl', function ($scope) {
     $scope.Students = [{ "Id": "stud1", "FirstName": "FirstName1", "LastName": "LastName1" }, { "Id": "stud2", "FirstName": "FirstName2", "LastName": "LastName2" }];
