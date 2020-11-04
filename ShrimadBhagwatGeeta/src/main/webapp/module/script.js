@@ -5,48 +5,65 @@ appRoot.config([
     '$routeProvider', function ($routeProvider) {
         $routeProvider
             .when('/', { templateUrl: 'partials/home.html', controller: 'homeCtrl' })
-            .when('/chapter/:chapterNo', { templateUrl: 'partials/chapter.html' })
+            .when('/chapter/:chapterNo', { templateUrl: 'partials/chapter.html', controller: 'chapterCtrl' })
             .when('/chapter/:chapterNo/verse/:verseNo', { templateUrl: 'partials/verse.html' })
-//            .when('/ngIndex', { templateUrl: 'ngIndex.html', controller: 'IndexCtrl' })
-//            .when('/drag', { template: '<span my-draggable>Drag Me</span>' })
-        //     .when('/docsTransclusionDirective', {
-        //         template: '<div>\
-        //     <my-dialog>Check out the contents, {{name}}! <br> <span my-draggable>Drag My panty!!</span></my-dialog>\
-        //   </div>', controller: 'docsTransclusionDirective.Controller'
-        //     })
-        //     .when('/docsIsoFnBindExample', {
-        //         template: '<div>\
-        //   {{message}}\
-        //   <my-dialog-in-docs-iso-fn-bind-example ng-hide="dialogIsHidden" on-close="hideDialog(message)">\
-        //     Check out the contents, {{name}}!\
-        //   </my-dialog-in-docs-iso-fn-bind-example>\
-        // </div>', controller: 'docsIsoFnBindExample.Controller'
-        //     })
-        //     .when('/docsTabsExample',{template:'<my-tabs-docs-tabs-example>\
-        //     <my-pane-docs-tabs-example title="Hello">\
-        //       <p>Lorem ipsum dolor sit amet</p>\
-        //     </my-pane-docs-tabs-example>\
-        //     <my-pane-docs-tabs-example title="World">\
-        //       <em>Mauris elementum elementum enim at suscipit.</em>\
-        //       <p><a href ng-click="i = i + 1">counter: {{i || 0}}</a></p>\
-        //     </my-pane-docs-tabs-example>\
-        //     <my-pane-docs-tabs-example title="Premendra">\
-        //       <p>Premendra is learning angularjs directives</p>\
-        //     </my-pane-docs-tabs-example>\
-        //   </my-tabs-docs-tabs-example>'})
+            //            .when('/ngIndex', { templateUrl: 'ngIndex.html', controller: 'IndexCtrl' })
+            //            .when('/drag', { template: '<span my-draggable>Drag Me</span>' })
+            //     .when('/docsTransclusionDirective', {
+            //         template: '<div>\
+            //     <my-dialog>Check out the contents, {{name}}! <br> <span my-draggable>Drag My panty!!</span></my-dialog>\
+            //   </div>', controller: 'docsTransclusionDirective.Controller'
+            //     })
+            //     .when('/docsIsoFnBindExample', {
+            //         template: '<div>\
+            //   {{message}}\
+            //   <my-dialog-in-docs-iso-fn-bind-example ng-hide="dialogIsHidden" on-close="hideDialog(message)">\
+            //     Check out the contents, {{name}}!\
+            //   </my-dialog-in-docs-iso-fn-bind-example>\
+            // </div>', controller: 'docsIsoFnBindExample.Controller'
+            //     })
+            //     .when('/docsTabsExample',{template:'<my-tabs-docs-tabs-example>\
+            //     <my-pane-docs-tabs-example title="Hello">\
+            //       <p>Lorem ipsum dolor sit amet</p>\
+            //     </my-pane-docs-tabs-example>\
+            //     <my-pane-docs-tabs-example title="World">\
+            //       <em>Mauris elementum elementum enim at suscipit.</em>\
+            //       <p><a href ng-click="i = i + 1">counter: {{i || 0}}</a></p>\
+            //     </my-pane-docs-tabs-example>\
+            //     <my-pane-docs-tabs-example title="Premendra">\
+            //       <p>Premendra is learning angularjs directives</p>\
+            //     </my-pane-docs-tabs-example>\
+            //   </my-tabs-docs-tabs-example>'})
             .otherwise({ redirectTo: '/' });
     }
 ]);
 
-appRoot.controller('homeCtrl',function ($scope,$http) {
+appRoot.controller('homeCtrl', function ($scope, $http) {
 
-    $scope.chapterSummaryList=[];
-    $http({method: 'GET', url: 'data/json/chapter-summary.json'}).
-        then(function(response) {
+    $scope.chapterSummaryList = [];
+    $http({ method: 'GET', url: 'data/json/chapter-summary.json' }).
+        then(function (response) {
             $scope.chapterSummaryList = response.data;
-        }, function(response) {          
-          $scope.status = response.status;
-      });
+        }, function (response) {
+            $scope.status = response.status;
+        });
+
+});
+
+appRoot.controller('chapterCtrl', function ($scope, $http,$routeParams) {
+
+    $scope.chapterSummaryList = [];
+    $scope.chapterObj ={};
+    $http({ method: 'GET', url: 'data/json/chapter-verse-summary.json' }).
+        then(function (response) {
+            $scope.chapterSummaryList = response.data;
+        }, function (response) {
+            $scope.status = response.status;
+        });
+
+        $scope.chapterObj = $scope.chapterSummaryList.filter(function (chain) {
+            return chain.id === $routeParams.chapterNo;
+        })[0].restaurant.name;
 
 });
 

@@ -1,1 +1,22 @@
-<h2>chapter</h2>
+<div class="container">
+    <h2>chapter</h2>
+    <div class="row">
+        <div class="col-sm-16">
+            <span>{{chapterObj.chapterTitleForChapterPage}}</span>
+        </div>
+        <div class="col-sm-16">
+            <span>{{chapterObj.chapterSubTitleForChapterPage}}</span>
+        </div>
+        <div class="col-sm-16">
+            <div ng-repeat="desc in chapterObj.description">{{desc}}</div>
+        </div>
+        <div ng-repeat="verse in chapterObj.verses" class="col-sm-16">
+            <div class="panel-heading">
+                <a href="#/chapter/{{chapSummObj.id}}/verse/{{verse.id}}">
+                    <b>{{verse.verseHeader}}</b>
+                </a>
+            </div>
+            <div class="panel-body">{{verse.oneLiner}}</div>
+        </div>
+    </div>
+</div>
