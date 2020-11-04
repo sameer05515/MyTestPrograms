@@ -50,21 +50,20 @@ appRoot.controller('homeCtrl', function ($scope, $http) {
 
 });
 
-appRoot.controller('chapterCtrl', function ($scope, $http,$routeParams) {
-
+appRoot.controller('chapterCtrl', function ($scope, $http, $routeParams, $log) {
     $scope.chapterSummaryList = [];
-    $scope.chapterObj ={};
+    $scope.chapterObj = {};
+    $log.log("" + $routeParams.chapterNo + "");
     $http({ method: 'GET', url: 'data/json/chapter-verse-summary.json' }).
         then(function (response) {
             $scope.chapterSummaryList = response.data;
+            $scope.chapterObj = $scope.chapterSummaryList.filter(function (chain) {
+                return chain.id === $routeParams.chapterNo;
+            })[0];
+            $log.log("" + angular.toJson($scope.chapterObj) + "");
         }, function (response) {
             $scope.status = response.status;
         });
-
-        $scope.chapterObj = $scope.chapterSummaryList.filter(function (chain) {
-            return chain.id === $routeParams.chapterNo;
-        })[0].restaurant.name;
-
 });
 
 appRoot.controller('IndexCtrl', function ($scope) {
