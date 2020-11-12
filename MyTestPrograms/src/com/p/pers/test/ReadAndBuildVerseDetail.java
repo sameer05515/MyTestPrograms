@@ -29,9 +29,9 @@ public class ReadAndBuildVerseDetail {
 				rawDataList.add(line);
 			}
 			scanner.close();
-			for(String ss:rawDataList) {
-				System.out.println(ss);
-			}
+//			for(String ss:rawDataList) {
+//				System.out.println(ss);
+//			}
 
 			for (int i = 0; i < rawDataList.size(); i++) {
 				String line = rawDataList.get(i);
@@ -46,7 +46,7 @@ public class ReadAndBuildVerseDetail {
 						line = rawDataList.get(j);
 
 						int nextTokenIndex = (currentTokenIndex + 1) % TOKEN_ARRAY.length;
-						if (line.equals(TOKEN_ARRAY[nextTokenIndex]) || (j == rawDataList.size())) {
+						if (line.equals(TOKEN_ARRAY[nextTokenIndex]) || (j == rawDataList.size()-1)) {
 							i = j - 1;
 							currentTokenIndex = nextTokenIndex;
 
@@ -85,7 +85,10 @@ public class ReadAndBuildVerseDetail {
 //								for (int indexTrans : Arrays.asList(line.indexOf(":"), line.length() - 1)) {
 //
 //								}
-							} else {
+							} else if(key.equals("end")){
+								break;
+							}
+							else {
 								int id = ++idCnt;
 								JsonObject obj = new JsonObject();
 								obj.addProperty("id", id);
