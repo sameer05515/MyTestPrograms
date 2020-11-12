@@ -2,8 +2,26 @@
     <h2>chapter</h2>
     <div class="row">
         <div class="col-sm-16">
+            <div class="row" style="text-align: center;">
+                <a href="#/">home</a>
+            </div>
+        </div>
+        <div class="col-sm-16">
+            <div class="row">
+                <!-- <div class="col-sm-8"> -->
+                    <a href="{{chapterObj.previousChapterUrl}}" class="pull-left">Previous Chapter</a>
+                <!-- </div> -->
+
+                <!-- <div class="col-sm-8"> -->
+                    <a href="{{chapterObj.nextChapterUrl}}" class="pull-right">Next Chapter</a>
+                <!-- </div> -->
+            </div>
+        </div>
+
+        <div class="col-sm-16">
             <span>{{chapterObj.chapterTitleForChapterPage}}</span>
         </div>
+        
         <div class="col-sm-16">
             <span>{{chapterObj.chapterSubTitleForChapterPage}}</span>
         </div>
@@ -12,7 +30,7 @@
         </div>
         <div ng-repeat="verse in chapterObj.verses" class="col-sm-16">
             <div class="panel-heading">
-                <a href="#/chapter/{{chapSummObj.id}}/verse/{{verse.id}}">
+                <a href="{{verse.currentVerseUrl}}">
                     <b>{{verse.verseHeader}}</b>
                 </a>
             </div>

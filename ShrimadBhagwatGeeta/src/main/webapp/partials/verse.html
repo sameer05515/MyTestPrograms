@@ -1,1 +1,72 @@
-<h2>verse</h2>
+<div class="container">
+    <h2>verse</h2>
+    <div class="row">
+        <div class="col-sm-16">
+            <div class="row" style="text-align: center;">
+                <a href="#/">home</a>
+            </div>
+        </div>
+
+        <div class="col-sm-16">
+            <div class="row">
+                <!-- <div class="col-sm-8"> -->
+                <a href="{{chapterObj.previousChapterUrl}}" class="pull-left">Previous Chapter</a>
+                <!-- </div> -->
+
+                <!-- <div class="col-sm-8"> -->
+                <a href="{{chapterObj.nextChapterUrl}}" class="pull-right">Next Chapter</a>
+                <!-- </div> -->
+            </div>
+        </div>
+        <div class="col-sm-16">
+            <div class="row">
+                <!-- <div class="col-sm-8"> -->
+                <a href="{{verseObj.previousVerseUrl}}" class="pull-left">Previous</a>
+                <!-- </div> -->
+
+                <!-- <div class="col-sm-8"> -->
+                <a href="{{verseObj.nextVerseUrl}}" class="pull-right">Next</a>
+                <!-- </div> -->
+            </div>
+        </div>
+
+        <div class="col-sm-16">
+            <span>{{verseObj.verseHeader}}</span>
+        </div>
+
+
+
+        <div class="col-sm-16">
+            <span>{{verseObj.oneLiner}}</span>
+        </div>
+
+        <div class="col-sm-16">
+            <div style="font-size:20px; font-style: italic; font-weight: bold;text-align: center;" ng-repeat="shlokData in verseObj.shlok">
+                {{shlokData.value}}</div>
+        </div>
+
+        <div class="col-sm-16">
+            <div style="font-size:20px; font-style: italic; font-weight: bold;text-align: center;" ng-repeat="shlokEngData in verseObj.shlokEng">
+                {{shlokEngData.value}}</div>
+        </div>
+
+        <div class="col-sm-16">
+            <div style="font-size:15px; font-style: italic;display: inline;" ng-repeat="meaningData in verseObj.meaning">
+                <a href="">{{meaningData.sanskrit}}</a> -- <span>{{meaningData.meaning}}</span>
+            </div>
+        </div>
+
+        <div class="col-sm-16">
+            <div style="font-size:15px; font-style: italic;display: inline;" ng-repeat="translationData in verseObj.translation">
+                <span style="color: chartreuse; font-weight: bold;">{{translationData.header}}</span> -- <span>{{translationData.value}}</span>
+            </div>
+        </div>
+
+        <div class="col-sm-16">
+            <div style="font-style: italic; font-weight: bold;" ng-repeat="commentaryData in verseObj.commentary">
+                {{commentaryData.value}}</div>
+        </div>
+
+
+    </div>
+</div>
