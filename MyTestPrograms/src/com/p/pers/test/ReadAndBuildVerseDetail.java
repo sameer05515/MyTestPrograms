@@ -68,13 +68,13 @@ public class ReadAndBuildVerseDetail {
 								}
 							} else if (key.equals("translation")) {
 								String[] tranArr= new String[2];
-								//if(line.startsWith("BG ")) {
+								if(line.startsWith("BG ")) {
 									tranArr[0]=line.substring(0, line.indexOf(":"));
 									tranArr[1]=line.substring(tranArr[0].length()+1);
-//								}else {
-//									tranArr[0]="";
-//									tranArr[1]=line;
-//								}
+								}else {
+									tranArr[0]="";
+									tranArr[1]=line;
+								}
 								
 								int id = ++idCnt;
 								JsonObject obj = new JsonObject();
