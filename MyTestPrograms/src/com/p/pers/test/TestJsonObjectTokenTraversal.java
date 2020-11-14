@@ -43,8 +43,7 @@ public class TestJsonObjectTokenTraversal {
 		JsonObject tokenJson=null;
 		if (rawDataList != null && rawDataList.size() > 0 && index>0 && index<rawDataList.size()) {
 			int tokenTraversalIndex = index;
-			int rawListSize = rawDataList.size();
-			
+			int rawListSize = rawDataList.size();			
 			JsonObject currentlineObject = getLineJson(rawDataList, tokenTraversalIndex++, CURRENT);
 			if (currentlineObject != null) {
 				boolean isEmptyOrNull = currentlineObject.has("isEmptyOrNull")
@@ -67,10 +66,10 @@ public class TestJsonObjectTokenTraversal {
 	
 	public static void main(String[] args) {
 		try {
-			JsonArray chapterArr = getJsonArrayFromFile("C:\\Users\\premendra.kumar\\Desktop\\t.txt");
-
-			List<String> rawDataList = getRawList(
-					"C:\\Users\\premendra.kumar\\Desktop\\DUMP\\smbg\\verseDetails\\temp.txt");
+			String chapterArrJsonFilePath="D:\\Prem\\GIT-PROJ\\db-files\\smbg\\temp\\t.txt";
+			String rawListFilePath="D:\\Prem\\GIT-PROJ\\db-files\\smbg\\temp\\t.txt";
+			JsonArray chapterArr = getJsonArrayFromFile(chapterArrJsonFilePath);
+			List<String> rawDataList = getRawList(rawListFilePath);
 
 			if (rawDataList != null && rawDataList.size() > 0) {
 				JsonObject currentVerseObject = null;
@@ -230,8 +229,10 @@ public class TestJsonObjectTokenTraversal {
 //					}
 //				}
 //			}
+			
+			
 
-			PrintStream ps = new PrintStream(new File("C:\\Users\\premendra.kumar\\Desktop\\t.txt"));
+			PrintStream ps = new PrintStream(new File(chapterArrJsonFilePath));
 			printJsonElement(chapterArr, ps);
 
 		} catch (Exception e) {
