@@ -106,9 +106,7 @@ public class ReadAndBuildVerseUpdated {
 								obj.addProperty("header", tranArr[0]);
 								obj.addProperty("value", tranArr[1]);
 								jsonArray.add(obj);
-//								for (int indexTrans : Arrays.asList(line.indexOf(":"), line.length() - 1)) {
-//
-//								}
+
 							} else {
 								int id = ++idCnt;
 								JsonObject obj = new JsonObject();

@@ -30,6 +30,7 @@ public class TestJsonObjectTokenTraversal {
 				lineJson.addProperty("isToken", true);
 				lineJson.addProperty("key", line.replaceAll("=", ""));
 			} else {
+				lineJson.addProperty("isToken", false);
 				lineJson.addProperty("key", "");
 			}
 			lineJson.addProperty("isEmptyOrNull", (line == null || line.isEmpty()));
@@ -38,202 +39,237 @@ public class TestJsonObjectTokenTraversal {
 		}
 		return lineJson;
 	}
-	
-	private static JsonObject getTokenJson(List<String> rawDataList, int index) {
-		JsonObject tokenJson=null;
-		if (rawDataList != null && rawDataList.size() > 0 && index>0 && index<rawDataList.size()) {
-			int tokenTraversalIndex = index;
-			int rawListSize = rawDataList.size();			
-			JsonObject currentlineObject = getLineJson(rawDataList, tokenTraversalIndex++, CURRENT);
-			if (currentlineObject != null) {
-				boolean isEmptyOrNull = currentlineObject.has("isEmptyOrNull")
-						? currentlineObject.get("isEmptyOrNull").getAsBoolean()
-						: false;
-				if (isEmptyOrNull) {
-//					hasMoreToken = true;
-//					continue;
-					JsonObject tempToken=getTokenJson(rawDataList,index+1);
-					tokenJson=tempToken;
+
+	private static int getTokenIndex(List<String> rawDataList, int index) {
+		// JsonObject tokenJson=null;
+		int nextTokenIndex = -1;
+		if (rawDataList != null && rawDataList.size() > 0 && index >= 0 && index < rawDataList.size()) {
+//			int tokenTraversalIndex = index;
+			int rawListSize = rawDataList.size();
+			int tokenTraversalIndex = (index + rawListSize) % rawListSize;
+
+			int nextNonEmptyIndex = skipEmptyLines(rawDataList, tokenTraversalIndex);
+			tokenTraversalIndex = nextNonEmptyIndex;
+			boolean isTokenIndex = false;
+			while (!isTokenIndex) {
+				JsonObject currentlineObject = getLineJson(rawDataList, tokenTraversalIndex, CURRENT);
+				if (currentlineObject != null) {
+					boolean isToken = currentlineObject.has("isToken") ? currentlineObject.get("isToken").getAsBoolean()
+							: false;
+					if (isToken) {
+						nextTokenIndex = tokenTraversalIndex;
+						isTokenIndex = true;
+						break;
+					} else {
+						tokenTraversalIndex++;
+						isTokenIndex = false;
+					}
 				}
 			}
+
 		}
-		return tokenJson;
+
+		return nextTokenIndex;
+	}
+
+	private static int skipEmptyLines(List<String> rawDataList, int index) {
+		int nextNonEmptyIndex = -1;
+		if (rawDataList != null && rawDataList.size() > 0 && index >= 0 && index < rawDataList.size()) {
+			int rawListSize = rawDataList.size();
+			int tokenTraversalIndex = (index + rawListSize) % rawListSize;
+			while (tokenTraversalIndex < rawDataList.size()) {
+				JsonObject currentlineObject = getLineJson(rawDataList, tokenTraversalIndex, CURRENT);
+				if (currentlineObject != null) {
+					boolean isEmptyOrNull = currentlineObject.has("isEmptyOrNull")
+							? currentlineObject.get("isEmptyOrNull").getAsBoolean()
+							: false;
+					if (isEmptyOrNull) {
+						nextNonEmptyIndex=++tokenTraversalIndex;
+					} else {
+						return tokenTraversalIndex;
+					}
+				}
+			}
+
+		}
+		return nextNonEmptyIndex;
 	}
 
 	private static final String[] TOKEN_ARRAY = { "===start===", "===shlok===", "===shlokEng===", "===meaning===",
 			"===translation===", "===commentary===", "===end===" };
-	
-	
+
 	public static void main(String[] args) {
 		try {
-			String chapterArrJsonFilePath="D:\\Prem\\GIT-PROJ\\db-files\\smbg\\temp\\t.txt";
-			String rawListFilePath="D:\\Prem\\GIT-PROJ\\db-files\\smbg\\temp\\t.txt";
+			String chapterArrJsonFilePath = "D:\\Prem\\GIT-PROJ\\db-files\\smbg\\temp\\t.txt";
+			String rawListFilePath = "D:\\Prem\\GIT-PROJ\\db-files\\smbg\\verseDetails\\temp.txt";
 			JsonArray chapterArr = getJsonArrayFromFile(chapterArrJsonFilePath);
 			List<String> rawDataList = getRawList(rawListFilePath);
 
 			if (rawDataList != null && rawDataList.size() > 0) {
 				JsonObject currentVerseObject = null;
-				String currentKey=null;
+				String currentKey = null;
 				boolean hasMoreToken = true;
-				int tokenTraversalIndex = 0;
+				int tokenTraversalIndex = 8352;
 				int rawListSize = rawDataList.size();
 				while (hasMoreToken && tokenTraversalIndex < rawListSize) {
-					JsonObject currentlineObject = getLineJson(rawDataList, tokenTraversalIndex++, CURRENT);
-					if (currentlineObject != null) {
-						boolean isEmptyOrNull = currentlineObject.has("isEmptyOrNull")
-								? currentlineObject.get("isEmptyOrNull").getAsBoolean()
-								: false;
-						if (isEmptyOrNull) {
-							hasMoreToken = true;
-							continue;
-						} 
+					int nextTokenIndex = getTokenIndex(rawDataList, tokenTraversalIndex);
+					System.out.printf("nextTokenIndex == %s rawListSize %s %n",nextTokenIndex,rawListSize);
+					tokenTraversalIndex = nextTokenIndex;
+					
+					if(tokenTraversalIndex==rawListSize-1) {
+						hasMoreToken=false;
+						break;
+					}
+					
+					
+
+					JsonObject currentlineHavingTokenObject = getLineJson(rawDataList, tokenTraversalIndex++, CURRENT);
+
+					if (currentlineHavingTokenObject.has("isToken")
+							&& currentlineHavingTokenObject.get("isToken").getAsBoolean()) {
+						String key = currentlineHavingTokenObject.get("key").getAsString();
+						currentKey = key;
+						System.out.printf("==================== currentKey == %s%n", currentKey);
 						
-						if (currentlineObject.has("isToken")
-								&& currentlineObject.get("isToken").getAsBoolean()) {
-							String key=currentlineObject.get("key").getAsString();
-							currentKey=key;
-							System.out.printf("====================%s%n", key);
-							if(currentKey!=null&&!currentKey.isEmpty()&&TOKEN_LIST.contains(currentKey)) {
-								JsonObject nextLineObject=getLineJson(rawDataList, tokenTraversalIndex++, CURRENT);
-								if (nextLineObject != null) {
-									//skip empty rows(trimmed value) till non-empty line
-									boolean isNextEmptyOrNull = currentlineObject.has("isEmptyOrNull")
-											? currentlineObject.get("isEmptyOrNull").getAsBoolean()
-											: false;
-									if (isNextEmptyOrNull) {
-										hasMoreToken = true;
-										continue;
+						int nextNonEmptyIndex = skipEmptyLines(rawDataList, tokenTraversalIndex);
+						tokenTraversalIndex=nextNonEmptyIndex;
+						JsonObject nextLineObject=getLineJson(rawDataList, tokenTraversalIndex, CURRENT);
+						
+						if(nextLineObject!=null&&nextLineObject.get("isToken").getAsBoolean()) {
+							hasMoreToken=true;
+							continue;
+						}else {
+							nextTokenIndex = getTokenIndex(rawDataList, tokenTraversalIndex);
+							if("start".equals(currentKey)) {
+								// get id, current object, skip 2nd line , get next token
+								//JsonObject startKeyValueLineObject=getLineJson(rawDataList, tokenTraversalIndex++, CURRENT);
+								String line=nextLineObject.get("line").getAsString();
+								String[] idArr = line.split(",");
+								System.out.println("start == "+idArr[0]+" "+idArr[1]);
+								currentVerseObject = getVerse(chapterArr, idArr[0], idArr[1]);
+								tokenTraversalIndex=nextTokenIndex;
+							}else if("end".equals(currentKey)){
+								currentVerseObject=null;
+								tokenTraversalIndex=nextTokenIndex;
+							}else if("shlok".equals(currentKey)){
+								JsonArray jsonArray = new JsonArray();
+								int idCnt = 0;
+								System.out.printf("\n$$$\nstart of shlok : tokenTraversalIndex == %s : nextTokenIndex == %s %n",tokenTraversalIndex,nextTokenIndex);
+								while(tokenTraversalIndex<nextTokenIndex) {
+									String line=nextLineObject.get("line").getAsString();
+									int id = ++idCnt;
+									JsonObject obj = new JsonObject();
+									obj.addProperty("id", id);
+									obj.addProperty("value", line);
+									jsonArray.add(obj);
+									
+									nextLineObject=getLineJson(rawDataList, tokenTraversalIndex++, CURRENT);
+								}
+								currentVerseObject.add(key, jsonArray);
+								System.out.printf("end of shlok : tokenTraversalIndex == %s : nextTokenIndex == %s %n",tokenTraversalIndex,nextTokenIndex);
+								tokenTraversalIndex=nextTokenIndex;
+							}else if("shlokEng".equals(currentKey)){
+								JsonArray jsonArray = new JsonArray();
+								int idCnt = 0;
+								System.out.printf("\n$$$\nstart of slokEng : tokenTraversalIndex == %s : nextTokenIndex == %s %n",tokenTraversalIndex,nextTokenIndex);
+								while(tokenTraversalIndex<nextTokenIndex) {
+									String line=nextLineObject.get("line").getAsString();
+									int id = ++idCnt;
+									JsonObject obj = new JsonObject();
+									obj.addProperty("id", id);
+									obj.addProperty("value", line);
+									jsonArray.add(obj);
+									
+									nextLineObject=getLineJson(rawDataList, tokenTraversalIndex++, CURRENT);								
+								}
+								currentVerseObject.add(key, jsonArray);
+								System.out.printf("end of shlokEng : tokenTraversalIndex == %s : nextTokenIndex == %s %n",tokenTraversalIndex,nextTokenIndex);
+								tokenTraversalIndex=nextTokenIndex;
+							}else if("meaning".equals(currentKey)){
+								JsonArray jsonArray = new JsonArray();
+								int idCnt = 0;
+								System.out.printf("\n$$$\nstart of meaning : tokenTraversalIndex == %s : nextTokenIndex == %s %n",tokenTraversalIndex,nextTokenIndex);
+								while(tokenTraversalIndex<nextTokenIndex) {								
+									String line=nextLineObject.get("line").getAsString();
+									String[] meanings = line.split(";");
+									for (String mean : meanings) {
+										int id = ++idCnt;
+										JsonObject obj = new JsonObject();
+										obj.addProperty("id", id);
+										obj.addProperty("sanskrit", mean.split("—")[0]);
+										obj.addProperty("meaning", mean.split("—")[1]);
+										jsonArray.add(obj);
 									}
+									nextLineObject=getLineJson(rawDataList, tokenTraversalIndex++, CURRENT);
 								}
-								
-								
-								if("start".equals(currentKey)) {
-									// get id, current object, skip 2nd line , get next token
-								}else if("shlok".equals(currentKey)){
-									
-								}else if("shlokEng".equals(currentKey)){
-									
-								}else if("meaning".equals(currentKey)){
-									
-								}else if("translation".equals(currentKey)){
-									
-								}else if("commentary".equals(currentKey)){
-									
-								}else if("end".equals(currentKey)){
-									
-								}else {
-									hasMoreToken = true;
-									continue;
+								currentVerseObject.add(key, jsonArray);
+								System.out.printf("end of meaning : tokenTraversalIndex == %s : nextTokenIndex == %s %n",tokenTraversalIndex,nextTokenIndex);
+								tokenTraversalIndex=nextTokenIndex;
+							}else if("translation".equals(currentKey)){
+								JsonArray jsonArray = new JsonArray();
+								int idCnt = 0;
+								System.out.printf("\n$$$\nstart of translation : tokenTraversalIndex == %s : nextTokenIndex == %s %n",tokenTraversalIndex,nextTokenIndex);
+								while(tokenTraversalIndex<nextTokenIndex) {
+									String line=nextLineObject.get("line").getAsString();
+									String[] tranArr = new String[2];
+									if (line.startsWith("BG ")) {
+										tranArr[0] = line.substring(0, line.indexOf(":"));
+										tranArr[1] = line.substring(tranArr[0].length() + 1);
+									} else {
+										tranArr[0] = "";
+										tranArr[1] = line;
+									}
+
+									int id = ++idCnt;
+									JsonObject obj = new JsonObject();
+									obj.addProperty("id", id);
+									obj.addProperty("header", tranArr[0]);
+									obj.addProperty("value", tranArr[1]);
+									jsonArray.add(obj);
+									nextLineObject=getLineJson(rawDataList, tokenTraversalIndex++, CURRENT);
 								}
+								currentVerseObject.add(key, jsonArray);
+								System.out.printf("end of translation : tokenTraversalIndex == %s : nextTokenIndex == %s %n",tokenTraversalIndex,nextTokenIndex);
+								tokenTraversalIndex=nextTokenIndex;
+							}else if("commentary".equals(currentKey)){
+								JsonArray jsonArray = new JsonArray();
+								int idCnt = 0;
+								System.out.printf("\n$$$\nstart of commentary : tokenTraversalIndex == %s : nextTokenIndex == %s %n",tokenTraversalIndex,nextTokenIndex);
+								while(tokenTraversalIndex<nextTokenIndex) {
+									String line=nextLineObject.get("line").getAsString();
+									int id = ++idCnt;
+									JsonObject obj = new JsonObject();
+									obj.addProperty("id", id);
+									obj.addProperty("value", line);
+									jsonArray.add(obj);
+									
+									nextLineObject=getLineJson(rawDataList, tokenTraversalIndex++, CURRENT);								
+								}
+								currentVerseObject.add(key, jsonArray);
+								System.out.printf("end of commentary : tokenTraversalIndex == %s : nextTokenIndex == %s %n",tokenTraversalIndex,nextTokenIndex);
+								tokenTraversalIndex=nextTokenIndex;
+							}else {
+								tokenTraversalIndex=nextTokenIndex;
+								hasMoreToken = true;
+								continue;
 							}
 
 						}
+
+
 					}
 
 				}
 			}
 
-//			for (int i = 0; i < rawDataList.size(); i++) {
-////				String line = rawDataList.get(i);
-//				JsonObject lineObject = getLineJson(rawDataList, i, CURRENT);
-//				String line=lineObject.get("line").getAsString();
-//				
-//				if (lineObject.get("isToken").getAsBoolean()) {
-////					String key = line.replaceAll("=", "");
-//					String key=lineObject.get("key").getAsString();
-//					System.out.printf("====================%s%n", key);
-//					switch (key) {
-//					case "start":
-//						String nextStartKeyLine = rawDataList.get(++i);
-//						String[] idArr = nextStartKeyLine.split(",");
-//						System.out.println("start == " + idArr[0] + " " + idArr[1]);
-//						currentVerseObject = getVerse(chapterArr, idArr[0], idArr[1]);
-//						break;
-//					case "end":
-//						printJsonElement(currentVerseObject, System.out);
-//						break;
-//					case "shlok":
-//					case "shlokEng":
-//					case "commentary":
-//						JsonArray jsonArray = new JsonArray();
-//						int idCnt = 0;
-//						for (int j = i + 1; j < rawDataList.size(); j++) {
-//							String nextCSSLine = rawDataList.get(j);
-//							if (Arrays.asList(TOKEN_ARRAY).contains(nextCSSLine)) {
-//								i = j - 1;
-//								currentVerseObject.add(key, jsonArray);
-//								break;
-//							} else {
-//								int id = ++idCnt;
-//								JsonObject obj = new JsonObject();
-//								obj.addProperty("id", id);
-//								obj.addProperty("value", nextCSSLine);
-//								jsonArray.add(obj);
-//							}
-//						}
-//						break;
-//					case "meaning":
-//						JsonArray jsonMeaningArray = new JsonArray();
-//						int idMeaningCnt = 0;
-//						for (int j = i + 1; j < rawDataList.size(); j++) {
-//							String nextMeaningKeyLine = rawDataList.get(j);
-//							if (Arrays.asList(TOKEN_ARRAY).contains(nextMeaningKeyLine)) {
-//								i = j - 1;
-//								currentVerseObject.add(key, jsonMeaningArray);
-//								break;
-//							} else {
-//								String[] meanings = line.split(";");
-//								for (String mean : meanings) {
-//									int id = ++idMeaningCnt;
-//									JsonObject obj = new JsonObject();
-//									obj.addProperty("id", id);
-//									obj.addProperty("sanskrit", mean.split("—")[0]);
-//									obj.addProperty("meaning", mean.split("—")[1]);
-//									jsonMeaningArray.add(obj);
-//								}
-//							}
-//						}
-//						break;
-//					case "translation":
-//						JsonArray jsonTranslationArray = new JsonArray();
-//						int idTranslationCnt = 0;
-//						for (int j = i + 1; j < rawDataList.size(); j++) {
-//							String nextTranslationKeyLine = rawDataList.get(j);
-//							if (Arrays.asList(TOKEN_ARRAY).contains(nextTranslationKeyLine)) {
-//								i = j - 1;
-//								currentVerseObject.add(key, jsonTranslationArray);
-//								break;
-//							} else {
-//								String[] tranArr = new String[2];
-//								if (nextTranslationKeyLine.startsWith("BG ")) {
-//									tranArr[0] = nextTranslationKeyLine.substring(0, nextTranslationKeyLine.indexOf(":"));
-//									tranArr[1] = nextTranslationKeyLine.substring(tranArr[0].length() + 1);
-//								} else {
-//									tranArr[0] = "";
-//									tranArr[1] = nextTranslationKeyLine;
-//								}
-//
-//								int id = ++idTranslationCnt;
-//								JsonObject obj = new JsonObject();
-//								obj.addProperty("id", id);
-//								obj.addProperty("header", tranArr[0]);
-//								obj.addProperty("value", tranArr[1]);
-//								jsonTranslationArray.add(obj);
-//							}
-//						}
-//						break;
-//
-//					default:
-//						break;
-//
-//					}
-//				}
-//			}
-			
-			
 
 			PrintStream ps = new PrintStream(new File(chapterArrJsonFilePath));
 			printJsonElement(chapterArr, ps);
+			
+			//D:\Prem\GIT-PROJ\MyTestPrograms\ShrimadBhagwatGeeta\src\main\webapp\data\json\chapter-verse-detail-temp.json
+			//D:\Prem\CUST-INST\apache-tomcat-8.5.59\webapps\ShrimadBhagwatGeeta\data\json\chapter-verse-detail-temp.json
+			printJsonElement(chapterArr, new PrintStream(new File("D:\\Prem\\GIT-PROJ\\MyTestPrograms\\ShrimadBhagwatGeeta\\src\\main\\webapp\\data\\json\\chapter-verse-detail-temp.json")));
+			printJsonElement(chapterArr, new PrintStream(new File("D:\\Prem\\CUST-INST\\apache-tomcat-8.5.59\\webapps\\ShrimadBhagwatGeeta\\data\\json\\chapter-verse-detail-temp.json")));
 
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
