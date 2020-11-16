@@ -27,7 +27,7 @@ appRoot.controller('chapterCtrl', function ($scope, $http, $routeParams, $log) {
     $scope.chapterSummaryList = [];
     $scope.chapterObj = {};
     $log.log("" + $routeParams.chapterNo + "");
-    $http({ method: 'GET', url: 'data/json/chapter-verse-detail.json' }).
+    $http({ method: 'GET', url: 'data/json/chapter-verse-detail-temp.json' }).
         then(function (response) {
             $scope.chapterSummaryList = response.data;
             $scope.chapterObj = $scope.chapterSummaryList.filter(function (chain) {

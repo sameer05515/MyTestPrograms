@@ -34,13 +34,22 @@
         <div class="col-sm-16">
             <div ng-repeat="desc in chapterObj.description">{{desc}}</div>
         </div>
-        <div ng-repeat="verse in chapterObj.verses" class="col-sm-16">
+        <div ng-repeat="verse in chapterObj.verses" class="col-sm-16 panel panel-default">
+            <!-- <pre>{{verse|json}}</pre> -->
             <div class="panel-heading">
                 <a href="{{verse.currentVerseUrl}}">
                     <b>{{verse.verseHeader}}</b>
                 </a>
             </div>
-            <div class="panel-body">{{verse.oneLiner}}</div>
+            <div class="panel-body">
+                <div style="font-style: italic; font-weight: bold;text-align: center;"
+                    ng-repeat="shlokData in verse.shlok">
+                    {{shlokData.value}}
+                </div>
+                <div>
+                    {{verse.oneLiner}}
+                </div>
+            </div>
         </div>
     </div>
 </div>
