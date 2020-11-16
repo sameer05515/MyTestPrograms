@@ -1,4 +1,4 @@
-package com.p.pers.test;
+package com.p.pers.smbg;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -97,6 +97,7 @@ public class TestJsonObjectTokenTraversal {
 
 	private static final String[] TOKEN_ARRAY = { "===start===", "===shlok===", "===shlokEng===", "===meaning===",
 			"===translation===", "===commentary===", "===end===" };
+	private static final String SHLOK_IN_COMMENTARY="$$shlok-commentary$$";
 
 	public static void main(String[] args) {
 		try {
@@ -109,7 +110,7 @@ public class TestJsonObjectTokenTraversal {
 				JsonObject currentVerseObject = null;
 				String currentKey = null;
 				boolean hasMoreToken = true;
-				int tokenTraversalIndex = 8352;
+				int tokenTraversalIndex = 0;
 				int rawListSize = rawDataList.size();
 				while (hasMoreToken && tokenTraversalIndex < rawListSize) {
 					int nextTokenIndex = getTokenIndex(rawDataList, tokenTraversalIndex);
@@ -142,7 +143,6 @@ public class TestJsonObjectTokenTraversal {
 							nextTokenIndex = getTokenIndex(rawDataList, tokenTraversalIndex);
 							if("start".equals(currentKey)) {
 								// get id, current object, skip 2nd line , get next token
-								//JsonObject startKeyValueLineObject=getLineJson(rawDataList, tokenTraversalIndex++, CURRENT);
 								String line=nextLineObject.get("line").getAsString();
 								String[] idArr = line.split(",");
 								System.out.println("start == "+idArr[0]+" "+idArr[1]);
@@ -163,7 +163,7 @@ public class TestJsonObjectTokenTraversal {
 									obj.addProperty("value", line);
 									jsonArray.add(obj);
 									
-									nextLineObject=getLineJson(rawDataList, tokenTraversalIndex++, CURRENT);
+									nextLineObject=getLineJson(rawDataList, tokenTraversalIndex++, NEXT);
 								}
 								currentVerseObject.add(key, jsonArray);
 								System.out.printf("end of shlok : tokenTraversalIndex == %s : nextTokenIndex == %s %n",tokenTraversalIndex,nextTokenIndex);
@@ -180,7 +180,7 @@ public class TestJsonObjectTokenTraversal {
 									obj.addProperty("value", line);
 									jsonArray.add(obj);
 									
-									nextLineObject=getLineJson(rawDataList, tokenTraversalIndex++, CURRENT);								
+									nextLineObject=getLineJson(rawDataList, tokenTraversalIndex++, NEXT);								
 								}
 								currentVerseObject.add(key, jsonArray);
 								System.out.printf("end of shlokEng : tokenTraversalIndex == %s : nextTokenIndex == %s %n",tokenTraversalIndex,nextTokenIndex);
@@ -200,7 +200,7 @@ public class TestJsonObjectTokenTraversal {
 										obj.addProperty("meaning", mean.split("—")[1]);
 										jsonArray.add(obj);
 									}
-									nextLineObject=getLineJson(rawDataList, tokenTraversalIndex++, CURRENT);
+									nextLineObject=getLineJson(rawDataList, tokenTraversalIndex++, NEXT);
 								}
 								currentVerseObject.add(key, jsonArray);
 								System.out.printf("end of meaning : tokenTraversalIndex == %s : nextTokenIndex == %s %n",tokenTraversalIndex,nextTokenIndex);
@@ -226,7 +226,7 @@ public class TestJsonObjectTokenTraversal {
 									obj.addProperty("header", tranArr[0]);
 									obj.addProperty("value", tranArr[1]);
 									jsonArray.add(obj);
-									nextLineObject=getLineJson(rawDataList, tokenTraversalIndex++, CURRENT);
+									nextLineObject=getLineJson(rawDataList, tokenTraversalIndex++, NEXT);
 								}
 								currentVerseObject.add(key, jsonArray);
 								System.out.printf("end of translation : tokenTraversalIndex == %s : nextTokenIndex == %s %n",tokenTraversalIndex,nextTokenIndex);
@@ -240,10 +240,18 @@ public class TestJsonObjectTokenTraversal {
 									int id = ++idCnt;
 									JsonObject obj = new JsonObject();
 									obj.addProperty("id", id);
-									obj.addProperty("value", line);
+									
+									boolean isShlokCommentary=(line!=null&&line.startsWith(SHLOK_IN_COMMENTARY));
+									if(isShlokCommentary) {
+										obj.addProperty("value", line.substring(SHLOK_IN_COMMENTARY.length()));
+									}else {
+										obj.addProperty("value", line);
+									}
+									obj.addProperty("isShlokCommentary", isShlokCommentary);
+									
 									jsonArray.add(obj);
 									
-									nextLineObject=getLineJson(rawDataList, tokenTraversalIndex++, CURRENT);								
+									nextLineObject=getLineJson(rawDataList, tokenTraversalIndex++, NEXT);								
 								}
 								currentVerseObject.add(key, jsonArray);
 								System.out.printf("end of commentary : tokenTraversalIndex == %s : nextTokenIndex == %s %n",tokenTraversalIndex,nextTokenIndex);
@@ -272,13 +280,16 @@ public class TestJsonObjectTokenTraversal {
 			printJsonElement(chapterArr, new PrintStream(new File("D:\\Prem\\CUST-INST\\apache-tomcat-8.5.59\\webapps\\ShrimadBhagwatGeeta\\data\\json\\chapter-verse-detail-temp.json")));
 
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 
 	}
-
-	private static final int CURRENT = 0, NEXT = 1, PREVIOUS = -1;
+	
+	
+	private static final int CURRENT = 0;
+	private static final int NEXT = 1;
+	@SuppressWarnings("unused")
+	private static final int PREVIOUS = -1;
 	private static final List<String> TOKEN_LIST = Arrays.asList(TOKEN_ARRAY);
 
 	private static void printJsonElement(JsonElement element, PrintStream printStreamObject) {
@@ -313,6 +324,7 @@ public class TestJsonObjectTokenTraversal {
 		return rawDataList;
 	}
 
+	@SuppressWarnings("deprecation")
 	public static JsonArray getJsonArrayFromFile(String JSON_PATH) throws FileNotFoundException {
 		JsonArray arr = new JsonArray();
 		BufferedReader br = new BufferedReader(new FileReader(JSON_PATH));

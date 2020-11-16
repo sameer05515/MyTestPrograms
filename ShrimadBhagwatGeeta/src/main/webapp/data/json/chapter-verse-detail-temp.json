@@ -27,19 +27,23 @@
         "commentary": [
           {
             "id": 1,
-            "value": "The two armies had gathered on the battlefield of Kurukshetra, well prepared to fight a war that was inevitable. Still, in this verse, King Dhritarashtra asked Sanjay, what his sons and his brother Pandu’s sons were doing on the battlefield? It was apparent that they would fight, then why did he ask such a question?"
+            "value": "The two armies had gathered on the battlefield of Kurukshetra, well prepared to fight a war that was inevitable. Still, in this verse, King Dhritarashtra asked Sanjay, what his sons and his brother Pandu’s sons were doing on the battlefield? It was apparent that they would fight, then why did he ask such a question?",
+            "isShlokCommentary": false
           },
           {
             "id": 2,
-            "value": "The two armies had gathered on the battlefield of Kurukshetra, well prepared to fight a war that was inevitable. Still, in this verse, King Dhritarashtra asked Sanjay, what his sons and his brother Pandu’s sons were doing on the battlefield? It was apparent that they would fight, then why did he ask such a question?"
+            "value": "The blind King Dhritarashtra’s fondness for his own sons had clouded his spiritual wisdom and deviated him from the path of virtue. He had usurped the kingdom of Hastinapur from the rightful heirs; the Pandavas, sons of his brother Pandu. Feeling guilty of the injustice he had done towards his nephews, his conscience worried him about the outcome of this battle.",
+            "isShlokCommentary": false
           },
           {
             "id": 3,
-            "value": "The blind King Dhritarashtra’s fondness for his own sons had clouded his spiritual wisdom and deviated him from the path of virtue. He had usurped the kingdom of Hastinapur from the rightful heirs; the Pandavas, sons of his brother Pandu. Feeling guilty of the injustice he had done towards his nephews, his conscience worried him about the outcome of this battle."
+            "value": "The words dharma kṣhetre, the land of dharma (virtuous conduct) used by Dhritarashtra depict the dilemma he was experiencing.  Kurukshetra is described as kurukṣhetraṁ deva yajanam in the Shatapath Brahman, the Vedic textbook detailing rituals. It means “Kurukshetra is the sacrificial arena of the celestial gods.” Hence, it was regarded as the sacred land that nourished dharma. ",
+            "isShlokCommentary": false
           },
           {
             "id": 4,
-            "value": "The words dharma kṣhetre, the land of dharma (virtuous conduct) used by Dhritarashtra depict the dilemma he was experiencing.  Kurukshetra is described as kurukṣhetraṁ deva yajanam in the Shatapath Brahman, the Vedic textbook detailing rituals. It means “Kurukshetra is the sacrificial arena of the celestial gods.” Hence, it was regarded as the sacred land that nourished dharma. "
+            "value": "Dhritarashtra feared that the holy land might influence the minds of his sons. If it aroused the faculty of discrimination, they might turn away from killing their cousins and negotiate a truce. A peaceful settlement meant that the Pandavas would continue being a hindrance for them. He felt great displeasure at these possibilities, instead preferred that this war transpires. He was uncertain of the consequences of the war, yet desired to determine the fate of his sons. Therefore, he asked Sanjay about the activities of the two armies on the battleground.",
+            "isShlokCommentary": false
           }
         ],
         "shlok": [
@@ -49,11 +53,11 @@
           },
           {
             "id": 2,
-            "value": "धृतराष्ट्र उवाच |"
+            "value": "धर्मक्षेत्रे कुरुक्षेत्रे समवेता युयुत्सवः |"
           },
           {
             "id": 3,
-            "value": "धर्मक्षेत्रे कुरुक्षेत्रे समवेता युयुत्सवः |"
+            "value": "मामकाः पाण्डवाश्चैव किमकुर्वत सञ्जय ||1||"
           }
         ],
         "shlokEng": [
@@ -63,11 +67,11 @@
           },
           {
             "id": 2,
-            "value": "dhṛitarāśhtra uvācha"
+            "value": "dharma-kṣhetre kuru-kṣhetre samavetā yuyutsavaḥ"
           },
           {
             "id": 3,
-            "value": "dharma-kṣhetre kuru-kṣhetre samavetā yuyutsavaḥ"
+            "value": "māmakāḥ pāṇḍavāśhchaiva kimakurvata sañjaya"
           }
         ],
         "meaning": [
@@ -153,19 +157,23 @@
         "commentary": [
           {
             "id": 1,
-            "value": "Sanjay understood Dhritarashtra’s concern, who wanted an assurance that the battle would eventuate. Sanjay tried to allay his worry by informing that the Pandava army was standing in a military formation, ready for battle. Then he moved on to tell him what his son Duryodhana was doing on the battlefield."
+            "value": "Sanjay understood Dhritarashtra’s concern, who wanted an assurance that the battle would eventuate. Sanjay tried to allay his worry by informing that the Pandava army was standing in a military formation, ready for battle. Then he moved on to tell him what his son Duryodhana was doing on the battlefield.",
+            "isShlokCommentary": false
           },
           {
             "id": 2,
-            "value": "Sanjay understood Dhritarashtra’s concern, who wanted an assurance that the battle would eventuate. Sanjay tried to allay his worry by informing that the Pandava army was standing in a military formation, ready for battle. Then he moved on to tell him what his son Duryodhana was doing on the battlefield."
+            "value": "As King Dhritarashtra was blind, his eldest son Duryodhana virtually ruled the kingdom of Hastinapur. In the Mahabharata, he is described as very rude, egoistic, evil and cruel by nature. Since his childhood, he had a strong dislike for the Pandavas and left no opportunity to demean them. He was aware that to rule over the entire kingdom of Hastinapur unchallenged he needed to eliminate them. However, standing on the battlefield, when he saw the large Pandava army, he was baffled.  He had underestimated the Pandavas, the extent of military might they had gathered was way beyond his expectation.",
+            "isShlokCommentary": false
           },
           {
             "id": 3,
-            "value": "As King Dhritarashtra was blind, his eldest son Duryodhana virtually ruled the kingdom of Hastinapur. In the Mahabharata, he is described as very rude, egoistic, evil and cruel by nature. Since his childhood, he had a strong dislike for the Pandavas and left no opportunity to demean them. He was aware that to rule over the entire kingdom of Hastinapur unchallenged he needed to eliminate them. However, standing on the battlefield, when he saw the large Pandava army, he was baffled.  He had underestimated the Pandavas, the extent of military might they had gathered was way beyond his expectation."
+            "value": "Duryodhana approached his guru Dronacharya with the pretense of offering respect, but his actual purpose was to palliate his own nervousness. His move towards his guru also reveals that the mammoth military formation of the Pandava army unnerved him and he was now fearful of the outcome of this war.",
+            "isShlokCommentary": false
           },
           {
             "id": 4,
-            "value": "Duryodhana approached his guru Dronacharya with the pretense of offering respect, but his actual purpose was to palliate his own nervousness. His move towards his guru also reveals that the mammoth military formation of the Pandava army unnerved him and he was now fearful of the outcome of this war."
+            "value": "The next nine verses are spoken by Duryodhan.",
+            "isShlokCommentary": false
           }
         ],
         "shlok": [
@@ -175,11 +183,11 @@
           },
           {
             "id": 2,
-            "value": "सञ्जय उवाच ।"
+            "value": "दृष्ट्वा तु पाण्डवानीकं व्यूढं दुर्योधनस्तदा ।"
           },
           {
             "id": 3,
-            "value": "दृष्ट्वा तु पाण्डवानीकं व्यूढं दुर्योधनस्तदा ।"
+            "value": "आचार्यमुपसङ्गम्य राजा वचनमब्रवीत् ।। 2।।"
           }
         ],
         "shlokEng": [
@@ -189,11 +197,11 @@
           },
           {
             "id": 2,
-            "value": "sañjaya uvācha"
+            "value": "dṛiṣhṭvā tu pāṇḍavānīkaṁ vyūḍhaṁ duryodhanastadā"
           },
           {
             "id": 3,
-            "value": "dṛiṣhṭvā tu pāṇḍavānīkaṁ vyūḍhaṁ duryodhanastadā"
+            "value": "āchāryamupasaṅgamya rājā vachanamabravīt"
           }
         ],
         "meaning": [
@@ -279,15 +287,18 @@
         "commentary": [
           {
             "id": 1,
-            "value": "Duryodhana asked Dronacharya to look at the skillfully arranged military phalanx of the Pandava army led by their commander-in-chief Dhristadyumna, King Dhrupad’s son. He was also one of Dronacharya’s pupils. Duryodhana was subtly reminding his teacher of a mistake he had committed in the past."
+            "value": "Duryodhana asked Dronacharya to look at the skillfully arranged military phalanx of the Pandava army led by their commander-in-chief Dhristadyumna, King Dhrupad’s son. He was also one of Dronacharya’s pupils. Duryodhana was subtly reminding his teacher of a mistake he had committed in the past.",
+            "isShlokCommentary": false
           },
           {
             "id": 2,
-            "value": "Duryodhana asked Dronacharya to look at the skillfully arranged military phalanx of the Pandava army led by their commander-in-chief Dhristadyumna, King Dhrupad’s son. He was also one of Dronacharya’s pupils. Duryodhana was subtly reminding his teacher of a mistake he had committed in the past."
+            "value": "Many years back, Dronacharya along with the Pandavas had defeated King Drupad in a battle and took away half his kingdom. To avenge his defeat, Drupad performed a sacrifice to beget a son. Dhristadyumna was born out of that sacrificial fire, with a boon that he would kill Dronacharya in the future. Even though Dronacharya was aware, when he was approached for Dhristadyumna’s military training, he very humbly accepted and imparted all his knowledge impartially to his pupil.",
+            "isShlokCommentary": false
           },
           {
             "id": 3,
-            "value": "Many years back, Dronacharya along with the Pandavas had defeated King Drupad in a battle and took away half his kingdom. To avenge his defeat, Drupad performed a sacrifice to beget a son. Dhristadyumna was born out of that sacrificial fire, with a boon that he would kill Dronacharya in the future. Even though Dronacharya was aware, when he was approached for Dhristadyumna’s military training, he very humbly accepted and imparted all his knowledge impartially to his pupil."
+            "value": "Duryodhana was reminding Dronacharya that even though Dhristadyumna was his pupil, he was also Drupad’s son, with a boon to kill him. He wanted to ensure that as in the past, Dhronacharya should not become lenient towards his pupils, now that, they were on the battlefield.",
+            "isShlokCommentary": false
           }
         ],
         "shlok": [
@@ -297,7 +308,7 @@
           },
           {
             "id": 2,
-            "value": "पश्यैतां पाण्डुपुत्राणामाचार्य महतीं चमूम् ।"
+            "value": "व्यूढां द्रुपदपुत्रेण तव शिष्येण धीमता ।। 3।।"
           }
         ],
         "shlokEng": [
@@ -307,7 +318,7 @@
           },
           {
             "id": 2,
-            "value": "paśhyaitāṁ pāṇḍu-putrāṇām āchārya mahatīṁ chamūm"
+            "value": "vyūḍhāṁ drupada-putreṇa tava śhiṣhyeṇa dhīmatā"
           }
         ],
         "meaning": [
@@ -388,7 +399,8 @@
         "commentary": [
           {
             "id": 1,
-            "value": "Due to his anxiety, the Pandava army seemed much larger to Duryodhan than it actually was. He had never expected his opponents would mobilize an army of warriors with such military prowess, who would be formidable in battle. Out of fear of the looming catastrophe, he started enumerating the names of all the mahārathīs (warriors who were singly equivalent in strength to ten thousand ordinary warriors) gathered on the Pandava side. They were all exceptional heroes, and great military commanders, equivalent in valor to his cousins Arjun and Bheem."
+            "value": "Due to his anxiety, the Pandava army seemed much larger to Duryodhan than it actually was. He had never expected his opponents would mobilize an army of warriors with such military prowess, who would be formidable in battle. Out of fear of the looming catastrophe, he started enumerating the names of all the mahārathīs (warriors who were singly equivalent in strength to ten thousand ordinary warriors) gathered on the Pandava side. They were all exceptional heroes, and great military commanders, equivalent in valor to his cousins Arjun and Bheem.",
+            "isShlokCommentary": false
           }
         ],
         "shlok": [
@@ -398,23 +410,23 @@
           },
           {
             "id": 2,
-            "value": "अत्र शूरा महेष्वासा भीमार्जुनसमा युधि"
-          },
-          {
-            "id": 3,
             "value": "युयुधानो विराटश्च द्रुपदश्च महारथ: || 4||"
           },
           {
-            "id": 4,
+            "id": 3,
             "value": "धृष्टकेतुश्चेकितान: काशिराजश्च वीर्यवान् |"
           },
           {
-            "id": 5,
+            "id": 4,
             "value": "पुरुजित्कुन्तिभोजश्च शैब्यश्च नरपुङ्गव: || 5||"
           },
           {
-            "id": 6,
+            "id": 5,
             "value": "युधामन्युश्च विक्रान्त उत्तमौजाश्च वीर्यवान् |"
+          },
+          {
+            "id": 6,
+            "value": "सौभद्रो द्रौपदेयाश्च सर्व एव महारथा: || 6||"
           }
         ],
         "shlokEng": [
@@ -424,23 +436,23 @@
           },
           {
             "id": 2,
-            "value": "atra śhūrā maheṣhvāsā bhīmārjuna-samā yudhi"
-          },
-          {
-            "id": 3,
             "value": "yuyudhāno virāṭaśhcha drupadaśhcha mahā-rathaḥ"
           },
           {
-            "id": 4,
+            "id": 3,
             "value": "dhṛiṣhṭaketuśhchekitānaḥ kāśhirājaśhcha vīryavān"
           },
           {
-            "id": 5,
+            "id": 4,
             "value": "purujit kuntibhojaśhcha śhaibyaśhcha nara-puṅgavaḥ"
           },
           {
-            "id": 6,
+            "id": 5,
             "value": "yudhāmanyuśhcha vikrānta uttamaujāśhcha vīryavān"
+          },
+          {
+            "id": 6,
+            "value": "saubhadro draupadeyāśhcha sarva eva mahā-rathāḥ"
           }
         ],
         "meaning": [
@@ -636,11 +648,13 @@
         "commentary": [
           {
             "id": 1,
-            "value": "Dronacharya was a teacher of military science and not really a warrior. However, he was on the battlefield as one of the commanders of the Kaurava army. An impudent Duryodhana even doubted the loyalty of his own preceptor. Cunning Duryodhana purposefully addressed his teacher as dwijottama (best amongst the twice-born, or Brahmins). His denigrating and vailed reminder for Dronacharya was that, if he did not display his valor in this battle, he would be considered a lowly Brahmin, who was only interested in the fine food and lavish lifestyle at the king’s palace."
+            "value": "Dronacharya was a teacher of military science and not really a warrior. However, he was on the battlefield as one of the commanders of the Kaurava army. An impudent Duryodhana even doubted the loyalty of his own preceptor. Cunning Duryodhana purposefully addressed his teacher as dwijottama (best amongst the twice-born, or Brahmins). His denigrating and vailed reminder for Dronacharya was that, if he did not display his valor in this battle, he would be considered a lowly Brahmin, who was only interested in the fine food and lavish lifestyle at the king’s palace.",
+            "isShlokCommentary": false
           },
           {
             "id": 2,
-            "value": "Dronacharya was a teacher of military science and not really a warrior. However, he was on the battlefield as one of the commanders of the Kaurava army. An impudent Duryodhana even doubted the loyalty of his own preceptor. Cunning Duryodhana purposefully addressed his teacher as dwijottama (best amongst the twice-born, or Brahmins). His denigrating and vailed reminder for Dronacharya was that, if he did not display his valor in this battle, he would be considered a lowly Brahmin, who was only interested in the fine food and lavish lifestyle at the king’s palace."
+            "value": "Then to cover up his vicious words and boost his teacher’s and his own morale; Duryodhana started naming all the great generals present on the Kaurava side, describing their valor and military expertise.",
+            "isShlokCommentary": false
           }
         ],
         "shlok": [
@@ -650,7 +664,7 @@
           },
           {
             "id": 2,
-            "value": "अस्माकं तु विशिष्टा ये तान्निबोध द्विजोत्तम |"
+            "value": "नायका मम सैन्यस्य संज्ञार्थं तान्ब्रवीमि ते || 7||"
           }
         ],
         "shlokEng": [
@@ -660,7 +674,7 @@
           },
           {
             "id": 2,
-            "value": "asmākaṁ tu viśhiṣhṭā ye tānnibodha dwijottama"
+            "value": "nāyakā mama sainyasya sanjñārthaṁ tānbravīmi te"
           }
         ],
         "meaning": [
@@ -761,7 +775,7 @@
           },
           {
             "id": 2,
-            "value": "भवान्भीष्मश्च कर्णश्च कृपश्च समितिञ्जय: |"
+            "value": "अश्वत्थामा विकर्णश्च सौमदत्तिस्तथैव च || 8||"
           }
         ],
         "shlokEng": [
@@ -771,7 +785,7 @@
           },
           {
             "id": 2,
-            "value": "bhavānbhīṣhmaśhcha karṇaśhcha kṛipaśhcha samitiñjayaḥ"
+            "value": "aśhvatthāmā vikarṇaśhcha saumadattis tathaiva cha"
           }
         ],
         "meaning": [
@@ -877,7 +891,7 @@
           },
           {
             "id": 2,
-            "value": "अन्ये च बहव: शूरा मदर्थे त्यक्तजीविता: |"
+            "value": "नानाशस्त्रप्रहरणा: सर्वे युद्धविशारदा: || 9||"
           }
         ],
         "shlokEng": [
@@ -887,7 +901,7 @@
           },
           {
             "id": 2,
-            "value": "anye cha bahavaḥ śhūrā madarthe tyaktajīvitāḥ"
+            "value": "nānā-śhastra-praharaṇāḥ sarve yuddha-viśhāradāḥ"
           }
         ],
         "meaning": [
@@ -948,11 +962,127 @@
         "currentVerse": "1.10",
         "nextVerse": "1.11",
         "previousVerse": "1.9",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 1.10",
+            "value": " The strength of our army is unlimited and we are safely marshalled by Grandsire Bheeshma, while the strength of the Pandava army, carefully marshalled by Bheem, is limited."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "The commander-in-chief of the Kaurava army was Grandsire Bheeshma. Apart from being an exceptional warrior, he had an extraordinary boon. He could choose the time of his death, this meant he was practically invincible. Duryodhana felt that under Bheeshma’s command their army was undefeatable. Whereas, the Pandava army was secured by Duryodhana’s sworn enemy, Bheema. Hence, he started comparing his Grandfather Bheeshma’s strength with his cousin Bheema.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "Vinaash kale vipreet buddhi as the proverb goes, which means that when the end draws near, egoistic people indulge in vainglory instead of being humble in evaluating their situation. This tragic irony of fate is reflected here in Duryodhana’s self-aggrandizing statement that; their army’s strength secured by Bheeshma was unlimited.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 3,
+            "value": "However, both Kauravas and Pandavas were Bheeshma’s grandchildren and as the oldest living member of the Kuru family, he was concerned about their welfare. He was compassionate towards the Pandavas, but was bound by his ethical commitment towards the throne of Hastinapur and its subjects. Therefore, halfheartedly, he led the Kaurava army against them.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 4,
+            "value": "Bheeshma was also aware that in this holy war, along with all the great warriors of the world the Supreme Lord Krishna Himself was present. Lord Krishna was with the Pandavas, which meant Dharma was on their side, and no power in the entire universe could make the side of Adharma win.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 5,
+            "value": "He had vowed to protect the kingdom of Hastinapur and its subjects and to fulfill his responsibility towards them Bheeshma led the Kaurava army, even though he was aware of their wrongdoings. This decision of Bheeshma accentuates his strength of character and enigmatic personality.",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "अपर्याप्तं तदस्माकं बलं भीष्माभिरक्षितम् |"
+          },
+          {
+            "id": 2,
+            "value": "पर्याप्तं त्विदमेतेषां बलं भीमाभिरक्षितम् || 10||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "aparyāptaṁ tadasmākaṁ balaṁ bhīṣhmābhirakṣhitam"
+          },
+          {
+            "id": 2,
+            "value": "paryāptaṁ tvidameteṣhāṁ balaṁ bhīmābhirakṣhitam"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "aparyāptam",
+            "meaning": "unlimited"
+          },
+          {
+            "id": 2,
+            "sanskrit": " tat",
+            "meaning": "that"
+          },
+          {
+            "id": 3,
+            "sanskrit": " asmākam",
+            "meaning": "ours"
+          },
+          {
+            "id": 4,
+            "sanskrit": " balam",
+            "meaning": "strength"
+          },
+          {
+            "id": 5,
+            "sanskrit": " bhīṣhma",
+            "meaning": "by Grandsire Bheeshma"
+          },
+          {
+            "id": 6,
+            "sanskrit": " abhirakṣhitam",
+            "meaning": "safely marshalled"
+          },
+          {
+            "id": 7,
+            "sanskrit": " paryāptam",
+            "meaning": "limited"
+          },
+          {
+            "id": 8,
+            "sanskrit": " tu",
+            "meaning": "but"
+          },
+          {
+            "id": 9,
+            "sanskrit": " idam",
+            "meaning": "this"
+          },
+          {
+            "id": 10,
+            "sanskrit": " eteṣhām",
+            "meaning": "their"
+          },
+          {
+            "id": 11,
+            "sanskrit": " balam",
+            "meaning": "strength"
+          },
+          {
+            "id": 12,
+            "sanskrit": " bhīma",
+            "meaning": "Bheem"
+          },
+          {
+            "id": 13,
+            "sanskrit": " abhirakṣhitam",
+            "meaning": "carefully marshalled"
+          }
+        ],
         "currentVerseUrl": "#/chapter/1/verse/1.10",
         "nextVerseUrl": "#/chapter/1/verse/1.11",
         "previousVerseUrl": "#/chapter/1/verse/1.9"
@@ -974,7 +1104,8 @@
         "commentary": [
           {
             "id": 1,
-            "value": "Duryodhana urged all the Kaurava generals to make sure they are around Grandsire Bheeshma and give him full support while they defend their own respective positions in the military phalanx. Duryodhana beheld Bheeshma’s unassailability as an advantage and wanted to use it as strength and inspiration for his army."
+            "value": "Duryodhana urged all the Kaurava generals to make sure they are around Grandsire Bheeshma and give him full support while they defend their own respective positions in the military phalanx. Duryodhana beheld Bheeshma’s unassailability as an advantage and wanted to use it as strength and inspiration for his army.",
+            "isShlokCommentary": false
           }
         ],
         "shlok": [
@@ -1065,20 +1196,97 @@
         "currentVerse": "1.12",
         "nextVerse": "1.13",
         "previousVerse": "1.11",
-        "translation": [],
-        "commentary": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 1.12",
+            "value": " Then, the grand old man of the Kuru dynasty, the glorious patriarch Bheeshma, roared like a lion, and blew his conch shell very loudly, giving joy to Duryodhan."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "Bheeshma was aware that Duryodhana had no chance of victory as the Supreme Lord Shree Krishna was on the opposite side. However, he understood his grand-nephew’s anxiety and to cheer him up he blew his conch shell loudly. In olden days, blowing of the conch shell in the battlefield signaled the start of the war. This also conveyed to Duryodhana that Bheeshma was ready to lead the Kaurava army and he would fight dutifully and spare no pain.",
+            "isShlokCommentary": false
+          }
+        ],
         "shlok": [
           {
             "id": 1,
-            "value": "अयनेषु च सर्वेषु यथाभागमवस्थिता: |"
+            "value": "तस्य सञ्जनयन्हर्षं कुरुवृद्ध: पितामह: |"
           },
           {
             "id": 2,
-            "value": "भीष्ममेवाभिरक्षन्तु भवन्त: सर्व एव हि || 11||"
+            "value": "सिंहनादं विनद्योच्चै: शङ्खं दध्मौ प्रतापवान् || 12||"
           }
         ],
-        "shlokEng": [],
-        "meaning": [],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "tasya sañjanayan harṣhaṁ kuru-vṛiddhaḥ pitāmahaḥ"
+          },
+          {
+            "id": 2,
+            "value": "siṁha-nādaṁ vinadyochchaiḥ śhaṅkhaṁ dadhmau pratāpavān"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "tasya",
+            "meaning": "his"
+          },
+          {
+            "id": 2,
+            "sanskrit": " sañjanayan",
+            "meaning": "causing"
+          },
+          {
+            "id": 3,
+            "sanskrit": " harṣham",
+            "meaning": "joy"
+          },
+          {
+            "id": 4,
+            "sanskrit": " kuru-vṛiddhaḥ",
+            "meaning": "the grand old man of the Kuru dynasty (Bheeshma)"
+          },
+          {
+            "id": 5,
+            "sanskrit": " pitāmahaḥ",
+            "meaning": "grandfather"
+          },
+          {
+            "id": 6,
+            "sanskrit": " sinha-nādam",
+            "meaning": "lion’s roar"
+          },
+          {
+            "id": 7,
+            "sanskrit": " vinadya",
+            "meaning": "sounding"
+          },
+          {
+            "id": 8,
+            "sanskrit": " uchchaiḥ",
+            "meaning": "very loudly"
+          },
+          {
+            "id": 9,
+            "sanskrit": " śhaṅkham",
+            "meaning": "conch shell"
+          },
+          {
+            "id": 10,
+            "sanskrit": " dadhmau",
+            "meaning": "blew"
+          },
+          {
+            "id": 11,
+            "sanskrit": " pratāpa-vān",
+            "meaning": "the glorious"
+          }
+        ],
         "currentVerseUrl": "#/chapter/1/verse/1.12",
         "nextVerseUrl": "#/chapter/1/verse/1.13",
         "previousVerseUrl": "#/chapter/1/verse/1.11"
@@ -1090,11 +1298,112 @@
         "currentVerse": "1.13",
         "nextVerse": "1.14",
         "previousVerse": "1.12",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 1.13",
+            "value": " Thereafter, conches, kettledrums, bugles, trumpets, and horns suddenly blared forth, and their combined sound was overwhelming."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "On hearing Bheeshma’s call for battle, everyone in the Kaurava army also started playing various instruments eagerly, creating tumultuous sound. Shaṅkhāḥ means conches, paṇav are drums, ānak kettledrums, bhreyah bugles, and go-mukh are blowing horns. All these instruments playing together created a loud pandemonium.",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "तत: शङ्खाश्च भेर्यश्च पणवानकगोमुखा: |"
+          },
+          {
+            "id": 2,
+            "value": "सहसैवाभ्यहन्यन्त स शब्दस्तुमुलोऽभवत् || 13||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "tataḥ śhaṅkhāśhcha bheryaśhcha paṇavānaka-gomukhāḥ"
+          },
+          {
+            "id": 2,
+            "value": "sahasaivābhyahanyanta sa śhabdastumulo ’bhavat"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "tataḥ",
+            "meaning": "thereafter"
+          },
+          {
+            "id": 2,
+            "sanskrit": " śhaṅkhāḥ",
+            "meaning": "conches"
+          },
+          {
+            "id": 3,
+            "sanskrit": " cha",
+            "meaning": "and"
+          },
+          {
+            "id": 4,
+            "sanskrit": " bheryaḥ",
+            "meaning": "bugles"
+          },
+          {
+            "id": 5,
+            "sanskrit": " cha",
+            "meaning": "and"
+          },
+          {
+            "id": 6,
+            "sanskrit": " paṇava-ānaka",
+            "meaning": "drums and kettledrums"
+          },
+          {
+            "id": 7,
+            "sanskrit": " go-mukhāḥ",
+            "meaning": "trumpets"
+          },
+          {
+            "id": 8,
+            "sanskrit": " sahasā",
+            "meaning": "suddenly"
+          },
+          {
+            "id": 9,
+            "sanskrit": " eva",
+            "meaning": "indeed"
+          },
+          {
+            "id": 10,
+            "sanskrit": " abhyahanyanta",
+            "meaning": "blared forth"
+          },
+          {
+            "id": 11,
+            "sanskrit": " saḥ",
+            "meaning": "that"
+          },
+          {
+            "id": 12,
+            "sanskrit": " śhabdaḥ",
+            "meaning": "sound"
+          },
+          {
+            "id": 13,
+            "sanskrit": " tumulaḥ",
+            "meaning": "overwhelming"
+          },
+          {
+            "id": 14,
+            "sanskrit": " abhavat",
+            "meaning": "was"
+          }
+        ],
         "currentVerseUrl": "#/chapter/1/verse/1.13",
         "nextVerseUrl": "#/chapter/1/verse/1.14",
         "previousVerseUrl": "#/chapter/1/verse/1.12"
@@ -1106,11 +1415,122 @@
         "currentVerse": "1.14",
         "nextVerse": "1.15",
         "previousVerse": "1.13",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 1.14",
+            "value": " Then, from amidst the Pandava army, seated in a glorious chariot drawn by white horses, Madhav and Arjun blew their Divine conch shells."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "The uproar of the Kaurava army had started to wane. Then from the Pandava side, seated on a magnificent chariot the Supreme Lord Shree Krishna and Arjun, both blew their conch shells intrepidly, which ignited the enthusiasm of the Pandava army as well.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "Here, Sanjay has addressed Lord Shree Krishna as “Madhav”. It is a combination of two words, Mā which refers to goddess Lakshmi, the goddess of prosperity and dhav is used for husband. Goddess Lakshmi is Lord Vishnu’s wife, who is one of the many forms of Shree Krishna. This verse implies that the goddess of prosperity was with the Pandavas, and by her grace, they would be triumphant in this war and reclaim their kingdom soon.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 3,
+            "value": "The sons of King Pandu are called Pandavas and it may be used for any of the five brothers. In this verse, the Pandava being referred to is Arjun, the third among the five. He was a mighty warrior and a superior archer. His magnificent chariot was a gift from Agni, the celestial god of fire.",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "तत: श्वेतैर्हयैर्युक्ते महति स्यन्दने स्थितौ |"
+          },
+          {
+            "id": 2,
+            "value": "माधव: पाण्डवश्चैव दिव्यौ शङ्खौ प्रदध्मतु: || 14||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "tataḥ śhvetairhayairyukte mahati syandane sthitau"
+          },
+          {
+            "id": 2,
+            "value": "mādhavaḥ pāṇḍavaśhchaiva divyau śhaṅkhau pradadhmatuḥ"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "tataḥ",
+            "meaning": "then"
+          },
+          {
+            "id": 2,
+            "sanskrit": " śhvetaiḥ",
+            "meaning": "by white"
+          },
+          {
+            "id": 3,
+            "sanskrit": " hayaiḥ",
+            "meaning": "horses"
+          },
+          {
+            "id": 4,
+            "sanskrit": " yukte",
+            "meaning": "yoked"
+          },
+          {
+            "id": 5,
+            "sanskrit": " mahati",
+            "meaning": "glorious"
+          },
+          {
+            "id": 6,
+            "sanskrit": " syandane",
+            "meaning": "chariot"
+          },
+          {
+            "id": 7,
+            "sanskrit": " sthitau",
+            "meaning": "seated"
+          },
+          {
+            "id": 8,
+            "sanskrit": " mādhavaḥ",
+            "meaning": "Shree Krishna, the husband of the goddess of fortune, Lakshmi"
+          },
+          {
+            "id": 9,
+            "sanskrit": " pāṇḍavaḥ",
+            "meaning": "Arjun"
+          },
+          {
+            "id": 10,
+            "sanskrit": " cha",
+            "meaning": "and"
+          },
+          {
+            "id": 11,
+            "sanskrit": " eva",
+            "meaning": "also"
+          },
+          {
+            "id": 12,
+            "sanskrit": " divyau",
+            "meaning": "Divine"
+          },
+          {
+            "id": 13,
+            "sanskrit": " śhaṅkhau",
+            "meaning": "conch shells"
+          },
+          {
+            "id": 14,
+            "sanskrit": " pradadhmatuḥ",
+            "meaning": "blew"
+          }
+        ],
         "currentVerseUrl": "#/chapter/1/verse/1.14",
         "nextVerseUrl": "#/chapter/1/verse/1.15",
         "previousVerseUrl": "#/chapter/1/verse/1.13"
@@ -1122,11 +1542,87 @@
         "currentVerse": "1.15",
         "nextVerse": "1.16 – 1.18",
         "previousVerse": "1.14",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 1.15",
+            "value": " Hrishikesh blew his conch shell, called Panchajanya, and Arjun blew the Devadutta. Bheem, the voracious eater and performer of herculean tasks, blew his mighty conch, called Paundra."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "In this verse, Shree Krishna is addressed as “Hrishikesh” which means the Lord of the mind and senses. Shree Krishna is the Sovereign Master of everybody’s minds and senses. Throughout his wonderful pastimes, he displayed complete control over his mind and senses.",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "पाञ्चजन्यं हृषीकेशो देवदत्तं धनञ्जय: |"
+          },
+          {
+            "id": 2,
+            "value": "पौण्ड्रं दध्मौ महाशङ्खं भीमकर्मा वृकोदर: || 15||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "pāñchajanyaṁ hṛiṣhīkeśho devadattaṁ dhanañjayaḥ"
+          },
+          {
+            "id": 2,
+            "value": "pauṇḍraṁ dadhmau mahā-śhaṅkhaṁ bhīma-karmā vṛikodaraḥ"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "pāñchajanyam",
+            "meaning": "the conch shell named Panchajanya"
+          },
+          {
+            "id": 2,
+            "sanskrit": " hṛiṣhīka-īśhaḥ",
+            "meaning": "Shree Krishna, the Lord of the mind and senses"
+          },
+          {
+            "id": 3,
+            "sanskrit": " devadattam",
+            "meaning": "the conch shell named Devadutta"
+          },
+          {
+            "id": 4,
+            "sanskrit": " dhanam-jayaḥ",
+            "meaning": "Arjun, the winner of wealth"
+          },
+          {
+            "id": 5,
+            "sanskrit": " pauṇḍram",
+            "meaning": "the conch named Paundra"
+          },
+          {
+            "id": 6,
+            "sanskrit": " dadhmau",
+            "meaning": "blew"
+          },
+          {
+            "id": 7,
+            "sanskrit": " mahā-śhaṅkham",
+            "meaning": "mighty conch"
+          },
+          {
+            "id": 8,
+            "sanskrit": " bhīma-karmā",
+            "meaning": "one who performs herculean tasks"
+          },
+          {
+            "id": 9,
+            "sanskrit": " vṛika-udaraḥ",
+            "meaning": "Bheem, the voracious eater"
+          }
+        ],
         "currentVerseUrl": "#/chapter/1/verse/1.15",
         "nextVerseUrl": "#/chapter/1/verse/1.16 – 1.18",
         "previousVerseUrl": "#/chapter/1/verse/1.14"
@@ -1138,11 +1634,234 @@
         "currentVerse": "1.16 – 1.18",
         "nextVerse": "1.19",
         "previousVerse": "1.15",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 1.16-18",
+            "value": " King Yudhishthir, blew the Anantavijay, while Nakul and Sahadev blew the Sughosh and Manipushpak. The excellent archer and king of Kashi, the great warrior Shikhandi, Dhrishtadyumna, Virat, and the invincible Satyaki, Drupad, the five sons of Draupadi, and the mighty-armed Abhimanyu, son of Subhadra, all blew their respective conch shells, O Ruler of the earth."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "Yudhisthtira, the eldest Pandava is being addressed here as “King.” He always displayed royal grace and nobility, whether living in a palace or in a forest when in exile. He also got this title by performing the Rājasūya Yajña a royal sacrifice, which earned him tributes from all the other kings of the world.  ",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "In this verse, Sanjay also called Dhritarashtra the “Ruler of the earth.” The real reason for this appellation was to remind him of his duties as the ruler of the country. With so many kings and princes participating from both sides in this war, it was as if the entire earth was split into two parties. It was definite that this mammoth war would cause irreversible destruction. The only person who could stop the war at this juncture was Dhritarashtra, and Sanjay wanted to know if he was willing to do that.",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "अनन्तविजयं राजा कुन्तीपुत्रो युधिष्ठिर: |"
+          },
+          {
+            "id": 2,
+            "value": "नकुल: सहदेवश्च सुघोषमणिपुष्पकौ || 16||"
+          },
+          {
+            "id": 3,
+            "value": "काश्यश्च परमेष्वास: शिखण्डी च महारथ: |"
+          },
+          {
+            "id": 4,
+            "value": "धृष्टद्युम्नो विराटश्च सात्यकिश्चापराजित: || 17||"
+          },
+          {
+            "id": 5,
+            "value": "द्रुपदो द्रौपदेयाश्च सर्वश: पृथिवीपते |"
+          },
+          {
+            "id": 6,
+            "value": "सौभद्रश्च महाबाहु: शङ्खान्दध्मु: पृथक् पृथक् || 18||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "anantavijayaṁ rājā kuntī-putro yudhiṣhṭhiraḥ"
+          },
+          {
+            "id": 2,
+            "value": "nakulaḥ sahadevaśhcha sughoṣha-maṇipuṣhpakau"
+          },
+          {
+            "id": 3,
+            "value": "kāśhyaśhcha parameṣhvāsaḥ śhikhaṇḍī cha mahā-rathaḥ"
+          },
+          {
+            "id": 4,
+            "value": "dhṛiṣhṭadyumno virāṭaśhcha sātyakiśh chāparājitaḥ"
+          },
+          {
+            "id": 5,
+            "value": "drupado draupadeyāśhcha sarvaśhaḥ pṛithivī-pate"
+          },
+          {
+            "id": 6,
+            "value": "saubhadraśhcha mahā-bāhuḥ śhaṅkhāndadhmuḥ pṛithak pṛithak"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "ananta-vijayam",
+            "meaning": "the conch named Anantavijay"
+          },
+          {
+            "id": 2,
+            "sanskrit": " rājā",
+            "meaning": "king"
+          },
+          {
+            "id": 3,
+            "sanskrit": " kuntī-putraḥ",
+            "meaning": "son of Kunti"
+          },
+          {
+            "id": 4,
+            "sanskrit": " yudhiṣhṭhiraḥ",
+            "meaning": "Yudhishthir"
+          },
+          {
+            "id": 5,
+            "sanskrit": " nakulaḥ",
+            "meaning": "Nakul"
+          },
+          {
+            "id": 6,
+            "sanskrit": " sahadevaḥ",
+            "meaning": "Sahadev"
+          },
+          {
+            "id": 7,
+            "sanskrit": " cha",
+            "meaning": "and"
+          },
+          {
+            "id": 8,
+            "sanskrit": " sughoṣha-maṇipuṣhpakau",
+            "meaning": "the conche shells named Sughosh and Manipushpak"
+          },
+          {
+            "id": 9,
+            "sanskrit": " kāśhyaḥ",
+            "meaning": "King of Kashi"
+          },
+          {
+            "id": 10,
+            "sanskrit": " cha",
+            "meaning": "and"
+          },
+          {
+            "id": 11,
+            "sanskrit": " parama-iṣhu-āsaḥ",
+            "meaning": "the excellent archer"
+          },
+          {
+            "id": 12,
+            "sanskrit": " śhikhaṇḍī",
+            "meaning": "Shikhandi"
+          },
+          {
+            "id": 13,
+            "sanskrit": " cha",
+            "meaning": "also"
+          },
+          {
+            "id": 14,
+            "sanskrit": " mahā-rathaḥ",
+            "meaning": "warriors who could single handedly match the strength of ten thousand ordinary warriors"
+          },
+          {
+            "id": 15,
+            "sanskrit": " dhṛiṣhṭadyumnaḥ",
+            "meaning": "Dhrishtadyumna"
+          },
+          {
+            "id": 16,
+            "sanskrit": " virāṭaḥ",
+            "meaning": "Virat"
+          },
+          {
+            "id": 17,
+            "sanskrit": " cha",
+            "meaning": "and"
+          },
+          {
+            "id": 18,
+            "sanskrit": " sātyakiḥ",
+            "meaning": "Satyaki"
+          },
+          {
+            "id": 19,
+            "sanskrit": " cha",
+            "meaning": "and"
+          },
+          {
+            "id": 20,
+            "sanskrit": " aparājitaḥ",
+            "meaning": "invincible"
+          },
+          {
+            "id": 21,
+            "sanskrit": " drupadaḥ",
+            "meaning": "Drupad"
+          },
+          {
+            "id": 22,
+            "sanskrit": " draupadeyāḥ",
+            "meaning": "the five sons of Draupadi"
+          },
+          {
+            "id": 23,
+            "sanskrit": " cha",
+            "meaning": "and"
+          },
+          {
+            "id": 24,
+            "sanskrit": " sarvaśhaḥ",
+            "meaning": "all"
+          },
+          {
+            "id": 25,
+            "sanskrit": " pṛithivī-pate",
+            "meaning": "Ruler of the earth"
+          },
+          {
+            "id": 26,
+            "sanskrit": " saubhadraḥ",
+            "meaning": "Abhimanyu, the son of Subhadra"
+          },
+          {
+            "id": 27,
+            "sanskrit": " cha",
+            "meaning": "also"
+          },
+          {
+            "id": 28,
+            "sanskrit": " mahā-bāhuḥ",
+            "meaning": "the mighty-armed"
+          },
+          {
+            "id": 29,
+            "sanskrit": " śhaṅkhān",
+            "meaning": "conch shells"
+          },
+          {
+            "id": 30,
+            "sanskrit": " dadhmuḥ",
+            "meaning": "blew"
+          },
+          {
+            "id": 31,
+            "sanskrit": " pṛithak pṛithak",
+            "meaning": "individually"
+          }
+        ],
         "currentVerseUrl": "#/chapter/1/verse/1.16 – 1.18",
         "nextVerseUrl": "#/chapter/1/verse/1.19",
         "previousVerseUrl": "#/chapter/1/verse/1.15"
@@ -1154,11 +1873,102 @@
         "currentVerse": "1.19",
         "nextVerse": "1.20",
         "previousVerse": "1.16 – 1.18",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 1.19",
+            "value": " The terrific sound thundered across the sky and the earth, and shattered the hearts of your sons, O Dhritarasthra."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "Sanjay conveyed to Dhritarashtra, that the tremendous sound of the various conch shells from the Pandava army was shattering the hearts of his sons. Whereas, he did not mention any such reaction from the Pandavas, when the Kauravas were creating a commotion. The Kauravas were fearful, as their conscience pricked them for their crimes and misdeeds. They were relying solely on their physical strength to fight the war. However, the Pandavas were confident and felt protected, as the Supreme Lord Shree Krishna was by their side, their victory was definite.",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "स घोषो धार्तराष्ट्राणां हृदयानि व्यदारयत् |"
+          },
+          {
+            "id": 2,
+            "value": "नभश्च पृथिवीं चैव तुमुलोऽभ्यनुनादयन् || 19||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "sa ghoṣho dhārtarāṣhṭrāṇāṁ hṛidayāni vyadārayat"
+          },
+          {
+            "id": 2,
+            "value": "nabhaśhcha pṛithivīṁ chaiva tumulo abhyanunādayan"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "saḥ",
+            "meaning": "that"
+          },
+          {
+            "id": 2,
+            "sanskrit": " ghoṣhaḥ",
+            "meaning": "sound"
+          },
+          {
+            "id": 3,
+            "sanskrit": " dhārtarāṣhṭrāṇām",
+            "meaning": "of Dhritarashtra’s sons"
+          },
+          {
+            "id": 4,
+            "sanskrit": " hṛidayāni",
+            "meaning": "hearts"
+          },
+          {
+            "id": 5,
+            "sanskrit": " vyadārayat",
+            "meaning": "shattered"
+          },
+          {
+            "id": 6,
+            "sanskrit": " nabhaḥ",
+            "meaning": "the sky"
+          },
+          {
+            "id": 7,
+            "sanskrit": " cha",
+            "meaning": "and"
+          },
+          {
+            "id": 8,
+            "sanskrit": " pṛithivīm",
+            "meaning": "the earth"
+          },
+          {
+            "id": 9,
+            "sanskrit": " cha",
+            "meaning": "and"
+          },
+          {
+            "id": 10,
+            "sanskrit": " eva",
+            "meaning": "certainly"
+          },
+          {
+            "id": 11,
+            "sanskrit": " tumulaḥ",
+            "meaning": "terrific sound"
+          },
+          {
+            "id": 12,
+            "sanskrit": " abhyanunādayan",
+            "meaning": "thundering"
+          }
+        ],
         "currentVerseUrl": "#/chapter/1/verse/1.19",
         "nextVerseUrl": "#/chapter/1/verse/1.20",
         "previousVerseUrl": "#/chapter/1/verse/1.16 – 1.18"
@@ -1170,11 +1980,135 @@
         "currentVerse": "1.20",
         "nextVerse": "1.21 – 1.22",
         "previousVerse": "1.19",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 1.20",
+            "value": " At that time, the son of Pandu, Arjun, who had the insignia of Hanuman on the flag of his chariot, took up his bow. Seeing your sons arrayed against him, O King, Arjun then spoke the following words to Shree Krishna."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "Here Sanjay addresses Arjun by another name, “Kapi Dhwaj,” which means “Monkey Bannered.” This denotes the presence of the mighty Monkey God; Hanuman on Arjun’s chariot. It so happened that, once Arjun became very boastful of his archery skills and quipped at Shree Krishna. He said, “I do not understand why during Lord Rama’s time, the monkeys worked so hard to make a bridge from India to Lanka with heavy stones? If I was there, I would have made a bridge of arrows.” The Omniscient Lord asked him, “Alright, go ahead show me your bridge.”  ",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "Very skillfully Arjun showered thousands of arrows and made a huge bridge. Now, it was time to test it. Shree Krishna called upon great Hanuman for the job. As soon as Hanuman started walking on the bridge, it started crumbling under his feet. Arjun realized his folly; his bridge of arrows could not have upheld the weight of Lord Rama’s huge army. He asked for their forgiveness. Subsequently, Hanuman gave Arjun lessons on being humble and never be proud of his skills. He also granted Arjun a boon that, during the great war, he would seat himself on Arjun’s chariot. Therefore, Arjun’s chariot flag carried the insignia of the great Hanuman.",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "अथ व्यवस्थितान्दृष्ट्वा धार्तराष्ट्रान् कपिध्वज: |"
+          },
+          {
+            "id": 2,
+            "value": "प्रवृत्ते शस्त्रसम्पाते धनुरुद्यम्य पाण्डव: |"
+          },
+          {
+            "id": 3,
+            "value": "हृषीकेशं तदा वाक्यमिदमाह महीपते ||20||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "atha vyavasthitān dṛiṣhṭvā dhārtarāṣhṭrān kapi-dhwajaḥ"
+          },
+          {
+            "id": 2,
+            "value": "pravṛitte śhastra-sampāte dhanurudyamya pāṇḍavaḥ"
+          },
+          {
+            "id": 3,
+            "value": "hṛiṣhīkeśhaṁ tadā vākyam idam āha mahī-pate"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "atha",
+            "meaning": "thereupon"
+          },
+          {
+            "id": 2,
+            "sanskrit": " vyavasthitān",
+            "meaning": "arrayed"
+          },
+          {
+            "id": 3,
+            "sanskrit": " dṛiṣhṭvā",
+            "meaning": "seeing"
+          },
+          {
+            "id": 4,
+            "sanskrit": " dhārtarāṣhṭrān",
+            "meaning": "Dhritarashtra’s sons"
+          },
+          {
+            "id": 5,
+            "sanskrit": " kapi-dwajaḥ",
+            "meaning": "the Monkey Bannered"
+          },
+          {
+            "id": 6,
+            "sanskrit": " pravṛitte",
+            "meaning": "about to commence"
+          },
+          {
+            "id": 7,
+            "sanskrit": " śhastra-sampāte",
+            "meaning": "to use the weapons"
+          },
+          {
+            "id": 8,
+            "sanskrit": " dhanuḥ",
+            "meaning": "bow"
+          },
+          {
+            "id": 9,
+            "sanskrit": " udyamya",
+            "meaning": "taking up"
+          },
+          {
+            "id": 10,
+            "sanskrit": " pāṇḍavaḥ",
+            "meaning": "Arjun, the son of Pandu"
+          },
+          {
+            "id": 11,
+            "sanskrit": " hṛiṣhīkeśham",
+            "meaning": "to Shree Krishna"
+          },
+          {
+            "id": 12,
+            "sanskrit": " tadā",
+            "meaning": "at that time"
+          },
+          {
+            "id": 13,
+            "sanskrit": " vākyam",
+            "meaning": "words"
+          },
+          {
+            "id": 14,
+            "sanskrit": " idam",
+            "meaning": "these"
+          },
+          {
+            "id": 15,
+            "sanskrit": " āha",
+            "meaning": "said"
+          },
+          {
+            "id": 16,
+            "sanskrit": " mahī-pate",
+            "meaning": "King"
+          }
+        ],
         "currentVerseUrl": "#/chapter/1/verse/1.20",
         "nextVerseUrl": "#/chapter/1/verse/1.21 – 1.22",
         "previousVerseUrl": "#/chapter/1/verse/1.19"
@@ -1186,11 +2120,178 @@
         "currentVerse": "1.21 – 1.22",
         "nextVerse": "1.23",
         "previousVerse": "1.20",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 1.21-22",
+            "value": " Arjun said: O Infallible One, please take my chariot to the middle of both armies, so that I may look at the warriors arrayed for battle, whom I must fight in this great combat."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "Arjun was a skilled warrior, and the most powerful Hanuman was sitting on top of his magnificent chariot. Moreover, his devotion towards the Supreme Lord Shree Krishna was such that, the Lord himself had agreed to be Arjun’s charioteer. Here, Arjun was seated on the passenger seat giving instructions to Shree Krishna, his charioteer. He addresses the Lord as Achyuta, the most dependable One and requests him to place the chariot in the middle of the battlefield.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": " ahaṁ bhakta-parādhīno hyasvatantra iva dvija ",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 3,
+            "value": " sādhubhir grasta-hṛidayo bhaktair bhakta-jana-priyaḥ",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 4,
+            "value": " (Bhagavatam 9.4.63)",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 5,
+            "value": "“Although I am Supremely Independent, yet I become enslaved by My devotees.  They are very dear to Me, and I become indebted to them for their love.”  Such is the beauty of God’s bond with his devotees that He gets enslaved, beholden by His devotees’ love.",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "अर्जुन उवाच |"
+          },
+          {
+            "id": 2,
+            "value": "सेनयोरुभयोर्मध्ये रथं स्थापय मेऽच्युत || 21||"
+          },
+          {
+            "id": 3,
+            "value": "यावदेतान्निरीक्षेऽहं योद्धुकामानवस्थितान् |"
+          },
+          {
+            "id": 4,
+            "value": "कैर्मया सह योद्धव्यमस्मिन् रणसमुद्यमे || 22||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "arjuna uvācha"
+          },
+          {
+            "id": 2,
+            "value": "senayor ubhayor madhye rathaṁ sthāpaya me ’chyuta"
+          },
+          {
+            "id": 3,
+            "value": "yāvadetān nirīkṣhe ’haṁ yoddhu-kāmān avasthitān"
+          },
+          {
+            "id": 4,
+            "value": "kairmayā saha yoddhavyam asmin raṇa-samudyame"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "arjunaḥ uvācha",
+            "meaning": "Arjun said"
+          },
+          {
+            "id": 2,
+            "sanskrit": " senayoḥ",
+            "meaning": "armies"
+          },
+          {
+            "id": 3,
+            "sanskrit": " ubhayoḥ",
+            "meaning": "both"
+          },
+          {
+            "id": 4,
+            "sanskrit": " madhye",
+            "meaning": "in the middle"
+          },
+          {
+            "id": 5,
+            "sanskrit": " ratham",
+            "meaning": "chariot"
+          },
+          {
+            "id": 6,
+            "sanskrit": " sthāpaya",
+            "meaning": "place"
+          },
+          {
+            "id": 7,
+            "sanskrit": " me",
+            "meaning": "my"
+          },
+          {
+            "id": 8,
+            "sanskrit": " achyuta",
+            "meaning": "Shree Krishna, the infallible One"
+          },
+          {
+            "id": 9,
+            "sanskrit": " yāvat",
+            "meaning": "as many as"
+          },
+          {
+            "id": 10,
+            "sanskrit": " etān",
+            "meaning": "these"
+          },
+          {
+            "id": 11,
+            "sanskrit": " nirīkṣhe",
+            "meaning": "look"
+          },
+          {
+            "id": 12,
+            "sanskrit": " aham",
+            "meaning": "I"
+          },
+          {
+            "id": 13,
+            "sanskrit": " yoddhu-kāmān",
+            "meaning": "for the battle"
+          },
+          {
+            "id": 14,
+            "sanskrit": " avasthitān",
+            "meaning": "arrayed"
+          },
+          {
+            "id": 15,
+            "sanskrit": " kaiḥ",
+            "meaning": "with whom"
+          },
+          {
+            "id": 16,
+            "sanskrit": " mayā",
+            "meaning": "by me"
+          },
+          {
+            "id": 17,
+            "sanskrit": " saha",
+            "meaning": "together"
+          },
+          {
+            "id": 18,
+            "sanskrit": " yoddhavyam",
+            "meaning": "must fight"
+          },
+          {
+            "id": 19,
+            "sanskrit": " asmin",
+            "meaning": "in this"
+          },
+          {
+            "id": 20,
+            "sanskrit": " raṇa-samudyame",
+            "meaning": "great combat"
+          }
+        ],
         "currentVerseUrl": "#/chapter/1/verse/1.21 – 1.22",
         "nextVerseUrl": "#/chapter/1/verse/1.23",
         "previousVerseUrl": "#/chapter/1/verse/1.20"

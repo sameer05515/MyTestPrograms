@@ -1,5 +1,5 @@
 
-package com.p.pers.test;
+package com.p.pers.smbg;
 
 import java.io.BufferedReader;
 import java.io.File;

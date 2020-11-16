@@ -1,4 +1,4 @@
-package com.p.pers.test;
+package com.p.pers.smbg;
 
 public class MySqlDBDump {
 

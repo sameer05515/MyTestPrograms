@@ -1,30 +1,36 @@
 <div class="container">
-    
+
     <div class="row">
-        <div class="col-sm-16">
-            <div class="row" style="text-align: center;">
-                <a href="#/">home</a>
-            </div>
-        </div>
-        <div class="col-sm-16">
+
+        <div class="col-sm-16 headingBg">
             <div class="row">
-                <!-- <div class="col-sm-8"> -->
-                    <a href="{{chapterObj.previousChapterUrl}}" class="pull-left">Previous Chapter</a>
-                <!-- </div> -->
+                <span>{{chapterObj.chapterTitleForChapterPage}}</span>
+                ( <span style="font-size: smaller;">{{chapterObj.chapterSubTitleForChapterPage}}</span> )
+            </div>
 
-                <!-- <div class="col-sm-8"> -->
-                    <a href="{{chapterObj.nextChapterUrl}}" class="pull-right">Next Chapter</a>
-                <!-- </div> -->
+            <div class="row" style="text-align: center;font-size: smaller;color: #f1f5f0;">
+                <a href="#/"><b>HOME</b></a>
+            </div>
+
+            <div class="row" style="font-size: smaller;color: #f1f5f0;">
+                <div class="col-sm-6">
+                    <a href="{{chapterObj.previousChapterUrl}}" class="pull-left"><b>Previous Chapter</b></a>
+                </div>
+                <div class="col-sm-2"></div>
+                <div class="col-sm-6">
+                    <a href="{{chapterObj.nextChapterUrl}}" class="pull-right"><b>Next Chapter</b></a>
+                </div>
             </div>
         </div>
 
-        <div class="col-sm-16">
+        <!-- <div class="col-sm-16">
             <span>{{chapterObj.chapterTitleForChapterPage}}</span>
         </div>
         
         <div class="col-sm-16">
             <span>{{chapterObj.chapterSubTitleForChapterPage}}</span>
-        </div>
+        </div> -->
+        <br>
         <div class="col-sm-16">
             <div ng-repeat="desc in chapterObj.description">{{desc}}</div>
         </div>
