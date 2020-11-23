@@ -7,7 +7,9 @@ import java.io.FileReader;
 import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;
 import java.util.Set;
@@ -346,10 +348,19 @@ public class TestJsonObjectTokenTraversal {
 		}
 		
 		Set<String> keys=wmMap.keySet();
-		for(String key:keys) {
+		List<String> lkeys=new LinkedList<String>(keys);
+		Collections.sort(lkeys);
+		int lkeysSize=lkeys.size();
+		for(int i=0;i<lkeysSize;i++) {
+			String currkey=lkeys.get(i);
+			String prevkey=lkeys.get((i-1+lkeysSize)%lkeysSize);
+			String nextkey=lkeys.get((i+1+lkeysSize)%lkeysSize);
 			JsonObject mObj = new JsonObject();
-			mObj.addProperty("id", key);
-			mObj.add("data", wmMap.get(key));
+			mObj.addProperty("id", currkey);
+			mObj.add("data", wmMap.get(currkey));
+			mObj.addProperty("previousWMUrl", "#/word-meaning/"+prevkey);
+			mObj.addProperty("nextWMUrl", "#/word-meaning/"+nextkey);
+			mObj.addProperty("currentWMUrl", "#/word-meaning/"+currkey);
 			wmArr.add(mObj);
 		}
 		
