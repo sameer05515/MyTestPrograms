@@ -24270,11 +24270,162 @@
         "currentVerse": "4.11",
         "nextVerse": "4.12",
         "previousVerse": "4.10",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 4.11",
+            "value": " In whatever way people surrender unto me, I reciprocate with them accordingly. Everyone follows my path, knowingly or unknowingly, O son of Pritha."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "Here, Lord Krishna states that he reciprocates with everyone as they surrender to him. For those who deny the existence of God, he meets them in the form of the law of karma—he sits inside their hearts, notes their actions, and dispenses the results. But such atheists too cannot get away from serving him; they are obliged to serve God’s material energy, Maya, in its various apparitions, as wealth, luxuries, relatives, prestige, etc. Maya holds them under the sway of anger, lust, and greed. On the other hand, for those who turn their mind away from worldly attractions and look upon God as the goal and refuge, he takes care of them just as a mother takes care of her child.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "Shree Krishna uses the word bhajāmi, which means “to serve.” He serves the surrendered souls, by destroying their accumulated karmas of endless lifetimes, cutting the bonds of Maya, removing the darkness of material existence, and bestowing divine bliss, divine knowledge, and divine love. And when the devotee learns to love God selflessly, he willingly enslaves himself to their love. Shree Ram thus tells Hanuman:",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 3,
+            "value": "  ekaikasyopakārasya prāṇān dāsyāsmi te kape",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 4,
+            "value": "  śheṣhasyehopakārāṇāṁ bhavām ṛiṇino vayaṁ ",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 5,
+            "value": "  (Vālmīki Ramayan)[v14]",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 6,
+            "value": "“O Hanuman, to release myself from the debt of one service you performed for me, I shall have to offer my life to you. For all the other devotional services done by you, I shall remain eternally indebted.” In this way, God reciprocates with everyone as they surrender to him.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 7,
+            "value": "If God is so merciful upon his devotees, why do some people worship the celestial gods instead? He explains in the following verse.",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "ये यथा मां प्रपद्यन्ते तांस्तथैव भजाम्यहम् |"
+          },
+          {
+            "id": 2,
+            "value": "मम वर्त्मानुवर्तन्ते मनुष्या: पार्थ सर्वश: || 11||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "ye yathā māṁ prapadyante tāns tathaiva bhajāmyaham"
+          },
+          {
+            "id": 2,
+            "value": "mama vartmānuvartante manuṣhyāḥ pārtha sarvaśhaḥ"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "ye",
+            "wordMeaningDetailUrl": "#/word-meaning/ye",
+            "meaning": "who"
+          },
+          {
+            "id": 2,
+            "sanskrit": " yathā",
+            "wordMeaningDetailUrl": "#/word-meaning/yathā",
+            "meaning": "in whatever way"
+          },
+          {
+            "id": 3,
+            "sanskrit": " mām",
+            "wordMeaningDetailUrl": "#/word-meaning/mām",
+            "meaning": "unto me"
+          },
+          {
+            "id": 4,
+            "sanskrit": " prapadyante",
+            "wordMeaningDetailUrl": "#/word-meaning/prapadyante",
+            "meaning": "surrender"
+          },
+          {
+            "id": 5,
+            "sanskrit": " tān",
+            "wordMeaningDetailUrl": "#/word-meaning/tān",
+            "meaning": "them"
+          },
+          {
+            "id": 6,
+            "sanskrit": " tathā",
+            "wordMeaningDetailUrl": "#/word-meaning/tathā",
+            "meaning": "so"
+          },
+          {
+            "id": 7,
+            "sanskrit": " eva",
+            "wordMeaningDetailUrl": "#/word-meaning/eva",
+            "meaning": "certainly"
+          },
+          {
+            "id": 8,
+            "sanskrit": " bhajāmi",
+            "wordMeaningDetailUrl": "#/word-meaning/bhajāmi",
+            "meaning": "reciprocate"
+          },
+          {
+            "id": 9,
+            "sanskrit": " aham",
+            "wordMeaningDetailUrl": "#/word-meaning/aham",
+            "meaning": "I"
+          },
+          {
+            "id": 10,
+            "sanskrit": " mama",
+            "wordMeaningDetailUrl": "#/word-meaning/mama",
+            "meaning": "my"
+          },
+          {
+            "id": 11,
+            "sanskrit": " vartma",
+            "wordMeaningDetailUrl": "#/word-meaning/vartma",
+            "meaning": "path"
+          },
+          {
+            "id": 12,
+            "sanskrit": " anuvartante",
+            "wordMeaningDetailUrl": "#/word-meaning/anuvartante",
+            "meaning": "follow"
+          },
+          {
+            "id": 13,
+            "sanskrit": " manuṣhyāḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/manuṣhyāḥ",
+            "meaning": "men"
+          },
+          {
+            "id": 14,
+            "sanskrit": " pārtha",
+            "wordMeaningDetailUrl": "#/word-meaning/pārtha",
+            "meaning": "Arjun, the son of Pritha"
+          },
+          {
+            "id": 15,
+            "sanskrit": " sarvaśhaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/sarvaśhaḥ",
+            "meaning": "in all respects"
+          }
+        ],
         "currentVerseUrl": "#/chapter/4/verse/4.11",
         "nextVerseUrl": "#/chapter/4/verse/4.12",
         "previousVerseUrl": "#/chapter/4/verse/4.10"
@@ -24286,11 +24437,135 @@
         "currentVerse": "4.12",
         "nextVerse": "4.13",
         "previousVerse": "4.11",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 4.12",
+            "value": " In this world, those desiring success in material activities worship the celestial gods, since material rewards manifest quickly."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "Persons who seek worldly gain worship the celestial gods and seek boons from them. The boons the celestial gods bestow are material and temporary, and they are given only by virtue of the power they have received from the Supreme Lord. There is a beautiful instructive story in this regard:",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "Saint Farid went to the court of Emperor Akbar, a powerful king in Indian history. He waited in the court for an audience, while Akbar was praying in the next room. Farid peeped into the room to see what was going on, and was amused to hear Akbar praying to God for more powerful army, a bigger treasure chest, and success in battle. Without disturbing the king, Farid returned to the royal court.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 3,
+            "value": "After completing his prayers, Akbar came and gave him audience. He asked the great Sage if there was anything that he wanted. Farid replied, “I came to ask the Emperor for things I required for my āśhram. However, I find that the Emperor is himself a beggar before the Lord. Then why should I ask him for any favors, and not directly from the Lord himself?”",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 4,
+            "value": "The celestial gods give boons only by the powers bestowed upon them by the Supreme Lord. People with small understanding approach them, but those who are intelligent realize that there is no point in going to the intermediary and they approach the Supreme Lord for the fulfillment of their aspirations. People are of various kinds, possessing higher and lower aspirations. Shree Krishna now mentions four categories of qualities and works.",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "काङ् क्षन्त: कर्मणां सिद्धिं यजन्त इह देवता: |"
+          },
+          {
+            "id": 2,
+            "value": "क्षिप्रं हि मानुषे लोके सिद्धिर्भवति कर्मजा || 12||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "kāṅkṣhantaḥ karmaṇāṁ siddhiṁ yajanta iha devatāḥ"
+          },
+          {
+            "id": 2,
+            "value": "kṣhipraṁ hi mānuṣhe loke siddhir bhavati karmajā"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "kāṅkṣhantaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/kāṅkṣhantaḥ",
+            "meaning": "desiring"
+          },
+          {
+            "id": 2,
+            "sanskrit": " karmaṇām",
+            "wordMeaningDetailUrl": "#/word-meaning/karmaṇām",
+            "meaning": "material activities"
+          },
+          {
+            "id": 3,
+            "sanskrit": " siddhim",
+            "wordMeaningDetailUrl": "#/word-meaning/siddhim",
+            "meaning": "success"
+          },
+          {
+            "id": 4,
+            "sanskrit": " yajante",
+            "wordMeaningDetailUrl": "#/word-meaning/yajante",
+            "meaning": "worship"
+          },
+          {
+            "id": 5,
+            "sanskrit": " iha",
+            "wordMeaningDetailUrl": "#/word-meaning/iha",
+            "meaning": "in this world"
+          },
+          {
+            "id": 6,
+            "sanskrit": " devatāḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/devatāḥ",
+            "meaning": "the celestial gods"
+          },
+          {
+            "id": 7,
+            "sanskrit": " kṣhipram",
+            "wordMeaningDetailUrl": "#/word-meaning/kṣhipram",
+            "meaning": "quickly"
+          },
+          {
+            "id": 8,
+            "sanskrit": " hi",
+            "wordMeaningDetailUrl": "#/word-meaning/hi",
+            "meaning": "certainly"
+          },
+          {
+            "id": 9,
+            "sanskrit": " mānuṣhe",
+            "wordMeaningDetailUrl": "#/word-meaning/mānuṣhe",
+            "meaning": "in human society"
+          },
+          {
+            "id": 10,
+            "sanskrit": " loke",
+            "wordMeaningDetailUrl": "#/word-meaning/loke",
+            "meaning": "within this world"
+          },
+          {
+            "id": 11,
+            "sanskrit": " siddhiḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/siddhiḥ",
+            "meaning": "rewarding"
+          },
+          {
+            "id": 12,
+            "sanskrit": " bhavati",
+            "wordMeaningDetailUrl": "#/word-meaning/bhavati",
+            "meaning": "manifest"
+          },
+          {
+            "id": 13,
+            "sanskrit": " karma-jā",
+            "wordMeaningDetailUrl": "#/word-meaning/karma-jā",
+            "meaning": "from material activities"
+          }
+        ],
         "currentVerseUrl": "#/chapter/4/verse/4.12",
         "nextVerseUrl": "#/chapter/4/verse/4.13",
         "previousVerseUrl": "#/chapter/4/verse/4.11"
@@ -24302,11 +24577,130 @@
         "currentVerse": "4.13",
         "nextVerse": "4.14",
         "previousVerse": "4.12",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 4.13",
+            "value": " The four categories of occupations were created by me according to people’s qualities and activities. Although I am the creator of this system, know me to be the non-doer and eternal."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "The Vedas classify people into four categories of occupations, not according to their birth, but according to their natures. Such varieties of occupations exist in every society. Even in communist nations where equality is the overriding principle, the diversity in human beings cannot be smothered. There are the philosophers who are the communist party think-tanks, there are the military men who protect the country, there are the farmers who engage in agriculture, and there are the factory workers.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "The Vedic philosophy explains this variety in a more scientific manner. It states that the material energy is constituted of three guṇas (modes): sattva guṇa (mode of goodness), rajo guṇa (mode of passion), and tamo guṇa (mode of ignorance). The Brahmins are those who have a preponderance of the mode of goodness. They are predisposed toward teaching and worship. The Kshatriyas are those who have a preponderance of the mode of passion mixed with a smaller amount of the mode of goodness. They are inclined toward administration and management. The Vaishyas are those who possess the mode of passion mixed with some mode of ignorance. Accordingly, they form the business and agricultural class. Then there are the Shudras, who are predominated by the mode of ignorance. They form the working class. This classification was neither meant to be according to birth, nor was it unchangeable. Shree Krishna explains in this verse that the classification of the Varṇāśhram system was according to people’s qualities and activities.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 3,
+            "value": "Although God is the creator of the scheme of the world, yet he is the non-doer. This is similar to the rain. Just as rain water falls equally on the forest, yet from some seeds huge banyan trees sprout, from other seeds beautiful flowers bloom, and from some thorny bushes emerge. The rain, which is impartial, is not answerable for this difference. In the same way, God provides the souls with the energy to act, but they are free in determining what they wish to do with it; God is not responsible for their actions.",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "चातुर्वर्ण्यं मया सृष्टं गुणकर्मविभागश: |"
+          },
+          {
+            "id": 2,
+            "value": "तस्य कर्तारमपि मां विद्ध्यकर्तारमव्ययम् || 13||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "chātur-varṇyaṁ mayā sṛiṣhṭaṁ guṇa-karma-vibhāgaśhaḥ"
+          },
+          {
+            "id": 2,
+            "value": "tasya kartāram api māṁ viddhyakartāram avyayam"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "chātuḥ-varṇyam",
+            "wordMeaningDetailUrl": "#/word-meaning/chātuḥ-varṇyam",
+            "meaning": "the four categories of occupations"
+          },
+          {
+            "id": 2,
+            "sanskrit": " mayā",
+            "wordMeaningDetailUrl": "#/word-meaning/mayā",
+            "meaning": "by me"
+          },
+          {
+            "id": 3,
+            "sanskrit": " sṛiṣhṭam",
+            "wordMeaningDetailUrl": "#/word-meaning/sṛiṣhṭam",
+            "meaning": "were created"
+          },
+          {
+            "id": 4,
+            "sanskrit": " guṇa",
+            "wordMeaningDetailUrl": "#/word-meaning/guṇa",
+            "meaning": "of quality"
+          },
+          {
+            "id": 5,
+            "sanskrit": " karma",
+            "wordMeaningDetailUrl": "#/word-meaning/karma",
+            "meaning": "and activities"
+          },
+          {
+            "id": 6,
+            "sanskrit": " vibhāgaśhaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/vibhāgaśhaḥ",
+            "meaning": "according to divisions"
+          },
+          {
+            "id": 7,
+            "sanskrit": " tasya",
+            "wordMeaningDetailUrl": "#/word-meaning/tasya",
+            "meaning": "of that"
+          },
+          {
+            "id": 8,
+            "sanskrit": " kartāram",
+            "wordMeaningDetailUrl": "#/word-meaning/kartāram",
+            "meaning": "the creator"
+          },
+          {
+            "id": 9,
+            "sanskrit": " api",
+            "wordMeaningDetailUrl": "#/word-meaning/api",
+            "meaning": "although"
+          },
+          {
+            "id": 10,
+            "sanskrit": " mām",
+            "wordMeaningDetailUrl": "#/word-meaning/mām",
+            "meaning": "me"
+          },
+          {
+            "id": 11,
+            "sanskrit": " viddhi",
+            "wordMeaningDetailUrl": "#/word-meaning/viddhi",
+            "meaning": "know"
+          },
+          {
+            "id": 12,
+            "sanskrit": " akartāram",
+            "wordMeaningDetailUrl": "#/word-meaning/akartāram",
+            "meaning": "non-doer"
+          },
+          {
+            "id": 13,
+            "sanskrit": " avyayam",
+            "wordMeaningDetailUrl": "#/word-meaning/avyayam",
+            "meaning": "unchangeable"
+          }
+        ],
         "currentVerseUrl": "#/chapter/4/verse/4.13",
         "nextVerseUrl": "#/chapter/4/verse/4.14",
         "previousVerseUrl": "#/chapter/4/verse/4.12"
@@ -24318,11 +24712,188 @@
         "currentVerse": "4.14",
         "nextVerse": "4.15",
         "previousVerse": "4.13",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 4.14",
+            "value": " Activities do not taint me, nor do I desire the fruits of action. One who knows me in this way is never bound by the karmic reactions of work."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "God is all-pure, and whatever he does also becomes pure and auspicious. The Ramayan states:",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "  samaratha kahuñ nahiṅ doṣhu gosāīṅ, rabi pāvaka surasari kī nāīṅ. [v15]",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 3,
+            "value": "“Pure personalities are never tainted by defects even in contact with impure situations and entities, like the sun, the fire, and the Ganges.” The sun does not get tainted if sunlight falls on a puddle of urine. The sun retains its purity, while also purifying the dirty puddle. Similarly, if we offer impure objects into the fire, it still retains its purity—the fire is pure, and whatever we pour into it also gets purified. In the same manner, numerous gutters of rainwater merge into the holy Ganges, but this does not make the Ganges a gutter—the Ganges is pure and in transforms all those dirty gutters into the holy Ganges. Likewise, God is not tainted by the activities he performs.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 4,
+            "value": "Activities bind one in karmic reactions when they are performed with the mentality of enjoying the results. However, God’s actions are not motivated by selfishness; his every act is driven by compassion for the souls. Therefore, although he administers the world directly or indirectly, and engages in all kinds of activities in the process, he is never tainted by any reactions. Lord Krishna states here that he is transcendental to the fruitive reactions of work.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 5,
+            "value": "Even Saints who are situated in God-consciousness become transcendental to the material energy. Since all their activities are effectuated in love for God, such pure-hearted Saints are not bound by the fruitive reactions of work. The Śhrīmad Bhāgavatam states:",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 6,
+            "value": "  yat pāda paṅkaja parāga niṣheva tṛiptā",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 7,
+            "value": "  yoga prabhāva vidhutākhila karma bandhāḥ",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 8,
+            "value": "  svairaṁ charanti munayo ’pi na nahyamānās",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 9,
+            "value": "  tasyechchhayātta vapuṣhaḥ kuta eva bandhaḥ ",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 10,
+            "value": "  (10.33.34) [v16]",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 11,
+            "value": "“Material activities never taint the devotees of God who are fully satisfied in serving the dust of his lotus feet. Nor do material activities taint those wise sages who have freed themselves from the bondage of fruitive reactions by the power of Yog. So where is the question of bondage for the Lord himself who assumes his transcendental form according to his own sweet will?”",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "न मां कर्माणि लिम्पन्ति न मे कर्मफले स्पृहा |"
+          },
+          {
+            "id": 2,
+            "value": "इति मां योऽभिजानाति कर्मभिर्न स बध्यते || 14||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "na māṁ karmāṇi limpanti na me karma-phale spṛihā"
+          },
+          {
+            "id": 2,
+            "value": "iti māṁ yo ’bhijānāti karmabhir na sa badhyate"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "na",
+            "wordMeaningDetailUrl": "#/word-meaning/na",
+            "meaning": "not"
+          },
+          {
+            "id": 2,
+            "sanskrit": " mām",
+            "wordMeaningDetailUrl": "#/word-meaning/mām",
+            "meaning": "me"
+          },
+          {
+            "id": 3,
+            "sanskrit": " karmāṇi",
+            "wordMeaningDetailUrl": "#/word-meaning/karmāṇi",
+            "meaning": "activities"
+          },
+          {
+            "id": 4,
+            "sanskrit": " limpanti",
+            "wordMeaningDetailUrl": "#/word-meaning/limpanti",
+            "meaning": "taint"
+          },
+          {
+            "id": 5,
+            "sanskrit": " na",
+            "wordMeaningDetailUrl": "#/word-meaning/na",
+            "meaning": "nor"
+          },
+          {
+            "id": 6,
+            "sanskrit": " me",
+            "wordMeaningDetailUrl": "#/word-meaning/me",
+            "meaning": "my"
+          },
+          {
+            "id": 7,
+            "sanskrit": " karma-phale",
+            "wordMeaningDetailUrl": "#/word-meaning/karma-phale",
+            "meaning": "the fruits of action"
+          },
+          {
+            "id": 8,
+            "sanskrit": " spṛihā",
+            "wordMeaningDetailUrl": "#/word-meaning/spṛihā",
+            "meaning": "desire"
+          },
+          {
+            "id": 9,
+            "sanskrit": " iti",
+            "wordMeaningDetailUrl": "#/word-meaning/iti",
+            "meaning": "thus"
+          },
+          {
+            "id": 10,
+            "sanskrit": " mām",
+            "wordMeaningDetailUrl": "#/word-meaning/mām",
+            "meaning": "me"
+          },
+          {
+            "id": 11,
+            "sanskrit": " yaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/yaḥ",
+            "meaning": "who"
+          },
+          {
+            "id": 12,
+            "sanskrit": " abhijānāti",
+            "wordMeaningDetailUrl": "#/word-meaning/abhijānāti",
+            "meaning": "knows"
+          },
+          {
+            "id": 13,
+            "sanskrit": " karmabhiḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/karmabhiḥ",
+            "meaning": "result of action"
+          },
+          {
+            "id": 14,
+            "sanskrit": " na",
+            "wordMeaningDetailUrl": "#/word-meaning/na",
+            "meaning": "never"
+          },
+          {
+            "id": 15,
+            "sanskrit": " saḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/saḥ",
+            "meaning": "that person"
+          },
+          {
+            "id": 16,
+            "sanskrit": " badhyate",
+            "wordMeaningDetailUrl": "#/word-meaning/badhyate",
+            "meaning": "is bound"
+          }
+        ],
         "currentVerseUrl": "#/chapter/4/verse/4.14",
         "nextVerseUrl": "#/chapter/4/verse/4.15",
         "previousVerseUrl": "#/chapter/4/verse/4.13"
