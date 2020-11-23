@@ -208,7 +208,7 @@ public class TestJsonObjectTokenTraversal {
 										JsonObject obj = new JsonObject();
 										obj.addProperty("id", id);
 										obj.addProperty("sanskrit", mean.split("—")[0]);
-										obj.addProperty("wordMeaningDetailUrl", "#/word-meaning/"+mean.split("—")[0]);
+										obj.addProperty("wordMeaningDetailUrl", "#/word-meaning/"+mean.split("—")[0].trim());
 										///word-meaning/
 										obj.addProperty("meaning", mean.split("—")[1]);
 										jsonArray.add(obj);
