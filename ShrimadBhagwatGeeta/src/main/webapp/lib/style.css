@@ -7,3 +7,14 @@
     border: 1px solid #594224;
     border-radius: 2px;
 }
+
+
+.occurencesTable {
+    border: 1px solid #242d59;
+    margin: 0 auto;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}

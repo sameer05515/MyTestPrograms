@@ -20941,11 +20941,120 @@
         "currentVerse": "4.4",
         "nextVerse": "4.5",
         "previousVerse": "4.3",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 4.4",
+            "value": " Arjun said: You were born much after Vivasvan. How am I to understand that in the beginning you instructed this science to him?"
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "Arjun is puzzled by the apparent incongruity of events in Shree Krishna’s statement. The Sun god has been present since almost the beginning of creation, while Shree Krishna has only recently been born in the world. If Shree Krishna is the son of Vasudev and Devaki, then his statement that he taught this science to Vivasvan, the Sun god appears inconsistent to Arjun, and he inquires about it. Arjun’s question invites an exposition on the concept of the divine descension of God, and Shree Krishna responds to it in the subsequent verses.",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "अर्जुन उवाच |"
+          },
+          {
+            "id": 2,
+            "value": "अपरं भवतो जन्म परं जन्म विवस्वत: |"
+          },
+          {
+            "id": 3,
+            "value": "कथमेतद्विजानीयां त्वमादौ प्रोक्तवानिति || 4||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "arjuna uvācha"
+          },
+          {
+            "id": 2,
+            "value": "aparaṁ bhavato janma paraṁ janma vivasvataḥ"
+          },
+          {
+            "id": 3,
+            "value": "katham etad vijānīyāṁ tvam ādau proktavān iti"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "arjunaḥ uvācha",
+            "meaning": "Arjun said"
+          },
+          {
+            "id": 2,
+            "sanskrit": " aparam",
+            "meaning": "later"
+          },
+          {
+            "id": 3,
+            "sanskrit": " bhavataḥ",
+            "meaning": "your"
+          },
+          {
+            "id": 4,
+            "sanskrit": " janma",
+            "meaning": "birth"
+          },
+          {
+            "id": 5,
+            "sanskrit": " param",
+            "meaning": "prior"
+          },
+          {
+            "id": 6,
+            "sanskrit": " janma",
+            "meaning": "birth"
+          },
+          {
+            "id": 7,
+            "sanskrit": " vivasvataḥ",
+            "meaning": "Vivasvan, the sun-god"
+          },
+          {
+            "id": 8,
+            "sanskrit": " katham",
+            "meaning": "how"
+          },
+          {
+            "id": 9,
+            "sanskrit": " etat",
+            "meaning": "this"
+          },
+          {
+            "id": 10,
+            "sanskrit": " vijānīyām",
+            "meaning": "am I to understand"
+          },
+          {
+            "id": 11,
+            "sanskrit": " tvam",
+            "meaning": "you"
+          },
+          {
+            "id": 12,
+            "sanskrit": " ādau",
+            "meaning": "in the beginning"
+          },
+          {
+            "id": 13,
+            "sanskrit": " proktavān",
+            "meaning": "taught"
+          },
+          {
+            "id": 14,
+            "sanskrit": " iti",
+            "meaning": "thus"
+          }
+        ],
         "currentVerseUrl": "#/chapter/4/verse/4.4",
         "nextVerseUrl": "#/chapter/4/verse/4.5",
         "previousVerseUrl": "#/chapter/4/verse/4.3"
@@ -20957,11 +21066,145 @@
         "currentVerse": "4.5",
         "nextVerse": "4.6",
         "previousVerse": "4.4",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 4.5",
+            "value": " The Supreme Lord said: Both you and I have had many births, O Arjun. You have forgotten them, while I remember them all, O Parantapa."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "Shree Krishna explains that merely because he is standing before Arjun in the human form, he should not be equated with human beings. The president of a country sometimes decides to visit the prison, but if we see the president standing in the jail, we do not erroneously conclude that he is also a convict. We know that he is in the jail merely for an inspection. Similarly, God sometimes descends in the material world, but he is never divested of his divine attributes and powers.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "In his commentary upon this verse, Shankaracharya states: yā vāsudeve anīśhvarāsarvajñāśhaṅkā mūrkhāṇāṃ tāṃ pariharan śhrī-bhagavān uvācha (Śhārīrak Bhāṣhya on verse 4.5)[v2] “This verse has been spoken by Shree Krishna to refute foolish people who doubt that he is not God.” Non-believers argue that Shree Krishna too was born like the rest of us, and he ate, drank, slept, like we all do, and so he could not have been God. Here, Shree Krishna emphasizes the difference between the soul and God by stating that although he descends in the world innumerable times, he still remains omniscient, unlike the soul whose knowledge is finite.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 3,
+            "value": "The individual soul and the Supreme Soul, God, have many similarities—both are sat-chit-ānand (eternal, sentient, and blissful). However, there are also many differences. God is all-pervading, while the soul only pervades the body it inhabits; God is all-powerful, while the soul does not even have the power to liberate itself from Maya without God’s grace; God is the creator of the laws of nature, while the soul is subject to these laws; God is the upholder of the entire creation, while the soul is upheld by him; God is all-knowing, while the soul does not have complete knowledge even in one subject.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 4,
+            "value": "Shree Krishna calls Arjun in this verse as “Parantapa,” meaning “subduer of the enemies.” He implies, “Arjun, you are a valiant warrior who has slayed so many powerful enemies. Now, do not accept defeat before this doubt that has crept into your mind. Use the sword of knowledge that I am giving you to slay it and be situated in wisdom.”",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "श्रीभगवानुवाच |"
+          },
+          {
+            "id": 2,
+            "value": "बहूनि मे व्यतीतानि जन्मानि तव चार्जुन |"
+          },
+          {
+            "id": 3,
+            "value": "तान्यहं वेद सर्वाणि न त्वं वेत्थ परन्तप || 5||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "śhrī bhagavān uvācha"
+          },
+          {
+            "id": 2,
+            "value": "bahūni me vyatītāni janmāni tava chārjuna"
+          },
+          {
+            "id": 3,
+            "value": "tānyahaṁ veda sarvāṇi na tvaṁ vettha parantapa"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "śhrī-bhagavān uvācha",
+            "meaning": "the Supreme Lord said"
+          },
+          {
+            "id": 2,
+            "sanskrit": " bahūni",
+            "meaning": "many"
+          },
+          {
+            "id": 3,
+            "sanskrit": " me",
+            "meaning": "of mine"
+          },
+          {
+            "id": 4,
+            "sanskrit": " vyatītāni",
+            "meaning": "have passed"
+          },
+          {
+            "id": 5,
+            "sanskrit": " janmāni",
+            "meaning": "births"
+          },
+          {
+            "id": 6,
+            "sanskrit": " tava",
+            "meaning": "of yours"
+          },
+          {
+            "id": 7,
+            "sanskrit": " cha",
+            "meaning": "and"
+          },
+          {
+            "id": 8,
+            "sanskrit": " arjuna",
+            "meaning": "Arjun"
+          },
+          {
+            "id": 9,
+            "sanskrit": " tāni",
+            "meaning": "them"
+          },
+          {
+            "id": 10,
+            "sanskrit": " aham",
+            "meaning": "I"
+          },
+          {
+            "id": 11,
+            "sanskrit": " veda",
+            "meaning": "know"
+          },
+          {
+            "id": 12,
+            "sanskrit": " sarvāṇi",
+            "meaning": "all"
+          },
+          {
+            "id": 13,
+            "sanskrit": " na",
+            "meaning": "not"
+          },
+          {
+            "id": 14,
+            "sanskrit": " tvam",
+            "meaning": "you"
+          },
+          {
+            "id": 15,
+            "sanskrit": " vettha",
+            "meaning": "know"
+          },
+          {
+            "id": 16,
+            "sanskrit": " parantapa",
+            "meaning": "Arjun, the scorcher of foes"
+          }
+        ],
         "currentVerseUrl": "#/chapter/4/verse/4.5",
         "nextVerseUrl": "#/chapter/4/verse/4.6",
         "previousVerseUrl": "#/chapter/4/verse/4.4"
@@ -20973,11 +21216,142 @@
         "currentVerse": "4.6",
         "nextVerse": "4.7",
         "previousVerse": "4.5",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 4.6",
+            "value": " Although I am unborn, the Lord of all living entities, and have an imperishable nature, yet I appear in this world by virtue of Yogmaya, my divine power."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "Many people revolt at the idea of a God who possesses a form. They are more comfortable with a formless God, who is all-pervading, incorporeal, and subtle. God is definitely incorporeal and formless, but that does not mean that he cannot simultaneously have a form as well. Since God is all-powerful, he has the power to manifest in a form if he wishes. If someone stipulates that God cannot have a form, it means that person does not accept him as all-powerful. Thus to say, “God is formless,” is an incomplete statement. On the other hand, to say, “God manifests in a personal form,” is also only a partial truth. The all-powerful God has both aspects to his divine personality—the personal form and the formless aspect. Hence, the Bṛihadāraṇyak Upaniṣhad states:",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "  dwe vāva brahmaṇo rūpe mūrtaṁ chaiva amūrtaṁ cha (2.3.1)[v3]",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 3,
+            "value": "“God appears in both ways—as the formless Brahman and as the personal God.” They are both dimensions of his personality.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 4,
+            "value": "In fact, the individual soul also has these two dimensions to its existence. It is formless, and hence, when it leaves the body upon death, it cannot be seen. Yet it takes on a body—not once, but innumerable times—as it transmigrates from birth to birth. When the tiny soul is able to possess a body, can the all-powerful God not have a form? Or is it that God says, “I do not have the power to manifest in a form, and hence I am only a formless light.” For him to be perfect and complete, he must be both personal and formless.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 5,
+            "value": "The difference is that while our form is created from the material energy, Maya, God’s form is created by his divine energy, Yogmaya. It is thus divine, and beyond material defects. This has been nicely stated in the Padma Purāṇ:",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 6,
+            "value": "  yastu nirguṇa ityuktaḥ śhāstreṣhu jagadīśhvaraḥ",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 7,
+            "value": "  prākṛitairheya sanyuktairguṇairhīnatvamuchyate [v4]",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 8,
+            "value": "“Wherever the Vedic scriptures state that God does not have a form, they imply that his form is not subject to the blemishes of the material energy; rather, it is a divine form.”",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "अजोऽपि सन्नव्ययात्मा भूतानामीश्वरोऽपि सन् |"
+          },
+          {
+            "id": 2,
+            "value": "प्रकृतिं स्वामधिष्ठाय सम्भवाम्यात्ममायया || 6||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "ajo ’pi sannavyayātmā bhūtānām īśhvaro ’pi san"
+          },
+          {
+            "id": 2,
+            "value": "prakṛitiṁ svām adhiṣhṭhāya sambhavāmyātma-māyayā"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "ajaḥ",
+            "meaning": "unborn"
+          },
+          {
+            "id": 2,
+            "sanskrit": " api",
+            "meaning": "although"
+          },
+          {
+            "id": 3,
+            "sanskrit": " san",
+            "meaning": "being so"
+          },
+          {
+            "id": 4,
+            "sanskrit": " avyaya ātmā",
+            "meaning": "Imperishable nature"
+          },
+          {
+            "id": 5,
+            "sanskrit": " bhūtānām",
+            "meaning": "of (all) beings"
+          },
+          {
+            "id": 6,
+            "sanskrit": " īśhvaraḥ",
+            "meaning": "the Lord"
+          },
+          {
+            "id": 7,
+            "sanskrit": " api",
+            "meaning": "although"
+          },
+          {
+            "id": 8,
+            "sanskrit": " san",
+            "meaning": "being"
+          },
+          {
+            "id": 9,
+            "sanskrit": " prakṛitim",
+            "meaning": "nature"
+          },
+          {
+            "id": 10,
+            "sanskrit": " svām",
+            "meaning": "of myself"
+          },
+          {
+            "id": 11,
+            "sanskrit": " adhiṣhṭhāya",
+            "meaning": "situated"
+          },
+          {
+            "id": 12,
+            "sanskrit": " sambhavāmi",
+            "meaning": "I manifest"
+          },
+          {
+            "id": 13,
+            "sanskrit": " ātma-māyayā",
+            "meaning": "by my Yogmaya power"
+          }
+        ],
         "currentVerseUrl": "#/chapter/4/verse/4.6",
         "nextVerseUrl": "#/chapter/4/verse/4.7",
         "previousVerseUrl": "#/chapter/4/verse/4.5"
@@ -20989,11 +21363,157 @@
         "currentVerse": "4.7",
         "nextVerse": "4.8",
         "previousVerse": "4.6",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 4.7",
+            "value": " Whenever there is a decline in righteousness and an increase in unrighteousness, O Arjun, at that time I manifest myself on earth."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "Dharma is verily the prescribed actions that are conducive to our spiritual growth and progress; the reverse of this is adharma (unrighteousness). When unrighteousness prevails, the creator and administrator of the world intervenes by descending and reestablishing dharma. Such a descension of God is called an Avatār. The word “Avatar” has been adopted from Sanskrit into English and is commonly used for people’s images on the media screen. In this text, we will be using it in its original Sanskrit connotation, to refer to the divine descension of God. Twenty four such descensions have been listed in the Śhrīmad Bhāgavatam. However, the Vedic scriptures state that there are innumerable descensions of God:",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "  janma-karmābhidhānāni santi me ’ṅga sahasraśhaḥ",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 3,
+            "value": "  na śhakyante ’nusankhyātum anantatvān mayāpi hi (Bhāgavatam 10.51.36)[v5]",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 4,
+            "value": "“Nobody can count the infinite Avatars of God since the beginning of eternity.” These Avatars are classified in four categories, as stated below:",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 5,
+            "value": "1. Āveśhāvatār—when God manifests his special powers in an individual soul and acts through him. The sage Narad is an example of Āveśhāvatār. The Buddha is also an example of Āveśhāvatār.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 6,
+            "value": "2. Prābhavāvatār—these are the descensions of God in the personal form, where he displays some of his divine powers. Prābhavāvatārs are also of two kinds:",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 7,
+            "value": "a) Where God reveals himself only for a few moments, completes his work, and then departs. Hansavatar is an example of this, where God manifested before the Kumaras, answered their question, and left.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 8,
+            "value": "b) Where the Avatar remains on the earth for many years. Ved Vyas, who wrote the eighteen Puranas and the Mahabharat, and divided the Vedas into four parts, is an example of such an Avatar.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 9,
+            "value": "3. Vaibhavatār—when God descends in his divine form, and manifests more of his divine powers. Matsyavatar, Kurmavatar, Varahavatar are all examples of Vaibhavatārs.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 10,
+            "value": "4. Parāvasthāvatār—when God manifests all his divine powers in his personal divine form. Shree Krishna, Shree Ram, and Nrisinghavatar are all Parāvasthāvatār.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 11,
+            "value": "",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 12,
+            "value": "This classification does not imply that any one Avatār is bigger than the other. Ved Vyas, who is himself an Avatār, clearly states this: sarve pūrṇāḥ śhāśhvatāśhcha dehāstasya paramātmanaḥ (Padma Purāṇ)[v6] “All the descensions of God are replete with all divine powers; they are all perfect and complete.” Hence, we should not differentiate one Avatar as bigger and another as smaller. However, in each descension, God manifests his powers based on the objectives he wishes to accomplish during that particular descension. The remaining powers reside latently within the Avatar. Hence, the above classifications were created.",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "यदा यदा हि धर्मस्य ग्लानिर्भवति भारत |"
+          },
+          {
+            "id": 2,
+            "value": "अभ्युत्थानमधर्मस्य तदात्मानं सृजाम्यहम् || 7||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "yadā yadā hi dharmasya glānir bhavati bhārata"
+          },
+          {
+            "id": 2,
+            "value": "abhyutthānam adharmasya tadātmānaṁ sṛijāmyaham"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "yadā yadā",
+            "meaning": "whenever"
+          },
+          {
+            "id": 2,
+            "sanskrit": " hi",
+            "meaning": "certainly"
+          },
+          {
+            "id": 3,
+            "sanskrit": " dharmasya",
+            "meaning": "of righteousness"
+          },
+          {
+            "id": 4,
+            "sanskrit": " glāniḥ",
+            "meaning": "decline"
+          },
+          {
+            "id": 5,
+            "sanskrit": " bhavati",
+            "meaning": "is"
+          },
+          {
+            "id": 6,
+            "sanskrit": " bhārata",
+            "meaning": "Arjun, descendant of Bharat"
+          },
+          {
+            "id": 7,
+            "sanskrit": " abhyutthānam",
+            "meaning": "increase"
+          },
+          {
+            "id": 8,
+            "sanskrit": " adharmasya",
+            "meaning": "of unrighteousness"
+          },
+          {
+            "id": 9,
+            "sanskrit": " tadā",
+            "meaning": "at that time"
+          },
+          {
+            "id": 10,
+            "sanskrit": " ātmānam",
+            "meaning": "self"
+          },
+          {
+            "id": 11,
+            "sanskrit": " sṛijāmi",
+            "meaning": "manifest"
+          },
+          {
+            "id": 12,
+            "sanskrit": " aham",
+            "meaning": "I"
+          }
+        ],
         "currentVerseUrl": "#/chapter/4/verse/4.7",
         "nextVerseUrl": "#/chapter/4/verse/4.8",
         "previousVerseUrl": "#/chapter/4/verse/4.6"
@@ -21005,11 +21525,147 @@
         "currentVerse": "4.8",
         "nextVerse": "4.9",
         "previousVerse": "4.7",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 4.8",
+            "value": " To protect the righteous, to annihilate the wicked, and to reestablish the principles of dharma I appear on this earth, age after age."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "Having stated in the last verse that God descends in the world, he now states the three reasons for doing so: 1) To annihilate the wicked. 2) To protect the pious. 3) To establish dharma. However, if we closely study these three points, none of the three reasons seem very convincing:",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "To protect the righteous. God is seated in the hearts of his devotees, and always protects them from within. There is no need to take an Avatar for this purpose.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 3,
+            "value": "To annihilate the wicked. God is all-powerful, and can kill the wicked merely by wishing it. Why should he have to take an Avatar to accomplish this?",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 4,
+            "value": "To establish dharma. Dharma is eternally described in the Vedas. God can reestablish it through a Saint; he does not need to descend himself, in his personal form, to accomplish this.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 5,
+            "value": "How then do we make sense of the reasons that have been stated in this verse? Let’s delve a little deeper to grasp the import of what Shree Krishna is stating.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 6,
+            "value": "The biggest dharma that the soul can engage in is devotion to God. That is what God strengthens by taking an Avatār. When God descends in the world, he reveals his divine forms, names, virtues, pastimes, abodes, and associates. This provides the souls with an easy basis for devotion. Since the mind needs a form to focus upon and to connect with, the formless aspect of God is very difficult to worship. On the other hand, devotion to the personal form of God is easy for people to comprehend, simple to perform, and sweet to engage in.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 7,
+            "value": "Thus, since the descension of Lord Krishna 5,000 years ago, billions of souls have made his divine leelas (pastimes) as the basis of their devotion, and purified their minds with ease and joy. Similarly, the Ramayan has provided the souls with a popular basis for devotion for innumerable centuries. When the TV show, Ramayan, first began airing on Indian national television on Sunday mornings, all the streets of India would become empty. The pastimes of Lord Ram held such fascination for the people that they would be glued to their television sets to see the leelas on the screen. This reveals how Lord Ram’s descension provided the basis for devotion to billions of souls in history. The Ramayan says:",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 8,
+            "value": "  rām eka tāpasa tiya tārī, nāma koṭi khala kumati sudhārī [v7]",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 9,
+            "value": "“In his descension period, Lord Ram helped only one Ahalya (Sage Gautam’s wife, whom Lord Ram released from the body of stone). However, since then, by chanting the divine name “Ram,” billions of fallen souls have elevated themselves.” So a deeper understanding of this verse is:",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 10,
+            "value": "To establish dharma: God descends to establish the dharma of devotion by providing souls with his names, forms, pastimes, virtues, abodes, and associates, with the help of which they may engage in bhakti and purify their minds.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 11,
+            "value": "To kill the wicked: Along with God, to help facilitate his divine pastimes, some liberated Saints descend and pretend to be miscreants. For example, Ravan and Kumbhakarna were Jaya and Vijaya who descended from the divine abode of God. They pretended to be demons and opposed and fought with Ram. They could not have been killed by anyone else, since they were divine personalities. So, God slayed such demons as a part of his leelas. And having killed them, he sent them to his divine abode, since that was where they came from in the first place.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 12,
+            "value": "To protect the righteous: Many souls had become sufficiently elevated in their sādhanā (spiritual practice) to qualify to meet God face-to-face. When Shree Krishna descended in the world, these eligible souls got their first opportunity to participate in God’s divine pastimes. For example, some gopīs (cowherd women of Vrindavan, where Shree Krishna manifested his pastimes) were liberated souls who had descended from the divine abode to assist in Shree Krishna’s leelas. Other gopīs were materially bound souls who got their first chance to meet and serve God, and participate in his leelas. So when Shree Krishna descended in the world, such qualified souls got the opportunity to perfect their devotion by directly participating in the pastimes of God.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 13,
+            "value": "This is the deeper meaning of the verse. However, it is not wrong if someone wishes to cognize the verse more literally or metaphorically.",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "परित्राणाय साधूनां विनाशाय च दुष्कृताम् |"
+          },
+          {
+            "id": 2,
+            "value": "धर्मसंस्थापनार्थाय सम्भवामि युगे युगे || 8||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "paritrāṇāya sādhūnāṁ vināśhāya cha duṣhkṛitām"
+          },
+          {
+            "id": 2,
+            "value": "dharma-sansthāpanārthāya sambhavāmi yuge yuge"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "paritrāṇāya",
+            "meaning": "to protect"
+          },
+          {
+            "id": 2,
+            "sanskrit": " sādhūnām",
+            "meaning": "the righteous"
+          },
+          {
+            "id": 3,
+            "sanskrit": " vināśhāya",
+            "meaning": "to annihilate"
+          },
+          {
+            "id": 4,
+            "sanskrit": " cha",
+            "meaning": "and"
+          },
+          {
+            "id": 5,
+            "sanskrit": " duṣhkṛitām",
+            "meaning": "the wicked"
+          },
+          {
+            "id": 6,
+            "sanskrit": " dharma",
+            "meaning": "the eternal religion"
+          },
+          {
+            "id": 7,
+            "sanskrit": " sansthāpana-arthāya",
+            "meaning": "to reestablish"
+          },
+          {
+            "id": 8,
+            "sanskrit": " sambhavāmi",
+            "meaning": "I appear"
+          },
+          {
+            "id": 9,
+            "sanskrit": " yuge yuge",
+            "meaning": "age after age"
+          }
+        ],
         "currentVerseUrl": "#/chapter/4/verse/4.8",
         "nextVerseUrl": "#/chapter/4/verse/4.9",
         "previousVerseUrl": "#/chapter/4/verse/4.7"
@@ -21021,11 +21677,197 @@
         "currentVerse": "4.9",
         "nextVerse": "4.10",
         "previousVerse": "4.8",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 4.9",
+            "value": " Those who understand the divine nature of my birth and activities, O Arjun, upon leaving the body, do not have to take birth again, but come to my eternal abode."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "Understand this verse in the light of the previous one. Our mind gets cleansed by engaging it in devotional remembrance of God. This devotion can either be toward the formless aspect of God or toward his personal form. Devotion toward the formless is intangible and nebulous to most people. They find nothing to focus upon or feel connected with during such devotional meditation. Devotion to the personal form of God is tangible and simple. Such devotion requires divine sentiments toward the personality of God. For people to engage in devotion to Shree Krishna, they must develop divine feelings toward his names, form, virtues, pastimes, abode, and associates. For example, people purify their minds by worshipping stone deities because they harbor the divine sentiments that God resides in these deities. It is these sentiments that purify the devotee’s mind. The progenitor Manu says:",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "  na kāṣhṭhe vidyate devo na śhilāyāṁ na mṛitsu cha",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 3,
+            "value": "  bhāve hi vidyate devastasmātbhāvaṁ samācharet [v8]",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 4,
+            "value": "“God resides neither in wood nor in stone, but in a devotional heart. Hence, worship the deity with loving sentiments.”",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 5,
+            "value": "Similarly, if we wish to engage in devotion toward Lord Krishna, we must learn to harbor divine sentiments toward his leelas. Those commentators who give a figurative interpretation to the Mahabharat and the Bhagavad Gita, do grave injustice by destroying the basis of people’s faith in devotion toward Shree Krishna. In this verse, Shree Krishna has emphasized the need for divine sentiments toward his pastimes, for enhancing our devotion.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 6,
+            "value": "To develop such divine feelings, we must understand the difference between God’s actions and ours. We materially bound souls have not yet attained divine bliss, and hence the longing of our soul is not yet satiated. Thus, our actions are motivated by self-interest and the desire for personal fulfillment. However, God’s actions have no personal motive because he is perfectly satiated by the infinite bliss of his own personality. He does not need to achieve further personal bliss by performing actions. Therefore, whatever he does is for the welfare of the materially conditioned souls. Such divine actions that God performs are termed as “leelas” while the actions we perform are called “work.”",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 7,
+            "value": "Similarly, God’s birth is also divine, and unlike ours, it does not take place from a mother’s womb. The all-Blissful God has no requirement to hang upside down in a mother’s womb. The Bhāgavatam states:",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 8,
+            "value": "  tam adbhutaṁ bālakam ambujekṣhaṇaṁ",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 9,
+            "value": "  chatur-bhujaṁ śhaṅkha gadādyudāyudham (10.3.9) [v9]",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 10,
+            "value": "“When Shree Krishna manifested upon birth before Vasudev and Devaki, he was in his four-armed Vishnu form.” This full-sized form could definitely not have resided in Devaki’s womb. However, to create in her the feeling that he was there, by his Yogmaya power, he simply kept expanding Devaki’s womb. Finally, he manifested from the outside, revealing that he had never been inside her:",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 11,
+            "value": "  āvirāsīd yathā prāchyāṁ diśhīndur iva puṣhkalaḥ ",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 12,
+            "value": "  (Bhāgavatam 10.3.8) [v10]",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 13,
+            "value": "“As the moon manifests in its full glory in the night sky, similarly the Supreme Lord Shree Krishna manifested before Devaki and Vasudev.” This is the divine nature of God’s birth. If we can develop faith in the divinity of his pastimes and birth, then we will be able to easily engage in devotion to his personal form, and attain the supreme destination.",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "जन्म कर्म च मे दिव्यमेवं यो वेत्ति तत्त्वत: |"
+          },
+          {
+            "id": 2,
+            "value": "त्यक्त्वा देहं पुनर्जन्म नैति मामेति सोऽर्जुन || 9||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "janma karma cha me divyam evaṁ yo vetti tattvataḥ"
+          },
+          {
+            "id": 2,
+            "value": "tyaktvā dehaṁ punar janma naiti mām eti so ’rjuna"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "janma",
+            "meaning": "birth"
+          },
+          {
+            "id": 2,
+            "sanskrit": " karma",
+            "meaning": "activities"
+          },
+          {
+            "id": 3,
+            "sanskrit": " cha",
+            "meaning": "and"
+          },
+          {
+            "id": 4,
+            "sanskrit": " me",
+            "meaning": "of mine"
+          },
+          {
+            "id": 5,
+            "sanskrit": " divyam",
+            "meaning": "divine"
+          },
+          {
+            "id": 6,
+            "sanskrit": " evam",
+            "meaning": "thus"
+          },
+          {
+            "id": 7,
+            "sanskrit": " yaḥ",
+            "meaning": "who"
+          },
+          {
+            "id": 8,
+            "sanskrit": " vetti",
+            "meaning": "know"
+          },
+          {
+            "id": 9,
+            "sanskrit": " tattvataḥ",
+            "meaning": "in truth"
+          },
+          {
+            "id": 10,
+            "sanskrit": " tyaktvā",
+            "meaning": "having abandoned"
+          },
+          {
+            "id": 11,
+            "sanskrit": " deham",
+            "meaning": "the body"
+          },
+          {
+            "id": 12,
+            "sanskrit": " punaḥ",
+            "meaning": "again"
+          },
+          {
+            "id": 13,
+            "sanskrit": " janma",
+            "meaning": "birth"
+          },
+          {
+            "id": 14,
+            "sanskrit": " na",
+            "meaning": "never"
+          },
+          {
+            "id": 15,
+            "sanskrit": " eti",
+            "meaning": "takes"
+          },
+          {
+            "id": 16,
+            "sanskrit": " mām",
+            "meaning": "to me"
+          },
+          {
+            "id": 17,
+            "sanskrit": " eti",
+            "meaning": "comes"
+          },
+          {
+            "id": 18,
+            "sanskrit": " saḥ",
+            "meaning": "he"
+          },
+          {
+            "id": 19,
+            "sanskrit": " arjuna",
+            "meaning": "Arjun"
+          }
+        ],
         "currentVerseUrl": "#/chapter/4/verse/4.9",
         "nextVerseUrl": "#/chapter/4/verse/4.10",
         "previousVerseUrl": "#/chapter/4/verse/4.8"
@@ -21037,11 +21879,142 @@
         "currentVerse": "4.10",
         "nextVerse": "4.11",
         "previousVerse": "4.9",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 4.10",
+            "value": " Being freed from attachment, fear, and anger, becoming fully absorbed in me, and taking refuge in me, many persons in the past became purified by knowledge of me, and thus they attained my divine love."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "In the previous verse, Lord Krishna explained that those who truly know the divine nature of his birth and pastimes attain him. He now confirms that legions of human beings in all ages became God-realized by this means. They achieved this goal by purifying their minds through devotion. Shree Aurobindo put it very nicely: “You must keep the temple of the heart clean, if you wish to install therein the living presence.” The Bible states: “Blessed are the pure in heart, for they shall see God.” (Matthew 5.8) [v11]",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "Now, how does the mind get purified? By giving up attachment, fear, and anger, and absorbing the mind in God. Actually, attachment is the cause of both fear and anger. Fear arises out of apprehension that the object of our attachment will be snatched away from us. And anger arises when there is an obstruction in attaining the object of our attachment. Attachment is thus the root cause of the mind getting dirty.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 3,
+            "value": "This world of Maya consists of the three modes of material nature—sattva, rajas, and tamas (goodness, passion, and ignorance). All objects and personalities in the world come within the realm of these three modes. When we attach our mind to a material object or person, our mind too becomes affected by the three modes. Instead, when we absorb the same mind in God, who is beyond the three modes of material nature, such devotion purifies the mind. Thus, the sovereign recipe to cleanse the mind from the defects of lust, anger, greed, envy, and illusion, is to detach it from the world and attach it to the Supreme Lord. Hence, the Ramayan states:",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 4,
+            "value": "  prema bhagati jala binu raghurāī, abhiantara mala kabahuñ na jāī",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 5,
+            "value": "“Without devotion to God, the dirt of the mind will not be washed away.” Even the ardent propagator of jñāna yog, Shankaracharya, stated:",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 6,
+            "value": "  śhuddhayati hi nāntarātmā kṛiṣhṇapadāmbhoja bhaktimṛite (Prabodh Sudhākar)[v13]",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 7,
+            "value": "“Without engaging in devotion to the lotus feet of Lord Krishna, the mind will not be cleansed.”",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 8,
+            "value": "On reading the previous verse, a question may arise whether Lord Krishna is partial in bestowing his grace upon those who absorb their minds in him versus the worldly-minded souls. The Supreme Lord addresses this in the next verse.",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "वीतरागभयक्रोधा मन्मया मामुपाश्रिता: |"
+          },
+          {
+            "id": 2,
+            "value": "बहवो ज्ञानतपसा पूता मद्भावमागता: || 10||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "vīta-rāga-bhaya-krodhā man-mayā mām upāśhritāḥ"
+          },
+          {
+            "id": 2,
+            "value": "bahavo jñāna-tapasā pūtā mad-bhāvam āgatāḥ"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "vīta",
+            "meaning": "freed from"
+          },
+          {
+            "id": 2,
+            "sanskrit": " rāga",
+            "meaning": "attachment"
+          },
+          {
+            "id": 3,
+            "sanskrit": " bhaya",
+            "meaning": "fear"
+          },
+          {
+            "id": 4,
+            "sanskrit": " krodhāḥ",
+            "meaning": "and anger"
+          },
+          {
+            "id": 5,
+            "sanskrit": " mat-mayā",
+            "meaning": "completely absorbed in me"
+          },
+          {
+            "id": 6,
+            "sanskrit": " mām",
+            "meaning": "in me"
+          },
+          {
+            "id": 7,
+            "sanskrit": " upāśhritāḥ",
+            "meaning": "taking refuge (of)"
+          },
+          {
+            "id": 8,
+            "sanskrit": " bahavaḥ",
+            "meaning": "many (persons)"
+          },
+          {
+            "id": 9,
+            "sanskrit": " jñāna",
+            "meaning": "of knowledge"
+          },
+          {
+            "id": 10,
+            "sanskrit": " tapasā",
+            "meaning": "by the fire of knowledge"
+          },
+          {
+            "id": 11,
+            "sanskrit": " pūtāḥ",
+            "meaning": "purified"
+          },
+          {
+            "id": 12,
+            "sanskrit": " mat-bhāvam",
+            "meaning": "my divine love"
+          },
+          {
+            "id": 13,
+            "sanskrit": " āgatāḥ",
+            "meaning": "attained"
+          }
+        ],
         "currentVerseUrl": "#/chapter/4/verse/4.10",
         "nextVerseUrl": "#/chapter/4/verse/4.11",
         "previousVerseUrl": "#/chapter/4/verse/4.9"

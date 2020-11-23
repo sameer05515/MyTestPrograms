@@ -7,6 +7,7 @@ appRoot.config([
             .when('/', { templateUrl: 'partials/home.html', controller: 'homeCtrl' })
             .when('/chapter/:chapterNo', { templateUrl: 'partials/chapter.html', controller: 'chapterCtrl' })
             .when('/chapter/:chapterNo/verse/:verseNo', { templateUrl: 'partials/verse.html', controller: 'verseCtrl' })
+            .when('/word-meaning/:wordId', { templateUrl: 'partials/wordMeaning.html', controller: 'wordMeaningCtrl' })
             .otherwise({ redirectTo: '/' });
     }
 ]);
@@ -56,6 +57,30 @@ appRoot.controller('verseCtrl', function ($scope, $http, $routeParams, $log) {
             })[0];
 
             $log.log("" + angular.toJson($scope.verseObj) + "");
+        }, function (response) {
+            $scope.status = response.status;
+        });
+});
+
+appRoot.controller('wordMeaningCtrl', function ($scope, $http, $routeParams, $log) {
+    $scope.wordMeaningList = [];
+    $scope.wordMeaningObj = {};
+    //$scope.verseObj = {};
+    $log.log("" + $routeParams.wordId + "");
+    $http({ method: 'GET', url: 'data/json/chapter-verse-word-meaning-temp.json' }).
+        then(function (response) {
+            $scope.wordMeaningList = response.data;
+            $scope.wordMeaningObj = $scope.wordMeaningList.filter(function (chain) {
+                return chain.id === $routeParams.wordId;
+            })[0];
+
+            $log.log("" + angular.toJson($scope.wordMeaningObj) + "");
+
+            // $scope.verseObj = $scope.chapterObj.verses.filter(function (chain) {
+            //     return chain.id === $routeParams.verseNo;
+            // })[0];
+
+            //$log.log("" + angular.toJson($scope.verseObj) + "");
         }, function (response) {
             $scope.status = response.status;
         });

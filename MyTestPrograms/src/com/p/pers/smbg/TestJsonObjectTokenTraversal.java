@@ -7,8 +7,10 @@ import java.io.FileReader;
 import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Scanner;
+import java.util.Set;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -84,7 +86,7 @@ public class TestJsonObjectTokenTraversal {
 							? currentlineObject.get("isEmptyOrNull").getAsBoolean()
 							: false;
 					if (isEmptyOrNull) {
-						nextNonEmptyIndex=++tokenTraversalIndex;
+						nextNonEmptyIndex = ++tokenTraversalIndex;
 					} else {
 						return tokenTraversalIndex;
 					}
@@ -97,7 +99,7 @@ public class TestJsonObjectTokenTraversal {
 
 	private static final String[] TOKEN_ARRAY = { "===start===", "===shlok===", "===shlokEng===", "===meaning===",
 			"===translation===", "===commentary===", "===end===" };
-	private static final String SHLOK_IN_COMMENTARY="$$shlok-commentary$$";
+	private static final String SHLOK_IN_COMMENTARY = "$$shlok-commentary$$";
 
 	public static void main(String[] args) {
 		try {
@@ -114,15 +116,13 @@ public class TestJsonObjectTokenTraversal {
 				int rawListSize = rawDataList.size();
 				while (hasMoreToken && tokenTraversalIndex < rawListSize) {
 					int nextTokenIndex = getTokenIndex(rawDataList, tokenTraversalIndex);
-					System.out.printf("nextTokenIndex == %s rawListSize %s %n",nextTokenIndex,rawListSize);
+					//System.out.printf("nextTokenIndex == %s rawListSize %s %n", nextTokenIndex, rawListSize);
 					tokenTraversalIndex = nextTokenIndex;
-					
-					if(tokenTraversalIndex==rawListSize-1) {
-						hasMoreToken=false;
+
+					if (tokenTraversalIndex == rawListSize - 1) {
+						hasMoreToken = false;
 						break;
 					}
-					
-					
 
 					JsonObject currentlineHavingTokenObject = getLineJson(rawDataList, tokenTraversalIndex++, CURRENT);
 
@@ -130,87 +130,102 @@ public class TestJsonObjectTokenTraversal {
 							&& currentlineHavingTokenObject.get("isToken").getAsBoolean()) {
 						String key = currentlineHavingTokenObject.get("key").getAsString();
 						currentKey = key;
-						System.out.printf("==================== currentKey == %s%n", currentKey);
-						
+						//System.out.printf("==================== currentKey == %s%n", currentKey);
+
 						int nextNonEmptyIndex = skipEmptyLines(rawDataList, tokenTraversalIndex);
-						tokenTraversalIndex=nextNonEmptyIndex;
-						JsonObject nextLineObject=getLineJson(rawDataList, tokenTraversalIndex, CURRENT);
-						
-						if(nextLineObject!=null&&nextLineObject.get("isToken").getAsBoolean()) {
-							hasMoreToken=true;
+						tokenTraversalIndex = nextNonEmptyIndex;
+						JsonObject nextLineObject = getLineJson(rawDataList, tokenTraversalIndex, CURRENT);
+
+						if (nextLineObject != null && nextLineObject.get("isToken").getAsBoolean()) {
+							hasMoreToken = true;
 							continue;
-						}else {
+						} else {
 							nextTokenIndex = getTokenIndex(rawDataList, tokenTraversalIndex);
-							if("start".equals(currentKey)) {
+							if ("start".equals(currentKey)) {
 								// get id, current object, skip 2nd line , get next token
-								String line=nextLineObject.get("line").getAsString();
+								String line = nextLineObject.get("line").getAsString();
 								String[] idArr = line.split(",");
-								System.out.println("start == "+idArr[0]+" "+idArr[1]);
+								//System.out.println("start == " + idArr[0] + " " + idArr[1]);
 								currentVerseObject = getVerse(chapterArr, idArr[0], idArr[1]);
-								tokenTraversalIndex=nextTokenIndex;
-							}else if("end".equals(currentKey)){
-								currentVerseObject=null;
-								tokenTraversalIndex=nextTokenIndex;
-							}else if("shlok".equals(currentKey)){
+								tokenTraversalIndex = nextTokenIndex;
+							} else if ("end".equals(currentKey)) {
+								currentVerseObject = null;
+								tokenTraversalIndex = nextTokenIndex;
+							} else if ("shlok".equals(currentKey)) {
 								JsonArray jsonArray = new JsonArray();
 								int idCnt = 0;
-								System.out.printf("\n$$$\nstart of shlok : tokenTraversalIndex == %s : nextTokenIndex == %s %n",tokenTraversalIndex,nextTokenIndex);
-								while(tokenTraversalIndex<nextTokenIndex) {
-									String line=nextLineObject.get("line").getAsString();
+								System.out.printf(
+										"\n$$$\nstart of shlok : tokenTraversalIndex == %s : nextTokenIndex == %s %n",
+										tokenTraversalIndex, nextTokenIndex);
+								while (tokenTraversalIndex < nextTokenIndex) {
+									String line = nextLineObject.get("line").getAsString();
 									int id = ++idCnt;
 									JsonObject obj = new JsonObject();
 									obj.addProperty("id", id);
 									obj.addProperty("value", line);
 									jsonArray.add(obj);
-									
-									nextLineObject=getLineJson(rawDataList, tokenTraversalIndex++, NEXT);
+
+									nextLineObject = getLineJson(rawDataList, tokenTraversalIndex++, NEXT);
 								}
 								currentVerseObject.add(key, jsonArray);
-								System.out.printf("end of shlok : tokenTraversalIndex == %s : nextTokenIndex == %s %n",tokenTraversalIndex,nextTokenIndex);
-								tokenTraversalIndex=nextTokenIndex;
-							}else if("shlokEng".equals(currentKey)){
+								System.out.printf("end of shlok : tokenTraversalIndex == %s : nextTokenIndex == %s %n",
+										tokenTraversalIndex, nextTokenIndex);
+								tokenTraversalIndex = nextTokenIndex;
+							} else if ("shlokEng".equals(currentKey)) {
 								JsonArray jsonArray = new JsonArray();
 								int idCnt = 0;
-								System.out.printf("\n$$$\nstart of slokEng : tokenTraversalIndex == %s : nextTokenIndex == %s %n",tokenTraversalIndex,nextTokenIndex);
-								while(tokenTraversalIndex<nextTokenIndex) {
-									String line=nextLineObject.get("line").getAsString();
+								System.out.printf(
+										"\n$$$\nstart of slokEng : tokenTraversalIndex == %s : nextTokenIndex == %s %n",
+										tokenTraversalIndex, nextTokenIndex);
+								while (tokenTraversalIndex < nextTokenIndex) {
+									String line = nextLineObject.get("line").getAsString();
 									int id = ++idCnt;
 									JsonObject obj = new JsonObject();
 									obj.addProperty("id", id);
 									obj.addProperty("value", line);
 									jsonArray.add(obj);
-									
-									nextLineObject=getLineJson(rawDataList, tokenTraversalIndex++, NEXT);								
+
+									nextLineObject = getLineJson(rawDataList, tokenTraversalIndex++, NEXT);
 								}
 								currentVerseObject.add(key, jsonArray);
-								System.out.printf("end of shlokEng : tokenTraversalIndex == %s : nextTokenIndex == %s %n",tokenTraversalIndex,nextTokenIndex);
-								tokenTraversalIndex=nextTokenIndex;
-							}else if("meaning".equals(currentKey)){
+								System.out.printf(
+										"end of shlokEng : tokenTraversalIndex == %s : nextTokenIndex == %s %n",
+										tokenTraversalIndex, nextTokenIndex);
+								tokenTraversalIndex = nextTokenIndex;
+							} else if ("meaning".equals(currentKey)) {
 								JsonArray jsonArray = new JsonArray();
 								int idCnt = 0;
-								System.out.printf("\n$$$\nstart of meaning : tokenTraversalIndex == %s : nextTokenIndex == %s %n",tokenTraversalIndex,nextTokenIndex);
-								while(tokenTraversalIndex<nextTokenIndex) {								
-									String line=nextLineObject.get("line").getAsString();
+								System.out.printf(
+										"\n$$$\nstart of meaning : tokenTraversalIndex == %s : nextTokenIndex == %s %n",
+										tokenTraversalIndex, nextTokenIndex);
+								while (tokenTraversalIndex < nextTokenIndex) {
+									String line = nextLineObject.get("line").getAsString();
 									String[] meanings = line.split(";");
 									for (String mean : meanings) {
 										int id = ++idCnt;
 										JsonObject obj = new JsonObject();
 										obj.addProperty("id", id);
 										obj.addProperty("sanskrit", mean.split("—")[0]);
+										obj.addProperty("wordMeaningDetailUrl", "#/word-meaning/"+mean.split("—")[0]);
+										///word-meaning/
 										obj.addProperty("meaning", mean.split("—")[1]);
 										jsonArray.add(obj);
 									}
-									nextLineObject=getLineJson(rawDataList, tokenTraversalIndex++, NEXT);
+									nextLineObject = getLineJson(rawDataList, tokenTraversalIndex++, NEXT);
 								}
 								currentVerseObject.add(key, jsonArray);
-								System.out.printf("end of meaning : tokenTraversalIndex == %s : nextTokenIndex == %s %n",tokenTraversalIndex,nextTokenIndex);
-								tokenTraversalIndex=nextTokenIndex;
-							}else if("translation".equals(currentKey)){
+								System.out.printf(
+										"end of meaning : tokenTraversalIndex == %s : nextTokenIndex == %s %n",
+										tokenTraversalIndex, nextTokenIndex);
+								tokenTraversalIndex = nextTokenIndex;
+							} else if ("translation".equals(currentKey)) {
 								JsonArray jsonArray = new JsonArray();
 								int idCnt = 0;
-								System.out.printf("\n$$$\nstart of translation : tokenTraversalIndex == %s : nextTokenIndex == %s %n",tokenTraversalIndex,nextTokenIndex);
-								while(tokenTraversalIndex<nextTokenIndex) {
-									String line=nextLineObject.get("line").getAsString();
+								System.out.printf(
+										"\n$$$\nstart of translation : tokenTraversalIndex == %s : nextTokenIndex == %s %n",
+										tokenTraversalIndex, nextTokenIndex);
+								while (tokenTraversalIndex < nextTokenIndex) {
+									String line = nextLineObject.get("line").getAsString();
 									String[] tranArr = new String[2];
 									if (line.startsWith("BG ")) {
 										tranArr[0] = line.substring(0, line.indexOf(":"));
@@ -226,66 +241,121 @@ public class TestJsonObjectTokenTraversal {
 									obj.addProperty("header", tranArr[0]);
 									obj.addProperty("value", tranArr[1]);
 									jsonArray.add(obj);
-									nextLineObject=getLineJson(rawDataList, tokenTraversalIndex++, NEXT);
+									nextLineObject = getLineJson(rawDataList, tokenTraversalIndex++, NEXT);
 								}
 								currentVerseObject.add(key, jsonArray);
-								System.out.printf("end of translation : tokenTraversalIndex == %s : nextTokenIndex == %s %n",tokenTraversalIndex,nextTokenIndex);
-								tokenTraversalIndex=nextTokenIndex;
-							}else if("commentary".equals(currentKey)){
+								System.out.printf(
+										"end of translation : tokenTraversalIndex == %s : nextTokenIndex == %s %n",
+										tokenTraversalIndex, nextTokenIndex);
+								tokenTraversalIndex = nextTokenIndex;
+							} else if ("commentary".equals(currentKey)) {
 								JsonArray jsonArray = new JsonArray();
 								int idCnt = 0;
-								System.out.printf("\n$$$\nstart of commentary : tokenTraversalIndex == %s : nextTokenIndex == %s %n",tokenTraversalIndex,nextTokenIndex);
-								while(tokenTraversalIndex<nextTokenIndex) {
-									String line=nextLineObject.get("line").getAsString();
+								System.out.printf(
+										"\n$$$\nstart of commentary : tokenTraversalIndex == %s : nextTokenIndex == %s %n",
+										tokenTraversalIndex, nextTokenIndex);
+								while (tokenTraversalIndex < nextTokenIndex) {
+									String line = nextLineObject.get("line").getAsString();
 									int id = ++idCnt;
 									JsonObject obj = new JsonObject();
 									obj.addProperty("id", id);
-									
-									boolean isShlokCommentary=(line!=null&&line.startsWith(SHLOK_IN_COMMENTARY));
-									if(isShlokCommentary) {
+
+									boolean isShlokCommentary = (line != null && line.startsWith(SHLOK_IN_COMMENTARY));
+									if (isShlokCommentary) {
 										obj.addProperty("value", line.substring(SHLOK_IN_COMMENTARY.length()));
-									}else {
+									} else {
 										obj.addProperty("value", line);
 									}
 									obj.addProperty("isShlokCommentary", isShlokCommentary);
-									
+
 									jsonArray.add(obj);
-									
-									nextLineObject=getLineJson(rawDataList, tokenTraversalIndex++, NEXT);								
+
+									nextLineObject = getLineJson(rawDataList, tokenTraversalIndex++, NEXT);
 								}
 								currentVerseObject.add(key, jsonArray);
-								System.out.printf("end of commentary : tokenTraversalIndex == %s : nextTokenIndex == %s %n",tokenTraversalIndex,nextTokenIndex);
-								tokenTraversalIndex=nextTokenIndex;
-							}else {
-								tokenTraversalIndex=nextTokenIndex;
+								System.out.printf(
+										"end of commentary : tokenTraversalIndex == %s : nextTokenIndex == %s %n",
+										tokenTraversalIndex, nextTokenIndex);
+								tokenTraversalIndex = nextTokenIndex;
+							} else {
+								tokenTraversalIndex = nextTokenIndex;
 								hasMoreToken = true;
 								continue;
 							}
 
 						}
 
-
 					}
 
 				}
 			}
 
-
 			PrintStream ps = new PrintStream(new File(chapterArrJsonFilePath));
 			printJsonElement(chapterArr, ps);
-			
-			//D:\Prem\GIT-PROJ\MyTestPrograms\ShrimadBhagwatGeeta\src\main\webapp\data\json\chapter-verse-detail-temp.json
-			//D:\Prem\CUST-INST\apache-tomcat-8.5.59\webapps\ShrimadBhagwatGeeta\data\json\chapter-verse-detail-temp.json
-			printJsonElement(chapterArr, new PrintStream(new File("D:\\Prem\\GIT-PROJ\\MyTestPrograms\\ShrimadBhagwatGeeta\\src\\main\\webapp\\data\\json\\chapter-verse-detail-temp.json")));
-			printJsonElement(chapterArr, new PrintStream(new File("D:\\Prem\\CUST-INST\\apache-tomcat-8.5.59\\webapps\\ShrimadBhagwatGeeta\\data\\json\\chapter-verse-detail-temp.json")));
+
+			JsonArray wordMeaningArr = getWordMeaningArray(chapterArr);
+			printJsonElement(wordMeaningArr, new PrintStream(new File(
+					"D:\\Prem\\GIT-PROJ\\db-files\\smbg\\temp\\wm.txt")));
+			printJsonElement(wordMeaningArr, new PrintStream(new File(
+					"D:\\Prem\\GIT-PROJ\\MyTestPrograms\\ShrimadBhagwatGeeta\\src\\main\\webapp\\data\\json\\chapter-verse-word-meaning-temp.json")));
+			printJsonElement(wordMeaningArr, new PrintStream(new File(
+					"D:\\Prem\\CUST-INST\\apache-tomcat-8.5.59\\webapps\\ShrimadBhagwatGeeta\\data\\json\\chapter-verse-word-meaning-temp.json")));
+
+			// D:\Prem\GIT-PROJ\MyTestPrograms\ShrimadBhagwatGeeta\src\main\webapp\data\json\chapter-verse-detail-temp.json
+			// D:\Prem\CUST-INST\apache-tomcat-8.5.59\webapps\ShrimadBhagwatGeeta\data\json\chapter-verse-detail-temp.json
+			printJsonElement(chapterArr, new PrintStream(new File(
+					"D:\\Prem\\GIT-PROJ\\MyTestPrograms\\ShrimadBhagwatGeeta\\src\\main\\webapp\\data\\json\\chapter-verse-detail-temp.json")));
+			printJsonElement(chapterArr, new PrintStream(new File(
+					"D:\\Prem\\CUST-INST\\apache-tomcat-8.5.59\\webapps\\ShrimadBhagwatGeeta\\data\\json\\chapter-verse-detail-temp.json")));
 
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 
 	}
-	
-	
+
+	private static JsonArray getWordMeaningArray(JsonArray chapterArr) {
+		JsonArray wmArr = new JsonArray();
+		HashMap<String, JsonArray> wmMap = new HashMap<>();		
+		for (JsonElement ec : chapterArr) {
+			JsonObject chapterObj = (JsonObject) ec;
+			String chapterId = chapterObj.get("id").getAsString().trim();
+			for (JsonElement ev : (JsonArray) chapterObj.get("verses")) {
+				JsonObject verseObj = (JsonObject) ev;
+				String verseHeader = verseObj.get("verseHeader").getAsString().trim();
+				String verseId = verseObj.get("id").getAsString().trim();
+				for (JsonElement evm : (JsonArray) verseObj.get("meaning")) {
+					JsonObject meaningObj = (JsonObject) evm;
+					String sanskrit = meaningObj.get("sanskrit").getAsString().trim();
+					String meaning = meaningObj.get("meaning").getAsString().trim();
+					JsonArray jm = null;
+					if (!wmMap.containsKey(sanskrit)) {
+						jm = new JsonArray();
+					} else {
+						jm = wmMap.get(sanskrit);
+					}
+					JsonObject mObj = new JsonObject();
+					mObj.addProperty("word", sanskrit);
+					mObj.addProperty("meaning", meaning);
+					mObj.addProperty("referenceHeader", verseHeader);
+					mObj.addProperty("refLink", "#/chapter/" + chapterId + "/verse/" + verseId);
+					jm.add(mObj);
+					wmMap.put(sanskrit, jm);
+				}
+			}
+		}
+		
+		Set<String> keys=wmMap.keySet();
+		for(String key:keys) {
+			JsonObject mObj = new JsonObject();
+			mObj.addProperty("id", key);
+			mObj.add("data", wmMap.get(key));
+			wmArr.add(mObj);
+		}
+		
+		return wmArr;
+	}
+
 	private static final int CURRENT = 0;
 	private static final int NEXT = 1;
 	@SuppressWarnings("unused")
