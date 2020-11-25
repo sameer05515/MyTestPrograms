@@ -376,6 +376,7 @@ public class TestJsonObjectTokenTraversal {
 	private static void printJsonElement(JsonElement element, PrintStream printStreamObject) {
 		Gson prettyJson = new GsonBuilder().setPrettyPrinting().create();
 		printStreamObject.println(prettyJson.toJson(element));
+		//printStreamObject.close();
 	}
 
 	private static JsonObject getVerse(JsonArray chapterArr, String chapterId, String verseId) {

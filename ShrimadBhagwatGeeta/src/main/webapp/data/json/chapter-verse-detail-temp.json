@@ -28834,11 +28834,166 @@
         "currentVerse": "5.1",
         "nextVerse": "5.2",
         "previousVerse": "4.42",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 5.1",
+            "value": " Arjun said: O Shree Krishna, You praised karm sanyās (the path of renunciation of actions), and You also advised to do karm yog (work with devotion). Please tell me decisively which of the two is more beneficial?"
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "This is the fifth of Arjun’s sixteen questions.  Shree Krishna praised both the renunciation of works and work with devotion.  Arjun is confused by these apparently equivocal instructions and wishes to understand which of the two is more auspicious for him.  Let us review the context of the question.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "The first chapter described the nature of Arjun’s grief and created the setting for Shree Krishna to begin to relate spiritual knowledge to him.  In the second chapter, Shree Krishna revealed to Arjun the science of the self and explained that since the soul is immortal, nobody would die in the war, and hence it was foolish to lament.  He then reminded Arjun that his karm (social duty) as a warrior was to fight the war on the side of righteousness.  But, since karm binds one to the fruits of actions, Shree Krishna encouraged Arjun to dedicate the fruits of his works to God.  His actions would then become karm-yog, or “united with God through works.” ",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 3,
+            "value": "In the third chapter, the Supreme Lord explained that performing one’s duties is necessary because it helps to purify the mind.  But He also said that a person who has already developed purity of mind is not obliged to perform any social duty (verse 3.13).  ",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 4,
+            "value": "In the fourth chapter, the Lord explained the various kinds of sacrifices (works that can be done for the pleasure of God).  He concluded by saying that sacrifice performed in knowledge is better than mechanical ritualistic sacrifice.  He also said that all sacrifice ends in the knowledge of one’s relationship with God.  Finally, in verse 4.41, He introduced the principle of karm sanyās, in which ritualistic duties and social obligations are renounced and one engages in devotional service with the body, mind, and soul.  ",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 5,
+            "value": "These instructions perplexed Arjun.  He thought that karm sanyās (renunciation of works) and karm-yog (work in devotion) have opposite natures, and it is not possible to perform both simultaneously.  Hence, he raises his doubt before Shree Krishna.",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "अर्जुन उवाच |"
+          },
+          {
+            "id": 2,
+            "value": "संन्यासं कर्मणां कृष्ण पुनर्योगं च शंससि |"
+          },
+          {
+            "id": 3,
+            "value": "यच्छ्रेय एतयोरेकं तन्मे ब्रूहि सुनिश्चितम् || 1||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "arjuna uvācha"
+          },
+          {
+            "id": 2,
+            "value": "sannyāsaṁ karmaṇāṁ kṛiṣhṇa punar yogaṁ cha śhansasi"
+          },
+          {
+            "id": 3,
+            "value": "yach chhreya etayor ekaṁ tan me brūhi su-niśhchitam"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "arjunaḥ uvācha",
+            "wordMeaningDetailUrl": "#/word-meaning/arjunaḥ uvācha",
+            "meaning": "Arjun said"
+          },
+          {
+            "id": 2,
+            "sanskrit": " sanyāsam",
+            "wordMeaningDetailUrl": "#/word-meaning/sanyāsam",
+            "meaning": "renunciation"
+          },
+          {
+            "id": 3,
+            "sanskrit": " karmaṇām",
+            "wordMeaningDetailUrl": "#/word-meaning/karmaṇām",
+            "meaning": "of actions"
+          },
+          {
+            "id": 4,
+            "sanskrit": " kṛiṣhṇa",
+            "wordMeaningDetailUrl": "#/word-meaning/kṛiṣhṇa",
+            "meaning": "Shree Krishna"
+          },
+          {
+            "id": 5,
+            "sanskrit": " punaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/punaḥ",
+            "meaning": "again"
+          },
+          {
+            "id": 6,
+            "sanskrit": " yogam",
+            "wordMeaningDetailUrl": "#/word-meaning/yogam",
+            "meaning": "about karm yog"
+          },
+          {
+            "id": 7,
+            "sanskrit": " cha",
+            "wordMeaningDetailUrl": "#/word-meaning/cha",
+            "meaning": "also"
+          },
+          {
+            "id": 8,
+            "sanskrit": " śhansasi",
+            "wordMeaningDetailUrl": "#/word-meaning/śhansasi",
+            "meaning": "You praise"
+          },
+          {
+            "id": 9,
+            "sanskrit": " yat",
+            "wordMeaningDetailUrl": "#/word-meaning/yat",
+            "meaning": "which"
+          },
+          {
+            "id": 10,
+            "sanskrit": " śhreyaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/śhreyaḥ",
+            "meaning": "more beneficial"
+          },
+          {
+            "id": 11,
+            "sanskrit": " etayoḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/etayoḥ",
+            "meaning": "of the two"
+          },
+          {
+            "id": 12,
+            "sanskrit": " ekam",
+            "wordMeaningDetailUrl": "#/word-meaning/ekam",
+            "meaning": "one"
+          },
+          {
+            "id": 13,
+            "sanskrit": " tat",
+            "wordMeaningDetailUrl": "#/word-meaning/tat",
+            "meaning": "that"
+          },
+          {
+            "id": 14,
+            "sanskrit": " me",
+            "wordMeaningDetailUrl": "#/word-meaning/me",
+            "meaning": "unto me"
+          },
+          {
+            "id": 15,
+            "sanskrit": " brūhi",
+            "wordMeaningDetailUrl": "#/word-meaning/brūhi",
+            "meaning": "please tell"
+          },
+          {
+            "id": 16,
+            "sanskrit": " su-niśhchitam",
+            "wordMeaningDetailUrl": "#/word-meaning/su-niśhchitam",
+            "meaning": "conclusively"
+          }
+        ],
         "currentVerseUrl": "#/chapter/5/verse/5.1",
         "nextVerseUrl": "#/chapter/5/verse/5.2",
         "previousVerseUrl": "#/chapter/4/verse/4.42"
@@ -28850,11 +29005,166 @@
         "currentVerse": "5.2",
         "nextVerse": "5.3",
         "previousVerse": "5.1",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 5.2",
+            "value": " The Supreme Lord said: Both the path of karm sanyās (renunciation of actions) and karm yog (working in devotion) lead to the supreme goal. But karm yog is superior to karm sanyās."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "In this verse, Shree Krishna compares karm sanyās and karm-yog.  It is a very deep verse; so let’s understand it one word at a time.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "A karm yogi is one who does both, spiritual and social, duties.  Social duties are done with the body while the mind is attached to God.  Jagadguru Kripaluji Maharaj states:",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 3,
+            "value": "  sochu mana yaha karm mama saba lakhata hari guru pyāre   ",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 4,
+            "value": "  (Sādhan Bhakti Tattva) ",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 5,
+            "value": "“Dear one!  Think always that all your actions are being observed by God and Guru.”  This is the sādhanā of karm-yog, by which we gradually elevate ourselves from bodily consciousness to spiritual consciousness.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 6,
+            "value": "Karm sanyās is for elevated souls, who have already risen beyond the bodily platform.  A karm sanyāsī is one who discards social duties due to complete absorption in God, and engages entirely in the performance of spiritual duties (devotional service to God).  This sentiment of karm sanyās was nicely expressed by Lakshman, when Lord Ram asked him to fulfill his worldly duties:",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 7,
+            "value": "  more sabai eka tuma swāmī, dīnabandhu ura antarayāmī   (Ramayan)",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 8,
+            "value": "Lakshman said to Ram, “You are my Master, Father, Mother, Friend, and everything.  I will only fulfill my duty toward You with all my might.  So please do not tell me about any of my bodily duties.”",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 9,
+            "value": "Those who practice karm sanyās do not consider themselves to be the body, and as a result, they do not feel obligated to discharge their bodily duties.  Such karm sanyāsīs dedicate their full time and energy to spirituality, while karm yogis have to split their time between worldly and spiritual duties.  The karm sanyāsīs can thus move much faster toward God, while the karm yogis are encumbered with social duties. ",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 10,
+            "value": "However, in this verse, Shree Krishna extols karm-yog beyond karm sanyās and recommends it to Arjun as the preferred path.  This is because karm sanyāsīs are exposed to a danger.  If, having renounced their duties they cannot absorb their mind in God, they are left neither here nor there.  In India, there are tens of thousands of such sadhus, who felt they were detached, and thus, renounced the world, but their mind was not yet attached to God.  Consequently, they could not experience the divine bliss of the spiritual path.  And so, although wearing the saffron clothes of mendicants, they indulge in grossly sinful activities such as smoking opium.  Only the ignorant mistake their sloth as detachment from the world. ",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 11,
+            "value": "On the other hand, karm yogis do both their worldly duties and spiritual practice.  So if their mind turns away from spirituality, at least they have their work to fall back upon.  Karm-yog is thus the safer path for majority of the people, while karm sanyās is only to be pursued under the expert guidance of a Guru. ",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "श्रीभगवानुवाच |"
+          },
+          {
+            "id": 2,
+            "value": "संन्यास: कर्मयोगश्च नि:श्रेयसकरावुभौ |"
+          },
+          {
+            "id": 3,
+            "value": "तयोस्तु कर्मसंन्यासात्कर्मयोगो विशिष्यते || 2||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "śhrī bhagavān uvācha"
+          },
+          {
+            "id": 2,
+            "value": "sannyāsaḥ karma-yogaśh cha niḥśhreyasa-karāvubhau"
+          },
+          {
+            "id": 3,
+            "value": "tayos tu karma-sannyāsāt karma-yogo viśhiṣhyate"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "śhrī-bhagavān uvācha",
+            "wordMeaningDetailUrl": "#/word-meaning/śhrī-bhagavān uvācha",
+            "meaning": "the Supreme Lord said"
+          },
+          {
+            "id": 2,
+            "sanskrit": " sanyāsaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/sanyāsaḥ",
+            "meaning": "renunciation"
+          },
+          {
+            "id": 3,
+            "sanskrit": " karma-yogaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/karma-yogaḥ",
+            "meaning": "working in devotion"
+          },
+          {
+            "id": 4,
+            "sanskrit": " cha",
+            "wordMeaningDetailUrl": "#/word-meaning/cha",
+            "meaning": "and"
+          },
+          {
+            "id": 5,
+            "sanskrit": " niḥśhreyasa-karau",
+            "wordMeaningDetailUrl": "#/word-meaning/niḥśhreyasa-karau",
+            "meaning": "lead to the supreme goal"
+          },
+          {
+            "id": 6,
+            "sanskrit": " ubhau",
+            "wordMeaningDetailUrl": "#/word-meaning/ubhau",
+            "meaning": "both"
+          },
+          {
+            "id": 7,
+            "sanskrit": " tayoḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/tayoḥ",
+            "meaning": "of the two"
+          },
+          {
+            "id": 8,
+            "sanskrit": " tu",
+            "wordMeaningDetailUrl": "#/word-meaning/tu",
+            "meaning": "but"
+          },
+          {
+            "id": 9,
+            "sanskrit": " karma-sanyāsāt",
+            "wordMeaningDetailUrl": "#/word-meaning/karma-sanyāsāt",
+            "meaning": "renunciation of actions"
+          },
+          {
+            "id": 10,
+            "sanskrit": " karma-yogaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/karma-yogaḥ",
+            "meaning": "working in devotion"
+          },
+          {
+            "id": 11,
+            "sanskrit": " viśhiṣhyate",
+            "wordMeaningDetailUrl": "#/word-meaning/viśhiṣhyate",
+            "meaning": "is superior"
+          }
+        ],
         "currentVerseUrl": "#/chapter/5/verse/5.2",
         "nextVerseUrl": "#/chapter/5/verse/5.3",
         "previousVerseUrl": "#/chapter/5/verse/5.1"
@@ -28866,11 +29176,142 @@
         "currentVerse": "5.3",
         "nextVerse": "5.4",
         "previousVerse": "5.2",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 5.3",
+            "value": " The karm yogis, who neither desire nor hate anything, should be considered always renounced. Free from all dualities, they are easily liberated from the bonds of material energy."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "Karm yogis continue to discharge their worldly duties while internally practicing detachment.  Hence, they accept both positive and negative outcomes with equanimity, as the grace of God.  The Lord has designed this world so beautifully that it makes us experience both happiness and distress for our gradual elevation.  If we continue to lead our regular lives and tolerate whatever comes our way, while happily doing our duty, the world naturally pushes us toward gradual spiritual elevation. ",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "There is a sweet story that illustrates this concept.  There was once a piece of wood.  It went to a sculptor and said, “Can you please make me beautiful?”  The sculptor said, “I am ready to do that.  But are you ready for it?”  The wood replied, “Yes, I am also ready.”  The sculptor took out his tools and began hammering and chiseling.  The wood screamed, “What are you doing?  Please stop!  This is so painful.”  The sculptor replied wisely, “If you wish to become beautiful, you will have to bear the pain.”  “All right,” said the wood, “Go ahead and do it.  But please be gentle and considerate.”  The sculptor continued his work again.  The wood kept screaming, “Enough for today; I can’t bear it any further.  Please do it tomorrow.”  The sculptor was undeterred in his task, and in a few days, the wood was transformed into a beautiful deity, fit to sit on the altar of the temple. ",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 3,
+            "value": "In the same way, our hearts are rough and unfinished because of endless lifetimes of attachment in the world.  If we wish to become internally beautiful, we must be willing to tolerate pain and let the world do its job of purifying us.  So karm yogis work with devotion, are equipoised in the results, and practice attaching their mind to God. ",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "ज्ञेय: स नित्यसंन्यासी यो न द्वेष्टि न काङ् क्षति |"
+          },
+          {
+            "id": 2,
+            "value": "निर्द्वन्द्वो हि महाबाहो सुखं बन्धात्प्रमुच्यते || 3||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "jñeyaḥ sa nitya-sannyāsī yo na dveṣhṭi na kāṅkṣhati"
+          },
+          {
+            "id": 2,
+            "value": "nirdvandvo hi mahā-bāho sukhaṁ bandhāt pramuchyate"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "jñeyaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/jñeyaḥ",
+            "meaning": "should be considered"
+          },
+          {
+            "id": 2,
+            "sanskrit": " saḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/saḥ",
+            "meaning": "that person"
+          },
+          {
+            "id": 3,
+            "sanskrit": " nitya",
+            "wordMeaningDetailUrl": "#/word-meaning/nitya",
+            "meaning": "always"
+          },
+          {
+            "id": 4,
+            "sanskrit": " sanyāsī",
+            "wordMeaningDetailUrl": "#/word-meaning/sanyāsī",
+            "meaning": "practising renunciation"
+          },
+          {
+            "id": 5,
+            "sanskrit": " yaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/yaḥ",
+            "meaning": "who"
+          },
+          {
+            "id": 6,
+            "sanskrit": " na",
+            "wordMeaningDetailUrl": "#/word-meaning/na",
+            "meaning": "never"
+          },
+          {
+            "id": 7,
+            "sanskrit": " dveṣhṭi",
+            "wordMeaningDetailUrl": "#/word-meaning/dveṣhṭi",
+            "meaning": "hate"
+          },
+          {
+            "id": 8,
+            "sanskrit": " na",
+            "wordMeaningDetailUrl": "#/word-meaning/na",
+            "meaning": "nor"
+          },
+          {
+            "id": 9,
+            "sanskrit": " kāṅkṣhati",
+            "wordMeaningDetailUrl": "#/word-meaning/kāṅkṣhati",
+            "meaning": "desire"
+          },
+          {
+            "id": 10,
+            "sanskrit": " nirdvandvaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/nirdvandvaḥ",
+            "meaning": "free from all dualities"
+          },
+          {
+            "id": 11,
+            "sanskrit": " hi",
+            "wordMeaningDetailUrl": "#/word-meaning/hi",
+            "meaning": "certainly"
+          },
+          {
+            "id": 12,
+            "sanskrit": " mahā-bāho",
+            "wordMeaningDetailUrl": "#/word-meaning/mahā-bāho",
+            "meaning": "mighty-armed one"
+          },
+          {
+            "id": 13,
+            "sanskrit": " sukham",
+            "wordMeaningDetailUrl": "#/word-meaning/sukham",
+            "meaning": "easily"
+          },
+          {
+            "id": 14,
+            "sanskrit": " bandhāt",
+            "wordMeaningDetailUrl": "#/word-meaning/bandhāt",
+            "meaning": "from bondage"
+          },
+          {
+            "id": 15,
+            "sanskrit": " pramuchyate",
+            "wordMeaningDetailUrl": "#/word-meaning/pramuchyate",
+            "meaning": "is liberated"
+          }
+        ],
         "currentVerseUrl": "#/chapter/5/verse/5.3",
         "nextVerseUrl": "#/chapter/5/verse/5.4",
         "previousVerseUrl": "#/chapter/5/verse/5.2"
@@ -28882,11 +29323,156 @@
         "currentVerse": "5.4",
         "nextVerse": "5.5",
         "previousVerse": "5.3",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 5.4",
+            "value": " Only the ignorant speak of sānkhya (renunciation of actions, or karm sanyās) and karm yog (work in devotion) as different. Those who are truly learned say that by applying ourselves to any one of these paths, we can achieve the results of both."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "Here, Shree Krishna uses the word sānkhya to refer to karm sanyās, or the renunciation of actions with the cultivation of knowledge.  It is important to understand here that renunciation is of two kinds:  phalgu vairāgya and yukt vairāgya.  Phalgu vairāgya is where people look upon the world as cumbersome, and renounce it with the desire of getting rid of responsibilities and hardships.  Such phalgu vairāgya is an escapist attitude and is unstable.  The renunciation of such persons is motivated by the desire to run away from difficulties.  When such persons encounter difficulties on the spiritual path, they become detached from there as well, and desire to run back to worldly life.  Yukt vairāgya is where people see the whole world as the energy of God.  They do not see what they possess as belonging to them, and do not wish to enjoy it for themselves.  Instead, they are motivated by the desire to serve God with whatever He has given to them.  Yukt vairāgya is stable and undeterred by difficulties.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "The karm yogis, while conducting their daily duties externally, develop the sentiment of yukt vairāgya, or stable renunciation.  They see themselves as the servants and God as the enjoyer, and hence they become fixed in the consciousness of doing everything for His pleasure.  Thus, their internal state becomes the same as that of the karm sanyāsīs, who are completely absorbed in divine consciousness.  Externally, they may appear to be worldly people, but internally they are no less than sanyāsīs. ",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 3,
+            "value": "The Puranas and Itihās relate the examples of great kings in Indian history, who, though externally discharging their kingly duties with diligence and living in royal opulence, were mentally completely absorbed in God-consciousness.  Prahlad, Dhruv, Ambarish, Prithu, Vibheeshan, Yudhishthir, etc. were all such exemplary karm yogis.  The Shreemad Bhagavatam states: ",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 4,
+            "value": "  gṛihītvāpīndriyair arthān yo na dveṣhṭi na hṛiṣhyati",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 5,
+            "value": "  viṣhṇor māyām idaṁ paśhyan sa vai bhāgavatottamaḥ   ",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 6,
+            "value": "  (11.2.48)",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 7,
+            "value": "“One who accepts the objects of the senses, neither yearning for them nor running away from them, in the divine consciousness that everything is the energy of God and is to be used in His service, such a person is the highest devotee.”  Thus, the truly learned see no difference between karm-yog and karm sanyās.  By following one of them, the results of both are achieved.",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "साङ्ख्ययोगौ पृथग्बाला: प्रवदन्ति न पण्डिता: |"
+          },
+          {
+            "id": 2,
+            "value": "एकमप्यास्थित: सम्यगुभयोर्विन्दते फलम् || 4||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "sānkhya-yogau pṛithag bālāḥ pravadanti na paṇḍitāḥ"
+          },
+          {
+            "id": 2,
+            "value": "ekamapyāsthitaḥ samyag ubhayor vindate phalam"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "sānkhya",
+            "wordMeaningDetailUrl": "#/word-meaning/sānkhya",
+            "meaning": "renunciation of actions"
+          },
+          {
+            "id": 2,
+            "sanskrit": " yogau",
+            "wordMeaningDetailUrl": "#/word-meaning/yogau",
+            "meaning": "karm yog"
+          },
+          {
+            "id": 3,
+            "sanskrit": " pṛithak",
+            "wordMeaningDetailUrl": "#/word-meaning/pṛithak",
+            "meaning": "different"
+          },
+          {
+            "id": 4,
+            "sanskrit": " bālāḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/bālāḥ",
+            "meaning": "the ignorant"
+          },
+          {
+            "id": 5,
+            "sanskrit": " pravadanti",
+            "wordMeaningDetailUrl": "#/word-meaning/pravadanti",
+            "meaning": "say"
+          },
+          {
+            "id": 6,
+            "sanskrit": " na",
+            "wordMeaningDetailUrl": "#/word-meaning/na",
+            "meaning": "never"
+          },
+          {
+            "id": 7,
+            "sanskrit": " paṇḍitāḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/paṇḍitāḥ",
+            "meaning": "the learned"
+          },
+          {
+            "id": 8,
+            "sanskrit": " ekam",
+            "wordMeaningDetailUrl": "#/word-meaning/ekam",
+            "meaning": "in one"
+          },
+          {
+            "id": 9,
+            "sanskrit": " api",
+            "wordMeaningDetailUrl": "#/word-meaning/api",
+            "meaning": "even"
+          },
+          {
+            "id": 10,
+            "sanskrit": " āsthitaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/āsthitaḥ",
+            "meaning": "being situated"
+          },
+          {
+            "id": 11,
+            "sanskrit": " samyak",
+            "wordMeaningDetailUrl": "#/word-meaning/samyak",
+            "meaning": "completely"
+          },
+          {
+            "id": 12,
+            "sanskrit": " ubhayoḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/ubhayoḥ",
+            "meaning": "of both"
+          },
+          {
+            "id": 13,
+            "sanskrit": " vindate",
+            "wordMeaningDetailUrl": "#/word-meaning/vindate",
+            "meaning": "achieve"
+          },
+          {
+            "id": 14,
+            "sanskrit": " phalam",
+            "wordMeaningDetailUrl": "#/word-meaning/phalam",
+            "meaning": "the result"
+          }
+        ],
         "currentVerseUrl": "#/chapter/5/verse/5.4",
         "nextVerseUrl": "#/chapter/5/verse/5.5",
         "previousVerseUrl": "#/chapter/5/verse/5.3"
@@ -28898,11 +29484,179 @@
         "currentVerse": "5.5",
         "nextVerse": "5.6",
         "previousVerse": "5.4",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 5.5",
+            "value": " The supreme state that is attained by means of karm sanyās is also attained by working in devotion. Hence, those who see karm sanyās and karm yog to be identical, truly see things as they are."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "In spiritual practice, the intention of the mind is what matters, not the external activities.  One may be living in the holy land of Vrindaban, but if the mind contemplates on eating rasgullās in Kolkata, one will be deemed to be living in Kolkata.  Conversely, if a person lives amidst the hubbub of Kolkata and keeps the mind absorbed in the Divine Lord of Vrindaban, he will get the benefit of residing there.  All the Vedic scriptures state that our level of consciousness is determined by the state of our mind:",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "  mana eva manuṣhyāṇāṁ kāraṇaṁ bandha mokṣhayoḥ   (Pañchadaśhī)",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 3,
+            "value": "“The mind is the cause of bondage, and the mind is the cause of liberation.”  Jagadguru Shree Kripaluji Maharaj states the same principle:",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 4,
+            "value": "  bandhan aur mokṣha kā, kāraṇ manahi bakhān",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 5,
+            "value": "  yāte kauniu bhakti karu, karu mana te haridhyān   ",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 6,
+            "value": "  (Bhakti Śhatak verse 19)",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 7,
+            "value": "“Bondage and liberation depend upon the state of the mind.  Whatever form of devotion you choose to do, keep the mind engaged in meditation upon God.”",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 8,
+            "value": "Those who do not possess this spiritual vision see the external distinction between a karm sanyāsī and a karm yogi, and declare the karm sanyāsī to be superior because of the external renunciation.  But those who are learned see that both the karm sanyāsī and the karm yogi have absorbed their minds in God, and so they are both identical in their internal consciousness. ",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "यत्साङ्ख्यै: प्राप्यते स्थानं तद्योगैरपि गम्यते |"
+          },
+          {
+            "id": 2,
+            "value": "एकं साङ्ख्यं च योगं च य: पश्यति स पश्यति || 5||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "yat sānkhyaiḥ prāpyate sthānaṁ tad yogair api gamyate"
+          },
+          {
+            "id": 2,
+            "value": "ekaṁ sānkhyaṁ cha yogaṁ cha yaḥ paśhyati sa paśhyati"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "yat",
+            "wordMeaningDetailUrl": "#/word-meaning/yat",
+            "meaning": "what"
+          },
+          {
+            "id": 2,
+            "sanskrit": " sānkhyaiḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/sānkhyaiḥ",
+            "meaning": "by means of karm sanyās"
+          },
+          {
+            "id": 3,
+            "sanskrit": " prāpyate",
+            "wordMeaningDetailUrl": "#/word-meaning/prāpyate",
+            "meaning": "is attained"
+          },
+          {
+            "id": 4,
+            "sanskrit": " sthānam",
+            "wordMeaningDetailUrl": "#/word-meaning/sthānam",
+            "meaning": "place"
+          },
+          {
+            "id": 5,
+            "sanskrit": " tat",
+            "wordMeaningDetailUrl": "#/word-meaning/tat",
+            "meaning": "that"
+          },
+          {
+            "id": 6,
+            "sanskrit": " yogaiḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/yogaiḥ",
+            "meaning": "by working in devotion"
+          },
+          {
+            "id": 7,
+            "sanskrit": " api",
+            "wordMeaningDetailUrl": "#/word-meaning/api",
+            "meaning": "also"
+          },
+          {
+            "id": 8,
+            "sanskrit": " gamyate",
+            "wordMeaningDetailUrl": "#/word-meaning/gamyate",
+            "meaning": "is attained"
+          },
+          {
+            "id": 9,
+            "sanskrit": " ekam",
+            "wordMeaningDetailUrl": "#/word-meaning/ekam",
+            "meaning": "one"
+          },
+          {
+            "id": 10,
+            "sanskrit": " sānkhyam",
+            "wordMeaningDetailUrl": "#/word-meaning/sānkhyam",
+            "meaning": "renunciation of actions"
+          },
+          {
+            "id": 11,
+            "sanskrit": " cha",
+            "wordMeaningDetailUrl": "#/word-meaning/cha",
+            "meaning": "and"
+          },
+          {
+            "id": 12,
+            "sanskrit": " yogam",
+            "wordMeaningDetailUrl": "#/word-meaning/yogam",
+            "meaning": "karm yog"
+          },
+          {
+            "id": 13,
+            "sanskrit": " cha",
+            "wordMeaningDetailUrl": "#/word-meaning/cha",
+            "meaning": "and"
+          },
+          {
+            "id": 14,
+            "sanskrit": " yaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/yaḥ",
+            "meaning": "who"
+          },
+          {
+            "id": 15,
+            "sanskrit": " paśhyati",
+            "wordMeaningDetailUrl": "#/word-meaning/paśhyati",
+            "meaning": "sees"
+          },
+          {
+            "id": 16,
+            "sanskrit": " saḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/saḥ",
+            "meaning": "that person"
+          },
+          {
+            "id": 17,
+            "sanskrit": " paśhyati",
+            "wordMeaningDetailUrl": "#/word-meaning/paśhyati",
+            "meaning": "actually sees"
+          }
+        ],
         "currentVerseUrl": "#/chapter/5/verse/5.5",
         "nextVerseUrl": "#/chapter/5/verse/5.6",
         "previousVerseUrl": "#/chapter/5/verse/5.4"
@@ -28914,11 +29668,123 @@
         "currentVerse": "5.6",
         "nextVerse": "5.7",
         "previousVerse": "5.5",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 5.6",
+            "value": " Perfect renunciation (karm sanyās) is difficult to attain without performing work in devotion (karm yog), O mighty-armed Arjun, but the sage who is adept in karm yog quickly attains the Supreme."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "Living in a cave in the Himalayas, a yogi may feel that he has renounced, but the test of that renunciation comes when he returns to the city.  For instance, one sadhu practiced austerities for twelve years in the mountains of Garhwal.  He came down to Haridwar to participate in the holy fair called Kumbh Melā.  In the hustle and bustle of the fair, someone accidentally placed his shoe on the sadhu’s bare foot.  The sadhu  was infuriated, and screamed, “Are you blind?  Can you not see where you are going?”  Later he repented for permitting anger to overcome him, and lamented, “Twelve years of austerities in the mountains got washed away by living one day in the city!”  The world is the arena where our renunciation gets tested.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "In this verse, Shree Krishna says that while performing one’s duties in the world, a person should slowly learn to rise above anger, greed, and desire.  Instead, if one first gives up duties, it is very difficult to purify the mind; and without a pure mind, true detachment remains a distant dream. ",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 3,
+            "value": "We are all propelled to work by our nature.  Arjun was a warrior, and if he had artificially renounced his duty, to retire to the forest, his nature would make him work there as well.  He would probably gather a few tribesmen and declare himself their king.  Instead, it would be more fruitful to use his natural inclinations and talents in the service of God.  So the Lord instructs him, “Continue to fight, but make one change.  At first, you came to this battleground on the presumption of saving a kingdom.  Now, instead, simply dedicate your service unselfishly to God.  In this way, you will naturally purify the mind and achieve true renunciation from within.” ",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 4,
+            "value": "A tender and unripe fruit clings fast to the tree that bears and nourishes it.  But the same fruit, when fully ripe, severs its connection from its sustainer.  Similarly from the material existence, the karm yogi gets the experience that matures into wisdom.  Just as sound sleep is only possible for those who have worked hard, deep meditation comes to those who have purified their minds through karm-yog.",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "संन्यासस्तु महाबाहो दु:खमाप्तुमयोगत: |"
+          },
+          {
+            "id": 2,
+            "value": "योगयुक्तो मुनिर्ब्रह्म नचिरेणाधिगच्छति || 6||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "sannyāsas tu mahā-bāho duḥkham āptum ayogataḥ"
+          },
+          {
+            "id": 2,
+            "value": "yoga-yukto munir brahma na chireṇādhigachchhati"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "sanyāsaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/sanyāsaḥ",
+            "meaning": "renunciation"
+          },
+          {
+            "id": 2,
+            "sanskrit": " tu",
+            "wordMeaningDetailUrl": "#/word-meaning/tu",
+            "meaning": "but"
+          },
+          {
+            "id": 3,
+            "sanskrit": " mahā-bāho",
+            "wordMeaningDetailUrl": "#/word-meaning/mahā-bāho",
+            "meaning": "mighty-armed one"
+          },
+          {
+            "id": 4,
+            "sanskrit": " duḥkham",
+            "wordMeaningDetailUrl": "#/word-meaning/duḥkham",
+            "meaning": "distress"
+          },
+          {
+            "id": 5,
+            "sanskrit": " āptum",
+            "wordMeaningDetailUrl": "#/word-meaning/āptum",
+            "meaning": "attains"
+          },
+          {
+            "id": 6,
+            "sanskrit": " ayogataḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/ayogataḥ",
+            "meaning": "without karm-yog"
+          },
+          {
+            "id": 7,
+            "sanskrit": " yoga-yuktaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/yoga-yuktaḥ",
+            "meaning": "one who is adept in karm-yog"
+          },
+          {
+            "id": 8,
+            "sanskrit": " muniḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/muniḥ",
+            "meaning": "a sage"
+          },
+          {
+            "id": 9,
+            "sanskrit": " brahma",
+            "wordMeaningDetailUrl": "#/word-meaning/brahma",
+            "meaning": "Brahman"
+          },
+          {
+            "id": 10,
+            "sanskrit": " na chireṇa",
+            "wordMeaningDetailUrl": "#/word-meaning/na chireṇa",
+            "meaning": "quickly"
+          },
+          {
+            "id": 11,
+            "sanskrit": " adhigachchhati",
+            "wordMeaningDetailUrl": "#/word-meaning/adhigachchhati",
+            "meaning": "goes"
+          }
+        ],
         "currentVerseUrl": "#/chapter/5/verse/5.6",
         "nextVerseUrl": "#/chapter/5/verse/5.7",
         "previousVerseUrl": "#/chapter/5/verse/5.5"
@@ -28932,8 +29798,26 @@
         "previousVerse": "5.6",
         "translation": [],
         "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "योगयुक्तो विशुद्धात्मा विजितात्मा जितेन्द्रिय: |"
+          },
+          {
+            "id": 2,
+            "value": "सर्वभूतात्मभूतात्मा कुर्वन्नपि न लिप्यते || 7||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "yoga-yukto viśhuddhātmā vijitātmā jitendriyaḥ"
+          },
+          {
+            "id": 2,
+            "value": "sarva-bhūtātma-bhūtātmā kurvann api na lipyate"
+          }
+        ],
         "meaning": [],
         "currentVerseUrl": "#/chapter/5/verse/5.7",
         "nextVerseUrl": "#/chapter/5/verse/5.8 – 5.9",
