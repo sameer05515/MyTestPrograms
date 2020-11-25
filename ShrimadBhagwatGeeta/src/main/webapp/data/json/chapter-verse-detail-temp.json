@@ -29796,8 +29796,25 @@
         "currentVerse": "5.7",
         "nextVerse": "5.8 – 5.9",
         "previousVerse": "5.6",
-        "translation": [],
-        "commentary": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 5.7",
+            "value": " The karm yogis, who are of purified intellect, and who control the mind and senses, see the Soul of all souls in every living being. Though performing all kinds of actions, they are never entangled."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "The word ātmā has been used in multiple ways in the Vedic literature: for God, for the soul, for the mind, and for the intellect.  This verse typifies all these uses.  Shree Krishna describes the karm yogi who is yog yukt (united in consciousness with God).  He says that such a noble soul is:  1) viśhuddhātmā, of purified intellect, 2) vijitātmā, who has conquered the mind, and 3) jitendriya, one who has controlled the senses. ",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "Such karm yogis, with purified intellect, see God situated in all living beings, and behave respectfully toward everyone without attachment.  Since their actions are not motivated by the desire for self-enjoyment, their knowledge is progressively clarified.  As their desires are eliminated, the senses, mind, and intellect that were being propelled for sense pleasures come under control.  These instruments are now available for the service of the Lord.  Devotional service leads to realized knowledge from within.  In this way, karm-yog naturally brings about these successive stages of enlightenment, and hence is no different from karm sanyās.",
+            "isShlokCommentary": false
+          }
+        ],
         "shlok": [
           {
             "id": 1,
@@ -29818,7 +29835,62 @@
             "value": "sarva-bhūtātma-bhūtātmā kurvann api na lipyate"
           }
         ],
-        "meaning": [],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "yoga-yuktaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/yoga-yuktaḥ",
+            "meaning": "united in consciousness with God"
+          },
+          {
+            "id": 2,
+            "sanskrit": " viśhuddha-ātmā",
+            "wordMeaningDetailUrl": "#/word-meaning/viśhuddha-ātmā",
+            "meaning": "one with purified intellect"
+          },
+          {
+            "id": 3,
+            "sanskrit": " vijita-ātmā",
+            "wordMeaningDetailUrl": "#/word-meaning/vijita-ātmā",
+            "meaning": "one who has conquered the mind"
+          },
+          {
+            "id": 4,
+            "sanskrit": " jita-indriyaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/jita-indriyaḥ",
+            "meaning": "having conquered the senses"
+          },
+          {
+            "id": 5,
+            "sanskrit": " sarva-bhūta-ātma-bhūta-ātmā",
+            "wordMeaningDetailUrl": "#/word-meaning/sarva-bhūta-ātma-bhūta-ātmā",
+            "meaning": "one who sees the Soul of all souls in every living being"
+          },
+          {
+            "id": 6,
+            "sanskrit": " kurvan",
+            "wordMeaningDetailUrl": "#/word-meaning/kurvan",
+            "meaning": "performing"
+          },
+          {
+            "id": 7,
+            "sanskrit": " api",
+            "wordMeaningDetailUrl": "#/word-meaning/api",
+            "meaning": "although"
+          },
+          {
+            "id": 8,
+            "sanskrit": " na",
+            "wordMeaningDetailUrl": "#/word-meaning/na",
+            "meaning": "never"
+          },
+          {
+            "id": 9,
+            "sanskrit": " lipyate",
+            "wordMeaningDetailUrl": "#/word-meaning/lipyate",
+            "meaning": "entangled"
+          }
+        ],
         "currentVerseUrl": "#/chapter/5/verse/5.7",
         "nextVerseUrl": "#/chapter/5/verse/5.8 – 5.9",
         "previousVerseUrl": "#/chapter/5/verse/5.6"
@@ -29830,11 +29902,235 @@
         "currentVerse": "5.8 – 5.9",
         "nextVerse": "5.10",
         "previousVerse": "5.7",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 5.8-9",
+            "value": " Those steadfast in this karm yog, always think, “I am not the doer,” even while engaged in seeing, hearing, touching, smelling, moving, sleeping, breathing, speaking, excreting, and grasping, and opening or closing the eyes. With the light of divine knowledge, they see that it is only the material senses that are moving amongst their objects."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "Whenever we accomplish anything substantial, we are overcome with the pride that we have done something great.  The pride of being the doer of one’s actions is a stumbling block to rising beyond material consciousness.  However, the God-conscious karm yogis overcome this obstacle with ease.  With purified intellect, they see themselves as separate from the body, and hence they do not attribute their bodily actions to themselves.  The body is made from the material energy of God, and thus they attribute all their works as done by the power of God.  Since they have surrendered to the will of God, they depend upon Him to inspire their mind and intellect in accordance with His divine will.  So, they remain situated in the understanding that God is the doer of everything. ",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": " The Sage Vasishth advised Lord Ram:",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 3,
+            "value": "  kartā bahirkartāntarloke vihara rāghava   (Yog Vāsiṣhṭh)",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 4,
+            "value": "“O Ram, externally engage in actions diligently, but internally practice to see yourself as the non-doer and God as the prime mover of all your activities.”  In this divine consciousness, the karm yogis see themselves as mere instruments in the hands of God.  Shree Krishna explains in the following verse the consequences of work done in this consciousness.",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "नैव किञ्चित्करोमीति युक्तो मन्येत तत्त्ववित् |"
+          },
+          {
+            "id": 2,
+            "value": "पश्यञ्शृण्वन्स्पृशञ्जिघ्रन्नश्नन्गच्छन्स्वपञ्श्वसन् || 8||"
+          },
+          {
+            "id": 3,
+            "value": "प्रलपन्विसृजन्गृह्ण्न्नुन्मिषन्निमिषन्नपि |"
+          },
+          {
+            "id": 4,
+            "value": "इन्द्रियाणीन्द्रियार्थेषु वर्तन्त इति धारयन् || 9||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "naiva kiñchit karomīti yukto manyeta tattva-vit"
+          },
+          {
+            "id": 2,
+            "value": "paśhyañ śhṛiṇvan spṛiśhañjighrann aśhnangachchhan svapañśhvasan"
+          },
+          {
+            "id": 3,
+            "value": "pralapan visṛijan gṛihṇann unmiṣhan nimiṣhann api"
+          },
+          {
+            "id": 4,
+            "value": "indriyāṇīndriyārtheṣhu vartanta iti dhārayan"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "na",
+            "wordMeaningDetailUrl": "#/word-meaning/na",
+            "meaning": "not"
+          },
+          {
+            "id": 2,
+            "sanskrit": " eva",
+            "wordMeaningDetailUrl": "#/word-meaning/eva",
+            "meaning": "certainly"
+          },
+          {
+            "id": 3,
+            "sanskrit": " kiñchit",
+            "wordMeaningDetailUrl": "#/word-meaning/kiñchit",
+            "meaning": "anything"
+          },
+          {
+            "id": 4,
+            "sanskrit": " karomi",
+            "wordMeaningDetailUrl": "#/word-meaning/karomi",
+            "meaning": "I do"
+          },
+          {
+            "id": 5,
+            "sanskrit": " iti",
+            "wordMeaningDetailUrl": "#/word-meaning/iti",
+            "meaning": "thus"
+          },
+          {
+            "id": 6,
+            "sanskrit": " yuktaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/yuktaḥ",
+            "meaning": "steadfast in karm yog"
+          },
+          {
+            "id": 7,
+            "sanskrit": " manyeta",
+            "wordMeaningDetailUrl": "#/word-meaning/manyeta",
+            "meaning": "thinks"
+          },
+          {
+            "id": 8,
+            "sanskrit": " tattva-vit",
+            "wordMeaningDetailUrl": "#/word-meaning/tattva-vit",
+            "meaning": "one who knows the truth"
+          },
+          {
+            "id": 9,
+            "sanskrit": " paśhyan",
+            "wordMeaningDetailUrl": "#/word-meaning/paśhyan",
+            "meaning": "seeing"
+          },
+          {
+            "id": 10,
+            "sanskrit": " śhṛiṇvan",
+            "wordMeaningDetailUrl": "#/word-meaning/śhṛiṇvan",
+            "meaning": "hearing"
+          },
+          {
+            "id": 11,
+            "sanskrit": " spṛiśhan",
+            "wordMeaningDetailUrl": "#/word-meaning/spṛiśhan",
+            "meaning": "touching"
+          },
+          {
+            "id": 12,
+            "sanskrit": " jighran",
+            "wordMeaningDetailUrl": "#/word-meaning/jighran",
+            "meaning": "smelling"
+          },
+          {
+            "id": 13,
+            "sanskrit": " aśhnan",
+            "wordMeaningDetailUrl": "#/word-meaning/aśhnan",
+            "meaning": "eating"
+          },
+          {
+            "id": 14,
+            "sanskrit": " gachchhan",
+            "wordMeaningDetailUrl": "#/word-meaning/gachchhan",
+            "meaning": "moving"
+          },
+          {
+            "id": 15,
+            "sanskrit": " svapan",
+            "wordMeaningDetailUrl": "#/word-meaning/svapan",
+            "meaning": "sleeping"
+          },
+          {
+            "id": 16,
+            "sanskrit": " śhvasan",
+            "wordMeaningDetailUrl": "#/word-meaning/śhvasan",
+            "meaning": "breathing"
+          },
+          {
+            "id": 17,
+            "sanskrit": " pralapan",
+            "wordMeaningDetailUrl": "#/word-meaning/pralapan",
+            "meaning": "talking"
+          },
+          {
+            "id": 18,
+            "sanskrit": " visṛijan",
+            "wordMeaningDetailUrl": "#/word-meaning/visṛijan",
+            "meaning": "giving up"
+          },
+          {
+            "id": 19,
+            "sanskrit": " gṛihṇan",
+            "wordMeaningDetailUrl": "#/word-meaning/gṛihṇan",
+            "meaning": "accepting"
+          },
+          {
+            "id": 20,
+            "sanskrit": " unmiṣhan",
+            "wordMeaningDetailUrl": "#/word-meaning/unmiṣhan",
+            "meaning": "opening (the eyes)"
+          },
+          {
+            "id": 21,
+            "sanskrit": " nimiṣhan",
+            "wordMeaningDetailUrl": "#/word-meaning/nimiṣhan",
+            "meaning": "closing (the eyes)"
+          },
+          {
+            "id": 22,
+            "sanskrit": " api",
+            "wordMeaningDetailUrl": "#/word-meaning/api",
+            "meaning": "although"
+          },
+          {
+            "id": 23,
+            "sanskrit": " indriyāṇi",
+            "wordMeaningDetailUrl": "#/word-meaning/indriyāṇi",
+            "meaning": "the senses"
+          },
+          {
+            "id": 24,
+            "sanskrit": " indriya-artheṣhu",
+            "wordMeaningDetailUrl": "#/word-meaning/indriya-artheṣhu",
+            "meaning": "in sense-objects"
+          },
+          {
+            "id": 25,
+            "sanskrit": " vartante",
+            "wordMeaningDetailUrl": "#/word-meaning/vartante",
+            "meaning": "moving"
+          },
+          {
+            "id": 26,
+            "sanskrit": " iti",
+            "wordMeaningDetailUrl": "#/word-meaning/iti",
+            "meaning": "thus"
+          },
+          {
+            "id": 27,
+            "sanskrit": " dhārayan",
+            "wordMeaningDetailUrl": "#/word-meaning/dhārayan",
+            "meaning": "convinced"
+          }
+        ],
         "currentVerseUrl": "#/chapter/5/verse/5.8 – 5.9",
         "nextVerseUrl": "#/chapter/5/verse/5.10",
         "previousVerseUrl": "#/chapter/5/verse/5.7"
@@ -29846,11 +30142,141 @@
         "currentVerse": "5.10",
         "nextVerse": "5.11",
         "previousVerse": "5.8 – 5.9",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 5.10",
+            "value": " Those who dedicate their actions to God, abandoning all attachment, remain untouched by sin, just as a lotus leaf is untouched by water."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "Both Hindu and Buddhist scriptures abound with analogies of the lotus flower.  The word is used as a respectful appellation while describing various parts of God’s divine body.  Hence charaṇ-kamal means “lotus-like feet,” kamalekṣhaṇa means “lotus-like eyes,” kar-kamal means “lotus-like hands,” etc.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "Another word for the lotus flower is paṅkaj, which means “born from mud.”  The lotus flower grows from the mud found at the bottom of the lake, yet it rises above the water and blossoms toward the sun.  Thus, the lotus flower is often used in Sanskrit literature as an example of something that is born amidst the dirt, and rises above it while retaining its beautiful purity. ",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 3,
+            "value": "Further, the lotus plant has large leaves that float atop the water surface of the lake.  Lotus leaves are used in Indian villages for plates, as they are waterproof, and liquid poured on them does not soak through, but runs off.  The beauty of the lotus leaf is that, although the lotus owes its birth, growth, and sustenance to the water, the leaf does not permit itself to be wetted.  Water poured on the lotus leaf runs off the side, due to the small hair growing on its surface. ",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 4,
+            "value": "With the help of the beautiful analogy of the lotus leaf, Shree Krishna says that just as it floats atop the surface of the lake, but does not allow itself to be wetted by the water, similarly, the karm yogis remain untouched by sin, although performing all kinds of works, because they perform their works in divine consciousness.",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "ब्रह्मण्याधाय कर्माणि सङ्गं त्यक्त्वा करोति य: |"
+          },
+          {
+            "id": 2,
+            "value": "लिप्यते न स पापेन पद्मपत्रमिवाम्भसा || 10||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "brahmaṇyādhāya karmāṇi saṅgaṁ tyaktvā karoti yaḥ"
+          },
+          {
+            "id": 2,
+            "value": "lipyate na sa pāpena padma-patram ivāmbhasā"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "brahmaṇi",
+            "wordMeaningDetailUrl": "#/word-meaning/brahmaṇi",
+            "meaning": "to God"
+          },
+          {
+            "id": 2,
+            "sanskrit": " ādhāya",
+            "wordMeaningDetailUrl": "#/word-meaning/ādhāya",
+            "meaning": "dedicating"
+          },
+          {
+            "id": 3,
+            "sanskrit": " karmāṇi",
+            "wordMeaningDetailUrl": "#/word-meaning/karmāṇi",
+            "meaning": "all actions"
+          },
+          {
+            "id": 4,
+            "sanskrit": " saṅgam",
+            "wordMeaningDetailUrl": "#/word-meaning/saṅgam",
+            "meaning": "attachment"
+          },
+          {
+            "id": 5,
+            "sanskrit": " tyaktvā",
+            "wordMeaningDetailUrl": "#/word-meaning/tyaktvā",
+            "meaning": "abandoning"
+          },
+          {
+            "id": 6,
+            "sanskrit": " karoti",
+            "wordMeaningDetailUrl": "#/word-meaning/karoti",
+            "meaning": "performs"
+          },
+          {
+            "id": 7,
+            "sanskrit": " yaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/yaḥ",
+            "meaning": "who"
+          },
+          {
+            "id": 8,
+            "sanskrit": " lipyate",
+            "wordMeaningDetailUrl": "#/word-meaning/lipyate",
+            "meaning": "is affected"
+          },
+          {
+            "id": 9,
+            "sanskrit": " na",
+            "wordMeaningDetailUrl": "#/word-meaning/na",
+            "meaning": "never"
+          },
+          {
+            "id": 10,
+            "sanskrit": " saḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/saḥ",
+            "meaning": "that person"
+          },
+          {
+            "id": 11,
+            "sanskrit": " pāpena",
+            "wordMeaningDetailUrl": "#/word-meaning/pāpena",
+            "meaning": "by sin"
+          },
+          {
+            "id": 12,
+            "sanskrit": " padma-patram",
+            "wordMeaningDetailUrl": "#/word-meaning/padma-patram",
+            "meaning": "a lotus leaf"
+          },
+          {
+            "id": 13,
+            "sanskrit": " iva",
+            "wordMeaningDetailUrl": "#/word-meaning/iva",
+            "meaning": "like"
+          },
+          {
+            "id": 14,
+            "sanskrit": " ambhasā",
+            "wordMeaningDetailUrl": "#/word-meaning/ambhasā",
+            "meaning": "by water"
+          }
+        ],
         "currentVerseUrl": "#/chapter/5/verse/5.10",
         "nextVerseUrl": "#/chapter/5/verse/5.11",
         "previousVerseUrl": "#/chapter/5/verse/5.8 – 5.9"
@@ -29862,11 +30288,195 @@
         "currentVerse": "5.11",
         "nextVerse": "5.12",
         "previousVerse": "5.10",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 5.11",
+            "value": " The yogis, while giving up attachment, perform actions with their body, senses, mind, and intellect, only for the purpose of self-purification."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "The yogis understand that pursuing material desires in the pursuit of happiness is as futile as chasing the mirage in the desert.  Realizing this, they renounce selfish desires, and perform all their actions for the pleasure of God, who alone is the bhoktāraṁ yajña tapasām (Supreme enjoyer of all activities).  However, in this verse, Shree Krishna brings a new twist to the samarpaṇ (dedication of works to God).  He says the enlightened yogis perform their works for the purpose of purification.  How then do the works get dedicated to God? ",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "The fact is that God needs nothing from us.  He is the Supreme Lord of everything that exists and is perfect and complete in Himself.  What can a tiny soul offer to the Almighty God, that God does not already possess?  Hence, it is customary while making an offering to God to say:  tvadiyaṁ vastu govinda tubhyameva samarpitaṁ “O God, I am offering Your item back to You.”  Expressing a similar sentiment, Saint Yamunacharya states:",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 3,
+            "value": "  mama nātha yad asti yo ’smyahaṁ sakalam taddhī tavaiva mādhava",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 4,
+            "value": "  niyata-svam iti prabuddha-dhāir atha vā kiṁ nu samarpayāmi te",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 5,
+            "value": "  (Śhrī Stotra Ratna, 50)",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 6,
+            "value": "“O Lord Vishnu, husband of the Goddess of Fortune, when I was in ignorance, I thought I would give You many things.  But now when I have gained knowledge, I realize that everything I own is already Yours.  What then can I offer to You?”",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 7,
+            "value": "However, there is one activity that is in our hands and not in God’s hands; that is the purification of our own heart (mind and intellect).  When we purify our heart and engage it in devotion to God, it pleases Him more than anything else.  Realizing this, the great yogis make purification of their heart as the foremost goal, not out of selfishness, rather for the pleasure of God.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 8,
+            "value": "Thus, the yogis understand that the biggest thing they can give to God is the purity of their own hearts and they work to achieve it.  In the Ramayan, there is a sweet illustration of this principle.  Lord Ram found Sugreev to be somewhat frightened before the battle of Lanka so He consoled him in the following manner:",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 9,
+            "value": "  piśhāchān dānavān yakṣhān pṛithivyāṁ chaiva rākṣhasān",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 10,
+            "value": "  aṅgugreṇa tānhanyā michchhan harī gaṇeśhvaraḥ   ",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 11,
+            "value": "  (Vālmīki Ramayan)",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 12,
+            "value": "Lord Ram said, “If I, the Supreme Lord, merely bend the little finger of My left hand, what to speak of Ravan and Kumbhakarn, all the demons in the world will die.”  Sugreev responded, “If that is the case, my Lord, then in order to kill Ravan, what is the need for collecting this army?”  The Lord replied, “That is merely to give you all the opportunity to engage in devotional service for your own purification.  However, do not assume that I need your help in annihilating these demons.” ",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 13,
+            "value": "Our only permanent asset is the purity that we achieve.  It goes with us into the next life, while all material assets get left behind.  Hence in the final analysis, the success and failure of our life is determined by the extent to which we manage to achieve purity of heart.  With this in view, elevated yogis welcome adverse circumstances, because they see them as opportunities for purifying the heart.  Saint Kabir states:",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 14,
+            "value": "  nindak niyare rākhiye āngan kuṭi chhabāya",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 15,
+            "value": "  nita sābun pānī binā nirmala kare subhāya",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 16,
+            "value": "“If you are desirous of quickly cleansing your heart, cultivate the company of a critic.  When you tolerate his acrimonious words, your heart will be cleansed without water and soap.”  Thus, when purification of the heart is made the prime motive of actions, adversarial circumstances are then welcomed as God-sent opportunities for further progress, and one remains in equanimity in both success and failure.  As we work for the pleasure of God, the heart gets purified; and as the heart gets purified, we naturally offer the results of all our actions to the Supreme Lord.",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "कायेन मनसा बुद्ध्या केवलैरिन्द्रियैरपि |"
+          },
+          {
+            "id": 2,
+            "value": "योगिन: कर्म कुर्वन्ति सङ्गं त्यक्त्वात्मशुद्धये || 11||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "kāyena manasā buddhyā kevalair indriyair api"
+          },
+          {
+            "id": 2,
+            "value": "yoginaḥ karma kurvanti saṅgaṁ tyaktvātma-śhuddhaye"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "kāyena",
+            "wordMeaningDetailUrl": "#/word-meaning/kāyena",
+            "meaning": "with the body"
+          },
+          {
+            "id": 2,
+            "sanskrit": " manasā",
+            "wordMeaningDetailUrl": "#/word-meaning/manasā",
+            "meaning": "with the mind"
+          },
+          {
+            "id": 3,
+            "sanskrit": " buddhyā",
+            "wordMeaningDetailUrl": "#/word-meaning/buddhyā",
+            "meaning": "with the intellect"
+          },
+          {
+            "id": 4,
+            "sanskrit": " kevalaiḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/kevalaiḥ",
+            "meaning": "only"
+          },
+          {
+            "id": 5,
+            "sanskrit": " indriyaiḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/indriyaiḥ",
+            "meaning": "with the senses"
+          },
+          {
+            "id": 6,
+            "sanskrit": " api",
+            "wordMeaningDetailUrl": "#/word-meaning/api",
+            "meaning": "even"
+          },
+          {
+            "id": 7,
+            "sanskrit": " yoginaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/yoginaḥ",
+            "meaning": "the yogis"
+          },
+          {
+            "id": 8,
+            "sanskrit": " karma",
+            "wordMeaningDetailUrl": "#/word-meaning/karma",
+            "meaning": "actions"
+          },
+          {
+            "id": 9,
+            "sanskrit": " kurvanti",
+            "wordMeaningDetailUrl": "#/word-meaning/kurvanti",
+            "meaning": "perform"
+          },
+          {
+            "id": 10,
+            "sanskrit": " saṅgam",
+            "wordMeaningDetailUrl": "#/word-meaning/saṅgam",
+            "meaning": "attachment"
+          },
+          {
+            "id": 11,
+            "sanskrit": " tyaktvā",
+            "wordMeaningDetailUrl": "#/word-meaning/tyaktvā",
+            "meaning": "giving up"
+          },
+          {
+            "id": 12,
+            "sanskrit": " ātma",
+            "wordMeaningDetailUrl": "#/word-meaning/ātma",
+            "meaning": "of the self"
+          },
+          {
+            "id": 13,
+            "sanskrit": " śhuddhaye",
+            "wordMeaningDetailUrl": "#/word-meaning/śhuddhaye",
+            "meaning": "for the purification"
+          }
+        ],
         "currentVerseUrl": "#/chapter/5/verse/5.11",
         "nextVerseUrl": "#/chapter/5/verse/5.12",
         "previousVerseUrl": "#/chapter/5/verse/5.10"
@@ -29878,11 +30488,118 @@
         "currentVerse": "5.12",
         "nextVerse": "5.13",
         "previousVerse": "5.11",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 5.12",
+            "value": " Offering the results of all activities to God, the karm yogis attain everlasting peace. Whereas those who, being impelled by their desires, work with a selfish motive become entangled because they are attached to the fruits of their actions."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "How is it to be understood that performing the same actions some people are bound to material existence and others are released from material bondage?  Shree Krishna gives the answer in this verse.  Those who are unattached and unmotivated by material rewards are never bound by karma.  But those craving reward and obsessed with the desire to enjoy material pleasures become entangled in the reactions of work.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "The word yukt means “united in consciousness with God.”  It can also mean “not wanting any reward other than purification of the heart.”  Persons who are yukt relinquish desire for the rewards of their actions, and instead engage in works for the purpose of self-purification.  Therefore, they soon attain divine consciousness and eternal beatitude.  ",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 3,
+            "value": "On the other hand, ayukt means “not united with God in consciousness.”  It can also denote “desiring mundane rewards not beneficial to the soul.”  Such persons, incited by cravings, lustfully desire the rewards of actions.  The reactions of work performed in this consciousness bind these ayukt persons to the samsara or the cycle of life and death.",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "युक्त: कर्मफलं त्यक्त्वा शान्तिमाप्नोति नैष्ठिकीम् |"
+          },
+          {
+            "id": 2,
+            "value": "अयुक्त: कामकारेण फले सक्तो निबध्यते || 12||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "yuktaḥ karma-phalaṁ tyaktvā śhāntim āpnoti naiṣhṭhikīm"
+          },
+          {
+            "id": 2,
+            "value": "ayuktaḥ kāma-kāreṇa phale sakto nibadhyate"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "yuktaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/yuktaḥ",
+            "meaning": "one who is united in consciousness with God"
+          },
+          {
+            "id": 2,
+            "sanskrit": " karma-phalam",
+            "wordMeaningDetailUrl": "#/word-meaning/karma-phalam",
+            "meaning": "the results of all activities"
+          },
+          {
+            "id": 3,
+            "sanskrit": " tyaktvā",
+            "wordMeaningDetailUrl": "#/word-meaning/tyaktvā",
+            "meaning": "giving up"
+          },
+          {
+            "id": 4,
+            "sanskrit": " śhāntim",
+            "wordMeaningDetailUrl": "#/word-meaning/śhāntim",
+            "meaning": "peace"
+          },
+          {
+            "id": 5,
+            "sanskrit": " āpnoti",
+            "wordMeaningDetailUrl": "#/word-meaning/āpnoti",
+            "meaning": "attains"
+          },
+          {
+            "id": 6,
+            "sanskrit": " naiṣhṭhikīm",
+            "wordMeaningDetailUrl": "#/word-meaning/naiṣhṭhikīm",
+            "meaning": "everlasting"
+          },
+          {
+            "id": 7,
+            "sanskrit": " ayuktaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/ayuktaḥ",
+            "meaning": "one who is not united with God in consciousness"
+          },
+          {
+            "id": 8,
+            "sanskrit": " kāma-kāreṇa",
+            "wordMeaningDetailUrl": "#/word-meaning/kāma-kāreṇa",
+            "meaning": "impelled by desires"
+          },
+          {
+            "id": 9,
+            "sanskrit": " phale",
+            "wordMeaningDetailUrl": "#/word-meaning/phale",
+            "meaning": "in the result"
+          },
+          {
+            "id": 10,
+            "sanskrit": " saktaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/saktaḥ",
+            "meaning": "attached"
+          },
+          {
+            "id": 11,
+            "sanskrit": " nibadhyate",
+            "wordMeaningDetailUrl": "#/word-meaning/nibadhyate",
+            "meaning": "becomes entangled"
+          }
+        ],
         "currentVerseUrl": "#/chapter/5/verse/5.12",
         "nextVerseUrl": "#/chapter/5/verse/5.13",
         "previousVerseUrl": "#/chapter/5/verse/5.11"
@@ -29894,11 +30611,157 @@
         "currentVerse": "5.13",
         "nextVerse": "5.14",
         "previousVerse": "5.12",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 5.13",
+            "value": " The embodied beings who are self-controlled and detached reside happily in the city of nine gates, free from thinking they are the doers or the cause of anything."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "Shree Krishna compares the body with its openings to a city of nine gates.  The soul is like the king of the city, whose administration is carried out by the ministry of the ego, intellect, mind, senses, and life-energy.  The reign over the body continues until time, in the form of death, snatches away the corporeal frame.  However, even while the reign continues, the enlightened yogis do not see themselves as the body nor do they consider themselves as the lord of the body.  Rather, they hold the body and all activities performed by it as belonging to God.  Renouncing all actions through the mind, such enlightened souls remain happily situated in their body.  This is also called sākṣhī bhāv, or the attitude of being the detached observer of all that is happening around. ",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "The analogy in this verse is also given in the Śhwetāśhvatar Upaniṣhad:",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 3,
+            "value": "  navadwāre pure dehī hanso lelāyate bahiḥ",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 4,
+            "value": "  vaśhī sarvasya lokasya sthāvarasya charasya cha   (3.18)",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 5,
+            "value": "“The body consists of nine gates—two ears, one mouth, two nostrils, two eyes, anus, and genitals.  In material consciousness, the soul residing with the body identifies itself with this city of nine gates.  Within this body also sits the Supreme Lord, who is the controller of all living beings in the world.  When the soul establishes its connection with the Lord, it becomes free like Him, even while residing in the body.”",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 6,
+            "value": "In the preceding verse, Shree Krishna declared that the embodied soul is neither the doer nor the cause of anything.  Then the question arises whether God is the actual cause of actions in the world?  This is answered in the next verse.",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "सर्वकर्माणि मनसा संन्यस्यास्ते सुखं वशी |"
+          },
+          {
+            "id": 2,
+            "value": "नवद्वारे पुरे देही नैव कुर्वन्न कारयन् || 13||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "sarva-karmāṇi manasā sannyasyāste sukhaṁ vaśhī"
+          },
+          {
+            "id": 2,
+            "value": "nava-dvāre pure dehī naiva kurvan na kārayan"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "sarva",
+            "wordMeaningDetailUrl": "#/word-meaning/sarva",
+            "meaning": "all"
+          },
+          {
+            "id": 2,
+            "sanskrit": " karmāṇi",
+            "wordMeaningDetailUrl": "#/word-meaning/karmāṇi",
+            "meaning": "activities"
+          },
+          {
+            "id": 3,
+            "sanskrit": " manasā",
+            "wordMeaningDetailUrl": "#/word-meaning/manasā",
+            "meaning": "by the mind"
+          },
+          {
+            "id": 4,
+            "sanskrit": " sannyasya",
+            "wordMeaningDetailUrl": "#/word-meaning/sannyasya",
+            "meaning": "having renounced"
+          },
+          {
+            "id": 5,
+            "sanskrit": " āste",
+            "wordMeaningDetailUrl": "#/word-meaning/āste",
+            "meaning": "remains"
+          },
+          {
+            "id": 6,
+            "sanskrit": " sukham",
+            "wordMeaningDetailUrl": "#/word-meaning/sukham",
+            "meaning": "happily"
+          },
+          {
+            "id": 7,
+            "sanskrit": " vaśhī",
+            "wordMeaningDetailUrl": "#/word-meaning/vaśhī",
+            "meaning": "the self-controlled"
+          },
+          {
+            "id": 8,
+            "sanskrit": " nava-dvāre",
+            "wordMeaningDetailUrl": "#/word-meaning/nava-dvāre",
+            "meaning": "of nine gates"
+          },
+          {
+            "id": 9,
+            "sanskrit": " pure",
+            "wordMeaningDetailUrl": "#/word-meaning/pure",
+            "meaning": "in the city"
+          },
+          {
+            "id": 10,
+            "sanskrit": " dehī",
+            "wordMeaningDetailUrl": "#/word-meaning/dehī",
+            "meaning": "the embodied being"
+          },
+          {
+            "id": 11,
+            "sanskrit": " na",
+            "wordMeaningDetailUrl": "#/word-meaning/na",
+            "meaning": "never"
+          },
+          {
+            "id": 12,
+            "sanskrit": " eva",
+            "wordMeaningDetailUrl": "#/word-meaning/eva",
+            "meaning": "certainly"
+          },
+          {
+            "id": 13,
+            "sanskrit": " kurvan",
+            "wordMeaningDetailUrl": "#/word-meaning/kurvan",
+            "meaning": "doing anything"
+          },
+          {
+            "id": 14,
+            "sanskrit": " na",
+            "wordMeaningDetailUrl": "#/word-meaning/na",
+            "meaning": "not"
+          },
+          {
+            "id": 15,
+            "sanskrit": " kārayan",
+            "wordMeaningDetailUrl": "#/word-meaning/kārayan",
+            "meaning": "causing to be done"
+          }
+        ],
         "currentVerseUrl": "#/chapter/5/verse/5.13",
         "nextVerseUrl": "#/chapter/5/verse/5.14",
         "previousVerseUrl": "#/chapter/5/verse/5.12"
@@ -29910,11 +30773,130 @@
         "currentVerse": "5.14",
         "nextVerse": "5.15",
         "previousVerse": "5.13",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 5.14",
+            "value": " Neither the sense of doership nor the nature of actions comes from God; nor does He create the fruits of actions. All this is enacted by the modes of material nature (guṇas)."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "In this verse, the word Prabhu has been used for God, to indicate that He is the Lord of the world.  He is also omnipotent and controls the entire universe.  Yet, though He conducts the activities of the universe, He remains the non-doer.  He is neither the director of our actions, nor does He decree whether we will perform a particular virtuous or evil deed.  Had He been our director, there would be no need for elaborate instructions on good and bad actions.  All the scriptures would have ended in three short sentences: “O souls, I am the director of all your works.  So you do not need to understand what good or bad action is.  I will make you do as I wish.” ",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "Similarly, God is not responsible for our getting stuck with the sense of doership.  If He had deliberately created the pride of doing in us, then again we could have blamed Him for our misdoings.  But the fact is that the soul brings this pride onto itself out of ignorance.  If the soul chooses to do away with the ignorance, then God helps dispel it with His grace. ",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 3,
+            "value": "Thus, renunciation of the sense of doership is the responsibility of the soul.  The body is constituted of the three modes of material nature, and all actions are performed by the modes.  But out of ignorance, the soul identifies with the body and becomes implicated as the doer of actions, which are in fact done by material nature (verse 3.27). ",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "न कर्तृत्वं न कर्माणि लोकस्य सृजति प्रभु: |"
+          },
+          {
+            "id": 2,
+            "value": "न कर्मफलसंयोगं स्वभावस्तु प्रवर्तते || 14||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "na kartṛitvaṁ na karmāṇi lokasya sṛijati prabhuḥ"
+          },
+          {
+            "id": 2,
+            "value": "na karma-phala-saṅyogaṁ svabhāvas tu pravartate"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "na",
+            "wordMeaningDetailUrl": "#/word-meaning/na",
+            "meaning": "neither"
+          },
+          {
+            "id": 2,
+            "sanskrit": " kartṛitvam",
+            "wordMeaningDetailUrl": "#/word-meaning/kartṛitvam",
+            "meaning": "sense of doership"
+          },
+          {
+            "id": 3,
+            "sanskrit": " na",
+            "wordMeaningDetailUrl": "#/word-meaning/na",
+            "meaning": "nor"
+          },
+          {
+            "id": 4,
+            "sanskrit": " karmāṇi",
+            "wordMeaningDetailUrl": "#/word-meaning/karmāṇi",
+            "meaning": "actions"
+          },
+          {
+            "id": 5,
+            "sanskrit": " lokasya",
+            "wordMeaningDetailUrl": "#/word-meaning/lokasya",
+            "meaning": "of the people"
+          },
+          {
+            "id": 6,
+            "sanskrit": " sṛijati",
+            "wordMeaningDetailUrl": "#/word-meaning/sṛijati",
+            "meaning": "creates"
+          },
+          {
+            "id": 7,
+            "sanskrit": " prabhuḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/prabhuḥ",
+            "meaning": "God"
+          },
+          {
+            "id": 8,
+            "sanskrit": " na",
+            "wordMeaningDetailUrl": "#/word-meaning/na",
+            "meaning": "nor"
+          },
+          {
+            "id": 9,
+            "sanskrit": " karma-phala",
+            "wordMeaningDetailUrl": "#/word-meaning/karma-phala",
+            "meaning": "fruits of actions"
+          },
+          {
+            "id": 10,
+            "sanskrit": " sanyogam",
+            "wordMeaningDetailUrl": "#/word-meaning/sanyogam",
+            "meaning": "connection"
+          },
+          {
+            "id": 11,
+            "sanskrit": " svabhāvaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/svabhāvaḥ",
+            "meaning": "one’s nature"
+          },
+          {
+            "id": 12,
+            "sanskrit": " tu",
+            "wordMeaningDetailUrl": "#/word-meaning/tu",
+            "meaning": "but"
+          },
+          {
+            "id": 13,
+            "sanskrit": " pravartate",
+            "wordMeaningDetailUrl": "#/word-meaning/pravartate",
+            "meaning": "is enacted"
+          }
+        ],
         "currentVerseUrl": "#/chapter/5/verse/5.14",
         "nextVerseUrl": "#/chapter/5/verse/5.15",
         "previousVerseUrl": "#/chapter/5/verse/5.13"
@@ -29926,11 +30908,152 @@
         "currentVerse": "5.15",
         "nextVerse": "5.16",
         "previousVerse": "5.14",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 5.15",
+            "value": " The omnipresent God does not involve Himself in the sinful or virtuous deeds of anyone. The living entities are deluded because their inner knowledge is covered by ignorance."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "God is not responsible either for anyone’s virtuous deeds or sinful actions.  God’s work in this regard is threefold:  1) He provides the soul with the power to act.  2) Once we have performed actions with the power supplied to us, He notes our actions.  3) He gives us the results of our karmas.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "The individual soul has the freedom to perform good or bad actions by the exercise of its own free will.  That free will is the basis of the play of creation and it accounts for the varieties of consciousness amongst the souls in existence.  God’s work is like that of an umpire in a cricket match.  He keeps giving the results, “Four runs!”  “Six runs!”  “He’s out!”  The umpire cannot be blamed for the decision, for it was based upon the way the player performed. ",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 3,
+            "value": "One may ask why God granted free will to the soul.  It is because the soul is a tiny part of God and it possesses His qualities to a minuscule extent.  God is abhijña swarāṭ (supremely independent), and so the soul also possesses a tiny amount of independence to utilize its senses, mind, and intellect in the manner it wishes. ",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 4,
+            "value": "Also, without free will there can be no love.  A machine cannot love since it has no independence to choose.  Only a personality that has the ability to choose possesses the option to love.  Since God has created us to love Him, He has endowed us with free will.  The exercise of our own free will results in good and bad deeds, and we must not blame God for them. ",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 5,
+            "value": "In ignorance, some souls do not even realize that they possess the freedom to choose their actions and hold God responsible for their mistakes.  Others realize they possess a free will, but they harbor the pride of doership in the egoistic notion of being the body.  This is again a sign of ignorance.  Shree Krishna explains next how such ignorance can be dispelled.",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "नादत्ते कस्यचित्पापं न चैव सुकृतं विभु: |"
+          },
+          {
+            "id": 2,
+            "value": "अज्ञानेनावृतं ज्ञानं तेन मुह्यन्ति जन्तव: || 15||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "nādatte kasyachit pāpaṁ na chaiva sukṛitaṁ vibhuḥ"
+          },
+          {
+            "id": 2,
+            "value": "ajñānenāvṛitaṁ jñānaṁ tena muhyanti jantavaḥ"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "na",
+            "wordMeaningDetailUrl": "#/word-meaning/na",
+            "meaning": "not"
+          },
+          {
+            "id": 2,
+            "sanskrit": " ādatte",
+            "wordMeaningDetailUrl": "#/word-meaning/ādatte",
+            "meaning": "accepts"
+          },
+          {
+            "id": 3,
+            "sanskrit": " kasyachit",
+            "wordMeaningDetailUrl": "#/word-meaning/kasyachit",
+            "meaning": "anyone’s"
+          },
+          {
+            "id": 4,
+            "sanskrit": " pāpam",
+            "wordMeaningDetailUrl": "#/word-meaning/pāpam",
+            "meaning": "sin"
+          },
+          {
+            "id": 5,
+            "sanskrit": " na",
+            "wordMeaningDetailUrl": "#/word-meaning/na",
+            "meaning": "not"
+          },
+          {
+            "id": 6,
+            "sanskrit": " cha",
+            "wordMeaningDetailUrl": "#/word-meaning/cha",
+            "meaning": "and"
+          },
+          {
+            "id": 7,
+            "sanskrit": " eva",
+            "wordMeaningDetailUrl": "#/word-meaning/eva",
+            "meaning": "certainly"
+          },
+          {
+            "id": 8,
+            "sanskrit": " su-kṛitam",
+            "wordMeaningDetailUrl": "#/word-meaning/su-kṛitam",
+            "meaning": "virtuous deeds"
+          },
+          {
+            "id": 9,
+            "sanskrit": " vibhuḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/vibhuḥ",
+            "meaning": "the omnipresent God"
+          },
+          {
+            "id": 10,
+            "sanskrit": " ajñānena",
+            "wordMeaningDetailUrl": "#/word-meaning/ajñānena",
+            "meaning": "by ignorance"
+          },
+          {
+            "id": 11,
+            "sanskrit": " āvṛitam",
+            "wordMeaningDetailUrl": "#/word-meaning/āvṛitam",
+            "meaning": "covered"
+          },
+          {
+            "id": 12,
+            "sanskrit": " jñānam",
+            "wordMeaningDetailUrl": "#/word-meaning/jñānam",
+            "meaning": "knowledge"
+          },
+          {
+            "id": 13,
+            "sanskrit": " tena",
+            "wordMeaningDetailUrl": "#/word-meaning/tena",
+            "meaning": "by that"
+          },
+          {
+            "id": 14,
+            "sanskrit": " muhyanti",
+            "wordMeaningDetailUrl": "#/word-meaning/muhyanti",
+            "meaning": "are deluded"
+          },
+          {
+            "id": 15,
+            "sanskrit": " jantavaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/jantavaḥ",
+            "meaning": "the living entities"
+          }
+        ],
         "currentVerseUrl": "#/chapter/5/verse/5.15",
         "nextVerseUrl": "#/chapter/5/verse/5.16",
         "previousVerseUrl": "#/chapter/5/verse/5.14"
@@ -29942,11 +31065,140 @@
         "currentVerse": "5.16",
         "nextVerse": "5.17",
         "previousVerse": "5.15",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 5.16",
+            "value": " But for those, in whom this ignorance of the self is destroyed by divine knowledge, that knowledge reveals the Supreme Entity, just as the sun illumines everything in daytime."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "The sun’s power in removing the darkness of night is incomparable.  The Ramayan  states:",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "  rākāpati ṣhoṛasa uahiṅ tārāgana samudāi",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 3,
+            "value": "  sakala girinha dava lāia binu rabi rāti na jāi ",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 4,
+            "value": "“Despite the combined light of the full moon and all the visible stars in a cloudless sky, the night does not go.  But the moment the sun rises, the night makes a hasty exit.”  The light of the sun is such that the darkness cannot remain before it.  The light of God’s knowledge has a similar effect in dispelling the darkness of ignorance.  ",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 5,
+            "value": "Darkness is responsible for creating illusions.  In the darkness of the cinema hall, the light falling on the screen creates the illusion of reality, and people get absorbed in watching it.  However, when the main lights in the cinema hall are switched on, the illusion is dispelled and people wake up from their reverie to realize that they were only watching a movie.  Similarly, in the darkness of ignorance, we identify ourselves with the body, and consider ourselves to be the doers and enjoyers of our actions.  When the light of God’s knowledge begins shining brightly, the illusion beats a hasty retreat, and the soul wakes up to its true spiritual identity, even while it lives in the city of nine gates.  The soul had fallen into illusion because God’s material energy (avidyā śhakti) had covered it in darkness.  The illusion is dispelled when God’s spiritual energy (vidyā śhakti) illumines it with the light of knowledge.",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "ज्ञानेन तु तदज्ञानं येषां नाशितमात्मन: |"
+          },
+          {
+            "id": 2,
+            "value": "तेषामादित्यवज्ज्ञानं प्रकाशयति तत्परम् || 16||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "jñānena tu tad ajñānaṁ yeṣhāṁ nāśhitam ātmanaḥ"
+          },
+          {
+            "id": 2,
+            "value": "teṣhām āditya-vaj jñānaṁ prakāśhayati tat param"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "jñānena",
+            "wordMeaningDetailUrl": "#/word-meaning/jñānena",
+            "meaning": "by divine knowledge"
+          },
+          {
+            "id": 2,
+            "sanskrit": " tu",
+            "wordMeaningDetailUrl": "#/word-meaning/tu",
+            "meaning": "but"
+          },
+          {
+            "id": 3,
+            "sanskrit": " tat",
+            "wordMeaningDetailUrl": "#/word-meaning/tat",
+            "meaning": "that"
+          },
+          {
+            "id": 4,
+            "sanskrit": " ajñānam",
+            "wordMeaningDetailUrl": "#/word-meaning/ajñānam",
+            "meaning": "ignorance"
+          },
+          {
+            "id": 5,
+            "sanskrit": " yeṣhām",
+            "wordMeaningDetailUrl": "#/word-meaning/yeṣhām",
+            "meaning": "whose"
+          },
+          {
+            "id": 6,
+            "sanskrit": " nāśhitam",
+            "wordMeaningDetailUrl": "#/word-meaning/nāśhitam",
+            "meaning": "has been destroyed"
+          },
+          {
+            "id": 7,
+            "sanskrit": " ātmanaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/ātmanaḥ",
+            "meaning": "of the self"
+          },
+          {
+            "id": 8,
+            "sanskrit": " teṣhām",
+            "wordMeaningDetailUrl": "#/word-meaning/teṣhām",
+            "meaning": "their"
+          },
+          {
+            "id": 9,
+            "sanskrit": " āditya-vat",
+            "wordMeaningDetailUrl": "#/word-meaning/āditya-vat",
+            "meaning": "like the sun"
+          },
+          {
+            "id": 10,
+            "sanskrit": " jñānam",
+            "wordMeaningDetailUrl": "#/word-meaning/jñānam",
+            "meaning": "knowledge"
+          },
+          {
+            "id": 11,
+            "sanskrit": " prakāśhayati",
+            "wordMeaningDetailUrl": "#/word-meaning/prakāśhayati",
+            "meaning": "illumines"
+          },
+          {
+            "id": 12,
+            "sanskrit": " tat",
+            "wordMeaningDetailUrl": "#/word-meaning/tat",
+            "meaning": "that"
+          },
+          {
+            "id": 13,
+            "sanskrit": " param",
+            "wordMeaningDetailUrl": "#/word-meaning/param",
+            "meaning": "Supreme Entity"
+          }
+        ],
         "currentVerseUrl": "#/chapter/5/verse/5.16",
         "nextVerseUrl": "#/chapter/5/verse/5.17",
         "previousVerseUrl": "#/chapter/5/verse/5.15"
@@ -29958,11 +31210,121 @@
         "currentVerse": "5.17",
         "nextVerse": "5.18",
         "previousVerse": "5.16",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 5.17",
+            "value": " Those whose intellect is fixed in God, who are wholly absorbed in God, with firm faith in Him as the supreme goal, such persons quickly reach the state from which there is no return, their sins having been dispelled by the light of knowledge."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "Just as ignorance causes one to suffer in samsara, or the perpetual cycle of life and death, knowledge has the power to release one from material bondage.  Such knowledge is always accompanied with devotion to God.  This verse makes very emphatic use of words denoting complete God-consciousness.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "Tadbuddhayaḥ means the intellect is directed toward God.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 3,
+            "value": "Tadātmanaḥ means the heart (mind and intellect) is solely absorbed in God.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 4,
+            "value": "Tanniṣhṭhāḥ means the intellect has firm faith in God. ",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 5,
+            "value": "Tatparāyaṇaḥ means striving after God as the supreme goal and refuge.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 6,
+            "value": "Thus, the sign of true knowledge is that it leads to love for God.  Imbued with such love, devotees see Him everywhere.",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "तद्बुद्धयस्तदात्मानस्तन्निष्ठास्तत्परायणा: |"
+          },
+          {
+            "id": 2,
+            "value": "गच्छन्त्यपुनरावृत्तिं ज्ञाननिर्धूतकल्मषा: || 17||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "tad-buddhayas tad-ātmānas tan-niṣhṭhās tat-parāyaṇāḥ"
+          },
+          {
+            "id": 2,
+            "value": "gachchhantyapunar-āvṛittiṁ jñāna-nirdhūta-kalmaṣhāḥ"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "tat-buddhayaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/tat-buddhayaḥ",
+            "meaning": "those whose intellect is directed toward God"
+          },
+          {
+            "id": 2,
+            "sanskrit": " tat-ātmānaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/tat-ātmānaḥ",
+            "meaning": "those whose heart (mind and intellect) is solely absorbed in God"
+          },
+          {
+            "id": 3,
+            "sanskrit": " tat-niṣhṭhāḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/tat-niṣhṭhāḥ",
+            "meaning": "those whose intellect has firm faith in God"
+          },
+          {
+            "id": 4,
+            "sanskrit": " tat-parāyaṇāḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/tat-parāyaṇāḥ",
+            "meaning": "those who strive after God as the supreme goal and refuge"
+          },
+          {
+            "id": 5,
+            "sanskrit": " gachchhanti",
+            "wordMeaningDetailUrl": "#/word-meaning/gachchhanti",
+            "meaning": "go"
+          },
+          {
+            "id": 6,
+            "sanskrit": " apunaḥ-āvṛittim",
+            "wordMeaningDetailUrl": "#/word-meaning/apunaḥ-āvṛittim",
+            "meaning": "not returning"
+          },
+          {
+            "id": 7,
+            "sanskrit": " jñāna",
+            "wordMeaningDetailUrl": "#/word-meaning/jñāna",
+            "meaning": "by knowledge"
+          },
+          {
+            "id": 8,
+            "sanskrit": " nirdhūta",
+            "wordMeaningDetailUrl": "#/word-meaning/nirdhūta",
+            "meaning": "dispelled"
+          },
+          {
+            "id": 9,
+            "sanskrit": " kalmaṣhāḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/kalmaṣhāḥ",
+            "meaning": "sins"
+          }
+        ],
         "currentVerseUrl": "#/chapter/5/verse/5.17",
         "nextVerseUrl": "#/chapter/5/verse/5.18",
         "previousVerseUrl": "#/chapter/5/verse/5.16"
@@ -29974,11 +31336,130 @@
         "currentVerse": "5.18",
         "nextVerse": "5.19",
         "previousVerse": "5.17",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 5.18",
+            "value": " The truly learned, with the eyes of divine knowledge, see with equal vision a Brahmin, a cow, an elephant, a dog, and a dog-eater."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "When we perceive things through the perspective of knowledge, it is called prajñā chakṣhu, which means “with the eyes of knowledge.”  Shree Krishna uses the words vidyā sampanne to the same effect, but He also adds vinaya, meaning “humbleness.”  The sign of divine knowledge is that it is accompanied by a sense of humility, while shallow bookish knowledge is accompanied with the pride of scholarship. ",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "Shree Krishna reveals in this verse how divine knowledge bestows a vision so different from physical sight.  Endowed with knowledge, devotees see all living beings as souls who are fragments of God, and are therefore divine in nature.  The examples given by Shree Krishna are of diametrically contrasting species and life forms.  A Vedic Brahmin who conducts worship ceremonies is respected, while a dog-eater is usually looked down upon as an outcaste; a cow is milked for human consumption, but not a dog; an elephant is used for ceremonial parades, while neither the cow or the dog are.  From the physical perspective, these species are sharp contrasts in the spectrum of life on our planet.  However, a truly learned person endowed with spiritual knowledge sees them all as eternal souls, and hence views them with an equal eye.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 3,
+            "value": "The Vedas do not support the view that the Brahmins (priestly class) are of higher caste, while the Shudras (labor class) are of lower caste.  The perspective of knowledge is that even though the Brahmins conduct worship ceremonies, the Kṣhatriyas administer society, the Vaiśhyas conduct business, and the Shudras engage in labor, yet they are all eternal souls, who are tiny parts of God, and hence alike.",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "विद्याविनयसम्पन्ने ब्राह्मणे गवि हस्तिनि |"
+          },
+          {
+            "id": 2,
+            "value": "शुनि चैव श्वपाके च पण्डिता: समदर्शिन: || 18||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "vidyā-vinaya-sampanne brāhmaṇe gavi hastini"
+          },
+          {
+            "id": 2,
+            "value": "śhuni chaiva śhva-pāke cha paṇḍitāḥ sama-darśhinaḥ"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "vidyā",
+            "wordMeaningDetailUrl": "#/word-meaning/vidyā",
+            "meaning": "divine knowledge"
+          },
+          {
+            "id": 2,
+            "sanskrit": " vinaya",
+            "wordMeaningDetailUrl": "#/word-meaning/vinaya",
+            "meaning": "humbleness"
+          },
+          {
+            "id": 3,
+            "sanskrit": " sampanne",
+            "wordMeaningDetailUrl": "#/word-meaning/sampanne",
+            "meaning": "equipped with"
+          },
+          {
+            "id": 4,
+            "sanskrit": " brāhmaṇe",
+            "wordMeaningDetailUrl": "#/word-meaning/brāhmaṇe",
+            "meaning": "a Brahmin"
+          },
+          {
+            "id": 5,
+            "sanskrit": " gavi",
+            "wordMeaningDetailUrl": "#/word-meaning/gavi",
+            "meaning": "a cow"
+          },
+          {
+            "id": 6,
+            "sanskrit": " hastini",
+            "wordMeaningDetailUrl": "#/word-meaning/hastini",
+            "meaning": "an elephant"
+          },
+          {
+            "id": 7,
+            "sanskrit": " śhuni",
+            "wordMeaningDetailUrl": "#/word-meaning/śhuni",
+            "meaning": "a dog"
+          },
+          {
+            "id": 8,
+            "sanskrit": " cha",
+            "wordMeaningDetailUrl": "#/word-meaning/cha",
+            "meaning": "and"
+          },
+          {
+            "id": 9,
+            "sanskrit": " eva",
+            "wordMeaningDetailUrl": "#/word-meaning/eva",
+            "meaning": "certainly"
+          },
+          {
+            "id": 10,
+            "sanskrit": " śhva-pāke",
+            "wordMeaningDetailUrl": "#/word-meaning/śhva-pāke",
+            "meaning": "a dog-eater"
+          },
+          {
+            "id": 11,
+            "sanskrit": " cha",
+            "wordMeaningDetailUrl": "#/word-meaning/cha",
+            "meaning": "and"
+          },
+          {
+            "id": 12,
+            "sanskrit": " paṇḍitāḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/paṇḍitāḥ",
+            "meaning": "the learned"
+          },
+          {
+            "id": 13,
+            "sanskrit": " sama-darśhinaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/sama-darśhinaḥ",
+            "meaning": "see with equal vision"
+          }
+        ],
         "currentVerseUrl": "#/chapter/5/verse/5.18",
         "nextVerseUrl": "#/chapter/5/verse/5.19",
         "previousVerseUrl": "#/chapter/5/verse/5.17"
@@ -29990,11 +31471,158 @@
         "currentVerse": "5.19",
         "nextVerse": "5.20",
         "previousVerse": "5.18",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 5.19",
+            "value": " Those whose minds are established in equality of vision conquer the cycle of birth and death in this very life. They possess the flawless qualities of God, and are therefore seated in the Absolute Truth."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "Sri Krishna uses the word sāmye to mean one possessed of an equal vision toward all living beings, as explained in the previous verse.  Further, equality in vision also means to rise beyond likes and dislikes, happiness and misery, pleasure and pain.  Shree Krishna says that those who are able to do so transcend the samsara of repeated birth and death.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "So long as we think of ourselves as the body, we cannot attain this equality of vision because we will experience continued desires and aversions for bodily pleasures and discomforts.  Saints rise above bodily consciousness and absorb their minds in God, giving up all worldly attachments.  The Ramayan states:",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 3,
+            "value": "  sevahiṅ lakhanu sīya raghubīrahi, jimi abibekī puruṣha sarīrahi.",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 4,
+            "value": "“Lakshman served Lord Ram and Sita, just as an ignorant person serves his body.” ",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 5,
+            "value": "When one’s mind is situated in this divine consciousness, attachment to bodily pleasures and pains get transcended, and one reaches a state of equanimity.  This equipoise that comes through the sacrifice of selfish bodily desires makes one godlike in demeanor.  The Mahabharat states: yo na kāmayate kiñchit brahma bhūyāya kalpate  “One who gives up desires becomes like God.”",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "इहैव तैर्जित: सर्गो येषां साम्ये स्थितं मन: |"
+          },
+          {
+            "id": 2,
+            "value": "निर्दोषं हि समं ब्रह्म तस्माद् ब्रह्मणि ते स्थिता: || 19||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "ihaiva tair jitaḥ sargo yeṣhāṁ sāmye sthitaṁ manaḥ"
+          },
+          {
+            "id": 2,
+            "value": "nirdoṣhaṁ hi samaṁ brahma tasmād brahmaṇi te sthitāḥ"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "iha eva",
+            "wordMeaningDetailUrl": "#/word-meaning/iha eva",
+            "meaning": "in this very life"
+          },
+          {
+            "id": 2,
+            "sanskrit": " taiḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/taiḥ",
+            "meaning": "by them"
+          },
+          {
+            "id": 3,
+            "sanskrit": " jitaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/jitaḥ",
+            "meaning": "conquer"
+          },
+          {
+            "id": 4,
+            "sanskrit": " sargaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/sargaḥ",
+            "meaning": "the creation"
+          },
+          {
+            "id": 5,
+            "sanskrit": " yeṣhām",
+            "wordMeaningDetailUrl": "#/word-meaning/yeṣhām",
+            "meaning": "whose"
+          },
+          {
+            "id": 6,
+            "sanskrit": " sāmye",
+            "wordMeaningDetailUrl": "#/word-meaning/sāmye",
+            "meaning": "in equanimity"
+          },
+          {
+            "id": 7,
+            "sanskrit": " sthitam",
+            "wordMeaningDetailUrl": "#/word-meaning/sthitam",
+            "meaning": "situated"
+          },
+          {
+            "id": 8,
+            "sanskrit": " manaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/manaḥ",
+            "meaning": "mind"
+          },
+          {
+            "id": 9,
+            "sanskrit": " nirdoṣham",
+            "wordMeaningDetailUrl": "#/word-meaning/nirdoṣham",
+            "meaning": "flawless"
+          },
+          {
+            "id": 10,
+            "sanskrit": " hi",
+            "wordMeaningDetailUrl": "#/word-meaning/hi",
+            "meaning": "certainly"
+          },
+          {
+            "id": 11,
+            "sanskrit": " samam",
+            "wordMeaningDetailUrl": "#/word-meaning/samam",
+            "meaning": "in equality"
+          },
+          {
+            "id": 12,
+            "sanskrit": " brahma",
+            "wordMeaningDetailUrl": "#/word-meaning/brahma",
+            "meaning": "God"
+          },
+          {
+            "id": 13,
+            "sanskrit": " tasmāt",
+            "wordMeaningDetailUrl": "#/word-meaning/tasmāt",
+            "meaning": "therefore"
+          },
+          {
+            "id": 14,
+            "sanskrit": " brahmaṇi",
+            "wordMeaningDetailUrl": "#/word-meaning/brahmaṇi",
+            "meaning": "in the Absolute Truth"
+          },
+          {
+            "id": 15,
+            "sanskrit": " te",
+            "wordMeaningDetailUrl": "#/word-meaning/te",
+            "meaning": "they"
+          },
+          {
+            "id": 16,
+            "sanskrit": " sthitāḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/sthitāḥ",
+            "meaning": "are seated"
+          }
+        ],
         "currentVerseUrl": "#/chapter/5/verse/5.19",
         "nextVerseUrl": "#/chapter/5/verse/5.20",
         "previousVerseUrl": "#/chapter/5/verse/5.18"
@@ -30006,11 +31634,136 @@
         "currentVerse": "5.20",
         "nextVerse": "5.21",
         "previousVerse": "5.19",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 5.20",
+            "value": " Established in God, having a firm understanding of divine knowledge and not hampered by delusion, they neither rejoice in getting something pleasant nor grieve on experiencing the unpleasant."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "The section of this verse—neither rejoicing in pleasure, nor lamenting the unpleasant—is the highest ideal of the Vipassanā tradition of meditation in Buddhism.  Rigorous training is undertaken to reach this state of clarity and precision, ultimately leading to equanimity, and destruction of self-will.  However, the same state is naturally reached in devotion to God, when we surrender our will to the divine.  In accordance with verse 5.17, when we unite our will to the will of God, then both pleasure and pain are serenely accepted as His grace. ",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "A beautiful story illustrates this attitude.  A wild horse once ran into a farm.  People congratulated the farmer on his good luck.  He said, “Good luck, bad luck, who knows?  It is all the will of God.”  A few days later, the horse ran away, back into the forest.  His neighbors commiserated with his bad luck.  He said, “Bad luck, good luck, who knows?  It is all God’s will.”  A few more days went by, and the horse returned with twenty more wild horses.  Again people congratulated the farmer on his stroke of good luck.  He wisely reflected, “What is good and bad luck?  This is all God’s will.”  A few days later, the farmer’s son broke his leg while riding one of the horses.  The neighbors came to express grief.  The wise farmer responded, “Pleasant and unpleasant, it is only God’s will.”  Some more days went by, and the king’s soldiers came to recruit all young men into the army for the war that had just broken out.  All the young men in the neighborhood were taken into the army, but the farmer’s son was left behind because his leg was broken. ",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 3,
+            "value": "Divine knowledge brings the understanding that our self-interest lies in giving pleasure to God.  This leads to surrender to the will of God, and when the self-will gets merged in the divine will, one develops the equanimity to serenely accept both pleasure and pain as His grace.  This is the symptom of a person situated in transcendence.",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "न प्रहृष्येत्प्रियं प्राप्य नोद्विजेत्प्राप्य चाप्रियम् |"
+          },
+          {
+            "id": 2,
+            "value": "स्थिरबुद्धिरसम्मूढो ब्रह्मविद् ब्रह्मणि स्थित: || 20||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "na prahṛiṣhyet priyaṁ prāpya nodvijet prāpya chāpriyam"
+          },
+          {
+            "id": 2,
+            "value": "sthira-buddhir asammūḍho brahma-vid brahmaṇi sthitaḥ"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "na",
+            "wordMeaningDetailUrl": "#/word-meaning/na",
+            "meaning": "neither"
+          },
+          {
+            "id": 2,
+            "sanskrit": " prahṛiṣhyet",
+            "wordMeaningDetailUrl": "#/word-meaning/prahṛiṣhyet",
+            "meaning": "rejoice"
+          },
+          {
+            "id": 3,
+            "sanskrit": " priyam",
+            "wordMeaningDetailUrl": "#/word-meaning/priyam",
+            "meaning": "the pleasant"
+          },
+          {
+            "id": 4,
+            "sanskrit": " prāpya",
+            "wordMeaningDetailUrl": "#/word-meaning/prāpya",
+            "meaning": "obtaining"
+          },
+          {
+            "id": 5,
+            "sanskrit": " na",
+            "wordMeaningDetailUrl": "#/word-meaning/na",
+            "meaning": "nor"
+          },
+          {
+            "id": 6,
+            "sanskrit": " udvijet",
+            "wordMeaningDetailUrl": "#/word-meaning/udvijet",
+            "meaning": "become disturbed"
+          },
+          {
+            "id": 7,
+            "sanskrit": " prāpya",
+            "wordMeaningDetailUrl": "#/word-meaning/prāpya",
+            "meaning": "attaining"
+          },
+          {
+            "id": 8,
+            "sanskrit": " cha",
+            "wordMeaningDetailUrl": "#/word-meaning/cha",
+            "meaning": "also"
+          },
+          {
+            "id": 9,
+            "sanskrit": " apriyam",
+            "wordMeaningDetailUrl": "#/word-meaning/apriyam",
+            "meaning": "the unpleasant"
+          },
+          {
+            "id": 10,
+            "sanskrit": " sthira-buddhiḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/sthira-buddhiḥ",
+            "meaning": "steady intellect"
+          },
+          {
+            "id": 11,
+            "sanskrit": " asammūḍhaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/asammūḍhaḥ",
+            "meaning": "firmly situated"
+          },
+          {
+            "id": 12,
+            "sanskrit": " brahma-vit",
+            "wordMeaningDetailUrl": "#/word-meaning/brahma-vit",
+            "meaning": "having a firm understanding of divine knowledge"
+          },
+          {
+            "id": 13,
+            "sanskrit": " brahmaṇi",
+            "wordMeaningDetailUrl": "#/word-meaning/brahmaṇi",
+            "meaning": "established in God"
+          },
+          {
+            "id": 14,
+            "sanskrit": " sthitaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/sthitaḥ",
+            "meaning": "situated"
+          }
+        ],
         "currentVerseUrl": "#/chapter/5/verse/5.20",
         "nextVerseUrl": "#/chapter/5/verse/5.21",
         "previousVerseUrl": "#/chapter/5/verse/5.19"
@@ -30022,11 +31775,178 @@
         "currentVerse": "5.21",
         "nextVerse": "5.22",
         "previousVerse": "5.20",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 5.21",
+            "value": " Those who are not attached to external sense pleasures realize divine bliss in the self. Being united with God through Yog, they experience unending happiness."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "The Vedic scriptures repeatedly describe God as an ocean of unlimited divine bliss:",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 3,
+            "value": "  ānando brahmeti vyajānāt   (Taittirīya Upaniṣhad 3.6)",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 4,
+            "value": "“Know God to be bliss.”",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 5,
+            "value": "",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 6,
+            "value": "  kevalānubhavānanda svarūpaḥ parameśhvaraḥ   (Bhagavatam 7.6.23)",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 7,
+            "value": "“God’s form is made of pure bliss.”",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 8,
+            "value": "",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 9,
+            "value": "  ānanda mātra kara pāda mukhodarādi   (Padma Purāṇ)",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 10,
+            "value": "“God’s hands, feet, face, stomach, etc. are all made of bliss.”",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 11,
+            "value": "",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 12,
+            "value": "  jo ānand sindhu sukharāsī   (Ramayan)",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 13,
+            "value": "“God is an ocean of bliss and happiness.”",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 14,
+            "value": "",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 15,
+            "value": "All these mantras and verses from the scriptures emphasize that divine bliss is the nature of God’s personality.  The yogi, who absorbs the senses, mind, and intellect in God, begins to experience the infinite bliss of God who is seated within",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "बाह्यस्पर्शेष्वसक्तात्मा विन्दत्यात्मनि यत्सुखम् |"
+          },
+          {
+            "id": 2,
+            "value": "स ब्रह्मयोगयुक्तात्मा सुखमक्षयमश्नुते || 21||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "bāhya-sparśheṣhvasaktātmā vindatyātmani yat sukham"
+          },
+          {
+            "id": 2,
+            "value": "sa brahma-yoga-yuktātmā sukham akṣhayam aśhnute"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "bāhya-sparśheṣhu",
+            "wordMeaningDetailUrl": "#/word-meaning/bāhya-sparśheṣhu",
+            "meaning": "external sense pleasure"
+          },
+          {
+            "id": 2,
+            "sanskrit": " asakta-ātmā",
+            "wordMeaningDetailUrl": "#/word-meaning/asakta-ātmā",
+            "meaning": "those who are unattached"
+          },
+          {
+            "id": 3,
+            "sanskrit": " vindati",
+            "wordMeaningDetailUrl": "#/word-meaning/vindati",
+            "meaning": "find"
+          },
+          {
+            "id": 4,
+            "sanskrit": " ātmani",
+            "wordMeaningDetailUrl": "#/word-meaning/ātmani",
+            "meaning": "in the self"
+          },
+          {
+            "id": 5,
+            "sanskrit": " yat",
+            "wordMeaningDetailUrl": "#/word-meaning/yat",
+            "meaning": "which"
+          },
+          {
+            "id": 6,
+            "sanskrit": " sukham",
+            "wordMeaningDetailUrl": "#/word-meaning/sukham",
+            "meaning": "bliss"
+          },
+          {
+            "id": 7,
+            "sanskrit": " saḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/saḥ",
+            "meaning": "that person"
+          },
+          {
+            "id": 8,
+            "sanskrit": " brahma-yoga yukta-ātmā",
+            "wordMeaningDetailUrl": "#/word-meaning/brahma-yoga yukta-ātmā",
+            "meaning": "those who are united with God through yog"
+          },
+          {
+            "id": 9,
+            "sanskrit": " sukham",
+            "wordMeaningDetailUrl": "#/word-meaning/sukham",
+            "meaning": "happiness"
+          },
+          {
+            "id": 10,
+            "sanskrit": " akṣhayam",
+            "wordMeaningDetailUrl": "#/word-meaning/akṣhayam",
+            "meaning": "unlimited"
+          },
+          {
+            "id": 11,
+            "sanskrit": " aśhnute",
+            "wordMeaningDetailUrl": "#/word-meaning/aśhnute",
+            "meaning": "experiences"
+          }
+        ],
         "currentVerseUrl": "#/chapter/5/verse/5.21",
         "nextVerseUrl": "#/chapter/5/verse/5.22",
         "previousVerseUrl": "#/chapter/5/verse/5.20"
@@ -30038,11 +31958,146 @@
         "currentVerse": "5.22",
         "nextVerse": "5.23",
         "previousVerse": "5.21",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 5.22",
+            "value": " The pleasures that arise from contact with the sense objects, though appearing as enjoyable to worldly-minded people, are verily a source of misery. O son of Kunti, such pleasures have a beginning and an end, and so the wise do not delight in them."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "The senses create sensations of pleasure in contact with the sense objects.  The mind, which is like the sixth sense, derives pleasure from honor, praise, circumstances, success, etc.  All these pleasures of body and mind are known as bhog (material enjoyment).  Such worldly pleasures cannot satisfy the soul for the following reasons:",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "Worldly pleasures are finite, and hence the feeling of deficiency remains inherent in them.  One may feel happiness on becoming a millionaire, but the same millionaire becomes discontented on seeing a billionaire, and thinks, “If only I also had one billion, then I too would be happy.”  In contrast, the bliss of God is infinite, and so it gives complete satisfaction.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 3,
+            "value": "Worldly pleasures are temporary.  Once they finish, they again leave one with the feeling of misery.  For example, an alcoholic enjoys the pleasure of drinking alcohol at night, but the next morning, the hangover gives him a splitting headache.  However, the bliss of God is eternal, and once attained, it remains forever.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 4,
+            "value": "Worldly pleasures are insentient, and hence they continuously decrease.  When people see a new Academy Award prize-winning movie, they are overjoyed, but if they have to see the movie a second time to give company to a friend, their joy dries up.  And if a second friend insists that they see it a third time, they say, “Give me any punishment, but don’t ask me to see that movie again.”  The pleasure from material objects keeps decreasing as we enjoy it.  In Economics, this is defined as the Law of Diminishing Returns.  But the bliss of God is sentient; it is sat-chit-ānand (eternal ever-fresh divine bliss).  Hence, one can go on chanting the same divine Name of God all day long, and relish ever-new devotional satisfaction in it.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 5,
+            "value": "No sane person enjoying a delicious dessert would be willing to give it up and eat mud instead.  Similarly, when one begins to enjoy divine bliss, the mind loses all taste for material pleasures.  Those endowed with the faculty of discrimination understand the above three drawbacks of material pleasures, and restrain their senses from them.   Shree Krishna emphasizes this in the next verse.",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "ये हि संस्पर्शजा भोगा दु:खयोनय एव ते |"
+          },
+          {
+            "id": 2,
+            "value": "आद्यन्तवन्त: कौन्तेय न तेषु रमते बुध: || 22||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "ye hi sansparśha-jā bhogā duḥkha-yonaya eva te"
+          },
+          {
+            "id": 2,
+            "value": "ādyantavantaḥ kaunteya na teṣhu ramate budhaḥ"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "ye",
+            "wordMeaningDetailUrl": "#/word-meaning/ye",
+            "meaning": "which"
+          },
+          {
+            "id": 2,
+            "sanskrit": " hi",
+            "wordMeaningDetailUrl": "#/word-meaning/hi",
+            "meaning": "verily"
+          },
+          {
+            "id": 3,
+            "sanskrit": " sansparśha-jāḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/sansparśha-jāḥ",
+            "meaning": "born of contact with the sense objects"
+          },
+          {
+            "id": 4,
+            "sanskrit": " bhogāḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/bhogāḥ",
+            "meaning": "pleasures"
+          },
+          {
+            "id": 5,
+            "sanskrit": " duḥkha",
+            "wordMeaningDetailUrl": "#/word-meaning/duḥkha",
+            "meaning": "misery"
+          },
+          {
+            "id": 6,
+            "sanskrit": " yonayaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/yonayaḥ",
+            "meaning": "source of"
+          },
+          {
+            "id": 7,
+            "sanskrit": " eva",
+            "wordMeaningDetailUrl": "#/word-meaning/eva",
+            "meaning": "verily"
+          },
+          {
+            "id": 8,
+            "sanskrit": " te",
+            "wordMeaningDetailUrl": "#/word-meaning/te",
+            "meaning": "they are"
+          },
+          {
+            "id": 9,
+            "sanskrit": " ādya-antavantaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/ādya-antavantaḥ",
+            "meaning": "having beginning and end"
+          },
+          {
+            "id": 10,
+            "sanskrit": " kaunteya",
+            "wordMeaningDetailUrl": "#/word-meaning/kaunteya",
+            "meaning": "Arjun, the son of Kunti"
+          },
+          {
+            "id": 11,
+            "sanskrit": " na",
+            "wordMeaningDetailUrl": "#/word-meaning/na",
+            "meaning": "never"
+          },
+          {
+            "id": 12,
+            "sanskrit": " teṣhu",
+            "wordMeaningDetailUrl": "#/word-meaning/teṣhu",
+            "meaning": "in those"
+          },
+          {
+            "id": 13,
+            "sanskrit": " ramate",
+            "wordMeaningDetailUrl": "#/word-meaning/ramate",
+            "meaning": "takes delight"
+          },
+          {
+            "id": 14,
+            "sanskrit": " budhaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/budhaḥ",
+            "meaning": "the wise"
+          }
+        ],
         "currentVerseUrl": "#/chapter/5/verse/5.22",
         "nextVerseUrl": "#/chapter/5/verse/5.23",
         "previousVerseUrl": "#/chapter/5/verse/5.21"
@@ -30054,11 +32109,173 @@
         "currentVerse": "5.23",
         "nextVerse": "5.24",
         "previousVerse": "5.22",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 5.23",
+            "value": " Those persons are yogis, who before giving up the body are able to check the forces of desire and anger; and they alone are happy."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "The human body presents a golden opportunity for the soul to reach the Supreme goal of God-realization.  In this body, we possess the faculty of discrimination, while animals are driven by their nature.  Shree Krishna emphasizes that this power of discrimination should be exercised to restrain the impulses of desire and anger.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "One meaning of the word kām is lust, but in this verse kām is used for all kinds of desires of the body and mind for material pleasures.  When the mind does not attain the object of its desire, it modifies its state to exhibit anger.  The urges of desire and anger are very powerful, like the strong current of a river.  Even animals are subject to these urges, but unlike humans they are not bestowed with the discrimination to restrain them.  However, the human intellect has been bestowed with the power of discrimination.  The word sodhum means “to withstand.”  This verse instructs us to withstand the urges of desire and anger.  Sometimes one restrains the urges of the mind out of embarrassment.  Let us say there is a man sitting at the airport.  A beautiful lady comes and sits by his side.  His mind desires the pleasure of putting his arm around her, but the intellect resists with the thought, “This is improper conduct.  The lady may even slap me for it.”  To avoid the shame of censure, he restrains himself.  Here Shree Krishna is not asking Arjun to restrain the mind out of embarrassment, fear, or apprehension, but through discrimination based on knowledge.  ",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 3,
+            "value": "The resolute intellect should be used to check the mind.  As soon as the thought of savoring a material pleasure comes to the mind, one should bring the knowledge to the intellect that these are sources of misery.  The Shreemad Bhagavatam states: ",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 4,
+            "value": "  nāyaṁ deho deha-bhājāṁ nṛiloke",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 5,
+            "value": "  kaṣhṭān kāmān arhate viḍ-bhujāṁ ye",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 6,
+            "value": "  tapo divyaṁ putrakā yena sattvaṁ",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 7,
+            "value": "  śhuddhyed yasmād brahma-saukhyaṁ tvanantam   (5.5.1)",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 8,
+            "value": "“In the human form, one should not undertake great hardships to obtain sensual pleasures, which are available even to creatures that eat excreta (hogs).  Instead, one should practice austerities to purify one’s heart, and enjoy the unlimited bliss of God.”  This opportunity to practice discrimination is available only while the human body exists, and one who is able to check the forces of desire and anger while living, becomes a yogi.  Such a person alone tastes the divine bliss within and becomes happy.",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "शक्नोतीहैव य: सोढुं प्राक्शरीरविमोक्षणात् |"
+          },
+          {
+            "id": 2,
+            "value": "कामक्रोधोद्भवं वेगं स युक्त: स सुखी नर: || 23||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "śhaknotīhaiva yaḥ soḍhuṁ prāk śharīra-vimokṣhaṇāt"
+          },
+          {
+            "id": 2,
+            "value": "kāma-krodhodbhavaṁ vegaṁ sa yuktaḥ sa sukhī naraḥ"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "śhaknoti",
+            "wordMeaningDetailUrl": "#/word-meaning/śhaknoti",
+            "meaning": "is able"
+          },
+          {
+            "id": 2,
+            "sanskrit": " iha eva",
+            "wordMeaningDetailUrl": "#/word-meaning/iha eva",
+            "meaning": "in the present body"
+          },
+          {
+            "id": 3,
+            "sanskrit": " yaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/yaḥ",
+            "meaning": "who"
+          },
+          {
+            "id": 4,
+            "sanskrit": " soḍhum",
+            "wordMeaningDetailUrl": "#/word-meaning/soḍhum",
+            "meaning": "to withstand"
+          },
+          {
+            "id": 5,
+            "sanskrit": " prāk",
+            "wordMeaningDetailUrl": "#/word-meaning/prāk",
+            "meaning": "before"
+          },
+          {
+            "id": 6,
+            "sanskrit": " śharīra",
+            "wordMeaningDetailUrl": "#/word-meaning/śharīra",
+            "meaning": "the body"
+          },
+          {
+            "id": 7,
+            "sanskrit": " vimokṣhaṇāt",
+            "wordMeaningDetailUrl": "#/word-meaning/vimokṣhaṇāt",
+            "meaning": "giving up"
+          },
+          {
+            "id": 8,
+            "sanskrit": " kāma",
+            "wordMeaningDetailUrl": "#/word-meaning/kāma",
+            "meaning": "desire"
+          },
+          {
+            "id": 9,
+            "sanskrit": " krodha",
+            "wordMeaningDetailUrl": "#/word-meaning/krodha",
+            "meaning": "anger"
+          },
+          {
+            "id": 10,
+            "sanskrit": " udbhavam",
+            "wordMeaningDetailUrl": "#/word-meaning/udbhavam",
+            "meaning": "generated from"
+          },
+          {
+            "id": 11,
+            "sanskrit": " vegam",
+            "wordMeaningDetailUrl": "#/word-meaning/vegam",
+            "meaning": "forces"
+          },
+          {
+            "id": 12,
+            "sanskrit": " saḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/saḥ",
+            "meaning": "that person"
+          },
+          {
+            "id": 13,
+            "sanskrit": " yuktaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/yuktaḥ",
+            "meaning": "yogi"
+          },
+          {
+            "id": 14,
+            "sanskrit": " saḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/saḥ",
+            "meaning": "that person"
+          },
+          {
+            "id": 15,
+            "sanskrit": " sukhī",
+            "wordMeaningDetailUrl": "#/word-meaning/sukhī",
+            "meaning": "happy"
+          },
+          {
+            "id": 16,
+            "sanskrit": " naraḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/naraḥ",
+            "meaning": "person"
+          }
+        ],
         "currentVerseUrl": "#/chapter/5/verse/5.23",
         "nextVerseUrl": "#/chapter/5/verse/5.24",
         "previousVerseUrl": "#/chapter/5/verse/5.22"
@@ -30070,11 +32287,159 @@
         "currentVerse": "5.24",
         "nextVerse": "5.25",
         "previousVerse": "5.23",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 5.24",
+            "value": " Those who are happy within themselves, enjoying the delight of God within, and are illumined by the inner light, such yogis are united with the Lord and are liberated from material existence."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "“Inner light” is the divine knowledge that is bestowed from within in the form of realization, by the grace of God, when we surrender to Him.  The Yog Darśhan states:",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "  ṛitambharā tatra prajñā   (1.48)",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 3,
+            "value": "In the state of samadhi, one\u0027s intellect becomes filled with realization of the Truth.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 4,
+            "value": "After instructing Arjun about the need to withstand the impulses of desire and anger, Shree Krishna reveals the confidential means of practicing this.  The words yo’ntah sukho mean “one who is internally happy.”  There is one kind of happiness that we get from external objects, and another kind of happiness that we experience from within when we absorb the mind in God.  If we do not experience happiness within, we will not be able to permanently resist external temptations.  But when the bliss of God starts flowing within the heart, then the fleeting external pleasures seem trivial in comparison and are easy to renounce. ",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 5,
+            "value": "Saint Yamunacharya states:",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 6,
+            "value": "  yadāvadhi mama chetaḥ kṛiṣhṇa-padāravinde",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 7,
+            "value": "  nava-nava-rasa-dhāmanudyata rantum āsīt",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 8,
+            "value": "  tadāvadhi bata nārī-saṅgame smaryamāne",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 9,
+            "value": "  bhavati mukha-vikāraḥ suṣhṭu niṣhṭhīvanaṁ cha",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 10,
+            "value": "“Ever since I have begun meditating upon the lotus-like feet of Lord Krishna, I have been experiencing ever-increasing bliss.  If by chance the thought of sex pleasure comes to my mind, I spit at the thought and curl my lips in distaste.”",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "योऽन्त:सुखोऽन्तरारामस्तथान्तज्र्योतिरेव य: ।"
+          },
+          {
+            "id": 2,
+            "value": "स योगी ब्रह्मनिर्वाणं ब्रह्मभूतोऽधिगच्छति ।। 24।।"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "yo \u0027ntaḥ-sukho \u0027ntar-ārāmas tathāntar-jyotir eva yaḥ"
+          },
+          {
+            "id": 2,
+            "value": "sa yogī brahma-nirvāṇaṁ brahma-bhūto \u0027dhigachchhati"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "yaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/yaḥ",
+            "meaning": "who"
+          },
+          {
+            "id": 2,
+            "sanskrit": " antaḥ-sukhaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/antaḥ-sukhaḥ",
+            "meaning": "happy within the self"
+          },
+          {
+            "id": 3,
+            "sanskrit": " antaḥ-ārāmaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/antaḥ-ārāmaḥ",
+            "meaning": "enjoying within the self"
+          },
+          {
+            "id": 4,
+            "sanskrit": "  tathā",
+            "wordMeaningDetailUrl": "#/word-meaning/tathā",
+            "meaning": "as well as"
+          },
+          {
+            "id": 5,
+            "sanskrit": " antaḥ-jyotiḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/antaḥ-jyotiḥ",
+            "meaning": "illumined by the inner light"
+          },
+          {
+            "id": 6,
+            "sanskrit": " eva",
+            "wordMeaningDetailUrl": "#/word-meaning/eva",
+            "meaning": "certainly"
+          },
+          {
+            "id": 7,
+            "sanskrit": " yaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/yaḥ",
+            "meaning": "who"
+          },
+          {
+            "id": 8,
+            "sanskrit": "  saḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/saḥ",
+            "meaning": "he"
+          },
+          {
+            "id": 9,
+            "sanskrit": " yogī",
+            "wordMeaningDetailUrl": "#/word-meaning/yogī",
+            "meaning": "yogi"
+          },
+          {
+            "id": 10,
+            "sanskrit": " brahma-nirvāṇam",
+            "wordMeaningDetailUrl": "#/word-meaning/brahma-nirvāṇam",
+            "meaning": "liberation from material existence"
+          },
+          {
+            "id": 11,
+            "sanskrit": " brahmabhūtaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/brahmabhūtaḥ",
+            "meaning": " united with the Lord"
+          },
+          {
+            "id": 12,
+            "sanskrit": " adhigachchhati",
+            "wordMeaningDetailUrl": "#/word-meaning/adhigachchhati",
+            "meaning": "attains"
+          }
+        ],
         "currentVerseUrl": "#/chapter/5/verse/5.24",
         "nextVerseUrl": "#/chapter/5/verse/5.25",
         "previousVerseUrl": "#/chapter/5/verse/5.23"
@@ -30086,11 +32451,122 @@
         "currentVerse": "5.25",
         "nextVerse": "5.26",
         "previousVerse": "5.24",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 5.25",
+            "value": " Those holy persons, whose sins have been purged, whose doubts are annihilated, whose minds are disciplined, and who are devoted to the welfare of all beings, attain God and are liberated from material existence."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "In the preceding verse, Shree Krishna explained the state of the sages who experience the pleasure of God within themselves.  In this verse, He describes the state of the sages who are actively engaged in the welfare of all beings.  The Ramayan states:",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "  para upakāra bachana mana kāyā, santa sahaja subhāu khagarāyā",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 3,
+            "value": "“The trait of compassion is the intrinsic nature of saints.  Motivated by it, they use their words, mind, and body for the welfare of others.” ",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 4,
+            "value": "Human welfare is a praiseworthy endeavor.  However, welfare schemes that are only committed to bodily care only result in temporary welfare.  A person is hungry; he is given food, and his hunger is satiated.  But after four hours, he is hungry again.  Spiritual welfare goes right to the root of all material suffering, and endeavors to revive the God-consciousness of the soul.  Hence, the highest welfare activity is to help a person unite his or her consciousness with God.  This is the kind of welfare work that elevated souls with purified minds engage in.  Such welfare activity further attracts God’s grace, which elevates them even further on the path.  Finally, when they have achieved complete purification of the mind and perfected their surrender to God, they are liberated to the spiritual realm and the divine Abode. ",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 5,
+            "value": "Thus far in this chapter, Shree Krishna has extolled the path of karm-yog.  He now speaks the remaining verses for the karm sanyāsīs, revealing that they too attain the final goal.",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "लभन्ते ब्रह्मनिर्वाणमृषय: क्षीणकल्मषा: |"
+          },
+          {
+            "id": 2,
+            "value": "छिन्नद्वैधा यतात्मान: सर्वभूतहिते रता: || 25||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "labhante brahma-nirvāṇam ṛiṣhayaḥ kṣhīṇa-kalmaṣhāḥ"
+          },
+          {
+            "id": 2,
+            "value": "chhinna-dvaidhā yatātmānaḥ sarva-bhūta-hite ratāḥ"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "labhante",
+            "wordMeaningDetailUrl": "#/word-meaning/labhante",
+            "meaning": "achieve"
+          },
+          {
+            "id": 2,
+            "sanskrit": " brahma-nirvāṇam",
+            "wordMeaningDetailUrl": "#/word-meaning/brahma-nirvāṇam",
+            "meaning": "liberation from material existence"
+          },
+          {
+            "id": 3,
+            "sanskrit": " ṛiṣhayaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/ṛiṣhayaḥ",
+            "meaning": "holy persons"
+          },
+          {
+            "id": 4,
+            "sanskrit": " kṣhīṇa-kalmaṣhāḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/kṣhīṇa-kalmaṣhāḥ",
+            "meaning": "whose sins have been purged"
+          },
+          {
+            "id": 5,
+            "sanskrit": " chhinna",
+            "wordMeaningDetailUrl": "#/word-meaning/chhinna",
+            "meaning": "annihilated"
+          },
+          {
+            "id": 6,
+            "sanskrit": " dvaidhāḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/dvaidhāḥ",
+            "meaning": "doubts"
+          },
+          {
+            "id": 7,
+            "sanskrit": " yata-ātmānaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/yata-ātmānaḥ",
+            "meaning": "whose minds are disciplined"
+          },
+          {
+            "id": 8,
+            "sanskrit": " sarva-bhūta",
+            "wordMeaningDetailUrl": "#/word-meaning/sarva-bhūta",
+            "meaning": "for all living entities"
+          },
+          {
+            "id": 9,
+            "sanskrit": " hite",
+            "wordMeaningDetailUrl": "#/word-meaning/hite",
+            "meaning": "in welfare work"
+          },
+          {
+            "id": 10,
+            "sanskrit": " ratāḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/ratāḥ",
+            "meaning": "rejoice"
+          }
+        ],
         "currentVerseUrl": "#/chapter/5/verse/5.25",
         "nextVerseUrl": "#/chapter/5/verse/5.26",
         "previousVerseUrl": "#/chapter/5/verse/5.24"
@@ -30102,11 +32578,107 @@
         "currentVerse": "5.26",
         "nextVerse": "5.27 – 5.28",
         "previousVerse": "5.25",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 5.26",
+            "value": " For those sanyāsīs, who have broken out of anger and lust through constant effort, who have subdued their mind, and are self-realized, liberation from material existence is both here and hereafter."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "Karm-yog is the safer path to take for most people, as explained in verse 5.2, and that is why Shree Krishna has strongly recommended it to Arjun.  However, for someone who is truly detached from the world, karm sanyās is also suitable.  It is advantageous in that there is no diversion of time and energy toward worldly duties, and one can dedicate oneself fully to the practice of spirituality.  There have been many accomplished sanyāsīs in history.  Shree Krishna states that such true karm sanyāsīs also make rapid progress and experience peace everywhere.  By eliminating the urges of desire and anger and subduing their mind, they attain perfect peace both in this life and here-after.  ",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "We often harbor the misconception that external circumstances are at fault for the lack of peace in our lives, and we hope for the day when the situation will become conducive to peace of mind.  However, peace is not dependent upon the external situation; it is a product of purified senses, mind, and intellect.  The sanyāsīs, with their mind and thoughts turned inward, find the ocean of peace within, independent of external circumstances.  And then, with the internal machinery in order, they experience the same peace everywhere, and are liberated in this world itself.",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "कामक्रोधवियुक्तानां यतीनां यतचेतसाम् |"
+          },
+          {
+            "id": 2,
+            "value": "अभितो ब्रह्मनिर्वाणं वर्तते विदितात्मनाम् || 26||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "kāma-krodha-viyuktānāṁ yatīnāṁ yata-chetasām"
+          },
+          {
+            "id": 2,
+            "value": "abhito brahma-nirvāṇaṁ vartate viditātmanām"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "kāma",
+            "wordMeaningDetailUrl": "#/word-meaning/kāma",
+            "meaning": "desires"
+          },
+          {
+            "id": 2,
+            "sanskrit": " krodha",
+            "wordMeaningDetailUrl": "#/word-meaning/krodha",
+            "meaning": "anger"
+          },
+          {
+            "id": 3,
+            "sanskrit": " viyuktānām",
+            "wordMeaningDetailUrl": "#/word-meaning/viyuktānām",
+            "meaning": "of those who are liberated"
+          },
+          {
+            "id": 4,
+            "sanskrit": " yatīnām",
+            "wordMeaningDetailUrl": "#/word-meaning/yatīnām",
+            "meaning": "of the saintly persons"
+          },
+          {
+            "id": 5,
+            "sanskrit": " yata-chetasām",
+            "wordMeaningDetailUrl": "#/word-meaning/yata-chetasām",
+            "meaning": "those self-realized persons who have subdued their mind"
+          },
+          {
+            "id": 6,
+            "sanskrit": " abhitaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/abhitaḥ",
+            "meaning": "from every side"
+          },
+          {
+            "id": 7,
+            "sanskrit": " brahma",
+            "wordMeaningDetailUrl": "#/word-meaning/brahma",
+            "meaning": "spiritual"
+          },
+          {
+            "id": 8,
+            "sanskrit": " nirvāṇam",
+            "wordMeaningDetailUrl": "#/word-meaning/nirvāṇam",
+            "meaning": "liberation from material existence"
+          },
+          {
+            "id": 9,
+            "sanskrit": " vartate",
+            "wordMeaningDetailUrl": "#/word-meaning/vartate",
+            "meaning": "exists"
+          },
+          {
+            "id": 10,
+            "sanskrit": " vidita-ātmanām",
+            "wordMeaningDetailUrl": "#/word-meaning/vidita-ātmanām",
+            "meaning": "of those who are self-realized"
+          }
+        ],
         "currentVerseUrl": "#/chapter/5/verse/5.26",
         "nextVerseUrl": "#/chapter/5/verse/5.27 – 5.28",
         "previousVerseUrl": "#/chapter/5/verse/5.25"
@@ -30118,11 +32690,248 @@
         "currentVerse": "5.27 – 5.28",
         "nextVerse": "5.29",
         "previousVerse": "5.26",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 5.27-28",
+            "value": " Shutting out all thoughts of external enjoyment, with the gaze fixed on the space between the eye-brows, equalizing the flow of the incoming and outgoing breath in the nostrils, and thus controlling the senses, mind, and intellect, the sage who becomes free from desire and fear, always lives in freedom."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "Often renunciants are more inclined toward aṣhṭāṅg-yog or haṭha-yog along with their practice of asceticism.  Their extreme detachment makes them disinterested in the path of devotion, which requires meditation on the Names, Forms, Pastimes, and Abodes of God.  Shree Krishna here describes the path that the ascetics take. ",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "He says that such ascetics shut out thoughts of sense objects by controlling their sight and breath.  They focus their gaze between their eyebrows.  If the eyes are fully closed, sleep may overtake one; and if they are wide open, they may get distracted by the objects around them.  In order to avoid both these defects, the ascetics concentrate their gaze, with eyes half-open, between the eyebrows or the tip of the nose.  They also harmonize the prāṇ (outgoing breath) with the apān (incoming breath), until both become suspended in yogic trance.  This yogic process enables the controlling of the senses, mind, and intellect.  Such persons make liberation from the material energy as their only goal. ",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 3,
+            "value": "Such ascetic practices lead to ātma jñāna (knowledge of the self), not to brahma jñāna (knowledge of God).  Hence, the ascetic path must also be consummated through devotion to God, as stated in the next verse.",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "स्पर्शान्कृत्वा बहिर्बाह्यांश्चक्षुश्चैवान्तरे भ्रुवो: |"
+          },
+          {
+            "id": 2,
+            "value": "प्राणापानौ समौ कृत्वा नासाभ्यन्तरचारिणौ || 27||"
+          },
+          {
+            "id": 3,
+            "value": "यतेन्द्रियमनोबुद्धिर्मुनिर्मोक्षपरायण: |"
+          },
+          {
+            "id": 4,
+            "value": "विगतेच्छाभयक्रोधो य: सदा मुक्त एव स: || 28||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "sparśhān kṛitvā bahir bāhyānśh chakṣhuśh chaivāntare bhruvoḥ"
+          },
+          {
+            "id": 2,
+            "value": "prāṇāpānau samau kṛitvā nāsābhyantara-chāriṇau"
+          },
+          {
+            "id": 3,
+            "value": "yatendriya-mano-buddhir munir mokṣha-parāyaṇaḥ"
+          },
+          {
+            "id": 4,
+            "value": "vigatechchhā-bhaya-krodho yaḥ sadā mukta eva saḥ"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "sparśhān",
+            "wordMeaningDetailUrl": "#/word-meaning/sparśhān",
+            "meaning": "contacts (through senses)"
+          },
+          {
+            "id": 2,
+            "sanskrit": " kṛitvā",
+            "wordMeaningDetailUrl": "#/word-meaning/kṛitvā",
+            "meaning": "keeping"
+          },
+          {
+            "id": 3,
+            "sanskrit": " bahiḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/bahiḥ",
+            "meaning": "outside"
+          },
+          {
+            "id": 4,
+            "sanskrit": " bāhyān",
+            "wordMeaningDetailUrl": "#/word-meaning/bāhyān",
+            "meaning": "external"
+          },
+          {
+            "id": 5,
+            "sanskrit": " chakṣhuḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/chakṣhuḥ",
+            "meaning": "eyes"
+          },
+          {
+            "id": 6,
+            "sanskrit": " cha",
+            "wordMeaningDetailUrl": "#/word-meaning/cha",
+            "meaning": "and"
+          },
+          {
+            "id": 7,
+            "sanskrit": " eva",
+            "wordMeaningDetailUrl": "#/word-meaning/eva",
+            "meaning": "certainly"
+          },
+          {
+            "id": 8,
+            "sanskrit": " antare",
+            "wordMeaningDetailUrl": "#/word-meaning/antare",
+            "meaning": "between"
+          },
+          {
+            "id": 9,
+            "sanskrit": " bhruvoḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/bhruvoḥ",
+            "meaning": "of the eyebrows"
+          },
+          {
+            "id": 10,
+            "sanskrit": " prāṇa-apānau",
+            "wordMeaningDetailUrl": "#/word-meaning/prāṇa-apānau",
+            "meaning": "the outgoing and incoming breaths"
+          },
+          {
+            "id": 11,
+            "sanskrit": " samau",
+            "wordMeaningDetailUrl": "#/word-meaning/samau",
+            "meaning": "equal"
+          },
+          {
+            "id": 12,
+            "sanskrit": " kṛitvā",
+            "wordMeaningDetailUrl": "#/word-meaning/kṛitvā",
+            "meaning": "keeping"
+          },
+          {
+            "id": 13,
+            "sanskrit": " nāsa-abhyantara",
+            "wordMeaningDetailUrl": "#/word-meaning/nāsa-abhyantara",
+            "meaning": "within the nostrils"
+          },
+          {
+            "id": 14,
+            "sanskrit": " chāriṇau",
+            "wordMeaningDetailUrl": "#/word-meaning/chāriṇau",
+            "meaning": "moving"
+          },
+          {
+            "id": 15,
+            "sanskrit": " yata",
+            "wordMeaningDetailUrl": "#/word-meaning/yata",
+            "meaning": "controlled"
+          },
+          {
+            "id": 16,
+            "sanskrit": " indriya",
+            "wordMeaningDetailUrl": "#/word-meaning/indriya",
+            "meaning": "senses"
+          },
+          {
+            "id": 17,
+            "sanskrit": " manaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/manaḥ",
+            "meaning": "mind"
+          },
+          {
+            "id": 18,
+            "sanskrit": " buddhiḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/buddhiḥ",
+            "meaning": "intellect"
+          },
+          {
+            "id": 19,
+            "sanskrit": " muniḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/muniḥ",
+            "meaning": "the sage"
+          },
+          {
+            "id": 20,
+            "sanskrit": " mokṣha",
+            "wordMeaningDetailUrl": "#/word-meaning/mokṣha",
+            "meaning": "liberation"
+          },
+          {
+            "id": 21,
+            "sanskrit": " parāyaṇaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/parāyaṇaḥ",
+            "meaning": "dedicated"
+          },
+          {
+            "id": 22,
+            "sanskrit": " vigata",
+            "wordMeaningDetailUrl": "#/word-meaning/vigata",
+            "meaning": "free"
+          },
+          {
+            "id": 23,
+            "sanskrit": " ichchhā",
+            "wordMeaningDetailUrl": "#/word-meaning/ichchhā",
+            "meaning": "desires"
+          },
+          {
+            "id": 24,
+            "sanskrit": " bhaya",
+            "wordMeaningDetailUrl": "#/word-meaning/bhaya",
+            "meaning": "fear"
+          },
+          {
+            "id": 25,
+            "sanskrit": " krodhaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/krodhaḥ",
+            "meaning": "anger"
+          },
+          {
+            "id": 26,
+            "sanskrit": " yaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/yaḥ",
+            "meaning": "who"
+          },
+          {
+            "id": 27,
+            "sanskrit": " sadā",
+            "wordMeaningDetailUrl": "#/word-meaning/sadā",
+            "meaning": "always"
+          },
+          {
+            "id": 28,
+            "sanskrit": " muktaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/muktaḥ",
+            "meaning": "liberated"
+          },
+          {
+            "id": 29,
+            "sanskrit": " eva",
+            "wordMeaningDetailUrl": "#/word-meaning/eva",
+            "meaning": "certainly"
+          },
+          {
+            "id": 30,
+            "sanskrit": " saḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/saḥ",
+            "meaning": "that person"
+          }
+        ],
         "currentVerseUrl": "#/chapter/5/verse/5.27 – 5.28",
         "nextVerseUrl": "#/chapter/5/verse/5.29",
         "previousVerseUrl": "#/chapter/5/verse/5.26"
@@ -30134,11 +32943,134 @@
         "currentVerse": "5.29",
         "nextVerse": "6.1",
         "previousVerse": "5.27 – 5.28",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 5.29",
+            "value": " Having realized Me as the enjoyer of all sacrifices and austerities, the Supreme Lord of all the worlds and the selfless Friend of all living beings, My devotee attains peace."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "The ascetic sādhanā, explained in the previous two verses, can lead to ātma jñāna (knowledge of the self).  But brahma jñāna (knowledge of God) requires the grace of God, which comes through devotion.  The words sarva loka maheśhwaram mean “Sovereign Lord of all the worlds,” and suhṛidaṁ sarva-bhūtānāṁ means “benevolent well-wisher of all living beings.”  In this way, He emphasizes that the ascetic path too is consummated in surrender to God, with the knowledge that the Supreme Lord is the enjoyer of all austerities and sacrifices.  Jagadguru Shree Kripaluji Maharaj has put this very nicely:",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "  hari kā viyogī jīva govind rādhe, sañcho yog soī jo hari se milāde",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 3,
+            "value": "  (Rādhā Govind Geet)",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 4,
+            "value": "“The soul is disconnected from God since eternity.  True Yog is that which unites the soul with the Lord.”  Hence, no system of Yog is complete without the inclusion of bhakti.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 5,
+            "value": "In His “Song of God,” Shree Krishna beautifully includes all the genuine paths of spiritual practice, but each time, at the end He qualifies them by stating that success in these paths also requires bhakti.  For example, He uses this system of presentation in verses 6.46-47, 8.22, 11.53-54, 18.54-55, etc.  Here too, Shree Krishna ends the topic revealing the necessity of devotion.",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "भोक्तारं यज्ञतपसां सर्वलोकमहेश्वरम् |"
+          },
+          {
+            "id": 2,
+            "value": "सुहृदं सर्वभूतानां ज्ञात्वा मां शान्तिमृच्छति || 29||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "bhoktāraṁ yajña-tapasāṁ sarva-loka-maheśhvaram"
+          },
+          {
+            "id": 2,
+            "value": "suhṛidaṁ sarva-bhūtānāṁ jñātvā māṁ śhāntim ṛichchhati"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "bhoktāram",
+            "wordMeaningDetailUrl": "#/word-meaning/bhoktāram",
+            "meaning": "the enjoyer"
+          },
+          {
+            "id": 2,
+            "sanskrit": " yajña",
+            "wordMeaningDetailUrl": "#/word-meaning/yajña",
+            "meaning": "sacrifices"
+          },
+          {
+            "id": 3,
+            "sanskrit": " tapasām",
+            "wordMeaningDetailUrl": "#/word-meaning/tapasām",
+            "meaning": "austerities"
+          },
+          {
+            "id": 4,
+            "sanskrit": " sarva-loka",
+            "wordMeaningDetailUrl": "#/word-meaning/sarva-loka",
+            "meaning": "of all worlds"
+          },
+          {
+            "id": 5,
+            "sanskrit": " mahā-īśhvaram",
+            "wordMeaningDetailUrl": "#/word-meaning/mahā-īśhvaram",
+            "meaning": "the Supreme Lord"
+          },
+          {
+            "id": 6,
+            "sanskrit": " su-hṛidam",
+            "wordMeaningDetailUrl": "#/word-meaning/su-hṛidam",
+            "meaning": "the selfless Friend"
+          },
+          {
+            "id": 7,
+            "sanskrit": " sarva",
+            "wordMeaningDetailUrl": "#/word-meaning/sarva",
+            "meaning": "of all"
+          },
+          {
+            "id": 8,
+            "sanskrit": " bhūtānām",
+            "wordMeaningDetailUrl": "#/word-meaning/bhūtānām",
+            "meaning": "the living beings"
+          },
+          {
+            "id": 9,
+            "sanskrit": " jñātvā",
+            "wordMeaningDetailUrl": "#/word-meaning/jñātvā",
+            "meaning": "having realized"
+          },
+          {
+            "id": 10,
+            "sanskrit": " mām",
+            "wordMeaningDetailUrl": "#/word-meaning/mām",
+            "meaning": "Me (Lord Krishna)"
+          },
+          {
+            "id": 11,
+            "sanskrit": " śhāntim",
+            "wordMeaningDetailUrl": "#/word-meaning/śhāntim",
+            "meaning": "peace"
+          },
+          {
+            "id": 12,
+            "sanskrit": " ṛichchhati",
+            "wordMeaningDetailUrl": "#/word-meaning/ṛichchhati",
+            "meaning": "attains"
+          }
+        ],
         "currentVerseUrl": "#/chapter/5/verse/5.29",
         "nextVerseUrl": "#/chapter/6/verse/6.1",
         "previousVerseUrl": "#/chapter/5/verse/5.27 – 5.28"

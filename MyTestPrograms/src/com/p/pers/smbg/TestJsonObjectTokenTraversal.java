@@ -132,7 +132,7 @@ public class TestJsonObjectTokenTraversal {
 							&& currentlineHavingTokenObject.get("isToken").getAsBoolean()) {
 						String key = currentlineHavingTokenObject.get("key").getAsString();
 						currentKey = key;
-						//System.out.printf("==================== currentKey == %s%n", currentKey);
+						System.out.printf("==================== currentKey == %s%n", currentKey);
 
 						int nextNonEmptyIndex = skipEmptyLines(rawDataList, tokenTraversalIndex);
 						tokenTraversalIndex = nextNonEmptyIndex;
@@ -207,6 +207,7 @@ public class TestJsonObjectTokenTraversal {
 										int id = ++idCnt;
 										JsonObject obj = new JsonObject();
 										obj.addProperty("id", id);
+										//System.out.println(mean);
 										obj.addProperty("sanskrit", mean.split("—")[0]);
 										obj.addProperty("wordMeaningDetailUrl", "#/word-meaning/"+mean.split("—")[0].trim());
 										///word-meaning/
