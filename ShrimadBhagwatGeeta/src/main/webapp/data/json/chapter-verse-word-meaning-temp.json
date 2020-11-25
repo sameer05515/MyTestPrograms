@@ -108,8 +108,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/abhikrama",
-    "nextWMUrl": "#/word-meaning/abhirakṣhantu",
+    "nextWMUrl": "#/word-meaning/abhipravṛittaḥ",
     "currentWMUrl": "#/word-meaning/abhinandati"
+  },
+  {
+    "id": "abhipravṛittaḥ",
+    "data": [
+      {
+        "word": "abhipravṛittaḥ",
+        "meaning": "engaged",
+        "referenceHeader": "Bhagavad Gita 4.20",
+        "refLink": "#/chapter/4/verse/4.20"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/abhinandati",
+    "nextWMUrl": "#/word-meaning/abhirakṣhantu",
+    "currentWMUrl": "#/word-meaning/abhipravṛittaḥ"
   },
   {
     "id": "abhirakṣhantu",
@@ -121,7 +135,7 @@
         "refLink": "#/chapter/1/verse/1.11"
       }
     ],
-    "previousWMUrl": "#/word-meaning/abhinandati",
+    "previousWMUrl": "#/word-meaning/abhipravṛittaḥ",
     "nextWMUrl": "#/word-meaning/abhirakṣhitam",
     "currentWMUrl": "#/word-meaning/abhirakṣhantu"
   },
@@ -336,8 +350,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/achetasaḥ",
-    "nextWMUrl": "#/word-meaning/achyuta",
+    "nextWMUrl": "#/word-meaning/achireṇa",
     "currentWMUrl": "#/word-meaning/achintyaḥ"
+  },
+  {
+    "id": "achireṇa",
+    "data": [
+      {
+        "word": "achireṇa",
+        "meaning": "without delay",
+        "referenceHeader": "Bhagavad Gita 4.39",
+        "refLink": "#/chapter/4/verse/4.39"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/achintyaḥ",
+    "nextWMUrl": "#/word-meaning/achyuta",
+    "currentWMUrl": "#/word-meaning/achireṇa"
   },
   {
     "id": "achyuta",
@@ -349,7 +377,7 @@
         "refLink": "#/chapter/1/verse/1.21 – 1.22"
       }
     ],
-    "previousWMUrl": "#/word-meaning/achintyaḥ",
+    "previousWMUrl": "#/word-meaning/achireṇa",
     "nextWMUrl": "#/word-meaning/adharma",
     "currentWMUrl": "#/word-meaning/achyuta"
   },
@@ -409,6 +437,12 @@
         "meaning": "attains",
         "referenceHeader": "Bhagavad Gita 2.71",
         "refLink": "#/chapter/2/verse/2.71"
+      },
+      {
+        "word": "adhigachchhati",
+        "meaning": "attains",
+        "referenceHeader": "Bhagavad Gita 4.39",
+        "refLink": "#/chapter/4/verse/4.39"
       }
     ],
     "previousWMUrl": "#/word-meaning/adharmaḥ",
@@ -538,8 +572,76 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/agha-āyuḥ",
-    "nextWMUrl": "#/word-meaning/aham",
+    "nextWMUrl": "#/word-meaning/agnau",
     "currentWMUrl": "#/word-meaning/agham"
+  },
+  {
+    "id": "agnau",
+    "data": [
+      {
+        "word": "agnau",
+        "meaning": "in the sacrificial fire",
+        "referenceHeader": "Bhagavad Gita 4.24",
+        "refLink": "#/chapter/4/verse/4.24"
+      },
+      {
+        "word": "agnau",
+        "meaning": "in the fire",
+        "referenceHeader": "Bhagavad Gita 4.25",
+        "refLink": "#/chapter/4/verse/4.25"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/agham",
+    "nextWMUrl": "#/word-meaning/agni",
+    "currentWMUrl": "#/word-meaning/agnau"
+  },
+  {
+    "id": "agni",
+    "data": [
+      {
+        "word": "agni",
+        "meaning": "in the fire",
+        "referenceHeader": "Bhagavad Gita 4.19",
+        "refLink": "#/chapter/4/verse/4.19"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/agnau",
+    "nextWMUrl": "#/word-meaning/agniḥ",
+    "currentWMUrl": "#/word-meaning/agni"
+  },
+  {
+    "id": "agniḥ",
+    "data": [
+      {
+        "word": "agniḥ",
+        "meaning": "fire",
+        "referenceHeader": "Bhagavad Gita 4.37",
+        "refLink": "#/chapter/4/verse/4.37"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/agni",
+    "nextWMUrl": "#/word-meaning/agniṣhu",
+    "currentWMUrl": "#/word-meaning/agniḥ"
+  },
+  {
+    "id": "agniṣhu",
+    "data": [
+      {
+        "word": "agniṣhu",
+        "meaning": "in the sacrficial fire",
+        "referenceHeader": "Bhagavad Gita 4.26",
+        "refLink": "#/chapter/4/verse/4.26"
+      },
+      {
+        "word": "agniṣhu",
+        "meaning": "in the fire",
+        "referenceHeader": "Bhagavad Gita 4.26",
+        "refLink": "#/chapter/4/verse/4.26"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/agniḥ",
+    "nextWMUrl": "#/word-meaning/aham",
+    "currentWMUrl": "#/word-meaning/agniṣhu"
   },
   {
     "id": "aham",
@@ -617,7 +719,7 @@
         "refLink": "#/chapter/4/verse/4.11"
       }
     ],
-    "previousWMUrl": "#/word-meaning/agham",
+    "previousWMUrl": "#/word-meaning/agniṣhu",
     "nextWMUrl": "#/word-meaning/ahankāra-vimūḍha-ātmā",
     "currentWMUrl": "#/word-meaning/aham"
   },
@@ -728,8 +830,36 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/ajam",
-    "nextWMUrl": "#/word-meaning/ajñānām",
+    "nextWMUrl": "#/word-meaning/ajñaḥ",
     "currentWMUrl": "#/word-meaning/ajaḥ"
+  },
+  {
+    "id": "ajñaḥ",
+    "data": [
+      {
+        "word": "ajñaḥ",
+        "meaning": "the ignorant",
+        "referenceHeader": "Bhagavad Gita 4.40",
+        "refLink": "#/chapter/4/verse/4.40"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/ajaḥ",
+    "nextWMUrl": "#/word-meaning/ajñāna-sambhūtam",
+    "currentWMUrl": "#/word-meaning/ajñaḥ"
+  },
+  {
+    "id": "ajñāna-sambhūtam",
+    "data": [
+      {
+        "word": "ajñāna-sambhūtam",
+        "meaning": "born of ignorance",
+        "referenceHeader": "Bhagavad Gita 4.42",
+        "refLink": "#/chapter/4/verse/4.42"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/ajñaḥ",
+    "nextWMUrl": "#/word-meaning/ajñānām",
+    "currentWMUrl": "#/word-meaning/ajñāna-sambhūtam"
   },
   {
     "id": "ajñānām",
@@ -741,9 +871,29 @@
         "refLink": "#/chapter/3/verse/3.26"
       }
     ],
-    "previousWMUrl": "#/word-meaning/ajaḥ",
-    "nextWMUrl": "#/word-meaning/akarma-kṛit",
+    "previousWMUrl": "#/word-meaning/ajñāna-sambhūtam",
+    "nextWMUrl": "#/word-meaning/akarma",
     "currentWMUrl": "#/word-meaning/ajñānām"
+  },
+  {
+    "id": "akarma",
+    "data": [
+      {
+        "word": "akarma",
+        "meaning": "inaction",
+        "referenceHeader": "Bhagavad Gita 4.16",
+        "refLink": "#/chapter/4/verse/4.16"
+      },
+      {
+        "word": "akarma",
+        "meaning": "in inaction",
+        "referenceHeader": "Bhagavad Gita 4.18",
+        "refLink": "#/chapter/4/verse/4.18"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/ajñānām",
+    "nextWMUrl": "#/word-meaning/akarma-kṛit",
+    "currentWMUrl": "#/word-meaning/akarma"
   },
   {
     "id": "akarma-kṛit",
@@ -755,7 +905,7 @@
         "refLink": "#/chapter/3/verse/3.5"
       }
     ],
-    "previousWMUrl": "#/word-meaning/ajñānām",
+    "previousWMUrl": "#/word-meaning/akarma",
     "nextWMUrl": "#/word-meaning/akarmaṇaḥ",
     "currentWMUrl": "#/word-meaning/akarma-kṛit"
   },
@@ -773,6 +923,12 @@
         "meaning": "inaction",
         "referenceHeader": "Bhagavad Gita 3.8",
         "refLink": "#/chapter/3/verse/3.8"
+      },
+      {
+        "word": "akarmaṇaḥ",
+        "meaning": "inaction",
+        "referenceHeader": "Bhagavad Gita 4.17",
+        "refLink": "#/chapter/4/verse/4.17"
       }
     ],
     "previousWMUrl": "#/word-meaning/akarma-kṛit",
@@ -787,6 +943,12 @@
         "meaning": "in inaction",
         "referenceHeader": "Bhagavad Gita 2.47",
         "refLink": "#/chapter/2/verse/2.47"
+      },
+      {
+        "word": "akarmaṇi",
+        "meaning": "inaction",
+        "referenceHeader": "Bhagavad Gita 4.18",
+        "refLink": "#/chapter/4/verse/4.18"
       }
     ],
     "previousWMUrl": "#/word-meaning/akarmaṇaḥ",
@@ -804,8 +966,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/akarmaṇi",
-    "nextWMUrl": "#/word-meaning/akledyaḥ",
+    "nextWMUrl": "#/word-meaning/akhilam",
     "currentWMUrl": "#/word-meaning/akartāram"
+  },
+  {
+    "id": "akhilam",
+    "data": [
+      {
+        "word": "akhilam",
+        "meaning": "all",
+        "referenceHeader": "Bhagavad Gita 4.33",
+        "refLink": "#/chapter/4/verse/4.33"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/akartāram",
+    "nextWMUrl": "#/word-meaning/akledyaḥ",
+    "currentWMUrl": "#/word-meaning/akhilam"
   },
   {
     "id": "akledyaḥ",
@@ -817,7 +993,7 @@
         "refLink": "#/chapter/2/verse/2.24"
       }
     ],
-    "previousWMUrl": "#/word-meaning/akartāram",
+    "previousWMUrl": "#/word-meaning/akhilam",
     "nextWMUrl": "#/word-meaning/akurvata",
     "currentWMUrl": "#/word-meaning/akledyaḥ"
   },
@@ -1413,6 +1589,12 @@
         "meaning": "others",
         "referenceHeader": "Bhagavad Gita 2.29",
         "refLink": "#/chapter/2/verse/2.29"
+      },
+      {
+        "word": "anyaḥ",
+        "meaning": "other (world)",
+        "referenceHeader": "Bhagavad Gita 4.31",
+        "refLink": "#/chapter/4/verse/4.31"
       }
     ],
     "previousWMUrl": "#/word-meaning/anyatra",
@@ -1427,6 +1609,18 @@
         "meaning": "others",
         "referenceHeader": "Bhagavad Gita 1.9",
         "refLink": "#/chapter/1/verse/1.9"
+      },
+      {
+        "word": "anye",
+        "meaning": "others",
+        "referenceHeader": "Bhagavad Gita 4.26",
+        "refLink": "#/chapter/4/verse/4.26"
+      },
+      {
+        "word": "anye",
+        "meaning": "others",
+        "referenceHeader": "Bhagavad Gita 4.26",
+        "refLink": "#/chapter/4/verse/4.26"
       }
     ],
     "previousWMUrl": "#/word-meaning/anyaḥ",
@@ -1542,8 +1736,52 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/apanudyāt",
-    "nextWMUrl": "#/word-meaning/aparihārye arthe",
+    "nextWMUrl": "#/word-meaning/apare",
     "currentWMUrl": "#/word-meaning/aparam"
+  },
+  {
+    "id": "apare",
+    "data": [
+      {
+        "word": "apare",
+        "meaning": "others",
+        "referenceHeader": "Bhagavad Gita 4.25",
+        "refLink": "#/chapter/4/verse/4.25"
+      },
+      {
+        "word": "apare",
+        "meaning": "others",
+        "referenceHeader": "Bhagavad Gita 4.25",
+        "refLink": "#/chapter/4/verse/4.25"
+      },
+      {
+        "word": "apare",
+        "meaning": "others",
+        "referenceHeader": "Bhagavad Gita 4.27",
+        "refLink": "#/chapter/4/verse/4.27"
+      },
+      {
+        "word": "apare",
+        "meaning": "others",
+        "referenceHeader": "Bhagavad Gita 4.28",
+        "refLink": "#/chapter/4/verse/4.28"
+      },
+      {
+        "word": "apare",
+        "meaning": "others",
+        "referenceHeader": "Bhagavad Gita 4.29 – 4.30",
+        "refLink": "#/chapter/4/verse/4.29 – 4.30"
+      },
+      {
+        "word": "apare",
+        "meaning": "others",
+        "referenceHeader": "Bhagavad Gita 4.29 – 4.30",
+        "refLink": "#/chapter/4/verse/4.29 – 4.30"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/aparam",
+    "nextWMUrl": "#/word-meaning/aparihārye arthe",
+    "currentWMUrl": "#/word-meaning/apare"
   },
   {
     "id": "aparihārye arthe",
@@ -1555,7 +1793,7 @@
         "refLink": "#/chapter/2/verse/2.27"
       }
     ],
-    "previousWMUrl": "#/word-meaning/aparam",
+    "previousWMUrl": "#/word-meaning/apare",
     "nextWMUrl": "#/word-meaning/aparyāptam",
     "currentWMUrl": "#/word-meaning/aparihārye arthe"
   },
@@ -1743,6 +1981,48 @@
         "meaning": "although",
         "referenceHeader": "Bhagavad Gita 4.13",
         "refLink": "#/chapter/4/verse/4.13"
+      },
+      {
+        "word": "api",
+        "meaning": "indeed",
+        "referenceHeader": "Bhagavad Gita 4.15",
+        "refLink": "#/chapter/4/verse/4.15"
+      },
+      {
+        "word": "api",
+        "meaning": "even",
+        "referenceHeader": "Bhagavad Gita 4.16",
+        "refLink": "#/chapter/4/verse/4.16"
+      },
+      {
+        "word": "api",
+        "meaning": "also",
+        "referenceHeader": "Bhagavad Gita 4.17",
+        "refLink": "#/chapter/4/verse/4.17"
+      },
+      {
+        "word": "api",
+        "meaning": "despite",
+        "referenceHeader": "Bhagavad Gita 4.20",
+        "refLink": "#/chapter/4/verse/4.20"
+      },
+      {
+        "word": "api",
+        "meaning": "even",
+        "referenceHeader": "Bhagavad Gita 4.22",
+        "refLink": "#/chapter/4/verse/4.22"
+      },
+      {
+        "word": "api",
+        "meaning": "also",
+        "referenceHeader": "Bhagavad Gita 4.29 – 4.30",
+        "refLink": "#/chapter/4/verse/4.29 – 4.30"
+      },
+      {
+        "word": "api",
+        "meaning": "even",
+        "referenceHeader": "Bhagavad Gita 4.36",
+        "refLink": "#/chapter/4/verse/4.36"
       }
     ],
     "previousWMUrl": "#/word-meaning/apaśhyat",
@@ -1788,8 +2068,50 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/aprameyasya",
-    "nextWMUrl": "#/word-meaning/apāvṛitam",
+    "nextWMUrl": "#/word-meaning/apāna",
     "currentWMUrl": "#/word-meaning/apratīkāram"
+  },
+  {
+    "id": "apāna",
+    "data": [
+      {
+        "word": "apāna",
+        "meaning": "and the incoming breath",
+        "referenceHeader": "Bhagavad Gita 4.29 – 4.30",
+        "refLink": "#/chapter/4/verse/4.29 – 4.30"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/apratīkāram",
+    "nextWMUrl": "#/word-meaning/apānam",
+    "currentWMUrl": "#/word-meaning/apāna"
+  },
+  {
+    "id": "apānam",
+    "data": [
+      {
+        "word": "apānam",
+        "meaning": "incoming breath",
+        "referenceHeader": "Bhagavad Gita 4.29 – 4.30",
+        "refLink": "#/chapter/4/verse/4.29 – 4.30"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/apāna",
+    "nextWMUrl": "#/word-meaning/apāne",
+    "currentWMUrl": "#/word-meaning/apānam"
+  },
+  {
+    "id": "apāne",
+    "data": [
+      {
+        "word": "apāne",
+        "meaning": "the incoming breath",
+        "referenceHeader": "Bhagavad Gita 4.29 – 4.30",
+        "refLink": "#/chapter/4/verse/4.29 – 4.30"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/apānam",
+    "nextWMUrl": "#/word-meaning/apāvṛitam",
+    "currentWMUrl": "#/word-meaning/apāne"
   },
   {
     "id": "apāvṛitam",
@@ -1801,7 +2123,7 @@
         "refLink": "#/chapter/2/verse/2.32"
       }
     ],
-    "previousWMUrl": "#/word-meaning/apratīkāram",
+    "previousWMUrl": "#/word-meaning/apāne",
     "nextWMUrl": "#/word-meaning/apāyinaḥ",
     "currentWMUrl": "#/word-meaning/apāvṛitam"
   },
@@ -1937,6 +2259,12 @@
         "meaning": "Arjun",
         "referenceHeader": "Bhagavad Gita 4.9",
         "refLink": "#/chapter/4/verse/4.9"
+      },
+      {
+        "word": "arjuna",
+        "meaning": "Arjun",
+        "referenceHeader": "Bhagavad Gita 4.37",
+        "refLink": "#/chapter/4/verse/4.37"
       }
     ],
     "previousWMUrl": "#/word-meaning/ari-sūdana",
@@ -2004,8 +2332,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/arjunaḥ",
-    "nextWMUrl": "#/word-meaning/artha",
+    "nextWMUrl": "#/word-meaning/arpaṇam",
     "currentWMUrl": "#/word-meaning/arjunaḥ uvācha"
+  },
+  {
+    "id": "arpaṇam",
+    "data": [
+      {
+        "word": "arpaṇam",
+        "meaning": "the ladle and other offerings",
+        "referenceHeader": "Bhagavad Gita 4.24",
+        "refLink": "#/chapter/4/verse/4.24"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/arjunaḥ uvācha",
+    "nextWMUrl": "#/word-meaning/artha",
+    "currentWMUrl": "#/word-meaning/arpaṇam"
   },
   {
     "id": "artha",
@@ -2023,7 +2365,7 @@
         "refLink": "#/chapter/3/verse/3.18"
       }
     ],
-    "previousWMUrl": "#/word-meaning/arjunaḥ uvācha",
+    "previousWMUrl": "#/word-meaning/arpaṇam",
     "nextWMUrl": "#/word-meaning/artham",
     "currentWMUrl": "#/word-meaning/artha"
   },
@@ -2143,11 +2485,45 @@
         "meaning": "you are",
         "referenceHeader": "Bhagavad Gita 4.3",
         "refLink": "#/chapter/4/verse/4.3"
+      },
+      {
+        "word": "asi",
+        "meaning": "you are",
+        "referenceHeader": "Bhagavad Gita 4.36",
+        "refLink": "#/chapter/4/verse/4.36"
       }
     ],
     "previousWMUrl": "#/word-meaning/asataḥ",
-    "nextWMUrl": "#/word-meaning/asmin",
+    "nextWMUrl": "#/word-meaning/asiddhau",
     "currentWMUrl": "#/word-meaning/asi"
+  },
+  {
+    "id": "asiddhau",
+    "data": [
+      {
+        "word": "asiddhau",
+        "meaning": "failure",
+        "referenceHeader": "Bhagavad Gita 4.22",
+        "refLink": "#/chapter/4/verse/4.22"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/asi",
+    "nextWMUrl": "#/word-meaning/asinā",
+    "currentWMUrl": "#/word-meaning/asiddhau"
+  },
+  {
+    "id": "asinā",
+    "data": [
+      {
+        "word": "asinā",
+        "meaning": "with the sword",
+        "referenceHeader": "Bhagavad Gita 4.42",
+        "refLink": "#/chapter/4/verse/4.42"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/asiddhau",
+    "nextWMUrl": "#/word-meaning/asmin",
+    "currentWMUrl": "#/word-meaning/asinā"
   },
   {
     "id": "asmin",
@@ -2171,7 +2547,7 @@
         "refLink": "#/chapter/3/verse/3.3"
       }
     ],
-    "previousWMUrl": "#/word-meaning/asi",
+    "previousWMUrl": "#/word-meaning/asinā",
     "nextWMUrl": "#/word-meaning/asmābhiḥ",
     "currentWMUrl": "#/word-meaning/asmin"
   },
@@ -2263,6 +2639,18 @@
         "meaning": "is",
         "referenceHeader": "Bhagavad Gita 3.22",
         "refLink": "#/chapter/3/verse/3.22"
+      },
+      {
+        "word": "asti",
+        "meaning": "is",
+        "referenceHeader": "Bhagavad Gita 4.31",
+        "refLink": "#/chapter/4/verse/4.31"
+      },
+      {
+        "word": "asti",
+        "meaning": "is",
+        "referenceHeader": "Bhagavad Gita 4.40",
+        "refLink": "#/chapter/4/verse/4.40"
       }
     ],
     "previousWMUrl": "#/word-meaning/asmāt",
@@ -2444,8 +2832,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/atha",
-    "nextWMUrl": "#/word-meaning/atirichyate",
+    "nextWMUrl": "#/word-meaning/atho",
     "currentWMUrl": "#/word-meaning/atha chet"
+  },
+  {
+    "id": "atho",
+    "data": [
+      {
+        "word": "atho",
+        "meaning": "that is to say",
+        "referenceHeader": "Bhagavad Gita 4.35",
+        "refLink": "#/chapter/4/verse/4.35"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/atha chet",
+    "nextWMUrl": "#/word-meaning/atirichyate",
+    "currentWMUrl": "#/word-meaning/atho"
   },
   {
     "id": "atirichyate",
@@ -2457,7 +2859,7 @@
         "refLink": "#/chapter/2/verse/2.34"
       }
     ],
-    "previousWMUrl": "#/word-meaning/atha chet",
+    "previousWMUrl": "#/word-meaning/atho",
     "nextWMUrl": "#/word-meaning/atra",
     "currentWMUrl": "#/word-meaning/atirichyate"
   },
@@ -2475,11 +2877,31 @@
         "meaning": "here",
         "referenceHeader": "Bhagavad Gita 1.23",
         "refLink": "#/chapter/1/verse/1.23"
+      },
+      {
+        "word": "atra",
+        "meaning": "in this",
+        "referenceHeader": "Bhagavad Gita 4.16",
+        "refLink": "#/chapter/4/verse/4.16"
       }
     ],
     "previousWMUrl": "#/word-meaning/atirichyate",
-    "nextWMUrl": "#/word-meaning/avadhyaḥ",
+    "nextWMUrl": "#/word-meaning/atītaḥ",
     "currentWMUrl": "#/word-meaning/atra"
+  },
+  {
+    "id": "atītaḥ",
+    "data": [
+      {
+        "word": "atītaḥ",
+        "meaning": "surpassed",
+        "referenceHeader": "Bhagavad Gita 4.22",
+        "refLink": "#/chapter/4/verse/4.22"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/atra",
+    "nextWMUrl": "#/word-meaning/avadhyaḥ",
+    "currentWMUrl": "#/word-meaning/atītaḥ"
   },
   {
     "id": "avadhyaḥ",
@@ -2491,7 +2913,7 @@
         "refLink": "#/chapter/2/verse/2.30"
       }
     ],
-    "previousWMUrl": "#/word-meaning/atra",
+    "previousWMUrl": "#/word-meaning/atītaḥ",
     "nextWMUrl": "#/word-meaning/avaram",
     "currentWMUrl": "#/word-meaning/avadhyaḥ"
   },
@@ -2884,8 +3306,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/avāptavyam",
-    "nextWMUrl": "#/word-meaning/ayam",
+    "nextWMUrl": "#/word-meaning/ayajñasya",
     "currentWMUrl": "#/word-meaning/avāpya"
+  },
+  {
+    "id": "ayajñasya",
+    "data": [
+      {
+        "word": "ayajñasya",
+        "meaning": "for one who performs no sacrifice",
+        "referenceHeader": "Bhagavad Gita 4.31",
+        "refLink": "#/chapter/4/verse/4.31"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/avāpya",
+    "nextWMUrl": "#/word-meaning/ayam",
+    "currentWMUrl": "#/word-meaning/ayajñasya"
   },
   {
     "id": "ayam",
@@ -2973,9 +3409,21 @@
         "meaning": "this",
         "referenceHeader": "Bhagavad Gita 4.3",
         "refLink": "#/chapter/4/verse/4.3"
+      },
+      {
+        "word": "ayam",
+        "meaning": "this",
+        "referenceHeader": "Bhagavad Gita 4.31",
+        "refLink": "#/chapter/4/verse/4.31"
+      },
+      {
+        "word": "ayam",
+        "meaning": "in this",
+        "referenceHeader": "Bhagavad Gita 4.40",
+        "refLink": "#/chapter/4/verse/4.40"
       }
     ],
-    "previousWMUrl": "#/word-meaning/avāpya",
+    "previousWMUrl": "#/word-meaning/ayajñasya",
     "nextWMUrl": "#/word-meaning/ayaneṣhu",
     "currentWMUrl": "#/word-meaning/ayam"
   },
@@ -3024,8 +3472,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/ayuktasya",
-    "nextWMUrl": "#/word-meaning/aśhinaḥ",
+    "nextWMUrl": "#/word-meaning/aśheṣhāṇi",
     "currentWMUrl": "#/word-meaning/aśhastram"
+  },
+  {
+    "id": "aśheṣhāṇi",
+    "data": [
+      {
+        "word": "aśheṣhāṇi",
+        "meaning": "all",
+        "referenceHeader": "Bhagavad Gita 4.35",
+        "refLink": "#/chapter/4/verse/4.35"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/aśhastram",
+    "nextWMUrl": "#/word-meaning/aśhinaḥ",
+    "currentWMUrl": "#/word-meaning/aśheṣhāṇi"
   },
   {
     "id": "aśhinaḥ",
@@ -3037,7 +3499,7 @@
         "refLink": "#/chapter/3/verse/3.13"
       }
     ],
-    "previousWMUrl": "#/word-meaning/aśhastram",
+    "previousWMUrl": "#/word-meaning/aśheṣhāṇi",
     "nextWMUrl": "#/word-meaning/aśhnute",
     "currentWMUrl": "#/word-meaning/aśhinaḥ"
   },
@@ -3080,8 +3542,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/aśhochyān",
-    "nextWMUrl": "#/word-meaning/aśhru-pūrṇa",
+    "nextWMUrl": "#/word-meaning/aśhraddadhānaḥ",
     "currentWMUrl": "#/word-meaning/aśhoṣhyaḥ"
+  },
+  {
+    "id": "aśhraddadhānaḥ",
+    "data": [
+      {
+        "word": "aśhraddadhānaḥ",
+        "meaning": "without faith",
+        "referenceHeader": "Bhagavad Gita 4.40",
+        "refLink": "#/chapter/4/verse/4.40"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/aśhoṣhyaḥ",
+    "nextWMUrl": "#/word-meaning/aśhru-pūrṇa",
+    "currentWMUrl": "#/word-meaning/aśhraddadhānaḥ"
   },
   {
     "id": "aśhru-pūrṇa",
@@ -3093,7 +3569,7 @@
         "refLink": "#/chapter/2/verse/2.1"
       }
     ],
-    "previousWMUrl": "#/word-meaning/aśhoṣhyaḥ",
+    "previousWMUrl": "#/word-meaning/aśhraddadhānaḥ",
     "nextWMUrl": "#/word-meaning/aśhubham",
     "currentWMUrl": "#/word-meaning/aśhru-pūrṇa"
   },
@@ -3108,8 +3584,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/aśhru-pūrṇa",
-    "nextWMUrl": "#/word-meaning/aśhvatthāmā",
+    "nextWMUrl": "#/word-meaning/aśhubhāt",
     "currentWMUrl": "#/word-meaning/aśhubham"
+  },
+  {
+    "id": "aśhubhāt",
+    "data": [
+      {
+        "word": "aśhubhāt",
+        "meaning": "from inauspiciousness",
+        "referenceHeader": "Bhagavad Gita 4.16",
+        "refLink": "#/chapter/4/verse/4.16"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/aśhubham",
+    "nextWMUrl": "#/word-meaning/aśhvatthāmā",
+    "currentWMUrl": "#/word-meaning/aśhubhāt"
   },
   {
     "id": "aśhvatthāmā",
@@ -3121,7 +3611,7 @@
         "refLink": "#/chapter/1/verse/1.8"
       }
     ],
-    "previousWMUrl": "#/word-meaning/aśhubham",
+    "previousWMUrl": "#/word-meaning/aśhubhāt",
     "nextWMUrl": "#/word-meaning/aśhāntasya",
     "currentWMUrl": "#/word-meaning/aśhvatthāmā"
   },
@@ -3212,8 +3702,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/bahavaḥ",
-    "nextWMUrl": "#/word-meaning/bahu-śhākhāḥ",
+    "nextWMUrl": "#/word-meaning/bahu-vidhāḥ",
     "currentWMUrl": "#/word-meaning/bahu-mataḥ"
+  },
+  {
+    "id": "bahu-vidhāḥ",
+    "data": [
+      {
+        "word": "bahu-vidhāḥ",
+        "meaning": "various kinds of",
+        "referenceHeader": "Bhagavad Gita 4.32",
+        "refLink": "#/chapter/4/verse/4.32"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/bahu-mataḥ",
+    "nextWMUrl": "#/word-meaning/bahu-śhākhāḥ",
+    "currentWMUrl": "#/word-meaning/bahu-vidhāḥ"
   },
   {
     "id": "bahu-śhākhāḥ",
@@ -3225,7 +3729,7 @@
         "refLink": "#/chapter/2/verse/2.41"
       }
     ],
-    "previousWMUrl": "#/word-meaning/bahu-mataḥ",
+    "previousWMUrl": "#/word-meaning/bahu-vidhāḥ",
     "nextWMUrl": "#/word-meaning/bahulām",
     "currentWMUrl": "#/word-meaning/bahu-śhākhāḥ"
   },
@@ -3386,8 +3890,28 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/bhaktaḥ",
-    "nextWMUrl": "#/word-meaning/bhava",
+    "nextWMUrl": "#/word-meaning/bhasma-sāt",
     "currentWMUrl": "#/word-meaning/bharata-ṛiṣhabha"
+  },
+  {
+    "id": "bhasma-sāt",
+    "data": [
+      {
+        "word": "bhasma-sāt",
+        "meaning": "to ashes",
+        "referenceHeader": "Bhagavad Gita 4.37",
+        "refLink": "#/chapter/4/verse/4.37"
+      },
+      {
+        "word": "bhasma-sāt",
+        "meaning": "to ashes",
+        "referenceHeader": "Bhagavad Gita 4.37",
+        "refLink": "#/chapter/4/verse/4.37"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/bharata-ṛiṣhabha",
+    "nextWMUrl": "#/word-meaning/bhava",
+    "currentWMUrl": "#/word-meaning/bhasma-sāt"
   },
   {
     "id": "bhava",
@@ -3399,7 +3923,7 @@
         "refLink": "#/chapter/2/verse/2.45"
       }
     ],
-    "previousWMUrl": "#/word-meaning/bharata-ṛiṣhabha",
+    "previousWMUrl": "#/word-meaning/bhasma-sāt",
     "nextWMUrl": "#/word-meaning/bhavantaḥ",
     "currentWMUrl": "#/word-meaning/bhava"
   },
@@ -3809,6 +4333,12 @@
         "meaning": "Arjun, descendant of Bharat",
         "referenceHeader": "Bhagavad Gita 4.7",
         "refLink": "#/chapter/4/verse/4.7"
+      },
+      {
+        "word": "bhārata",
+        "meaning": "Arjun, descendant of Bharat",
+        "referenceHeader": "Bhagavad Gita 4.42",
+        "refLink": "#/chapter/4/verse/4.42"
       }
     ],
     "previousWMUrl": "#/word-meaning/bhuṅkte",
@@ -4093,6 +4623,12 @@
         "meaning": "all living beings",
         "referenceHeader": "Bhagavad Gita 3.33",
         "refLink": "#/chapter/3/verse/3.33"
+      },
+      {
+        "word": "bhūtāni",
+        "meaning": "living beings",
+        "referenceHeader": "Bhagavad Gita 4.35",
+        "refLink": "#/chapter/4/verse/4.35"
       }
     ],
     "previousWMUrl": "#/word-meaning/bhūtvā",
@@ -4138,8 +4674,34 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/bhūyaḥ",
-    "nextWMUrl": "#/word-meaning/brahma",
+    "nextWMUrl": "#/word-meaning/boddhavyam",
     "currentWMUrl": "#/word-meaning/bhūḥ"
+  },
+  {
+    "id": "boddhavyam",
+    "data": [
+      {
+        "word": "boddhavyam",
+        "meaning": "should be known",
+        "referenceHeader": "Bhagavad Gita 4.17",
+        "refLink": "#/chapter/4/verse/4.17"
+      },
+      {
+        "word": "boddhavyam",
+        "meaning": "must understand",
+        "referenceHeader": "Bhagavad Gita 4.17",
+        "refLink": "#/chapter/4/verse/4.17"
+      },
+      {
+        "word": "boddhavyam",
+        "meaning": "must understand",
+        "referenceHeader": "Bhagavad Gita 4.17",
+        "refLink": "#/chapter/4/verse/4.17"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/bhūḥ",
+    "nextWMUrl": "#/word-meaning/brahma",
+    "currentWMUrl": "#/word-meaning/boddhavyam"
   },
   {
     "id": "brahma",
@@ -4161,9 +4723,51 @@
         "meaning": "The Lord",
         "referenceHeader": "Bhagavad Gita 3.15",
         "refLink": "#/chapter/3/verse/3.15"
+      },
+      {
+        "word": "brahma",
+        "meaning": "Brahman",
+        "referenceHeader": "Bhagavad Gita 4.24",
+        "refLink": "#/chapter/4/verse/4.24"
+      },
+      {
+        "word": "brahma",
+        "meaning": "Brahman",
+        "referenceHeader": "Bhagavad Gita 4.24",
+        "refLink": "#/chapter/4/verse/4.24"
+      },
+      {
+        "word": "brahma",
+        "meaning": "Brahman",
+        "referenceHeader": "Bhagavad Gita 4.24",
+        "refLink": "#/chapter/4/verse/4.24"
+      },
+      {
+        "word": "brahma",
+        "meaning": "Brahman",
+        "referenceHeader": "Bhagavad Gita 4.24",
+        "refLink": "#/chapter/4/verse/4.24"
+      },
+      {
+        "word": "brahma",
+        "meaning": "Brahman",
+        "referenceHeader": "Bhagavad Gita 4.24",
+        "refLink": "#/chapter/4/verse/4.24"
+      },
+      {
+        "word": "brahma",
+        "meaning": "of the Supreme Truth",
+        "referenceHeader": "Bhagavad Gita 4.25",
+        "refLink": "#/chapter/4/verse/4.25"
+      },
+      {
+        "word": "brahma",
+        "meaning": "the Absolute Truth",
+        "referenceHeader": "Bhagavad Gita 4.31",
+        "refLink": "#/chapter/4/verse/4.31"
       }
     ],
-    "previousWMUrl": "#/word-meaning/bhūḥ",
+    "previousWMUrl": "#/word-meaning/boddhavyam",
     "nextWMUrl": "#/word-meaning/brahma-nirvāṇam",
     "currentWMUrl": "#/word-meaning/brahma"
   },
@@ -4178,8 +4782,36 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/brahma",
-    "nextWMUrl": "#/word-meaning/bravīmi",
+    "nextWMUrl": "#/word-meaning/brahmaṇaḥ",
     "currentWMUrl": "#/word-meaning/brahma-nirvāṇam"
+  },
+  {
+    "id": "brahmaṇaḥ",
+    "data": [
+      {
+        "word": "brahmaṇaḥ",
+        "meaning": "of the Vedas",
+        "referenceHeader": "Bhagavad Gita 4.32",
+        "refLink": "#/chapter/4/verse/4.32"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/brahma-nirvāṇam",
+    "nextWMUrl": "#/word-meaning/brahmaṇā",
+    "currentWMUrl": "#/word-meaning/brahmaṇaḥ"
+  },
+  {
+    "id": "brahmaṇā",
+    "data": [
+      {
+        "word": "brahmaṇā",
+        "meaning": "by that person",
+        "referenceHeader": "Bhagavad Gita 4.24",
+        "refLink": "#/chapter/4/verse/4.24"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/brahmaṇaḥ",
+    "nextWMUrl": "#/word-meaning/bravīmi",
+    "currentWMUrl": "#/word-meaning/brahmaṇā"
   },
   {
     "id": "bravīmi",
@@ -4191,7 +4823,7 @@
         "refLink": "#/chapter/1/verse/1.7"
       }
     ],
-    "previousWMUrl": "#/word-meaning/brahma-nirvāṇam",
+    "previousWMUrl": "#/word-meaning/brahmaṇā",
     "nextWMUrl": "#/word-meaning/brāhmaṇasya",
     "currentWMUrl": "#/word-meaning/bravīmi"
   },
@@ -4296,8 +4928,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/buddheḥ",
-    "nextWMUrl": "#/word-meaning/buddhi-nāśhaḥ",
+    "nextWMUrl": "#/word-meaning/buddhi-mān",
     "currentWMUrl": "#/word-meaning/buddhi-bhedam"
+  },
+  {
+    "id": "buddhi-mān",
+    "data": [
+      {
+        "word": "buddhi-mān",
+        "meaning": "wise",
+        "referenceHeader": "Bhagavad Gita 4.18",
+        "refLink": "#/chapter/4/verse/4.18"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/buddhi-bhedam",
+    "nextWMUrl": "#/word-meaning/buddhi-nāśhaḥ",
+    "currentWMUrl": "#/word-meaning/buddhi-mān"
   },
   {
     "id": "buddhi-nāśhaḥ",
@@ -4309,7 +4955,7 @@
         "refLink": "#/chapter/2/verse/2.63"
       }
     ],
-    "previousWMUrl": "#/word-meaning/buddhi-bhedam",
+    "previousWMUrl": "#/word-meaning/buddhi-mān",
     "nextWMUrl": "#/word-meaning/buddhi-nāśhāt",
     "currentWMUrl": "#/word-meaning/buddhi-nāśhaḥ"
   },
@@ -4484,8 +5130,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/buddhvā",
-    "nextWMUrl": "#/word-meaning/cha",
+    "nextWMUrl": "#/word-meaning/budhāḥ",
     "currentWMUrl": "#/word-meaning/buddhyā"
+  },
+  {
+    "id": "budhāḥ",
+    "data": [
+      {
+        "word": "budhāḥ",
+        "meaning": "the wise",
+        "referenceHeader": "Bhagavad Gita 4.19",
+        "refLink": "#/chapter/4/verse/4.19"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/buddhyā",
+    "nextWMUrl": "#/word-meaning/cha",
+    "currentWMUrl": "#/word-meaning/budhāḥ"
   },
   {
     "id": "cha",
@@ -4999,9 +5659,57 @@
         "meaning": "and",
         "referenceHeader": "Bhagavad Gita 4.9",
         "refLink": "#/chapter/4/verse/4.9"
+      },
+      {
+        "word": "cha",
+        "meaning": "and",
+        "referenceHeader": "Bhagavad Gita 4.17",
+        "refLink": "#/chapter/4/verse/4.17"
+      },
+      {
+        "word": "cha",
+        "meaning": "and",
+        "referenceHeader": "Bhagavad Gita 4.17",
+        "refLink": "#/chapter/4/verse/4.17"
+      },
+      {
+        "word": "cha",
+        "meaning": "also",
+        "referenceHeader": "Bhagavad Gita 4.18",
+        "refLink": "#/chapter/4/verse/4.18"
+      },
+      {
+        "word": "cha",
+        "meaning": "and",
+        "referenceHeader": "Bhagavad Gita 4.22",
+        "refLink": "#/chapter/4/verse/4.22"
+      },
+      {
+        "word": "cha",
+        "meaning": "and",
+        "referenceHeader": "Bhagavad Gita 4.27",
+        "refLink": "#/chapter/4/verse/4.27"
+      },
+      {
+        "word": "cha",
+        "meaning": "also",
+        "referenceHeader": "Bhagavad Gita 4.28",
+        "refLink": "#/chapter/4/verse/4.28"
+      },
+      {
+        "word": "cha",
+        "meaning": "and",
+        "referenceHeader": "Bhagavad Gita 4.40",
+        "refLink": "#/chapter/4/verse/4.40"
+      },
+      {
+        "word": "cha",
+        "meaning": "and",
+        "referenceHeader": "Bhagavad Gita 4.40",
+        "refLink": "#/chapter/4/verse/4.40"
       }
     ],
-    "previousWMUrl": "#/word-meaning/buddhyā",
+    "previousWMUrl": "#/word-meaning/budhāḥ",
     "nextWMUrl": "#/word-meaning/chakram",
     "currentWMUrl": "#/word-meaning/cha"
   },
@@ -5109,6 +5817,12 @@
         "meaning": "if",
         "referenceHeader": "Bhagavad Gita 3.24",
         "refLink": "#/chapter/3/verse/3.24"
+      },
+      {
+        "word": "chet",
+        "meaning": "if",
+        "referenceHeader": "Bhagavad Gita 4.36",
+        "refLink": "#/chapter/4/verse/4.36"
       }
     ],
     "previousWMUrl": "#/word-meaning/chekitānaḥ",
@@ -5123,6 +5837,12 @@
         "meaning": "thoughts",
         "referenceHeader": "Bhagavad Gita 1.38 – 1.39",
         "refLink": "#/chapter/1/verse/1.38 – 1.39"
+      },
+      {
+        "word": "chetasaḥ",
+        "meaning": "whose intellect",
+        "referenceHeader": "Bhagavad Gita 4.23",
+        "refLink": "#/chapter/4/verse/4.23"
       }
     ],
     "previousWMUrl": "#/word-meaning/chet",
@@ -5168,8 +5888,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/cheṣhṭate",
-    "nextWMUrl": "#/word-meaning/chikīrṣhuḥ",
+    "nextWMUrl": "#/word-meaning/chhittvā",
     "currentWMUrl": "#/word-meaning/chhindanti"
+  },
+  {
+    "id": "chhittvā",
+    "data": [
+      {
+        "word": "chhittvā",
+        "meaning": "cut asunder",
+        "referenceHeader": "Bhagavad Gita 4.42",
+        "refLink": "#/chapter/4/verse/4.42"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/chhindanti",
+    "nextWMUrl": "#/word-meaning/chikīrṣhuḥ",
+    "currentWMUrl": "#/word-meaning/chhittvā"
   },
   {
     "id": "chikīrṣhuḥ",
@@ -5181,9 +5915,23 @@
         "refLink": "#/chapter/3/verse/3.25"
       }
     ],
-    "previousWMUrl": "#/word-meaning/chhindanti",
-    "nextWMUrl": "#/word-meaning/chāpam",
+    "previousWMUrl": "#/word-meaning/chhittvā",
+    "nextWMUrl": "#/word-meaning/chitta-ātmā",
     "currentWMUrl": "#/word-meaning/chikīrṣhuḥ"
+  },
+  {
+    "id": "chitta-ātmā",
+    "data": [
+      {
+        "word": "chitta-ātmā",
+        "meaning": "mind and intellect",
+        "referenceHeader": "Bhagavad Gita 4.21",
+        "refLink": "#/chapter/4/verse/4.21"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/chikīrṣhuḥ",
+    "nextWMUrl": "#/word-meaning/chāpam",
+    "currentWMUrl": "#/word-meaning/chitta-ātmā"
   },
   {
     "id": "chāpam",
@@ -5195,7 +5943,7 @@
         "refLink": "#/chapter/1/verse/1.47"
       }
     ],
-    "previousWMUrl": "#/word-meaning/chikīrṣhuḥ",
+    "previousWMUrl": "#/word-meaning/chitta-ātmā",
     "nextWMUrl": "#/word-meaning/chātuḥ-varṇyam",
     "currentWMUrl": "#/word-meaning/chāpam"
   },
@@ -5244,8 +5992,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/dadhmau",
-    "nextWMUrl": "#/word-meaning/dahati",
+    "nextWMUrl": "#/word-meaning/dagdha",
     "currentWMUrl": "#/word-meaning/dadhmuḥ"
+  },
+  {
+    "id": "dagdha",
+    "data": [
+      {
+        "word": "dagdha",
+        "meaning": "burnt",
+        "referenceHeader": "Bhagavad Gita 4.19",
+        "refLink": "#/chapter/4/verse/4.19"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/dadhmuḥ",
+    "nextWMUrl": "#/word-meaning/dahati",
+    "currentWMUrl": "#/word-meaning/dagdha"
   },
   {
     "id": "dahati",
@@ -5257,9 +6019,23 @@
         "refLink": "#/chapter/2/verse/2.23"
       }
     ],
-    "previousWMUrl": "#/word-meaning/dadhmuḥ",
-    "nextWMUrl": "#/word-meaning/darśhibhiḥ",
+    "previousWMUrl": "#/word-meaning/dagdha",
+    "nextWMUrl": "#/word-meaning/daivam",
     "currentWMUrl": "#/word-meaning/dahati"
+  },
+  {
+    "id": "daivam",
+    "data": [
+      {
+        "word": "daivam",
+        "meaning": "the celestial gods",
+        "referenceHeader": "Bhagavad Gita 4.25",
+        "refLink": "#/chapter/4/verse/4.25"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/dahati",
+    "nextWMUrl": "#/word-meaning/darśhibhiḥ",
+    "currentWMUrl": "#/word-meaning/daivam"
   },
   {
     "id": "darśhibhiḥ",
@@ -5271,7 +6047,7 @@
         "refLink": "#/chapter/2/verse/2.16"
       }
     ],
-    "previousWMUrl": "#/word-meaning/dahati",
+    "previousWMUrl": "#/word-meaning/daivam",
     "nextWMUrl": "#/word-meaning/dattān",
     "currentWMUrl": "#/word-meaning/darśhibhiḥ"
   },
@@ -5509,6 +6285,12 @@
         "meaning": "Arjun",
         "referenceHeader": "Bhagavad Gita 2.49",
         "refLink": "#/chapter/2/verse/2.49"
+      },
+      {
+        "word": "dhanañjaya",
+        "meaning": "Arjun, the conqueror of wealth",
+        "referenceHeader": "Bhagavad Gita 4.41",
+        "refLink": "#/chapter/4/verse/4.41"
       }
     ],
     "previousWMUrl": "#/word-meaning/dhanam-jayaḥ",
@@ -5912,8 +6694,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/doṣhaiḥ",
-    "nextWMUrl": "#/word-meaning/draupadeyāḥ",
+    "nextWMUrl": "#/word-meaning/drakṣhyasi",
     "currentWMUrl": "#/word-meaning/doṣham"
+  },
+  {
+    "id": "drakṣhyasi",
+    "data": [
+      {
+        "word": "drakṣhyasi",
+        "meaning": "you will see",
+        "referenceHeader": "Bhagavad Gita 4.35",
+        "refLink": "#/chapter/4/verse/4.35"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/doṣham",
+    "nextWMUrl": "#/word-meaning/draupadeyāḥ",
+    "currentWMUrl": "#/word-meaning/drakṣhyasi"
   },
   {
     "id": "draupadeyāḥ",
@@ -5931,9 +6727,37 @@
         "refLink": "#/chapter/1/verse/1.16 – 1.18"
       }
     ],
-    "previousWMUrl": "#/word-meaning/doṣham",
-    "nextWMUrl": "#/word-meaning/droṇa",
+    "previousWMUrl": "#/word-meaning/drakṣhyasi",
+    "nextWMUrl": "#/word-meaning/dravya-mayāt",
     "currentWMUrl": "#/word-meaning/draupadeyāḥ"
+  },
+  {
+    "id": "dravya-mayāt",
+    "data": [
+      {
+        "word": "dravya-mayāt",
+        "meaning": "of material possessions",
+        "referenceHeader": "Bhagavad Gita 4.33",
+        "refLink": "#/chapter/4/verse/4.33"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/draupadeyāḥ",
+    "nextWMUrl": "#/word-meaning/dravya-yajñāḥ",
+    "currentWMUrl": "#/word-meaning/dravya-mayāt"
+  },
+  {
+    "id": "dravya-yajñāḥ",
+    "data": [
+      {
+        "word": "dravya-yajñāḥ",
+        "meaning": "offering one’s own wealth as sacrifice",
+        "referenceHeader": "Bhagavad Gita 4.28",
+        "refLink": "#/chapter/4/verse/4.28"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/dravya-mayāt",
+    "nextWMUrl": "#/word-meaning/droṇa",
+    "currentWMUrl": "#/word-meaning/dravya-yajñāḥ"
   },
   {
     "id": "droṇa",
@@ -5945,7 +6769,7 @@
         "refLink": "#/chapter/1/verse/1.25"
       }
     ],
-    "previousWMUrl": "#/word-meaning/draupadeyāḥ",
+    "previousWMUrl": "#/word-meaning/dravya-yajñāḥ",
     "nextWMUrl": "#/word-meaning/droṇam",
     "currentWMUrl": "#/word-meaning/droṇa"
   },
@@ -6154,8 +6978,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/duṣhpūreṇa",
-    "nextWMUrl": "#/word-meaning/dveṣha",
+    "nextWMUrl": "#/word-meaning/dvandva",
     "currentWMUrl": "#/word-meaning/duṣhṭāsu"
+  },
+  {
+    "id": "dvandva",
+    "data": [
+      {
+        "word": "dvandva",
+        "meaning": "duality",
+        "referenceHeader": "Bhagavad Gita 4.22",
+        "refLink": "#/chapter/4/verse/4.22"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/duṣhṭāsu",
+    "nextWMUrl": "#/word-meaning/dveṣha",
+    "currentWMUrl": "#/word-meaning/dvandva"
   },
   {
     "id": "dveṣha",
@@ -6167,7 +7005,7 @@
         "refLink": "#/chapter/2/verse/2.64"
       }
     ],
-    "previousWMUrl": "#/word-meaning/duṣhṭāsu",
+    "previousWMUrl": "#/word-meaning/dvandva",
     "nextWMUrl": "#/word-meaning/dveṣhau",
     "currentWMUrl": "#/word-meaning/dveṣha"
   },
@@ -6340,8 +7178,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/dṛiṣhṭvā",
-    "nextWMUrl": "#/word-meaning/ekam",
+    "nextWMUrl": "#/word-meaning/edhānsi",
     "currentWMUrl": "#/word-meaning/ebhyaḥ"
+  },
+  {
+    "id": "edhānsi",
+    "data": [
+      {
+        "word": "edhānsi",
+        "meaning": "firewood",
+        "referenceHeader": "Bhagavad Gita 4.37",
+        "refLink": "#/chapter/4/verse/4.37"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/ebhyaḥ",
+    "nextWMUrl": "#/word-meaning/ekam",
+    "currentWMUrl": "#/word-meaning/edhānsi"
   },
   {
     "id": "ekam",
@@ -6353,7 +7205,7 @@
         "refLink": "#/chapter/3/verse/3.1 – 3.2"
       }
     ],
-    "previousWMUrl": "#/word-meaning/ebhyaḥ",
+    "previousWMUrl": "#/word-meaning/edhānsi",
     "nextWMUrl": "#/word-meaning/ekā",
     "currentWMUrl": "#/word-meaning/ekam"
   },
@@ -6451,6 +7303,12 @@
         "meaning": "this",
         "referenceHeader": "Bhagavad Gita 3.41",
         "refLink": "#/chapter/3/verse/3.41"
+      },
+      {
+        "word": "enam",
+        "meaning": "this",
+        "referenceHeader": "Bhagavad Gita 4.42",
+        "refLink": "#/chapter/4/verse/4.42"
       }
     ],
     "previousWMUrl": "#/word-meaning/ekā",
@@ -6549,6 +7407,12 @@
         "meaning": "these",
         "referenceHeader": "Bhagavad Gita 2.15",
         "refLink": "#/chapter/2/verse/2.15"
+      },
+      {
+        "word": "ete",
+        "meaning": "these",
+        "referenceHeader": "Bhagavad Gita 4.29 – 4.30",
+        "refLink": "#/chapter/4/verse/4.29 – 4.30"
       }
     ],
     "previousWMUrl": "#/word-meaning/etat",
@@ -6843,6 +7707,42 @@
         "meaning": "certainly",
         "referenceHeader": "Bhagavad Gita 4.11",
         "refLink": "#/chapter/4/verse/4.11"
+      },
+      {
+        "word": "eva",
+        "meaning": "certainly",
+        "referenceHeader": "Bhagavad Gita 4.15",
+        "refLink": "#/chapter/4/verse/4.15"
+      },
+      {
+        "word": "eva",
+        "meaning": "certainly",
+        "referenceHeader": "Bhagavad Gita 4.20",
+        "refLink": "#/chapter/4/verse/4.20"
+      },
+      {
+        "word": "eva",
+        "meaning": "certainly",
+        "referenceHeader": "Bhagavad Gita 4.24",
+        "refLink": "#/chapter/4/verse/4.24"
+      },
+      {
+        "word": "eva",
+        "meaning": "indeed",
+        "referenceHeader": "Bhagavad Gita 4.25",
+        "refLink": "#/chapter/4/verse/4.25"
+      },
+      {
+        "word": "eva",
+        "meaning": "indeed",
+        "referenceHeader": "Bhagavad Gita 4.25",
+        "refLink": "#/chapter/4/verse/4.25"
+      },
+      {
+        "word": "eva",
+        "meaning": "certainly",
+        "referenceHeader": "Bhagavad Gita 4.36",
+        "refLink": "#/chapter/4/verse/4.36"
       }
     ],
     "previousWMUrl": "#/word-meaning/etān",
@@ -6933,6 +7833,30 @@
         "meaning": "thus",
         "referenceHeader": "Bhagavad Gita 4.9",
         "refLink": "#/chapter/4/verse/4.9"
+      },
+      {
+        "word": "evam",
+        "meaning": "thus",
+        "referenceHeader": "Bhagavad Gita 4.15",
+        "refLink": "#/chapter/4/verse/4.15"
+      },
+      {
+        "word": "evam",
+        "meaning": "thus",
+        "referenceHeader": "Bhagavad Gita 4.32",
+        "refLink": "#/chapter/4/verse/4.32"
+      },
+      {
+        "word": "evam",
+        "meaning": "thus",
+        "referenceHeader": "Bhagavad Gita 4.32",
+        "refLink": "#/chapter/4/verse/4.32"
+      },
+      {
+        "word": "evam",
+        "meaning": "like this",
+        "referenceHeader": "Bhagavad Gita 4.35",
+        "refLink": "#/chapter/4/verse/4.35"
       }
     ],
     "previousWMUrl": "#/word-meaning/eva hi",
@@ -7030,8 +7954,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/eṣhām",
-    "nextWMUrl": "#/word-meaning/gamaḥ",
+    "nextWMUrl": "#/word-meaning/gahanā",
     "currentWMUrl": "#/word-meaning/gachchhanti"
+  },
+  {
+    "id": "gahanā",
+    "data": [
+      {
+        "word": "gahanā",
+        "meaning": "profound",
+        "referenceHeader": "Bhagavad Gita 4.17",
+        "refLink": "#/chapter/4/verse/4.17"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/gachchhanti",
+    "nextWMUrl": "#/word-meaning/gamaḥ",
+    "currentWMUrl": "#/word-meaning/gahanā"
   },
   {
     "id": "gamaḥ",
@@ -7043,9 +7981,23 @@
         "refLink": "#/chapter/2/verse/2.3"
       }
     ],
-    "previousWMUrl": "#/word-meaning/gachchhanti",
-    "nextWMUrl": "#/word-meaning/gantāsi",
+    "previousWMUrl": "#/word-meaning/gahanā",
+    "nextWMUrl": "#/word-meaning/gantavyam",
     "currentWMUrl": "#/word-meaning/gamaḥ"
+  },
+  {
+    "id": "gantavyam",
+    "data": [
+      {
+        "word": "gantavyam",
+        "meaning": "to be attained",
+        "referenceHeader": "Bhagavad Gita 4.24",
+        "refLink": "#/chapter/4/verse/4.24"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/gamaḥ",
+    "nextWMUrl": "#/word-meaning/gantāsi",
+    "currentWMUrl": "#/word-meaning/gantavyam"
   },
   {
     "id": "gantāsi",
@@ -7057,7 +8009,7 @@
         "refLink": "#/chapter/2/verse/2.52"
       }
     ],
-    "previousWMUrl": "#/word-meaning/gamaḥ",
+    "previousWMUrl": "#/word-meaning/gantavyam",
     "nextWMUrl": "#/word-meaning/garbhaḥ",
     "currentWMUrl": "#/word-meaning/gantāsi"
   },
@@ -7100,8 +8052,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/garīyaḥ",
-    "nextWMUrl": "#/word-meaning/gatim",
+    "nextWMUrl": "#/word-meaning/gata-saṅgasya",
     "currentWMUrl": "#/word-meaning/gata āsūn"
+  },
+  {
+    "id": "gata-saṅgasya",
+    "data": [
+      {
+        "word": "gata-saṅgasya",
+        "meaning": "free from material attachments",
+        "referenceHeader": "Bhagavad Gita 4.23",
+        "refLink": "#/chapter/4/verse/4.23"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/gata āsūn",
+    "nextWMUrl": "#/word-meaning/gatim",
+    "currentWMUrl": "#/word-meaning/gata-saṅgasya"
   },
   {
     "id": "gatim",
@@ -7113,9 +8079,37 @@
         "refLink": "#/chapter/2/verse/2.42 – 2.43"
       }
     ],
-    "previousWMUrl": "#/word-meaning/gata āsūn",
-    "nextWMUrl": "#/word-meaning/ghnataḥ",
+    "previousWMUrl": "#/word-meaning/gata-saṅgasya",
+    "nextWMUrl": "#/word-meaning/gatiḥ",
     "currentWMUrl": "#/word-meaning/gatim"
+  },
+  {
+    "id": "gatiḥ",
+    "data": [
+      {
+        "word": "gatiḥ",
+        "meaning": "the true path",
+        "referenceHeader": "Bhagavad Gita 4.17",
+        "refLink": "#/chapter/4/verse/4.17"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/gatim",
+    "nextWMUrl": "#/word-meaning/gatī",
+    "currentWMUrl": "#/word-meaning/gatiḥ"
+  },
+  {
+    "id": "gatī",
+    "data": [
+      {
+        "word": "gatī",
+        "meaning": "movement",
+        "referenceHeader": "Bhagavad Gita 4.29 – 4.30",
+        "refLink": "#/chapter/4/verse/4.29 – 4.30"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/gatiḥ",
+    "nextWMUrl": "#/word-meaning/ghnataḥ",
+    "currentWMUrl": "#/word-meaning/gatī"
   },
   {
     "id": "ghnataḥ",
@@ -7127,7 +8121,7 @@
         "refLink": "#/chapter/1/verse/1.34 – 1.35"
       }
     ],
-    "previousWMUrl": "#/word-meaning/gatim",
+    "previousWMUrl": "#/word-meaning/gatī",
     "nextWMUrl": "#/word-meaning/ghore",
     "currentWMUrl": "#/word-meaning/ghnataḥ"
   },
@@ -7636,8 +8630,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/hataḥ",
-    "nextWMUrl": "#/word-meaning/hayaiḥ",
+    "nextWMUrl": "#/word-meaning/haviḥ",
     "currentWMUrl": "#/word-meaning/hatvā"
+  },
+  {
+    "id": "haviḥ",
+    "data": [
+      {
+        "word": "haviḥ",
+        "meaning": "the oblation",
+        "referenceHeader": "Bhagavad Gita 4.24",
+        "refLink": "#/chapter/4/verse/4.24"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/hatvā",
+    "nextWMUrl": "#/word-meaning/hayaiḥ",
+    "currentWMUrl": "#/word-meaning/haviḥ"
   },
   {
     "id": "hayaiḥ",
@@ -7649,7 +8657,7 @@
         "refLink": "#/chapter/1/verse/1.14"
       }
     ],
-    "previousWMUrl": "#/word-meaning/hatvā",
+    "previousWMUrl": "#/word-meaning/haviḥ",
     "nextWMUrl": "#/word-meaning/hetoḥ",
     "currentWMUrl": "#/word-meaning/hayaiḥ"
   },
@@ -7839,6 +8847,18 @@
         "meaning": "certainly",
         "referenceHeader": "Bhagavad Gita 4.12",
         "refLink": "#/chapter/4/verse/4.12"
+      },
+      {
+        "word": "hi",
+        "meaning": "certainly",
+        "referenceHeader": "Bhagavad Gita 4.17",
+        "refLink": "#/chapter/4/verse/4.17"
+      },
+      {
+        "word": "hi",
+        "meaning": "certainly",
+        "referenceHeader": "Bhagavad Gita 4.38",
+        "refLink": "#/chapter/4/verse/4.38"
       }
     ],
     "previousWMUrl": "#/word-meaning/hetuḥ",
@@ -7856,8 +8876,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/hi",
-    "nextWMUrl": "#/word-meaning/hāniḥ",
+    "nextWMUrl": "#/word-meaning/hutam",
     "currentWMUrl": "#/word-meaning/hitvā"
+  },
+  {
+    "id": "hutam",
+    "data": [
+      {
+        "word": "hutam",
+        "meaning": "offered",
+        "referenceHeader": "Bhagavad Gita 4.24",
+        "refLink": "#/chapter/4/verse/4.24"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/hitvā",
+    "nextWMUrl": "#/word-meaning/hāniḥ",
+    "currentWMUrl": "#/word-meaning/hutam"
   },
   {
     "id": "hāniḥ",
@@ -7869,7 +8903,7 @@
         "refLink": "#/chapter/2/verse/2.65"
       }
     ],
-    "previousWMUrl": "#/word-meaning/hitvā",
+    "previousWMUrl": "#/word-meaning/hutam",
     "nextWMUrl": "#/word-meaning/hṛidaya",
     "currentWMUrl": "#/word-meaning/hāniḥ"
   },
@@ -7898,8 +8932,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/hṛidaya",
-    "nextWMUrl": "#/word-meaning/hṛiṣhīka-īśhaḥ",
+    "nextWMUrl": "#/word-meaning/hṛit-stham",
     "currentWMUrl": "#/word-meaning/hṛidayāni"
+  },
+  {
+    "id": "hṛit-stham",
+    "data": [
+      {
+        "word": "hṛit-stham",
+        "meaning": "situated in the heart",
+        "referenceHeader": "Bhagavad Gita 4.42",
+        "refLink": "#/chapter/4/verse/4.42"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/hṛidayāni",
+    "nextWMUrl": "#/word-meaning/hṛiṣhīka-īśhaḥ",
+    "currentWMUrl": "#/word-meaning/hṛit-stham"
   },
   {
     "id": "hṛiṣhīka-īśhaḥ",
@@ -7911,7 +8959,7 @@
         "refLink": "#/chapter/1/verse/1.15"
       }
     ],
-    "previousWMUrl": "#/word-meaning/hṛidayāni",
+    "previousWMUrl": "#/word-meaning/hṛit-stham",
     "nextWMUrl": "#/word-meaning/hṛiṣhīkeśham",
     "currentWMUrl": "#/word-meaning/hṛiṣhīka-īśhaḥ"
   },
@@ -8087,6 +9135,12 @@
         "meaning": "in this world",
         "referenceHeader": "Bhagavad Gita 4.12",
         "refLink": "#/chapter/4/verse/4.12"
+      },
+      {
+        "word": "iha",
+        "meaning": "in this world",
+        "referenceHeader": "Bhagavad Gita 4.38",
+        "refLink": "#/chapter/4/verse/4.38"
       }
     ],
     "previousWMUrl": "#/word-meaning/idam",
@@ -8210,8 +9264,28 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/imām",
-    "nextWMUrl": "#/word-meaning/indriya-arthebhyaḥ",
+    "nextWMUrl": "#/word-meaning/indriya",
     "currentWMUrl": "#/word-meaning/imāḥ"
+  },
+  {
+    "id": "indriya",
+    "data": [
+      {
+        "word": "indriya",
+        "meaning": "of the senses",
+        "referenceHeader": "Bhagavad Gita 4.26",
+        "refLink": "#/chapter/4/verse/4.26"
+      },
+      {
+        "word": "indriya",
+        "meaning": "the senses",
+        "referenceHeader": "Bhagavad Gita 4.27",
+        "refLink": "#/chapter/4/verse/4.27"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/imāḥ",
+    "nextWMUrl": "#/word-meaning/indriya-arthebhyaḥ",
+    "currentWMUrl": "#/word-meaning/indriya"
   },
   {
     "id": "indriya-arthebhyaḥ",
@@ -8229,7 +9303,7 @@
         "refLink": "#/chapter/2/verse/2.68"
       }
     ],
-    "previousWMUrl": "#/word-meaning/imāḥ",
+    "previousWMUrl": "#/word-meaning/indriya",
     "nextWMUrl": "#/word-meaning/indriya-arthān",
     "currentWMUrl": "#/word-meaning/indriya-arthebhyaḥ"
   },
@@ -8300,8 +9374,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/indriyasya",
-    "nextWMUrl": "#/word-meaning/indriyebhyaḥ",
+    "nextWMUrl": "#/word-meaning/indriyaḥ",
     "currentWMUrl": "#/word-meaning/indriyasya arthe"
+  },
+  {
+    "id": "indriyaḥ",
+    "data": [
+      {
+        "word": "indriyaḥ",
+        "meaning": "senses",
+        "referenceHeader": "Bhagavad Gita 4.39",
+        "refLink": "#/chapter/4/verse/4.39"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/indriyasya arthe",
+    "nextWMUrl": "#/word-meaning/indriyebhyaḥ",
+    "currentWMUrl": "#/word-meaning/indriyaḥ"
   },
   {
     "id": "indriyebhyaḥ",
@@ -8313,7 +9401,7 @@
         "refLink": "#/chapter/3/verse/3.42"
       }
     ],
-    "previousWMUrl": "#/word-meaning/indriyasya arthe",
+    "previousWMUrl": "#/word-meaning/indriyaḥ",
     "nextWMUrl": "#/word-meaning/indriyāṇi",
     "currentWMUrl": "#/word-meaning/indriyebhyaḥ"
   },
@@ -8367,6 +9455,12 @@
         "meaning": "senses",
         "referenceHeader": "Bhagavad Gita 3.42",
         "refLink": "#/chapter/3/verse/3.42"
+      },
+      {
+        "word": "indriyāṇi",
+        "meaning": "senses",
+        "referenceHeader": "Bhagavad Gita 4.26",
+        "refLink": "#/chapter/4/verse/4.26"
       }
     ],
     "previousWMUrl": "#/word-meaning/indriyebhyaḥ",
@@ -8463,6 +9557,12 @@
         "meaning": "thus",
         "referenceHeader": "Bhagavad Gita 4.14",
         "refLink": "#/chapter/4/verse/4.14"
+      },
+      {
+        "word": "iti",
+        "meaning": "thus",
+        "referenceHeader": "Bhagavad Gita 4.16",
+        "refLink": "#/chapter/4/verse/4.16"
       }
     ],
     "previousWMUrl": "#/word-meaning/itaraḥ",
@@ -8854,8 +9954,46 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/jitvā",
-    "nextWMUrl": "#/word-meaning/juṣhṭam",
+    "nextWMUrl": "#/word-meaning/juhvati",
     "currentWMUrl": "#/word-meaning/joṣhayet"
+  },
+  {
+    "id": "juhvati",
+    "data": [
+      {
+        "word": "juhvati",
+        "meaning": "sacrifice",
+        "referenceHeader": "Bhagavad Gita 4.26",
+        "refLink": "#/chapter/4/verse/4.26"
+      },
+      {
+        "word": "juhvati",
+        "meaning": "sacrifice",
+        "referenceHeader": "Bhagavad Gita 4.26",
+        "refLink": "#/chapter/4/verse/4.26"
+      },
+      {
+        "word": "juhvati",
+        "meaning": "sacrifice",
+        "referenceHeader": "Bhagavad Gita 4.27",
+        "refLink": "#/chapter/4/verse/4.27"
+      },
+      {
+        "word": "juhvati",
+        "meaning": "offer",
+        "referenceHeader": "Bhagavad Gita 4.29 – 4.30",
+        "refLink": "#/chapter/4/verse/4.29 – 4.30"
+      },
+      {
+        "word": "juhvati",
+        "meaning": "sacrifice",
+        "referenceHeader": "Bhagavad Gita 4.29 – 4.30",
+        "refLink": "#/chapter/4/verse/4.29 – 4.30"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/joṣhayet",
+    "nextWMUrl": "#/word-meaning/juṣhṭam",
+    "currentWMUrl": "#/word-meaning/juhvati"
   },
   {
     "id": "juṣhṭam",
@@ -8867,7 +10005,7 @@
         "refLink": "#/chapter/2/verse/2.2"
       }
     ],
-    "previousWMUrl": "#/word-meaning/joṣhayet",
+    "previousWMUrl": "#/word-meaning/juhvati",
     "nextWMUrl": "#/word-meaning/jyāyasī",
     "currentWMUrl": "#/word-meaning/juṣhṭam"
   },
@@ -8927,11 +10065,85 @@
         "meaning": "of knowledge",
         "referenceHeader": "Bhagavad Gita 4.10",
         "refLink": "#/chapter/4/verse/4.10"
+      },
+      {
+        "word": "jñāna",
+        "meaning": "divine knowledge",
+        "referenceHeader": "Bhagavad Gita 4.19",
+        "refLink": "#/chapter/4/verse/4.19"
+      },
+      {
+        "word": "jñāna",
+        "meaning": "by knowledge",
+        "referenceHeader": "Bhagavad Gita 4.41",
+        "refLink": "#/chapter/4/verse/4.41"
+      },
+      {
+        "word": "jñāna",
+        "meaning": "of knowledge",
+        "referenceHeader": "Bhagavad Gita 4.42",
+        "refLink": "#/chapter/4/verse/4.42"
       }
     ],
     "previousWMUrl": "#/word-meaning/jñeyam",
-    "nextWMUrl": "#/word-meaning/jñāna-vān",
+    "nextWMUrl": "#/word-meaning/jñāna-agniḥ",
     "currentWMUrl": "#/word-meaning/jñāna"
+  },
+  {
+    "id": "jñāna-agniḥ",
+    "data": [
+      {
+        "word": "jñāna-agniḥ",
+        "meaning": "the fire of knowledge",
+        "referenceHeader": "Bhagavad Gita 4.37",
+        "refLink": "#/chapter/4/verse/4.37"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/jñāna",
+    "nextWMUrl": "#/word-meaning/jñāna-avasthita",
+    "currentWMUrl": "#/word-meaning/jñāna-agniḥ"
+  },
+  {
+    "id": "jñāna-avasthita",
+    "data": [
+      {
+        "word": "jñāna-avasthita",
+        "meaning": "established in divine knowledge",
+        "referenceHeader": "Bhagavad Gita 4.23",
+        "refLink": "#/chapter/4/verse/4.23"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/jñāna-agniḥ",
+    "nextWMUrl": "#/word-meaning/jñāna-dīpite",
+    "currentWMUrl": "#/word-meaning/jñāna-avasthita"
+  },
+  {
+    "id": "jñāna-dīpite",
+    "data": [
+      {
+        "word": "jñāna-dīpite",
+        "meaning": "kindled by knowledge",
+        "referenceHeader": "Bhagavad Gita 4.27",
+        "refLink": "#/chapter/4/verse/4.27"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/jñāna-avasthita",
+    "nextWMUrl": "#/word-meaning/jñāna-plavena",
+    "currentWMUrl": "#/word-meaning/jñāna-dīpite"
+  },
+  {
+    "id": "jñāna-plavena",
+    "data": [
+      {
+        "word": "jñāna-plavena",
+        "meaning": "by the boat of divine knowledge",
+        "referenceHeader": "Bhagavad Gita 4.36",
+        "refLink": "#/chapter/4/verse/4.36"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/jñāna-dīpite",
+    "nextWMUrl": "#/word-meaning/jñāna-vān",
+    "currentWMUrl": "#/word-meaning/jñāna-plavena"
   },
   {
     "id": "jñāna-vān",
@@ -8943,9 +10155,37 @@
         "refLink": "#/chapter/3/verse/3.33"
       }
     ],
-    "previousWMUrl": "#/word-meaning/jñāna",
-    "nextWMUrl": "#/word-meaning/jñāna-yogena",
+    "previousWMUrl": "#/word-meaning/jñāna-plavena",
+    "nextWMUrl": "#/word-meaning/jñāna-yajñaḥ",
     "currentWMUrl": "#/word-meaning/jñāna-vān"
+  },
+  {
+    "id": "jñāna-yajñaḥ",
+    "data": [
+      {
+        "word": "jñāna-yajñaḥ",
+        "meaning": "sacrifice performed in knowledge",
+        "referenceHeader": "Bhagavad Gita 4.33",
+        "refLink": "#/chapter/4/verse/4.33"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/jñāna-vān",
+    "nextWMUrl": "#/word-meaning/jñāna-yajñāḥ",
+    "currentWMUrl": "#/word-meaning/jñāna-yajñaḥ"
+  },
+  {
+    "id": "jñāna-yajñāḥ",
+    "data": [
+      {
+        "word": "jñāna-yajñāḥ",
+        "meaning": "those offer cultivation of transcendental knowledge as sacrifice",
+        "referenceHeader": "Bhagavad Gita 4.28",
+        "refLink": "#/chapter/4/verse/4.28"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/jñāna-yajñaḥ",
+    "nextWMUrl": "#/word-meaning/jñāna-yogena",
+    "currentWMUrl": "#/word-meaning/jñāna-yajñāḥ"
   },
   {
     "id": "jñāna-yogena",
@@ -8957,7 +10197,7 @@
         "refLink": "#/chapter/3/verse/3.3"
       }
     ],
-    "previousWMUrl": "#/word-meaning/jñāna-vān",
+    "previousWMUrl": "#/word-meaning/jñāna-yajñāḥ",
     "nextWMUrl": "#/word-meaning/jñānam",
     "currentWMUrl": "#/word-meaning/jñāna-yogena"
   },
@@ -8975,11 +10215,57 @@
         "meaning": "knowledge",
         "referenceHeader": "Bhagavad Gita 3.40",
         "refLink": "#/chapter/3/verse/3.40"
+      },
+      {
+        "word": "jñānam",
+        "meaning": "knowledge",
+        "referenceHeader": "Bhagavad Gita 4.34",
+        "refLink": "#/chapter/4/verse/4.34"
+      },
+      {
+        "word": "jñānam",
+        "meaning": "divine knowledge",
+        "referenceHeader": "Bhagavad Gita 4.39",
+        "refLink": "#/chapter/4/verse/4.39"
+      },
+      {
+        "word": "jñānam",
+        "meaning": "transcendental knowledge",
+        "referenceHeader": "Bhagavad Gita 4.39",
+        "refLink": "#/chapter/4/verse/4.39"
       }
     ],
     "previousWMUrl": "#/word-meaning/jñāna-yogena",
-    "nextWMUrl": "#/word-meaning/jñāninaḥ",
+    "nextWMUrl": "#/word-meaning/jñāne",
     "currentWMUrl": "#/word-meaning/jñānam"
+  },
+  {
+    "id": "jñāne",
+    "data": [
+      {
+        "word": "jñāne",
+        "meaning": "in knowledge",
+        "referenceHeader": "Bhagavad Gita 4.33",
+        "refLink": "#/chapter/4/verse/4.33"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/jñānam",
+    "nextWMUrl": "#/word-meaning/jñānena",
+    "currentWMUrl": "#/word-meaning/jñāne"
+  },
+  {
+    "id": "jñānena",
+    "data": [
+      {
+        "word": "jñānena",
+        "meaning": "with divine knowledge",
+        "referenceHeader": "Bhagavad Gita 4.38",
+        "refLink": "#/chapter/4/verse/4.38"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/jñāne",
+    "nextWMUrl": "#/word-meaning/jñāninaḥ",
+    "currentWMUrl": "#/word-meaning/jñānena"
   },
   {
     "id": "jñāninaḥ",
@@ -8989,11 +10275,49 @@
         "meaning": "of the wise",
         "referenceHeader": "Bhagavad Gita 3.39",
         "refLink": "#/chapter/3/verse/3.39"
+      },
+      {
+        "word": "jñāninaḥ",
+        "meaning": "the enlightened",
+        "referenceHeader": "Bhagavad Gita 4.34",
+        "refLink": "#/chapter/4/verse/4.34"
       }
     ],
-    "previousWMUrl": "#/word-meaning/jñānam",
-    "nextWMUrl": "#/word-meaning/jāgarti",
+    "previousWMUrl": "#/word-meaning/jñānena",
+    "nextWMUrl": "#/word-meaning/jñātvā",
     "currentWMUrl": "#/word-meaning/jñāninaḥ"
+  },
+  {
+    "id": "jñātvā",
+    "data": [
+      {
+        "word": "jñātvā",
+        "meaning": "knowing",
+        "referenceHeader": "Bhagavad Gita 4.15",
+        "refLink": "#/chapter/4/verse/4.15"
+      },
+      {
+        "word": "jñātvā",
+        "meaning": "knowing",
+        "referenceHeader": "Bhagavad Gita 4.16",
+        "refLink": "#/chapter/4/verse/4.16"
+      },
+      {
+        "word": "jñātvā",
+        "meaning": "having known",
+        "referenceHeader": "Bhagavad Gita 4.32",
+        "refLink": "#/chapter/4/verse/4.32"
+      },
+      {
+        "word": "jñātvā",
+        "meaning": "having known",
+        "referenceHeader": "Bhagavad Gita 4.35",
+        "refLink": "#/chapter/4/verse/4.35"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/jñāninaḥ",
+    "nextWMUrl": "#/word-meaning/jāgarti",
+    "currentWMUrl": "#/word-meaning/jñātvā"
   },
   {
     "id": "jāgarti",
@@ -9005,7 +10329,7 @@
         "refLink": "#/chapter/2/verse/2.69"
       }
     ],
-    "previousWMUrl": "#/word-meaning/jñāninaḥ",
+    "previousWMUrl": "#/word-meaning/jñātvā",
     "nextWMUrl": "#/word-meaning/jāgrati",
     "currentWMUrl": "#/word-meaning/jāgarti"
   },
@@ -9192,8 +10516,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/kaiḥ",
-    "nextWMUrl": "#/word-meaning/kalpate",
+    "nextWMUrl": "#/word-meaning/kalmaṣhāḥ",
     "currentWMUrl": "#/word-meaning/kalilam"
+  },
+  {
+    "id": "kalmaṣhāḥ",
+    "data": [
+      {
+        "word": "kalmaṣhāḥ",
+        "meaning": "of impurities",
+        "referenceHeader": "Bhagavad Gita 4.29 – 4.30",
+        "refLink": "#/chapter/4/verse/4.29 – 4.30"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/kalilam",
+    "nextWMUrl": "#/word-meaning/kalpate",
+    "currentWMUrl": "#/word-meaning/kalmaṣhāḥ"
   },
   {
     "id": "kalpate",
@@ -9205,7 +10543,7 @@
         "refLink": "#/chapter/2/verse/2.15"
       }
     ],
-    "previousWMUrl": "#/word-meaning/kalilam",
+    "previousWMUrl": "#/word-meaning/kalmaṣhāḥ",
     "nextWMUrl": "#/word-meaning/kam",
     "currentWMUrl": "#/word-meaning/kalpate"
   },
@@ -9345,6 +10683,60 @@
         "meaning": "and activities",
         "referenceHeader": "Bhagavad Gita 4.13",
         "refLink": "#/chapter/4/verse/4.13"
+      },
+      {
+        "word": "karma",
+        "meaning": "actions",
+        "referenceHeader": "Bhagavad Gita 4.15",
+        "refLink": "#/chapter/4/verse/4.15"
+      },
+      {
+        "word": "karma",
+        "meaning": "duty",
+        "referenceHeader": "Bhagavad Gita 4.15",
+        "refLink": "#/chapter/4/verse/4.15"
+      },
+      {
+        "word": "karma",
+        "meaning": "action",
+        "referenceHeader": "Bhagavad Gita 4.16",
+        "refLink": "#/chapter/4/verse/4.16"
+      },
+      {
+        "word": "karma",
+        "meaning": "action",
+        "referenceHeader": "Bhagavad Gita 4.16",
+        "refLink": "#/chapter/4/verse/4.16"
+      },
+      {
+        "word": "karma",
+        "meaning": "action",
+        "referenceHeader": "Bhagavad Gita 4.18",
+        "refLink": "#/chapter/4/verse/4.18"
+      },
+      {
+        "word": "karma",
+        "meaning": "actions",
+        "referenceHeader": "Bhagavad Gita 4.21",
+        "refLink": "#/chapter/4/verse/4.21"
+      },
+      {
+        "word": "karma",
+        "meaning": "action",
+        "referenceHeader": "Bhagavad Gita 4.23",
+        "refLink": "#/chapter/4/verse/4.23"
+      },
+      {
+        "word": "karma",
+        "meaning": "offering",
+        "referenceHeader": "Bhagavad Gita 4.24",
+        "refLink": "#/chapter/4/verse/4.24"
+      },
+      {
+        "word": "karma",
+        "meaning": "works",
+        "referenceHeader": "Bhagavad Gita 4.33",
+        "refLink": "#/chapter/4/verse/4.33"
       }
     ],
     "previousWMUrl": "#/word-meaning/kariṣhyati",
@@ -9432,8 +10824,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/karma-jam",
-    "nextWMUrl": "#/word-meaning/karma-phala",
+    "nextWMUrl": "#/word-meaning/karma-jān",
     "currentWMUrl": "#/word-meaning/karma-jā"
+  },
+  {
+    "id": "karma-jān",
+    "data": [
+      {
+        "word": "karma-jān",
+        "meaning": "originating from works",
+        "referenceHeader": "Bhagavad Gita 4.32",
+        "refLink": "#/chapter/4/verse/4.32"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/karma-jā",
+    "nextWMUrl": "#/word-meaning/karma-phala",
+    "currentWMUrl": "#/word-meaning/karma-jān"
   },
   {
     "id": "karma-phala",
@@ -9445,9 +10851,23 @@
         "refLink": "#/chapter/2/verse/2.47"
       }
     ],
-    "previousWMUrl": "#/word-meaning/karma-jā",
-    "nextWMUrl": "#/word-meaning/karma-phale",
+    "previousWMUrl": "#/word-meaning/karma-jān",
+    "nextWMUrl": "#/word-meaning/karma-phala-āsaṅgam",
     "currentWMUrl": "#/word-meaning/karma-phala"
+  },
+  {
+    "id": "karma-phala-āsaṅgam",
+    "data": [
+      {
+        "word": "karma-phala-āsaṅgam",
+        "meaning": "attachment to the fruits of action",
+        "referenceHeader": "Bhagavad Gita 4.20",
+        "refLink": "#/chapter/4/verse/4.20"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/karma-phala",
+    "nextWMUrl": "#/word-meaning/karma-phale",
+    "currentWMUrl": "#/word-meaning/karma-phala-āsaṅgam"
   },
   {
     "id": "karma-phale",
@@ -9459,7 +10879,7 @@
         "refLink": "#/chapter/4/verse/4.14"
       }
     ],
-    "previousWMUrl": "#/word-meaning/karma-phala",
+    "previousWMUrl": "#/word-meaning/karma-phala-āsaṅgam",
     "nextWMUrl": "#/word-meaning/karma-saṅginām",
     "currentWMUrl": "#/word-meaning/karma-phale"
   },
@@ -9553,6 +10973,18 @@
         "meaning": "than action",
         "referenceHeader": "Bhagavad Gita 3.9",
         "refLink": "#/chapter/3/verse/3.9"
+      },
+      {
+        "word": "karmaṇaḥ",
+        "meaning": "recommended action",
+        "referenceHeader": "Bhagavad Gita 4.17",
+        "refLink": "#/chapter/4/verse/4.17"
+      },
+      {
+        "word": "karmaṇaḥ",
+        "meaning": "of action",
+        "referenceHeader": "Bhagavad Gita 4.17",
+        "refLink": "#/chapter/4/verse/4.17"
       }
     ],
     "previousWMUrl": "#/word-meaning/karmasu kauśhalam",
@@ -9591,6 +11023,18 @@
         "meaning": "duties",
         "referenceHeader": "Bhagavad Gita 3.25",
         "refLink": "#/chapter/3/verse/3.25"
+      },
+      {
+        "word": "karmaṇi",
+        "meaning": "action",
+        "referenceHeader": "Bhagavad Gita 4.18",
+        "refLink": "#/chapter/4/verse/4.18"
+      },
+      {
+        "word": "karmaṇi",
+        "meaning": "in activities",
+        "referenceHeader": "Bhagavad Gita 4.20",
+        "refLink": "#/chapter/4/verse/4.20"
       }
     ],
     "previousWMUrl": "#/word-meaning/karmaṇaḥ",
@@ -9628,8 +11072,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/karmaṇā",
-    "nextWMUrl": "#/word-meaning/karmāṇi",
+    "nextWMUrl": "#/word-meaning/karmāṇam",
     "currentWMUrl": "#/word-meaning/karmaṇām"
+  },
+  {
+    "id": "karmāṇam",
+    "data": [
+      {
+        "word": "karmāṇam",
+        "meaning": "actions",
+        "referenceHeader": "Bhagavad Gita 4.19",
+        "refLink": "#/chapter/4/verse/4.19"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/karmaṇām",
+    "nextWMUrl": "#/word-meaning/karmāṇi",
+    "currentWMUrl": "#/word-meaning/karmāṇam"
   },
   {
     "id": "karmāṇi",
@@ -9663,11 +11121,37 @@
         "meaning": "activities",
         "referenceHeader": "Bhagavad Gita 4.14",
         "refLink": "#/chapter/4/verse/4.14"
+      },
+      {
+        "word": "karmāṇi",
+        "meaning": "functions",
+        "referenceHeader": "Bhagavad Gita 4.27",
+        "refLink": "#/chapter/4/verse/4.27"
+      },
+      {
+        "word": "karmāṇi",
+        "meaning": "actions",
+        "referenceHeader": "Bhagavad Gita 4.41",
+        "refLink": "#/chapter/4/verse/4.41"
       }
     ],
-    "previousWMUrl": "#/word-meaning/karmaṇām",
-    "nextWMUrl": "#/word-meaning/kartavyam",
+    "previousWMUrl": "#/word-meaning/karmāṇam",
+    "nextWMUrl": "#/word-meaning/karoti",
     "currentWMUrl": "#/word-meaning/karmāṇi"
+  },
+  {
+    "id": "karoti",
+    "data": [
+      {
+        "word": "karoti",
+        "meaning": "do",
+        "referenceHeader": "Bhagavad Gita 4.20",
+        "refLink": "#/chapter/4/verse/4.20"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/karmāṇi",
+    "nextWMUrl": "#/word-meaning/kartavyam",
+    "currentWMUrl": "#/word-meaning/karoti"
   },
   {
     "id": "kartavyam",
@@ -9679,7 +11163,7 @@
         "refLink": "#/chapter/3/verse/3.22"
       }
     ],
-    "previousWMUrl": "#/word-meaning/karmāṇi",
+    "previousWMUrl": "#/word-meaning/karoti",
     "nextWMUrl": "#/word-meaning/kartum",
     "currentWMUrl": "#/word-meaning/kartavyam"
   },
@@ -9886,8 +11370,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/kaunteya",
-    "nextWMUrl": "#/word-meaning/kaśhchana",
+    "nextWMUrl": "#/word-meaning/kavayaḥ",
     "currentWMUrl": "#/word-meaning/kaunteyaḥ"
+  },
+  {
+    "id": "kavayaḥ",
+    "data": [
+      {
+        "word": "kavayaḥ",
+        "meaning": "the wise",
+        "referenceHeader": "Bhagavad Gita 4.16",
+        "refLink": "#/chapter/4/verse/4.16"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/kaunteyaḥ",
+    "nextWMUrl": "#/word-meaning/kaśhchana",
+    "currentWMUrl": "#/word-meaning/kavayaḥ"
   },
   {
     "id": "kaśhchana",
@@ -9899,7 +11397,7 @@
         "refLink": "#/chapter/3/verse/3.18"
       }
     ],
-    "previousWMUrl": "#/word-meaning/kaunteyaḥ",
+    "previousWMUrl": "#/word-meaning/kavayaḥ",
     "nextWMUrl": "#/word-meaning/kaśhchit",
     "currentWMUrl": "#/word-meaning/kaśhchana"
   },
@@ -9960,8 +11458,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/kaśhmalam",
-    "nextWMUrl": "#/word-meaning/keśhava",
+    "nextWMUrl": "#/word-meaning/kevalam",
     "currentWMUrl": "#/word-meaning/kena"
+  },
+  {
+    "id": "kevalam",
+    "data": [
+      {
+        "word": "kevalam",
+        "meaning": "only",
+        "referenceHeader": "Bhagavad Gita 4.21",
+        "refLink": "#/chapter/4/verse/4.21"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/kena",
+    "nextWMUrl": "#/word-meaning/keśhava",
+    "currentWMUrl": "#/word-meaning/kevalam"
   },
   {
     "id": "keśhava",
@@ -9985,7 +11497,7 @@
         "refLink": "#/chapter/3/verse/3.1 – 3.2"
       }
     ],
-    "previousWMUrl": "#/word-meaning/kena",
+    "previousWMUrl": "#/word-meaning/kevalam",
     "nextWMUrl": "#/word-meaning/kilbiṣhaiḥ",
     "currentWMUrl": "#/word-meaning/keśhava"
   },
@@ -10000,8 +11512,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/keśhava",
-    "nextWMUrl": "#/word-meaning/kim",
+    "nextWMUrl": "#/word-meaning/kilbiṣham",
     "currentWMUrl": "#/word-meaning/kilbiṣhaiḥ"
+  },
+  {
+    "id": "kilbiṣham",
+    "data": [
+      {
+        "word": "kilbiṣham",
+        "meaning": "sin",
+        "referenceHeader": "Bhagavad Gita 4.21",
+        "refLink": "#/chapter/4/verse/4.21"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/kilbiṣhaiḥ",
+    "nextWMUrl": "#/word-meaning/kim",
+    "currentWMUrl": "#/word-meaning/kilbiṣham"
   },
   {
     "id": "kim",
@@ -10059,9 +11585,21 @@
         "meaning": "what",
         "referenceHeader": "Bhagavad Gita 3.33",
         "refLink": "#/chapter/3/verse/3.33"
+      },
+      {
+        "word": "kim",
+        "meaning": "what",
+        "referenceHeader": "Bhagavad Gita 4.16",
+        "refLink": "#/chapter/4/verse/4.16"
+      },
+      {
+        "word": "kim",
+        "meaning": "what",
+        "referenceHeader": "Bhagavad Gita 4.16",
+        "refLink": "#/chapter/4/verse/4.16"
       }
     ],
-    "previousWMUrl": "#/word-meaning/kilbiṣhaiḥ",
+    "previousWMUrl": "#/word-meaning/kilbiṣham",
     "nextWMUrl": "#/word-meaning/kim nu",
     "currentWMUrl": "#/word-meaning/kim"
   },
@@ -10090,8 +11628,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/kim nu",
-    "nextWMUrl": "#/word-meaning/klaibyam",
+    "nextWMUrl": "#/word-meaning/kiñchit",
     "currentWMUrl": "#/word-meaning/kiñchana"
+  },
+  {
+    "id": "kiñchit",
+    "data": [
+      {
+        "word": "kiñchit",
+        "meaning": "anything",
+        "referenceHeader": "Bhagavad Gita 4.20",
+        "refLink": "#/chapter/4/verse/4.20"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/kiñchana",
+    "nextWMUrl": "#/word-meaning/klaibyam",
+    "currentWMUrl": "#/word-meaning/kiñchit"
   },
   {
     "id": "klaibyam",
@@ -10103,7 +11655,7 @@
         "refLink": "#/chapter/2/verse/2.3"
       }
     ],
-    "previousWMUrl": "#/word-meaning/kiñchana",
+    "previousWMUrl": "#/word-meaning/kiñchit",
     "nextWMUrl": "#/word-meaning/kledayanti",
     "currentWMUrl": "#/word-meaning/klaibyam"
   },
@@ -10383,6 +11935,12 @@
         "meaning": "perform",
         "referenceHeader": "Bhagavad Gita 3.8",
         "refLink": "#/chapter/3/verse/3.8"
+      },
+      {
+        "word": "kuru",
+        "meaning": "should perform",
+        "referenceHeader": "Bhagavad Gita 4.15",
+        "refLink": "#/chapter/4/verse/4.15"
       }
     ],
     "previousWMUrl": "#/word-meaning/kuntī-putraḥ",
@@ -10414,8 +11972,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/kuru-kṣhetre",
-    "nextWMUrl": "#/word-meaning/kuru-vṛiddhaḥ",
+    "nextWMUrl": "#/word-meaning/kuru-sat-tama",
     "currentWMUrl": "#/word-meaning/kuru-nandana"
+  },
+  {
+    "id": "kuru-sat-tama",
+    "data": [
+      {
+        "word": "kuru-sat-tama",
+        "meaning": "best of the Kurus, Arjun",
+        "referenceHeader": "Bhagavad Gita 4.31",
+        "refLink": "#/chapter/4/verse/4.31"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/kuru-nandana",
+    "nextWMUrl": "#/word-meaning/kuru-vṛiddhaḥ",
+    "currentWMUrl": "#/word-meaning/kuru-sat-tama"
   },
   {
     "id": "kuru-vṛiddhaḥ",
@@ -10427,7 +11999,7 @@
         "refLink": "#/chapter/1/verse/1.12"
       }
     ],
-    "previousWMUrl": "#/word-meaning/kuru-nandana",
+    "previousWMUrl": "#/word-meaning/kuru-sat-tama",
     "nextWMUrl": "#/word-meaning/kurute",
     "currentWMUrl": "#/word-meaning/kuru-vṛiddhaḥ"
   },
@@ -10439,11 +12011,37 @@
         "meaning": "perform",
         "referenceHeader": "Bhagavad Gita 3.20 – 3.21",
         "refLink": "#/chapter/3/verse/3.20 – 3.21"
+      },
+      {
+        "word": "kurute",
+        "meaning": "turns",
+        "referenceHeader": "Bhagavad Gita 4.37",
+        "refLink": "#/chapter/4/verse/4.37"
+      },
+      {
+        "word": "kurute",
+        "meaning": "it turns",
+        "referenceHeader": "Bhagavad Gita 4.37",
+        "refLink": "#/chapter/4/verse/4.37"
       }
     ],
     "previousWMUrl": "#/word-meaning/kuru-vṛiddhaḥ",
-    "nextWMUrl": "#/word-meaning/kurvanti",
+    "nextWMUrl": "#/word-meaning/kurvan",
     "currentWMUrl": "#/word-meaning/kurute"
+  },
+  {
+    "id": "kurvan",
+    "data": [
+      {
+        "word": "kurvan",
+        "meaning": "performing",
+        "referenceHeader": "Bhagavad Gita 4.21",
+        "refLink": "#/chapter/4/verse/4.21"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/kurute",
+    "nextWMUrl": "#/word-meaning/kurvanti",
+    "currentWMUrl": "#/word-meaning/kurvan"
   },
   {
     "id": "kurvanti",
@@ -10455,7 +12053,7 @@
         "refLink": "#/chapter/3/verse/3.25"
       }
     ],
-    "previousWMUrl": "#/word-meaning/kurute",
+    "previousWMUrl": "#/word-meaning/kurvan",
     "nextWMUrl": "#/word-meaning/kuryām",
     "currentWMUrl": "#/word-meaning/kurvanti"
   },
@@ -10515,6 +12113,12 @@
         "meaning": "where",
         "referenceHeader": "Bhagavad Gita 2.66",
         "refLink": "#/chapter/2/verse/2.66"
+      },
+      {
+        "word": "kutaḥ",
+        "meaning": "how",
+        "referenceHeader": "Bhagavad Gita 4.31",
+        "refLink": "#/chapter/4/verse/4.31"
       }
     ],
     "previousWMUrl": "#/word-meaning/kurūn",
@@ -10555,11 +12159,31 @@
         "meaning": "with the long passage of time",
         "referenceHeader": "Bhagavad Gita 4.2",
         "refLink": "#/chapter/4/verse/4.2"
+      },
+      {
+        "word": "kālena",
+        "meaning": "in course of time",
+        "referenceHeader": "Bhagavad Gita 4.38",
+        "refLink": "#/chapter/4/verse/4.38"
       }
     ],
     "previousWMUrl": "#/word-meaning/kā",
-    "nextWMUrl": "#/word-meaning/kāma-kāmī",
+    "nextWMUrl": "#/word-meaning/kāma",
     "currentWMUrl": "#/word-meaning/kālena"
+  },
+  {
+    "id": "kāma",
+    "data": [
+      {
+        "word": "kāma",
+        "meaning": "desire for material pleasures",
+        "referenceHeader": "Bhagavad Gita 4.19",
+        "refLink": "#/chapter/4/verse/4.19"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/kālena",
+    "nextWMUrl": "#/word-meaning/kāma-kāmī",
+    "currentWMUrl": "#/word-meaning/kāma"
   },
   {
     "id": "kāma-kāmī",
@@ -10571,7 +12195,7 @@
         "refLink": "#/chapter/2/verse/2.70"
       }
     ],
-    "previousWMUrl": "#/word-meaning/kālena",
+    "previousWMUrl": "#/word-meaning/kāma",
     "nextWMUrl": "#/word-meaning/kāma-rūpam",
     "currentWMUrl": "#/word-meaning/kāma-kāmī"
   },
@@ -10921,6 +12545,18 @@
         "meaning": "done",
         "referenceHeader": "Bhagavad Gita 1.38 – 1.39",
         "refLink": "#/chapter/1/verse/1.38 – 1.39"
+      },
+      {
+        "word": "kṛitam",
+        "meaning": "performed",
+        "referenceHeader": "Bhagavad Gita 4.15",
+        "refLink": "#/chapter/4/verse/4.15"
+      },
+      {
+        "word": "kṛitam",
+        "meaning": "performed",
+        "referenceHeader": "Bhagavad Gita 4.15",
+        "refLink": "#/chapter/4/verse/4.15"
       }
     ],
     "previousWMUrl": "#/word-meaning/kṛita-niśhchayaḥ",
@@ -10938,8 +12574,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/kṛitam",
-    "nextWMUrl": "#/word-meaning/kṛitsna-vit",
+    "nextWMUrl": "#/word-meaning/kṛitsna-karma-kṛit",
     "currentWMUrl": "#/word-meaning/kṛitena"
+  },
+  {
+    "id": "kṛitsna-karma-kṛit",
+    "data": [
+      {
+        "word": "kṛitsna-karma-kṛit",
+        "meaning": "performers all kinds of actions",
+        "referenceHeader": "Bhagavad Gita 4.18",
+        "refLink": "#/chapter/4/verse/4.18"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/kṛitena",
+    "nextWMUrl": "#/word-meaning/kṛitsna-vit",
+    "currentWMUrl": "#/word-meaning/kṛitsna-karma-kṛit"
   },
   {
     "id": "kṛitsna-vit",
@@ -10951,7 +12601,7 @@
         "refLink": "#/chapter/3/verse/3.29"
       }
     ],
-    "previousWMUrl": "#/word-meaning/kṛitena",
+    "previousWMUrl": "#/word-meaning/kṛitsna-karma-kṛit",
     "nextWMUrl": "#/word-meaning/kṛitsnam",
     "currentWMUrl": "#/word-meaning/kṛitsna-vit"
   },
@@ -10966,8 +12616,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/kṛitsna-vit",
-    "nextWMUrl": "#/word-meaning/kṛiṣhṇa",
+    "nextWMUrl": "#/word-meaning/kṛitvā",
     "currentWMUrl": "#/word-meaning/kṛitsnam"
+  },
+  {
+    "id": "kṛitvā",
+    "data": [
+      {
+        "word": "kṛitvā",
+        "meaning": "performing",
+        "referenceHeader": "Bhagavad Gita 4.22",
+        "refLink": "#/chapter/4/verse/4.22"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/kṛitsnam",
+    "nextWMUrl": "#/word-meaning/kṛiṣhṇa",
+    "currentWMUrl": "#/word-meaning/kṛitvā"
   },
   {
     "id": "kṛiṣhṇa",
@@ -10991,7 +12655,7 @@
         "refLink": "#/chapter/1/verse/1.41"
       }
     ],
-    "previousWMUrl": "#/word-meaning/kṛitsnam",
+    "previousWMUrl": "#/word-meaning/kṛitvā",
     "nextWMUrl": "#/word-meaning/kṣhatriyasya",
     "currentWMUrl": "#/word-meaning/kṛiṣhṇa"
   },
@@ -11076,8 +12740,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/kṣhipram",
-    "nextWMUrl": "#/word-meaning/labhante",
+    "nextWMUrl": "#/word-meaning/labdhvā",
     "currentWMUrl": "#/word-meaning/kṣhudram"
+  },
+  {
+    "id": "labdhvā",
+    "data": [
+      {
+        "word": "labdhvā",
+        "meaning": "having achieved",
+        "referenceHeader": "Bhagavad Gita 4.39",
+        "refLink": "#/chapter/4/verse/4.39"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/kṣhudram",
+    "nextWMUrl": "#/word-meaning/labhante",
+    "currentWMUrl": "#/word-meaning/labdhvā"
   },
   {
     "id": "labhante",
@@ -11089,9 +12767,23 @@
         "refLink": "#/chapter/2/verse/2.32"
       }
     ],
-    "previousWMUrl": "#/word-meaning/kṣhudram",
-    "nextWMUrl": "#/word-meaning/limpanti",
+    "previousWMUrl": "#/word-meaning/labdhvā",
+    "nextWMUrl": "#/word-meaning/labhate",
     "currentWMUrl": "#/word-meaning/labhante"
+  },
+  {
+    "id": "labhate",
+    "data": [
+      {
+        "word": "labhate",
+        "meaning": "achieves",
+        "referenceHeader": "Bhagavad Gita 4.39",
+        "refLink": "#/chapter/4/verse/4.39"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/labhante",
+    "nextWMUrl": "#/word-meaning/limpanti",
+    "currentWMUrl": "#/word-meaning/labhate"
   },
   {
     "id": "limpanti",
@@ -11103,7 +12795,7 @@
         "refLink": "#/chapter/4/verse/4.14"
       }
     ],
-    "previousWMUrl": "#/word-meaning/labhante",
+    "previousWMUrl": "#/word-meaning/labhate",
     "nextWMUrl": "#/word-meaning/lobha",
     "currentWMUrl": "#/word-meaning/limpanti"
   },
@@ -11155,6 +12847,18 @@
         "meaning": "world",
         "referenceHeader": "Bhagavad Gita 3.20 – 3.21",
         "refLink": "#/chapter/3/verse/3.20 – 3.21"
+      },
+      {
+        "word": "lokaḥ",
+        "meaning": "planet",
+        "referenceHeader": "Bhagavad Gita 4.31",
+        "refLink": "#/chapter/4/verse/4.31"
+      },
+      {
+        "word": "lokaḥ",
+        "meaning": "world",
+        "referenceHeader": "Bhagavad Gita 4.40",
+        "refLink": "#/chapter/4/verse/4.40"
       }
     ],
     "previousWMUrl": "#/word-meaning/loka-saṅgraham",
@@ -11220,8 +12924,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/lokāḥ",
-    "nextWMUrl": "#/word-meaning/lābha-alābhau",
+    "nextWMUrl": "#/word-meaning/lābha",
     "currentWMUrl": "#/word-meaning/lupta"
+  },
+  {
+    "id": "lābha",
+    "data": [
+      {
+        "word": "lābha",
+        "meaning": "gain",
+        "referenceHeader": "Bhagavad Gita 4.22",
+        "refLink": "#/chapter/4/verse/4.22"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/lupta",
+    "nextWMUrl": "#/word-meaning/lābha-alābhau",
+    "currentWMUrl": "#/word-meaning/lābha"
   },
   {
     "id": "lābha-alābhau",
@@ -11233,7 +12951,7 @@
         "refLink": "#/chapter/2/verse/2.38"
       }
     ],
-    "previousWMUrl": "#/word-meaning/lupta",
+    "previousWMUrl": "#/word-meaning/lābha",
     "nextWMUrl": "#/word-meaning/lāghavam",
     "currentWMUrl": "#/word-meaning/lābha-alābhau"
   },
@@ -11792,8 +13510,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/mandān",
-    "nextWMUrl": "#/word-meaning/manuṣhyāḥ",
+    "nextWMUrl": "#/word-meaning/manuṣhyeṣhu",
     "currentWMUrl": "#/word-meaning/manuḥ"
+  },
+  {
+    "id": "manuṣhyeṣhu",
+    "data": [
+      {
+        "word": "manuṣhyeṣhu",
+        "meaning": "amongst humans",
+        "referenceHeader": "Bhagavad Gita 4.18",
+        "refLink": "#/chapter/4/verse/4.18"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/manuḥ",
+    "nextWMUrl": "#/word-meaning/manuṣhyāḥ",
+    "currentWMUrl": "#/word-meaning/manuṣhyeṣhu"
   },
   {
     "id": "manuṣhyāḥ",
@@ -11811,7 +13543,7 @@
         "refLink": "#/chapter/4/verse/4.11"
       }
     ],
-    "previousWMUrl": "#/word-meaning/manuḥ",
+    "previousWMUrl": "#/word-meaning/manuṣhyeṣhu",
     "nextWMUrl": "#/word-meaning/manuṣhyāṇām",
     "currentWMUrl": "#/word-meaning/manuṣhyāḥ"
   },
@@ -12003,6 +13735,12 @@
         "meaning": "unto me",
         "referenceHeader": "Bhagavad Gita 3.30",
         "refLink": "#/chapter/3/verse/3.30"
+      },
+      {
+        "word": "mayi",
+        "meaning": "in me",
+        "referenceHeader": "Bhagavad Gita 4.35",
+        "refLink": "#/chapter/4/verse/4.35"
       }
     ],
     "previousWMUrl": "#/word-meaning/matā",
@@ -12194,8 +13932,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/mogham",
-    "nextWMUrl": "#/word-meaning/mohayasi",
+    "nextWMUrl": "#/word-meaning/moham",
     "currentWMUrl": "#/word-meaning/moha"
+  },
+  {
+    "id": "moham",
+    "data": [
+      {
+        "word": "moham",
+        "meaning": "delusion",
+        "referenceHeader": "Bhagavad Gita 4.35",
+        "refLink": "#/chapter/4/verse/4.35"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/moha",
+    "nextWMUrl": "#/word-meaning/mohayasi",
+    "currentWMUrl": "#/word-meaning/moham"
   },
   {
     "id": "mohayasi",
@@ -12207,9 +13959,37 @@
         "refLink": "#/chapter/3/verse/3.1 – 3.2"
       }
     ],
-    "previousWMUrl": "#/word-meaning/moha",
-    "nextWMUrl": "#/word-meaning/mriyate",
+    "previousWMUrl": "#/word-meaning/moham",
+    "nextWMUrl": "#/word-meaning/mohitāḥ",
     "currentWMUrl": "#/word-meaning/mohayasi"
+  },
+  {
+    "id": "mohitāḥ",
+    "data": [
+      {
+        "word": "mohitāḥ",
+        "meaning": "are confused",
+        "referenceHeader": "Bhagavad Gita 4.16",
+        "refLink": "#/chapter/4/verse/4.16"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/mohayasi",
+    "nextWMUrl": "#/word-meaning/mokṣhyase",
+    "currentWMUrl": "#/word-meaning/mohitāḥ"
+  },
+  {
+    "id": "mokṣhyase",
+    "data": [
+      {
+        "word": "mokṣhyase",
+        "meaning": "you may free yourself",
+        "referenceHeader": "Bhagavad Gita 4.16",
+        "refLink": "#/chapter/4/verse/4.16"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/mohitāḥ",
+    "nextWMUrl": "#/word-meaning/mriyate",
+    "currentWMUrl": "#/word-meaning/mokṣhyase"
   },
   {
     "id": "mriyate",
@@ -12221,7 +14001,7 @@
         "refLink": "#/chapter/2/verse/2.20"
       }
     ],
-    "previousWMUrl": "#/word-meaning/mohayasi",
+    "previousWMUrl": "#/word-meaning/mokṣhyase",
     "nextWMUrl": "#/word-meaning/muchyante",
     "currentWMUrl": "#/word-meaning/mriyate"
   },
@@ -12256,8 +14036,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/muchyante",
-    "nextWMUrl": "#/word-meaning/mukta-saṅgaḥ",
+    "nextWMUrl": "#/word-meaning/mukhe",
     "currentWMUrl": "#/word-meaning/mukham"
+  },
+  {
+    "id": "mukhe",
+    "data": [
+      {
+        "word": "mukhe",
+        "meaning": "through the mouth",
+        "referenceHeader": "Bhagavad Gita 4.32",
+        "refLink": "#/chapter/4/verse/4.32"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/mukham",
+    "nextWMUrl": "#/word-meaning/mukta-saṅgaḥ",
+    "currentWMUrl": "#/word-meaning/mukhe"
   },
   {
     "id": "mukta-saṅgaḥ",
@@ -12269,9 +14063,37 @@
         "refLink": "#/chapter/3/verse/3.9"
       }
     ],
-    "previousWMUrl": "#/word-meaning/mukham",
-    "nextWMUrl": "#/word-meaning/muneḥ",
+    "previousWMUrl": "#/word-meaning/mukhe",
+    "nextWMUrl": "#/word-meaning/muktasya",
     "currentWMUrl": "#/word-meaning/mukta-saṅgaḥ"
+  },
+  {
+    "id": "muktasya",
+    "data": [
+      {
+        "word": "muktasya",
+        "meaning": "of the liberated",
+        "referenceHeader": "Bhagavad Gita 4.23",
+        "refLink": "#/chapter/4/verse/4.23"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/mukta-saṅgaḥ",
+    "nextWMUrl": "#/word-meaning/mumukṣhubhiḥ",
+    "currentWMUrl": "#/word-meaning/muktasya"
+  },
+  {
+    "id": "mumukṣhubhiḥ",
+    "data": [
+      {
+        "word": "mumukṣhubhiḥ",
+        "meaning": "seekers of liberation",
+        "referenceHeader": "Bhagavad Gita 4.15",
+        "refLink": "#/chapter/4/verse/4.15"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/muktasya",
+    "nextWMUrl": "#/word-meaning/muneḥ",
+    "currentWMUrl": "#/word-meaning/mumukṣhubhiḥ"
   },
   {
     "id": "muneḥ",
@@ -12283,7 +14105,7 @@
         "refLink": "#/chapter/2/verse/2.69"
       }
     ],
-    "previousWMUrl": "#/word-meaning/mukta-saṅgaḥ",
+    "previousWMUrl": "#/word-meaning/mumukṣhubhiḥ",
     "nextWMUrl": "#/word-meaning/muniḥ",
     "currentWMUrl": "#/word-meaning/muneḥ"
   },
@@ -13021,6 +14843,66 @@
         "meaning": "never",
         "referenceHeader": "Bhagavad Gita 4.14",
         "refLink": "#/chapter/4/verse/4.14"
+      },
+      {
+        "word": "na",
+        "meaning": "not",
+        "referenceHeader": "Bhagavad Gita 4.20",
+        "refLink": "#/chapter/4/verse/4.20"
+      },
+      {
+        "word": "na",
+        "meaning": "never",
+        "referenceHeader": "Bhagavad Gita 4.21",
+        "refLink": "#/chapter/4/verse/4.21"
+      },
+      {
+        "word": "na",
+        "meaning": "never",
+        "referenceHeader": "Bhagavad Gita 4.22",
+        "refLink": "#/chapter/4/verse/4.22"
+      },
+      {
+        "word": "na",
+        "meaning": "never",
+        "referenceHeader": "Bhagavad Gita 4.31",
+        "refLink": "#/chapter/4/verse/4.31"
+      },
+      {
+        "word": "na",
+        "meaning": "never",
+        "referenceHeader": "Bhagavad Gita 4.35",
+        "refLink": "#/chapter/4/verse/4.35"
+      },
+      {
+        "word": "na",
+        "meaning": "not",
+        "referenceHeader": "Bhagavad Gita 4.38",
+        "refLink": "#/chapter/4/verse/4.38"
+      },
+      {
+        "word": "na",
+        "meaning": "never",
+        "referenceHeader": "Bhagavad Gita 4.40",
+        "refLink": "#/chapter/4/verse/4.40"
+      },
+      {
+        "word": "na",
+        "meaning": "not",
+        "referenceHeader": "Bhagavad Gita 4.40",
+        "refLink": "#/chapter/4/verse/4.40"
+      },
+      {
+        "word": "na",
+        "meaning": "not",
+        "referenceHeader": "Bhagavad Gita 4.40",
+        "refLink": "#/chapter/4/verse/4.40"
+      },
+      {
+        "word": "na",
+        "meaning": "not",
+        "referenceHeader": "Bhagavad Gita 4.41",
+        "refLink": "#/chapter/4/verse/4.41"
       }
     ],
     "previousWMUrl": "#/word-meaning/mṛityuḥ",
@@ -13348,8 +15230,36 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/naṣhṭe",
-    "nextWMUrl": "#/word-meaning/nibodha",
+    "nextWMUrl": "#/word-meaning/nibadhnanti",
     "currentWMUrl": "#/word-meaning/naṣhṭān"
+  },
+  {
+    "id": "nibadhnanti",
+    "data": [
+      {
+        "word": "nibadhnanti",
+        "meaning": "bind",
+        "referenceHeader": "Bhagavad Gita 4.41",
+        "refLink": "#/chapter/4/verse/4.41"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/naṣhṭān",
+    "nextWMUrl": "#/word-meaning/nibadhyate",
+    "currentWMUrl": "#/word-meaning/nibadhnanti"
+  },
+  {
+    "id": "nibadhyate",
+    "data": [
+      {
+        "word": "nibadhyate",
+        "meaning": "is bound",
+        "referenceHeader": "Bhagavad Gita 4.22",
+        "refLink": "#/chapter/4/verse/4.22"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/nibadhnanti",
+    "nextWMUrl": "#/word-meaning/nibodha",
+    "currentWMUrl": "#/word-meaning/nibadhyate"
   },
   {
     "id": "nibodha",
@@ -13361,7 +15271,7 @@
         "refLink": "#/chapter/1/verse/1.7"
       }
     ],
-    "previousWMUrl": "#/word-meaning/naṣhṭān",
+    "previousWMUrl": "#/word-meaning/nibadhyate",
     "nextWMUrl": "#/word-meaning/nidhanam",
     "currentWMUrl": "#/word-meaning/nibodha"
   },
@@ -13550,8 +15460,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/niryoga-kṣhemaḥ",
-    "nextWMUrl": "#/word-meaning/nirāśhīḥ",
+    "nextWMUrl": "#/word-meaning/nirāśhrayaḥ",
     "currentWMUrl": "#/word-meaning/nirāhārasya"
+  },
+  {
+    "id": "nirāśhrayaḥ",
+    "data": [
+      {
+        "word": "nirāśhrayaḥ",
+        "meaning": "without dependence",
+        "referenceHeader": "Bhagavad Gita 4.20",
+        "refLink": "#/chapter/4/verse/4.20"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/nirāhārasya",
+    "nextWMUrl": "#/word-meaning/nirāśhīḥ",
+    "currentWMUrl": "#/word-meaning/nirāśhrayaḥ"
   },
   {
     "id": "nirāśhīḥ",
@@ -13561,9 +15485,15 @@
         "meaning": "free from hankering for the results of the actions",
         "referenceHeader": "Bhagavad Gita 3.30",
         "refLink": "#/chapter/3/verse/3.30"
+      },
+      {
+        "word": "nirāśhīḥ",
+        "meaning": "free from expectations",
+        "referenceHeader": "Bhagavad Gita 4.21",
+        "refLink": "#/chapter/4/verse/4.21"
       }
     ],
-    "previousWMUrl": "#/word-meaning/nirāhārasya",
+    "previousWMUrl": "#/word-meaning/nirāśhrayaḥ",
     "nextWMUrl": "#/word-meaning/nirīkṣhe",
     "currentWMUrl": "#/word-meaning/nirāśhīḥ"
   },
@@ -13592,8 +15522,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/nirīkṣhe",
-    "nextWMUrl": "#/word-meaning/nitya-jātam",
+    "nextWMUrl": "#/word-meaning/nitya",
     "currentWMUrl": "#/word-meaning/nistrai-guṇyaḥ"
+  },
+  {
+    "id": "nitya",
+    "data": [
+      {
+        "word": "nitya",
+        "meaning": "always",
+        "referenceHeader": "Bhagavad Gita 4.20",
+        "refLink": "#/chapter/4/verse/4.20"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/nistrai-guṇyaḥ",
+    "nextWMUrl": "#/word-meaning/nitya-jātam",
+    "currentWMUrl": "#/word-meaning/nitya"
   },
   {
     "id": "nitya-jātam",
@@ -13605,7 +15549,7 @@
         "refLink": "#/chapter/2/verse/2.26"
       }
     ],
-    "previousWMUrl": "#/word-meaning/nistrai-guṇyaḥ",
+    "previousWMUrl": "#/word-meaning/nitya",
     "nextWMUrl": "#/word-meaning/nitya-sattva-sthaḥ",
     "currentWMUrl": "#/word-meaning/nitya-jātam"
   },
@@ -13754,8 +15698,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/nivartitum",
-    "nextWMUrl": "#/word-meaning/niyatam",
+    "nextWMUrl": "#/word-meaning/niyata",
     "currentWMUrl": "#/word-meaning/niyamya"
+  },
+  {
+    "id": "niyata",
+    "data": [
+      {
+        "word": "niyata",
+        "meaning": "having controlled",
+        "referenceHeader": "Bhagavad Gita 4.29 – 4.30",
+        "refLink": "#/chapter/4/verse/4.29 – 4.30"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/niyamya",
+    "nextWMUrl": "#/word-meaning/niyatam",
+    "currentWMUrl": "#/word-meaning/niyata"
   },
   {
     "id": "niyatam",
@@ -13767,7 +15725,7 @@
         "refLink": "#/chapter/3/verse/3.8"
       }
     ],
-    "previousWMUrl": "#/word-meaning/niyamya",
+    "previousWMUrl": "#/word-meaning/niyata",
     "nextWMUrl": "#/word-meaning/niyojayasi",
     "currentWMUrl": "#/word-meaning/niyatam"
   },
@@ -14135,6 +16093,12 @@
         "meaning": "Arjun, the scorcher of foes",
         "referenceHeader": "Bhagavad Gita 4.5",
         "refLink": "#/chapter/4/verse/4.5"
+      },
+      {
+        "word": "parantapa",
+        "meaning": "subduer of enemies, Arjun",
+        "referenceHeader": "Bhagavad Gita 4.33",
+        "refLink": "#/chapter/4/verse/4.33"
       }
     ],
     "previousWMUrl": "#/word-meaning/paramparā",
@@ -14194,8 +16158,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/parataḥ",
-    "nextWMUrl": "#/word-meaning/paridahyate",
+    "nextWMUrl": "#/word-meaning/paraḥ",
     "currentWMUrl": "#/word-meaning/parayā"
+  },
+  {
+    "id": "paraḥ",
+    "data": [
+      {
+        "word": "paraḥ",
+        "meaning": "in the next",
+        "referenceHeader": "Bhagavad Gita 4.40",
+        "refLink": "#/chapter/4/verse/4.40"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/parayā",
+    "nextWMUrl": "#/word-meaning/paridahyate",
+    "currentWMUrl": "#/word-meaning/paraḥ"
   },
   {
     "id": "paridahyate",
@@ -14207,7 +16185,7 @@
         "refLink": "#/chapter/1/verse/1.29 – 1.31"
       }
     ],
-    "previousWMUrl": "#/word-meaning/parayā",
+    "previousWMUrl": "#/word-meaning/paraḥ",
     "nextWMUrl": "#/word-meaning/paridevanā",
     "currentWMUrl": "#/word-meaning/paridahyate"
   },
@@ -14222,8 +16200,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/paridahyate",
-    "nextWMUrl": "#/word-meaning/paripanthinau",
+    "nextWMUrl": "#/word-meaning/parigrahaḥ",
     "currentWMUrl": "#/word-meaning/paridevanā"
+  },
+  {
+    "id": "parigrahaḥ",
+    "data": [
+      {
+        "word": "parigrahaḥ",
+        "meaning": "the sense of ownership",
+        "referenceHeader": "Bhagavad Gita 4.21",
+        "refLink": "#/chapter/4/verse/4.21"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/paridevanā",
+    "nextWMUrl": "#/word-meaning/paripanthinau",
+    "currentWMUrl": "#/word-meaning/parigrahaḥ"
   },
   {
     "id": "paripanthinau",
@@ -14235,9 +16227,37 @@
         "refLink": "#/chapter/3/verse/3.34"
       }
     ],
-    "previousWMUrl": "#/word-meaning/paridevanā",
-    "nextWMUrl": "#/word-meaning/paritrāṇāya",
+    "previousWMUrl": "#/word-meaning/parigrahaḥ",
+    "nextWMUrl": "#/word-meaning/paripraśhnena",
     "currentWMUrl": "#/word-meaning/paripanthinau"
+  },
+  {
+    "id": "paripraśhnena",
+    "data": [
+      {
+        "word": "paripraśhnena",
+        "meaning": "by humble inquiries",
+        "referenceHeader": "Bhagavad Gita 4.34",
+        "refLink": "#/chapter/4/verse/4.34"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/paripanthinau",
+    "nextWMUrl": "#/word-meaning/parisamāpyate",
+    "currentWMUrl": "#/word-meaning/paripraśhnena"
+  },
+  {
+    "id": "parisamāpyate",
+    "data": [
+      {
+        "word": "parisamāpyate",
+        "meaning": "culminate",
+        "referenceHeader": "Bhagavad Gita 4.33",
+        "refLink": "#/chapter/4/verse/4.33"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/paripraśhnena",
+    "nextWMUrl": "#/word-meaning/paritrāṇāya",
+    "currentWMUrl": "#/word-meaning/parisamāpyate"
   },
   {
     "id": "paritrāṇāya",
@@ -14249,7 +16269,7 @@
         "refLink": "#/chapter/4/verse/4.8"
       }
     ],
-    "previousWMUrl": "#/word-meaning/paripanthinau",
+    "previousWMUrl": "#/word-meaning/parisamāpyate",
     "nextWMUrl": "#/word-meaning/pariśhuṣhyati",
     "currentWMUrl": "#/word-meaning/paritrāṇāya"
   },
@@ -14306,8 +16326,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/parjanyāt",
-    "nextWMUrl": "#/word-meaning/paryāptam",
+    "nextWMUrl": "#/word-meaning/paryupāsate",
     "currentWMUrl": "#/word-meaning/paryavatiṣhṭhate"
+  },
+  {
+    "id": "paryupāsate",
+    "data": [
+      {
+        "word": "paryupāsate",
+        "meaning": "worship",
+        "referenceHeader": "Bhagavad Gita 4.25",
+        "refLink": "#/chapter/4/verse/4.25"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/paryavatiṣhṭhate",
+    "nextWMUrl": "#/word-meaning/paryāptam",
+    "currentWMUrl": "#/word-meaning/paryupāsate"
   },
   {
     "id": "paryāptam",
@@ -14319,7 +16353,7 @@
         "refLink": "#/chapter/1/verse/1.10"
       }
     ],
-    "previousWMUrl": "#/word-meaning/paryavatiṣhṭhate",
+    "previousWMUrl": "#/word-meaning/paryupāsate",
     "nextWMUrl": "#/word-meaning/parā",
     "currentWMUrl": "#/word-meaning/paryāptam"
   },
@@ -14334,8 +16368,36 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/paryāptam",
-    "nextWMUrl": "#/word-meaning/parāṇi",
+    "nextWMUrl": "#/word-meaning/parām",
     "currentWMUrl": "#/word-meaning/parā"
+  },
+  {
+    "id": "parām",
+    "data": [
+      {
+        "word": "parām",
+        "meaning": "supreme",
+        "referenceHeader": "Bhagavad Gita 4.39",
+        "refLink": "#/chapter/4/verse/4.39"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/parā",
+    "nextWMUrl": "#/word-meaning/parāyaṇāḥ",
+    "currentWMUrl": "#/word-meaning/parām"
+  },
+  {
+    "id": "parāyaṇāḥ",
+    "data": [
+      {
+        "word": "parāyaṇāḥ",
+        "meaning": "wholly devoted",
+        "referenceHeader": "Bhagavad Gita 4.29 – 4.30",
+        "refLink": "#/chapter/4/verse/4.29 – 4.30"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/parām",
+    "nextWMUrl": "#/word-meaning/parāṇi",
+    "currentWMUrl": "#/word-meaning/parāyaṇāḥ"
   },
   {
     "id": "parāṇi",
@@ -14347,7 +16409,7 @@
         "refLink": "#/chapter/3/verse/3.42"
       }
     ],
-    "previousWMUrl": "#/word-meaning/parā",
+    "previousWMUrl": "#/word-meaning/parāyaṇāḥ",
     "nextWMUrl": "#/word-meaning/patanti",
     "currentWMUrl": "#/word-meaning/parāṇi"
   },
@@ -14404,8 +16466,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/pautrāḥ",
-    "nextWMUrl": "#/word-meaning/paśhya",
+    "nextWMUrl": "#/word-meaning/pavitram",
     "currentWMUrl": "#/word-meaning/pauṇḍram"
+  },
+  {
+    "id": "pavitram",
+    "data": [
+      {
+        "word": "pavitram",
+        "meaning": "pure",
+        "referenceHeader": "Bhagavad Gita 4.38",
+        "refLink": "#/chapter/4/verse/4.38"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/pauṇḍram",
+    "nextWMUrl": "#/word-meaning/paśhya",
+    "currentWMUrl": "#/word-meaning/pavitram"
   },
   {
     "id": "paśhya",
@@ -14423,7 +16499,7 @@
         "refLink": "#/chapter/1/verse/1.25"
       }
     ],
-    "previousWMUrl": "#/word-meaning/pauṇḍram",
+    "previousWMUrl": "#/word-meaning/pavitram",
     "nextWMUrl": "#/word-meaning/paśhyanti",
     "currentWMUrl": "#/word-meaning/paśhya"
   },
@@ -14466,8 +16542,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/paśhyataḥ",
-    "nextWMUrl": "#/word-meaning/paśhyāmi",
+    "nextWMUrl": "#/word-meaning/paśhyet",
     "currentWMUrl": "#/word-meaning/paśhyati"
+  },
+  {
+    "id": "paśhyet",
+    "data": [
+      {
+        "word": "paśhyet",
+        "meaning": "see",
+        "referenceHeader": "Bhagavad Gita 4.18",
+        "refLink": "#/chapter/4/verse/4.18"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/paśhyati",
+    "nextWMUrl": "#/word-meaning/paśhyāmi",
+    "currentWMUrl": "#/word-meaning/paśhyet"
   },
   {
     "id": "paśhyāmi",
@@ -14479,7 +16569,7 @@
         "refLink": "#/chapter/1/verse/1.29 – 1.31"
       }
     ],
-    "previousWMUrl": "#/word-meaning/paśhyati",
+    "previousWMUrl": "#/word-meaning/paśhyet",
     "nextWMUrl": "#/word-meaning/paṇava-ānaka",
     "currentWMUrl": "#/word-meaning/paśhyāmi"
   },
@@ -14494,8 +16584,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/paśhyāmi",
-    "nextWMUrl": "#/word-meaning/paṇḍitāḥ",
+    "nextWMUrl": "#/word-meaning/paṇḍitam",
     "currentWMUrl": "#/word-meaning/paṇava-ānaka"
+  },
+  {
+    "id": "paṇḍitam",
+    "data": [
+      {
+        "word": "paṇḍitam",
+        "meaning": "a sage",
+        "referenceHeader": "Bhagavad Gita 4.19",
+        "refLink": "#/chapter/4/verse/4.19"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/paṇava-ānaka",
+    "nextWMUrl": "#/word-meaning/paṇḍitāḥ",
+    "currentWMUrl": "#/word-meaning/paṇḍitam"
   },
   {
     "id": "paṇḍitāḥ",
@@ -14507,7 +16611,7 @@
         "refLink": "#/chapter/2/verse/2.11"
       }
     ],
-    "previousWMUrl": "#/word-meaning/paṇava-ānaka",
+    "previousWMUrl": "#/word-meaning/paṇḍitam",
     "nextWMUrl": "#/word-meaning/phala-hetavaḥ",
     "currentWMUrl": "#/word-meaning/paṇḍitāḥ"
   },
@@ -15232,8 +17336,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/pratāpa-vān",
-    "nextWMUrl": "#/word-meaning/pravartitam",
+    "nextWMUrl": "#/word-meaning/pravakṣhyāmi",
     "currentWMUrl": "#/word-meaning/pravadanti"
+  },
+  {
+    "id": "pravakṣhyāmi",
+    "data": [
+      {
+        "word": "pravakṣhyāmi",
+        "meaning": "I shall explain",
+        "referenceHeader": "Bhagavad Gita 4.16",
+        "refLink": "#/chapter/4/verse/4.16"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/pravadanti",
+    "nextWMUrl": "#/word-meaning/pravartitam",
+    "currentWMUrl": "#/word-meaning/pravakṣhyāmi"
   },
   {
     "id": "pravartitam",
@@ -15245,9 +17363,23 @@
         "refLink": "#/chapter/3/verse/3.16"
       }
     ],
-    "previousWMUrl": "#/word-meaning/pravadanti",
-    "nextWMUrl": "#/word-meaning/praviśhanti",
+    "previousWMUrl": "#/word-meaning/pravakṣhyāmi",
+    "nextWMUrl": "#/word-meaning/pravilīyate",
     "currentWMUrl": "#/word-meaning/pravartitam"
+  },
+  {
+    "id": "pravilīyate",
+    "data": [
+      {
+        "word": "pravilīyate",
+        "meaning": "are freed",
+        "referenceHeader": "Bhagavad Gita 4.23",
+        "refLink": "#/chapter/4/verse/4.23"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/pravartitam",
+    "nextWMUrl": "#/word-meaning/praviśhanti",
+    "currentWMUrl": "#/word-meaning/pravilīyate"
   },
   {
     "id": "praviśhanti",
@@ -15265,7 +17397,7 @@
         "refLink": "#/chapter/2/verse/2.70"
       }
     ],
-    "previousWMUrl": "#/word-meaning/pravartitam",
+    "previousWMUrl": "#/word-meaning/pravilīyate",
     "nextWMUrl": "#/word-meaning/pravṛitte",
     "currentWMUrl": "#/word-meaning/praviśhanti"
   },
@@ -15322,8 +17454,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/praṇaśhyanti",
-    "nextWMUrl": "#/word-meaning/priya-chikīrṣhavaḥ",
+    "nextWMUrl": "#/word-meaning/praṇipātena",
     "currentWMUrl": "#/word-meaning/praṇaśhyati"
+  },
+  {
+    "id": "praṇipātena",
+    "data": [
+      {
+        "word": "praṇipātena",
+        "meaning": "by approaching a spiritual master",
+        "referenceHeader": "Bhagavad Gita 4.34",
+        "refLink": "#/chapter/4/verse/4.34"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/praṇaśhyati",
+    "nextWMUrl": "#/word-meaning/priya-chikīrṣhavaḥ",
+    "currentWMUrl": "#/word-meaning/praṇipātena"
   },
   {
     "id": "priya-chikīrṣhavaḥ",
@@ -15335,7 +17481,7 @@
         "refLink": "#/chapter/1/verse/1.23"
       }
     ],
-    "previousWMUrl": "#/word-meaning/praṇaśhyati",
+    "previousWMUrl": "#/word-meaning/praṇipātena",
     "nextWMUrl": "#/word-meaning/proktavān",
     "currentWMUrl": "#/word-meaning/priya-chikīrṣhavaḥ"
   },
@@ -15460,8 +17606,92 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/prāptiḥ",
-    "nextWMUrl": "#/word-meaning/prāṇān",
+    "nextWMUrl": "#/word-meaning/prāṇa",
     "currentWMUrl": "#/word-meaning/prāpya"
+  },
+  {
+    "id": "prāṇa",
+    "data": [
+      {
+        "word": "prāṇa",
+        "meaning": "of the outgoing breath",
+        "referenceHeader": "Bhagavad Gita 4.29 – 4.30",
+        "refLink": "#/chapter/4/verse/4.29 – 4.30"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/prāpya",
+    "nextWMUrl": "#/word-meaning/prāṇa-karmāṇi",
+    "currentWMUrl": "#/word-meaning/prāṇa"
+  },
+  {
+    "id": "prāṇa-karmāṇi",
+    "data": [
+      {
+        "word": "prāṇa-karmāṇi",
+        "meaning": "functions of the life breath",
+        "referenceHeader": "Bhagavad Gita 4.27",
+        "refLink": "#/chapter/4/verse/4.27"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/prāṇa",
+    "nextWMUrl": "#/word-meaning/prāṇa-āyāma",
+    "currentWMUrl": "#/word-meaning/prāṇa-karmāṇi"
+  },
+  {
+    "id": "prāṇa-āyāma",
+    "data": [
+      {
+        "word": "prāṇa-āyāma",
+        "meaning": "control of breath",
+        "referenceHeader": "Bhagavad Gita 4.29 – 4.30",
+        "refLink": "#/chapter/4/verse/4.29 – 4.30"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/prāṇa-karmāṇi",
+    "nextWMUrl": "#/word-meaning/prāṇam",
+    "currentWMUrl": "#/word-meaning/prāṇa-āyāma"
+  },
+  {
+    "id": "prāṇam",
+    "data": [
+      {
+        "word": "prāṇam",
+        "meaning": "the outgoing breath",
+        "referenceHeader": "Bhagavad Gita 4.29 – 4.30",
+        "refLink": "#/chapter/4/verse/4.29 – 4.30"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/prāṇa-āyāma",
+    "nextWMUrl": "#/word-meaning/prāṇe",
+    "currentWMUrl": "#/word-meaning/prāṇam"
+  },
+  {
+    "id": "prāṇe",
+    "data": [
+      {
+        "word": "prāṇe",
+        "meaning": "in the outgoing breath",
+        "referenceHeader": "Bhagavad Gita 4.29 – 4.30",
+        "refLink": "#/chapter/4/verse/4.29 – 4.30"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/prāṇam",
+    "nextWMUrl": "#/word-meaning/prāṇeṣhu",
+    "currentWMUrl": "#/word-meaning/prāṇe"
+  },
+  {
+    "id": "prāṇeṣhu",
+    "data": [
+      {
+        "word": "prāṇeṣhu",
+        "meaning": "life-energy",
+        "referenceHeader": "Bhagavad Gita 4.29 – 4.30",
+        "refLink": "#/chapter/4/verse/4.29 – 4.30"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/prāṇe",
+    "nextWMUrl": "#/word-meaning/prāṇān",
+    "currentWMUrl": "#/word-meaning/prāṇeṣhu"
   },
   {
     "id": "prāṇān",
@@ -15471,9 +17701,15 @@
         "meaning": "lives",
         "referenceHeader": "Bhagavad Gita 1.32 – 1.33",
         "refLink": "#/chapter/1/verse/1.32 – 1.33"
+      },
+      {
+        "word": "prāṇān",
+        "meaning": "life-breaths",
+        "referenceHeader": "Bhagavad Gita 4.29 – 4.30",
+        "refLink": "#/chapter/4/verse/4.29 – 4.30"
       }
     ],
-    "previousWMUrl": "#/word-meaning/prāpya",
+    "previousWMUrl": "#/word-meaning/prāṇeṣhu",
     "nextWMUrl": "#/word-meaning/prītiḥ",
     "currentWMUrl": "#/word-meaning/prāṇān"
   },
@@ -15513,6 +17749,12 @@
         "meaning": "again",
         "referenceHeader": "Bhagavad Gita 4.9",
         "refLink": "#/chapter/4/verse/4.9"
+      },
+      {
+        "word": "punaḥ",
+        "meaning": "again",
+        "referenceHeader": "Bhagavad Gita 4.35",
+        "refLink": "#/chapter/4/verse/4.35"
       }
     ],
     "previousWMUrl": "#/word-meaning/pumān",
@@ -15696,8 +17938,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/puṁsaḥ",
-    "nextWMUrl": "#/word-meaning/pāpam",
+    "nextWMUrl": "#/word-meaning/pāpa-kṛit-tamaḥ",
     "currentWMUrl": "#/word-meaning/puṣhpitām"
+  },
+  {
+    "id": "pāpa-kṛit-tamaḥ",
+    "data": [
+      {
+        "word": "pāpa-kṛit-tamaḥ",
+        "meaning": "most sinful",
+        "referenceHeader": "Bhagavad Gita 4.36",
+        "refLink": "#/chapter/4/verse/4.36"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/puṣhpitām",
+    "nextWMUrl": "#/word-meaning/pāpam",
+    "currentWMUrl": "#/word-meaning/pāpa-kṛit-tamaḥ"
   },
   {
     "id": "pāpam",
@@ -15733,9 +17989,23 @@
         "refLink": "#/chapter/3/verse/3.36"
       }
     ],
-    "previousWMUrl": "#/word-meaning/puṣhpitām",
-    "nextWMUrl": "#/word-meaning/pāpmānam",
+    "previousWMUrl": "#/word-meaning/pāpa-kṛit-tamaḥ",
+    "nextWMUrl": "#/word-meaning/pāpebhyaḥ",
     "currentWMUrl": "#/word-meaning/pāpam"
+  },
+  {
+    "id": "pāpebhyaḥ",
+    "data": [
+      {
+        "word": "pāpebhyaḥ",
+        "meaning": "sinners",
+        "referenceHeader": "Bhagavad Gita 4.36",
+        "refLink": "#/chapter/4/verse/4.36"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/pāpam",
+    "nextWMUrl": "#/word-meaning/pāpmānam",
+    "currentWMUrl": "#/word-meaning/pāpebhyaḥ"
   },
   {
     "id": "pāpmānam",
@@ -15747,7 +18017,7 @@
         "refLink": "#/chapter/3/verse/3.41"
       }
     ],
-    "previousWMUrl": "#/word-meaning/pāpam",
+    "previousWMUrl": "#/word-meaning/pāpebhyaḥ",
     "nextWMUrl": "#/word-meaning/pāpāt",
     "currentWMUrl": "#/word-meaning/pāpmānam"
   },
@@ -15853,6 +18123,12 @@
         "meaning": "Arjun, the son of Pritha",
         "referenceHeader": "Bhagavad Gita 4.11",
         "refLink": "#/chapter/4/verse/4.11"
+      },
+      {
+        "word": "pārtha",
+        "meaning": "Arjun, the son of Pritha",
+        "referenceHeader": "Bhagavad Gita 4.33",
+        "refLink": "#/chapter/4/verse/4.33"
       }
     ],
     "previousWMUrl": "#/word-meaning/pāpāḥ",
@@ -15912,8 +18188,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/pāvakaḥ",
-    "nextWMUrl": "#/word-meaning/pāṇḍava-anīkam",
+    "nextWMUrl": "#/word-meaning/pāṇḍava",
     "currentWMUrl": "#/word-meaning/pāñchajanyam"
+  },
+  {
+    "id": "pāṇḍava",
+    "data": [
+      {
+        "word": "pāṇḍava",
+        "meaning": "Arjun, the son of Pandu",
+        "referenceHeader": "Bhagavad Gita 4.35",
+        "refLink": "#/chapter/4/verse/4.35"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/pāñchajanyam",
+    "nextWMUrl": "#/word-meaning/pāṇḍava-anīkam",
+    "currentWMUrl": "#/word-meaning/pāṇḍava"
   },
   {
     "id": "pāṇḍava-anīkam",
@@ -15925,7 +18215,7 @@
         "refLink": "#/chapter/1/verse/1.2"
       }
     ],
-    "previousWMUrl": "#/word-meaning/pāñchajanyam",
+    "previousWMUrl": "#/word-meaning/pāṇḍava",
     "nextWMUrl": "#/word-meaning/pāṇḍavaḥ",
     "currentWMUrl": "#/word-meaning/pāṇḍava-anīkam"
   },
@@ -16008,8 +18298,42 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/pūjā-arhau",
-    "nextWMUrl": "#/word-meaning/pūtāḥ",
+    "nextWMUrl": "#/word-meaning/pūrva-taram",
     "currentWMUrl": "#/word-meaning/pūruṣhaḥ"
+  },
+  {
+    "id": "pūrva-taram",
+    "data": [
+      {
+        "word": "pūrva-taram",
+        "meaning": "in ancient times",
+        "referenceHeader": "Bhagavad Gita 4.15",
+        "refLink": "#/chapter/4/verse/4.15"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/pūruṣhaḥ",
+    "nextWMUrl": "#/word-meaning/pūrvaiḥ",
+    "currentWMUrl": "#/word-meaning/pūrva-taram"
+  },
+  {
+    "id": "pūrvaiḥ",
+    "data": [
+      {
+        "word": "pūrvaiḥ",
+        "meaning": "of ancient times",
+        "referenceHeader": "Bhagavad Gita 4.15",
+        "refLink": "#/chapter/4/verse/4.15"
+      },
+      {
+        "word": "pūrvaiḥ",
+        "meaning": "of those ancient sages",
+        "referenceHeader": "Bhagavad Gita 4.15",
+        "refLink": "#/chapter/4/verse/4.15"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/pūrva-taram",
+    "nextWMUrl": "#/word-meaning/pūtāḥ",
+    "currentWMUrl": "#/word-meaning/pūrvaiḥ"
   },
   {
     "id": "pūtāḥ",
@@ -16021,7 +18345,7 @@
         "refLink": "#/chapter/4/verse/4.10"
       }
     ],
-    "previousWMUrl": "#/word-meaning/pūruṣhaḥ",
+    "previousWMUrl": "#/word-meaning/pūrvaiḥ",
     "nextWMUrl": "#/word-meaning/pṛichchhāmi",
     "currentWMUrl": "#/word-meaning/pūtāḥ"
   },
@@ -16232,8 +18556,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/raṇāt",
-    "nextWMUrl": "#/word-meaning/rudhira",
+    "nextWMUrl": "#/word-meaning/ruddhvā",
     "currentWMUrl": "#/word-meaning/roma-harṣhaḥ"
+  },
+  {
+    "id": "ruddhvā",
+    "data": [
+      {
+        "word": "ruddhvā",
+        "meaning": "blocking",
+        "referenceHeader": "Bhagavad Gita 4.29 – 4.30",
+        "refLink": "#/chapter/4/verse/4.29 – 4.30"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/roma-harṣhaḥ",
+    "nextWMUrl": "#/word-meaning/rudhira",
+    "currentWMUrl": "#/word-meaning/ruddhvā"
   },
   {
     "id": "rudhira",
@@ -16245,7 +18583,7 @@
         "refLink": "#/chapter/2/verse/2.5"
       }
     ],
-    "previousWMUrl": "#/word-meaning/roma-harṣhaḥ",
+    "previousWMUrl": "#/word-meaning/ruddhvā",
     "nextWMUrl": "#/word-meaning/rāga",
     "currentWMUrl": "#/word-meaning/rudhira"
   },
@@ -16391,6 +18729,12 @@
         "meaning": "accordingly",
         "referenceHeader": "Bhagavad Gita 3.33",
         "refLink": "#/chapter/3/verse/3.33"
+      },
+      {
+        "word": "sadṛiśham",
+        "meaning": "like",
+        "referenceHeader": "Bhagavad Gita 4.38",
+        "refLink": "#/chapter/4/verse/4.38"
       }
     ],
     "previousWMUrl": "#/word-meaning/sa-śharam",
@@ -16554,8 +18898,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/sama",
-    "nextWMUrl": "#/word-meaning/samatvam",
+    "nextWMUrl": "#/word-meaning/samagram",
     "currentWMUrl": "#/word-meaning/samadhigachchhati"
+  },
+  {
+    "id": "samagram",
+    "data": [
+      {
+        "word": "samagram",
+        "meaning": "completely",
+        "referenceHeader": "Bhagavad Gita 4.23",
+        "refLink": "#/chapter/4/verse/4.23"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/samadhigachchhati",
+    "nextWMUrl": "#/word-meaning/samatvam",
+    "currentWMUrl": "#/word-meaning/samagram"
   },
   {
     "id": "samatvam",
@@ -16567,7 +18925,7 @@
         "refLink": "#/chapter/2/verse/2.48"
       }
     ],
-    "previousWMUrl": "#/word-meaning/samadhigachchhati",
+    "previousWMUrl": "#/word-meaning/samagram",
     "nextWMUrl": "#/word-meaning/samavetān",
     "currentWMUrl": "#/word-meaning/samatvam"
   },
@@ -16607,6 +18965,12 @@
         "meaning": "equipoised",
         "referenceHeader": "Bhagavad Gita 2.48",
         "refLink": "#/chapter/2/verse/2.48"
+      },
+      {
+        "word": "samaḥ",
+        "meaning": "equipoised",
+        "referenceHeader": "Bhagavad Gita 4.22",
+        "refLink": "#/chapter/4/verse/4.22"
       }
     ],
     "previousWMUrl": "#/word-meaning/samavetāḥ",
@@ -16686,8 +19050,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/sambhāvitasya",
-    "nextWMUrl": "#/word-meaning/samitim-jayaḥ",
+    "nextWMUrl": "#/word-meaning/samiddhaḥ",
     "currentWMUrl": "#/word-meaning/same kṛitvā"
+  },
+  {
+    "id": "samiddhaḥ",
+    "data": [
+      {
+        "word": "samiddhaḥ",
+        "meaning": "blazing",
+        "referenceHeader": "Bhagavad Gita 4.37",
+        "refLink": "#/chapter/4/verse/4.37"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/same kṛitvā",
+    "nextWMUrl": "#/word-meaning/samitim-jayaḥ",
+    "currentWMUrl": "#/word-meaning/samiddhaḥ"
   },
   {
     "id": "samitim-jayaḥ",
@@ -16699,7 +19077,7 @@
         "refLink": "#/chapter/1/verse/1.8"
       }
     ],
-    "previousWMUrl": "#/word-meaning/same kṛitvā",
+    "previousWMUrl": "#/word-meaning/samiddhaḥ",
     "nextWMUrl": "#/word-meaning/sammohaḥ",
     "currentWMUrl": "#/word-meaning/samitim-jayaḥ"
   },
@@ -16920,8 +19298,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/samādhau",
-    "nextWMUrl": "#/word-meaning/samāgatāḥ",
+    "nextWMUrl": "#/word-meaning/samādhinā",
     "currentWMUrl": "#/word-meaning/samādhi-sthasya"
+  },
+  {
+    "id": "samādhinā",
+    "data": [
+      {
+        "word": "samādhinā",
+        "meaning": "those completely absorbed in God-consciousness",
+        "referenceHeader": "Bhagavad Gita 4.24",
+        "refLink": "#/chapter/4/verse/4.24"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/samādhi-sthasya",
+    "nextWMUrl": "#/word-meaning/samāgatāḥ",
+    "currentWMUrl": "#/word-meaning/samādhinā"
   },
   {
     "id": "samāgatāḥ",
@@ -16933,9 +19325,23 @@
         "refLink": "#/chapter/1/verse/1.23"
       }
     ],
-    "previousWMUrl": "#/word-meaning/samādhi-sthasya",
-    "nextWMUrl": "#/word-meaning/samīkṣhya",
+    "previousWMUrl": "#/word-meaning/samādhinā",
+    "nextWMUrl": "#/word-meaning/samārambhāḥ",
     "currentWMUrl": "#/word-meaning/samāgatāḥ"
+  },
+  {
+    "id": "samārambhāḥ",
+    "data": [
+      {
+        "word": "samārambhāḥ",
+        "meaning": "undertakings",
+        "referenceHeader": "Bhagavad Gita 4.19",
+        "refLink": "#/chapter/4/verse/4.19"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/samāgatāḥ",
+    "nextWMUrl": "#/word-meaning/samīkṣhya",
+    "currentWMUrl": "#/word-meaning/samārambhāḥ"
   },
   {
     "id": "samīkṣhya",
@@ -16947,7 +19353,7 @@
         "refLink": "#/chapter/1/verse/1.27"
       }
     ],
-    "previousWMUrl": "#/word-meaning/samāgatāḥ",
+    "previousWMUrl": "#/word-meaning/samārambhāḥ",
     "nextWMUrl": "#/word-meaning/san",
     "currentWMUrl": "#/word-meaning/samīkṣhya"
   },
@@ -17066,8 +19472,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/sannyasanāt",
-    "nextWMUrl": "#/word-meaning/sansiddhim",
+    "nextWMUrl": "#/word-meaning/sansiddhaḥ",
     "currentWMUrl": "#/word-meaning/sannyasya"
+  },
+  {
+    "id": "sansiddhaḥ",
+    "data": [
+      {
+        "word": "sansiddhaḥ",
+        "meaning": "he who has attained perfection",
+        "referenceHeader": "Bhagavad Gita 4.38",
+        "refLink": "#/chapter/4/verse/4.38"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/sannyasya",
+    "nextWMUrl": "#/word-meaning/sansiddhim",
+    "currentWMUrl": "#/word-meaning/sansiddhaḥ"
   },
   {
     "id": "sansiddhim",
@@ -17079,7 +19499,7 @@
         "refLink": "#/chapter/3/verse/3.20 – 3.21"
       }
     ],
-    "previousWMUrl": "#/word-meaning/sannyasya",
+    "previousWMUrl": "#/word-meaning/sansiddhaḥ",
     "nextWMUrl": "#/word-meaning/sanstabhya",
     "currentWMUrl": "#/word-meaning/sansiddhim"
   },
@@ -17108,8 +19528,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/sanstabhya",
-    "nextWMUrl": "#/word-meaning/santaḥ",
+    "nextWMUrl": "#/word-meaning/santariṣhyasi",
     "currentWMUrl": "#/word-meaning/sansthāpana-arthāya"
+  },
+  {
+    "id": "santariṣhyasi",
+    "data": [
+      {
+        "word": "santariṣhyasi",
+        "meaning": "you shall cross over",
+        "referenceHeader": "Bhagavad Gita 4.36",
+        "refLink": "#/chapter/4/verse/4.36"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/sansthāpana-arthāya",
+    "nextWMUrl": "#/word-meaning/santaḥ",
+    "currentWMUrl": "#/word-meaning/santariṣhyasi"
   },
   {
     "id": "santaḥ",
@@ -17121,7 +19555,7 @@
         "refLink": "#/chapter/3/verse/3.13"
       }
     ],
-    "previousWMUrl": "#/word-meaning/sansthāpana-arthāya",
+    "previousWMUrl": "#/word-meaning/santariṣhyasi",
     "nextWMUrl": "#/word-meaning/santuṣhṭaḥ",
     "currentWMUrl": "#/word-meaning/santaḥ"
   },
@@ -17133,11 +19567,31 @@
         "meaning": "satisfied",
         "referenceHeader": "Bhagavad Gita 3.17",
         "refLink": "#/chapter/3/verse/3.17"
+      },
+      {
+        "word": "santuṣhṭaḥ",
+        "meaning": "contented",
+        "referenceHeader": "Bhagavad Gita 4.22",
+        "refLink": "#/chapter/4/verse/4.22"
       }
     ],
     "previousWMUrl": "#/word-meaning/santaḥ",
-    "nextWMUrl": "#/word-meaning/sanyamya",
+    "nextWMUrl": "#/word-meaning/sanyama",
     "currentWMUrl": "#/word-meaning/santuṣhṭaḥ"
+  },
+  {
+    "id": "sanyama",
+    "data": [
+      {
+        "word": "sanyama",
+        "meaning": "restraint",
+        "referenceHeader": "Bhagavad Gita 4.26",
+        "refLink": "#/chapter/4/verse/4.26"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/santuṣhṭaḥ",
+    "nextWMUrl": "#/word-meaning/sanyamya",
+    "currentWMUrl": "#/word-meaning/sanyama"
   },
   {
     "id": "sanyamya",
@@ -17155,7 +19609,7 @@
         "refLink": "#/chapter/3/verse/3.6"
       }
     ],
-    "previousWMUrl": "#/word-meaning/santuṣhṭaḥ",
+    "previousWMUrl": "#/word-meaning/sanyama",
     "nextWMUrl": "#/word-meaning/sanyamī",
     "currentWMUrl": "#/word-meaning/sanyamya"
   },
@@ -17170,8 +19624,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/sanyamya",
-    "nextWMUrl": "#/word-meaning/sanyāti",
+    "nextWMUrl": "#/word-meaning/sanyata",
     "currentWMUrl": "#/word-meaning/sanyamī"
+  },
+  {
+    "id": "sanyata",
+    "data": [
+      {
+        "word": "sanyata",
+        "meaning": "controlled",
+        "referenceHeader": "Bhagavad Gita 4.39",
+        "refLink": "#/chapter/4/verse/4.39"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/sanyamī",
+    "nextWMUrl": "#/word-meaning/sanyāti",
+    "currentWMUrl": "#/word-meaning/sanyata"
   },
   {
     "id": "sanyāti",
@@ -17183,9 +19651,23 @@
         "refLink": "#/chapter/2/verse/2.22"
       }
     ],
-    "previousWMUrl": "#/word-meaning/sanyamī",
-    "nextWMUrl": "#/word-meaning/sanātanaḥ",
+    "previousWMUrl": "#/word-meaning/sanyata",
+    "nextWMUrl": "#/word-meaning/sanātanam",
     "currentWMUrl": "#/word-meaning/sanyāti"
+  },
+  {
+    "id": "sanātanam",
+    "data": [
+      {
+        "word": "sanātanam",
+        "meaning": "eternal",
+        "referenceHeader": "Bhagavad Gita 4.31",
+        "refLink": "#/chapter/4/verse/4.31"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/sanyāti",
+    "nextWMUrl": "#/word-meaning/sanātanaḥ",
+    "currentWMUrl": "#/word-meaning/sanātanam"
   },
   {
     "id": "sanātanaḥ",
@@ -17197,7 +19679,7 @@
         "refLink": "#/chapter/2/verse/2.24"
       }
     ],
-    "previousWMUrl": "#/word-meaning/sanyāti",
+    "previousWMUrl": "#/word-meaning/sanātanam",
     "nextWMUrl": "#/word-meaning/sanātanāḥ",
     "currentWMUrl": "#/word-meaning/sanātanaḥ"
   },
@@ -17212,8 +19694,70 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/sanātanaḥ",
-    "nextWMUrl": "#/word-meaning/sarva",
+    "nextWMUrl": "#/word-meaning/sanśhaya",
     "currentWMUrl": "#/word-meaning/sanātanāḥ"
+  },
+  {
+    "id": "sanśhaya",
+    "data": [
+      {
+        "word": "sanśhaya",
+        "meaning": "skeptical",
+        "referenceHeader": "Bhagavad Gita 4.40",
+        "refLink": "#/chapter/4/verse/4.40"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/sanātanāḥ",
+    "nextWMUrl": "#/word-meaning/sanśhaya-ātmanaḥ",
+    "currentWMUrl": "#/word-meaning/sanśhaya"
+  },
+  {
+    "id": "sanśhaya-ātmanaḥ",
+    "data": [
+      {
+        "word": "sanśhaya-ātmanaḥ",
+        "meaning": "for the skeptical soul",
+        "referenceHeader": "Bhagavad Gita 4.40",
+        "refLink": "#/chapter/4/verse/4.40"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/sanśhaya",
+    "nextWMUrl": "#/word-meaning/sanśhayam",
+    "currentWMUrl": "#/word-meaning/sanśhaya-ātmanaḥ"
+  },
+  {
+    "id": "sanśhayam",
+    "data": [
+      {
+        "word": "sanśhayam",
+        "meaning": "doubts",
+        "referenceHeader": "Bhagavad Gita 4.41",
+        "refLink": "#/chapter/4/verse/4.41"
+      },
+      {
+        "word": "sanśhayam",
+        "meaning": "doubt",
+        "referenceHeader": "Bhagavad Gita 4.42",
+        "refLink": "#/chapter/4/verse/4.42"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/sanśhaya-ātmanaḥ",
+    "nextWMUrl": "#/word-meaning/sanśhita-vratāḥ",
+    "currentWMUrl": "#/word-meaning/sanśhayam"
+  },
+  {
+    "id": "sanśhita-vratāḥ",
+    "data": [
+      {
+        "word": "sanśhita-vratāḥ",
+        "meaning": "observing strict vows",
+        "referenceHeader": "Bhagavad Gita 4.28",
+        "refLink": "#/chapter/4/verse/4.28"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/sanśhayam",
+    "nextWMUrl": "#/word-meaning/sarva",
+    "currentWMUrl": "#/word-meaning/sanśhita-vratāḥ"
   },
   {
     "id": "sarva",
@@ -17235,9 +19779,15 @@
         "meaning": "all",
         "referenceHeader": "Bhagavad Gita 3.26",
         "refLink": "#/chapter/3/verse/3.26"
+      },
+      {
+        "word": "sarva",
+        "meaning": "all",
+        "referenceHeader": "Bhagavad Gita 4.21",
+        "refLink": "#/chapter/4/verse/4.21"
       }
     ],
-    "previousWMUrl": "#/word-meaning/sanātanāḥ",
+    "previousWMUrl": "#/word-meaning/sanśhita-vratāḥ",
     "nextWMUrl": "#/word-meaning/sarva-bhūteṣhu",
     "currentWMUrl": "#/word-meaning/sarva"
   },
@@ -17308,8 +19858,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/sarva-gataḥ",
-    "nextWMUrl": "#/word-meaning/sarvam",
+    "nextWMUrl": "#/word-meaning/sarva-karmāṇi",
     "currentWMUrl": "#/word-meaning/sarva-jñāna"
+  },
+  {
+    "id": "sarva-karmāṇi",
+    "data": [
+      {
+        "word": "sarva-karmāṇi",
+        "meaning": "all reactions from material activities",
+        "referenceHeader": "Bhagavad Gita 4.37",
+        "refLink": "#/chapter/4/verse/4.37"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/sarva-jñāna",
+    "nextWMUrl": "#/word-meaning/sarvam",
+    "currentWMUrl": "#/word-meaning/sarva-karmāṇi"
   },
   {
     "id": "sarvam",
@@ -17319,9 +19883,21 @@
         "meaning": "entire",
         "referenceHeader": "Bhagavad Gita 2.17",
         "refLink": "#/chapter/2/verse/2.17"
+      },
+      {
+        "word": "sarvam",
+        "meaning": "all",
+        "referenceHeader": "Bhagavad Gita 4.33",
+        "refLink": "#/chapter/4/verse/4.33"
+      },
+      {
+        "word": "sarvam",
+        "meaning": "all",
+        "referenceHeader": "Bhagavad Gita 4.36",
+        "refLink": "#/chapter/4/verse/4.36"
       }
     ],
-    "previousWMUrl": "#/word-meaning/sarva-jñāna",
+    "previousWMUrl": "#/word-meaning/sarva-karmāṇi",
     "nextWMUrl": "#/word-meaning/sarvasya",
     "currentWMUrl": "#/word-meaning/sarvam"
   },
@@ -17451,6 +20027,18 @@
         "meaning": "all",
         "referenceHeader": "Bhagavad Gita 2.70",
         "refLink": "#/chapter/2/verse/2.70"
+      },
+      {
+        "word": "sarve",
+        "meaning": "every",
+        "referenceHeader": "Bhagavad Gita 4.19",
+        "refLink": "#/chapter/4/verse/4.19"
+      },
+      {
+        "word": "sarve",
+        "meaning": "all",
+        "referenceHeader": "Bhagavad Gita 4.29 – 4.30",
+        "refLink": "#/chapter/4/verse/4.29 – 4.30"
       }
     ],
     "previousWMUrl": "#/word-meaning/sarvaḥ",
@@ -17468,8 +20056,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/sarve",
-    "nextWMUrl": "#/word-meaning/sarveṣhu",
+    "nextWMUrl": "#/word-meaning/sarvebhyaḥ",
     "currentWMUrl": "#/word-meaning/sarve vayam"
+  },
+  {
+    "id": "sarvebhyaḥ",
+    "data": [
+      {
+        "word": "sarvebhyaḥ",
+        "meaning": "of all",
+        "referenceHeader": "Bhagavad Gita 4.36",
+        "refLink": "#/chapter/4/verse/4.36"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/sarve vayam",
+    "nextWMUrl": "#/word-meaning/sarveṣhu",
+    "currentWMUrl": "#/word-meaning/sarvebhyaḥ"
   },
   {
     "id": "sarveṣhu",
@@ -17487,7 +20089,7 @@
         "refLink": "#/chapter/2/verse/2.46"
       }
     ],
-    "previousWMUrl": "#/word-meaning/sarve vayam",
+    "previousWMUrl": "#/word-meaning/sarvebhyaḥ",
     "nextWMUrl": "#/word-meaning/sarveṣhām",
     "currentWMUrl": "#/word-meaning/sarveṣhu"
   },
@@ -17525,6 +20127,12 @@
         "meaning": "all",
         "referenceHeader": "Bhagavad Gita 2.71",
         "refLink": "#/chapter/2/verse/2.71"
+      },
+      {
+        "word": "sarvān",
+        "meaning": "all",
+        "referenceHeader": "Bhagavad Gita 4.32",
+        "refLink": "#/chapter/4/verse/4.32"
       }
     ],
     "previousWMUrl": "#/word-meaning/sarveṣhām",
@@ -17557,6 +20165,12 @@
         "meaning": "all",
         "referenceHeader": "Bhagavad Gita 4.5",
         "refLink": "#/chapter/4/verse/4.5"
+      },
+      {
+        "word": "sarvāṇi",
+        "meaning": "all",
+        "referenceHeader": "Bhagavad Gita 4.27",
+        "refLink": "#/chapter/4/verse/4.27"
       }
     ],
     "previousWMUrl": "#/word-meaning/sarvān",
@@ -17622,8 +20236,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/saubhadraḥ",
-    "nextWMUrl": "#/word-meaning/sañjanayan",
+    "nextWMUrl": "#/word-meaning/sañchhinna",
     "currentWMUrl": "#/word-meaning/saumadattiḥ"
+  },
+  {
+    "id": "sañchhinna",
+    "data": [
+      {
+        "word": "sañchhinna",
+        "meaning": "dispelled",
+        "referenceHeader": "Bhagavad Gita 4.41",
+        "refLink": "#/chapter/4/verse/4.41"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/saumadattiḥ",
+    "nextWMUrl": "#/word-meaning/sañjanayan",
+    "currentWMUrl": "#/word-meaning/sañchhinna"
   },
   {
     "id": "sañjanayan",
@@ -17635,7 +20263,7 @@
         "refLink": "#/chapter/1/verse/1.12"
       }
     ],
-    "previousWMUrl": "#/word-meaning/saumadattiḥ",
+    "previousWMUrl": "#/word-meaning/sañchhinna",
     "nextWMUrl": "#/word-meaning/sañjaya",
     "currentWMUrl": "#/word-meaning/sañjanayan"
   },
@@ -17803,6 +20431,24 @@
         "meaning": "that person",
         "referenceHeader": "Bhagavad Gita 4.14",
         "refLink": "#/chapter/4/verse/4.14"
+      },
+      {
+        "word": "saḥ",
+        "meaning": "they",
+        "referenceHeader": "Bhagavad Gita 4.18",
+        "refLink": "#/chapter/4/verse/4.18"
+      },
+      {
+        "word": "saḥ",
+        "meaning": "they",
+        "referenceHeader": "Bhagavad Gita 4.18",
+        "refLink": "#/chapter/4/verse/4.18"
+      },
+      {
+        "word": "saḥ",
+        "meaning": "that person",
+        "referenceHeader": "Bhagavad Gita 4.20",
+        "refLink": "#/chapter/4/verse/4.20"
       }
     ],
     "previousWMUrl": "#/word-meaning/sañjāyate",
@@ -17868,8 +20514,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/saṅgaḥ",
-    "nextWMUrl": "#/word-meaning/saṅkaraḥ",
+    "nextWMUrl": "#/word-meaning/saṅkalpa",
     "currentWMUrl": "#/word-meaning/saṅgāt"
+  },
+  {
+    "id": "saṅkalpa",
+    "data": [
+      {
+        "word": "saṅkalpa",
+        "meaning": "resolve",
+        "referenceHeader": "Bhagavad Gita 4.19",
+        "refLink": "#/chapter/4/verse/4.19"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/saṅgāt",
+    "nextWMUrl": "#/word-meaning/saṅkaraḥ",
+    "currentWMUrl": "#/word-meaning/saṅkalpa"
   },
   {
     "id": "saṅkaraḥ",
@@ -17881,7 +20541,7 @@
         "refLink": "#/chapter/1/verse/1.42"
       }
     ],
-    "previousWMUrl": "#/word-meaning/saṅgāt",
+    "previousWMUrl": "#/word-meaning/saṅkalpa",
     "nextWMUrl": "#/word-meaning/saṅkhye",
     "currentWMUrl": "#/word-meaning/saṅkaraḥ"
   },
@@ -17928,8 +20588,36 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/saṅkhye",
-    "nextWMUrl": "#/word-meaning/siddhi-asiddhyoḥ",
+    "nextWMUrl": "#/word-meaning/sevayā",
     "currentWMUrl": "#/word-meaning/senayoḥ"
+  },
+  {
+    "id": "sevayā",
+    "data": [
+      {
+        "word": "sevayā",
+        "meaning": "by rendering service",
+        "referenceHeader": "Bhagavad Gita 4.34",
+        "refLink": "#/chapter/4/verse/4.34"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/senayoḥ",
+    "nextWMUrl": "#/word-meaning/siddhau",
+    "currentWMUrl": "#/word-meaning/sevayā"
+  },
+  {
+    "id": "siddhau",
+    "data": [
+      {
+        "word": "siddhau",
+        "meaning": "in success",
+        "referenceHeader": "Bhagavad Gita 4.22",
+        "refLink": "#/chapter/4/verse/4.22"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/sevayā",
+    "nextWMUrl": "#/word-meaning/siddhi-asiddhyoḥ",
+    "currentWMUrl": "#/word-meaning/siddhau"
   },
   {
     "id": "siddhi-asiddhyoḥ",
@@ -17941,7 +20629,7 @@
         "refLink": "#/chapter/2/verse/2.48"
       }
     ],
-    "previousWMUrl": "#/word-meaning/senayoḥ",
+    "previousWMUrl": "#/word-meaning/siddhau",
     "nextWMUrl": "#/word-meaning/siddhim",
     "currentWMUrl": "#/word-meaning/siddhi-asiddhyoḥ"
   },
@@ -18327,6 +21015,12 @@
         "meaning": "happiness",
         "referenceHeader": "Bhagavad Gita 2.66",
         "refLink": "#/chapter/2/verse/2.66"
+      },
+      {
+        "word": "sukham",
+        "meaning": "happiness",
+        "referenceHeader": "Bhagavad Gita 4.40",
+        "refLink": "#/chapter/4/verse/4.40"
       }
     ],
     "previousWMUrl": "#/word-meaning/sukha",
@@ -18500,8 +21194,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/sva-janam",
-    "nextWMUrl": "#/word-meaning/svām",
+    "nextWMUrl": "#/word-meaning/svayam",
     "currentWMUrl": "#/word-meaning/svasyāḥ"
+  },
+  {
+    "id": "svayam",
+    "data": [
+      {
+        "word": "svayam",
+        "meaning": "oneself",
+        "referenceHeader": "Bhagavad Gita 4.38",
+        "refLink": "#/chapter/4/verse/4.38"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/svasyāḥ",
+    "nextWMUrl": "#/word-meaning/svām",
+    "currentWMUrl": "#/word-meaning/svayam"
   },
   {
     "id": "svām",
@@ -18513,7 +21221,7 @@
         "refLink": "#/chapter/4/verse/4.6"
       }
     ],
-    "previousWMUrl": "#/word-meaning/svasyāḥ",
+    "previousWMUrl": "#/word-meaning/svayam",
     "nextWMUrl": "#/word-meaning/swa-dharmam",
     "currentWMUrl": "#/word-meaning/svām"
   },
@@ -18598,8 +21306,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/swarga-parāḥ",
-    "nextWMUrl": "#/word-meaning/syandane",
+    "nextWMUrl": "#/word-meaning/swādhyāya",
     "currentWMUrl": "#/word-meaning/swargam"
+  },
+  {
+    "id": "swādhyāya",
+    "data": [
+      {
+        "word": "swādhyāya",
+        "meaning": "cultivating knowledge by studying the scriptures",
+        "referenceHeader": "Bhagavad Gita 4.28",
+        "refLink": "#/chapter/4/verse/4.28"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/swargam",
+    "nextWMUrl": "#/word-meaning/syandane",
+    "currentWMUrl": "#/word-meaning/swādhyāya"
   },
   {
     "id": "syandane",
@@ -18611,7 +21333,7 @@
         "refLink": "#/chapter/1/verse/1.14"
       }
     ],
-    "previousWMUrl": "#/word-meaning/swargam",
+    "previousWMUrl": "#/word-meaning/swādhyāya",
     "nextWMUrl": "#/word-meaning/syām",
     "currentWMUrl": "#/word-meaning/syandane"
   },
@@ -18895,6 +21617,12 @@
         "meaning": "to him",
         "referenceHeader": "Bhagavad Gita 2.10",
         "refLink": "#/chapter/2/verse/2.10"
+      },
+      {
+        "word": "tam",
+        "meaning": "him",
+        "referenceHeader": "Bhagavad Gita 4.19",
+        "refLink": "#/chapter/4/verse/4.19"
       }
     ],
     "previousWMUrl": "#/word-meaning/taiḥ",
@@ -18912,8 +21640,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/tam",
-    "nextWMUrl": "#/word-meaning/tasmāt",
+    "nextWMUrl": "#/word-meaning/tapaḥ-yajñāḥ",
     "currentWMUrl": "#/word-meaning/tapasā"
+  },
+  {
+    "id": "tapaḥ-yajñāḥ",
+    "data": [
+      {
+        "word": "tapaḥ-yajñāḥ",
+        "meaning": "offering severe austerities as sacrifice",
+        "referenceHeader": "Bhagavad Gita 4.28",
+        "refLink": "#/chapter/4/verse/4.28"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/tapasā",
+    "nextWMUrl": "#/word-meaning/tasmāt",
+    "currentWMUrl": "#/word-meaning/tapaḥ-yajñāḥ"
   },
   {
     "id": "tasmāt",
@@ -18983,9 +21725,21 @@
         "meaning": "therefore",
         "referenceHeader": "Bhagavad Gita 3.41",
         "refLink": "#/chapter/3/verse/3.41"
+      },
+      {
+        "word": "tasmāt",
+        "meaning": "therefore",
+        "referenceHeader": "Bhagavad Gita 4.15",
+        "refLink": "#/chapter/4/verse/4.15"
+      },
+      {
+        "word": "tasmāt",
+        "meaning": "therefore",
+        "referenceHeader": "Bhagavad Gita 4.42",
+        "refLink": "#/chapter/4/verse/4.42"
       }
     ],
-    "previousWMUrl": "#/word-meaning/tapasā",
+    "previousWMUrl": "#/word-meaning/tapaḥ-yajñāḥ",
     "nextWMUrl": "#/word-meaning/tasya",
     "currentWMUrl": "#/word-meaning/tasmāt"
   },
@@ -19127,6 +21881,24 @@
         "meaning": "that",
         "referenceHeader": "Bhagavad Gita 3.20 – 3.21",
         "refLink": "#/chapter/3/verse/3.20 – 3.21"
+      },
+      {
+        "word": "tat",
+        "meaning": "that",
+        "referenceHeader": "Bhagavad Gita 4.16",
+        "refLink": "#/chapter/4/verse/4.16"
+      },
+      {
+        "word": "tat",
+        "meaning": "the Truth",
+        "referenceHeader": "Bhagavad Gita 4.34",
+        "refLink": "#/chapter/4/verse/4.34"
+      },
+      {
+        "word": "tat",
+        "meaning": "that",
+        "referenceHeader": "Bhagavad Gita 4.38",
+        "refLink": "#/chapter/4/verse/4.38"
       }
     ],
     "previousWMUrl": "#/word-meaning/tasyām",
@@ -19144,8 +21916,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/tat",
-    "nextWMUrl": "#/word-meaning/tatam",
+    "nextWMUrl": "#/word-meaning/tat-paraḥ",
     "currentWMUrl": "#/word-meaning/tat tat"
+  },
+  {
+    "id": "tat-paraḥ",
+    "data": [
+      {
+        "word": "tat-paraḥ",
+        "meaning": "devoted (to that)",
+        "referenceHeader": "Bhagavad Gita 4.39",
+        "refLink": "#/chapter/4/verse/4.39"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/tat tat",
+    "nextWMUrl": "#/word-meaning/tatam",
+    "currentWMUrl": "#/word-meaning/tat-paraḥ"
   },
   {
     "id": "tatam",
@@ -19157,7 +21943,7 @@
         "refLink": "#/chapter/2/verse/2.17"
       }
     ],
-    "previousWMUrl": "#/word-meaning/tat tat",
+    "previousWMUrl": "#/word-meaning/tat-paraḥ",
     "nextWMUrl": "#/word-meaning/tataḥ",
     "currentWMUrl": "#/word-meaning/tatam"
   },
@@ -19267,6 +22053,24 @@
         "meaning": "so",
         "referenceHeader": "Bhagavad Gita 4.11",
         "refLink": "#/chapter/4/verse/4.11"
+      },
+      {
+        "word": "tathā",
+        "meaning": "thus",
+        "referenceHeader": "Bhagavad Gita 4.28",
+        "refLink": "#/chapter/4/verse/4.28"
+      },
+      {
+        "word": "tathā",
+        "meaning": "also",
+        "referenceHeader": "Bhagavad Gita 4.29 – 4.30",
+        "refLink": "#/chapter/4/verse/4.29 – 4.30"
+      },
+      {
+        "word": "tathā",
+        "meaning": "similarly",
+        "referenceHeader": "Bhagavad Gita 4.37",
+        "refLink": "#/chapter/4/verse/4.37"
       }
     ],
     "previousWMUrl": "#/word-meaning/tataḥ",
@@ -19324,8 +22128,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/tatra",
-    "nextWMUrl": "#/word-meaning/tattva-vit",
+    "nextWMUrl": "#/word-meaning/tattva-darśhinaḥ",
     "currentWMUrl": "#/word-meaning/tattva"
+  },
+  {
+    "id": "tattva-darśhinaḥ",
+    "data": [
+      {
+        "word": "tattva-darśhinaḥ",
+        "meaning": "those who have realized the Truth",
+        "referenceHeader": "Bhagavad Gita 4.34",
+        "refLink": "#/chapter/4/verse/4.34"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/tattva",
+    "nextWMUrl": "#/word-meaning/tattva-vit",
+    "currentWMUrl": "#/word-meaning/tattva-darśhinaḥ"
   },
   {
     "id": "tattva-vit",
@@ -19337,7 +22155,7 @@
         "refLink": "#/chapter/3/verse/3.28"
       }
     ],
-    "previousWMUrl": "#/word-meaning/tattva",
+    "previousWMUrl": "#/word-meaning/tattva-darśhinaḥ",
     "nextWMUrl": "#/word-meaning/tattvataḥ",
     "currentWMUrl": "#/word-meaning/tattva-vit"
   },
@@ -19533,6 +22351,18 @@
         "meaning": "unto you",
         "referenceHeader": "Bhagavad Gita 4.3",
         "refLink": "#/chapter/4/verse/4.3"
+      },
+      {
+        "word": "te",
+        "meaning": "to you",
+        "referenceHeader": "Bhagavad Gita 4.16",
+        "refLink": "#/chapter/4/verse/4.16"
+      },
+      {
+        "word": "te",
+        "meaning": "unto you",
+        "referenceHeader": "Bhagavad Gita 4.34",
+        "refLink": "#/chapter/4/verse/4.34"
       }
     ],
     "previousWMUrl": "#/word-meaning/tayā",
@@ -19547,6 +22377,12 @@
         "meaning": "by that (desire)",
         "referenceHeader": "Bhagavad Gita 3.38",
         "refLink": "#/chapter/3/verse/3.38"
+      },
+      {
+        "word": "tena",
+        "meaning": "by that",
+        "referenceHeader": "Bhagavad Gita 4.24",
+        "refLink": "#/chapter/4/verse/4.24"
       }
     ],
     "previousWMUrl": "#/word-meaning/te",
@@ -19877,6 +22713,12 @@
         "meaning": "you",
         "referenceHeader": "Bhagavad Gita 4.5",
         "refLink": "#/chapter/4/verse/4.5"
+      },
+      {
+        "word": "tvam",
+        "meaning": "you",
+        "referenceHeader": "Bhagavad Gita 4.15",
+        "refLink": "#/chapter/4/verse/4.15"
       }
     ],
     "previousWMUrl": "#/word-meaning/tvak",
@@ -19934,8 +22776,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/tvā",
-    "nextWMUrl": "#/word-meaning/tyakta-jīvitāḥ",
+    "nextWMUrl": "#/word-meaning/tyakta",
     "currentWMUrl": "#/word-meaning/tvām"
+  },
+  {
+    "id": "tyakta",
+    "data": [
+      {
+        "word": "tyakta",
+        "meaning": "having abandoned",
+        "referenceHeader": "Bhagavad Gita 4.21",
+        "refLink": "#/chapter/4/verse/4.21"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/tvām",
+    "nextWMUrl": "#/word-meaning/tyakta-jīvitāḥ",
+    "currentWMUrl": "#/word-meaning/tyakta"
   },
   {
     "id": "tyakta-jīvitāḥ",
@@ -19947,7 +22803,7 @@
         "refLink": "#/chapter/1/verse/1.9"
       }
     ],
-    "previousWMUrl": "#/word-meaning/tvām",
+    "previousWMUrl": "#/word-meaning/tyakta",
     "nextWMUrl": "#/word-meaning/tyaktvā",
     "currentWMUrl": "#/word-meaning/tyakta-jīvitāḥ"
   },
@@ -19983,6 +22839,12 @@
         "meaning": "having abandoned",
         "referenceHeader": "Bhagavad Gita 4.9",
         "refLink": "#/chapter/4/verse/4.9"
+      },
+      {
+        "word": "tyaktvā",
+        "meaning": "having given up",
+        "referenceHeader": "Bhagavad Gita 4.20",
+        "refLink": "#/chapter/4/verse/4.20"
       }
     ],
     "previousWMUrl": "#/word-meaning/tyakta-jīvitāḥ",
@@ -20033,6 +22895,12 @@
         "meaning": "them",
         "referenceHeader": "Bhagavad Gita 4.11",
         "refLink": "#/chapter/4/verse/4.11"
+      },
+      {
+        "word": "tān",
+        "meaning": "them",
+        "referenceHeader": "Bhagavad Gita 4.32",
+        "refLink": "#/chapter/4/verse/4.32"
       }
     ],
     "previousWMUrl": "#/word-meaning/tyaktvā",
@@ -20084,8 +22952,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/tāvān",
-    "nextWMUrl": "#/word-meaning/ubhau",
+    "nextWMUrl": "#/word-meaning/tṛiptaḥ",
     "currentWMUrl": "#/word-meaning/tūṣhṇīm"
+  },
+  {
+    "id": "tṛiptaḥ",
+    "data": [
+      {
+        "word": "tṛiptaḥ",
+        "meaning": "satisfied",
+        "referenceHeader": "Bhagavad Gita 4.20",
+        "refLink": "#/chapter/4/verse/4.20"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/tūṣhṇīm",
+    "nextWMUrl": "#/word-meaning/ubhau",
+    "currentWMUrl": "#/word-meaning/tṛiptaḥ"
   },
   {
     "id": "ubhau",
@@ -20097,7 +22979,7 @@
         "refLink": "#/chapter/2/verse/2.19"
       }
     ],
-    "previousWMUrl": "#/word-meaning/tūṣhṇīm",
+    "previousWMUrl": "#/word-meaning/tṛiptaḥ",
     "nextWMUrl": "#/word-meaning/ubhayoḥ",
     "currentWMUrl": "#/word-meaning/ubhau"
   },
@@ -20340,8 +23222,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/uktāḥ",
-    "nextWMUrl": "#/word-meaning/upahanyām",
+    "nextWMUrl": "#/word-meaning/upadekṣhyanti",
     "currentWMUrl": "#/word-meaning/ulbena"
+  },
+  {
+    "id": "upadekṣhyanti",
+    "data": [
+      {
+        "word": "upadekṣhyanti",
+        "meaning": "can impart",
+        "referenceHeader": "Bhagavad Gita 4.34",
+        "refLink": "#/chapter/4/verse/4.34"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/ulbena",
+    "nextWMUrl": "#/word-meaning/upahanyām",
+    "currentWMUrl": "#/word-meaning/upadekṣhyanti"
   },
   {
     "id": "upahanyām",
@@ -20353,7 +23249,7 @@
         "refLink": "#/chapter/3/verse/3.24"
       }
     ],
-    "previousWMUrl": "#/word-meaning/ulbena",
+    "previousWMUrl": "#/word-meaning/upadekṣhyanti",
     "nextWMUrl": "#/word-meaning/upahata",
     "currentWMUrl": "#/word-meaning/upahanyām"
   },
@@ -20374,8 +23270,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/upahanyām",
-    "nextWMUrl": "#/word-meaning/upajāyate",
+    "nextWMUrl": "#/word-meaning/upajuhvati",
     "currentWMUrl": "#/word-meaning/upahata"
+  },
+  {
+    "id": "upajuhvati",
+    "data": [
+      {
+        "word": "upajuhvati",
+        "meaning": "offer",
+        "referenceHeader": "Bhagavad Gita 4.25",
+        "refLink": "#/chapter/4/verse/4.25"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/upahata",
+    "nextWMUrl": "#/word-meaning/upajāyate",
+    "currentWMUrl": "#/word-meaning/upajuhvati"
   },
   {
     "id": "upajāyate",
@@ -20393,7 +23303,7 @@
         "refLink": "#/chapter/2/verse/2.65"
       }
     ],
-    "previousWMUrl": "#/word-meaning/upahata",
+    "previousWMUrl": "#/word-meaning/upajuhvati",
     "nextWMUrl": "#/word-meaning/upapadyate",
     "currentWMUrl": "#/word-meaning/upajāyate"
   },
@@ -20579,6 +23489,12 @@
         "meaning": "arise",
         "referenceHeader": "Bhagavad Gita 2.37",
         "refLink": "#/chapter/2/verse/2.37"
+      },
+      {
+        "word": "uttiṣhṭha",
+        "meaning": "arise",
+        "referenceHeader": "Bhagavad Gita 4.42",
+        "refLink": "#/chapter/4/verse/4.42"
       }
     ],
     "previousWMUrl": "#/word-meaning/uttamaujāḥ",
@@ -20726,8 +23642,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/vahniḥ",
-    "nextWMUrl": "#/word-meaning/vartante",
+    "nextWMUrl": "#/word-meaning/varjitāḥ",
     "currentWMUrl": "#/word-meaning/vairiṇam"
+  },
+  {
+    "id": "varjitāḥ",
+    "data": [
+      {
+        "word": "varjitāḥ",
+        "meaning": "devoid of",
+        "referenceHeader": "Bhagavad Gita 4.19",
+        "refLink": "#/chapter/4/verse/4.19"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/vairiṇam",
+    "nextWMUrl": "#/word-meaning/vartante",
+    "currentWMUrl": "#/word-meaning/varjitāḥ"
   },
   {
     "id": "vartante",
@@ -20739,7 +23669,7 @@
         "refLink": "#/chapter/3/verse/3.28"
       }
     ],
-    "previousWMUrl": "#/word-meaning/vairiṇam",
+    "previousWMUrl": "#/word-meaning/varjitāḥ",
     "nextWMUrl": "#/word-meaning/varte",
     "currentWMUrl": "#/word-meaning/vartante"
   },
@@ -21083,6 +24013,18 @@
         "meaning": "know",
         "referenceHeader": "Bhagavad Gita 4.13",
         "refLink": "#/chapter/4/verse/4.13"
+      },
+      {
+        "word": "viddhi",
+        "meaning": "know",
+        "referenceHeader": "Bhagavad Gita 4.32",
+        "refLink": "#/chapter/4/verse/4.32"
+      },
+      {
+        "word": "viddhi",
+        "meaning": "try to learn",
+        "referenceHeader": "Bhagavad Gita 4.34",
+        "refLink": "#/chapter/4/verse/4.34"
       }
     ],
     "previousWMUrl": "#/word-meaning/vibhāgaśhaḥ",
@@ -21211,6 +24153,12 @@
         "meaning": "exist",
         "referenceHeader": "Bhagavad Gita 3.17",
         "refLink": "#/chapter/3/verse/3.17"
+      },
+      {
+        "word": "vidyate",
+        "meaning": "exists",
+        "referenceHeader": "Bhagavad Gita 4.38",
+        "refLink": "#/chapter/4/verse/4.38"
       }
     ],
     "previousWMUrl": "#/word-meaning/vidvān",
@@ -21366,8 +24314,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/vijānīyām",
-    "nextWMUrl": "#/word-meaning/vikarṇaḥ",
+    "nextWMUrl": "#/word-meaning/vikarmaṇaḥ",
     "currentWMUrl": "#/word-meaning/vikampitum"
+  },
+  {
+    "id": "vikarmaṇaḥ",
+    "data": [
+      {
+        "word": "vikarmaṇaḥ",
+        "meaning": "forbidden action",
+        "referenceHeader": "Bhagavad Gita 4.17",
+        "refLink": "#/chapter/4/verse/4.17"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/vikampitum",
+    "nextWMUrl": "#/word-meaning/vikarṇaḥ",
+    "currentWMUrl": "#/word-meaning/vikarmaṇaḥ"
   },
   {
     "id": "vikarṇaḥ",
@@ -21379,7 +24341,7 @@
         "refLink": "#/chapter/1/verse/1.8"
       }
     ],
-    "previousWMUrl": "#/word-meaning/vikampitum",
+    "previousWMUrl": "#/word-meaning/vikarmaṇaḥ",
     "nextWMUrl": "#/word-meaning/vikrāntaḥ",
     "currentWMUrl": "#/word-meaning/vikarṇaḥ"
   },
@@ -21394,8 +24356,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/vikarṇaḥ",
-    "nextWMUrl": "#/word-meaning/vimohayati",
+    "nextWMUrl": "#/word-meaning/vimatsaraḥ",
     "currentWMUrl": "#/word-meaning/vikrāntaḥ"
+  },
+  {
+    "id": "vimatsaraḥ",
+    "data": [
+      {
+        "word": "vimatsaraḥ",
+        "meaning": "free from envy",
+        "referenceHeader": "Bhagavad Gita 4.22",
+        "refLink": "#/chapter/4/verse/4.22"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/vikrāntaḥ",
+    "nextWMUrl": "#/word-meaning/vimohayati",
+    "currentWMUrl": "#/word-meaning/vimatsaraḥ"
   },
   {
     "id": "vimohayati",
@@ -21407,9 +24383,23 @@
         "refLink": "#/chapter/3/verse/3.40"
       }
     ],
-    "previousWMUrl": "#/word-meaning/vikrāntaḥ",
-    "nextWMUrl": "#/word-meaning/vimuhyati",
+    "previousWMUrl": "#/word-meaning/vimatsaraḥ",
+    "nextWMUrl": "#/word-meaning/vimokṣhyase",
     "currentWMUrl": "#/word-meaning/vimohayati"
+  },
+  {
+    "id": "vimokṣhyase",
+    "data": [
+      {
+        "word": "vimokṣhyase",
+        "meaning": "you shall be liberated",
+        "referenceHeader": "Bhagavad Gita 4.32",
+        "refLink": "#/chapter/4/verse/4.32"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/vimohayati",
+    "nextWMUrl": "#/word-meaning/vimuhyati",
+    "currentWMUrl": "#/word-meaning/vimokṣhyase"
   },
   {
     "id": "vimuhyati",
@@ -21421,7 +24411,7 @@
         "refLink": "#/chapter/2/verse/2.72"
       }
     ],
-    "previousWMUrl": "#/word-meaning/vimohayati",
+    "previousWMUrl": "#/word-meaning/vimokṣhyase",
     "nextWMUrl": "#/word-meaning/vimūḍha-ātmā",
     "currentWMUrl": "#/word-meaning/vimuhyati"
   },
@@ -21464,8 +24454,36 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/vimūḍhān",
-    "nextWMUrl": "#/word-meaning/vinivartante",
+    "nextWMUrl": "#/word-meaning/vinaśhyati",
     "currentWMUrl": "#/word-meaning/vinadya"
+  },
+  {
+    "id": "vinaśhyati",
+    "data": [
+      {
+        "word": "vinaśhyati",
+        "meaning": "falls down",
+        "referenceHeader": "Bhagavad Gita 4.40",
+        "refLink": "#/chapter/4/verse/4.40"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/vinadya",
+    "nextWMUrl": "#/word-meaning/vindati",
+    "currentWMUrl": "#/word-meaning/vinaśhyati"
+  },
+  {
+    "id": "vindati",
+    "data": [
+      {
+        "word": "vindati",
+        "meaning": "finds",
+        "referenceHeader": "Bhagavad Gita 4.38",
+        "refLink": "#/chapter/4/verse/4.38"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/vinaśhyati",
+    "nextWMUrl": "#/word-meaning/vinivartante",
+    "currentWMUrl": "#/word-meaning/vindati"
   },
   {
     "id": "vinivartante",
@@ -21477,7 +24495,7 @@
         "refLink": "#/chapter/2/verse/2.59"
       }
     ],
-    "previousWMUrl": "#/word-meaning/vinadya",
+    "previousWMUrl": "#/word-meaning/vindati",
     "nextWMUrl": "#/word-meaning/vināśham",
     "currentWMUrl": "#/word-meaning/vinivartante"
   },
@@ -21568,8 +24586,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/virāṭaḥ",
-    "nextWMUrl": "#/word-meaning/vivasvataḥ",
+    "nextWMUrl": "#/word-meaning/vitatāḥ",
     "currentWMUrl": "#/word-meaning/visṛijya"
+  },
+  {
+    "id": "vitatāḥ",
+    "data": [
+      {
+        "word": "vitatāḥ",
+        "meaning": "have been described",
+        "referenceHeader": "Bhagavad Gita 4.32",
+        "refLink": "#/chapter/4/verse/4.32"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/visṛijya",
+    "nextWMUrl": "#/word-meaning/vivasvataḥ",
+    "currentWMUrl": "#/word-meaning/vitatāḥ"
   },
   {
     "id": "vivasvataḥ",
@@ -21581,7 +24613,7 @@
         "refLink": "#/chapter/4/verse/4.4"
       }
     ],
-    "previousWMUrl": "#/word-meaning/visṛijya",
+    "previousWMUrl": "#/word-meaning/vitatāḥ",
     "nextWMUrl": "#/word-meaning/vivasvate",
     "currentWMUrl": "#/word-meaning/vivasvataḥ"
   },
@@ -21683,6 +24715,12 @@
         "meaning": "objects of the senses",
         "referenceHeader": "Bhagavad Gita 2.64",
         "refLink": "#/chapter/2/verse/2.64"
+      },
+      {
+        "word": "viṣhayān",
+        "meaning": "objects of sense-gratification",
+        "referenceHeader": "Bhagavad Gita 4.26",
+        "refLink": "#/chapter/4/verse/4.26"
       }
     ],
     "previousWMUrl": "#/word-meaning/viṣhame",
@@ -22156,8 +25194,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/vīrya-vān",
-    "nextWMUrl": "#/word-meaning/vṛika-udaraḥ",
+    "nextWMUrl": "#/word-meaning/vṛijinam",
     "currentWMUrl": "#/word-meaning/vīta"
+  },
+  {
+    "id": "vṛijinam",
+    "data": [
+      {
+        "word": "vṛijinam",
+        "meaning": "sin",
+        "referenceHeader": "Bhagavad Gita 4.36",
+        "refLink": "#/chapter/4/verse/4.36"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/vīta",
+    "nextWMUrl": "#/word-meaning/vṛika-udaraḥ",
+    "currentWMUrl": "#/word-meaning/vṛijinam"
   },
   {
     "id": "vṛika-udaraḥ",
@@ -22169,7 +25221,7 @@
         "refLink": "#/chapter/1/verse/1.15"
       }
     ],
-    "previousWMUrl": "#/word-meaning/vīta",
+    "previousWMUrl": "#/word-meaning/vṛijinam",
     "nextWMUrl": "#/word-meaning/yadi",
     "currentWMUrl": "#/word-meaning/vṛika-udaraḥ"
   },
@@ -22284,8 +25336,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/yadā yadā",
-    "nextWMUrl": "#/word-meaning/yajante",
+    "nextWMUrl": "#/word-meaning/yadṛichchhā",
     "currentWMUrl": "#/word-meaning/yadṛichchhayā"
+  },
+  {
+    "id": "yadṛichchhā",
+    "data": [
+      {
+        "word": "yadṛichchhā",
+        "meaning": "which comes of its own accord",
+        "referenceHeader": "Bhagavad Gita 4.22",
+        "refLink": "#/chapter/4/verse/4.22"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/yadṛichchhayā",
+    "nextWMUrl": "#/word-meaning/yajante",
+    "currentWMUrl": "#/word-meaning/yadṛichchhā"
   },
   {
     "id": "yajante",
@@ -22297,7 +25363,7 @@
         "refLink": "#/chapter/4/verse/4.12"
       }
     ],
-    "previousWMUrl": "#/word-meaning/yadṛichchhayā",
+    "previousWMUrl": "#/word-meaning/yadṛichchhā",
     "nextWMUrl": "#/word-meaning/yajña-arthāt",
     "currentWMUrl": "#/word-meaning/yajante"
   },
@@ -22326,8 +25392,36 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/yajña-arthāt",
-    "nextWMUrl": "#/word-meaning/yajña-śhiṣhṭa",
+    "nextWMUrl": "#/word-meaning/yajña-kṣhapita",
     "currentWMUrl": "#/word-meaning/yajña-bhāvitāḥ"
+  },
+  {
+    "id": "yajña-kṣhapita",
+    "data": [
+      {
+        "word": "yajña-kṣhapita",
+        "meaning": "being cleansed by performances of sacrifices",
+        "referenceHeader": "Bhagavad Gita 4.29 – 4.30",
+        "refLink": "#/chapter/4/verse/4.29 – 4.30"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/yajña-bhāvitāḥ",
+    "nextWMUrl": "#/word-meaning/yajña-vidaḥ",
+    "currentWMUrl": "#/word-meaning/yajña-kṣhapita"
+  },
+  {
+    "id": "yajña-vidaḥ",
+    "data": [
+      {
+        "word": "yajña-vidaḥ",
+        "meaning": "knowers of sacrifices",
+        "referenceHeader": "Bhagavad Gita 4.29 – 4.30",
+        "refLink": "#/chapter/4/verse/4.29 – 4.30"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/yajña-kṣhapita",
+    "nextWMUrl": "#/word-meaning/yajña-śhiṣhṭa",
+    "currentWMUrl": "#/word-meaning/yajña-vidaḥ"
   },
   {
     "id": "yajña-śhiṣhṭa",
@@ -22339,9 +25433,43 @@
         "refLink": "#/chapter/3/verse/3.13"
       }
     ],
-    "previousWMUrl": "#/word-meaning/yajña-bhāvitāḥ",
-    "nextWMUrl": "#/word-meaning/yajñaḥ",
+    "previousWMUrl": "#/word-meaning/yajña-vidaḥ",
+    "nextWMUrl": "#/word-meaning/yajña-śhiṣhṭa amṛita-bhujaḥ",
     "currentWMUrl": "#/word-meaning/yajña-śhiṣhṭa"
+  },
+  {
+    "id": "yajña-śhiṣhṭa amṛita-bhujaḥ",
+    "data": [
+      {
+        "word": "yajña-śhiṣhṭa amṛita-bhujaḥ",
+        "meaning": "they partake of the nectarean remnants of sacrifice",
+        "referenceHeader": "Bhagavad Gita 4.31",
+        "refLink": "#/chapter/4/verse/4.31"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/yajña-śhiṣhṭa",
+    "nextWMUrl": "#/word-meaning/yajñam",
+    "currentWMUrl": "#/word-meaning/yajña-śhiṣhṭa amṛita-bhujaḥ"
+  },
+  {
+    "id": "yajñam",
+    "data": [
+      {
+        "word": "yajñam",
+        "meaning": "sacrifice",
+        "referenceHeader": "Bhagavad Gita 4.25",
+        "refLink": "#/chapter/4/verse/4.25"
+      },
+      {
+        "word": "yajñam",
+        "meaning": "sacrifice",
+        "referenceHeader": "Bhagavad Gita 4.25",
+        "refLink": "#/chapter/4/verse/4.25"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/yajña-śhiṣhṭa amṛita-bhujaḥ",
+    "nextWMUrl": "#/word-meaning/yajñaḥ",
+    "currentWMUrl": "#/word-meaning/yajñam"
   },
   {
     "id": "yajñaḥ",
@@ -22353,7 +25481,7 @@
         "refLink": "#/chapter/3/verse/3.14"
       }
     ],
-    "previousWMUrl": "#/word-meaning/yajña-śhiṣhṭa",
+    "previousWMUrl": "#/word-meaning/yajñam",
     "nextWMUrl": "#/word-meaning/yajñe",
     "currentWMUrl": "#/word-meaning/yajñaḥ"
   },
@@ -22368,8 +25496,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/yajñaḥ",
-    "nextWMUrl": "#/word-meaning/yajñāt",
+    "nextWMUrl": "#/word-meaning/yajñena",
     "currentWMUrl": "#/word-meaning/yajñe"
+  },
+  {
+    "id": "yajñena",
+    "data": [
+      {
+        "word": "yajñena",
+        "meaning": "by sacrifice",
+        "referenceHeader": "Bhagavad Gita 4.25",
+        "refLink": "#/chapter/4/verse/4.25"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/yajñe",
+    "nextWMUrl": "#/word-meaning/yajñāt",
+    "currentWMUrl": "#/word-meaning/yajñena"
   },
   {
     "id": "yajñāt",
@@ -22379,11 +25521,31 @@
         "meaning": "from the performance of sacrifice",
         "referenceHeader": "Bhagavad Gita 3.14",
         "refLink": "#/chapter/3/verse/3.14"
+      },
+      {
+        "word": "yajñāt",
+        "meaning": "than the sacrifice",
+        "referenceHeader": "Bhagavad Gita 4.33",
+        "refLink": "#/chapter/4/verse/4.33"
       }
     ],
-    "previousWMUrl": "#/word-meaning/yajñe",
-    "nextWMUrl": "#/word-meaning/yajñāḥ",
+    "previousWMUrl": "#/word-meaning/yajñena",
+    "nextWMUrl": "#/word-meaning/yajñāya",
     "currentWMUrl": "#/word-meaning/yajñāt"
+  },
+  {
+    "id": "yajñāya",
+    "data": [
+      {
+        "word": "yajñāya",
+        "meaning": "as a sacrifice (to God)",
+        "referenceHeader": "Bhagavad Gita 4.23",
+        "refLink": "#/chapter/4/verse/4.23"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/yajñāt",
+    "nextWMUrl": "#/word-meaning/yajñāḥ",
+    "currentWMUrl": "#/word-meaning/yajñāya"
   },
   {
     "id": "yajñāḥ",
@@ -22393,9 +25555,15 @@
         "meaning": "sacrifices",
         "referenceHeader": "Bhagavad Gita 3.10",
         "refLink": "#/chapter/3/verse/3.10"
+      },
+      {
+        "word": "yajñāḥ",
+        "meaning": "sacrifices",
+        "referenceHeader": "Bhagavad Gita 4.32",
+        "refLink": "#/chapter/4/verse/4.32"
       }
     ],
-    "previousWMUrl": "#/word-meaning/yajñāt",
+    "previousWMUrl": "#/word-meaning/yajñāya",
     "nextWMUrl": "#/word-meaning/yam",
     "currentWMUrl": "#/word-meaning/yajñāḥ"
   },
@@ -22433,6 +25601,12 @@
         "meaning": "whose",
         "referenceHeader": "Bhagavad Gita 2.68",
         "refLink": "#/chapter/2/verse/2.68"
+      },
+      {
+        "word": "yasya",
+        "meaning": "whose",
+        "referenceHeader": "Bhagavad Gita 4.19",
+        "refLink": "#/chapter/4/verse/4.19"
       }
     ],
     "previousWMUrl": "#/word-meaning/yam",
@@ -22485,6 +25659,18 @@
         "meaning": "whichever",
         "referenceHeader": "Bhagavad Gita 3.20 – 3.21",
         "refLink": "#/chapter/3/verse/3.20 – 3.21"
+      },
+      {
+        "word": "yat",
+        "meaning": "which",
+        "referenceHeader": "Bhagavad Gita 4.16",
+        "refLink": "#/chapter/4/verse/4.16"
+      },
+      {
+        "word": "yat",
+        "meaning": "which",
+        "referenceHeader": "Bhagavad Gita 4.35",
+        "refLink": "#/chapter/4/verse/4.35"
       }
     ],
     "previousWMUrl": "#/word-meaning/yasyām",
@@ -22516,8 +25702,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/yat vā",
-    "nextWMUrl": "#/word-meaning/yatataḥ",
+    "nextWMUrl": "#/word-meaning/yata",
     "currentWMUrl": "#/word-meaning/yat yat"
+  },
+  {
+    "id": "yata",
+    "data": [
+      {
+        "word": "yata",
+        "meaning": "controlled",
+        "referenceHeader": "Bhagavad Gita 4.21",
+        "refLink": "#/chapter/4/verse/4.21"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/yat yat",
+    "nextWMUrl": "#/word-meaning/yatataḥ",
+    "currentWMUrl": "#/word-meaning/yata"
   },
   {
     "id": "yatataḥ",
@@ -22529,9 +25729,23 @@
         "refLink": "#/chapter/2/verse/2.60"
       }
     ],
-    "previousWMUrl": "#/word-meaning/yat yat",
-    "nextWMUrl": "#/word-meaning/yathā",
+    "previousWMUrl": "#/word-meaning/yata",
+    "nextWMUrl": "#/word-meaning/yatayaḥ",
     "currentWMUrl": "#/word-meaning/yatataḥ"
+  },
+  {
+    "id": "yatayaḥ",
+    "data": [
+      {
+        "word": "yatayaḥ",
+        "meaning": "these ascetics",
+        "referenceHeader": "Bhagavad Gita 4.28",
+        "refLink": "#/chapter/4/verse/4.28"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/yatataḥ",
+    "nextWMUrl": "#/word-meaning/yathā",
+    "currentWMUrl": "#/word-meaning/yatayaḥ"
   },
   {
     "id": "yathā",
@@ -22571,9 +25785,15 @@
         "meaning": "in whatever way",
         "referenceHeader": "Bhagavad Gita 4.11",
         "refLink": "#/chapter/4/verse/4.11"
+      },
+      {
+        "word": "yathā",
+        "meaning": "as",
+        "referenceHeader": "Bhagavad Gita 4.37",
+        "refLink": "#/chapter/4/verse/4.37"
       }
     ],
-    "previousWMUrl": "#/word-meaning/yatataḥ",
+    "previousWMUrl": "#/word-meaning/yatayaḥ",
     "nextWMUrl": "#/word-meaning/yathā-bhāgam",
     "currentWMUrl": "#/word-meaning/yathā"
   },
@@ -22699,6 +25919,18 @@
         "meaning": "who",
         "referenceHeader": "Bhagavad Gita 4.14",
         "refLink": "#/chapter/4/verse/4.14"
+      },
+      {
+        "word": "yaḥ",
+        "meaning": "who",
+        "referenceHeader": "Bhagavad Gita 4.18",
+        "refLink": "#/chapter/4/verse/4.18"
+      },
+      {
+        "word": "yaḥ",
+        "meaning": "who",
+        "referenceHeader": "Bhagavad Gita 4.18",
+        "refLink": "#/chapter/4/verse/4.18"
       }
     ],
     "previousWMUrl": "#/word-meaning/yayā",
@@ -22763,6 +25995,12 @@
         "meaning": "by which",
         "referenceHeader": "Bhagavad Gita 3.1 – 3.2",
         "refLink": "#/chapter/3/verse/3.1 – 3.2"
+      },
+      {
+        "word": "yena",
+        "meaning": "by this",
+        "referenceHeader": "Bhagavad Gita 4.35",
+        "refLink": "#/chapter/4/verse/4.35"
       }
     ],
     "previousWMUrl": "#/word-meaning/ye",
@@ -22814,8 +26052,36 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/yoddhavyam",
-    "nextWMUrl": "#/word-meaning/yoga-sthaḥ",
+    "nextWMUrl": "#/word-meaning/yoga",
     "currentWMUrl": "#/word-meaning/yoddhu-kāmān"
+  },
+  {
+    "id": "yoga",
+    "data": [
+      {
+        "word": "yoga",
+        "meaning": "practice of yog",
+        "referenceHeader": "Bhagavad Gita 4.38",
+        "refLink": "#/chapter/4/verse/4.38"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/yoddhu-kāmān",
+    "nextWMUrl": "#/word-meaning/yoga-sannyasta-karmāṇam",
+    "currentWMUrl": "#/word-meaning/yoga"
+  },
+  {
+    "id": "yoga-sannyasta-karmāṇam",
+    "data": [
+      {
+        "word": "yoga-sannyasta-karmāṇam",
+        "meaning": "those who renounce ritualistic karm, dedicating their body, mind, and soul to God",
+        "referenceHeader": "Bhagavad Gita 4.41",
+        "refLink": "#/chapter/4/verse/4.41"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/yoga",
+    "nextWMUrl": "#/word-meaning/yoga-sthaḥ",
+    "currentWMUrl": "#/word-meaning/yoga-sannyasta-karmāṇam"
   },
   {
     "id": "yoga-sthaḥ",
@@ -22827,9 +26093,23 @@
         "refLink": "#/chapter/2/verse/2.48"
       }
     ],
-    "previousWMUrl": "#/word-meaning/yoddhu-kāmān",
-    "nextWMUrl": "#/word-meaning/yogam",
+    "previousWMUrl": "#/word-meaning/yoga-sannyasta-karmāṇam",
+    "nextWMUrl": "#/word-meaning/yoga-yajñāḥ",
     "currentWMUrl": "#/word-meaning/yoga-sthaḥ"
+  },
+  {
+    "id": "yoga-yajñāḥ",
+    "data": [
+      {
+        "word": "yoga-yajñāḥ",
+        "meaning": "performance of eight-fold path of yogic practices as sacrifice",
+        "referenceHeader": "Bhagavad Gita 4.28",
+        "refLink": "#/chapter/4/verse/4.28"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/yoga-sthaḥ",
+    "nextWMUrl": "#/word-meaning/yogam",
+    "currentWMUrl": "#/word-meaning/yoga-yajñāḥ"
   },
   {
     "id": "yogam",
@@ -22845,9 +26125,15 @@
         "meaning": "the science of Yog",
         "referenceHeader": "Bhagavad Gita 4.1",
         "refLink": "#/chapter/4/verse/4.1"
+      },
+      {
+        "word": "yogam",
+        "meaning": "in karm yog",
+        "referenceHeader": "Bhagavad Gita 4.42",
+        "refLink": "#/chapter/4/verse/4.42"
       }
     ],
-    "previousWMUrl": "#/word-meaning/yoga-sthaḥ",
+    "previousWMUrl": "#/word-meaning/yoga-yajñāḥ",
     "nextWMUrl": "#/word-meaning/yogaḥ",
     "currentWMUrl": "#/word-meaning/yogam"
   },
@@ -22880,8 +26166,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/yogam",
-    "nextWMUrl": "#/word-meaning/yoginām",
+    "nextWMUrl": "#/word-meaning/yoginaḥ",
     "currentWMUrl": "#/word-meaning/yogaḥ"
+  },
+  {
+    "id": "yoginaḥ",
+    "data": [
+      {
+        "word": "yoginaḥ",
+        "meaning": "spiritual practioners",
+        "referenceHeader": "Bhagavad Gita 4.25",
+        "refLink": "#/chapter/4/verse/4.25"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/yogaḥ",
+    "nextWMUrl": "#/word-meaning/yoginām",
+    "currentWMUrl": "#/word-meaning/yoginaḥ"
   },
   {
     "id": "yoginām",
@@ -22893,7 +26193,7 @@
         "refLink": "#/chapter/3/verse/3.3"
       }
     ],
-    "previousWMUrl": "#/word-meaning/yogaḥ",
+    "previousWMUrl": "#/word-meaning/yoginaḥ",
     "nextWMUrl": "#/word-meaning/yogāya",
     "currentWMUrl": "#/word-meaning/yoginām"
   },
@@ -23123,6 +26423,12 @@
         "meaning": "enlightened",
         "referenceHeader": "Bhagavad Gita 3.26",
         "refLink": "#/chapter/3/verse/3.26"
+      },
+      {
+        "word": "yuktaḥ",
+        "meaning": "yogis",
+        "referenceHeader": "Bhagavad Gita 4.18",
+        "refLink": "#/chapter/4/verse/4.18"
       }
     ],
     "previousWMUrl": "#/word-meaning/yujyasva",
@@ -23235,6 +26541,12 @@
         "meaning": "follow",
         "referenceHeader": "Bhagavad Gita 3.33",
         "refLink": "#/chapter/3/verse/3.33"
+      },
+      {
+        "word": "yānti",
+        "meaning": "go",
+        "referenceHeader": "Bhagavad Gita 4.31",
+        "refLink": "#/chapter/4/verse/4.31"
       }
     ],
     "previousWMUrl": "#/word-meaning/yān",
@@ -23249,6 +26561,12 @@
         "meaning": "you will loose",
         "referenceHeader": "Bhagavad Gita 2.35",
         "refLink": "#/chapter/2/verse/2.35"
+      },
+      {
+        "word": "yāsyasi",
+        "meaning": "you shall get",
+        "referenceHeader": "Bhagavad Gita 4.35",
+        "refLink": "#/chapter/4/verse/4.35"
       }
     ],
     "previousWMUrl": "#/word-meaning/yānti",
@@ -23308,8 +26626,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/yāvān",
-    "nextWMUrl": "#/word-meaning/ācharati",
+    "nextWMUrl": "#/word-meaning/ācharataḥ",
     "currentWMUrl": "#/word-meaning/ācharan"
+  },
+  {
+    "id": "ācharataḥ",
+    "data": [
+      {
+        "word": "ācharataḥ",
+        "meaning": "performing",
+        "referenceHeader": "Bhagavad Gita 4.23",
+        "refLink": "#/chapter/4/verse/4.23"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/ācharan",
+    "nextWMUrl": "#/word-meaning/ācharati",
+    "currentWMUrl": "#/word-meaning/ācharataḥ"
   },
   {
     "id": "ācharati",
@@ -23321,7 +26653,7 @@
         "refLink": "#/chapter/3/verse/3.20 – 3.21"
       }
     ],
-    "previousWMUrl": "#/word-meaning/ācharan",
+    "previousWMUrl": "#/word-meaning/ācharataḥ",
     "nextWMUrl": "#/word-meaning/āchārya",
     "currentWMUrl": "#/word-meaning/ācharati"
   },
@@ -23507,11 +26839,31 @@
         "meaning": "are said",
         "referenceHeader": "Bhagavad Gita 3.42",
         "refLink": "#/chapter/3/verse/3.42"
+      },
+      {
+        "word": "āhuḥ",
+        "meaning": "address",
+        "referenceHeader": "Bhagavad Gita 4.19",
+        "refLink": "#/chapter/4/verse/4.19"
       }
     ],
     "previousWMUrl": "#/word-meaning/āhave",
-    "nextWMUrl": "#/word-meaning/ākula",
+    "nextWMUrl": "#/word-meaning/āhārāḥ",
     "currentWMUrl": "#/word-meaning/āhuḥ"
+  },
+  {
+    "id": "āhārāḥ",
+    "data": [
+      {
+        "word": "āhārāḥ",
+        "meaning": "food intake",
+        "referenceHeader": "Bhagavad Gita 4.29 – 4.30",
+        "refLink": "#/chapter/4/verse/4.29 – 4.30"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/āhuḥ",
+    "nextWMUrl": "#/word-meaning/ākula",
+    "currentWMUrl": "#/word-meaning/āhārāḥ"
   },
   {
     "id": "ākula",
@@ -23523,7 +26875,7 @@
         "refLink": "#/chapter/2/verse/2.1"
       }
     ],
-    "previousWMUrl": "#/word-meaning/āhuḥ",
+    "previousWMUrl": "#/word-meaning/āhārāḥ",
     "nextWMUrl": "#/word-meaning/āpaḥ",
     "currentWMUrl": "#/word-meaning/ākula"
   },
@@ -23561,6 +26913,12 @@
         "meaning": "attains",
         "referenceHeader": "Bhagavad Gita 3.19",
         "refLink": "#/chapter/3/verse/3.19"
+      },
+      {
+        "word": "āpnoti",
+        "meaning": "incurs",
+        "referenceHeader": "Bhagavad Gita 4.21",
+        "refLink": "#/chapter/4/verse/4.21"
       }
     ],
     "previousWMUrl": "#/word-meaning/āpaḥ",
@@ -23682,8 +27040,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/āsīta",
-    "nextWMUrl": "#/word-meaning/ātma-kāraṇāt",
+    "nextWMUrl": "#/word-meaning/ātiṣhṭha",
     "currentWMUrl": "#/word-meaning/ātatāyinaḥ"
+  },
+  {
+    "id": "ātiṣhṭha",
+    "data": [
+      {
+        "word": "ātiṣhṭha",
+        "meaning": "take shelter",
+        "referenceHeader": "Bhagavad Gita 4.42",
+        "refLink": "#/chapter/4/verse/4.42"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/ātatāyinaḥ",
+    "nextWMUrl": "#/word-meaning/ātma-kāraṇāt",
+    "currentWMUrl": "#/word-meaning/ātiṣhṭha"
   },
   {
     "id": "ātma-kāraṇāt",
@@ -23695,7 +27067,7 @@
         "refLink": "#/chapter/3/verse/3.13"
       }
     ],
-    "previousWMUrl": "#/word-meaning/ātatāyinaḥ",
+    "previousWMUrl": "#/word-meaning/ātiṣhṭha",
     "nextWMUrl": "#/word-meaning/ātma-māyayā",
     "currentWMUrl": "#/word-meaning/ātma-kāraṇāt"
   },
@@ -23724,8 +27096,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/ātma-māyayā",
-    "nextWMUrl": "#/word-meaning/ātma-tṛiptaḥ",
+    "nextWMUrl": "#/word-meaning/ātma-sanyama yogāgnau",
     "currentWMUrl": "#/word-meaning/ātma-ratiḥ"
+  },
+  {
+    "id": "ātma-sanyama yogāgnau",
+    "data": [
+      {
+        "word": "ātma-sanyama yogāgnau",
+        "meaning": "in the fire of the controlled mind",
+        "referenceHeader": "Bhagavad Gita 4.27",
+        "refLink": "#/chapter/4/verse/4.27"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/ātma-ratiḥ",
+    "nextWMUrl": "#/word-meaning/ātma-tṛiptaḥ",
+    "currentWMUrl": "#/word-meaning/ātma-sanyama yogāgnau"
   },
   {
     "id": "ātma-tṛiptaḥ",
@@ -23737,9 +27123,23 @@
         "refLink": "#/chapter/3/verse/3.17"
       }
     ],
-    "previousWMUrl": "#/word-meaning/ātma-ratiḥ",
-    "nextWMUrl": "#/word-meaning/ātma-vaśhyaiḥ",
+    "previousWMUrl": "#/word-meaning/ātma-sanyama yogāgnau",
+    "nextWMUrl": "#/word-meaning/ātma-vantam",
     "currentWMUrl": "#/word-meaning/ātma-tṛiptaḥ"
+  },
+  {
+    "id": "ātma-vantam",
+    "data": [
+      {
+        "word": "ātma-vantam",
+        "meaning": "situated in knowledge of the self",
+        "referenceHeader": "Bhagavad Gita 4.41",
+        "refLink": "#/chapter/4/verse/4.41"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/ātma-tṛiptaḥ",
+    "nextWMUrl": "#/word-meaning/ātma-vaśhyaiḥ",
+    "currentWMUrl": "#/word-meaning/ātma-vantam"
   },
   {
     "id": "ātma-vaśhyaiḥ",
@@ -23751,7 +27151,7 @@
         "refLink": "#/chapter/2/verse/2.64"
       }
     ],
-    "previousWMUrl": "#/word-meaning/ātma-tṛiptaḥ",
+    "previousWMUrl": "#/word-meaning/ātma-vantam",
     "nextWMUrl": "#/word-meaning/ātma-vān",
     "currentWMUrl": "#/word-meaning/ātma-vaśhyaiḥ"
   },
@@ -23766,8 +27166,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/ātma-vaśhyaiḥ",
-    "nextWMUrl": "#/word-meaning/ātmani",
+    "nextWMUrl": "#/word-meaning/ātmanaḥ",
     "currentWMUrl": "#/word-meaning/ātma-vān"
+  },
+  {
+    "id": "ātmanaḥ",
+    "data": [
+      {
+        "word": "ātmanaḥ",
+        "meaning": "of the self",
+        "referenceHeader": "Bhagavad Gita 4.42",
+        "refLink": "#/chapter/4/verse/4.42"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/ātma-vān",
+    "nextWMUrl": "#/word-meaning/ātmani",
+    "currentWMUrl": "#/word-meaning/ātmanaḥ"
   },
   {
     "id": "ātmani",
@@ -23783,9 +27197,21 @@
         "meaning": "in the self",
         "referenceHeader": "Bhagavad Gita 3.17",
         "refLink": "#/chapter/3/verse/3.17"
+      },
+      {
+        "word": "ātmani",
+        "meaning": "within me (Shree Krishna)",
+        "referenceHeader": "Bhagavad Gita 4.35",
+        "refLink": "#/chapter/4/verse/4.35"
+      },
+      {
+        "word": "ātmani",
+        "meaning": "wihtin the heart",
+        "referenceHeader": "Bhagavad Gita 4.38",
+        "refLink": "#/chapter/4/verse/4.38"
       }
     ],
-    "previousWMUrl": "#/word-meaning/ātma-vān",
+    "previousWMUrl": "#/word-meaning/ātmanaḥ",
     "nextWMUrl": "#/word-meaning/ātmanā",
     "currentWMUrl": "#/word-meaning/ātmani"
   },
@@ -23806,8 +27232,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/ātmani",
-    "nextWMUrl": "#/word-meaning/ātmānam",
+    "nextWMUrl": "#/word-meaning/ātmā",
     "currentWMUrl": "#/word-meaning/ātmanā"
+  },
+  {
+    "id": "ātmā",
+    "data": [
+      {
+        "word": "ātmā",
+        "meaning": "a person",
+        "referenceHeader": "Bhagavad Gita 4.40",
+        "refLink": "#/chapter/4/verse/4.40"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/ātmanā",
+    "nextWMUrl": "#/word-meaning/ātmānam",
+    "currentWMUrl": "#/word-meaning/ātmā"
   },
   {
     "id": "ātmānam",
@@ -23825,7 +27265,7 @@
         "refLink": "#/chapter/4/verse/4.7"
       }
     ],
-    "previousWMUrl": "#/word-meaning/ātmanā",
+    "previousWMUrl": "#/word-meaning/ātmā",
     "nextWMUrl": "#/word-meaning/āviṣhṭam",
     "currentWMUrl": "#/word-meaning/ātmānam"
   },
@@ -24012,8 +27452,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/īkṣhaṇam",
-    "nextWMUrl": "#/word-meaning/śhabdaḥ",
+    "nextWMUrl": "#/word-meaning/śhabda-ādīn",
     "currentWMUrl": "#/word-meaning/īśhvaraḥ"
+  },
+  {
+    "id": "śhabda-ādīn",
+    "data": [
+      {
+        "word": "śhabda-ādīn",
+        "meaning": "sound vibration, etc",
+        "referenceHeader": "Bhagavad Gita 4.26",
+        "refLink": "#/chapter/4/verse/4.26"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/īśhvaraḥ",
+    "nextWMUrl": "#/word-meaning/śhabdaḥ",
+    "currentWMUrl": "#/word-meaning/śhabda-ādīn"
   },
   {
     "id": "śhabdaḥ",
@@ -24025,7 +27479,7 @@
         "refLink": "#/chapter/1/verse/1.13"
       }
     ],
-    "previousWMUrl": "#/word-meaning/īśhvaraḥ",
+    "previousWMUrl": "#/word-meaning/śhabda-ādīn",
     "nextWMUrl": "#/word-meaning/śhaibyaḥ",
     "currentWMUrl": "#/word-meaning/śhabdaḥ"
   },
@@ -24366,8 +27820,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/śhoṣhayati",
-    "nextWMUrl": "#/word-meaning/śhreyaḥ",
+    "nextWMUrl": "#/word-meaning/śhraddhā-vān",
     "currentWMUrl": "#/word-meaning/śhraddhā-vantaḥ"
+  },
+  {
+    "id": "śhraddhā-vān",
+    "data": [
+      {
+        "word": "śhraddhā-vān",
+        "meaning": "a faithful person",
+        "referenceHeader": "Bhagavad Gita 4.39",
+        "refLink": "#/chapter/4/verse/4.39"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/śhraddhā-vantaḥ",
+    "nextWMUrl": "#/word-meaning/śhreyaḥ",
+    "currentWMUrl": "#/word-meaning/śhraddhā-vān"
   },
   {
     "id": "śhreyaḥ",
@@ -24415,7 +27883,7 @@
         "refLink": "#/chapter/3/verse/3.35"
       }
     ],
-    "previousWMUrl": "#/word-meaning/śhraddhā-vantaḥ",
+    "previousWMUrl": "#/word-meaning/śhraddhā-vān",
     "nextWMUrl": "#/word-meaning/śhreyān",
     "currentWMUrl": "#/word-meaning/śhreyaḥ"
   },
@@ -24427,6 +27895,12 @@
         "meaning": "better",
         "referenceHeader": "Bhagavad Gita 3.35",
         "refLink": "#/chapter/3/verse/3.35"
+      },
+      {
+        "word": "śhreyān",
+        "meaning": "superior",
+        "referenceHeader": "Bhagavad Gita 4.33",
+        "refLink": "#/chapter/4/verse/4.33"
       }
     ],
     "previousWMUrl": "#/word-meaning/śhreyaḥ",
@@ -24472,8 +27946,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/śhri-bhagavān uvācha",
-    "nextWMUrl": "#/word-meaning/śhrutasya",
+    "nextWMUrl": "#/word-meaning/śhrotra-ādīni",
     "currentWMUrl": "#/word-meaning/śhrotavyasya"
+  },
+  {
+    "id": "śhrotra-ādīni",
+    "data": [
+      {
+        "word": "śhrotra-ādīni",
+        "meaning": "such as the hearing process",
+        "referenceHeader": "Bhagavad Gita 4.26",
+        "refLink": "#/chapter/4/verse/4.26"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/śhrotavyasya",
+    "nextWMUrl": "#/word-meaning/śhrutasya",
+    "currentWMUrl": "#/word-meaning/śhrotra-ādīni"
   },
   {
     "id": "śhrutasya",
@@ -24485,7 +27973,7 @@
         "refLink": "#/chapter/2/verse/2.52"
       }
     ],
-    "previousWMUrl": "#/word-meaning/śhrotavyasya",
+    "previousWMUrl": "#/word-meaning/śhrotra-ādīni",
     "nextWMUrl": "#/word-meaning/śhruti-vipratipannā",
     "currentWMUrl": "#/word-meaning/śhrutasya"
   },
@@ -24659,6 +28147,12 @@
         "meaning": "perfect peace",
         "referenceHeader": "Bhagavad Gita 2.71",
         "refLink": "#/chapter/2/verse/2.71"
+      },
+      {
+        "word": "śhāntim",
+        "meaning": "peace",
+        "referenceHeader": "Bhagavad Gita 4.39",
+        "refLink": "#/chapter/4/verse/4.39"
       }
     ],
     "previousWMUrl": "#/word-meaning/śhādhi",
@@ -24676,8 +28170,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/śhāntim",
-    "nextWMUrl": "#/word-meaning/śhāśhvataḥ",
+    "nextWMUrl": "#/word-meaning/śhārīram",
     "currentWMUrl": "#/word-meaning/śhāntiḥ"
+  },
+  {
+    "id": "śhārīram",
+    "data": [
+      {
+        "word": "śhārīram",
+        "meaning": "bodily",
+        "referenceHeader": "Bhagavad Gita 4.21",
+        "refLink": "#/chapter/4/verse/4.21"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/śhāntiḥ",
+    "nextWMUrl": "#/word-meaning/śhāśhvataḥ",
+    "currentWMUrl": "#/word-meaning/śhārīram"
   },
   {
     "id": "śhāśhvataḥ",
@@ -24689,7 +28197,7 @@
         "refLink": "#/chapter/2/verse/2.20"
       }
     ],
-    "previousWMUrl": "#/word-meaning/śhāntiḥ",
+    "previousWMUrl": "#/word-meaning/śhārīram",
     "nextWMUrl": "#/word-meaning/śhāśhvatāḥ",
     "currentWMUrl": "#/word-meaning/śhāśhvataḥ"
   },
