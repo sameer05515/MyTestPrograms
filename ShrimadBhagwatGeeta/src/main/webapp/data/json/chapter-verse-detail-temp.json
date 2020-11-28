@@ -33103,11 +33103,173 @@
         "currentVerse": "6.1",
         "nextVerse": "6.2",
         "previousVerse": "5.29",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 6.1",
+            "value": " The Supreme Lord said: Those who perform prescribed duties without desiring the results of their actions are actual sanyāsīs (renunciates) and yogis, not those who have merely ceased performing sacrifices such as agni-hotra yajña or abandoned bodily activities."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "The ritualistic activities described in the Vedas include fire sacrifices, such as agnihotra yajña. The rules for those who enter the renounced order of sanyās state that they should not perform the ritualistic karm kāṇḍ activities; in fact they should not touch fire at all, not even for the purpose of cooking. And they should subsist on alms instead. However, Shree Krishna states in this verse that merely giving up the sacrificial fire does not make one a sanyāsī (renunciant).",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "Who are true yogis, and who are true sanyāsīs? There is much confusion in this regard. People say, “This swamiji is phalāhārī (one who eats only fruits and nothing else), and so he must be an elevated yogi.” “This bābājī (renunciant) is dūdhāhārī (subsists on milk alone), and hence he must be an even higher yogi.” “This guruji is pavanāhārī (does not eat, lives only on the breath), and so he must definitely be God-realized.” “This sadhu is a nāgā bābā (ascetic who does not wear clothes), and thus he is perfectly renounced.” However, Shree Krishna dismisses all these concepts. He says that such external acts of asceticism do not make anyone either a sanyāsī or a yogi. Those who can renounce the fruits of their actions, by offering them to God, are the true renunciants and yogis.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 3,
+            "value": "Nowadays Yoga has become the buzz word in the western world. Numerous Yoga studios have sprung up in every town of every country of the world. Statistics reveal that one out of every ten persons in America is practicing Yoga. But this word “Yoga” does not exist in the Sanskrit scriptures. The actual word is “Yog,” which means “union.” It refers to the union of the individual consciousness with the divine consciousness. In other words, a yogi is one whose mind is fully absorbed in God. It also follows that such a yogi’s mind is naturally detached from the world. Hence, the true yogi is also the true sanyāsī.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 4,
+            "value": "Persons who perform karm yog do all activities in the spirit of humble service to God without any desire whatsoever for rewards. Even though they may be gṛihasthas (living with a family), such persons are true yogis and the real renunciants.",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "श्रीभगवानुवाच |"
+          },
+          {
+            "id": 2,
+            "value": "अनाश्रित: कर्मफलं कार्यं कर्म करोति य: |"
+          },
+          {
+            "id": 3,
+            "value": "स संन्यासी च योगी च न निरग्निर्न चाक्रिय: || 1||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "śhrī bhagavān uvācha"
+          },
+          {
+            "id": 2,
+            "value": "anāśhritaḥ karma-phalaṁ kāryaṁ karma karoti yaḥ"
+          },
+          {
+            "id": 3,
+            "value": "sa sannyāsī cha yogī cha na niragnir na chākriyaḥ"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "śhrī-bhagavān uvācha",
+            "wordMeaningDetailUrl": "#/word-meaning/śhrī-bhagavān uvācha",
+            "meaning": "the Supreme Lord said"
+          },
+          {
+            "id": 2,
+            "sanskrit": " anāśhritaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/anāśhritaḥ",
+            "meaning": "not desiring"
+          },
+          {
+            "id": 3,
+            "sanskrit": " karma-phalam",
+            "wordMeaningDetailUrl": "#/word-meaning/karma-phalam",
+            "meaning": "results of actions"
+          },
+          {
+            "id": 4,
+            "sanskrit": " kāryam",
+            "wordMeaningDetailUrl": "#/word-meaning/kāryam",
+            "meaning": "obligatory"
+          },
+          {
+            "id": 5,
+            "sanskrit": " karma",
+            "wordMeaningDetailUrl": "#/word-meaning/karma",
+            "meaning": "work"
+          },
+          {
+            "id": 6,
+            "sanskrit": " karoti",
+            "wordMeaningDetailUrl": "#/word-meaning/karoti",
+            "meaning": "perform"
+          },
+          {
+            "id": 7,
+            "sanskrit": " yaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/yaḥ",
+            "meaning": "one who"
+          },
+          {
+            "id": 8,
+            "sanskrit": " saḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/saḥ",
+            "meaning": "that person"
+          },
+          {
+            "id": 9,
+            "sanskrit": " sanyāsī",
+            "wordMeaningDetailUrl": "#/word-meaning/sanyāsī",
+            "meaning": "in the renounced order"
+          },
+          {
+            "id": 10,
+            "sanskrit": " cha",
+            "wordMeaningDetailUrl": "#/word-meaning/cha",
+            "meaning": "and"
+          },
+          {
+            "id": 11,
+            "sanskrit": " yogī",
+            "wordMeaningDetailUrl": "#/word-meaning/yogī",
+            "meaning": "yogi"
+          },
+          {
+            "id": 12,
+            "sanskrit": " cha",
+            "wordMeaningDetailUrl": "#/word-meaning/cha",
+            "meaning": "and"
+          },
+          {
+            "id": 13,
+            "sanskrit": " na",
+            "wordMeaningDetailUrl": "#/word-meaning/na",
+            "meaning": "not"
+          },
+          {
+            "id": 14,
+            "sanskrit": " niḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/niḥ",
+            "meaning": "without"
+          },
+          {
+            "id": 15,
+            "sanskrit": " agniḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/agniḥ",
+            "meaning": "fire"
+          },
+          {
+            "id": 16,
+            "sanskrit": " na",
+            "wordMeaningDetailUrl": "#/word-meaning/na",
+            "meaning": "not"
+          },
+          {
+            "id": 17,
+            "sanskrit": " cha",
+            "wordMeaningDetailUrl": "#/word-meaning/cha",
+            "meaning": "also"
+          },
+          {
+            "id": 18,
+            "sanskrit": " akriyaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/akriyaḥ",
+            "meaning": "without activity"
+          }
+        ],
         "currentVerseUrl": "#/chapter/6/verse/6.1",
         "nextVerseUrl": "#/chapter/6/verse/6.2",
         "previousVerseUrl": "#/chapter/5/verse/5.29"
@@ -33119,11 +33281,147 @@
         "currentVerse": "6.2",
         "nextVerse": "6.3",
         "previousVerse": "6.1",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 6.2",
+            "value": " What is known as sanyās is non-different from Yog, for none become yogis without renouncing worldly desires."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "A sanyāsī is one who renounces the pleasures of the mind and senses. But mere renunciation is not the goal, nor is it sufficient to reach the goal. Renunciation means that our running in the wrong direction has stopped. We were searching for happiness in the world, and we understood that there is no happiness in material pleasures, so we stopped running toward the world. But, the destination is not reached just by stopping. The destination of the soul is God-realization. The process of going toward God—taking the mind toward him—is the path of Yog. Those who have incomplete knowledge of the goal of life, look upon renunciation as the highest goal of spirituality. Those who truly understand the goal of life, regard God-realization as the ultimate goal of their spiritual endeavor.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "In the purport to verse 5.4, it was explained that there are two kinds of renunciation—phalgu vairāgya and yukt vairāgya. Phalgu vairāgya is that where worldly objects are seen as objects of Maya, the material energy, and hence renounced because they are detrimental to spiritual progress. Yukt vairāgya is that where everything is seen as belonging to God, and hence meant to be utilized in his service. In the first kind of renunciation, one would say, “Give up money. Do not touch it. It is a form of Maya, and it impedes the path of spirituality.” In the second kind of renunciation, one would say, “Money is also a form of the energy of God. Do not waste it or throw it away; utilize whatever you have in your possession for the service of God.”",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 3,
+            "value": "Phalgu vairāgya is unstable, and can easily revert to attachment for the world. The name “Phalgu” comes from a river in the city of Gaya, in the state of Bihar in India. The river Phalgu runs below the surface. From atop, it seems as if there is no water, but if you dig a few feet, you encounter the stream below. Similarly, many persons renounce the world to go and live in monasteries, only to find that in a few years the renunciation has vanished and the mind is again attached to the world. Their detachment was phalgu vairāgya. Finding the world to be troublesome and miserable, they desired to get away from it by taking shelter in monastery. But when they found spiritual life also to be difficult and arduous, they got detached from spirituality as well. Then there are others who establish their loving relationship with God. Motivated by the desire to serve him, they renounce the world to live in a monastery. Their renunciation is yukt vairāgya. They usually continue the journey even if they face difficulties.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 4,
+            "value": "In the first line of this verse, Shree Krishna states that a real sanyāsī (renunciant) is one who is a yogi, i.e. one who is uniting the mind with God in loving service. In the second line, Shree Krishna states that one cannot be a yogi without giving up material desires. If there are material desires in the mind, then it will naturally run toward the world. Since it is the mind that has to be united with God, this is only possible if the mind is free from all material desires. Thus, to be a yogi one has to be a sanyāsī from within; and one can only be a sanyāsī if one is a yogi.",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "यं संन्यासमिति प्राहुर्योगं तं विद्धि पाण्डव |"
+          },
+          {
+            "id": 2,
+            "value": "न ह्यसंन्यस्तसङ्कल्पो योगी भवति कश्चन || 2||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "yaṁ sannyāsam iti prāhur yogaṁ taṁ viddhi pāṇḍava"
+          },
+          {
+            "id": 2,
+            "value": "na hyasannyasta-saṅkalpo yogī bhavati kaśhchana"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "yam",
+            "wordMeaningDetailUrl": "#/word-meaning/yam",
+            "meaning": "what"
+          },
+          {
+            "id": 2,
+            "sanskrit": " sanyāsam",
+            "wordMeaningDetailUrl": "#/word-meaning/sanyāsam",
+            "meaning": "renunciation"
+          },
+          {
+            "id": 3,
+            "sanskrit": " iti",
+            "wordMeaningDetailUrl": "#/word-meaning/iti",
+            "meaning": "thus"
+          },
+          {
+            "id": 4,
+            "sanskrit": " prāhuḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/prāhuḥ",
+            "meaning": "they say"
+          },
+          {
+            "id": 5,
+            "sanskrit": " yogam",
+            "wordMeaningDetailUrl": "#/word-meaning/yogam",
+            "meaning": "yog"
+          },
+          {
+            "id": 6,
+            "sanskrit": " tam",
+            "wordMeaningDetailUrl": "#/word-meaning/tam",
+            "meaning": "that"
+          },
+          {
+            "id": 7,
+            "sanskrit": " viddhi",
+            "wordMeaningDetailUrl": "#/word-meaning/viddhi",
+            "meaning": "know"
+          },
+          {
+            "id": 8,
+            "sanskrit": " pāṇḍava",
+            "wordMeaningDetailUrl": "#/word-meaning/pāṇḍava",
+            "meaning": "Arjun, the son of Pandu"
+          },
+          {
+            "id": 9,
+            "sanskrit": " na",
+            "wordMeaningDetailUrl": "#/word-meaning/na",
+            "meaning": "not"
+          },
+          {
+            "id": 10,
+            "sanskrit": " hi",
+            "wordMeaningDetailUrl": "#/word-meaning/hi",
+            "meaning": "certainly"
+          },
+          {
+            "id": 11,
+            "sanskrit": " asannyasta",
+            "wordMeaningDetailUrl": "#/word-meaning/asannyasta",
+            "meaning": "without giving up"
+          },
+          {
+            "id": 12,
+            "sanskrit": " saṅkalpaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/saṅkalpaḥ",
+            "meaning": "desire"
+          },
+          {
+            "id": 13,
+            "sanskrit": " yogī",
+            "wordMeaningDetailUrl": "#/word-meaning/yogī",
+            "meaning": "a yogi"
+          },
+          {
+            "id": 14,
+            "sanskrit": " bhavati",
+            "wordMeaningDetailUrl": "#/word-meaning/bhavati",
+            "meaning": "becomes"
+          },
+          {
+            "id": 15,
+            "sanskrit": " kaśhchana",
+            "wordMeaningDetailUrl": "#/word-meaning/kaśhchana",
+            "meaning": "anyone"
+          }
+        ],
         "currentVerseUrl": "#/chapter/6/verse/6.2",
         "nextVerseUrl": "#/chapter/6/verse/6.3",
         "previousVerseUrl": "#/chapter/6/verse/6.1"
@@ -33135,11 +33433,134 @@
         "currentVerse": "6.3",
         "nextVerse": "6.4",
         "previousVerse": "6.2",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 6.3",
+            "value": " To the soul who is aspiring for perfection in Yog, work without attachment is said to be the means; to the sage who is already elevated in Yog, tranquility in meditation is said to be the means."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "In chapter 3, verse 3, Shree Krishna mentioned that there are two paths for attaining welfare—the path of contemplation and the path of action. Between these, he recommended to Arjun to follow the path of action. Again in chapter 5, verse 2, he declared it to be the better path. Does this mean that we must keep doing work all our life? Anticipating such a question, Shree Krishna sets the limits for it. When we perform karm yog, it leads to the purification of the mind and the ripening of spiritual knowledge. But once the mind has been purified and we advance in Yog, then we can leave karm yog and take to karm sanyās. Material activities now serve no purpose and meditation now becomes the means.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "So the path we must follow filters down to a matter of our eligibility and Shree Krishna explains the criteria of eligibility in this verse. He says that for those who are aspiring for Yog, the path of karm yog is more suitable; and those who are elevated in Yog, the path of karm sanyās is more suitable.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 3,
+            "value": "The word Yog refers to both the goal and the process to reach the goal. When we talk of it as being the goal, we use Yog as meaning “union with God.” And when we talk of it as being the process, we use Yog as meaning the “path” to union with God.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 4,
+            "value": "In this second context, Yog is like a ladder we climb to reach God. At the lowest rung, the soul is caught in worldliness, with the consciousness absorbed in mundane matter. The ladder of Yog takes the soul from that level to the stage where the consciousness is absorbed in the divine. The various rungs of the ladder have different names, but Yog is a term common to them all. Yog-ārurukṣhu are those sādhaks who aspire for union with God and have just begun climbing the ladder. Yog-ārūḍha are those who have become elevated on the ladder.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 5,
+            "value": "So, how do we understand when one is elevated in the science of Yog? Shree Krishna explains this next.",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "आरुरुक्षोर्मुनेर्योगं कर्म कारणमुच्यते |"
+          },
+          {
+            "id": 2,
+            "value": "योगारूढस्य तस्यैव शम: कारणमुच्यते || 3||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "ārurukṣhor muner yogaṁ karma kāraṇam uchyate"
+          },
+          {
+            "id": 2,
+            "value": "yogārūḍhasya tasyaiva śhamaḥ kāraṇam uchyate"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "ārurukṣhoḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/ārurukṣhoḥ",
+            "meaning": "a beginner"
+          },
+          {
+            "id": 2,
+            "sanskrit": " muneḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/muneḥ",
+            "meaning": "of a sage"
+          },
+          {
+            "id": 3,
+            "sanskrit": " yogam",
+            "wordMeaningDetailUrl": "#/word-meaning/yogam",
+            "meaning": "Yog"
+          },
+          {
+            "id": 4,
+            "sanskrit": " karma",
+            "wordMeaningDetailUrl": "#/word-meaning/karma",
+            "meaning": "working without attachment"
+          },
+          {
+            "id": 5,
+            "sanskrit": " kāraṇam",
+            "wordMeaningDetailUrl": "#/word-meaning/kāraṇam",
+            "meaning": "the cause"
+          },
+          {
+            "id": 6,
+            "sanskrit": " uchyate",
+            "wordMeaningDetailUrl": "#/word-meaning/uchyate",
+            "meaning": "is said"
+          },
+          {
+            "id": 7,
+            "sanskrit": " yoga ārūḍhasya",
+            "wordMeaningDetailUrl": "#/word-meaning/yoga ārūḍhasya",
+            "meaning": "of those who are elevated in Yog"
+          },
+          {
+            "id": 8,
+            "sanskrit": " tasya",
+            "wordMeaningDetailUrl": "#/word-meaning/tasya",
+            "meaning": "their"
+          },
+          {
+            "id": 9,
+            "sanskrit": " eva",
+            "wordMeaningDetailUrl": "#/word-meaning/eva",
+            "meaning": "certainly"
+          },
+          {
+            "id": 10,
+            "sanskrit": " śhamaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/śhamaḥ",
+            "meaning": "meditation"
+          },
+          {
+            "id": 11,
+            "sanskrit": " kāraṇam",
+            "wordMeaningDetailUrl": "#/word-meaning/kāraṇam",
+            "meaning": "the cause"
+          },
+          {
+            "id": 12,
+            "sanskrit": " uchyate",
+            "wordMeaningDetailUrl": "#/word-meaning/uchyate",
+            "meaning": "is said"
+          }
+        ],
         "currentVerseUrl": "#/chapter/6/verse/6.3",
         "nextVerseUrl": "#/chapter/6/verse/6.4",
         "previousVerseUrl": "#/chapter/6/verse/6.2"
@@ -33151,11 +33572,119 @@
         "currentVerse": "6.4",
         "nextVerse": "6.5",
         "previousVerse": "6.3",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 6.4",
+            "value": " When one is neither attached to sense objects nor to actions, that person is said to be elevated in the science of Yog, for having renounced all desires for the fruits of actions."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "As the mind becomes attached to God in Yog, it naturally becomes detached from the world. So an easy criterion of evaluating the state of one’s mind is to check whether it has become free from all material desires. A person will be considered detached from the world when one no longer craves for sense objects nor is inclined to perform any actions for attaining them. Such a person ceases to look for opportunities to create circumstances to enjoy sensual pleasures, eventually extinguishes all thoughts of enjoying sense objects, and also dissolves the memories of previous enjoyments.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "The mind now no longer gushes into self-centered activities at the urge of the senses. When we achieve this level of mastery over the mind, we will be considered elevated in Yog.",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "यदा हि नेन्द्रियार्थेषु न कर्मस्वनुषज्जते |"
+          },
+          {
+            "id": 2,
+            "value": "सर्वसङ्कल्पसंन्यासी योगारूढस्तदोच्यते || 4||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "yadā hi nendriyārtheṣhu na karmasv-anuṣhajjate"
+          },
+          {
+            "id": 2,
+            "value": "sarva-saṅkalpa-sannyāsī yogārūḍhas tadochyate"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "yadā",
+            "wordMeaningDetailUrl": "#/word-meaning/yadā",
+            "meaning": "when"
+          },
+          {
+            "id": 2,
+            "sanskrit": " hi",
+            "wordMeaningDetailUrl": "#/word-meaning/hi",
+            "meaning": "certainly"
+          },
+          {
+            "id": 3,
+            "sanskrit": " na",
+            "wordMeaningDetailUrl": "#/word-meaning/na",
+            "meaning": "not"
+          },
+          {
+            "id": 4,
+            "sanskrit": " indriya-artheṣhu",
+            "wordMeaningDetailUrl": "#/word-meaning/indriya-artheṣhu",
+            "meaning": "for sense-objects"
+          },
+          {
+            "id": 5,
+            "sanskrit": " na",
+            "wordMeaningDetailUrl": "#/word-meaning/na",
+            "meaning": "not"
+          },
+          {
+            "id": 6,
+            "sanskrit": " karmasu",
+            "wordMeaningDetailUrl": "#/word-meaning/karmasu",
+            "meaning": "to actions"
+          },
+          {
+            "id": 7,
+            "sanskrit": " anuṣhajjate",
+            "wordMeaningDetailUrl": "#/word-meaning/anuṣhajjate",
+            "meaning": "is attachment"
+          },
+          {
+            "id": 8,
+            "sanskrit": " sarva-saṅkalpa",
+            "wordMeaningDetailUrl": "#/word-meaning/sarva-saṅkalpa",
+            "meaning": "all desires for the fruits of actions"
+          },
+          {
+            "id": 9,
+            "sanskrit": " sanyāsī",
+            "wordMeaningDetailUrl": "#/word-meaning/sanyāsī",
+            "meaning": "renouncer"
+          },
+          {
+            "id": 10,
+            "sanskrit": " yoga-ārūḍhaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/yoga-ārūḍhaḥ",
+            "meaning": "elevated in the science of Yog"
+          },
+          {
+            "id": 11,
+            "sanskrit": " tadā",
+            "wordMeaningDetailUrl": "#/word-meaning/tadā",
+            "meaning": "at that time"
+          },
+          {
+            "id": 12,
+            "sanskrit": " uchyate",
+            "wordMeaningDetailUrl": "#/word-meaning/uchyate",
+            "meaning": "is said"
+          }
+        ],
         "currentVerseUrl": "#/chapter/6/verse/6.4",
         "nextVerseUrl": "#/chapter/6/verse/6.5",
         "previousVerseUrl": "#/chapter/6/verse/6.3"
@@ -33167,11 +33696,267 @@
         "currentVerse": "6.5",
         "nextVerse": "6.6",
         "previousVerse": "6.4",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 6.5",
+            "value": " Elevate yourself through the power of your mind, and not degrade yourself, for the mind can be the friend and also the enemy of the self."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "We are responsible for our own elevation or debasement. Nobody can traverse the path of God-realization for us. Saints and Gurus show us the way, but we have to travel it ourselves. There is a saying in Hindi: ek peḍa do pakṣhī baiṭhe, ek guru ek chelā, apanī karanī guru utare, apanī karanī chelā[v.01] “There are two birds sitting on a tree—one Guru and one disciple. The Guru will descend by his own works, and the disciple will also only be able to climb down by his own karmas.”",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "We have had innumerable lifetimes before this one, and God-realized Saints were always present on Earth. At any period of time, if the world is devoid of such Saints, then the souls of that period cannot become God-realized. How then can they fulfill the purpose of human life, which is God-realization? Thus, God ensures that God-realized Saints are always present in every era, to guide the sincere seekers and inspire humanity. So, in infinite past lifetimes, many times we must have met God-realized Saints and yet we did not become God-realized. This means that the problem was not lack of proper guidance, but either our reticence in accepting it or working according to it. Thus, we must first accept responsibility for our present level of spirituality, or lack thereof. Only then will we gain the confidence that if we have brought ourselves to our present state, we can also elevate ourselves by our efforts.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 3,
+            "value": "When we suffer reversals on the path of spiritual growth, we tend to complain that others have caused havoc to us, and they are our enemies. However, our biggest enemy is our own mind. It is the saboteur that thwarts our aspirations for perfection. Shree Krishna states that, on the one hand, as the greatest benefactor of the soul, the mind has the potential of giving us the most benefit; on the other hand, as our greatest adversary, it also has the potential for causing the maximum harm. A controlled mind can accomplish many beneficial endeavors, whereas an uncontrolled mind can degrade the consciousness with most ignoble thoughts.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 4,
+            "value": "In order to be able to use it as a friend, it is important to understand the mind’s nature. Our mind operates at four levels:",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 5,
+            "value": "",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 6,
+            "value": "Mind: When it creates thoughts, we call it mana, or the mind.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 7,
+            "value": "",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 8,
+            "value": "Intellect: When it analyses and decides, we call it buddhi, or intellect.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 9,
+            "value": "",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 10,
+            "value": "Chitta: When it gets attached to an object or person, we call it chitta.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 11,
+            "value": "",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 12,
+            "value": "Ego: When it identifies with the bodily identifications and becomes proud of things like wealth, status, beauty, and learning, we call it ahankār, or ego.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 13,
+            "value": "",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 14,
+            "value": "These are not four separate entities. They are simply four levels of functioning of the one mind. Hence, we may refer to them all together as the mind, or as the mind-intellect, or as the mind-intellect-ego, or as the mind-intellect-chitta-ego. They all refer to the same thing.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 15,
+            "value": "",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 16,
+            "value": "The use of the word ego here is different from its connotation in Freudian psychology. Sigmund Freud (1856 – 1939), an Austrian neurologist, proposed the first theory of psychology regarding how the mind works. According to him, the ego is the “real self” that bridges the gap between our untamed desires (Id) and the value system that is learnt during childhood (Superego).",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 17,
+            "value": "",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 18,
+            "value": "Various scriptures describe the mind in one of these four ways for the purpose of explaining the concepts presented there. They are all referring to the same internal apparatus within us, which is together called antaḥ karaṇ, or the mind. For example:",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 19,
+            "value": "",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 20,
+            "value": "The Pañchadaśhī refers to all four together as the mind, and states that it is the cause of material bondage.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 21,
+            "value": "",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 22,
+            "value": "In the Bhagavad Gita, Shree Krishna repeatedly talks of the mind and the intellect as being two things, and emphasizes the need to surrender both to God.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 23,
+            "value": "",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 24,
+            "value": "The Yog Darśhan, while analyzing the different elements of nature, talks of three entities: mind, intellect, and ego.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 25,
+            "value": "",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 26,
+            "value": "Shankaracharya, while explaining the apparatus available to the soul, classifies the mind into four—mind, intellect, chitta and ego.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 27,
+            "value": "",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 28,
+            "value": "So when Shree Krishna says that we must use the mind to elevate the self, he means we must use the higher mind to elevate the lower mind. In other words, we must use the intellect to control the mind. How this can be done has been explained in detail in verses 2.41 to 2.44 and again in verse 3.43.",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "उद्धरेदात्मनात्मानं नात्मानमवसादयेत् |"
+          },
+          {
+            "id": 2,
+            "value": "आत्मैव ह्यात्मनो बन्धुरात्मैव रिपुरात्मन: || 5||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "uddhared ātmanātmānaṁ nātmānam avasādayet"
+          },
+          {
+            "id": 2,
+            "value": "ātmaiva hyātmano bandhur ātmaiva ripur ātmanaḥ"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "uddharet",
+            "wordMeaningDetailUrl": "#/word-meaning/uddharet",
+            "meaning": "elevate"
+          },
+          {
+            "id": 2,
+            "sanskrit": " ātmanā",
+            "wordMeaningDetailUrl": "#/word-meaning/ātmanā",
+            "meaning": "through the mind"
+          },
+          {
+            "id": 3,
+            "sanskrit": " ātmānam",
+            "wordMeaningDetailUrl": "#/word-meaning/ātmānam",
+            "meaning": "the self"
+          },
+          {
+            "id": 4,
+            "sanskrit": " na",
+            "wordMeaningDetailUrl": "#/word-meaning/na",
+            "meaning": "not"
+          },
+          {
+            "id": 5,
+            "sanskrit": " ātmānam",
+            "wordMeaningDetailUrl": "#/word-meaning/ātmānam",
+            "meaning": "the self"
+          },
+          {
+            "id": 6,
+            "sanskrit": " avasādayet",
+            "wordMeaningDetailUrl": "#/word-meaning/avasādayet",
+            "meaning": "degrade"
+          },
+          {
+            "id": 7,
+            "sanskrit": " ātmā",
+            "wordMeaningDetailUrl": "#/word-meaning/ātmā",
+            "meaning": "the mind"
+          },
+          {
+            "id": 8,
+            "sanskrit": " eva",
+            "wordMeaningDetailUrl": "#/word-meaning/eva",
+            "meaning": "certainly"
+          },
+          {
+            "id": 9,
+            "sanskrit": " hi",
+            "wordMeaningDetailUrl": "#/word-meaning/hi",
+            "meaning": "indeed"
+          },
+          {
+            "id": 10,
+            "sanskrit": " ātmanaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/ātmanaḥ",
+            "meaning": "of the self"
+          },
+          {
+            "id": 11,
+            "sanskrit": " bandhuḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/bandhuḥ",
+            "meaning": "friend"
+          },
+          {
+            "id": 12,
+            "sanskrit": " ātmā",
+            "wordMeaningDetailUrl": "#/word-meaning/ātmā",
+            "meaning": "the mind"
+          },
+          {
+            "id": 13,
+            "sanskrit": " eva",
+            "wordMeaningDetailUrl": "#/word-meaning/eva",
+            "meaning": "certainly"
+          },
+          {
+            "id": 14,
+            "sanskrit": " ripuḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/ripuḥ",
+            "meaning": "enemy"
+          },
+          {
+            "id": 15,
+            "sanskrit": " ātmanaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/ātmanaḥ",
+            "meaning": "of the self"
+          }
+        ],
         "currentVerseUrl": "#/chapter/6/verse/6.5",
         "nextVerseUrl": "#/chapter/6/verse/6.6",
         "previousVerseUrl": "#/chapter/6/verse/6.4"
@@ -33183,11 +33968,193 @@
         "currentVerse": "6.6",
         "nextVerse": "6.7",
         "previousVerse": "6.5",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 6.6",
+            "value": " For those who have conquered the mind, it is their friend. For those who have failed to do so, the mind works like an enemy."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "We dissipate a large portion of our thought power and energy in combating people whom we perceive as enemies and potentially harmful to us. The Vedic scriptures say the biggest enemies—lust, anger, greed, envy, illusion, etc.—reside in our own mind. These internal enemies are even more pernicious than the outer ones. The external demons may injure us for some time, but the demons sitting within our own mind have the ability to make us live in constant wretchedness. We all know people who had everything favorable in the world, but lived miserable lives because their own mind tormented them incessantly through depression, hatred, tension, anxiety, and stress.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "The Vedic philosophy lays great emphasis on the ramification of thoughts. Illness is not only caused by viruses and bacteria, but also by the negativities we harbor in the mind. If someone accidentally throws a stone at you, it may hurt for a few minutes, but by the next day, you will probably have forgotten about it. However, if someone says something unpleasant, it may continue to agitate your mind for years. This is the immense power of the thoughts. In the Buddhist scripture, the Dhammapada (1.3), the Buddha also expresses this truth vividly:",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 3,
+            "value": "",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 4,
+            "value": "“I have been insulted! I have been hurt! I have been beaten! I have been robbed! Misery does not cease in those who harbor such thoughts.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 5,
+            "value": "",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 6,
+            "value": "When we nourish hatred in our mind, our negative thoughts do more damage to us than the object of our hatred. It has been very sagaciously stated: “Resentment is like drinking poison and hoping that the other person dies.” The problem is that most people do not even realize that their own uncontrolled mind is causing them so much harm. Hence, Jagadguru Shree Kripaluji Maharaj advises:",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 7,
+            "value": "",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 8,
+            "value": "  mana ko mano shatru usaki sunahu jani kachhu pyare (Sadhan Bhakti Tattva)[v1]",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 9,
+            "value": "",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 10,
+            "value": "“Dear spiritual aspirant, look on your uncontrolled mind as your enemy. Do not come under its sway.”",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 11,
+            "value": "",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 12,
+            "value": "However, the same mind has the potential of becoming our best friend, if we bring it under control of the intellect, through spiritual practice. The more powerful an entity is, the greater is the danger of its misuse, and also the greater is the scope for its utilization. Since the mind is such a powerful machine fitted into our bodies, it can work as a two-edged sword. Thus, those who slide to demoniac levels do so because of their own mind while those who attain sublime heights also do so because of their purified minds. Accordingly, Franklin D. Roosevelt, former President of America, expressed this very nicely: “Men are not prisoners of fate, but only prisoners of their own minds.” In this verse, Shree Krishna enlightens Arjun about the potential harm and benefits our mind can bestow upon us. In the following three verses, Shree Krishna describes the symptoms of one who is yog-aru?ha (advanced in Yog).",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "बन्धुरात्मात्मनस्तस्य येनात्मैवात्मना जित: |"
+          },
+          {
+            "id": 2,
+            "value": "अनात्मनस्तु शत्रुत्वे वर्ते तात्मैव शत्रुवत् || 6||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "bandhur ātmātmanas tasya yenātmaivātmanā jitaḥ"
+          },
+          {
+            "id": 2,
+            "value": "anātmanas tu śhatrutve vartetātmaiva śhatru-vat"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "bandhuḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/bandhuḥ",
+            "meaning": "friend"
+          },
+          {
+            "id": 2,
+            "sanskrit": " ātmā",
+            "wordMeaningDetailUrl": "#/word-meaning/ātmā",
+            "meaning": "the mind"
+          },
+          {
+            "id": 3,
+            "sanskrit": " ātmanaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/ātmanaḥ",
+            "meaning": "for the person"
+          },
+          {
+            "id": 4,
+            "sanskrit": " tasya",
+            "wordMeaningDetailUrl": "#/word-meaning/tasya",
+            "meaning": "of him"
+          },
+          {
+            "id": 5,
+            "sanskrit": " yena",
+            "wordMeaningDetailUrl": "#/word-meaning/yena",
+            "meaning": "by whom"
+          },
+          {
+            "id": 6,
+            "sanskrit": " ātmā",
+            "wordMeaningDetailUrl": "#/word-meaning/ātmā",
+            "meaning": "the mind"
+          },
+          {
+            "id": 7,
+            "sanskrit": " eva",
+            "wordMeaningDetailUrl": "#/word-meaning/eva",
+            "meaning": "certainly"
+          },
+          {
+            "id": 8,
+            "sanskrit": " ātmanā",
+            "wordMeaningDetailUrl": "#/word-meaning/ātmanā",
+            "meaning": "for the person"
+          },
+          {
+            "id": 9,
+            "sanskrit": " jitaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/jitaḥ",
+            "meaning": "conquered"
+          },
+          {
+            "id": 10,
+            "sanskrit": " anātmanaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/anātmanaḥ",
+            "meaning": "of those with unconquered mind"
+          },
+          {
+            "id": 11,
+            "sanskrit": " tu",
+            "wordMeaningDetailUrl": "#/word-meaning/tu",
+            "meaning": "but"
+          },
+          {
+            "id": 12,
+            "sanskrit": " śhatrutve",
+            "wordMeaningDetailUrl": "#/word-meaning/śhatrutve",
+            "meaning": "for an enemy"
+          },
+          {
+            "id": 13,
+            "sanskrit": " varteta",
+            "wordMeaningDetailUrl": "#/word-meaning/varteta",
+            "meaning": "remains"
+          },
+          {
+            "id": 14,
+            "sanskrit": " ātmā",
+            "wordMeaningDetailUrl": "#/word-meaning/ātmā",
+            "meaning": "the mind"
+          },
+          {
+            "id": 15,
+            "sanskrit": " eva",
+            "wordMeaningDetailUrl": "#/word-meaning/eva",
+            "meaning": "as"
+          },
+          {
+            "id": 16,
+            "sanskrit": " śhatru-vat",
+            "wordMeaningDetailUrl": "#/word-meaning/śhatru-vat",
+            "meaning": "like an enemy"
+          }
+        ],
         "currentVerseUrl": "#/chapter/6/verse/6.6",
         "nextVerseUrl": "#/chapter/6/verse/6.7",
         "previousVerseUrl": "#/chapter/6/verse/6.5"
