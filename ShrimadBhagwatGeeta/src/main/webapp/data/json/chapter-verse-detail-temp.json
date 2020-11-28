@@ -34166,11 +34166,113 @@
         "currentVerse": "6.7",
         "nextVerse": "6.8",
         "previousVerse": "6.6",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 6.7",
+            "value": " The yogis who have conquered the mind rise above the dualities of cold and heat, joy and sorrow, honor and dishonor. Such yogis remain peaceful and steadfast in their devotion to God."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "Shree Krishna explained in verse 2.14 that the contact between the senses and the sense objects gives the mind the experience of heat and cold, joy and sorrow. As long as the mind has not been subdued, a person chases after the sensual perceptions of pleasure and recoils from the perceptions of pain. The yogi who conquers the mind is able to see these fleeting perceptions as the workings of the bodily senses, distinct from the immortal soul, and thus, remain unmoved by them. Such an advanced yogi rises above the dualities of heat and cold, joy and sorrow, etc.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "There are only two realms in which the mind may dwell—one is the realm of Maya and the other is the realm of God. If the mind rises above the sensual dualities of the world, it can easily get absorbed in God. Thus, Shree Krishna has stated that an advanced yogi’s mind becomes situated in samādhi (deep meditation) upon God.",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "जितात्मन: प्रशान्तस्य परमात्मा समाहित: |"
+          },
+          {
+            "id": 2,
+            "value": "शीतोष्णसुखदु:खेषु तथा मानापमानयो: || 7||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "jitātmanaḥ praśhāntasya paramātmā samāhitaḥ"
+          },
+          {
+            "id": 2,
+            "value": "śhītoṣhṇa-sukha-duḥkheṣhu tathā mānāpamānayoḥ"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "jita-ātmanaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/jita-ātmanaḥ",
+            "meaning": "one who has conquered one’s mind"
+          },
+          {
+            "id": 2,
+            "sanskrit": " praśhāntasya",
+            "wordMeaningDetailUrl": "#/word-meaning/praśhāntasya",
+            "meaning": "of the peaceful"
+          },
+          {
+            "id": 3,
+            "sanskrit": " parama-ātmā",
+            "wordMeaningDetailUrl": "#/word-meaning/parama-ātmā",
+            "meaning": "God"
+          },
+          {
+            "id": 4,
+            "sanskrit": " samāhitaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/samāhitaḥ",
+            "meaning": "steadfast"
+          },
+          {
+            "id": 5,
+            "sanskrit": " śhīta",
+            "wordMeaningDetailUrl": "#/word-meaning/śhīta",
+            "meaning": "in cold"
+          },
+          {
+            "id": 6,
+            "sanskrit": " uṣhṇa",
+            "wordMeaningDetailUrl": "#/word-meaning/uṣhṇa",
+            "meaning": "heat"
+          },
+          {
+            "id": 7,
+            "sanskrit": " sukha",
+            "wordMeaningDetailUrl": "#/word-meaning/sukha",
+            "meaning": "happiness"
+          },
+          {
+            "id": 8,
+            "sanskrit": " duḥkheṣhu",
+            "wordMeaningDetailUrl": "#/word-meaning/duḥkheṣhu",
+            "meaning": "and distress"
+          },
+          {
+            "id": 9,
+            "sanskrit": " tathā",
+            "wordMeaningDetailUrl": "#/word-meaning/tathā",
+            "meaning": "also"
+          },
+          {
+            "id": 10,
+            "sanskrit": " māna",
+            "wordMeaningDetailUrl": "#/word-meaning/māna",
+            "meaning": "in honor"
+          },
+          {
+            "id": 11,
+            "sanskrit": " apamānayoḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/apamānayoḥ",
+            "meaning": "and dishonor"
+          }
+        ],
         "currentVerseUrl": "#/chapter/6/verse/6.7",
         "nextVerseUrl": "#/chapter/6/verse/6.8",
         "previousVerseUrl": "#/chapter/6/verse/6.6"
@@ -34182,11 +34284,125 @@
         "currentVerse": "6.8",
         "nextVerse": "6.9",
         "previousVerse": "6.7",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 6.8",
+            "value": " The yogi who are satisfied by knowledge and discrimination, and have conquered their senses, remain undisturbed in all circumstances. They see everything—dirt, stones, and gold—as the same."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "Jñāna, or knowledge, is the theoretical understanding obtained by listening to the Guru and from the study of the scriptures. Vijñāna is the realization of that knowledge as an internal awakening and wisdom from within. The intellect of the advanced yogi becomes illumined by both jñāna and vijñāna. Equipped with wisdom, the yogi sees all material objects as modifications of the material energy. Such a yogi does not differentiate between objects based on their attractiveness to the self. The enlightened yogi sees all things in their relationship with God. Since the material energy belongs to God, all things are meant for his service.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "The word kuṭastha refers to one who distances the mind from the fluctuating perceptions of senses in contact with the material energy, neither seeking pleasurable situations nor avoiding unpleasurable ones. Vijitendriya is one who has subjugated the senses. The word yukt means one who is in constant communion with the Supreme. Such person begins tasting the divine bliss of God, and hence becomes a tṛiptātmā, or one fully satisfied by virtue of realized knowledge.",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "ज्ञानविज्ञानतृप्तात्मा कूटस्थो विजितेन्द्रिय: |"
+          },
+          {
+            "id": 2,
+            "value": "युक्त इत्युच्यते योगी समलोष्टाश्मकाञ्चन: || 8||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "jñāna-vijñāna-tṛiptātmā kūṭa-stho vijitendriyaḥ"
+          },
+          {
+            "id": 2,
+            "value": "yukta ityuchyate yogī sama-loṣhṭāśhma-kāñchanaḥ"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "jñāna",
+            "wordMeaningDetailUrl": "#/word-meaning/jñāna",
+            "meaning": "knowledge"
+          },
+          {
+            "id": 2,
+            "sanskrit": " vijñāna",
+            "wordMeaningDetailUrl": "#/word-meaning/vijñāna",
+            "meaning": "realized knowledge, wisdom from within"
+          },
+          {
+            "id": 3,
+            "sanskrit": " tṛipta ātmā",
+            "wordMeaningDetailUrl": "#/word-meaning/tṛipta ātmā",
+            "meaning": "one fully satisfied"
+          },
+          {
+            "id": 4,
+            "sanskrit": " kūṭa-sthaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/kūṭa-sthaḥ",
+            "meaning": "undisturbed"
+          },
+          {
+            "id": 5,
+            "sanskrit": " vijita-indriyaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/vijita-indriyaḥ",
+            "meaning": "one who has conquered the senses"
+          },
+          {
+            "id": 6,
+            "sanskrit": " yuktaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/yuktaḥ",
+            "meaning": "one who is in constant communion with the Supreme"
+          },
+          {
+            "id": 7,
+            "sanskrit": " iti",
+            "wordMeaningDetailUrl": "#/word-meaning/iti",
+            "meaning": "thus"
+          },
+          {
+            "id": 8,
+            "sanskrit": " uchyate",
+            "wordMeaningDetailUrl": "#/word-meaning/uchyate",
+            "meaning": "is said"
+          },
+          {
+            "id": 9,
+            "sanskrit": " yogī",
+            "wordMeaningDetailUrl": "#/word-meaning/yogī",
+            "meaning": "a yogi"
+          },
+          {
+            "id": 10,
+            "sanskrit": " sama",
+            "wordMeaningDetailUrl": "#/word-meaning/sama",
+            "meaning": "looks equally"
+          },
+          {
+            "id": 11,
+            "sanskrit": " loṣhṭra",
+            "wordMeaningDetailUrl": "#/word-meaning/loṣhṭra",
+            "meaning": "pebbles"
+          },
+          {
+            "id": 12,
+            "sanskrit": " aśhma",
+            "wordMeaningDetailUrl": "#/word-meaning/aśhma",
+            "meaning": "stone"
+          },
+          {
+            "id": 13,
+            "sanskrit": " kāñchanaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/kāñchanaḥ",
+            "meaning": "gold"
+          }
+        ],
         "currentVerseUrl": "#/chapter/6/verse/6.8",
         "nextVerseUrl": "#/chapter/6/verse/6.9",
         "previousVerseUrl": "#/chapter/6/verse/6.7"
@@ -34198,11 +34414,160 @@
         "currentVerse": "6.9",
         "nextVerse": "6.10",
         "previousVerse": "6.8",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 6.9",
+            "value": " The yogis look upon all—well-wishers, friends, foes, the pious, and the sinners—with an impartial intellect. The yogi who is of equal intellect toward friend, companion, and foe, neutral among enemies and relatives, and impartial between the righteous and sinful, is considered to be distinguished among humans."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "It is the nature of the human mind to respond differently to friends and foes. But an elevated yogi’s nature is different. Endowed with realized knowledge of God, the elevated yogi see the whole creation in its unity with God. Thus, they are able to see all living beings with equality of vision. This parity of vision is also of various levels:",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 3,
+            "value": "“All living beings are divine souls, and hence parts of God.” Thus, they are viewed as equal. ātmavat sarva bhūteṣhu yaḥ paśhyati sa paṇḍitaḥ “A true Pundit is one who sees everyone as the soul, and hence similar to oneself.”",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 4,
+            "value": "",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 5,
+            "value": "Higher is the vision: “God is seated in everyone, and hence all are equally respect worthy.”",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 6,
+            "value": "",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 7,
+            "value": "At the highest level, the yogi develops the vision: “Everyone is the form of God.” The Vedic scriptures repeatedly state that the whole world is a veritable form of God: īśhāvāsyam idam sarvaṁ yat kiñcha jagatyāṁ jagat (Īśhopaniṣhad 1)[v2] “The entire universe, with all its living and non-living beings is the manifestation of the Supreme Being, who dwells within it.” puruṣha evedaṁ sarvaṁ (Puruṣh Sūktam)[v3] “God is everywhere in this world, and everything is his energy.” Hence, the highest yogi sees everyone as the manifestation of God. Endowed with this level of vision, Hanuman says: sīyā rāma maya saba jaga jānī (Ramayan)[v4] “I see the face of Sita Ram in everyone.”",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 8,
+            "value": "",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 9,
+            "value": "These categories have been further detailed in the commentary to verse 6.31. Referring to all three of the above categories, Shree Krishna says that the yogi who can maintain an equal vision toward all persons is even more elevated than the yogi mentioned in the previous verse. Having described the state of Yog, starting with the next verse, Shree Krishna describes the practice by which we can achieve that state.",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "सुहृन्मित्रार्युदासीनमध्यस्थद्वेष्यबन्धुषु |"
+          },
+          {
+            "id": 2,
+            "value": "साधुष्वपि च पापेषु समबुद्धिर्विशिष्यते || 9||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "suhṛin-mitrāryudāsīna-madhyastha-dveṣhya-bandhuṣhu"
+          },
+          {
+            "id": 2,
+            "value": "sādhuṣhvapi cha pāpeṣhu sama-buddhir viśhiṣhyate"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "su-hṛit",
+            "wordMeaningDetailUrl": "#/word-meaning/su-hṛit",
+            "meaning": "toward the well-wishers"
+          },
+          {
+            "id": 2,
+            "sanskrit": " mitra",
+            "wordMeaningDetailUrl": "#/word-meaning/mitra",
+            "meaning": "friends"
+          },
+          {
+            "id": 3,
+            "sanskrit": " ari",
+            "wordMeaningDetailUrl": "#/word-meaning/ari",
+            "meaning": "enemies"
+          },
+          {
+            "id": 4,
+            "sanskrit": " udāsīna",
+            "wordMeaningDetailUrl": "#/word-meaning/udāsīna",
+            "meaning": "neutral persons"
+          },
+          {
+            "id": 5,
+            "sanskrit": " madhya-stha",
+            "wordMeaningDetailUrl": "#/word-meaning/madhya-stha",
+            "meaning": "mediators"
+          },
+          {
+            "id": 6,
+            "sanskrit": " dveṣhya",
+            "wordMeaningDetailUrl": "#/word-meaning/dveṣhya",
+            "meaning": "the envious"
+          },
+          {
+            "id": 7,
+            "sanskrit": " bandhuṣhu",
+            "wordMeaningDetailUrl": "#/word-meaning/bandhuṣhu",
+            "meaning": "relatives"
+          },
+          {
+            "id": 8,
+            "sanskrit": " sādhuṣhu",
+            "wordMeaningDetailUrl": "#/word-meaning/sādhuṣhu",
+            "meaning": "pious"
+          },
+          {
+            "id": 9,
+            "sanskrit": " api",
+            "wordMeaningDetailUrl": "#/word-meaning/api",
+            "meaning": "as well as"
+          },
+          {
+            "id": 10,
+            "sanskrit": " cha",
+            "wordMeaningDetailUrl": "#/word-meaning/cha",
+            "meaning": "and"
+          },
+          {
+            "id": 11,
+            "sanskrit": " pāpeṣhu",
+            "wordMeaningDetailUrl": "#/word-meaning/pāpeṣhu",
+            "meaning": "the sinners"
+          },
+          {
+            "id": 12,
+            "sanskrit": " sama-buddhiḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/sama-buddhiḥ",
+            "meaning": "of impartial intellect"
+          },
+          {
+            "id": 13,
+            "sanskrit": " viśhiṣhyate",
+            "wordMeaningDetailUrl": "#/word-meaning/viśhiṣhyate",
+            "meaning": "is distinguished"
+          }
+        ],
         "currentVerseUrl": "#/chapter/6/verse/6.9",
         "nextVerseUrl": "#/chapter/6/verse/6.10",
         "previousVerseUrl": "#/chapter/6/verse/6.8"
