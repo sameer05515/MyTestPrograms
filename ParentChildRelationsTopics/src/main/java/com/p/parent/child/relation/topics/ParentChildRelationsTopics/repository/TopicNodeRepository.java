@@ -18,6 +18,8 @@ public class TopicNodeRepository {
     private JdbcTemplate jdbcTemplate;
 	
 	public int save(TopicNode customer) {
+		
+		System.out.println(customer);
         return jdbcTemplate.update(
                 "insert into parent_child_relation_topics.t_views (title, parent_id) values(?,?)",
                 customer.getTitle(), customer.getParentId());

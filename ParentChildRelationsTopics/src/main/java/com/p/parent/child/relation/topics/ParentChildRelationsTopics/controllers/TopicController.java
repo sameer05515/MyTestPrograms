@@ -11,6 +11,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.p.parent.child.relation.topics.ParentChildRelationsTopics.dto.TopicNode;
@@ -46,6 +48,24 @@ public class TopicController {
 	}
 	
 	
+	@PostMapping("/topics/tree/data")
+	public ResponseEntity<Object> saveTopicNode(@RequestBody TopicNode customer){
+		ResponseEntity<Object> response = null;
+		
+		try {
+			log.info("Inside com.p.parent.child.relation.topics.ParentChildRelationsTopics.controllers.TopicController.findAllWithPath(HttpServletRequest, HttpServletResponse) method ...");
+			int i=topicNodeRepository.save(customer);
+			response = ResponseHandler.generateResponse(HttpStatus.OK, false, "Success", i);
+		} catch (Exception e) {
+				response = ResponseHandler.generateResponse(HttpStatus.INTERNAL_SERVER_ERROR, true, "Fail",
+						e.getMessage());
+			e.printStackTrace();
+		}
+		
+		return response;
+	}
+	
+	
 	@GetMapping("/topics/tree/data")
 	public ResponseEntity<Object> findAllWithPath(HttpServletRequest req, HttpServletResponse resp) {
 		ResponseEntity<Object> response = null;
@@ -59,7 +79,7 @@ public class TopicController {
 			response = ResponseHandler.generateResponse(HttpStatus.OK, false, "Success", listWords);
 		} catch (Exception e) {
 				response = ResponseHandler.generateResponse(HttpStatus.INTERNAL_SERVER_ERROR, true, "Fail",
-						"Error in operation : null");
+						e.getMessage());
 			e.printStackTrace();
 		}
 		return response;	
