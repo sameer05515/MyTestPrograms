@@ -71,7 +71,7 @@ public class HttpRequestTest {
 
 		HttpEntity<String> entity = new HttpEntity<String>(null, headers);
 
-		ResponseEntity<String> response = restTemplate.exchange(createURLWithPort("/employee/place/Gurgaon"),
+		ResponseEntity<String> response = restTemplate.exchange(createURLWithPort("/employee/place/Chennai"),
 				HttpMethod.GET, entity, String.class);
 
 		System.out.println(">>>>>>>>>>>>>>>>>>> \n\n" + response + "\n\n<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<");
