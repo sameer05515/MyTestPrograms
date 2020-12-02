@@ -1,3 +1,21 @@
+/* [2,4,3] - First Linkedlist
+* [5,6,6] - second linkedlist
+ * output - [7,0,0]
+ 
+ 5+2 = 7
+ node1 = new ListNode(7);
+ node2 = new ListNode(0)
+ 
+ node1.next = node2
+ 
+ node3 = new List(3);
+ 
+ node2.next = node3;
+ node3.next = null;
+ 
+ 
+
+*/
 package com.p.fcm.coding.interview;
 
 import java.util.ArrayList;
