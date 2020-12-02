@@ -2,6 +2,7 @@ package com.empl.coding.exercise.coding.ex.pojo;
 
 import java.util.Date;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -14,14 +15,29 @@ import org.json.JSONObject;
 public class Employee {
 
 	@Id
+	@Column(name="employeeID")
 	@GeneratedValue
 	int employeeID;
+	
+	@Column(name="employee_Name")
 	String employeeName;
+	
+	@Column(name="title")
 	String title;
+	
+	@Column(name="business_Unit" )
 	String businessUnit;
+	
+	@Column(name="place")
 	String place;
+	
+	@Column(name="supervisorID")
 	int supervisorID;
+	
+	@Column(name="competencies")
 	String competencies;
+	
+	@Column(name="salary")
 	int salary;
 
 	
