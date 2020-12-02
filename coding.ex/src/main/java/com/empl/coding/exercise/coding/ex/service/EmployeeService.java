@@ -16,21 +16,23 @@ import com.empl.coding.exercise.coding.ex.pojo.Employee;
 
 @Service
 public class EmployeeService {
-	
+
 	@Autowired
 	EmployeeRepository employeeRepository;
-	
+
 	@Value("${coding.ex.contants.pageSize:5}")
 	private int PageSize;
 
-	public List<Employee> findPagedDataByPlace(int pageNumber, String place)
-			throws InvalidInputSuppliedException {
+	@Value("${coding.ex.contants.maxAllowedSalaryPercentage:55}")
+	private int MaxAllowedSalaryPercentage;
+
+	public List<Employee> findPagedDataByPlace(int pageNumber, String place) throws InvalidInputSuppliedException {
 
 		if (pageNumber < 0) {
 			throw new InvalidInputSuppliedException("Invalid page number ( " + pageNumber + " ) supplied. ");
 		}
 
-		//int pageSize=5;
+		// int pageSize=5;
 
 		Pageable pageable = PageRequest.of(pageNumber, PageSize);
 		List<Employee> pagedData = employeeRepository.findPagedDataByPlace(pageable, place);
@@ -38,34 +40,36 @@ public class EmployeeService {
 		return pagedData;
 	}
 
-	public Map<String, Integer> getRangeOfSalaryHavingCompetency(String competency) throws InvalidInputSuppliedException {
-		
-		if (competency==null || competency.trim().equals("")) {
+	public Map<String, Integer> getRangeOfSalaryHavingCompetency(String competency)
+			throws InvalidInputSuppliedException {
+
+		if (competency == null || competency.trim().equals("")) {
 			throw new InvalidInputSuppliedException("Invalid competency ( " + competency + " ) supplied. ");
 		}
 		return employeeRepository.getRangeOfSalaryHavingCompetency(competency);
 	}
 
 	public int incrementSalaryOfGivenPlaceEmployees(String place, int percentage) throws InvalidInputSuppliedException {
-		if (place==null || place.trim().equals("")) {
+		if (place == null || place.trim().equals("")) {
 			throw new InvalidInputSuppliedException("Invalid place ( " + place + " ) supplied. ");
 		}
-		if (percentage<=0) {
+		if (percentage <= 0) {
 			throw new InvalidInputSuppliedException("Invalid percentage ( " + percentage + " ) supplied. ");
 		}
-		if (percentage>55) {
-			throw new InvalidInputSuppliedException("Invalid percentage ( " + percentage + " ) supplied. ");
+		if (percentage > MaxAllowedSalaryPercentage) {
+			throw new InvalidInputSuppliedException("Given percentage ( " + percentage
+					+ " ) , exceeding MaxAllowedSalaryPercentage " + MaxAllowedSalaryPercentage + " ");
 		}
-		
-		List<Employee> emps=employeeRepository.findByPlace(place);
-		if(emps==null||emps.size()==0) {
+
+		List<Employee> emps = employeeRepository.findByPlace(place);
+		if (emps == null || emps.size() == 0) {
 			throw new InvalidInputSuppliedException("No employees in given place ( " + place + " ) supplied. ");
 		}
-//		emps.stream().map(Employee emp->{});
-		for(Employee emp:emps) {
-			emp.setSalary(emp.getSalary()*(100+percentage)/100);
+		
+		for (Employee emp : emps) {
+			emp.setSalary(emp.getSalary() * (100 + percentage) / 100);
 		}
-		List<Employee> saved= employeeRepository.saveAll(emps);
+		List<Employee> saved = employeeRepository.saveAll(emps);
 		return saved.size();
 	}
 

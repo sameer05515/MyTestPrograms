@@ -23,7 +23,7 @@ public class ResponseHandler {
             map.clear();
             //map.put("timestamp", new Date());
             map.put("status", HttpStatus.INTERNAL_SERVER_ERROR.value());
-            map.put("isError",false);
+            map.put("isError",true);
             map.put("message", e.getMessage());
             map.put("data", null);
             return new ResponseEntity<Object>(map,status);
