@@ -2,6 +2,8 @@ package com.p.java8examples.streams;
 
 import java.util.LinkedList;
 import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 // Java code to print the elements of Stream 
 
@@ -25,6 +27,9 @@ class GFG {
 		
 		System.out.println("=======================================");
 		Utility.printStreams(Utility.toEmployeeArrayUsingStream(listEmployee));
+		
+		List<Employee> listEmployee1 = Stream.of(Utility.toEmployeeArrayUsingStream(listEmployee)).collect(Collectors.toList());
+		System.out.println(listEmployee1);
 		
 	}
 }
