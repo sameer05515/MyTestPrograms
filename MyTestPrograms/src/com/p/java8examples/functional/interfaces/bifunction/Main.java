@@ -1,4 +1,4 @@
-package com.p.java8examples.streams.bifunction;
+package com.p.java8examples.functional.interfaces.bifunction;
 
 import java.util.Arrays;
 import java.util.HashMap;
