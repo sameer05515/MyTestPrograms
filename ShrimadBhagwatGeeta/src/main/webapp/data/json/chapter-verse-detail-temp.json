@@ -34579,11 +34579,112 @@
         "currentVerse": "6.10",
         "nextVerse": "6.11",
         "previousVerse": "6.9",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 6.10",
+            "value": " Those who seek the state of Yog should reside in seclusion, constantly engaged in meditation with a controlled mind and body, getting rid of desires and possessions for enjoyment."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "Having stated the characteristics of one who has attained the state of Yog, Shree Krishna now talks about the self-preparation required for it. Mastery in any field requires daily practice. An Olympic swimming champion is not one who goes to the local neighborhood swimming pool once a week on Saturday evenings. Only one who practices for several hours every day achieves the mastery required to win the Olympics. Practice is essential for spiritual mastery as well. Shree Krishna now explains the process of accomplishing spiritual mastery by recommending the daily practice of meditation. The first point he mentions is the need for a secluded place. All day long, we are usually surrounded by a worldly environment; these material activities, people, and conversations, all tend to make the mind more worldly. In order to elevate the mind toward God, we need to dedicate some time on a daily basis for secluded sādhanā.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "The analogy of milk and water can help elucidate this point. If milk is poured into water, it cannot retain its undiluted identity, for water naturally mixes with it. However, if the milk is kept separate from water and converted into yogurt, and then the yogurt is churned to extract butter, the butter becomes immiscible. It can now challenge the water, “I will sit on your head and float; you can do nothing to me because I have become butter now.” Our mind is like the milk and the world is like water. In contact with the world, the mind gets affected by it and becomes worldly. However, an environment of seclusion, which offers minimal contact with the objects of the senses, becomes conducive for elevating the mind and focusing it upon God. Once sufficient attachment for God has been achieved, one can challenge the world, “I will live amidst all the dualities of Maya, but remain untouched by them.”",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 3,
+            "value": "This instruction for seclusion has been repeated by Shree Krishna in verse 18.52: vivikt sevī laghvāśhī “Live in a secluded place; control your diet.” There is a beautiful way of practically applying this instruction without disturbing our professional and social works. In our daily schedule, we can allocate some time for sādhanā, or spiritual practice, where we isolate ourselves in a room that is free from worldly disturbances. Shutting ourselves out from the world, we should do sādhanā to purify the mind and solidify its focus upon God. If we practice in this manner for one to two hours every day, we will reap its benefits all through the day even while engaged in worldly activities. In this manner we will be able to retain the elevated state of consciousness that was gathered during the daily sādhanā in isolation from the world.",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "योगी युञ्जीत सततमात्मानं रहसि स्थित: |"
+          },
+          {
+            "id": 2,
+            "value": "एकाकी यतचित्तात्मा निराशीरपरिग्रह: || 10||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "yogī yuñjīta satatam ātmānaṁ rahasi sthitaḥ"
+          },
+          {
+            "id": 2,
+            "value": "ekākī yata-chittātmā nirāśhīr aparigrahaḥ"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "yogī",
+            "wordMeaningDetailUrl": "#/word-meaning/yogī",
+            "meaning": "a yogi"
+          },
+          {
+            "id": 2,
+            "sanskrit": " yuñjīta",
+            "wordMeaningDetailUrl": "#/word-meaning/yuñjīta",
+            "meaning": "should remain engaged in meditation"
+          },
+          {
+            "id": 3,
+            "sanskrit": " satatam",
+            "wordMeaningDetailUrl": "#/word-meaning/satatam",
+            "meaning": "constantly"
+          },
+          {
+            "id": 4,
+            "sanskrit": " ātmānam",
+            "wordMeaningDetailUrl": "#/word-meaning/ātmānam",
+            "meaning": "self"
+          },
+          {
+            "id": 5,
+            "sanskrit": " rahasi",
+            "wordMeaningDetailUrl": "#/word-meaning/rahasi",
+            "meaning": "in seclusion"
+          },
+          {
+            "id": 6,
+            "sanskrit": " sthitaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/sthitaḥ",
+            "meaning": "remaining"
+          },
+          {
+            "id": 7,
+            "sanskrit": " ekākī",
+            "wordMeaningDetailUrl": "#/word-meaning/ekākī",
+            "meaning": "alone"
+          },
+          {
+            "id": 8,
+            "sanskrit": " yata-chitta-ātmā",
+            "wordMeaningDetailUrl": "#/word-meaning/yata-chitta-ātmā",
+            "meaning": "with a controlled mind and body"
+          },
+          {
+            "id": 9,
+            "sanskrit": " nirāśhīḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/nirāśhīḥ",
+            "meaning": "free from desires"
+          },
+          {
+            "id": 10,
+            "sanskrit": " aparigrahaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/aparigrahaḥ",
+            "meaning": "free from desires for possessions for enjoyment"
+          }
+        ],
         "currentVerseUrl": "#/chapter/6/verse/6.10",
         "nextVerseUrl": "#/chapter/6/verse/6.11",
         "previousVerseUrl": "#/chapter/6/verse/6.9"
@@ -34595,11 +34696,138 @@
         "currentVerse": "6.11",
         "nextVerse": "6.12 – 6.13",
         "previousVerse": "6.10",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 6.11",
+            "value": " To practice Yog, one should make an āsan (seat) in a sanctified place, by placing kuśh grass, deer skin, and a cloth, one over the other. The āsan should be neither too high nor too low."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "Shree Krishna explains in this verse the external practice for sādhanā. Śhuchau deśhe means a pure or sanctified place. In the initial stages, the external environment does impact the mind. In later stages of sādhanā, one is able to achieve internal purity even in dirty and unclean places. But for neophytes, clean surroundings help in keeping the mind clean as well. A mat of kuśh grass provides temperature insulation from the ground, akin to the yoga mats of today. The deer skin atop it deters poisonous pests like snakes and scorpions from approaching while one is absorbed in meditation. If the āsan is too high, there is the risk of falling off; if the āsan is too low, there is danger of disturbance from insects on the ground. Some instructions regarding external seating given in this verse may be somewhat anachronous to modern times, in which case the spirit of the instruction is to be absorbed in the thought of God, while the instructions for the internal practice remain the same.",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "शुचौ देशे प्रतिष्ठाप्य स्थिरमासनमात्मन: |"
+          },
+          {
+            "id": 2,
+            "value": "नात्युच्छ्रितं नातिनीचं चैलाजिनकुशोत्तरम् || 11||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "śhuchau deśhe pratiṣhṭhāpya sthiram āsanam ātmanaḥ"
+          },
+          {
+            "id": 2,
+            "value": "nātyuchchhritaṁ nāti-nīchaṁ chailājina-kuśhottaram"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "śhuchau",
+            "wordMeaningDetailUrl": "#/word-meaning/śhuchau",
+            "meaning": "in a clean"
+          },
+          {
+            "id": 2,
+            "sanskrit": " deśhe",
+            "wordMeaningDetailUrl": "#/word-meaning/deśhe",
+            "meaning": "place"
+          },
+          {
+            "id": 3,
+            "sanskrit": " pratiṣhṭhāpya",
+            "wordMeaningDetailUrl": "#/word-meaning/pratiṣhṭhāpya",
+            "meaning": "having established"
+          },
+          {
+            "id": 4,
+            "sanskrit": " sthiram",
+            "wordMeaningDetailUrl": "#/word-meaning/sthiram",
+            "meaning": "steadfast"
+          },
+          {
+            "id": 5,
+            "sanskrit": " āsanam",
+            "wordMeaningDetailUrl": "#/word-meaning/āsanam",
+            "meaning": "seat"
+          },
+          {
+            "id": 6,
+            "sanskrit": " ātmanaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/ātmanaḥ",
+            "meaning": "his own"
+          },
+          {
+            "id": 7,
+            "sanskrit": " na",
+            "wordMeaningDetailUrl": "#/word-meaning/na",
+            "meaning": "not"
+          },
+          {
+            "id": 8,
+            "sanskrit": " ati",
+            "wordMeaningDetailUrl": "#/word-meaning/ati",
+            "meaning": "too"
+          },
+          {
+            "id": 9,
+            "sanskrit": " uchchhritam",
+            "wordMeaningDetailUrl": "#/word-meaning/uchchhritam",
+            "meaning": "high"
+          },
+          {
+            "id": 10,
+            "sanskrit": " na",
+            "wordMeaningDetailUrl": "#/word-meaning/na",
+            "meaning": "not"
+          },
+          {
+            "id": 11,
+            "sanskrit": " ati",
+            "wordMeaningDetailUrl": "#/word-meaning/ati",
+            "meaning": "too"
+          },
+          {
+            "id": 12,
+            "sanskrit": " nīcham",
+            "wordMeaningDetailUrl": "#/word-meaning/nīcham",
+            "meaning": "low"
+          },
+          {
+            "id": 13,
+            "sanskrit": " chaila",
+            "wordMeaningDetailUrl": "#/word-meaning/chaila",
+            "meaning": "cloth"
+          },
+          {
+            "id": 14,
+            "sanskrit": " ajina",
+            "wordMeaningDetailUrl": "#/word-meaning/ajina",
+            "meaning": "a deerskin"
+          },
+          {
+            "id": 15,
+            "sanskrit": " kuśha",
+            "wordMeaningDetailUrl": "#/word-meaning/kuśha",
+            "meaning": "kuśh grass"
+          },
+          {
+            "id": 16,
+            "sanskrit": " uttaram",
+            "wordMeaningDetailUrl": "#/word-meaning/uttaram",
+            "meaning": "one over the other"
+          }
+        ],
         "currentVerseUrl": "#/chapter/6/verse/6.11",
         "nextVerseUrl": "#/chapter/6/verse/6.12 – 6.13",
         "previousVerseUrl": "#/chapter/6/verse/6.10"
@@ -34611,11 +34839,317 @@
         "currentVerse": "6.12 – 6.13",
         "nextVerse": "6.14",
         "previousVerse": "6.11",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 6.12-13",
+            "value": " Seated firmly on it, the yogi should strive to purify the mind by focusing it in meditation with one pointed concentration, controlling all thoughts and activities. He must hold the body, neck, and head firmly in a straight line, and gaze at the tip of the nose, without allowing the eyes to wander."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "Having described the seating for meditation, Shree Krishna next describes the posture of the body that is best for concentrating the mind. In sādhanā, there is a tendency to become lazy and doze off to sleep. This happens because the material mind does not initially get as much bliss in contemplation on God as it does while relishing sense objects. This creates the possibility for the mind to become languid when focused on God. Hence, you do not find people dozing off half-way through their meal, but you do see people falling asleep during meditation and the chanting of God’s names. To avoid this, Shree Krishna gives the instruction to sit erect. The Brahma Sūtra also states three aphorisms regarding the posture for meditation:",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "  āsīnaḥ saṁbhavāt (4.1.7)[v5] “To do sādhanā, seat yourself properly.”",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 3,
+            "value": "  achalatvaṁ chāpekṣhya (4.1.9)[v6] “Ensure that you sit erect and still.”",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 4,
+            "value": "  dhyānāchcha (4.1.8)[v7] “Seated in this manner, focus the mind in meditation.”",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 5,
+            "value": "",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 6,
+            "value": "There are a number of meditative āsans described in the Hath Yoga Pradeepika, such as padmasan, ardha padmasan, dhyanveer asan, siddhasan, and sukhasan. We may adopt any āsan in which we can comfortably sit, without moving, during the period of the meditation. Maharshi Patañjali states:",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 7,
+            "value": "",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 8,
+            "value": "  sthira sukhamāsanam (Patañjali Yog Sūtra 2.46)[v8]",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 9,
+            "value": "",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 10,
+            "value": "“To practice meditation, sit motionless in any posture that you are comfortable in.” Some people are unable to sit on the floor due to knee problems, etc. They should not feel discouraged, for they can even practice meditation while sitting on a chair, provided they fulfill the condition of sitting motionless and erect.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 11,
+            "value": "",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 12,
+            "value": "In this verse, Shree Krishna states that the eyes should be made to focus on the tip of the nose, and prevented from wandering. As a variation, the eyes can also be kept closed. Both these techniques will be helpful in blocking out worldly distractions.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 13,
+            "value": "",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 14,
+            "value": "The external seat and posture do need to be appropriate, but meditation is truly a journey within us. Through meditation, we can reach deep within and cleanse the mind of endless lifetimes of dross. By learning to hold the mind in concentration, we can work upon it to harness its latent potential. The practice of meditation helps organize our personality, awaken our inner consciousness, and expand our self-awareness. The spiritual benefits of meditation are described later, in the purport on verse 6.15. Some of the side benefits are:",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 15,
+            "value": "",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 16,
+            "value": "It reins the unbridled mind, and harnesses the thought energy to attain difficult goals.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 17,
+            "value": "",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 18,
+            "value": "It helps maintain mental balance in the midst of adverse circumstances.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 19,
+            "value": "",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 20,
+            "value": "It aids in the development of a strong resolve that is necessary for success in life.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 21,
+            "value": "",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 22,
+            "value": "It enables one to eliminate bad sanskārs and habits, and cultivate good qualities.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 23,
+            "value": "",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 24,
+            "value": "The best kind of meditation is one where the mind is focused upon God. This is clarified in the next two verses.",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "तत्रैकाग्रं मन: कृत्वा यतचित्तेन्द्रियक्रिय: |"
+          },
+          {
+            "id": 2,
+            "value": "उपविश्यासने युञ्ज्याद्योगमात्मविशुद्धये || 12||"
+          },
+          {
+            "id": 3,
+            "value": "समं कायशिरोग्रीवं धारयन्नचलं स्थिर: |"
+          },
+          {
+            "id": 4,
+            "value": "सम्प्रेक्ष्य नासिकाग्रं स्वं दिशश्चानवलोकयन् || 13||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "tatraikāgraṁ manaḥ kṛitvā yata-chittendriya-kriyaḥ"
+          },
+          {
+            "id": 2,
+            "value": "upaviśhyāsane yuñjyād yogam ātma-viśhuddhaye"
+          },
+          {
+            "id": 3,
+            "value": "samaṁ kāya-śhiro-grīvaṁ dhārayann achalaṁ sthiraḥ"
+          },
+          {
+            "id": 4,
+            "value": "samprekṣhya nāsikāgraṁ svaṁ diśhaśh chānavalokayan"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "tatra",
+            "wordMeaningDetailUrl": "#/word-meaning/tatra",
+            "meaning": "there"
+          },
+          {
+            "id": 2,
+            "sanskrit": " eka-agram",
+            "wordMeaningDetailUrl": "#/word-meaning/eka-agram",
+            "meaning": "one-pointed"
+          },
+          {
+            "id": 3,
+            "sanskrit": " manaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/manaḥ",
+            "meaning": "mind"
+          },
+          {
+            "id": 4,
+            "sanskrit": " kṛitvā",
+            "wordMeaningDetailUrl": "#/word-meaning/kṛitvā",
+            "meaning": "having made"
+          },
+          {
+            "id": 5,
+            "sanskrit": " yata-chitta",
+            "wordMeaningDetailUrl": "#/word-meaning/yata-chitta",
+            "meaning": "controlling the mind"
+          },
+          {
+            "id": 6,
+            "sanskrit": " indriya",
+            "wordMeaningDetailUrl": "#/word-meaning/indriya",
+            "meaning": "senses"
+          },
+          {
+            "id": 7,
+            "sanskrit": " kriyaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/kriyaḥ",
+            "meaning": "activities"
+          },
+          {
+            "id": 8,
+            "sanskrit": " upaviśhya",
+            "wordMeaningDetailUrl": "#/word-meaning/upaviśhya",
+            "meaning": "being seated"
+          },
+          {
+            "id": 9,
+            "sanskrit": " āsane",
+            "wordMeaningDetailUrl": "#/word-meaning/āsane",
+            "meaning": "on the seat"
+          },
+          {
+            "id": 10,
+            "sanskrit": " yuñjyāt yogam",
+            "wordMeaningDetailUrl": "#/word-meaning/yuñjyāt yogam",
+            "meaning": "should strive to practice yog"
+          },
+          {
+            "id": 11,
+            "sanskrit": " ātma viśhuddhaye",
+            "wordMeaningDetailUrl": "#/word-meaning/ātma viśhuddhaye",
+            "meaning": "for purification of the mind"
+          },
+          {
+            "id": 12,
+            "sanskrit": " samam",
+            "wordMeaningDetailUrl": "#/word-meaning/samam",
+            "meaning": "straight"
+          },
+          {
+            "id": 13,
+            "sanskrit": " kāya",
+            "wordMeaningDetailUrl": "#/word-meaning/kāya",
+            "meaning": "body"
+          },
+          {
+            "id": 14,
+            "sanskrit": " śhiraḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/śhiraḥ",
+            "meaning": "head"
+          },
+          {
+            "id": 15,
+            "sanskrit": " grīvam",
+            "wordMeaningDetailUrl": "#/word-meaning/grīvam",
+            "meaning": "neck"
+          },
+          {
+            "id": 16,
+            "sanskrit": " dhārayan",
+            "wordMeaningDetailUrl": "#/word-meaning/dhārayan",
+            "meaning": "holding"
+          },
+          {
+            "id": 17,
+            "sanskrit": " achalam",
+            "wordMeaningDetailUrl": "#/word-meaning/achalam",
+            "meaning": "unmoving"
+          },
+          {
+            "id": 18,
+            "sanskrit": " sthiraḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/sthiraḥ",
+            "meaning": "still"
+          },
+          {
+            "id": 19,
+            "sanskrit": " samprekṣhya",
+            "wordMeaningDetailUrl": "#/word-meaning/samprekṣhya",
+            "meaning": "gazing"
+          },
+          {
+            "id": 20,
+            "sanskrit": " nāsika-agram",
+            "wordMeaningDetailUrl": "#/word-meaning/nāsika-agram",
+            "meaning": "at the tip of the nose"
+          },
+          {
+            "id": 21,
+            "sanskrit": " svam",
+            "wordMeaningDetailUrl": "#/word-meaning/svam",
+            "meaning": "own"
+          },
+          {
+            "id": 22,
+            "sanskrit": " diśhaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/diśhaḥ",
+            "meaning": "directions"
+          },
+          {
+            "id": 23,
+            "sanskrit": " cha",
+            "wordMeaningDetailUrl": "#/word-meaning/cha",
+            "meaning": "and"
+          },
+          {
+            "id": 24,
+            "sanskrit": " anavalokayan",
+            "wordMeaningDetailUrl": "#/word-meaning/anavalokayan",
+            "meaning": "not looking"
+          }
+        ],
         "currentVerseUrl": "#/chapter/6/verse/6.12 – 6.13",
         "nextVerseUrl": "#/chapter/6/verse/6.14",
         "previousVerseUrl": "#/chapter/6/verse/6.11"
@@ -34627,11 +35161,138 @@
         "currentVerse": "6.14",
         "nextVerse": "6.15",
         "previousVerse": "6.12 – 6.13",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 6.14",
+            "value": " Thus, with a serene, fearless, and unwavering mind, and staunch in the vow of celibacy, the vigilant yogi should meditate on me, having me alone as the supreme goal."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "Shree Krishna emphasizes the practice of celibacy for success in meditation. The sexual desire facilitates the process of procreation in the animal kingdom, and animals indulge in it primarily for that purpose. In most species, there is a particular mating season; animals do not indulge in sexual activity wantonly. Since humans have greater intellects and the freedom to indulge at will, the activity of procreation is converted into a means of licentious enjoyment. However, the Vedic scriptures lay great emphasis on practicing celibacy. Maharshi Patanjali states: brahmacharyapratiṣhṭhāyāṁ vīrya lābhaḥ (Yog Sūtras 2.38)[v9] “The practice of celibacy leads to great enhancement of energy.”",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 3,
+            "value": "Ayurveda, the Indian science of medicine extolls brahmacharya (the practice of celibacy) for its exceptional health benefits. One of the students of Dhanvantari approached his teacher after finishing his full course of Ayurveda (the ancient Indian science of medicine), and asked: “O Sage, now kindly let me know the secret of health.” Dhanvantari replied: “This seminal energy is verily the ātman. The secret of health lies in preservation of this vital force. He who wastes this vital and precious energy cannot have physical, mental, moral, and spiritual development.” According to Ayurveda, forty drops of blood go into making one drop of semen. Those who waste their semen develop unsteady and agitated prāṇ. They lose their physical and mental energy, and weaken their memory, mind, and intellect. The practice of celibacy leads to a boost of bodily energy, clarity of intellect, gigantic will power, retentive memory, and a keen spiritual intellect. It creates a sparkle in the eyes and a luster on the cheeks.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 4,
+            "value": "",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 5,
+            "value": "The definition of celibacy is not restricted to mere abstinence from physical indulgence. The Agni Purāṇ states that the eightfold activities related to sex must be controlled: 1) Thinking about it. 2) Talking about it. 3) Joking about it. 4) Envisioning it. 5) Desiring it. 6) Wooing to get someone interested in it. 7) Enticing someone interested in it. 8) Engaging in it. For one to be considered celibate, all these must be shunned. Thus, celibacy not only requires abstinence from sexual intercourse, but also refrainment from masturbation, homosexual acts, and all other sexual practices.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 6,
+            "value": "",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 7,
+            "value": "Further, Shree Krishna states here that the object of meditation should be God alone. This point is again reiterated in the next verse.",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "प्रशान्तात्मा विगतभीर्ब्रह्मचारिव्रते स्थित: |"
+          },
+          {
+            "id": 2,
+            "value": "मन: संयम्य मच्चित्तो युक्त आसीत मत्पर: || 14||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "praśhāntātmā vigata-bhīr brahmachāri-vrate sthitaḥ"
+          },
+          {
+            "id": 2,
+            "value": "manaḥ sanyamya mach-chitto yukta āsīta mat-paraḥ"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "praśhānta",
+            "wordMeaningDetailUrl": "#/word-meaning/praśhānta",
+            "meaning": "serene"
+          },
+          {
+            "id": 2,
+            "sanskrit": " ātmā",
+            "wordMeaningDetailUrl": "#/word-meaning/ātmā",
+            "meaning": "mind"
+          },
+          {
+            "id": 3,
+            "sanskrit": " vigata-bhīḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/vigata-bhīḥ",
+            "meaning": "fearless"
+          },
+          {
+            "id": 4,
+            "sanskrit": " brahmachāri-vrate",
+            "wordMeaningDetailUrl": "#/word-meaning/brahmachāri-vrate",
+            "meaning": "in the vow of celibacy"
+          },
+          {
+            "id": 5,
+            "sanskrit": " sthitaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/sthitaḥ",
+            "meaning": "situated"
+          },
+          {
+            "id": 6,
+            "sanskrit": " manaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/manaḥ",
+            "meaning": "mind"
+          },
+          {
+            "id": 7,
+            "sanskrit": " sanyamya",
+            "wordMeaningDetailUrl": "#/word-meaning/sanyamya",
+            "meaning": "having controlled"
+          },
+          {
+            "id": 8,
+            "sanskrit": " mat-chittaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/mat-chittaḥ",
+            "meaning": "meditate on me (Shree Krishna)"
+          },
+          {
+            "id": 9,
+            "sanskrit": " yuktaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/yuktaḥ",
+            "meaning": "engaged"
+          },
+          {
+            "id": 10,
+            "sanskrit": " āsīta",
+            "wordMeaningDetailUrl": "#/word-meaning/āsīta",
+            "meaning": "should sit"
+          },
+          {
+            "id": 11,
+            "sanskrit": " mat-paraḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/mat-paraḥ",
+            "meaning": "having me as the supreme goal"
+          }
+        ],
         "currentVerseUrl": "#/chapter/6/verse/6.14",
         "nextVerseUrl": "#/chapter/6/verse/6.15",
         "previousVerseUrl": "#/chapter/6/verse/6.12 – 6.13"
@@ -34643,11 +35304,178 @@
         "currentVerse": "6.15",
         "nextVerse": "6.16",
         "previousVerse": "6.14",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 6.15",
+            "value": " Thus, constantly keeping the mind absorbed in me, the yogi of disciplined mind attains nirvāṇ, and abides in me in supreme peace."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "Varieties of techniques for meditation exist in the world. There are Zen techniques, Buddhist techniques, Tantric techniques, Taoist techniques, Vedic techniques, and so on. Each of these has many sub-branches. Amongst the followers of Hinduism itself, there are innumerable techniques being practiced. Which of these should we adopt for our personal practice? Shree Krishna makes this riddle easy to solve. He states that the object of meditation should be God himself and God alone.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 3,
+            "value": "The aim of meditation is not merely to enhance concentration and focus, but also to purify the mind. Meditating on the breath, chakras, void, flame, etc. is helpful in developing focus. However, the purification of the mind is only possible when we fix it upon an all-pure object, which is God himself. Hence, verse 14.26 states that God is beyond the three modes of material nature, and when one fixes the mind upon him, it too rises above the three modes. Thus, meditating upon the prāṇas may be called transcendental by its practitioners, but true transcendental meditation is upon God alone.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 4,
+            "value": "",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 5,
+            "value": "Now what is the way of fixing the mind upon God? We can make all of God’s divine attributes—names, forms, virtues, pastimes, abodes, associates—the objects of meditation. They are all non-different from God and replete with all his energies. Hence, devotees may meditate upon any of these and get the true benefit of meditating upon God. In the various bhakti traditions in India, the name of God is made the basis of contemplation. Thus, the Ramayan states:",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 6,
+            "value": "",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 7,
+            "value": "  brahma rām teṅ nāmu baṛa, bara dāyaka bara dāni [v10]",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 8,
+            "value": "",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 9,
+            "value": "“God’s name is bigger than God himself, in terms of its utility to the souls.” Taking the name is a very convenient way of remembering God, since it can be taken anywhere and everywhere—while walking, talking, sitting, eating, etc.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 10,
+            "value": "",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 11,
+            "value": "However, for most sādhaks the name by itself is not sufficiently attractive for enchanting the mind. Due to sanskārs of endless lifetimes, the mind is naturally drawn to forms. Using the form of God as the basis, meditation becomes natural and easy. This is called rūp dhyān meditation.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 12,
+            "value": "",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 13,
+            "value": "Once the mind is focused upon the form of God, we can then further enhance it by contemplating upon the virtues of God—his compassion, his beauty, his knowledge, his love, his benevolence, his grace, and so on. One can then advance in meditation by serving God in the mind. We can visualize ourselves offering foodstuffs to him, worshipping him, singing to him, massaging him, fanning him, bathing him, cooking for him, etc. This is called mānasī sevā (serving God in the mind). In this way, we can meditate upon the names, forms, virtues, pastimes, etc. of God. All these become powerful means of fulfilling Shree Krishna’s instruction to Arjun, in this verse, to keep the mind absorbed in him.",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 14,
+            "value": "",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 15,
+            "value": "At the end of the verse, Shree Krishna gives the ultimate benefits of meditation, which are liberation from Maya and the everlasting beatitude of God-realization.",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "युञ्जन्नेवं सदात्मानं योगी नियतमानस: |"
+          },
+          {
+            "id": 2,
+            "value": "शान्तिं निर्वाणपरमां मत्संस्थामधिगच्छति || 15||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "yuñjann evaṁ sadātmānaṁ yogī niyata-mānasaḥ"
+          },
+          {
+            "id": 2,
+            "value": "śhantiṁ nirvāṇa-paramāṁ mat-sansthām adhigachchhati"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "yuñjan",
+            "wordMeaningDetailUrl": "#/word-meaning/yuñjan",
+            "meaning": "keeping the mind absorbed in God"
+          },
+          {
+            "id": 2,
+            "sanskrit": " evam",
+            "wordMeaningDetailUrl": "#/word-meaning/evam",
+            "meaning": "thus"
+          },
+          {
+            "id": 3,
+            "sanskrit": " sadā",
+            "wordMeaningDetailUrl": "#/word-meaning/sadā",
+            "meaning": "constantly"
+          },
+          {
+            "id": 4,
+            "sanskrit": " ātmānam",
+            "wordMeaningDetailUrl": "#/word-meaning/ātmānam",
+            "meaning": "the mind"
+          },
+          {
+            "id": 5,
+            "sanskrit": " yogī",
+            "wordMeaningDetailUrl": "#/word-meaning/yogī",
+            "meaning": "a yogi"
+          },
+          {
+            "id": 6,
+            "sanskrit": " niyata-mānasaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/niyata-mānasaḥ",
+            "meaning": "one with a disciplined mind"
+          },
+          {
+            "id": 7,
+            "sanskrit": " śhāntim",
+            "wordMeaningDetailUrl": "#/word-meaning/śhāntim",
+            "meaning": "peace"
+          },
+          {
+            "id": 8,
+            "sanskrit": " nirvāṇa",
+            "wordMeaningDetailUrl": "#/word-meaning/nirvāṇa",
+            "meaning": "liberation from the material bondage"
+          },
+          {
+            "id": 9,
+            "sanskrit": " paramām",
+            "wordMeaningDetailUrl": "#/word-meaning/paramām",
+            "meaning": "supreme"
+          },
+          {
+            "id": 10,
+            "sanskrit": " mat-sansthām",
+            "wordMeaningDetailUrl": "#/word-meaning/mat-sansthām",
+            "meaning": "abides in me"
+          },
+          {
+            "id": 11,
+            "sanskrit": " adhigachchhati",
+            "wordMeaningDetailUrl": "#/word-meaning/adhigachchhati",
+            "meaning": "attains"
+          }
+        ],
         "currentVerseUrl": "#/chapter/6/verse/6.15",
         "nextVerseUrl": "#/chapter/6/verse/6.16",
         "previousVerseUrl": "#/chapter/6/verse/6.14"
@@ -34659,11 +35487,196 @@
         "currentVerse": "6.16",
         "nextVerse": "6.17",
         "previousVerse": "6.15",
-        "translation": [],
-        "commentary": [],
-        "shlok": [],
-        "shlokEng": [],
-        "meaning": [],
+        "translation": [
+          {
+            "id": 1,
+            "header": "BG 6.16",
+            "value": " O Arjun, those who eat too much or eat too little, sleep too much or too little, cannot attain success in Yog."
+          }
+        ],
+        "commentary": [
+          {
+            "id": 1,
+            "value": "After describing the object of meditation and the end-goal achieved by it, Shree Krishna gives some regulations to follow. He states that those who break the rules of bodily maintenance cannot be successful in Yog. Often beginners on the path, with their incomplete wisdom state: “You are the soul and not this body. So simply engage in spiritual activity, forgetting about the maintenance of the body.”",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 2,
+            "value": "",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 3,
+            "value": "However, such a philosophy cannot get one too far. It is true that we are not the body, yet the body is our carrier as long as we live, and we are obliged to take care of it. The Ayurvedic text, Charak Samhitā states: śharīra mādhyaṁ khalu dharma sādhanam [v11] “The body is the vehicle for engaging in religious activity.” If the body becomes unwell, then spiritual pursuits get impeded too. The Ramayan states: tanu binu bhajana veda nahiṅ varanā [v12] “The Vedas do not recommend that we ignore the body, while engaging in spirituality.” In fact, they instruct us to take good care of our body with the help of material science. The Īśhopaniṣhad states:",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 4,
+            "value": "",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 5,
+            "value": "  andhaṁ tamaḥ praviśhanti ye ’vidyām upāsate",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 6,
+            "value": "",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 7,
+            "value": "  tato bhūya iva te tamo ya u vidyāyām ratāḥ (9)[v13]",
+            "isShlokCommentary": true
+          },
+          {
+            "id": 8,
+            "value": "",
+            "isShlokCommentary": false
+          },
+          {
+            "id": 9,
+            "value": "“Those who cultivate only material science go to hell. But those who cultivate only spiritual science go to an even darker hell.” Material science is necessary for the maintenance of our body, while spiritual science is necessary for the manifestation of the internal divinity within us. We must balance both in our lives to reach the goal of life. Hence, yogāsans, prāṇāyām, and the science of proper diet are an essential part of Vedic knowledge. Each of the four Vedas has its associate Veda for material knowledge. The associate Veda of Atharva Veda is Ayurveda, which is the hoary science of medicine and good health. This demonstrates that the Vedas lay emphasis on the maintenance of physical health. Accordingly, Shree Krishna says that overeating or not eating at all, extreme activity or complete inactivity, etc. are all impediments to Yog. Spiritual practitioners should take good care of their body, by eating fresh nutritious food, doing daily exercise, and getting the right amount of sleep every night.",
+            "isShlokCommentary": false
+          }
+        ],
+        "shlok": [
+          {
+            "id": 1,
+            "value": "नात्यश्नतस्तु योगोऽस्ति न चैकान्तमनश्नत: |"
+          },
+          {
+            "id": 2,
+            "value": "न चाति स्वप्नशीलस्य जाग्रतो नैव चार्जुन || 16||"
+          }
+        ],
+        "shlokEng": [
+          {
+            "id": 1,
+            "value": "nātyaśhnatastu yogo ’sti na chaikāntam anaśhnataḥ"
+          },
+          {
+            "id": 2,
+            "value": "na chāti-svapna-śhīlasya jāgrato naiva chārjuna"
+          }
+        ],
+        "meaning": [
+          {
+            "id": 1,
+            "sanskrit": "na",
+            "wordMeaningDetailUrl": "#/word-meaning/na",
+            "meaning": "not"
+          },
+          {
+            "id": 2,
+            "sanskrit": " ati",
+            "wordMeaningDetailUrl": "#/word-meaning/ati",
+            "meaning": "too much"
+          },
+          {
+            "id": 3,
+            "sanskrit": " aśhnataḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/aśhnataḥ",
+            "meaning": "of one who eats"
+          },
+          {
+            "id": 4,
+            "sanskrit": " tu",
+            "wordMeaningDetailUrl": "#/word-meaning/tu",
+            "meaning": "however"
+          },
+          {
+            "id": 5,
+            "sanskrit": " yogaḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/yogaḥ",
+            "meaning": "Yog"
+          },
+          {
+            "id": 6,
+            "sanskrit": " asti",
+            "wordMeaningDetailUrl": "#/word-meaning/asti",
+            "meaning": "there is"
+          },
+          {
+            "id": 7,
+            "sanskrit": " na",
+            "wordMeaningDetailUrl": "#/word-meaning/na",
+            "meaning": "not"
+          },
+          {
+            "id": 8,
+            "sanskrit": " cha",
+            "wordMeaningDetailUrl": "#/word-meaning/cha",
+            "meaning": "and"
+          },
+          {
+            "id": 9,
+            "sanskrit": " ekāntam",
+            "wordMeaningDetailUrl": "#/word-meaning/ekāntam",
+            "meaning": "at all"
+          },
+          {
+            "id": 10,
+            "sanskrit": " anaśhnataḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/anaśhnataḥ",
+            "meaning": "abstaining from eating"
+          },
+          {
+            "id": 11,
+            "sanskrit": " na",
+            "wordMeaningDetailUrl": "#/word-meaning/na",
+            "meaning": "not"
+          },
+          {
+            "id": 12,
+            "sanskrit": " cha",
+            "wordMeaningDetailUrl": "#/word-meaning/cha",
+            "meaning": "and"
+          },
+          {
+            "id": 13,
+            "sanskrit": " ati",
+            "wordMeaningDetailUrl": "#/word-meaning/ati",
+            "meaning": "too much"
+          },
+          {
+            "id": 14,
+            "sanskrit": " svapna-śhīlasya",
+            "wordMeaningDetailUrl": "#/word-meaning/svapna-śhīlasya",
+            "meaning": "of one who sleeps"
+          },
+          {
+            "id": 15,
+            "sanskrit": " jāgrataḥ",
+            "wordMeaningDetailUrl": "#/word-meaning/jāgrataḥ",
+            "meaning": "of one who does not sleep enough"
+          },
+          {
+            "id": 16,
+            "sanskrit": " na",
+            "wordMeaningDetailUrl": "#/word-meaning/na",
+            "meaning": "not"
+          },
+          {
+            "id": 17,
+            "sanskrit": " eva",
+            "wordMeaningDetailUrl": "#/word-meaning/eva",
+            "meaning": "certainly"
+          },
+          {
+            "id": 18,
+            "sanskrit": " cha",
+            "wordMeaningDetailUrl": "#/word-meaning/cha",
+            "meaning": "and"
+          },
+          {
+            "id": 19,
+            "sanskrit": " arjuna",
+            "wordMeaningDetailUrl": "#/word-meaning/arjuna",
+            "meaning": "Arjun"
+          }
+        ],
         "currentVerseUrl": "#/chapter/6/verse/6.16",
         "nextVerseUrl": "#/chapter/6/verse/6.17",
         "previousVerseUrl": "#/chapter/6/verse/6.15"

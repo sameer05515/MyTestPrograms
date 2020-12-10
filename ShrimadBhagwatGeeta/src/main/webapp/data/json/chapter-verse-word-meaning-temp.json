@@ -294,8 +294,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/abravīt",
-    "nextWMUrl": "#/word-meaning/achalaḥ",
+    "nextWMUrl": "#/word-meaning/achalam",
     "currentWMUrl": "#/word-meaning/achala-pratiṣhṭham"
+  },
+  {
+    "id": "achalam",
+    "data": [
+      {
+        "word": "achalam",
+        "meaning": "unmoving",
+        "referenceHeader": "Bhagavad Gita 6.12 – 6.13",
+        "refLink": "#/chapter/6/verse/6.12 – 6.13"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/achala-pratiṣhṭham",
+    "nextWMUrl": "#/word-meaning/achalaḥ",
+    "currentWMUrl": "#/word-meaning/achalam"
   },
   {
     "id": "achalaḥ",
@@ -307,7 +321,7 @@
         "refLink": "#/chapter/2/verse/2.24"
       }
     ],
-    "previousWMUrl": "#/word-meaning/achala-pratiṣhṭham",
+    "previousWMUrl": "#/word-meaning/achalam",
     "nextWMUrl": "#/word-meaning/achalā",
     "currentWMUrl": "#/word-meaning/achalaḥ"
   },
@@ -469,6 +483,12 @@
         "meaning": "attains",
         "referenceHeader": "Bhagavad Gita 5.24",
         "refLink": "#/chapter/5/verse/5.24"
+      },
+      {
+        "word": "adhigachchhati",
+        "meaning": "attains",
+        "referenceHeader": "Bhagavad Gita 6.15",
+        "refLink": "#/chapter/6/verse/6.15"
       }
     ],
     "previousWMUrl": "#/word-meaning/adharmaḥ",
@@ -862,8 +882,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/ajam",
-    "nextWMUrl": "#/word-meaning/ajñaḥ",
+    "nextWMUrl": "#/word-meaning/ajina",
     "currentWMUrl": "#/word-meaning/ajaḥ"
+  },
+  {
+    "id": "ajina",
+    "data": [
+      {
+        "word": "ajina",
+        "meaning": "a deerskin",
+        "referenceHeader": "Bhagavad Gita 6.11",
+        "refLink": "#/chapter/6/verse/6.11"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/ajaḥ",
+    "nextWMUrl": "#/word-meaning/ajñaḥ",
+    "currentWMUrl": "#/word-meaning/ajina"
   },
   {
     "id": "ajñaḥ",
@@ -875,7 +909,7 @@
         "refLink": "#/chapter/4/verse/4.40"
       }
     ],
-    "previousWMUrl": "#/word-meaning/ajaḥ",
+    "previousWMUrl": "#/word-meaning/ajina",
     "nextWMUrl": "#/word-meaning/ajñāna-sambhūtam",
     "currentWMUrl": "#/word-meaning/ajñaḥ"
   },
@@ -1306,8 +1340,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/anantāḥ",
-    "nextWMUrl": "#/word-meaning/anavāptam",
+    "nextWMUrl": "#/word-meaning/anavalokayan",
     "currentWMUrl": "#/word-meaning/anasūyantaḥ"
+  },
+  {
+    "id": "anavalokayan",
+    "data": [
+      {
+        "word": "anavalokayan",
+        "meaning": "not looking",
+        "referenceHeader": "Bhagavad Gita 6.12 – 6.13",
+        "refLink": "#/chapter/6/verse/6.12 – 6.13"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/anasūyantaḥ",
+    "nextWMUrl": "#/word-meaning/anavāptam",
+    "currentWMUrl": "#/word-meaning/anavalokayan"
   },
   {
     "id": "anavāptam",
@@ -1319,7 +1367,7 @@
         "refLink": "#/chapter/3/verse/3.22"
       }
     ],
-    "previousWMUrl": "#/word-meaning/anasūyantaḥ",
+    "previousWMUrl": "#/word-meaning/anavalokayan",
     "nextWMUrl": "#/word-meaning/anayoḥ",
     "currentWMUrl": "#/word-meaning/anavāptam"
   },
@@ -1334,8 +1382,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/anavāptam",
-    "nextWMUrl": "#/word-meaning/anena",
+    "nextWMUrl": "#/word-meaning/anaśhnataḥ",
     "currentWMUrl": "#/word-meaning/anayoḥ"
+  },
+  {
+    "id": "anaśhnataḥ",
+    "data": [
+      {
+        "word": "anaśhnataḥ",
+        "meaning": "abstaining from eating",
+        "referenceHeader": "Bhagavad Gita 6.16",
+        "refLink": "#/chapter/6/verse/6.16"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/anayoḥ",
+    "nextWMUrl": "#/word-meaning/anena",
+    "currentWMUrl": "#/word-meaning/anaśhnataḥ"
   },
   {
     "id": "anena",
@@ -1353,7 +1415,7 @@
         "refLink": "#/chapter/3/verse/3.11"
       }
     ],
-    "previousWMUrl": "#/word-meaning/anayoḥ",
+    "previousWMUrl": "#/word-meaning/anaśhnataḥ",
     "nextWMUrl": "#/word-meaning/anichchhan",
     "currentWMUrl": "#/word-meaning/anena"
   },
@@ -1994,8 +2056,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/aparam",
-    "nextWMUrl": "#/word-meaning/aparihārye arthe",
+    "nextWMUrl": "#/word-meaning/aparigrahaḥ",
     "currentWMUrl": "#/word-meaning/apare"
+  },
+  {
+    "id": "aparigrahaḥ",
+    "data": [
+      {
+        "word": "aparigrahaḥ",
+        "meaning": "free from desires for possessions for enjoyment",
+        "referenceHeader": "Bhagavad Gita 6.10",
+        "refLink": "#/chapter/6/verse/6.10"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/apare",
+    "nextWMUrl": "#/word-meaning/aparihārye arthe",
+    "currentWMUrl": "#/word-meaning/aparigrahaḥ"
   },
   {
     "id": "aparihārye arthe",
@@ -2007,7 +2083,7 @@
         "refLink": "#/chapter/2/verse/2.27"
       }
     ],
-    "previousWMUrl": "#/word-meaning/apare",
+    "previousWMUrl": "#/word-meaning/aparigrahaḥ",
     "nextWMUrl": "#/word-meaning/aparyāptam",
     "currentWMUrl": "#/word-meaning/aparihārye arthe"
   },
@@ -2557,6 +2633,12 @@
         "meaning": "Arjun",
         "referenceHeader": "Bhagavad Gita 4.37",
         "refLink": "#/chapter/4/verse/4.37"
+      },
+      {
+        "word": "arjuna",
+        "meaning": "Arjun",
+        "referenceHeader": "Bhagavad Gita 6.16",
+        "refLink": "#/chapter/6/verse/6.16"
       }
     ],
     "previousWMUrl": "#/word-meaning/ari-sūdana",
@@ -2991,6 +3073,12 @@
         "meaning": "is",
         "referenceHeader": "Bhagavad Gita 4.40",
         "refLink": "#/chapter/4/verse/4.40"
+      },
+      {
+        "word": "asti",
+        "meaning": "there is",
+        "referenceHeader": "Bhagavad Gita 6.16",
+        "refLink": "#/chapter/6/verse/6.16"
       }
     ],
     "previousWMUrl": "#/word-meaning/asmāt",
@@ -3186,8 +3274,40 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/atha chet",
-    "nextWMUrl": "#/word-meaning/atirichyate",
+    "nextWMUrl": "#/word-meaning/ati",
     "currentWMUrl": "#/word-meaning/atho"
+  },
+  {
+    "id": "ati",
+    "data": [
+      {
+        "word": "ati",
+        "meaning": "too",
+        "referenceHeader": "Bhagavad Gita 6.11",
+        "refLink": "#/chapter/6/verse/6.11"
+      },
+      {
+        "word": "ati",
+        "meaning": "too",
+        "referenceHeader": "Bhagavad Gita 6.11",
+        "refLink": "#/chapter/6/verse/6.11"
+      },
+      {
+        "word": "ati",
+        "meaning": "too much",
+        "referenceHeader": "Bhagavad Gita 6.16",
+        "refLink": "#/chapter/6/verse/6.16"
+      },
+      {
+        "word": "ati",
+        "meaning": "too much",
+        "referenceHeader": "Bhagavad Gita 6.16",
+        "refLink": "#/chapter/6/verse/6.16"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/atho",
+    "nextWMUrl": "#/word-meaning/atirichyate",
+    "currentWMUrl": "#/word-meaning/ati"
   },
   {
     "id": "atirichyate",
@@ -3199,7 +3319,7 @@
         "refLink": "#/chapter/2/verse/2.34"
       }
     ],
-    "previousWMUrl": "#/word-meaning/atho",
+    "previousWMUrl": "#/word-meaning/ati",
     "nextWMUrl": "#/word-meaning/atra",
     "currentWMUrl": "#/word-meaning/atirichyate"
   },
@@ -3910,8 +4030,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/aśhma",
-    "nextWMUrl": "#/word-meaning/aśhnute",
+    "nextWMUrl": "#/word-meaning/aśhnataḥ",
     "currentWMUrl": "#/word-meaning/aśhnan"
+  },
+  {
+    "id": "aśhnataḥ",
+    "data": [
+      {
+        "word": "aśhnataḥ",
+        "meaning": "of one who eats",
+        "referenceHeader": "Bhagavad Gita 6.16",
+        "refLink": "#/chapter/6/verse/6.16"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/aśhnan",
+    "nextWMUrl": "#/word-meaning/aśhnute",
+    "currentWMUrl": "#/word-meaning/aśhnataḥ"
   },
   {
     "id": "aśhnute",
@@ -3929,7 +4063,7 @@
         "refLink": "#/chapter/5/verse/5.21"
       }
     ],
-    "previousWMUrl": "#/word-meaning/aśhnan",
+    "previousWMUrl": "#/word-meaning/aśhnataḥ",
     "nextWMUrl": "#/word-meaning/aśhochyān",
     "currentWMUrl": "#/word-meaning/aśhnute"
   },
@@ -5384,8 +5518,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/brahma-yoga yukta-ātmā",
-    "nextWMUrl": "#/word-meaning/brahmaṇaḥ",
+    "nextWMUrl": "#/word-meaning/brahmachāri-vrate",
     "currentWMUrl": "#/word-meaning/brahmabhūtaḥ"
+  },
+  {
+    "id": "brahmachāri-vrate",
+    "data": [
+      {
+        "word": "brahmachāri-vrate",
+        "meaning": "in the vow of celibacy",
+        "referenceHeader": "Bhagavad Gita 6.14",
+        "refLink": "#/chapter/6/verse/6.14"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/brahmabhūtaḥ",
+    "nextWMUrl": "#/word-meaning/brahmaṇaḥ",
+    "currentWMUrl": "#/word-meaning/brahmachāri-vrate"
   },
   {
     "id": "brahmaṇaḥ",
@@ -5397,7 +5545,7 @@
         "refLink": "#/chapter/4/verse/4.32"
       }
     ],
-    "previousWMUrl": "#/word-meaning/brahmabhūtaḥ",
+    "previousWMUrl": "#/word-meaning/brahmachāri-vrate",
     "nextWMUrl": "#/word-meaning/brahmaṇi",
     "currentWMUrl": "#/word-meaning/brahmaṇaḥ"
   },
@@ -6501,11 +6649,49 @@
         "meaning": "and",
         "referenceHeader": "Bhagavad Gita 6.9",
         "refLink": "#/chapter/6/verse/6.9"
+      },
+      {
+        "word": "cha",
+        "meaning": "and",
+        "referenceHeader": "Bhagavad Gita 6.12 – 6.13",
+        "refLink": "#/chapter/6/verse/6.12 – 6.13"
+      },
+      {
+        "word": "cha",
+        "meaning": "and",
+        "referenceHeader": "Bhagavad Gita 6.16",
+        "refLink": "#/chapter/6/verse/6.16"
+      },
+      {
+        "word": "cha",
+        "meaning": "and",
+        "referenceHeader": "Bhagavad Gita 6.16",
+        "refLink": "#/chapter/6/verse/6.16"
+      },
+      {
+        "word": "cha",
+        "meaning": "and",
+        "referenceHeader": "Bhagavad Gita 6.16",
+        "refLink": "#/chapter/6/verse/6.16"
       }
     ],
     "previousWMUrl": "#/word-meaning/bālāḥ",
-    "nextWMUrl": "#/word-meaning/chakram",
+    "nextWMUrl": "#/word-meaning/chaila",
     "currentWMUrl": "#/word-meaning/cha"
+  },
+  {
+    "id": "chaila",
+    "data": [
+      {
+        "word": "chaila",
+        "meaning": "cloth",
+        "referenceHeader": "Bhagavad Gita 6.11",
+        "refLink": "#/chapter/6/verse/6.11"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/cha",
+    "nextWMUrl": "#/word-meaning/chakram",
+    "currentWMUrl": "#/word-meaning/chaila"
   },
   {
     "id": "chakram",
@@ -6517,7 +6703,7 @@
         "refLink": "#/chapter/3/verse/3.16"
       }
     ],
-    "previousWMUrl": "#/word-meaning/cha",
+    "previousWMUrl": "#/word-meaning/chaila",
     "nextWMUrl": "#/word-meaning/chakṣhuḥ",
     "currentWMUrl": "#/word-meaning/chakram"
   },
@@ -7096,8 +7282,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/devān",
-    "nextWMUrl": "#/word-meaning/dhanam-jayaḥ",
+    "nextWMUrl": "#/word-meaning/deśhe",
     "currentWMUrl": "#/word-meaning/devāḥ"
+  },
+  {
+    "id": "deśhe",
+    "data": [
+      {
+        "word": "deśhe",
+        "meaning": "place",
+        "referenceHeader": "Bhagavad Gita 6.11",
+        "refLink": "#/chapter/6/verse/6.11"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/devāḥ",
+    "nextWMUrl": "#/word-meaning/dhanam-jayaḥ",
+    "currentWMUrl": "#/word-meaning/deśhe"
   },
   {
     "id": "dhanam-jayaḥ",
@@ -7109,7 +7309,7 @@
         "refLink": "#/chapter/1/verse/1.15"
       }
     ],
-    "previousWMUrl": "#/word-meaning/devāḥ",
+    "previousWMUrl": "#/word-meaning/deśhe",
     "nextWMUrl": "#/word-meaning/dhanañjaya",
     "currentWMUrl": "#/word-meaning/dhanam-jayaḥ"
   },
@@ -7313,6 +7513,12 @@
         "meaning": "convinced",
         "referenceHeader": "Bhagavad Gita 5.8 – 5.9",
         "refLink": "#/chapter/5/verse/5.8 – 5.9"
+      },
+      {
+        "word": "dhārayan",
+        "meaning": "holding",
+        "referenceHeader": "Bhagavad Gita 6.12 – 6.13",
+        "refLink": "#/chapter/6/verse/6.12 – 6.13"
       }
     ],
     "previousWMUrl": "#/word-meaning/dhyāyataḥ",
@@ -7516,8 +7722,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/divyam",
-    "nextWMUrl": "#/word-meaning/doṣhaiḥ",
+    "nextWMUrl": "#/word-meaning/diśhaḥ",
     "currentWMUrl": "#/word-meaning/divyau"
+  },
+  {
+    "id": "diśhaḥ",
+    "data": [
+      {
+        "word": "diśhaḥ",
+        "meaning": "directions",
+        "referenceHeader": "Bhagavad Gita 6.12 – 6.13",
+        "refLink": "#/chapter/6/verse/6.12 – 6.13"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/divyau",
+    "nextWMUrl": "#/word-meaning/doṣhaiḥ",
+    "currentWMUrl": "#/word-meaning/diśhaḥ"
   },
   {
     "id": "doṣhaiḥ",
@@ -7529,7 +7749,7 @@
         "refLink": "#/chapter/1/verse/1.43"
       }
     ],
-    "previousWMUrl": "#/word-meaning/divyau",
+    "previousWMUrl": "#/word-meaning/diśhaḥ",
     "nextWMUrl": "#/word-meaning/doṣham",
     "currentWMUrl": "#/word-meaning/doṣhaiḥ"
   },
@@ -8108,8 +8328,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/ebhyaḥ",
-    "nextWMUrl": "#/word-meaning/ekam",
+    "nextWMUrl": "#/word-meaning/eka-agram",
     "currentWMUrl": "#/word-meaning/edhānsi"
+  },
+  {
+    "id": "eka-agram",
+    "data": [
+      {
+        "word": "eka-agram",
+        "meaning": "one-pointed",
+        "referenceHeader": "Bhagavad Gita 6.12 – 6.13",
+        "refLink": "#/chapter/6/verse/6.12 – 6.13"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/edhānsi",
+    "nextWMUrl": "#/word-meaning/ekam",
+    "currentWMUrl": "#/word-meaning/eka-agram"
   },
   {
     "id": "ekam",
@@ -8139,7 +8373,7 @@
         "refLink": "#/chapter/5/verse/5.5"
       }
     ],
-    "previousWMUrl": "#/word-meaning/edhānsi",
+    "previousWMUrl": "#/word-meaning/eka-agram",
     "nextWMUrl": "#/word-meaning/ekā",
     "currentWMUrl": "#/word-meaning/ekam"
   },
@@ -8154,8 +8388,36 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/ekam",
-    "nextWMUrl": "#/word-meaning/enam",
+    "nextWMUrl": "#/word-meaning/ekākī",
     "currentWMUrl": "#/word-meaning/ekā"
+  },
+  {
+    "id": "ekākī",
+    "data": [
+      {
+        "word": "ekākī",
+        "meaning": "alone",
+        "referenceHeader": "Bhagavad Gita 6.10",
+        "refLink": "#/chapter/6/verse/6.10"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/ekā",
+    "nextWMUrl": "#/word-meaning/ekāntam",
+    "currentWMUrl": "#/word-meaning/ekākī"
+  },
+  {
+    "id": "ekāntam",
+    "data": [
+      {
+        "word": "ekāntam",
+        "meaning": "at all",
+        "referenceHeader": "Bhagavad Gita 6.16",
+        "refLink": "#/chapter/6/verse/6.16"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/ekākī",
+    "nextWMUrl": "#/word-meaning/enam",
+    "currentWMUrl": "#/word-meaning/ekāntam"
   },
   {
     "id": "enam",
@@ -8245,7 +8507,7 @@
         "refLink": "#/chapter/4/verse/4.42"
       }
     ],
-    "previousWMUrl": "#/word-meaning/ekā",
+    "previousWMUrl": "#/word-meaning/ekāntam",
     "nextWMUrl": "#/word-meaning/enām",
     "currentWMUrl": "#/word-meaning/enam"
   },
@@ -8769,6 +9031,12 @@
         "meaning": "as",
         "referenceHeader": "Bhagavad Gita 6.6",
         "refLink": "#/chapter/6/verse/6.6"
+      },
+      {
+        "word": "eva",
+        "meaning": "certainly",
+        "referenceHeader": "Bhagavad Gita 6.16",
+        "refLink": "#/chapter/6/verse/6.16"
       }
     ],
     "previousWMUrl": "#/word-meaning/etān",
@@ -8883,6 +9151,12 @@
         "meaning": "like this",
         "referenceHeader": "Bhagavad Gita 4.35",
         "refLink": "#/chapter/4/verse/4.35"
+      },
+      {
+        "word": "evam",
+        "meaning": "thus",
+        "referenceHeader": "Bhagavad Gita 6.15",
+        "refLink": "#/chapter/6/verse/6.15"
       }
     ],
     "previousWMUrl": "#/word-meaning/eva hi",
@@ -9294,8 +9568,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/govinda",
-    "nextWMUrl": "#/word-meaning/gurūn",
+    "nextWMUrl": "#/word-meaning/grīvam",
     "currentWMUrl": "#/word-meaning/govindam"
+  },
+  {
+    "id": "grīvam",
+    "data": [
+      {
+        "word": "grīvam",
+        "meaning": "neck",
+        "referenceHeader": "Bhagavad Gita 6.12 – 6.13",
+        "refLink": "#/chapter/6/verse/6.12 – 6.13"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/govindam",
+    "nextWMUrl": "#/word-meaning/gurūn",
+    "currentWMUrl": "#/word-meaning/grīvam"
   },
   {
     "id": "gurūn",
@@ -9313,7 +9601,7 @@
         "refLink": "#/chapter/2/verse/2.5"
       }
     ],
-    "previousWMUrl": "#/word-meaning/govindam",
+    "previousWMUrl": "#/word-meaning/grīvam",
     "nextWMUrl": "#/word-meaning/guḍākeśhaḥ",
     "currentWMUrl": "#/word-meaning/gurūn"
   },
@@ -10473,6 +10761,12 @@
         "meaning": "senses",
         "referenceHeader": "Bhagavad Gita 5.27 – 5.28",
         "refLink": "#/chapter/5/verse/5.27 – 5.28"
+      },
+      {
+        "word": "indriya",
+        "meaning": "senses",
+        "referenceHeader": "Bhagavad Gita 6.12 – 6.13",
+        "refLink": "#/chapter/6/verse/6.12 – 6.13"
       }
     ],
     "previousWMUrl": "#/word-meaning/imāḥ",
@@ -11710,8 +12004,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/jñātvā",
-    "nextWMUrl": "#/word-meaning/jāgrati",
+    "nextWMUrl": "#/word-meaning/jāgrataḥ",
     "currentWMUrl": "#/word-meaning/jāgarti"
+  },
+  {
+    "id": "jāgrataḥ",
+    "data": [
+      {
+        "word": "jāgrataḥ",
+        "meaning": "of one who does not sleep enough",
+        "referenceHeader": "Bhagavad Gita 6.16",
+        "refLink": "#/chapter/6/verse/6.16"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/jāgarti",
+    "nextWMUrl": "#/word-meaning/jāgrati",
+    "currentWMUrl": "#/word-meaning/jāgrataḥ"
   },
   {
     "id": "jāgrati",
@@ -11723,7 +12031,7 @@
         "refLink": "#/chapter/2/verse/2.69"
       }
     ],
-    "previousWMUrl": "#/word-meaning/jāgarti",
+    "previousWMUrl": "#/word-meaning/jāgrataḥ",
     "nextWMUrl": "#/word-meaning/jātasya",
     "currentWMUrl": "#/word-meaning/jāgrati"
   },
@@ -13272,8 +13580,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/kledayanti",
-    "nextWMUrl": "#/word-meaning/kriyā-viśheṣha",
+    "nextWMUrl": "#/word-meaning/kriyaḥ",
     "currentWMUrl": "#/word-meaning/kriyamāṇāni"
+  },
+  {
+    "id": "kriyaḥ",
+    "data": [
+      {
+        "word": "kriyaḥ",
+        "meaning": "activities",
+        "referenceHeader": "Bhagavad Gita 6.12 – 6.13",
+        "refLink": "#/chapter/6/verse/6.12 – 6.13"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/kriyamāṇāni",
+    "nextWMUrl": "#/word-meaning/kriyā-viśheṣha",
+    "currentWMUrl": "#/word-meaning/kriyaḥ"
   },
   {
     "id": "kriyā-viśheṣha",
@@ -13285,7 +13607,7 @@
         "refLink": "#/chapter/2/verse/2.42 – 2.43"
       }
     ],
-    "previousWMUrl": "#/word-meaning/kriyamāṇāni",
+    "previousWMUrl": "#/word-meaning/kriyaḥ",
     "nextWMUrl": "#/word-meaning/krodha",
     "currentWMUrl": "#/word-meaning/kriyā-viśheṣha"
   },
@@ -13754,8 +14076,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/kurūn",
-    "nextWMUrl": "#/word-meaning/kā",
+    "nextWMUrl": "#/word-meaning/kuśha",
     "currentWMUrl": "#/word-meaning/kutaḥ"
+  },
+  {
+    "id": "kuśha",
+    "data": [
+      {
+        "word": "kuśha",
+        "meaning": "kuśh grass",
+        "referenceHeader": "Bhagavad Gita 6.11",
+        "refLink": "#/chapter/6/verse/6.11"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/kutaḥ",
+    "nextWMUrl": "#/word-meaning/kā",
+    "currentWMUrl": "#/word-meaning/kuśha"
   },
   {
     "id": "kā",
@@ -13779,7 +14115,7 @@
         "refLink": "#/chapter/2/verse/2.54"
       }
     ],
-    "previousWMUrl": "#/word-meaning/kutaḥ",
+    "previousWMUrl": "#/word-meaning/kuśha",
     "nextWMUrl": "#/word-meaning/kālena",
     "currentWMUrl": "#/word-meaning/kā"
   },
@@ -14072,8 +14408,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/kāryam",
-    "nextWMUrl": "#/word-meaning/kāyena",
+    "nextWMUrl": "#/word-meaning/kāya",
     "currentWMUrl": "#/word-meaning/kāryate"
+  },
+  {
+    "id": "kāya",
+    "data": [
+      {
+        "word": "kāya",
+        "meaning": "body",
+        "referenceHeader": "Bhagavad Gita 6.12 – 6.13",
+        "refLink": "#/chapter/6/verse/6.12 – 6.13"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/kāryate",
+    "nextWMUrl": "#/word-meaning/kāyena",
+    "currentWMUrl": "#/word-meaning/kāya"
   },
   {
     "id": "kāyena",
@@ -14085,7 +14435,7 @@
         "refLink": "#/chapter/5/verse/5.11"
       }
     ],
-    "previousWMUrl": "#/word-meaning/kāryate",
+    "previousWMUrl": "#/word-meaning/kāya",
     "nextWMUrl": "#/word-meaning/kāñchanaḥ",
     "currentWMUrl": "#/word-meaning/kāyena"
   },
@@ -14393,6 +14743,12 @@
         "meaning": "keeping",
         "referenceHeader": "Bhagavad Gita 5.27 – 5.28",
         "refLink": "#/chapter/5/verse/5.27 – 5.28"
+      },
+      {
+        "word": "kṛitvā",
+        "meaning": "having made",
+        "referenceHeader": "Bhagavad Gita 6.12 – 6.13",
+        "refLink": "#/chapter/6/verse/6.12 – 6.13"
       }
     ],
     "previousWMUrl": "#/word-meaning/kṛitsnam",
@@ -15369,6 +15725,18 @@
         "meaning": "mind",
         "referenceHeader": "Bhagavad Gita 5.27 – 5.28",
         "refLink": "#/chapter/5/verse/5.27 – 5.28"
+      },
+      {
+        "word": "manaḥ",
+        "meaning": "mind",
+        "referenceHeader": "Bhagavad Gita 6.12 – 6.13",
+        "refLink": "#/chapter/6/verse/6.12 – 6.13"
+      },
+      {
+        "word": "manaḥ",
+        "meaning": "mind",
+        "referenceHeader": "Bhagavad Gita 6.14",
+        "refLink": "#/chapter/6/verse/6.14"
       }
     ],
     "previousWMUrl": "#/word-meaning/manave",
@@ -15566,8 +15934,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/mat-arthe",
-    "nextWMUrl": "#/word-meaning/mat-mayā",
+    "nextWMUrl": "#/word-meaning/mat-chittaḥ",
     "currentWMUrl": "#/word-meaning/mat-bhāvam"
+  },
+  {
+    "id": "mat-chittaḥ",
+    "data": [
+      {
+        "word": "mat-chittaḥ",
+        "meaning": "meditate on me (Shree Krishna)",
+        "referenceHeader": "Bhagavad Gita 6.14",
+        "refLink": "#/chapter/6/verse/6.14"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/mat-bhāvam",
+    "nextWMUrl": "#/word-meaning/mat-mayā",
+    "currentWMUrl": "#/word-meaning/mat-chittaḥ"
   },
   {
     "id": "mat-mayā",
@@ -15579,7 +15961,7 @@
         "refLink": "#/chapter/4/verse/4.10"
       }
     ],
-    "previousWMUrl": "#/word-meaning/mat-bhāvam",
+    "previousWMUrl": "#/word-meaning/mat-chittaḥ",
     "nextWMUrl": "#/word-meaning/mat-paraḥ",
     "currentWMUrl": "#/word-meaning/mat-mayā"
   },
@@ -15591,11 +15973,31 @@
         "meaning": "toward me (Shree Krishna)",
         "referenceHeader": "Bhagavad Gita 2.61",
         "refLink": "#/chapter/2/verse/2.61"
+      },
+      {
+        "word": "mat-paraḥ",
+        "meaning": "having me as the supreme goal",
+        "referenceHeader": "Bhagavad Gita 6.14",
+        "refLink": "#/chapter/6/verse/6.14"
       }
     ],
     "previousWMUrl": "#/word-meaning/mat-mayā",
-    "nextWMUrl": "#/word-meaning/matam",
+    "nextWMUrl": "#/word-meaning/mat-sansthām",
     "currentWMUrl": "#/word-meaning/mat-paraḥ"
+  },
+  {
+    "id": "mat-sansthām",
+    "data": [
+      {
+        "word": "mat-sansthām",
+        "meaning": "abides in me",
+        "referenceHeader": "Bhagavad Gita 6.15",
+        "refLink": "#/chapter/6/verse/6.15"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/mat-paraḥ",
+    "nextWMUrl": "#/word-meaning/matam",
+    "currentWMUrl": "#/word-meaning/mat-sansthām"
   },
   {
     "id": "matam",
@@ -15613,7 +16015,7 @@
         "refLink": "#/chapter/3/verse/3.32"
       }
     ],
-    "previousWMUrl": "#/word-meaning/mat-paraḥ",
+    "previousWMUrl": "#/word-meaning/mat-sansthām",
     "nextWMUrl": "#/word-meaning/matvā",
     "currentWMUrl": "#/word-meaning/matam"
   },
@@ -17053,6 +17455,42 @@
         "meaning": "not",
         "referenceHeader": "Bhagavad Gita 6.5",
         "refLink": "#/chapter/6/verse/6.5"
+      },
+      {
+        "word": "na",
+        "meaning": "not",
+        "referenceHeader": "Bhagavad Gita 6.11",
+        "refLink": "#/chapter/6/verse/6.11"
+      },
+      {
+        "word": "na",
+        "meaning": "not",
+        "referenceHeader": "Bhagavad Gita 6.11",
+        "refLink": "#/chapter/6/verse/6.11"
+      },
+      {
+        "word": "na",
+        "meaning": "not",
+        "referenceHeader": "Bhagavad Gita 6.16",
+        "refLink": "#/chapter/6/verse/6.16"
+      },
+      {
+        "word": "na",
+        "meaning": "not",
+        "referenceHeader": "Bhagavad Gita 6.16",
+        "refLink": "#/chapter/6/verse/6.16"
+      },
+      {
+        "word": "na",
+        "meaning": "not",
+        "referenceHeader": "Bhagavad Gita 6.16",
+        "refLink": "#/chapter/6/verse/6.16"
+      },
+      {
+        "word": "na",
+        "meaning": "not",
+        "referenceHeader": "Bhagavad Gita 6.16",
+        "refLink": "#/chapter/6/verse/6.16"
       }
     ],
     "previousWMUrl": "#/word-meaning/mṛityuḥ",
@@ -17684,8 +18122,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/nirmamaḥ",
-    "nextWMUrl": "#/word-meaning/nirvāṇam",
+    "nextWMUrl": "#/word-meaning/nirvāṇa",
     "currentWMUrl": "#/word-meaning/nirvedam"
+  },
+  {
+    "id": "nirvāṇa",
+    "data": [
+      {
+        "word": "nirvāṇa",
+        "meaning": "liberation from the material bondage",
+        "referenceHeader": "Bhagavad Gita 6.15",
+        "refLink": "#/chapter/6/verse/6.15"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/nirvedam",
+    "nextWMUrl": "#/word-meaning/nirvāṇam",
+    "currentWMUrl": "#/word-meaning/nirvāṇa"
   },
   {
     "id": "nirvāṇam",
@@ -17697,7 +18149,7 @@
         "refLink": "#/chapter/5/verse/5.26"
       }
     ],
-    "previousWMUrl": "#/word-meaning/nirvedam",
+    "previousWMUrl": "#/word-meaning/nirvāṇa",
     "nextWMUrl": "#/word-meaning/niryoga-kṣhemaḥ",
     "currentWMUrl": "#/word-meaning/nirvāṇam"
   },
@@ -17757,6 +18209,12 @@
         "meaning": "free from expectations",
         "referenceHeader": "Bhagavad Gita 4.21",
         "refLink": "#/chapter/4/verse/4.21"
+      },
+      {
+        "word": "nirāśhīḥ",
+        "meaning": "free from desires",
+        "referenceHeader": "Bhagavad Gita 6.10",
+        "refLink": "#/chapter/6/verse/6.10"
       }
     ],
     "previousWMUrl": "#/word-meaning/nirāśhrayaḥ",
@@ -17984,8 +18442,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/niyamya",
-    "nextWMUrl": "#/word-meaning/niyatam",
+    "nextWMUrl": "#/word-meaning/niyata-mānasaḥ",
     "currentWMUrl": "#/word-meaning/niyata"
+  },
+  {
+    "id": "niyata-mānasaḥ",
+    "data": [
+      {
+        "word": "niyata-mānasaḥ",
+        "meaning": "one with a disciplined mind",
+        "referenceHeader": "Bhagavad Gita 6.15",
+        "refLink": "#/chapter/6/verse/6.15"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/niyata",
+    "nextWMUrl": "#/word-meaning/niyatam",
+    "currentWMUrl": "#/word-meaning/niyata-mānasaḥ"
   },
   {
     "id": "niyatam",
@@ -17997,7 +18469,7 @@
         "refLink": "#/chapter/3/verse/3.8"
       }
     ],
-    "previousWMUrl": "#/word-meaning/niyata",
+    "previousWMUrl": "#/word-meaning/niyata-mānasaḥ",
     "nextWMUrl": "#/word-meaning/niyojayasi",
     "currentWMUrl": "#/word-meaning/niyatam"
   },
@@ -18186,8 +18658,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/nānā-śhastra-praharaṇāḥ",
-    "nextWMUrl": "#/word-meaning/nāvam",
+    "nextWMUrl": "#/word-meaning/nāsika-agram",
     "currentWMUrl": "#/word-meaning/nāsa-abhyantara"
+  },
+  {
+    "id": "nāsika-agram",
+    "data": [
+      {
+        "word": "nāsika-agram",
+        "meaning": "at the tip of the nose",
+        "referenceHeader": "Bhagavad Gita 6.12 – 6.13",
+        "refLink": "#/chapter/6/verse/6.12 – 6.13"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/nāsa-abhyantara",
+    "nextWMUrl": "#/word-meaning/nāvam",
+    "currentWMUrl": "#/word-meaning/nāsika-agram"
   },
   {
     "id": "nāvam",
@@ -18199,7 +18685,7 @@
         "refLink": "#/chapter/2/verse/2.67"
       }
     ],
-    "previousWMUrl": "#/word-meaning/nāsa-abhyantara",
+    "previousWMUrl": "#/word-meaning/nāsika-agram",
     "nextWMUrl": "#/word-meaning/nāyakāḥ",
     "currentWMUrl": "#/word-meaning/nāvam"
   },
@@ -18256,8 +18742,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/nāśhaḥ",
-    "nextWMUrl": "#/word-meaning/pachanti",
+    "nextWMUrl": "#/word-meaning/nīcham",
     "currentWMUrl": "#/word-meaning/nāśhitam"
+  },
+  {
+    "id": "nīcham",
+    "data": [
+      {
+        "word": "nīcham",
+        "meaning": "low",
+        "referenceHeader": "Bhagavad Gita 6.11",
+        "refLink": "#/chapter/6/verse/6.11"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/nāśhitam",
+    "nextWMUrl": "#/word-meaning/pachanti",
+    "currentWMUrl": "#/word-meaning/nīcham"
   },
   {
     "id": "pachanti",
@@ -18269,7 +18769,7 @@
         "refLink": "#/chapter/3/verse/3.13"
       }
     ],
-    "previousWMUrl": "#/word-meaning/nāśhitam",
+    "previousWMUrl": "#/word-meaning/nīcham",
     "nextWMUrl": "#/word-meaning/padam",
     "currentWMUrl": "#/word-meaning/pachanti"
   },
@@ -18438,8 +18938,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/parama-ātmā",
-    "nextWMUrl": "#/word-meaning/parantapa",
+    "nextWMUrl": "#/word-meaning/paramām",
     "currentWMUrl": "#/word-meaning/paramparā"
+  },
+  {
+    "id": "paramām",
+    "data": [
+      {
+        "word": "paramām",
+        "meaning": "supreme",
+        "referenceHeader": "Bhagavad Gita 6.15",
+        "refLink": "#/chapter/6/verse/6.15"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/paramparā",
+    "nextWMUrl": "#/word-meaning/parantapa",
+    "currentWMUrl": "#/word-meaning/paramām"
   },
   {
     "id": "parantapa",
@@ -18463,7 +18977,7 @@
         "refLink": "#/chapter/4/verse/4.33"
       }
     ],
-    "previousWMUrl": "#/word-meaning/paramparā",
+    "previousWMUrl": "#/word-meaning/paramām",
     "nextWMUrl": "#/word-meaning/parantapaḥ",
     "currentWMUrl": "#/word-meaning/parantapa"
   },
@@ -19798,8 +20312,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/pratiṣhṭhitam",
-    "nextWMUrl": "#/word-meaning/pratyavāyaḥ",
+    "nextWMUrl": "#/word-meaning/pratiṣhṭhāpya",
     "currentWMUrl": "#/word-meaning/pratiṣhṭhitā"
+  },
+  {
+    "id": "pratiṣhṭhāpya",
+    "data": [
+      {
+        "word": "pratiṣhṭhāpya",
+        "meaning": "having established",
+        "referenceHeader": "Bhagavad Gita 6.11",
+        "refLink": "#/chapter/6/verse/6.11"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/pratiṣhṭhitā",
+    "nextWMUrl": "#/word-meaning/pratyavāyaḥ",
+    "currentWMUrl": "#/word-meaning/pratiṣhṭhāpya"
   },
   {
     "id": "pratyavāyaḥ",
@@ -19811,7 +20339,7 @@
         "refLink": "#/chapter/2/verse/2.40"
       }
     ],
-    "previousWMUrl": "#/word-meaning/pratiṣhṭhitā",
+    "previousWMUrl": "#/word-meaning/pratiṣhṭhāpya",
     "nextWMUrl": "#/word-meaning/pratāpa-vān",
     "currentWMUrl": "#/word-meaning/pratyavāyaḥ"
   },
@@ -19950,8 +20478,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/pravṛitte",
-    "nextWMUrl": "#/word-meaning/praśhāntasya",
+    "nextWMUrl": "#/word-meaning/praśhānta",
     "currentWMUrl": "#/word-meaning/prayuktaḥ"
+  },
+  {
+    "id": "praśhānta",
+    "data": [
+      {
+        "word": "praśhānta",
+        "meaning": "serene",
+        "referenceHeader": "Bhagavad Gita 6.14",
+        "refLink": "#/chapter/6/verse/6.14"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/prayuktaḥ",
+    "nextWMUrl": "#/word-meaning/praśhāntasya",
+    "currentWMUrl": "#/word-meaning/praśhānta"
   },
   {
     "id": "praśhāntasya",
@@ -19963,7 +20505,7 @@
         "refLink": "#/chapter/6/verse/6.7"
       }
     ],
-    "previousWMUrl": "#/word-meaning/prayuktaḥ",
+    "previousWMUrl": "#/word-meaning/praśhānta",
     "nextWMUrl": "#/word-meaning/praṇaśhyanti",
     "currentWMUrl": "#/word-meaning/praśhāntasya"
   },
@@ -21096,8 +21638,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/pṛithivī-pate",
-    "nextWMUrl": "#/word-meaning/rahasyam",
+    "nextWMUrl": "#/word-meaning/rahasi",
     "currentWMUrl": "#/word-meaning/pṛithivīm"
+  },
+  {
+    "id": "rahasi",
+    "data": [
+      {
+        "word": "rahasi",
+        "meaning": "in seclusion",
+        "referenceHeader": "Bhagavad Gita 6.10",
+        "refLink": "#/chapter/6/verse/6.10"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/pṛithivīm",
+    "nextWMUrl": "#/word-meaning/rahasyam",
+    "currentWMUrl": "#/word-meaning/rahasi"
   },
   {
     "id": "rahasyam",
@@ -21109,7 +21665,7 @@
         "refLink": "#/chapter/4/verse/4.3"
       }
     ],
-    "previousWMUrl": "#/word-meaning/pṛithivīm",
+    "previousWMUrl": "#/word-meaning/rahasi",
     "nextWMUrl": "#/word-meaning/rajaḥ-guṇa",
     "currentWMUrl": "#/word-meaning/rahasyam"
   },
@@ -21465,6 +22021,12 @@
         "meaning": "always",
         "referenceHeader": "Bhagavad Gita 5.27 – 5.28",
         "refLink": "#/chapter/5/verse/5.27 – 5.28"
+      },
+      {
+        "word": "sadā",
+        "meaning": "constantly",
+        "referenceHeader": "Bhagavad Gita 6.15",
+        "refLink": "#/chapter/6/verse/6.15"
       }
     ],
     "previousWMUrl": "#/word-meaning/sa-śharam",
@@ -21721,6 +22283,12 @@
         "meaning": "in equality",
         "referenceHeader": "Bhagavad Gita 5.19",
         "refLink": "#/chapter/5/verse/5.19"
+      },
+      {
+        "word": "samam",
+        "meaning": "straight",
+        "referenceHeader": "Bhagavad Gita 6.12 – 6.13",
+        "refLink": "#/chapter/6/verse/6.12 – 6.13"
       }
     ],
     "previousWMUrl": "#/word-meaning/samagram",
@@ -22002,8 +22570,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/sampaśhyan",
-    "nextWMUrl": "#/word-meaning/samudbhavam",
+    "nextWMUrl": "#/word-meaning/samprekṣhya",
     "currentWMUrl": "#/word-meaning/sampluta-udake"
+  },
+  {
+    "id": "samprekṣhya",
+    "data": [
+      {
+        "word": "samprekṣhya",
+        "meaning": "gazing",
+        "referenceHeader": "Bhagavad Gita 6.12 – 6.13",
+        "refLink": "#/chapter/6/verse/6.12 – 6.13"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/sampluta-udake",
+    "nextWMUrl": "#/word-meaning/samudbhavam",
+    "currentWMUrl": "#/word-meaning/samprekṣhya"
   },
   {
     "id": "samudbhavam",
@@ -22015,7 +22597,7 @@
         "refLink": "#/chapter/3/verse/3.15"
       }
     ],
-    "previousWMUrl": "#/word-meaning/sampluta-udake",
+    "previousWMUrl": "#/word-meaning/samprekṣhya",
     "nextWMUrl": "#/word-meaning/samudbhavaḥ",
     "currentWMUrl": "#/word-meaning/samudbhavam"
   },
@@ -22495,6 +23077,12 @@
         "meaning": "restrain",
         "referenceHeader": "Bhagavad Gita 3.6",
         "refLink": "#/chapter/3/verse/3.6"
+      },
+      {
+        "word": "sanyamya",
+        "meaning": "having controlled",
+        "referenceHeader": "Bhagavad Gita 6.14",
+        "refLink": "#/chapter/6/verse/6.14"
       }
     ],
     "previousWMUrl": "#/word-meaning/sanyama",
@@ -23235,6 +23823,12 @@
         "meaning": "constantly",
         "referenceHeader": "Bhagavad Gita 3.19",
         "refLink": "#/chapter/3/verse/3.19"
+      },
+      {
+        "word": "satatam",
+        "meaning": "constantly",
+        "referenceHeader": "Bhagavad Gita 6.10",
+        "refLink": "#/chapter/6/verse/6.10"
       }
     ],
     "previousWMUrl": "#/word-meaning/sarvāṇi",
@@ -23948,8 +24542,36 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/stenaḥ",
-    "nextWMUrl": "#/word-meaning/sthita-dhīḥ",
+    "nextWMUrl": "#/word-meaning/sthiram",
     "currentWMUrl": "#/word-meaning/sthira-buddhiḥ"
+  },
+  {
+    "id": "sthiram",
+    "data": [
+      {
+        "word": "sthiram",
+        "meaning": "steadfast",
+        "referenceHeader": "Bhagavad Gita 6.11",
+        "refLink": "#/chapter/6/verse/6.11"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/sthira-buddhiḥ",
+    "nextWMUrl": "#/word-meaning/sthiraḥ",
+    "currentWMUrl": "#/word-meaning/sthiram"
+  },
+  {
+    "id": "sthiraḥ",
+    "data": [
+      {
+        "word": "sthiraḥ",
+        "meaning": "still",
+        "referenceHeader": "Bhagavad Gita 6.12 – 6.13",
+        "refLink": "#/chapter/6/verse/6.12 – 6.13"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/sthiram",
+    "nextWMUrl": "#/word-meaning/sthita-dhīḥ",
+    "currentWMUrl": "#/word-meaning/sthiraḥ"
   },
   {
     "id": "sthita-dhīḥ",
@@ -23967,7 +24589,7 @@
         "refLink": "#/chapter/2/verse/2.56"
       }
     ],
-    "previousWMUrl": "#/word-meaning/sthira-buddhiḥ",
+    "previousWMUrl": "#/word-meaning/sthiraḥ",
     "nextWMUrl": "#/word-meaning/sthita-prajñasya",
     "currentWMUrl": "#/word-meaning/sthita-dhīḥ"
   },
@@ -24035,6 +24657,18 @@
         "meaning": "situated",
         "referenceHeader": "Bhagavad Gita 5.20",
         "refLink": "#/chapter/5/verse/5.20"
+      },
+      {
+        "word": "sthitaḥ",
+        "meaning": "remaining",
+        "referenceHeader": "Bhagavad Gita 6.10",
+        "refLink": "#/chapter/6/verse/6.10"
+      },
+      {
+        "word": "sthitaḥ",
+        "meaning": "situated",
+        "referenceHeader": "Bhagavad Gita 6.14",
+        "refLink": "#/chapter/6/verse/6.14"
       }
     ],
     "previousWMUrl": "#/word-meaning/sthitau",
@@ -24536,8 +25170,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/sva-janam",
-    "nextWMUrl": "#/word-meaning/svapan",
+    "nextWMUrl": "#/word-meaning/svam",
     "currentWMUrl": "#/word-meaning/svabhāvaḥ"
+  },
+  {
+    "id": "svam",
+    "data": [
+      {
+        "word": "svam",
+        "meaning": "own",
+        "referenceHeader": "Bhagavad Gita 6.12 – 6.13",
+        "refLink": "#/chapter/6/verse/6.12 – 6.13"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/svabhāvaḥ",
+    "nextWMUrl": "#/word-meaning/svapan",
+    "currentWMUrl": "#/word-meaning/svam"
   },
   {
     "id": "svapan",
@@ -24549,9 +25197,23 @@
         "refLink": "#/chapter/5/verse/5.8 – 5.9"
       }
     ],
-    "previousWMUrl": "#/word-meaning/svabhāvaḥ",
-    "nextWMUrl": "#/word-meaning/svasyāḥ",
+    "previousWMUrl": "#/word-meaning/svam",
+    "nextWMUrl": "#/word-meaning/svapna-śhīlasya",
     "currentWMUrl": "#/word-meaning/svapan"
+  },
+  {
+    "id": "svapna-śhīlasya",
+    "data": [
+      {
+        "word": "svapna-śhīlasya",
+        "meaning": "of one who sleeps",
+        "referenceHeader": "Bhagavad Gita 6.16",
+        "refLink": "#/chapter/6/verse/6.16"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/svapan",
+    "nextWMUrl": "#/word-meaning/svasyāḥ",
+    "currentWMUrl": "#/word-meaning/svapna-śhīlasya"
   },
   {
     "id": "svasyāḥ",
@@ -24563,7 +25225,7 @@
         "refLink": "#/chapter/3/verse/3.33"
       }
     ],
-    "previousWMUrl": "#/word-meaning/svapan",
+    "previousWMUrl": "#/word-meaning/svapna-śhīlasya",
     "nextWMUrl": "#/word-meaning/svayam",
     "currentWMUrl": "#/word-meaning/svasyāḥ"
   },
@@ -25707,6 +26369,12 @@
         "meaning": "therefore",
         "referenceHeader": "Bhagavad Gita 2.28",
         "refLink": "#/chapter/2/verse/2.28"
+      },
+      {
+        "word": "tatra",
+        "meaning": "there",
+        "referenceHeader": "Bhagavad Gita 6.12 – 6.13",
+        "refLink": "#/chapter/6/verse/6.12 – 6.13"
       }
     ],
     "previousWMUrl": "#/word-meaning/tathā api",
@@ -26267,6 +26935,12 @@
         "meaning": "but",
         "referenceHeader": "Bhagavad Gita 6.6",
         "refLink": "#/chapter/6/verse/6.6"
+      },
+      {
+        "word": "tu",
+        "meaning": "however",
+        "referenceHeader": "Bhagavad Gita 6.16",
+        "refLink": "#/chapter/6/verse/6.16"
       }
     ],
     "previousWMUrl": "#/word-meaning/trāyate",
@@ -26780,8 +27454,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/uchchaiḥ",
-    "nextWMUrl": "#/word-meaning/uchyate",
+    "nextWMUrl": "#/word-meaning/uchchhritam",
     "currentWMUrl": "#/word-meaning/uchchhoṣhaṇam"
+  },
+  {
+    "id": "uchchhritam",
+    "data": [
+      {
+        "word": "uchchhritam",
+        "meaning": "high",
+        "referenceHeader": "Bhagavad Gita 6.11",
+        "refLink": "#/chapter/6/verse/6.11"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/uchchhoṣhaṇam",
+    "nextWMUrl": "#/word-meaning/uchyate",
+    "currentWMUrl": "#/word-meaning/uchchhritam"
   },
   {
     "id": "uchyate",
@@ -26847,7 +27535,7 @@
         "refLink": "#/chapter/6/verse/6.8"
       }
     ],
-    "previousWMUrl": "#/word-meaning/uchchhoṣhaṇam",
+    "previousWMUrl": "#/word-meaning/uchchhritam",
     "nextWMUrl": "#/word-meaning/uda-pāne",
     "currentWMUrl": "#/word-meaning/uchyate"
   },
@@ -27166,8 +27854,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/uparatam",
-    "nextWMUrl": "#/word-meaning/upāviśhat",
+    "nextWMUrl": "#/word-meaning/upaviśhya",
     "currentWMUrl": "#/word-meaning/upasaṅgamya"
+  },
+  {
+    "id": "upaviśhya",
+    "data": [
+      {
+        "word": "upaviśhya",
+        "meaning": "being seated",
+        "referenceHeader": "Bhagavad Gita 6.12 – 6.13",
+        "refLink": "#/chapter/6/verse/6.12 – 6.13"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/upasaṅgamya",
+    "nextWMUrl": "#/word-meaning/upāviśhat",
+    "currentWMUrl": "#/word-meaning/upaviśhya"
   },
   {
     "id": "upāviśhat",
@@ -27179,7 +27881,7 @@
         "refLink": "#/chapter/1/verse/1.47"
       }
     ],
-    "previousWMUrl": "#/word-meaning/upasaṅgamya",
+    "previousWMUrl": "#/word-meaning/upaviśhya",
     "nextWMUrl": "#/word-meaning/upāśhritāḥ",
     "currentWMUrl": "#/word-meaning/upāviśhat"
   },
@@ -27278,8 +27980,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/uttamam",
-    "nextWMUrl": "#/word-meaning/uttiṣhṭha",
+    "nextWMUrl": "#/word-meaning/uttaram",
     "currentWMUrl": "#/word-meaning/uttamaujāḥ"
+  },
+  {
+    "id": "uttaram",
+    "data": [
+      {
+        "word": "uttaram",
+        "meaning": "one over the other",
+        "referenceHeader": "Bhagavad Gita 6.11",
+        "refLink": "#/chapter/6/verse/6.11"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/uttamaujāḥ",
+    "nextWMUrl": "#/word-meaning/uttiṣhṭha",
+    "currentWMUrl": "#/word-meaning/uttaram"
   },
   {
     "id": "uttiṣhṭha",
@@ -27303,7 +28019,7 @@
         "refLink": "#/chapter/4/verse/4.42"
       }
     ],
-    "previousWMUrl": "#/word-meaning/uttamaujāḥ",
+    "previousWMUrl": "#/word-meaning/uttaram",
     "nextWMUrl": "#/word-meaning/uvācha",
     "currentWMUrl": "#/word-meaning/uttiṣhṭha"
   },
@@ -28098,8 +28814,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/vidyā",
-    "nextWMUrl": "#/word-meaning/vigata-jvaraḥ",
+    "nextWMUrl": "#/word-meaning/vigata-bhīḥ",
     "currentWMUrl": "#/word-meaning/vigata"
+  },
+  {
+    "id": "vigata-bhīḥ",
+    "data": [
+      {
+        "word": "vigata-bhīḥ",
+        "meaning": "fearless",
+        "referenceHeader": "Bhagavad Gita 6.14",
+        "refLink": "#/chapter/6/verse/6.14"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/vigata",
+    "nextWMUrl": "#/word-meaning/vigata-jvaraḥ",
+    "currentWMUrl": "#/word-meaning/vigata-bhīḥ"
   },
   {
     "id": "vigata-jvaraḥ",
@@ -28111,7 +28841,7 @@
         "refLink": "#/chapter/3/verse/3.30"
       }
     ],
-    "previousWMUrl": "#/word-meaning/vigata",
+    "previousWMUrl": "#/word-meaning/vigata-bhīḥ",
     "nextWMUrl": "#/word-meaning/vigata-spṛihaḥ",
     "currentWMUrl": "#/word-meaning/vigata-jvaraḥ"
   },
@@ -29852,8 +30582,36 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/yata",
-    "nextWMUrl": "#/word-meaning/yata-ātmānaḥ",
+    "nextWMUrl": "#/word-meaning/yata-chitta",
     "currentWMUrl": "#/word-meaning/yata-chetasām"
+  },
+  {
+    "id": "yata-chitta",
+    "data": [
+      {
+        "word": "yata-chitta",
+        "meaning": "controlling the mind",
+        "referenceHeader": "Bhagavad Gita 6.12 – 6.13",
+        "refLink": "#/chapter/6/verse/6.12 – 6.13"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/yata-chetasām",
+    "nextWMUrl": "#/word-meaning/yata-chitta-ātmā",
+    "currentWMUrl": "#/word-meaning/yata-chitta"
+  },
+  {
+    "id": "yata-chitta-ātmā",
+    "data": [
+      {
+        "word": "yata-chitta-ātmā",
+        "meaning": "with a controlled mind and body",
+        "referenceHeader": "Bhagavad Gita 6.10",
+        "refLink": "#/chapter/6/verse/6.10"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/yata-chitta",
+    "nextWMUrl": "#/word-meaning/yata-ātmānaḥ",
+    "currentWMUrl": "#/word-meaning/yata-chitta-ātmā"
   },
   {
     "id": "yata-ātmānaḥ",
@@ -29865,7 +30623,7 @@
         "refLink": "#/chapter/5/verse/5.25"
       }
     ],
-    "previousWMUrl": "#/word-meaning/yata-chetasām",
+    "previousWMUrl": "#/word-meaning/yata-chitta-ātmā",
     "nextWMUrl": "#/word-meaning/yatataḥ",
     "currentWMUrl": "#/word-meaning/yata-ātmānaḥ"
   },
@@ -30499,6 +31257,12 @@
         "meaning": "the science of Yog",
         "referenceHeader": "Bhagavad Gita 4.3",
         "refLink": "#/chapter/4/verse/4.3"
+      },
+      {
+        "word": "yogaḥ",
+        "meaning": "Yog",
+        "referenceHeader": "Bhagavad Gita 6.16",
+        "refLink": "#/chapter/6/verse/6.16"
       }
     ],
     "previousWMUrl": "#/word-meaning/yogau",
@@ -30579,6 +31343,18 @@
         "meaning": "a yogi",
         "referenceHeader": "Bhagavad Gita 6.8",
         "refLink": "#/chapter/6/verse/6.8"
+      },
+      {
+        "word": "yogī",
+        "meaning": "a yogi",
+        "referenceHeader": "Bhagavad Gita 6.10",
+        "refLink": "#/chapter/6/verse/6.10"
+      },
+      {
+        "word": "yogī",
+        "meaning": "a yogi",
+        "referenceHeader": "Bhagavad Gita 6.15",
+        "refLink": "#/chapter/6/verse/6.15"
       }
     ],
     "previousWMUrl": "#/word-meaning/yogāya",
@@ -30841,6 +31617,12 @@
         "meaning": "one who is in constant communion with the Supreme",
         "referenceHeader": "Bhagavad Gita 6.8",
         "refLink": "#/chapter/6/verse/6.8"
+      },
+      {
+        "word": "yuktaḥ",
+        "meaning": "engaged",
+        "referenceHeader": "Bhagavad Gita 6.14",
+        "refLink": "#/chapter/6/verse/6.14"
       }
     ],
     "previousWMUrl": "#/word-meaning/yujyasva",
@@ -30900,8 +31682,50 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/yuyutsavaḥ",
-    "nextWMUrl": "#/word-meaning/yā",
+    "nextWMUrl": "#/word-meaning/yuñjan",
     "currentWMUrl": "#/word-meaning/yuyutsum"
+  },
+  {
+    "id": "yuñjan",
+    "data": [
+      {
+        "word": "yuñjan",
+        "meaning": "keeping the mind absorbed in God",
+        "referenceHeader": "Bhagavad Gita 6.15",
+        "refLink": "#/chapter/6/verse/6.15"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/yuyutsum",
+    "nextWMUrl": "#/word-meaning/yuñjyāt yogam",
+    "currentWMUrl": "#/word-meaning/yuñjan"
+  },
+  {
+    "id": "yuñjyāt yogam",
+    "data": [
+      {
+        "word": "yuñjyāt yogam",
+        "meaning": "should strive to practice yog",
+        "referenceHeader": "Bhagavad Gita 6.12 – 6.13",
+        "refLink": "#/chapter/6/verse/6.12 – 6.13"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/yuñjan",
+    "nextWMUrl": "#/word-meaning/yuñjīta",
+    "currentWMUrl": "#/word-meaning/yuñjyāt yogam"
+  },
+  {
+    "id": "yuñjīta",
+    "data": [
+      {
+        "word": "yuñjīta",
+        "meaning": "should remain engaged in meditation",
+        "referenceHeader": "Bhagavad Gita 6.10",
+        "refLink": "#/chapter/6/verse/6.10"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/yuñjyāt yogam",
+    "nextWMUrl": "#/word-meaning/yā",
+    "currentWMUrl": "#/word-meaning/yuñjīta"
   },
   {
     "id": "yā",
@@ -30913,7 +31737,7 @@
         "refLink": "#/chapter/2/verse/2.69"
       }
     ],
-    "previousWMUrl": "#/word-meaning/yuyutsum",
+    "previousWMUrl": "#/word-meaning/yuñjīta",
     "nextWMUrl": "#/word-meaning/yām imām",
     "currentWMUrl": "#/word-meaning/yā"
   },
@@ -31480,8 +32304,36 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/ārurukṣhoḥ",
-    "nextWMUrl": "#/word-meaning/āste",
+    "nextWMUrl": "#/word-meaning/āsanam",
     "currentWMUrl": "#/word-meaning/āsam"
+  },
+  {
+    "id": "āsanam",
+    "data": [
+      {
+        "word": "āsanam",
+        "meaning": "seat",
+        "referenceHeader": "Bhagavad Gita 6.11",
+        "refLink": "#/chapter/6/verse/6.11"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/āsam",
+    "nextWMUrl": "#/word-meaning/āsane",
+    "currentWMUrl": "#/word-meaning/āsanam"
+  },
+  {
+    "id": "āsane",
+    "data": [
+      {
+        "word": "āsane",
+        "meaning": "on the seat",
+        "referenceHeader": "Bhagavad Gita 6.12 – 6.13",
+        "refLink": "#/chapter/6/verse/6.12 – 6.13"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/āsanam",
+    "nextWMUrl": "#/word-meaning/āste",
+    "currentWMUrl": "#/word-meaning/āsane"
   },
   {
     "id": "āste",
@@ -31499,7 +32351,7 @@
         "refLink": "#/chapter/5/verse/5.13"
       }
     ],
-    "previousWMUrl": "#/word-meaning/āsam",
+    "previousWMUrl": "#/word-meaning/āsane",
     "nextWMUrl": "#/word-meaning/āsthitaḥ",
     "currentWMUrl": "#/word-meaning/āste"
   },
@@ -31545,6 +32397,12 @@
         "meaning": "seated",
         "referenceHeader": "Bhagavad Gita 2.61",
         "refLink": "#/chapter/2/verse/2.61"
+      },
+      {
+        "word": "āsīta",
+        "meaning": "should sit",
+        "referenceHeader": "Bhagavad Gita 6.14",
+        "refLink": "#/chapter/6/verse/6.14"
       }
     ],
     "previousWMUrl": "#/word-meaning/āsthitāḥ",
@@ -31590,8 +32448,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/ātiṣhṭha",
-    "nextWMUrl": "#/word-meaning/ātma-kāraṇāt",
+    "nextWMUrl": "#/word-meaning/ātma viśhuddhaye",
     "currentWMUrl": "#/word-meaning/ātma"
+  },
+  {
+    "id": "ātma viśhuddhaye",
+    "data": [
+      {
+        "word": "ātma viśhuddhaye",
+        "meaning": "for purification of the mind",
+        "referenceHeader": "Bhagavad Gita 6.12 – 6.13",
+        "refLink": "#/chapter/6/verse/6.12 – 6.13"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/ātma",
+    "nextWMUrl": "#/word-meaning/ātma-kāraṇāt",
+    "currentWMUrl": "#/word-meaning/ātma viśhuddhaye"
   },
   {
     "id": "ātma-kāraṇāt",
@@ -31603,7 +32475,7 @@
         "refLink": "#/chapter/3/verse/3.13"
       }
     ],
-    "previousWMUrl": "#/word-meaning/ātma",
+    "previousWMUrl": "#/word-meaning/ātma viśhuddhaye",
     "nextWMUrl": "#/word-meaning/ātma-māyayā",
     "currentWMUrl": "#/word-meaning/ātma-kāraṇāt"
   },
@@ -31737,6 +32609,12 @@
         "meaning": "for the person",
         "referenceHeader": "Bhagavad Gita 6.6",
         "refLink": "#/chapter/6/verse/6.6"
+      },
+      {
+        "word": "ātmanaḥ",
+        "meaning": "his own",
+        "referenceHeader": "Bhagavad Gita 6.11",
+        "refLink": "#/chapter/6/verse/6.11"
       }
     ],
     "previousWMUrl": "#/word-meaning/ātma-vān",
@@ -31851,6 +32729,12 @@
         "meaning": "the mind",
         "referenceHeader": "Bhagavad Gita 6.6",
         "refLink": "#/chapter/6/verse/6.6"
+      },
+      {
+        "word": "ātmā",
+        "meaning": "mind",
+        "referenceHeader": "Bhagavad Gita 6.14",
+        "refLink": "#/chapter/6/verse/6.14"
       }
     ],
     "previousWMUrl": "#/word-meaning/ātmanā",
@@ -31883,6 +32767,18 @@
         "meaning": "the self",
         "referenceHeader": "Bhagavad Gita 6.5",
         "refLink": "#/chapter/6/verse/6.5"
+      },
+      {
+        "word": "ātmānam",
+        "meaning": "self",
+        "referenceHeader": "Bhagavad Gita 6.10",
+        "refLink": "#/chapter/6/verse/6.10"
+      },
+      {
+        "word": "ātmānam",
+        "meaning": "the mind",
+        "referenceHeader": "Bhagavad Gita 6.15",
+        "refLink": "#/chapter/6/verse/6.15"
       }
     ],
     "previousWMUrl": "#/word-meaning/ātmā",
@@ -32412,8 +33308,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/śhaṅkhāḥ",
-    "nextWMUrl": "#/word-meaning/śhiṣhyaḥ",
+    "nextWMUrl": "#/word-meaning/śhiraḥ",
     "currentWMUrl": "#/word-meaning/śhikhaṇḍī"
+  },
+  {
+    "id": "śhiraḥ",
+    "data": [
+      {
+        "word": "śhiraḥ",
+        "meaning": "head",
+        "referenceHeader": "Bhagavad Gita 6.12 – 6.13",
+        "refLink": "#/chapter/6/verse/6.12 – 6.13"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/śhikhaṇḍī",
+    "nextWMUrl": "#/word-meaning/śhiṣhyaḥ",
+    "currentWMUrl": "#/word-meaning/śhiraḥ"
   },
   {
     "id": "śhiṣhyaḥ",
@@ -32425,7 +33335,7 @@
         "refLink": "#/chapter/2/verse/2.7"
       }
     ],
-    "previousWMUrl": "#/word-meaning/śhikhaṇḍī",
+    "previousWMUrl": "#/word-meaning/śhiraḥ",
     "nextWMUrl": "#/word-meaning/śhiṣhyeṇa",
     "currentWMUrl": "#/word-meaning/śhiṣhyaḥ"
   },
@@ -32780,8 +33690,22 @@
       }
     ],
     "previousWMUrl": "#/word-meaning/śhrī-bhagavān uvācha",
-    "nextWMUrl": "#/word-meaning/śhuddhaye",
+    "nextWMUrl": "#/word-meaning/śhuchau",
     "currentWMUrl": "#/word-meaning/śhubha"
+  },
+  {
+    "id": "śhuchau",
+    "data": [
+      {
+        "word": "śhuchau",
+        "meaning": "in a clean",
+        "referenceHeader": "Bhagavad Gita 6.11",
+        "refLink": "#/chapter/6/verse/6.11"
+      }
+    ],
+    "previousWMUrl": "#/word-meaning/śhubha",
+    "nextWMUrl": "#/word-meaning/śhuddhaye",
+    "currentWMUrl": "#/word-meaning/śhuchau"
   },
   {
     "id": "śhuddhaye",
@@ -32793,7 +33717,7 @@
         "refLink": "#/chapter/5/verse/5.11"
       }
     ],
-    "previousWMUrl": "#/word-meaning/śhubha",
+    "previousWMUrl": "#/word-meaning/śhuchau",
     "nextWMUrl": "#/word-meaning/śhuni",
     "currentWMUrl": "#/word-meaning/śhuddhaye"
   },
@@ -32941,6 +33865,12 @@
         "meaning": "peace",
         "referenceHeader": "Bhagavad Gita 5.29",
         "refLink": "#/chapter/5/verse/5.29"
+      },
+      {
+        "word": "śhāntim",
+        "meaning": "peace",
+        "referenceHeader": "Bhagavad Gita 6.15",
+        "refLink": "#/chapter/6/verse/6.15"
       }
     ],
     "previousWMUrl": "#/word-meaning/śhādhi",
