@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>File Introspector</title>
+
+    <script src="http://127.0.0.1:8888/jquery/jquery-2.0.3.min.js" type="text/javascript"></script>
+
+    <script src="http://127.0.0.1:8888/angular-1.5.5/angular.min.js"></script>
+    <link rel="stylesheet" href="../css/style-for-multiple-search.css">
+    <link rel="stylesheet" href="http://127.0.0.1:8888/bootstrap-3.3.6-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://127.0.0.1:8888/font-awesome-4.6.3/css/font-awesome.min.css">
+    <script src="../controller/fileSearchWithBootstrapWithMultipleSearchBoxGroupByNames.js"></script>
+
+
+    <script src="http://127.0.0.1:8888/jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="http://127.0.0.1:8888/jquery-ui-1.11.4.custom/jquery-ui.css">
+
+    <script src="http://127.0.0.1:8888/axis-master/dist/axis.min.js"></script>
+    <script src="http://127.0.0.1:8888/angular-filter-0.5.14/angular-filter.js"></script>
+
+</head>
+
+
+<body data-ng-app="scopeExample">
+
+
+    <div data-ng-controller="fileSearchController">
+
+        <div class="container jumbotron">
+            Enter time interval in milisec :
+            <input type="text" data-ng-model="timerInterval" placeholder="Enter time interval in milisec" />
+            <br/>
+            <fieldset data-ng-repeat="choice in choices">
+                Enter Folder Name:
+                <input type="text" ng-model="choice.name" name="" placeholder="Enter Folder Name: ">
+
+                <button class="lalChaukor" ng-show="$last" ng-click="removeChoice()">-</button>
+
+                <button class="lalChaukor" ng-show="$last" ng-click="addNewChoice()">+</button>
+
+                <!-- <button class="lalChaukor" ng-show="$last" data-ng-click='loadMultiResult()'>
+					<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+				</button>  -->
+            </fieldset>
+
+            Select Extensions :-
+            <span ng-repeat="fruit in fruits">
+                <input type='checkbox' value="{{fruit}}" check-list='checked_fruits'> {{fruit}} &nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+
+            <button class="lalChaukor" data-ng-click='loadMultiResult()'>
+                <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+            </button>
+
+
+            <div id="choicesDisplay">
+                {{ choices }}
+            </div>
+
+
+
+            <div id="resultsDisplay" ng-if="errorMessage.length>0">
+
+                <div ng-if="(loadingMessage.length<=0) && (fileNames.length>0)">
+                    Loading Complete
+                </div>
+
+                <div ng-if="loadingMessage.length>0">
+                    Loading data...
+                </div>
+
+                <!-- {{loadingMessage}} -->
+
+                <div data-ng-repeat="msg in errorMessage">
+                    <!-- {{msg}}<br/> -->
+                    <span ng-if="msg.type=='load'" class="loadMessage">
+                        {{msg.message}}
+                    </span>
+
+                    <span ng-if="msg.type=='success'" class="successMessage">
+                        {{msg.message}}
+                    </span>
+
+                    <span ng-if="msg.type=='fail'" class="errorMessage">
+                        {{msg.message}}
+                    </span>
+                </div>
+
+            </div>
+
+            <!-- <div class="jumbotron container">
+				{{fileNames}}
+			</div> -->
+
+        </div>
+        <!--End Container-->
+
+        <!--####################################################################################-->
+
+        <!--####################################################################################-->
+
+        <div class="container jumbotron">
+            Search:
+            <input type="text" data-ng-model="searchText"> You are typing "{{searchText}}"
+            <br />
+
+            <div class="lighter roboto">
+                Number of filtered items: {{filteredItems.length}}
+                <br />
+                <p ng-hide="filteredItems.length">There is no result</p>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 col-md-12">
+
+                    <!--####################-->
+                    <table class="friends">
+                        <tr>
+                            <th>
+                                <button class="btn btn-xs btn-primary" ng-click="sortBy('name')">name</button>
+                                <span class="sortorder" ng-show="propertyName === 'name'" ng-class="{reverse: reverse}"></span>
+                            </th>
+                            <th>
+                                <button class="btn btn-xs btn-primary" ng-click="sortBy('filePath')">filePath</button>
+                                <span class="sortorder" ng-show="propertyName === 'filePath'" ng-class="{reverse: reverse}"></span>
+                            </th>
+                            <th>
+                                <button class="btn btn-xs btn-primary" ng-click="sortBy('parentFile')">parentFile</button>
+                                <span class="sortorder" ng-show="propertyName === 'parentFile'" ng-class="{reverse: reverse}"></span>
+                            </th>
+
+                            <th>
+                                <input type="checkbox" data-ng-model="showOnlyMoreThan1SezedGroups"> Include groups having 1 size
+                                </input>
+                            </th>
+
+                            <th>
+                                <input class="sortorder" type="checkbox" data-ng-model="hideGroupsOfSizeOne"> hide groups having size one
+                                </input>
+                            </th>
+                        </tr>
+
+                    </table>
+                    <!--####################-->
+
+
+                    <div data-ng-repeat="(key,valuee) in (( filteredItems =(fileNames | filter:searchText |orderBy:propertyName:reverse)) | groupBy: '[name]')">
+
+                        <div ng-hide="hideGroupsOfSizeOne&&valuee.length==1">
+                            <br>
+                            <b>Group name: {{key}} has {{valuee.length}} entries.</b>
+                            <br>
+                            <div ng-repeat="file in valuee" ng-show="file.showValue&&(valuee.length>1||showOnlyMoreThan1SezedGroups)">
+                                <span class="glyphicon glyphicon-asterisk" aria-hidden="true">
+                                    <!-- <a href="{{file.filePath}}">
+											{{file.name}}
+										</a> -->
+                                    <a data-ng-model="testAnchor[this]" data-ng-click="ppp('http://127.0.0.1:8888/FileService/my.jsp?documentId='+file.filePath,file.filePath,$index)">
+                                        [{{$index + 1}}]
+
+                                        <!-- <span class="loadMessage">
+										{{file.showValue}} 
+										</span> -->
+
+                                        <span class="loadMessage" data-ng-class="{selectedFileClass: file.filePath == filePathSelectedVote}">
+                                            {{file.name}}
+                                        </span>
+
+                                        |
+                                        <span class="successMessage">
+                                            {{file.filePath}}
+                                        </span>
+                                        |
+                                        <span class="nameOfFolder">
+                                            {{file.parentFile}}
+                                        </span>
+                                    </a>
+
+                                    <button class="lalChaukor" data-ng-click="deleteFile(file.filePath)">
+                                        <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                                    </button>
+
+                                    <button class="lalChaukor" data-ng-click="file.showValue=!file.showValue">
+                                        <span class="glyphicon" aria-hidden="true">Hide</span>
+                                    </button>
+
+                                    <button class="lalChaukor" data-ng-click="openRenamePopup(file.filePath,file.name)">
+                                        <span class="glyphicon" aria-hidden="true">Rename</span>
+                                    </button>
+
+                                    <button class="lalChaukor" data-ng-click="openMovePopup(file.filePath,file.parentFile,file.name)">
+                                        <span class="glyphicon" aria-hidden="true">Move</span>
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <hr>
+                </div>
+                <!--End Column-->
+
+            </div>
+            <!--End Row-->
+        </div>
+        <!--End Container-->
+
+        <div class="container contentAlertDisplay" data-ng-model="renameFileModel" id="moveFile" title="{{titleOfPdf}}" width="100%"
+            height="100%">
+
+            Enter Path for file :<br/>
+            <input type="text" data-ng-model="targetFolderPath" width="100%" /><br/>
+            Enter new name for file :<br/>
+            <input type="text" data-ng-model="newmovingFileName" width="100%" /><br/>
+
+            <button class="lalChaukor" data-ng-click="moveFile(FileToBeMovedPath,targetFolderPath,newmovingFileName)">
+                Move
+                <!-- <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> -->
+            </button>
+
+        </div>
+
+        <div class="container contentAlertDisplay" data-ng-model="renameFileModel" id="renameFile" title="{{titleOfPdf}}" width="100%"
+            height="100%">
+
+            Enter new name for file :<br/>
+            <input type="text" data-ng-model="newFileName" width="100%" /><br/>
+
+            <button class="lalChaukor" data-ng-click="renameFile(FileToBeRenamedPath,newFileName)">
+                Rename
+                <!-- <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> -->
+            </button>
+
+        </div>
+
+        <div class="container contentAlertDisplay" data-ng-model="helloModel" id="hello" title="{{titleOfPdf}}" width="100%" height="100%">
+            <button class="lalChaukor" data-ng-click="next()">
+                >>
+                <!-- <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> -->
+            </button>
+
+            <button class="lalChaukor" ng-if="!timerStarted" data-ng-click="slideShowStart()">
+                Show slideshow
+                <!-- <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> -->
+            </button>
+
+            <button class="lalChaukor" ng-if="timerStarted" data-ng-click="slideShowCancel()">
+                Cancel slideshow
+                <!-- <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> -->
+            </button>
+
+            <button class="lalChaukor" data-ng-click="previous()">
+                << <!-- <span class="glyphicon" aria-hidden="true">Hide</span> -->
+            </button>
+            <p>
+                <font face="Georgia" size="4">
+                    {{titleOfPdf}}</font>
+            </p>
+
+            <embed id="objectToEmbed" src="" width="100%" height="90%" />
+
+        </div>
+        <!--End of PDF viewer popup Container-->
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Example - example-example42-production</title>
+
+
+<!-- <script src="../angular-1.2.16/angular.min.js"></script> -->
+<script src='http://127.0.0.1:8999/angular-1.5.5/angular.min.js'></script>
+<link rel="stylesheet" href="http://127.0.0.1:8999/bootstrap-3.3.6-dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://127.0.0.1:8999/font-awesome-4.6.3/css/font-awesome.min.css">
+<script src="../../controller/topic/script.js"></script>
+
+
+
+</head>
+<body data-ng-app="scopeExample">
+	<div data-ng-controller="fileSearchController">
+		<div class="container jumbotron">
+			<div class="row">
+				<div class="col-md-6">
+					Enter Topic Name:   
+				</div>
+				
+				<div class="col-md-6">
+					<input type="text" data-ng-model="topic.name">
+				</div>
+			
+			</div><!--End of row-->
+			
+			<div class="row">
+				<div class="col-md-6">
+					Enter Topic Content :	 
+				</div>
+				
+				<div class="col-md-6">
+					<textarea rows="3" data-ng-model="topic.content"></textarea>
+				</div>
+			
+			</div><!--End of row-->
+			
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3">
+					<button data-ng-click='loadResult()'>
+						<span class="glyphicon glyphicon-search" aria-hidden="true"></span>Submit
+					</button>
+				</div>			
+			</div>
+			
+			
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3">
+					You are typing "{{topic}}"
+				</div>
+			</div>
+			
+			
+			
+			
+			
+			
+		</div> <!--End Container-->
+		
+		
+		
+	</div>
+</body>
+</html>

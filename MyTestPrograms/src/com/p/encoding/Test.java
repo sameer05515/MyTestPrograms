@@ -24,7 +24,7 @@ public class Test {
 			
 			String authorization="MjBGNEM5ODQ0MDkyM0NGN0FENkIxNDlGNkMyMjIzQUM3NTNBQUE5NjRDMDhDN0IxNkExQjFGRURGM0FGMDg4Ng==1111";
 			
-			String clearText = "Ibulls@1111";// "Indiabulls@555";
+			String clearText = "Imy@1111";
 			String resp = Encoder.encode(clearText);
 			System.out.println("clearText :\t\t" + clearText);
 			System.out.println("resp :\t\t" + resp);
@@ -192,8 +192,3 @@ public class Test {
 
 }
 
-// http://omsmuat.indiabulls.com/NestHtml5Mobile/0139/set/Password/TR
-//
-//
-//
-// http://omsmuat.indiabulls.com/NestHtml5Mobile/0139/set/Password/TR?cuserid=444133&password=Daksh@123

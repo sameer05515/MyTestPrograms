@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Example - example-example42-production</title>
+
+
+<!-- <script src="../angular-1.2.16/angular.min.js"></script> -->
+<script src='http://127.0.0.1:9999/angular-1.5.5/angular.min.js'></script>
+<link rel="stylesheet" href="http://127.0.0.1:9999/bootstrap-3.3.6-dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://127.0.0.1:9999/font-awesome-4.6.3/css/font-awesome.min.css">
+<script src="../controller/script.js"></script>
+
+
+
+</head>
+<body data-ng-app="scopeExample">
+	<div data-ng-controller="fileSearchController">
+		<div class="container jumbotron">
+			Enter Folder Name:    <input type="text" data-ng-model="foldername">
+			<button data-ng-click='loadResult()'>
+			<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+			Search</button> <br/>
+			
+			You
+			are typing "{{foldername}}"<br /> 
+		</div> <!--End Container-->
+		
+		<div class="container border-around lighter">
+			Search: <input type="text" data-ng-model="searchText"> You
+			are typing "{{searchText}}" <br />
+		</div> <!--End Container-->
+		
+		<div class="container lighter">
+			<div class="lighter roboto">
+                Number of filtered items: {{filteredItems.length}} <br/>
+				<p ng-hide="filteredItems.length">There is no result</p>
+            </div>			
+		</div> <!--End Container-->
+		<!--<button data-ng-click='sayHello()'>greet</button>-->
+		
+		<div class="container lighter">
+		
+			<div class="row">
+				<div class="col-sm-6 col-md-4">
+					<div>
+						<div data-ng-repeat="file in ( filteredItems =(fileNames | filter:searchText |orderBy:'filePath'))">				
+							<span class="glyphicon glyphicon glyphicon-asterisk" aria-hidden="true"><a href="{{file.filePath}}">{{file.name}}</a></span>
+						</div>
+					</div>
+					<hr>
+				</div><!--End Column-->
+				
+				<div class="col-sm-6 col-md-8">
+					<!-- <div class="row">
+						<div class="col-sm-12 col-md-12">
+							<embed id="gameHolder" src="http://127.0.0.1:8080/bce/fileWriter?documentId=C:/Users/VINU/Desktop/21-dec-2015/31-May-2016/50%20Android%20Hacks.pdf" allowfullscreen="true"  >
+						</div> -->
+					</div>
+				</div><!--End Column-->
+			</div><!--End Row-->
+		</div> <!--End Container-->
+		
+		<div class="container lighter">
+			{{errorMessage}}
+		</div> <!--End Container-->
+		
+	</div>
+</body>
+</html>

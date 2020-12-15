@@ -1,0 +1,35 @@
+spring.application.name=UAT_Token_Appv
+cons_key=
+cons_secret=
+member_code=
+logpath=
+get_token_url=
+			
+
+#trade_enquery_url=
+#trade_enquery_url=
+trade_enquery_url=
+
+				  				  
+cd_trades_inquiry=				  
+cm_trades_inquiry=
+fo_trades_inquiry=
+#fo_action_inquiry=
+api_active_time=08:00 to 20:00   #new----
+  
+		   
+#datasource configuration
+dsusername=
+dspassword=
+dsurl=
+dsdriverclassname=
+	 			  
+#hibernate configuration
+hibernate.dialect=org.hibernate.dialect.Oracle12cDialect
+hibernate.show_sql=false
+current_session_context_class=org.springframework.orm.hibernate5.SpringSessionContext
+
+
+
+
+ 
