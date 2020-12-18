@@ -103,7 +103,7 @@ public class WatchServiceTempTxtFile {
 
 	public static void main(String[] args) {
 		try {
-			Path dir = Paths.get("D:\\Prem\\GIT-PROJ\\db-files\\smbg\\verseDetails");
+			Path dir = Paths.get("D:\\Prem\\GIT-PROJ\\file-bckp\\smbg\\verseDetails");
 			new WatchServiceTempTxtFile(dir).processEvents();
 			
 		} catch (IOException e) {

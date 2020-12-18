@@ -105,8 +105,8 @@ public class TestJsonObjectTokenTraversal {
 
 	public static void main(String[] args) {
 		try {
-			String chapterArrJsonFilePath = "D:\\Prem\\GIT-PROJ\\db-files\\smbg\\temp\\t.txt";
-			String rawListFilePath = "D:\\Prem\\GIT-PROJ\\db-files\\smbg\\verseDetails\\temp.txt";
+			String chapterArrJsonFilePath = "D:\\Prem\\GIT-PROJ\\file-bckp\\smbg\\temp\\t.txt";
+			String rawListFilePath = "D:\\Prem\\GIT-PROJ\\file-bckp\\smbg\\verseDetails\\temp.txt";
 			JsonArray chapterArr = getJsonArrayFromFile(chapterArrJsonFilePath);
 			List<String> rawDataList = getRawList(rawListFilePath);
 
@@ -298,7 +298,7 @@ public class TestJsonObjectTokenTraversal {
 
 			JsonArray wordMeaningArr = getWordMeaningArray(chapterArr);
 			printJsonElement(wordMeaningArr, new PrintStream(new File(
-					"D:\\Prem\\GIT-PROJ\\db-files\\smbg\\temp\\wm.txt")));
+					"D:\\Prem\\GIT-PROJ\\file-bckp\\smbg\\temp\\wm.txt")));
 			printJsonElement(wordMeaningArr, new PrintStream(new File(
 					"D:\\Prem\\GIT-PROJ\\MyTestPrograms\\ShrimadBhagwatGeeta\\src\\main\\webapp\\data\\json\\chapter-verse-word-meaning-temp.json")));
 			printJsonElement(wordMeaningArr, new PrintStream(new File(
