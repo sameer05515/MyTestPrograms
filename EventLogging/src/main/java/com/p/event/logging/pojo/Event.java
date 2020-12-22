@@ -1,6 +1,8 @@
 package com.p.event.logging.pojo;
 
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 public class Event {
 
@@ -21,6 +23,8 @@ public class Event {
 	private Date createdOn;
 	private Date updatedOn;
 	private boolean enabled;
+
+	private List<Label> labels=new ArrayList<>();
 	
 	public String getId() {
 		return id;
@@ -63,6 +67,12 @@ public class Event {
 	}
 	public void setEnabled(boolean enabled) {
 		this.enabled = enabled;
+	}
+	public List<Label> getLabels() {
+		return labels;
+	}
+	public void setLabels(List<Label> labels) {
+		this.labels = labels;
 	}
 
 }
