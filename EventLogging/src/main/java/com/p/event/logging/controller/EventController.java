@@ -117,10 +117,10 @@ public class EventController {
 	 */
 
 	@PostMapping("/event-logging/label/")
-	public ResponseEntity<Object> addLabel(@RequestBody Label word) {
+	public ResponseEntity<Object> addLabel(@RequestBody Label label) {
 		ResponseEntity<Object> response = null;
 		try {
-			Map<String, Integer> res = eventService.addLabel(word);
+			Map<String, Object> res = eventService.addLabel(label);
 			response = ResponseHandler.generateResponse(HttpStatus.OK, false, "Success", res);
 		} catch (InvalidInputSuppliedException e) {
 			response = ResponseHandler.generateResponse(HttpStatus.PRECONDITION_FAILED, true, "Fail",
@@ -171,10 +171,10 @@ public class EventController {
 	}
 
 	@PutMapping("/event-logging/label/{id}")
-	public ResponseEntity<Object> updateLabelById(@PathVariable("id") String id, @RequestBody Event word) {
+	public ResponseEntity<Object> updateLabelById(@PathVariable("id") String id, @RequestBody Label event) {
 		ResponseEntity<Object> response = null;
 		try {
-			Label res = eventService.updateLabelById(id,word);
+			Label res = eventService.updateLabelById(id,event);
 			response = ResponseHandler.generateResponse(HttpStatus.OK, false, "Success", res);
 		} catch (InvalidInputSuppliedException e) {
 			response = ResponseHandler.generateResponse(HttpStatus.PRECONDITION_FAILED, true, "Fail",
@@ -193,10 +193,10 @@ public class EventController {
 	 */
 
 	@PostMapping("/event-logging/event-label-relaion/")
-	public ResponseEntity<Object> addEventLabelRelation(@RequestBody EventLabelRelation word) {
+	public ResponseEntity<Object> addEventLabelRelation(@RequestBody EventLabelRelation relation) {
 		ResponseEntity<Object> response = null;
 		try {
-			Map<String, Object> res = eventService.addEventLabelRelation(word);
+			Map<String, Object> res = eventService.addEventLabelRelation(relation);
 			response = ResponseHandler.generateResponse(HttpStatus.OK, false, "Success", res);
 		} catch (InvalidInputSuppliedException e) {
 			response = ResponseHandler.generateResponse(HttpStatus.PRECONDITION_FAILED, true, "Fail",
