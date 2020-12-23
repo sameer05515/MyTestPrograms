@@ -51,15 +51,21 @@
                 ng-repeat="shlokEngData in verseObj.shlokEng">
                 {{shlokEngData.value}}</div>
         </div>
-        
+
         <div class="col-sm-16">
-        <!-- autoplay loop -->
-        <div style="font-size:16px; font-style: italic; font-weight: bold;text-align: center;">
-        	<audio controls controlslist="nodownload" src="{{verseObj.shlokPath}}">
-                                Your browser does not support the HTML5 Audio element.
-                                </audio>
-        </div>
-        
+            <!-- autoplay loop -->
+            <div style="font-size:16px; font-style: italic; font-weight: bold;text-align: center;">
+                <audio loop="{{loopCurrentSong}}" controls controlslist="nodownload" src="{{verseObj.shlokPath}}">
+                    Your browser does not support the HTML5 Audio element.
+                </audio>
+            </div>
+            <div ng-init="loopCurrentSong=false;" style="font-size:16px; font-style: italic; font-weight: bold;text-align: center;">
+                <div ng-click="loopCurrentSong=!loopCurrentSong;">
+                    <span ng-if="loopCurrentSong">loop on</span>
+                    <span ng-if="!loopCurrentSong">loop off</span>
+                </div>
+            </div>
+
         </div>
 
         <div class="col-sm-16">
@@ -68,7 +74,8 @@
             </div>
             <div style="font-size:14px; font-style: italic;display: inline;"
                 ng-repeat="meaningData in verseObj.meaning">
-                <a href="{{meaningData.wordMeaningDetailUrl}}">{{meaningData.sanskrit}}</a> -- <span>{{meaningData.meaning}} , </span>
+                <a href="{{meaningData.wordMeaningDetailUrl}}">{{meaningData.sanskrit}}</a> --
+                <span>{{meaningData.meaning}} , </span>
             </div>
         </div>
 
