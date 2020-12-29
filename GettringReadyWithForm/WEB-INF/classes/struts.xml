@@ -1,0 +1,16 @@
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="test" namespace="" extends="struts-default">
+		<action name="userRegForm"  class="com.bullraider.app.actions.populator.FormFillerAction" method="getUserRegistrationForm">
+			<result name="success">/UserRegistrationForm.jsp</result>
+		</action>
+		<action name="registerUser"  class="com.bullraider.app.actions.populator.FormFillerAction" method="registerUser">
+			<interceptor-ref name="defaultStack">
+			<param name="prepare.excludeMethods">registerUser</param>
+			</interceptor-ref>
+			<result name="success">/WelcomeUser.jsp</result>
+		</action>
+		</package>
+</struts>
