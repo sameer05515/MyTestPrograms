@@ -1,0 +1,1645 @@
+/* CSS file */
+@namespace s "library://ns.adobe.com/flex/spark";
+@namespace mx "library://ns.adobe.com/flex/mx";
+@namespace custom "custom.*";
+@namespace customcomponents "customcomponents.*";
+@namespace scripts "com.ist.iagent.ticketing.scripts.*";
+
+
+global
+{
+	backgroundAlpha: 1.0; 
+	backgroundSize: "auto";
+
+
+	fillAlphas: 0.3, 0.3, 0.85, 0.75;
+	fillColors: #6C8AA4, #BFD5E8, #5AA0C3, #A8D0E2;
+	
+	
+	themeColor: #f29d49 ;	
+	rollOverColor: #FE7E00 ;
+	selectionColor: #FE7E00 ;
+	
+	modal-transparency-color:black;
+	disabled-color:black;
+	
+}
+
+scripts|Hyperlink{
+	color:#0084D7;
+}
+
+
+.popupLabelWhiteBold{
+color:#FFFFFF;
+font-weight:bold;
+}
+.popupLabelWhiteNormal{
+	color:#FFFFFF;
+	
+}
+
+.GeneralInfoTableLabel{
+color:#333333;
+font-size:12;
+	
+}
+
+
+s|Button{
+skin-class:ClassReference("customcomponentsSkins.SubmitBtnSkin");
+
+}
+
+
+.popUpLabelStyle{
+	color:#FFFFFF;
+}
+
+.GeneralInfoTableLabelMouseOver{
+	color:#FFFFFF;
+	font-size:12;
+	
+}
+
+.GeneralInfoTableLabelMouseOut{
+	color:#333333;
+	font-size:12;
+	
+}
+
+
+
+s|Application{
+
+background-color:#e7e7e7;
+
+}
+
+
+
+.backgroundColorApplication{
+/*	background-color:#AAAAAA;*/
+	background-color:#B4CCDB;
+/*	background-color:#000000;*/
+}
+
+
+
+
+mx|DateField{
+	text-input-style-name:"dateFieldInternalStyle";
+	
+	
+	skin: Embed("css/icons/Calendar_Icon_blue.png");
+	upSkin: Embed("css/icons/Calendar_Icon_blue.png");
+	overSkin: Embed("css/icons/Calendar_Icon_orange.png");
+	downSkin: Embed("css/icons/Calendar_Icon_blue.png");
+	disabledSkin: Embed("css/icons/Calendar_Icon_blue.png");
+}
+
+.headerComboInputStyle{
+focus-alpha:0;
+content-background-alpha:0;
+font-size:12;
+font-weight:bold;
+color:#FFFFFF;
+}
+
+mx|DateChooser{
+next-month-skin:Embed("css/icons/Button_Arrow_Icon_blue_left.png");
+next-month-over-skin:Embed("css/icons/Button_Arrow_Icon_orange_ri.png");
+next-month-down-skin:Embed("css/icons/Button_Arrow_Icon_blue_left.png");
+/*next-month-skin:ClassReference("customcomponentsSkins.DateChooserNextBtnSkin");*/
+
+prev-month-skin:Embed("css/icons/Button_Arrow_Icon_blue._rig.png");
+prev-month-over-skin:Embed("css/icons/Button_Arrow_Icon_orange_le.png");
+prev-month-down-skin:Embed("css/icons/Button_Arrow_Icon_blue._rig.png");
+
+selection-color:#FE7E00;
+
+header-colors:#DDDDDD,#DDDDDD;
+color:#000000;
+border-visible:true;
+border-color:#FFFFFF;
+content-background-color:#DDDDDD;
+horizontal-gap:3;
+vertical-gap:2;
+roll-over-color:#FE7E00;
+font-size:10;
+
+}
+
+
+
+
+
+.dateFieldInternalStyle{
+	border-skin:Embed(source='css/icons/blank.png');
+	border-visible:true;
+	
+}
+
+
+.leftLabelStyle{
+
+padding-bottom:5;
+padding-left:5;
+padding-right:5;
+padding-top:5;
+color:#FFFFFF;
+}
+
+
+
+s|Label{
+	padding-bottom:5;
+	padding-left:5;
+	padding-right:5;
+	padding-top:5;
+	color:#333333;
+	font-size:12pt;
+/*	font-weight:bold;*/
+	
+}
+
+
+.submitReqestBtn{
+
+font-weight:bold;
+color:#FFFFFF;
+
+}
+
+mx|Text
+{
+	
+	color:#FFFFFF;
+	font-weight:bold;
+	
+}
+
+
+
+
+s|BorderContainer{
+	skin:Embed(source='css/icons/label.png');
+
+}
+
+s|TextInput{
+	focus-color:#FFFFFF;
+	focus-alpha:FF;
+	color:black;
+	border-visible:true;
+}
+
+
+s|TextArea{
+	focus-color:#FFFFFF;
+	focus-alpha:FF;
+	color:black;
+	border-visible:true;
+}
+
+
+mx|TextInput{
+	focus-color:#FFFFFF;
+	focus-alpha:FF;
+	color:black;
+	font-size:12pt;
+/*	border-skin:Embed(source='css/icons/text_input_background.png');*/
+}
+
+
+mx|ApplicationControlBar
+{
+
+ padding-left:10;
+ horizontal-gap:15;
+ border-skin:Embed(source='css/icons/cti_bar_background.png');
+
+
+}
+
+/* TitleWindow{
+	
+	header-height:90;
+	
+} */
+
+
+/*mx|LinkBar
+{
+
+ button-style-name:"linkButtonStyle";
+
+}*/
+.linkButtonStyle{
+ 	
+/*     up-skin:Embed(source='icons/selected_submenu_ item.png');
+    down-skin:Embed(source='icons/selected_submenu_ item.png');
+    over-skin:Embed(source='icons/selected_submenu_ item.png');
+    disabled-skin:Embed(source='icons/selected_submenu_ item.png'); */
+        
+/*    font-family:"Avenir Light";*/
+    font-weight:normal;
+    text-roll-over-color:#000000;
+    text-selected-color:#000000;
+    disabled-color:#000000;
+    color:#000000; 
+	font-size:12;
+	
+}
+
+.subMenuButtonStyle{
+
+	
+	up-skin:Embed(source='icons/blank.png');
+	down-skin:Embed(source='icons/Secondary_Button_mouseover.png');
+	over-skin:Embed(source='icons/Secondary_Button_mouseover.png');
+	
+	selected-up-skin:Embed(source='icons/Secondary_Navigation_Button.png');
+	selected-down-skin:Embed(source='icons/Secondary_Navigation_Button.png');
+	selected-over-skin:Embed(source='icons/Secondary_Navigation_Button.png');	
+	disabled-skin:Embed(source='icons/Secondary_Navigation_Button.png');
+	
+	text-selected-color:#FFFFFF;
+	text-roll-over-color:#FFFFFF;
+	font-weight:bold;
+	color:#FFFFFF;
+	
+	
+}
+
+.tabbarInnerStyle{
+padding-bottom:5;
+padding-left:0;
+padding-right:0;
+padding-top:0;
+border-visible:false;
+background-alpha:0;
+	
+}
+
+
+.navigationButtonBar{
+	padding-left:10;
+	backgroundColor:#333333;
+	vertical-align:middle;
+}
+
+.AppModuleStyle{
+	paddingTop:0;
+	paddingLeft:10;
+	disabledColor:#FFFFFF;
+	paddingRight:10;
+	verticalScrollPolicy:off;
+	horizontalScrollPolicy:off;
+	backgroundAlpha:0;
+}
+
+
+
+.subMenuFirstLastButtonStyle{
+	
+	up-skin:Embed(source='icons/blank.png');
+	down-skin:Embed(source='icons/blank.png');
+	over-skin:Embed(source='icons/Secondary_Button_mouseover.png');
+	
+	selected-up-skin:Embed(source='icons/Secondary_Navigation_Button.png');
+	selected-down-skin:Embed(source='icons/Secondary_Navigation_Button.png');
+	selected-over-skin:Embed(source='icons/Secondary_Navigation_Button.png');	
+	disabled-skin:Embed(source='icons/Secondary_Navigation_Button.png');
+	text-roll-over-color:#FFFFFF;
+	text-selected-color:#FFFFFF;
+	color:#FFFFFF;
+	font-weight:bold;
+
+	
+}
+
+
+.statisticsSwitchButton{
+
+	up-skin:Embed(source='icons/blank.png');
+	down-skin:Embed(source='icons/blank.png');
+	over-skin:Embed(source='icons/Secondary_Button_mouseover.png');
+	
+	selected-up-skin:Embed(source='icons/Secondary_Navigation_Button.png');
+	selected-down-skin:Embed(source='icons/Secondary_Navigation_Button.png');
+	selected-over-skin:Embed(source='icons/Secondary_Navigation_Button.png');	
+	disabled-skin:Embed(source='icons/Secondary_Navigation_Button.png');
+	text-roll-over-color:#FFFFFF;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-selected-color:#FFFFFF;
+
+}
+
+
+mx|Panel
+{
+
+ background-alpha:1;
+ border-alpha:1;
+ border-color:#000000;  
+/*  border-color:#3583ea; */
+ /*  border-color:#717171; */
+ /* font-family:"Avenir Book"; */
+/* header-colors:#3583ea,#3583ea; */
+  
+  title-background-skin:Embed(source='css/icons/header_background.png');
+/* border-thickness-top:0; 
+ border-thickness-bottom:55;
+ border-thickness-left:1;
+ border-thickness-right:1;*/
+  
+  
+ 
+ header-height:31px;
+ titleStyleName:"panelHeaderStyle";
+ color:#000000;
+ 
+
+}
+
+mx|Label{
+font-weight:bold;
+font-size:12pt;
+}
+
+.panelHeaderStyle
+{
+ 
+/*  font-family:"Avenir Light";  */
+  color:white;
+
+	
+  font-size: 15pt; 
+  font-weight: bold; 
+}
+
+.clientModuleButton{
+	
+/*	up-skin:Embed(source='icons/tabButton.png');
+	down-skin:Embed(source='icons/tabButton.png');
+	over-skin:Embed(source='icons/tabButton.png');
+	disabled-skin:Embed(source='icons/tabButton.png'); */
+	
+	
+/*	up-skin:Embed(source='icons/shortTab.png');
+	down-skin:Embed(source='icons/shortTabselected.png');
+	over-skin:Embed(source='icons/shortTabselected.png');
+	
+	selected-up-skin:Embed(source='icons/shortTabselected.png');
+	selected-down-skin:Embed(source='icons/shortTabselected.png');
+	selected-over-skin:Embed(source='icons/shortTabselected.png');	
+	disabled-skin:Embed(source='icons/shortTab.png');*/
+	
+	
+}
+.clientModuleButtonFirstButtnStyle{
+	
+/*	up-skin:Embed(source='icons/shortTab.png');
+	down-skin:Embed(source='icons/shortTabselected.png');
+	over-skin:Embed(source='icons/shortTabselected.png');
+	
+	selected-up-skin:Embed(source='icons/shortTabselected.png');
+	selected-down-skin:Embed(source='icons/shortTabselected.png');
+	selected-over-skin:Embed(source='icons/shortTabselected.png');	
+	disabled-skin:Embed(source='icons/shortTab.png');*/
+	
+	
+}
+
+
+
+.generalInformationPanelStyle
+{
+	background-alpha:1;
+	border-alpha:0;
+	border-color:#FFFFFF;  
+	/*  border-color:#3583ea; */
+	/*  border-color:#717171; */
+	/* font-family:"Avenir Book"; */
+/*	header-colors:#3583ea,#3583ea; */
+	title-background-skin:Embed(source='css/icons/tabnavigator_header_gray.png');
+/*	border-thickness-top:0; 
+	border-thickness-bottom:1;
+	border-thickness-left:1;
+	border-thickness-right:1;*/
+	drop-shadow-visible:false;
+	header-height:31px;
+	titleStyleName:"panelHeaderStyle";
+	color:#000000;
+	font-weight:bold;
+
+
+}
+
+
+
+
+
+
+.LoginWindowStyle
+{
+	color:white;
+	border-skin:Embed(source='icons/transfer/login_window_background.png');
+    backgroundAlpha:0.7;
+    backgroundColor:#000000;
+    border-alpha:0.7;
+	borderColor:#000000;
+	roundedBottomCorners:"true";
+	corner-radius:7;
+	headerHeight:"0";
+	borderThickness:"1";
+	borderThicknessBottom:"1";
+	borderThicknessLeft:"1";
+	borderThicknessRight:"1";
+	borderThicknessTop:"10";
+	padding-bottom:10;
+	
+	
+	/*
+	 paddingBottom:"1"; 
+	 paddingLeft:"1";
+	paddingRight:"10";
+	paddingTop:"10"; */
+	
+	
+
+
+}
+
+
+.transferWindowStyle
+{
+	color:Black;
+	
+	border-skin:Embed(source='icons/transfer/transerBackground.png');
+	
+	
+    /* backgroundAlpha:0.6;
+    backgroundColor:#000000;
+    
+    border-alpha:0.6;
+	borderColor:#000000;
+	roundedBottomCorners:"true";
+	corner-radius:7; */
+	headerHeight:"0";
+	borderThickness:"10";
+	borderThicknessBottom:"10";
+	borderThicknessLeft:"10";
+	borderThicknessRight:"10";
+	borderThicknessTop:"10";
+	padding-bottom:10;
+	
+	/*
+	 paddingBottom:"1"; 
+	 paddingLeft:"1";
+	paddingRight:"10";
+	paddingTop:"10"; */
+	
+	
+
+
+}
+
+.transferButton0
+{
+
+   up-skin:Embed(source='icons/transfer/0_up.png');
+   down-skin:Embed(source='icons/transfer/0_dwn.png');
+   over-skin:Embed(source='icons/transfer/0_up.png');
+   disabled-skin:Embed(source='icons/transfer/0_dwn.png');
+
+
+
+}
+
+.transferButton1
+{
+
+   up-skin:Embed(source='icons/transfer/1_up.png');
+   down-skin:Embed(source='icons/transfer/1_dwn.png');
+   over-skin:Embed(source='icons/transfer/1_up.png');
+   disabled-skin:Embed(source='icons/transfer/1_dwn.png');
+
+}
+
+.transferButton2
+{
+
+   up-skin:Embed(source='icons/transfer/2_up.png');
+   down-skin:Embed(source='icons/transfer/2_dwn.png');
+   over-skin:Embed(source='icons/transfer/2_up.png');
+   disabled-skin:Embed(source='icons/transfer/2_dwn.png');
+
+
+
+}
+
+.transferButton3
+{
+
+   up-skin:Embed(source='icons/transfer/3_up.png');
+   down-skin:Embed(source='icons/transfer/3_dwn.png');
+   over-skin:Embed(source='icons/transfer/3_up.png');
+   disabled-skin:Embed(source='icons/transfer/3_dwn.png');
+
+
+
+}
+
+
+
+.transferButton4
+{
+
+   up-skin:Embed(source='icons/transfer/4_up.png');
+   down-skin:Embed(source='icons/transfer/4_dwn.png');
+   over-skin:Embed(source='icons/transfer/4_up.png');
+   disabled-skin:Embed(source='icons/transfer/4_dwn.png');
+
+
+
+}
+
+
+
+.transferButton5
+{
+
+   up-skin:Embed(source='icons/transfer/5_up.png');
+   down-skin:Embed(source='icons/transfer/5_dwn.png');
+   over-skin:Embed(source='icons/transfer/5_up.png');
+   disabled-skin:Embed(source='icons/transfer/5_dwn.png');
+
+
+
+}
+
+
+.transferButton6
+{
+
+   up-skin:Embed(source='icons/transfer/6_up.png');
+   down-skin:Embed(source='icons/transfer/6_dwn.png');
+   over-skin:Embed(source='icons/transfer/6_up.png');
+   disabled-skin:Embed(source='icons/transfer/6_dwn.png');
+
+
+
+}
+
+.transferButton7
+{
+
+   up-skin:Embed(source='icons/transfer/7_up.png');
+   down-skin:Embed(source='icons/transfer/7_dwn.png');
+   over-skin:Embed(source='icons/transfer/7_up.png');
+   disabled-skin:Embed(source='icons/transfer/7_dwn.png');
+
+}
+
+
+.transferButton8
+{
+
+   up-skin:Embed(source='icons/transfer/8_up.png');
+   down-skin:Embed(source='icons/transfer/8_dwn.png');
+   over-skin:Embed(source='icons/transfer/8_up.png');
+   disabled-skin:Embed(source='icons/transfer/8_dwn.png');
+
+
+
+}
+
+.transferButton9
+{
+
+   up-skin:Embed(source='icons/transfer/9_up.png');
+   down-skin:Embed(source='icons/transfer/9_dwn.png');
+   over-skin:Embed(source='icons/transfer/9_up.png');
+   disabled-skin:Embed(source='icons/transfer/9_dwn.png');
+
+
+
+}
+
+
+.transferButton
+{
+
+   up-skin:Embed(source='icons/transfer/transferbtn_up.png');
+   down-skin:Embed(source='icons/transfer/transferbtn_dwn.png');
+   over-skin:Embed(source='icons/transfer/transferbtn_up.png');
+   disabled-skin:Embed(source='icons/transfer/transferbtn_dwn.png');
+
+
+
+}
+
+
+.transferEmptyButton
+{
+
+   up-skin:Embed(source='icons/transfer/cancel_btn.png');
+   down-skin:Embed(source='icons/transfer/cancel_btn_click.png');
+   over-skin:Embed(source='icons/transfer/cancel_btn.png');
+   disabled-skin:Embed(source='icons/transfer/cancel_btn.png');
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.ResonCodeWindowStyle
+{
+	border-skin:Embed(source='icons/reasoncode/background.png');
+	headerHeight:"0";
+	borderThickness:"10";
+	borderThicknessBottom:"10";
+	borderThicknessLeft:"10";
+	borderThicknessRight:"10";
+	borderThicknessTop:"10";
+	border-alpha:0.5;
+}
+
+
+
+
+
+
+
+
+mx|DataGrid
+{
+  /*   font-family:"Avenir Roman";   */
+ /*  background-color:#5798ea; */
+/*  border-thickness:0;*/
+/* selection-color:#F5F8FC;*/
+	selection-color:#FE7E00;
+ alternating-item-colors:#FFFFFF,#E9E9E9;
+ font-weight:normal;
+ text-roll-over-color:#FFFFFF;
+ font-size:12pt;
+ header-background-skin:ClassReference("customcomponentsSkins.CustomDataGridHeaderSkin");
+ header-separator-skin:ClassReference("customcomponentsSkins.CustomHeaderSeperatorSkin");
+ /*  vertical-grid-line-color:#126ee1; */
+ 
+}
+
+s|ComboBox{
+/*alternating-item-colors:#FFFFFF,#E9E9E9;*/
+}
+
+.StatisticsGridStyle
+{
+  /* rollOverColor: #00a9ff;	 */
+  
+ /*  border-color:#126ee1; */
+  border-thickness:1;
+ /*  border-color:#717171; */
+    border-color:#5798ea;  
+  padding-top:0;
+  padding-bottom:0;
+/*   font-family:"Avenir Roman"; */
+  font-size:12pt;
+  color:#000000;
+  corner-radius:2;
+  header-style-name:'dgridHeader';
+
+  /*  background-color:#5798ea ;  */
+ /*  header-colors: #659EE4,#82B3EF; */
+/* header-colors: #333333,#333333;*/
+/*header-background-skin:Embed(source='css/icons/tab_navigator_long_header_b.png');*/
+/* title-background-skin:Embed(source='css/icons/panelHeader.png');*/
+  /* border-color:#000000; */
+}
+.dgridHeader
+{
+ 
+/*  font-family:"Avenir Light";*/
+  font-size:15pt;
+  color:#FFFFFF;
+ 
+}
+
+
+.StatisticsInnerGridStyle
+{
+  /* rollOverColor: #00a9ff;	 */
+  
+/*     font-family:"Avenir Book";   */
+  font-size:12pt;
+  color:#000000;
+ 
+  header-background-skin:Embed(source='css/icons/panelHeader.png');
+  
+  header-style-name:'innerDgridHeader';
+ 
+
+  /* border-color:#000000; */
+}
+.innerDgridHeader
+{
+ 
+/*    font-family:"Avenir Light";   */
+  font-size:15pt;
+  color:#000000;
+}
+
+
+
+.MessageBarStyle
+{
+
+header-height:0;
+border-thickness-bottom:1;
+border-thickness-left:1;
+border-thickness-right:1;
+border-thickness-top:1;
+background-color:#b1b1b1 ;
+ border-color:#717171; 
+/* border-color:#5798ea;  */
+
+vertical-align:middle;
+padding-left:20;
+padding-top:2;
+
+/*  font-family:"Avenir Roman";  */
+font-size:13pt;
+color:#1e1e1e;
+
+/* border-color:#000000; */
+corner-radius:0;
+
+
+}
+
+
+mx|Alert
+{
+ 	
+ /* border-skin:Embed(source='icons/reasoncode/background.png'); */
+ 
+background-color:#333333;
+color:#FFFFFF;
+font-weight:bold;
+modal-transparency:0;
+button-style-name:"alertBtnStyle";
+title-background-skin:ClassReference("customcomponentsSkins.AlertHeaderSkin");
+
+}
+
+
+
+.alertBtnStyle{
+	color:#FFFFFF;
+	font-weight:bold;
+	up-skin:ClassReference("customcomponentsSkins.SubmitBtnSkin");
+	over-skin:ClassReference("customcomponentsSkins.AlertOverBtnSkin");
+	down-skin:ClassReference("customcomponentsSkins.SubmitBtnSkin");
+	text-roll-over-color:#FFFFFF;
+	text-selected-color:#FFFFFF;
+	
+/*	up-skin:Embed(source='css/icons/Blue_Button_PopUp_Window.png');
+	over-skin:Embed(source='css/icons/Orange_Button_PopUp_Window.png');
+	down-skin:Embed(source='css/icons/Blue_Button_PopUp_Window.png');*/
+	
+/*	skin:ClassReference("customcomponentsSkins.CancelBtnSkin");*/
+}
+
+
+.currentCallStyle
+{
+	 header-height:0;
+    border-skin:Embed(source='icons/currentcall/background.png');
+    horizontal-align:"center";
+	vertical-align:"middle";
+	/* padding-bottom:"5";
+	padding-top:"5";
+	padding-left:"5";
+	padding-right:"5"; */
+    color:white;
+/*    font-family:'Avenir Light'; */
+    font-size:13;
+
+
+}
+
+mx|List
+{
+/*  background-color:#ffffff;*/
+  
+  color:#000000;
+  text-selected-color:#FFFFFF;
+/*  selection-color:#EA8B2D;
+  roll-over-color:#EA8B2D;*/
+  selection-color:#FE7E00;
+  roll-over-color:#FE7E00;
+
+
+}
+
+
+.LoginButtonStyle
+{
+   up-skin:Embed(source='icons/Login_active.png');
+   down-skin:Embed(source='icons/Login_inactive.png');
+   over-skin:Embed(source='icons/Login_mouseover.png');
+   disabled-skin:Embed(source='icons/Login_inactive.png');
+}
+
+.LogoutButtonStyle
+{
+   up-skin:Embed(source='icons/Logout_active.png');
+   down-skin:Embed(source='icons/Logout_inactive.png');
+   over-skin:Embed(source='icons/Logout_mouseover.png');
+   disabled-skin:Embed(source='icons/Logout_inactive.png');
+}
+
+.ReadyButtonStyle
+{
+   up-skin:Embed(source='icons/Ready_active.png');
+   down-skin:Embed(source='icons/Ready_inactive.png');
+   over-skin:Embed(source='icons/Ready_mouseover.png');
+   disabled-skin:Embed(source='icons/Ready_inactive.png');
+}
+
+.NotReadyButtonStyle{
+   up-skin:Embed(source='icons/Not_Ready_active.png');
+   down-skin:Embed(source='icons/Not_Ready_inactive.png');
+   over-skin:Embed(source='icons/Not_Ready_mouseover.png');
+   disabled-skin:Embed(source='icons/Not_Ready_inactive.png');
+}
+
+.AnswerButtonStyle
+{
+   up-skin:Embed(source='icons/Answer_active.png');
+   down-skin:Embed(source='icons/Answer_inactive.png');
+   over-skin:Embed(source='icons/Answer_mouseover.png');
+   disabled-skin:Embed(source='icons/Answer_inactive.png');
+}
+
+.ReleaseButtonStyle
+{
+   up-skin:Embed(source='icons/Release_active.png');
+   down-skin:Embed(source='icons/Release_inactive.png');
+   over-skin:Embed(source='icons/Release_mouseover.png');
+   disabled-skin:Embed(source='icons/Release_inactive.png');
+}
+
+
+
+.HoldButtonStyle
+{
+   up-skin:Embed(source='icons/Hold_active.png');
+   down-skin:Embed(source='icons/Hold_inactive.png');
+   over-skin:Embed(source='icons/Hold_mouseover.png');
+   disabled-skin:Embed(source='icons/Hold_inactive.png');
+}
+
+.UnHoldButtonStyle
+{
+    up-skin:Embed(source='icons/unhold_up.png');
+   down-skin:Embed(source='icons/unhold_up.png');
+   over-skin:Embed(source='icons/unhold_up.png');
+   disabled-skin:Embed(source='icons/unhold_up.png'); 
+}
+
+.AssistButtonStyle
+{
+   up-skin:Embed(source='icons/Assist_active.png');
+   down-skin:Embed(source='icons/Assist_inactive.png');
+   over-skin:Embed(source='icons/Assist_mouseover.png');
+   disabled-skin:Embed(source='icons/Assist_inactive.png');
+}
+
+.ConferenceButtonStyle
+{
+    up-skin:Embed(source='icons/Conference_active.png');
+   down-skin:Embed(source='icons/Conference_inactive.png');
+   over-skin:Embed(source='icons/Conference_mouseover.png');
+   disabled-skin:Embed(source='icons/Conference_inactive.png'); 
+}
+
+.TransferButtonStyle
+{
+   up-skin:Embed(source='icons/transfer_active.png');
+   down-skin:Embed(source='icons/transfer_inactive.png');
+   over-skin:Embed(source='icons/transfer_mouseover.png');
+   disabled-skin:Embed(source='icons/transfer_inactive.png');
+}
+
+.ReconnectButtonStyle
+{
+     up-skin:Embed(source='icons/reconnect_active.png');
+   down-skin:Embed(source='icons/reconnect_inactive.png');
+   over-skin:Embed(source='icons/reconnect_mouseover.png');
+   disabled-skin:Embed(source='icons/reconnect_inactive.png');  
+}
+
+.RetrieveButtonStyle
+{
+    up-skin:Embed(source='icons/retrieve_up.png');
+   down-skin:Embed(source='icons/retrieve_dwn.png');
+   over-skin:Embed(source='icons/retrieve_rollover.png');
+   disabled-skin:Embed(source='icons/retrieve_dwn.png'); 
+}
+
+
+.submitButtonStyle
+{
+   up-skin:Embed(source='icons/Blue_Button_PopUp_Window.png');
+   down-skin:Embed(source='icons/Blue_Button_PopUp_Window.png');
+   over-skin:Embed(source='icons/Orange_Button_PopUp_Window.png');
+   disabled-skin:Embed(source='icons/Orange_Button_PopUp_Window.png');
+   color:#FFFFFF;
+   font-weight:bold;
+}
+
+.cancelButtonStyle
+{
+
+   up-skin:Embed(source='icons/reasoncode/Login_Cancel_Icon_active.png');
+   down-skin:Embed(source='icons/reasoncode/Login_Cancel_Icon_inactive.png');
+   over-skin:Embed(source='icons/reasoncode/Login_Cancel_Icon_active.png');
+   disabled-skin:Embed(source='icons/reasoncode/Login_Cancel_Icon_inactive.png');
+
+
+
+}
+
+
+.followUpButtonStyle
+{
+
+   up-skin:Embed(source='icons/Follow_Ups_active.png');
+   down-skin:Embed(source='icons/Follow_Ups_inactive.png');
+   over-skin:Embed(source='icons/Follow_Ups_mouseover.png');
+   disabled-skin:Embed(source='icons/Follow_Ups_inactive.png');
+
+
+
+}
+
+
+
+.scriptButtonStyle
+{
+
+   up-skin:Embed(source='icons/scripts_active.png');
+   down-skin:Embed(source='icons/scripts_inactive.png');
+   over-skin:Embed(source='icons/scripts_mouseover.png');
+   disabled-skin:Embed(source='icons/scripts_inactive.png');
+   
+
+
+}
+
+
+
+
+.SearchIDButtonStyle
+{
+
+  up-skin:Embed(source='icons/Search_Icon_inactive.png');
+   down-skin:Embed(source='icons/Search_Icon_active.png');
+   over-skin:Embed(source='icons/Search_Icon_inactive.png');
+   disabled-skin:Embed(source='icons/Search_Icon_inactive.png'); 
+
+
+ 
+}
+
+
+.addFollowUpButtonStyle
+{
+    up-skin:Embed(source='icons/Add_Follow_Up_Icon_inactive.png');
+   down-skin:Embed(source='icons/Add_Follow_Up_Icon_active.png');
+   over-skin:Embed(source='icons/Add_Follow_Up_Icon_inactive.png');
+   disabled-skin:Embed(source='icons/Add_Follow_Up_Icon_inactive.png');
+
+}
+
+
+.addressDetailButtonStyle
+{
+   up-skin:Embed(source='icons/Address_Icon_inactive.png');
+   down-skin:Embed(source='icons/Address_Icon_inactive.png');
+   over-skin:Embed(source='icons/Address_Icon_inactive.png');
+   disabled-skin:Embed(source='icons/Address_Icon_inactive.png');
+}
+
+.addNewTicketBtnStyle{
+	up-skin:Embed(source='css/icons/new-ticket-icon.png');
+	down-skin:Embed(source='css/icons/new-ticket-icon.png');
+	over-skin:Embed(source='css/icons/new-ticket-icon_over.png');
+	disabled-skin:Embed(source='css/icons/new-ticket-icon.png');
+}
+
+.showSearchBtnStyle{
+	up-skin:Embed(source='css/icons/search_button.png');
+	down-skin:Embed(source='css/icons/search_button.png');
+	over-skin:Embed(source='css/icons/search_button_over.png');
+	disabled-skin:Embed(source='css/icons/search_button.png');
+}
+
+.addCommentButtonStyle
+{
+   
+   up-skin:Embed(source='icons/generalInformation/add_comments.png');
+   down-skin:Embed(source='icons/generalInformation/add_comments.png');
+   over-skin:Embed(source='icons/generalInformation/add_comments.png');
+   disabled-skin:Embed(source='icons/generalInformation/add_comments.png');
+
+}
+
+.addCommentButtonStyleArabic
+{
+ 
+	up-skin:Embed(source='icons/Address_Icon_active.png');
+	down-skin:Embed(source='icons/Address_Icon_inactive.png');
+	over-skin:Embed(source='icons/Address_Icon_active.png');
+	disabled-skin:Embed(source='icons/Address_Icon_inactive.png');
+	
+
+}
+
+
+.customerLoadLabelStyle
+{
+/*   font-family:"Avenir Light"; */
+  color:white;
+  font-size:12pt;
+
+}
+
+
+
+.lastFiveCallPanelStyle
+{
+	
+	background-alpha:1;
+	border-alpha:0;
+	border-color:#333333;  
+	/*  border-color:#3583ea; */
+	/*  border-color:#717171; */
+	/* font-family:"Avenir Book"; */
+	header-colors:#3583ea,#3583ea; 
+	border-thickness-top:0; 
+	border-thickness-bottom:0;
+	border-thickness-left:0;
+	border-thickness-right:0;
+	drop-shadow-enabled:true;
+	header-height:31px;
+	titleStyleName:"panelHeaderStyle";
+	
+	
+	color:#000000;
+	
+   
+}
+
+
+/*.userTabDatagridStyle
+{
+	
+	text-align:left;
+	border-color:#717171; 
+	padding-left:1;
+	padding-right:1;
+	selection-color:#FE7E00;
+	roll-over-color:#FE7E00;
+	text-roll-over-color:#000000;
+	padding-top:0;
+	font-size:12pt;
+	border-visible:false;
+	color:#333333;
+	vertical-grid-line-color:#e1e1e1;
+	header-style-name:"lastFiveCallDatagridHeaderStyle";
+}*/
+
+
+.lastFiveCallDatagridStyle
+{
+
+ text-align:left;
+/* header-colors:#f3f3f3,#f5f5f5;*/
+ 
+ border-color:#717171; 
+ padding-left:1;
+ padding-right:1;
+ selection-color:#FE7E00;
+ roll-over-color:#FE7E00;
+ 
+ text-roll-over-color:#FFFFFF;
+ text-selected-color:#FFFFFF;
+/*    font-family:"Avenir Book";   */
+ padding-top:0;
+ font-size:12pt;
+ border-visible:false;
+ header-style-name:"lastFiveCallDatagridHeaderStyle";
+ color:#333333;
+ vertical-grid-line-color:#e1e1e1;
+ alternating-item-colors:#FFFFFF,#E9E9E9;
+}
+
+.lastFiveCallDatagridHeaderStyle
+{
+
+
+/*   font-family:"Avenir Roman";  */
+
+ font-size:13pt;
+
+
+}
+
+
+
+
+.twoColumnDatagridStyle
+{
+	
+	text-align:center;
+	header-colors:#f3f3f3,#f5f5f5;
+	alternating-item-colors:#ffffff,#f2f6fd;
+	border-color:#e1e1e1; 
+	grid-lines-style-name:"twoColumGridLineStyle";
+	selection-color:#FE7E00;
+	roll-over-color:#FE7E00;
+	text-roll-over-color:#000000;
+	/*    font-family:"Avenir Book";   */
+	padding-top:0;
+	font-size:12pt;
+	border-visible:true;
+	vertical-grid-line-color:#e1e1e1;
+	header-style-name:"twoColumnDatagridHeaderStyle";
+	color:#000000;
+	
+}
+
+.twoColumnDatagridHeaderStyle
+{
+	
+	
+	/*   font-family:"Avenir Roman";  */
+	font-size:13pt;
+	
+	
+}
+
+.twoColumGridLineStyle{
+
+}
+
+
+
+
+
+
+
+
+
+
+mx|HBox 
+{
+
+ padding-left:10;
+ padding-right:10;
+/* font-family:"Avenir Book";   */
+font-size:13pt;
+padding-bottom:0;
+ padding-top:0;	
+ vertical-align:middle;
+}	
+
+.selectableHboxSelectedStyle
+{
+
+ 
+ background-color:#FE7E00;
+ color:#000000;
+ padding-left:10;
+ vertical-align:middle;
+ padding-bottom:0;
+ padding-top:0;
+  /*  font-family:"Avenir Book";   */  
+
+}
+
+.selectableHboxAlternateStyle
+{
+
+ 
+ background-color:#E9E9E9;
+ color:#000000;
+ padding-left:10;
+ padding-bottom:0;
+ padding-top:0;
+ vertical-align:middle;
+  /*  font-family:"Avenir Book";  */   
+
+}
+
+
+.selectableHboxNonSelectedStyle
+{
+	
+	background-color:#FFFFFF;
+    color:#000000;
+    padding-left:10;
+    padding-bottom:0;
+ 	padding-top:0;
+    vertical-align:middle;
+      /* font-family:"Avenir Book";     */
+}
+
+s|HScrollBar{
+	skin-class:ClassReference("customcomponentsSkins.CustomHScrollSkin");
+}
+s|VScrollBar{
+	skin-class:ClassReference("customcomponentsSkins.CustomVScrollSkin");
+}
+
+mx|ScrollBar{
+up-arrow-skin:Embed(source="css/icons/blank.png");
+down-arrow-skin:Embed(source="css/icons/blank.png");
+
+}
+
+mx|HScrollBar{
+	
+	track-skin:ClassReference('customcomponentsSkins.ListTrackButtonHorzSkin');
+	thumb-skin:ClassReference('customcomponentsSkins.CustomListButtonHorzThumbSkin');
+		}
+
+mx|VScrollBar
+{
+track-skin:ClassReference('customcomponentsSkins.ListTrackButtonSkin');
+thumb-skin:ClassReference('customcomponentsSkins.CustomListButtonThumbSkin');
+/*  borderColor: #1B5957;
+	cornerRadius: 0;
+	padding-top:1;
+	padding-bottom:1;
+	fillAlphas: 0, 0;
+	trackColors: #000000, #000000;
+	thumbUpSkin: Embed(source="images/ScrollThumb_upSkin.png",
+	scaleGridLeft="4", scaleGridTop="12", scaleGridRight="8", scaleGridBottom="20");
+	thumbOverSkin: Embed(source="images/ScrollThumb_overSkin.png",
+	scaleGridLeft="4", scaleGridTop="12", scaleGridRight="8", scaleGridBottom="20");
+	thumbDownSkin: Embed(source="images/ScrollThumb_overSkin.png",
+	scaleGridLeft="4", scaleGridTop="12", scaleGridRight="8", scaleGridBottom="20");
+	trackSkin: Embed(source="images/ScrollTrack_Skin.png");
+	downArrowUpSkin: Embed(source="images/ScrollArrowDown_upSkin.png");
+	downArrowOverSkin: Embed(source="images/ScrollArrowDown_overSkin.png");
+	downArrowDownSkin: Embed(source="images/ScrollArrowDown_overSkin.png");
+	downArrowDisabledSkin: Embed(source="images/ScrollArrowDown_disabledSkin.png");
+	upArrowUpSkin: Embed(source="images/ScrollArrowUp_upSkin.png");
+	upArrowOverSkin: Embed(source="images/ScrollArrowUp_overSkin.png");
+	upArrowDownSkin: Embed(source="images/ScrollArrowUp_overSkin.png");
+	upArrowDisabledSkin: Embed(source="images/ScrollArrowUp_disabledSkin.png");
+	thumbIcon: Embed(source="images/ScrollBar_thumbIcon.png"); */
+ 
+/*   trackSkin: Embed(source="icons/reasoncode/scroller.png");*/
+   
+	
+}
+
+
+
+ 
+
+
+
+ .clientTabNavigatorStyle
+{
+ 
+  
+  corner-radius:1; 
+  border-visible:false;
+  tab-height:25;
+  tab-style-name:"tabStyle";
+  /* firstTabStyleName: "tabStyle";
+  lastTabStyleName: "tabStyle"; */
+  horizontal-gap:10;
+  
+  background-alpha:0;
+  text-roll-over-color:white;
+  font-weight:bold;
+ 
+} 
+.tabStyle
+{
+/*	cornerRadius:20;
+	/*    font-family:"Avenir Light"; */
+	/*selected-up-skin:Embed(source="css/icons/tab_navigator_long_header_b.png");
+	selected-over-skin:Embed(source="css/icons/tab_navigator_long_header_b.png");
+	up-skin:Embed(source="css/icons/tabnavigator_hdr_blue.png");
+	over-skin:Embed(source="css/icons/tab_navigator_long_header_g.png");*/
+	font-size:15pt;
+	color:white;
+	font-weight:bold;
+	text-align:left;
+	skin:ClassReference("customcomponentsSkins.TabNavigatorButtonSkin");
+
+	
+}
+
+
+.clientLongTabNavigatorStyle
+{
+	
+	
+	corner-radius:1; 
+	/*  border-color:#126ee1; */
+	/*  border-color:#717171; */
+	border-color:#ff0000;  
+	tab-style-name:"LongTabStyle";
+	/* firstTabStyleName: "tabStyle";
+	lastTabStyleName: "tabStyle"; */
+	border-thickness:0;
+	background-color:#ffffff;
+	background-alpha:1;
+		border-alpha:0;
+	text-roll-over-color:white;
+	
+	
+	
+} 
+.LongTabStyle
+{
+	cornerRadius:10;
+	/*    font-family:"Avenir Light"; */
+	selected-up-skin:Embed(source="icons/longtabselected.png");
+	selected-over-skin:Embed(source="icons/longtabselected.png");
+	up-skin:Embed(source="icons/longtab.png");
+	over-skin:Embed(source="icons/longtabselected.png");
+	border-thickness:0;	
+	border-color:#126ee1;	
+	background-color:#3583ea; 
+	font-size:15pt;
+	color:white;
+	
+	text-align:left;
+	
+}
+
+.SQGroupHeader
+{
+
+/* background-skin:Embed(source="icons/longtabselected.png");*/
+	
+	background-color:#f29d49;	
+ color:#ffffff;
+
+}
+
+
+mx|Button
+{
+	embedFonts: true;
+	fontWeight: normal;
+/*	fontFamily: "Avenir Light";*/
+	corner-radius:5;
+}
+mx|TabBar {
+
+/*corner-radius:23;*/
+/*firstButtonStyleName: “tabStyle1″;*/
+tabStyleName: “tabStyle2″;
+/*lastButtonStyleName: “tabStyle3″;*/
+selectedTabTextStyleName: “mySelectedTabs”;
+
+fontSize: 16px;
+
+}
+.tabStyle1 {
+/*	fontFamily: "Avenir Light";*/
+   corner-radius:23;
+   
+}
+.tabStyle2 {
+corner-radius:23;
+/*fontFamily: "Avenir Light";*/
+}
+.tabStyle3 {
+corner-radius:23;
+/*fontFamily: "Avenir Light";*/
+}
+
+
+.tabSkin{
+	skin:ClassReference("customcomponentsSkins.TabNavigatorSkin");
+	text-roll-over-color:white;
+	font-weight:bold;
+	font-size:15;
+}
+
+
+
+
+@font-face
+{
+	fontFamily: "Avenir Book";
+	
+	fontStyle: bold;
+	src: url("fonts/AVENIR-B.TTF");
+}
+
+ 
+@font-face
+{
+	fontFamily: "Avenir Roman";
+	
+	fontStyle: bold;
+	src: url("fonts/AVENIR-R.TTF");
+}
+
+@font-face
+{
+	fontFamily: "Avenir Light";
+	
+	fontStyle: bold;
+	src: url("fonts/AVENIR-L.TTF");
+}
+ 
+/*--------------------------------Style for Arabic suport---------------------------------------------------------*/
+
+
+.LoginButtonStyleArb
+{
+	up-skin:Embed(source='icons-arabic/answerArabic.png');
+	down-skin:Embed(source='icons-arabic/answerArabic.png');
+	over-skin:Embed(source='icons-arabic/answerArabic.png');
+	disabled-skin:Embed(source='icons-arabic/answerArabic.png');
+	width:150px;
+}
+
+.LogoutButtonStyleArb
+{
+	up-skin:Embed(source='icons-arabic/answerArabic.png');
+	down-skin:Embed(source='icons-arabic/answerArabic.png');
+	over-skin:Embed(source='icons-arabic/answerArabic.png');
+	disabled-skin:Embed(source='icons-arabic/answerArabic.png');
+}
+
+.ReadyButtonStyleArb
+{
+	up-skin:Embed(source='icons-arabic/answerArabic.png');
+	down-skin:Embed(source='icons-arabic/answerArabic.png');
+	over-skin:Embed(source='icons-arabic/answerArabic.png');
+	disabled-skin:Embed(source='icons-arabic/answerArabic.png');
+}
+
+.NotReadyButtonStyleArb
+{up-skin:Embed(source='icons-arabic/answerArabic.png');
+	down-skin:Embed(source='icons-arabic/answerArabic.png');
+	over-skin:Embed(source='icons-arabic/answerArabic.png');
+	disabled-skin:Embed(source='icons-arabic/answerArabic.png');
+}
+
+.AnswerButtonStyleArb
+{
+	up-skin:Embed(source='icons-arabic/answerArabic.png');
+	down-skin:Embed(source='icons-arabic/answerArabic.png');
+	over-skin:Embed(source='icons-arabic/answerArabic.png');
+	disabled-skin:Embed(source='icons-arabic/answerArabic.png');
+}
+
+.ReleaseButtonStyleArb
+{
+	up-skin:Embed(source='icons-arabic/answerArabic.png');
+	down-skin:Embed(source='icons-arabic/answerArabic.png');
+	over-skin:Embed(source='icons-arabic/answerArabic.png');
+	disabled-skin:Embed(source='icons-arabic/answerArabic.png');
+}
+
+
+
+.HoldButtonStyleArb
+{
+	up-skin:Embed(source='icons-arabic/answerArabic.png');
+	down-skin:Embed(source='icons-arabic/answerArabic.png');
+	over-skin:Embed(source='icons-arabic/answerArabic.png');
+	disabled-skin:Embed(source='icons-arabic/answerArabic.png');
+}
+
+.UnHoldButtonStyleArb
+{
+	up-skin:Embed(source='icons-arabic/answerArabic.png');
+	down-skin:Embed(source='icons-arabic/answerArabic.png');
+	over-skin:Embed(source='icons-arabic/answerArabic.png');
+	disabled-skin:Embed(source='icons-arabic/answerArabic.png');
+}
+
+.AssistButtonStyleArb
+{
+	up-skin:Embed(source='icons-arabic/answerArabic.png');
+	down-skin:Embed(source='icons-arabic/answerArabic.png');
+	over-skin:Embed(source='icons-arabic/answerArabic.png');
+	disabled-skin:Embed(source='icons-arabic/answerArabic.png');
+}
+
+.ConferenceButtonStyleArb
+{
+	up-skin:Embed(source='icons-arabic/answerArabic.png');
+	down-skin:Embed(source='icons-arabic/answerArabic.png');
+	over-skin:Embed(source='icons-arabic/answerArabic.png');
+	disabled-skin:Embed(source='icons-arabic/answerArabic.png');
+}
+
+.TransferButtonStyleArb
+{
+	up-skin:Embed(source='icons-arabic/answerArabic.png');
+	down-skin:Embed(source='icons-arabic/answerArabic.png');
+	over-skin:Embed(source='icons-arabic/answerArabic.png');
+	disabled-skin:Embed(source='icons-arabic/answerArabic.png');
+}
+
+.ReconnectButtonStyleArb
+{
+	up-skin:Embed(source='icons-arabic/answerArabic.png');
+	down-skin:Embed(source='icons-arabic/answerArabic.png');
+	over-skin:Embed(source='icons-arabic/answerArabic.png');
+	disabled-skin:Embed(source='icons-arabic/answerArabic.png');
+}
+
+.RetrieveButtonStyleArb
+{
+	up-skin:Embed(source='icons-arabic/answerArabic.png');
+	down-skin:Embed(source='icons-arabic/answerArabic.png');
+	over-skin:Embed(source='icons-arabic/answerArabic.png');
+	disabled-skin:Embed(source='icons-arabic/answerArabic.png');
+}
+
+
+.submitButtonStyleArb
+{
+	up-skin:Embed(source='icons-arabic/answerArabic.png');
+	down-skin:Embed(source='icons-arabic/answerArabic.png');
+	over-skin:Embed(source='icons-arabic/answerArabic.png');
+	disabled-skin:Embed(source='icons-arabic/answerArabic.png');
+}
+
+.cancelButtonStyleArb
+{
+	
+	up-skin:Embed(source='icons-arabic/answerArabic.png');
+	down-skin:Embed(source='icons-arabic/answerArabic.png');
+	over-skin:Embed(source='icons-arabic/answerArabic.png');
+	disabled-skin:Embed(source='icons-arabic/answerArabic.png');
+	
+	
+	
+}
+
+
+.followUpButtonStyleArb
+{
+	
+	up-skin:Embed(source='icons-arabic/answerArabic.png');
+	down-skin:Embed(source='icons-arabic/answerArabic.png');
+	over-skin:Embed(source='icons-arabic/answerArabic.png');
+	disabled-skin:Embed(source='icons-arabic/answerArabic.png');
+	
+	
+}
+
+
+
+.scriptButtonStyleArb
+{
+	
+	up-skin:Embed(source='icons-arabic/answerArabic.png');
+	down-skin:Embed(source='icons-arabic/answerArabic.png');
+	over-skin:Embed(source='icons-arabic/answerArabic.png');
+	disabled-skin:Embed(source='icons-arabic/answerArabic.png');
+	
+	
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,223 @@
+/* CSS file */
+@namespace s "library://ns.adobe.com/flex/spark";
+@namespace mx "library://ns.adobe.com/flex/mx";
+
+
+global
+{
+	backgroundAlpha: 1.0; 
+	backgroundSize: "auto";
+	fillAlphas: 0.3, 0.3, 0.85, 0.75;
+	fillColors: #6C8AA4, #BFD5E8, #5AA0C3, #A8D0E2;
+	themeColor: #f29d49 ;	
+	rollOverColor: #f29d49 ;
+	selectionColor: #f29d49 ;
+	modal-transparency-color:black;
+	disabled-color:black;
+}
+
+mx|Application{
+
+	background-color:#5798ea;
+
+}
+
+mx|Canvas{
+ 	background-alpha:1;
+	
+/*	background-color:#5798ea;*/
+
+}
+
+/* TitleWindow{
+	
+	header-height:90;
+	
+} */
+
+
+/*mx|LinkBar
+{
+
+ button-style-name:"linkButtonStyle";
+
+}*/
+
+mx|Panel
+{
+ 	background-alpha:1;
+ 	border-alpha:1;
+ 	border-color:#5798ea;  
+/*  border-color:#3583ea; */
+ /*  border-color:#717171; */
+ /* font-family:"Avenir Book"; */
+/* header-colors:#3583ea,#3583ea; */
+  	title-background-skin:Embed(source='css/icons/panelHeader.png');
+/* border-thickness-top:0; */
+/* border-thickness-bottom:1;
+ border-thickness-left:1;
+ border-thickness-right:1;*/
+/* drop-shadow-enabled:false;*/
+ 	header-height:31px;
+ 	titleStyleName:"panelHeaderStyle";
+ 	color:#000000;
+
+}
+
+.panelHeaderStyle
+{
+/*  font-family:"Avenir Light";  */
+  	color:white;
+  	font-size: 15pt; 
+}
+
+mx|TextInput
+{
+ 	color:black;
+}
+
+mx|DataGrid
+{
+  /*   font-family:"Avenir Roman";   */
+ /*  background-color:#5798ea; */
+/*  border-thickness:0;*/
+  selection-color:#f29d49;
+ /*  vertical-grid-line-color:#126ee1; */
+  
+}
+
+
+.dgridHeader
+{
+ 
+/*  font-family:"Avenir Light";*/
+  font-size:15pt;
+  color:#FFFFFF;
+}
+
+mx|Alert
+{
+ 	
+ /* border-skin:Embed(source='icons/reasoncode/background.png'); */
+ 
+header-colors:#3583ea,#3583ea; 
+header-height:20;
+background-color:white;
+border-color:#3583ea;
+color:#000000;
+}
+
+mx|List
+{
+/*  background-color:#ffffff;*/
+  
+  color:#000000;
+  text-selected-color:#FFFFFF;
+  selection-color:#EA8B2D;
+  roll-over-color:#EA8B2D;
+
+
+}
+
+
+
+mx|HBox 
+{
+
+	/* padding-left:10; */
+	/* padding-right:10; */
+	/*font-family:"Avenir Book"; */
+font-size:12pt;
+padding-bottom:0;
+ padding-top:0;	
+ vertical-align:middle;
+ /* background-color:white;*/
+}	
+
+
+ mx|TabNavigator{
+
+/*  font-family:"Avenir Light";  */
+ 
+	theme-color:#3583ea;
+	selected-tab-text-style-name:"tabTestStyle"
+ 
+}
+
+.tabTestStyle {
+	color:#f29d49 ;
+}
+
+
+.tabStyle
+{
+	cornerRadius:7;
+/*    font-family:"Avenir Light"; */
+ 	border-thickness:0;	
+    border-color:#126ee1;	
+    background-color:#3583ea; 
+    font-size:15pt;
+   color:white;
+   text-align:left;
+   
+
+}
+
+mx|Button
+{
+	embedFonts: true;
+	fontWeight: normal;
+/*	fontFamily: "Avenir Light";*/
+	corner-radius:5;
+	
+}
+mx|TabBar {
+
+/*corner-radius:23;*/
+/*firstButtonStyleName: “tabStyle1″;*/
+tabStyleName: “tabStyle2″;
+/*lastButtonStyleName: “tabStyle3″;*/
+selectedTabTextStyleName: “mySelectedTabs”;
+
+fontSize: 16px;
+
+}
+.tabStyle1 {
+/*	fontFamily: "Avenir Light";*/
+   corner-radius:23;
+   
+}
+.tabStyle2 {
+corner-radius:23;
+/*fontFamily: "Avenir Light";*/
+}
+.tabStyle3 {
+corner-radius:23;
+/*fontFamily: "Avenir Light";*/
+}
+
+
+@font-face
+{
+	fontFamily: "Avenir Book";
+	
+	fontStyle: normal;
+	src: url("fonts/AVENIR-B.TTF");
+}
+
+ 
+@font-face
+{
+	fontFamily: "Avenir Roman";
+	
+	fontStyle: normal;
+	src: url("fonts/AVENIR-R.TTF");
+}
+
+@font-face
+{
+	fontFamily: "Avenir Light";
+	
+	fontStyle: normal;
+	src: url("fonts/AVENIR-L.TTF");
+}

@@ -1,0 +1,57 @@
+/* 
+    Document   : lipstick
+    Created on : Feb 25, 2012, 12:11:05 PM
+    Author     : PREMENDRA
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+h1#title{
+    color: red
+
+}
+
+table {
+margin-left: 20px;
+margin-right: 20px;
+border: thin solid black;
+border-collapse: collapse;
+}
+th {
+    border: 3px solid red;
+    background-color: #cc6600;
+}
+td{
+    border: 1px solid black ; font: 900;
+}
+head{
+    color: red
+
+}
+body {
+    text-decoration: deeppink;
+    background-color: #d2b31c;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 1px dotted gray;
+    padding: 10px 10px 10px 10px;
+    font-family: sans-serif;
+	
+    background-image: url(prem.jpg);
+	background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+	
+    /* background-image: url(prem.jpg);
+	background-image: url(cross1.png);
+	background-repeat: no-repeat;
+    background-position-x: middle;
+    background-position-y: center;*/
+    border-style: dashed;
+    border-color: red;
+}
+
+/**font{
+    color: white;
+}*/

@@ -1,0 +1,204 @@
+<html>
+<head>
+<title>Topics Management Sample</title>
+<style>
+body{
+margin :30px;
+background: #c0c0c0;
+}
+
+.rectangle
+{
+margin:10px;
+/*margin-top:10px;
+width : 400px;*/
+/*width:200px;
+height:100px;*/
+background-color:#0C9;
+text-align:left;
+/*font-size:30px;*/
+color:yellow;
+}
+
+.rounded
+{
+
+margin-top:10px;
+/*
+width:200px;
+height:100px;
+*/
+border-radius:30px;
+background-color:#0c9000;
+text-align:left;
+/*
+font-size:28px;
+*/
+color:yellow;
+}
+
+/***
+table {
+margin-bottom: 10px;
+border-spacing: 0;
+}
+caption {
+margin-bottom: 10px;
+font-size: 14px;
+font-weight: bold;
+text-align: left;
+}
+th,
+td {
+padding: 0 10px 0 0;
+text-align: left;
+}
+***/
+</style>
+
+<style>
+table {
+		margin-left: 20px;
+		margin-right: 20px;
+		border: thin solid black;
+		border-collapse: collapse;
+	}
+th {
+		border: 3px solid red;
+		background-color: #cc6600;
+	}
+td{
+		border: 1px solid black ; font: 900;
+	}
+</style>
+</head>
+
+
+<div class="rectangle">
+
+<div>Topic name</div>
+
+
+
+<div class="rounded">
+
+Related pdfs
+
+<div>Rating</div>
+<div>
+<table>
+<tr>
+<th>Rating(Meaning)</th>
+<th>Related links</th>
+</tr>
+
+<tr>
+<td>10(PDF Added)</td>
+<td>
+<ul>
+<li><a href="http://127.0.0.1:8080/bce/fileWriter?documentId=D:/ebooks/REST books/OreillyRESTAPIDesignRulebookOct2011.pdf">OreillyRESTAPIDesignRulebookOct2011</a></li>
+<li><a href="http://127.0.0.1:8080/bce/fileWriter?documentId=D:/ebooks/REST books/api-design-ebook-2012-03.pdf">api-design-ebook-2012-03</a></li>
+</ul>
+</td>
+</tr>
+
+<tr>
+<td>9(Started Reading)</td>
+<td>
+<ul>
+<li><a href="http://127.0.0.1:8080/bce/fileWriter?documentId=D:/ebooks/angularjs/angularjs_tutorial.pdf">angularjs_tutorial</a></li>
+</ul>
+</td>
+</tr>
+
+<tr>
+<td>8</td>
+<td></td>
+</tr>
+
+<tr>
+<td>7</td>
+<td></td>
+</tr>
+
+<tr>
+<td>6</td>
+<td></td>
+</tr>
+
+<tr>
+<td>5</td>
+<td></td>
+</tr>
+
+<tr>
+<td>4</td>
+<td></td>
+</tr>
+
+<tr>
+<td>3</td>
+<td></td>
+</tr>
+
+<tr>
+<td>2</td>
+<td></td>
+</tr>
+
+<tr>
+<td>1(Top required, must read)</td>
+<td></td>
+</tr>
+
+
+</table>
+
+</div>
+
+
+</div>
+
+
+
+
+
+</div>
+
+<!--######################   Topic Description   ###########################-->
+<div>
+Topic description
+<div class="rounded">
+User Added--NAME, Date ,(If desription is related to one pdf then its name)
+<p>like a facebook comment</p>
+<p>the first comment in bottom, the latest comment in top</p>
+</div>
+</div>
+<!--######################   Related Topics  ###########################-->
+<div class="rounded">
+Related topics
+<div>
+<ul><li>Topic 1</li><li>Topic 2</li><li>Topic 3</li><li>Topic 4</li><li>Topic 5</li></ul>
+</div>
+<p>Theory</p>
+<p>If A -----(Related)-------> B <========================> B -----(Related)-------> A</p>
+</div>
+<!--######################   Topic History  ###########################-->
+<div class="rounded">
+Topic History
+<ul>
+<li>If topic is created</li>
+<li>If topic is edited</li>
+<li>If related link is added</li>
+<li>If related link is edited</li>
+</ul>
+</div>
+
+</div>
+
+
+
+<div>
+<img src="images/TopicsManagementSample_1.jpg" width="95%" height="300"/>
+
+</div>

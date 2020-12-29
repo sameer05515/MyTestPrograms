@@ -1,0 +1,148 @@
+<html>
+<head>
+<title>Mastering chef</title>
+<style>
+body{
+margin :30px;
+background: #c0c0c0;
+}
+
+.rectangle
+{
+/*margin-top:10px;
+width : 400px;*/
+/*width:200px;
+height:100px;*/
+background-color:#0C9;
+text-align:left;
+/*font-size:30px;*/
+color:yellow;
+}
+.rounded
+{
+
+margin-top:10px;
+/*
+width:200px;
+height:100px;
+*/
+border-radius:30px;
+background-color:#0c90c9;
+text-align:left;
+/*
+font-size:28px;
+*/
+color:yellow;
+}
+.bottom
+{
+margin-top:10px;
+width:200px;
+height:100px;
+border-bottom-left-radius:50px;
+border-top-right-radius:50px;
+background-color:#0C9;
+text-align:center;
+font-size:30px;
+color:#90F;
+}
+.circle
+{
+margin-top:10px;
+width:150px;
+height:150px;
+border-radius:100px;
+background-color:#0C9;
+text-align:center;
+font-size:30px;
+color:#90F;
+}
+.triangle
+{
+margin-top:10px;
+width:0;
+height:0;
+border-bottom:120px solid #00CC99;
+border-left:60px solid transparent;
+border-right:60px solid transparent;
+text-align:center;
+font-size:30px;
+color:#90F;
+}
+.diamond
+{
+margin-top:30px;
+/*margin-top:30px;
+width:150px;
+height:150px;*/
+background-color:#0C9;
+-webkit-transform:rotate(45deg);
+-moz-transform:rotate(45deg);
+transform:rotate(45deg);
+text-align:center;
+
+color:#90F;
+transform:skew(20deg);
+text-align:center;
+/*font-size:30px;*/
+color:yellow;
+}
+</style>
+</head>
+
+<body>
+
+<div class="rounded">
+<p class="rectangle">Chef is a configuration management system developed by Opscode and is one of the
+most widely used systems in its category. It allows you to define the infrastructure
+as a code, and it can be used to build, deploy, and automate your infrastructure.
+With Chef, the infrastructure becomes as versionable, testable, and repeatable as
+an application code.</p>
+
+</div>
+
+<div class="rounded">
+<div class="rectangle">
+Introduction to the Chef Ecosystem :-
+<div class="rectangle">
+Chef is a configuration management system written partly in Ruby and Erlang.
+</div>
+<hr/>
+<div class="rectangle">
+The Chef ecosystem is primarily comprised of the following components:-
+<ol>
+<li> WebUI: This is a Rails application that is used to view information about
+the Chef server over the Web.</li>
+<li> ErChef: Prior to version 11.x, the Chef server API core (the code responsible
+for catering to requests by Knife or chef-client) was written in Ruby.
+However, since 11.x, this code has been rewritten in Erlang.</li>
+<li> Bookshelf: This is used to store cookbooks content such as files, templates,
+and so on, that have been uploaded to chef-server as part of a cookbook
+version.</li>
+<li> chef-solr: This is a wrapper around Apache Solr and is used to handle the
+REST API for indexing and search.</li>
+<li> Rabbit MQ: This is used as a message queue for the Chef server. All items
+that are to be added to a search index repository are first added to a queue.</li>
+<li> chef-expander: This is a piece of code that pulls messages from the
+RabbitMQ queue, processes them into a desired format, and finally
+posts them to Solr for indexing.</li>
+<li> PostgreSQL: This is another major change since version 11.x. Earlier,
+CouchDB used to be the data storage; however, since version 11.x,
+PostgreSQL has become the data storage solution used by Chef.
+Introduction to the Chef Ecosystem
+[ 2 ]</li>
+<li> chef-client: This is a Ruby application that runs on every machine that needs
+to be provisioned. It handles the task of authenticating with chef-server,
+registering nodes, synchronizing cookbooks, compiling resource collections,
+handling exceptions and notifications, and so on.</li>
+<li> Knife: This is a Ruby application that provides an interface between a local
+chef repository and the Chef server.</li>
+</ol>
+</div>
+</div>
+</div>
+
+</body>
+
+
+</html>
