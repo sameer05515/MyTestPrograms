@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="test" extends="struts-default" >
+		<interceptors >
+			<interceptor name="filterMethod"
+				class="com.bullraider.apps.interceptors.ActionMethodFilterInterceptor" >
+				<param name="excludeMethods">*</param>
+				<param name="includeMethods">method1,someOtherMethod</param>
+				</interceptor>
+		</interceptors>
+		<action name="Test" class="com.bullraider.apps.actions.TestAction" >
+			<interceptor-ref name="filterMethod" />
+			<result name="success">/success.jsp</result>
+		</action>
+		<action name="testMethod1" class="com.bullraider.apps.actions.TestAction" method="method1">
+			<interceptor-ref name="filterMethod" />
+			<result name="success">/success.jsp</result>
+		</action>
+		<action name="testMethod2" class="com.bullraider.apps.actions.TestAction" method="method2" >
+		<interceptor-ref name="filterMethod"/>
+			<result name="success">/success.jsp</result>
+		</action>
+		<action name="someMethod" class="com.bullraider.apps.actions.FestAction" method="someOtherMethod" >
+		<interceptor-ref name="filterMethod"/>
+			<result name="success">/success.jsp</result>
+		</action>
+	</package>
+</struts>
