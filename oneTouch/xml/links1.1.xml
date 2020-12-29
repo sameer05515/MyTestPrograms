@@ -1,0 +1,204 @@
+<?xml version="1.0"?>
+<!DOCTYPE root SYSTEM "http://127.0.0.1:8080/hibTutorial/dtd/links1.1.dtd">
+
+
+<root>
+	<link-group name="hibernate tutorial">
+		<link><url><![CDATA[http://127.0.0.1:8080/hibTutorial/hibernate-release-4.3.6.Final/documentation/quickstart/en-US/html_single/index.html]]> </url></link>
+		<link><url><![CDATA[http://127.0.0.1:8080/hibTutorial/hibernate-release-4.3.6.Final/documentation/quickstart/en-US/html/index.html]]> </url></link>
+		<link><url><![CDATA[http://127.0.0.1:8080/hibTutorial/hibernate-release-4.3.6.Final/documentation/manual/en-US/html_single/index.html]]> </url></link>
+		<link><url><![CDATA[http://127.0.0.1:8080/hibTutorial/hibernate-release-4.3.6.Final/documentation/manual/en-US/html/index.html]]> </url></link>
+		<link><url><![CDATA[http://127.0.0.1:8080/hibTutorial/hibernate-release-4.3.6.Final/documentation/javadocs/index.html]]> </url></link>
+		<link><url><![CDATA[http://127.0.0.1:8080/hibTutorial/hibernate-release-4.3.6.Final/documentation/javadocs/index-all.html]]> </url></link>
+		<link><url><![CDATA[http://127.0.0.1:8080/hibTutorial/hibernate-release-4.3.6.Final/documentation/devguide/en-US/html_single/index.html]]> </url></link>
+		<link><url><![CDATA[http://127.0.0.1:8080/hibTutorial/hibernate-release-4.3.6.Final/documentation/devguide/en-US/html/index.html]]> </url></link>
+		<link><url><![CDATA[http://127.0.0.1:8080/hibTutorial/hibernate-release-4.3.6.Final/documentation/topical/html/index.html]]> </url></link>
+	</link-group>
+	<link-group name="java tutorial">
+		<link><url><![CDATA[http://127.0.0.1:8080/hibTutorial/tutorial/index.html]]> </url></link>
+		<link><url><![CDATA[http://en.wikipedia.org/wiki/Java_(programming_language)]]> </url></link>
+		<link><url><![CDATA[http://127.0.0.1:8080/jndi-1_4_2-tutorial/index.html]]> </url></link>
+	</link-group>
+	<link-group name="applications link group">
+		<link><url><![CDATA[http://127.0.0.1:8080/hibTutorial/linkGroup.jsp]]> </url></link>
+		<link><url><![CDATA[http://127.0.0.1:8080/struts2-showcase/showcase.action]]> </url></link>
+		<link><url><![CDATA[http://127.0.0.1:8080/hibTutorial/displayPDFContent.jsp]]> </url></link>
+		<link><url><![CDATA[http://127.0.0.1:8080/hibTutorial/pdfContentViewer.jsp]]> </url></link>
+	</link-group>
+	<link-group name="Experis IT/ WDC">
+		<link><url><![CDATA[http://utility.experisindia.com/Apps/wdcleappsys.nsf]]> </url></link>
+	</link-group>
+	<link-group name="EJB">
+		<link><url><![CDATA[http://docs.oracle.com/cd/E13224_01/wlw/docs103/guide/ejb/tutorial/tutEJBIntro.html]]> </url></link>
+	</link-group>
+	<link-group name="IT Helpdesk">
+		<link><url><![CDATA[http://helpdesk.concentrix.com/admin/]]> </url></link>
+		<link><url><![CDATA[http://helpdesk.concentrix.com/]]> </url></link>
+	</link-group>
+	<link-group name="other useful links">
+		<link><url><![CDATA[http://127.0.0.1:8080/hibTutorial/activewidgets-2.6.4-trial/ActiveWidgets/examples/index.htm]]> </url></link>
+	</link-group>
+	<link-group name="json">
+		<link><url><![CDATA[http://json.org/]]> </url></link>		
+	</link-group>
+	
+	<link-group name="apache commons beanutils">
+		<link><url><![CDATA[http://www.javaranch.com/journal/2003/07/TouringTheCommonsPart1.html]]> </url></link>
+		<link><url><![CDATA[http://commons.apache.org/proper/commons-beanutils/download_beanutils.cgi]]> </url></link>
+		<link><url><![CDATA[http://commons.apache.org/proper/commons-beanutils/javadocs/v1.9.2/apidocs/org/apache/commons/beanutils/package-summary.html#package_description]]> </url></link>		
+	</link-group>
+	
+	<link-group name="jquery how to add new element and event">
+		<link><url><![CDATA[http://api.jquery.com/on/]]> </url></link>
+		<link><url><![CDATA[http://stackoverflow.com/questions/203198/event-binding-on-dynamically-created-elements]]> </url></link>
+		<link><url><![CDATA[http://jeasyui.com/]]> </url></link>
+		<link><url><![CDATA[http://127.0.0.1:8080/hibTutorial/jquery-ui-1.11.2.custom/index.html]]> </url></link>
+	</link-group>
+	
+	<link-group name="list of tags in html">
+		<link><url><![CDATA[http://htmldog.com/reference/htmltags/]]> </url></link>
+		<link><url><![CDATA[http://www.tedmontgomery.com/tutorial/lists.html]]> </url></link>
+		<link><url><![CDATA[http://www.w3.org/TR/html401/struct/lists.html]]> </url></link>
+		<link><url><![CDATA[http://www.w3.org/TR/html401/cover.html#minitoc]]> </url></link>
+	</link-group>
+	
+	<link-group name="List of tags in html5">
+		<link><url><![CDATA[http://www.w3.org/TR/2014/REC-html5-20141028/]]> </url></link>
+		<link><url><![CDATA[http://www.w3schools.com/html/html5_new_elements.asp]]> </url></link>
+		<link><url><![CDATA[http://www.w3.org/TR/html-markup/elements.html]]> </url></link>
+		<link><url><![CDATA[http://www.tutorialspoint.com/html5/html5_tags.htm]]> </url></link>
+		<link><url><![CDATA[http://www.html-5-tutorial.com/all-html-tags.htm]]> </url></link>
+		<link><url><![CDATA[http://www.w3.org/html/wg/drafts/html/master/Overview.html]]> </url></link>
+	</link-group>
+	
+	
+	<link-group name="struts 2">
+		<link><url><![CDATA[http://127.0.0.1:8080/hibTutorial/struts-2.3.16.3/docs/index.html]]> </url></link>
+		<link><url><![CDATA[http://127.0.0.1:8080/struts2-mailreader]]> </url></link>
+	</link-group>
+	
+	<link-group name="struts 456278">
+		<link><url><![CDATA[http://127.0.0.1:8080/hibTutorial/struts-2.3.16.3/docs/index.html]]> </url></link>
+		<link><url><![CDATA[http://127.0.0.1:8080/struts2-mailreader]]> </url></link>
+	</link-group>
+	
+	<link-group name="database management system">
+		<link><url><![CDATA[http://www.studytonight.com/dbms/database-normalization.php]]> </url></link>
+	</link-group>
+	
+	<link-group name="java course">
+		<link><url><![CDATA[http://www.studytonight.com/java/overview-of-java]]> </url></link>
+	</link-group>
+	
+	<link-group name="graph implementation in java">
+		<link><url><![CDATA[http://en.wikipedia.org/wiki/Graph_(abstract_data_type)]]> </url></link>
+		<link><url><![CDATA[http://www.sanfoundry.com/java-program-describe-representation-graph-using-adjacency-list/]]> </url></link>
+		<link><url><![CDATA[http://algs4.cs.princeton.edu/41undirected/]]> </url></link>
+		
+		
+	</link-group>
+	
+	<link-group name="DTD">
+		<link><url><![CDATA[http://infohost.nmt.edu/tcc/help/pubs/dtd/index.html]]> </url></link>
+	</link-group>
+	
+	<link-group name="English Grammar">
+		<link><url><![CDATA[http://free-english-study.com/home/grammar-index.html]]> </url></link>
+	</link-group>
+	
+	
+	<link-group name="Official Application URLs">
+		<link><url><![CDATA[https://hcdy.login.us2.oraclecloud.com/oam/server/obrareq.cgi?encquery%3D9CKZMzP4jdzKzudCKnK2mxVfCFy%2BkBlyq0pFvlQnZKR4mBeXPCX68Ikpxg4mUUqMxt5bHa4d65s9QmPN7v0UkSuJCKgz76ySYNq5GEUFiBJqGw277yIj8DKeVJGok3B8WtlQOudCTuw%2FrqL8PukW%2Bp6R3jbIUzpmNtkHYu2iipzgO6giudUteSA7RZC0NZitNWHhw0D7pefSZVIAp%2BtUUCegc5fXyA6vFcVobQOLLTREt%2Bll%2BzYgbfC7BjnqlpLNpsp71PfvnLQjRm%2Bsl2H6qA56WiNd5wl7uvj0H4KDFvlly6FxI%2BARKiWNWTblYMhPvv94o40nHDZoErQIoh9yElpOTQi4OXSWGMxrtvli5iW%2B2WMijYIXL6nyWvH8GREvVNbqMeFZCQsFmB7HFqEniUyg2mt05ciWznEuEhVB5ucfLhi02GYRESoqYSN87y23luaQC5ojk%2FRjZ3jwy9tkVlEGB29RkQqH2jntnKnGeL7tIa3J%2Fr6KHzVEetUiLir4%20agentid%3DOraFusionApp_11AG%20ver%3D1%20crmethod%3D2]]> </url></link>
+		
+		<link><url><![CDATA[https://116.90.243.58/OneTouch/]]> </url></link>
+		
+		<link><url><![CDATA[https://hcdy.hcm.us2.oraclecloud.com/hcmCore/faces/HcmFusionHome]]> </url></link>
+		
+		<link><url><![CDATA[https://116.90.243.15/ebucks/]]> </url></link>
+		
+		<link><url><![CDATA[https://helpdesk.concentrix.com/survey/helpdesk_reporting.php?dfrom=2015-02-26&dto=2015-02-27&submit=Generate&site=150&staff=0&status=any&escalated=0&scrubbed=all&keyword=&requestor=]]> </url></link>
+		
+	</link-group>
+	
+	<link-group name="XML and DTD syntax">
+		<link><url><![CDATA[http://www.linuxfromscratch.org/alfs/view/dtd/alfs_dtd/xml_dtd-syntax.html]]> </url></link>
+		<link><url><![CDATA[http://oak.cs.ucla.edu/cs144/reference/DTD.html]]> </url></link>
+		<link><url><![CDATA[http://www.rpbourret.com/xml/xmldtd.htm]]> </url></link>
+	</link-group>
+	
+	<link-group name="xml schema validation java">
+		<link><url><![CDATA[http://docs.oracle.com/javase/tutorial/jaxp/dom/validating.html]]> </url></link>
+		<link><url><![CDATA[http://docs.oracle.com/javase/7/docs/api/javax/xml/validation/package-summary.html]]> </url></link>
+		<link><url><![CDATA[http://www.journaldev.com/895/how-to-validate-xml-against-xsd-in-java]]> </url></link>
+		<link><url><![CDATA[http://www.ibm.com/developerworks/library/x-javaxmlvalidapi/]]> </url></link>
+		<link><url><![CDATA[http://stackoverflow.com/questions/17107596/xml-schema-validation-using-java-code]]> </url></link>
+		<link><url><![CDATA[http://www.w3.org/TR/xmlschema-0/]]> </url></link>
+		<link><url><![CDATA[http://www.edankert.com/validate.html]]> </url></link>
+	</link-group>
+	
+	<link-group name="automate deployment of war file in websphere">
+		<link><url><![CDATA[http://www.ibm.com/developerworks/library/mo-worklight-deploy-raf/sidefile-fig1.html]]> </url></link>
+		<link><url><![CDATA[https://www.packtpub.com/books/content/deploying-your-applications-websphere-application-server-70-part-1]]> </url></link>
+	</link-group>
+	
+	
+	<link-group name="Installing the Eclipse Plugin for Android">
+		<link><url><![CDATA[http://developer.android.com/sdk/installing/installing-adt.html]]> </url></link>
+		<link><url><![CDATA[http://developer.android.com/training/index.html]]> </url></link>
+	</link-group>
+	
+	<link-group name="Deploying And Managing an application using ws_ant in IBM WebSphere Application Server">
+		<link><url><![CDATA[http://www.techpaste.com/2012/02/07/deploying-managing-application-ws_ant-ibm-websphere-application-server/]]> </url></link>
+		<link><url><![CDATA[http://stackoverflow.com/questions/3117785/using-ant-to-deploy-ear-to-remote-websphere-application-server]]> </url></link>
+		<link><url><![CDATA[https://blogs.perficient.com/ibm/2013/08/27/automated-build-and-deploy-in-websphere-message-broker-using-ant/]]> </url></link>
+		<link><url><![CDATA[http://www.coderanch.com/t/462726/tools/Fully-Automate-Build-Deployment-Ant]]> </url></link>
+		<link><url><![CDATA[http://tim.fanel.li/2011/03/scripted-ear-deployment-for-websphere-application-server/]]> </url></link>
+		<link><url><![CDATA[https://myarch.com/was-automation]]> </url></link>
+	</link-group>
+	
+	<link-group name="IBM High Availability Cluster Multiprocessing(HACMP)">
+		<link><url><![CDATA[http://en.wikipedia.org/wiki/IBM_High_Availability_Cluster_Multiprocessing]]> </url></link>
+	</link-group>
+	
+	<link-group name=" java.security.cert.CertPathBuilderException unable to find valid certification path to requested target">
+		<link><url><![CDATA[https://www.google.co.in/#q=+java.security.cert.CertPathBuilderException:+unable+to+find+valid+certification+path+to+requested+target]]> </url></link>		
+		<link><url><![CDATA[https://blogs.oracle.com/gc/entry/unable_to_find_valid_certification]]> </url></link>	
+		<link><url><![CDATA[https://www.ibm.com/developerworks/community/forums/html/topic?id=0ca7cdea-f613-49e8-b91d-dd252945511a]]> </url></link>	
+		<link><url><![CDATA[https://confluence.atlassian.com/display/STASHKB/SSLHandshakeException+-+unable+to+find+valid+certification+path+to+requested+target]]> </url></link>
+		<link><url><![CDATA[http://www.mkyong.com/webservices/jax-ws/suncertpathbuilderexception-unable-to-find-valid-certification-path-to-requested-target/]]> </url></link>		
+		<link><url><![CDATA[http://stackoverflow.com/questions/13626965/how-to-ignore-pkix-path-building-failed-sun-security-provider-certpath-suncertp]]> </url></link>	
+		<link><url><![CDATA[http://stackoverflow.com/questions/6047996/ignore-self-signed-ssl-cert-using-jersey-client]]> </url></link>	
+		<link><url><![CDATA[http://stackoverflow.com/questions/875467/java-client-certificates-over-https-ssl]]> </url></link>	
+		<link><url><![CDATA[http://sanjaal.com/java/tag/get-public-key-of-ssl-certificate-in-java/]]> </url></link>	
+		<link><url><![CDATA[http://stackoverflow.com/questions/17388279/getting-error-pkix-path-building-failed-unable-to-find-valid-certification-pat]]> </url></link>	
+		<link><url><![CDATA[https://www.google.co.in/#q=java+program+to+login+a+website+using+url+]]> </url></link>	
+		<link><url><![CDATA[http://www.mkyong.com/java/how-to-automate-login-a-website-java-example/]]> </url></link>	
+		
+	</link-group>
+	
+	<link-group name="java.io.IOException: HTTPS hostname wrong">
+		<link><url><![CDATA[http://www.java-samples.com/showtutorial.php?tutorialid=211]]> </url></link>		
+		<link><url><![CDATA[http://docs.oracle.com/cd/E19159-01/820-1072/6ncp48v40/index.html]]> </url></link>	
+	</link-group>
+	
+	
+	<link-group name="standalone java program to invoke web url with parameters programmatically">
+		<link><url><![CDATA[http://docs.oracle.com/javase/tutorial/networking/urls/readingWriting.html]]> </url></link>		
+		<link><url><![CDATA[http://docs.oracle.com/cd/E19146-01/819-2634/gcozl/index.html]]> </url></link>	
+		<link><url><![CDATA[http://stackoverflow.com/questions/5932372/how-to-programmatically-send-a-http-request-with-parameters]]> </url></link>	
+		<link><url><![CDATA[http://viralpatel.net/blogs/http-proxy-setting-java-setting-proxy-java/]]> </url></link>
+		<link><url><![CDATA[http://stackoverflow.com/questions/3324717/sending-http-post-request-in-java]]> </url></link>
+		<link><url><![CDATA[http://stackoverflow.com/questions/16589417/programmatically-click-a-webpage-button]]> </url></link>
+		
+	</link-group>
+	
+	<link-group name="page-partition">
+		<link><url><![CDATA[http://127.0.0.1:8080/hibTutorial/page-partitioning/]]> </url></link>
+	</link-group>
+	<!--
+	<link-group name="">
+		<link><url><![CDATA[]]> </url></link>		
+	</link-group>
+	-->
+	
+</root>

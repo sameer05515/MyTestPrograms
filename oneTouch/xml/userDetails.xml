@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root SYSTEM "http://127.0.0.1:8080/oneTouch/dtd/userDetails.dtd">
+<root>
+	<user>
+		<id><![CDATA[012345]]></id>
+		<user-name><![CDATA[premendra.bce05515]]></user-name>
+		<name><![CDATA[Premendra Kumar]]></name>
+		<address><![CDATA[House No 1212,Sec 55,Faridabad]]></address>
+	</user>
+</root>
