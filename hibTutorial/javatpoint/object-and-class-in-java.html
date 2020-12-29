@@ -1,0 +1,422 @@
+ <!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>Object in Java | Class in Java - javatpoint</title><link rel="SHORTCUT ICON" href="images/logo/icon.png" /><link rel="stylesheet" type="text/css" href="/link.css" /><meta name="keywords" content="object in java, classes in java, class, object, class, java, example, state, behavior, identity, method, anonymous "/><meta name="description" content="Object in java and class in java with real time examples, state, behavior, identity, method, anonymous object and more."/><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><link rel="canonical" href="http://www.javatpoint.com/object-and-class-in-java" /><meta property="og:locale" content="en_US" /><meta property="og:type" content="article" /><meta name="twitter:title" property="og:title" content="Object in Java | Class in Java - javatpoint" /><meta name="twitter:description" property="og:description" content="Object in java and class in java with real time examples, state, behavior, identity, method, anonymous object and more." /><meta property="og:url" content="http://www.javatpoint.com/object-and-class-in-java" /><meta property="og:site_name" content="www.javatpoint.com" /><meta name="twitter:card" content="summary"/><meta name="twitter:site" content="@pagejavatpoint"/><meta name="twitter:domain" content="www.javatpoint.com"/><meta name="twitter:creator" content="@pagejavatpoint"/></head> <body onload="highlightlink()"> <div id="page" style="margin:-9px;background-color:#f5f5f4;"><div id="container"> <div class="header"><table style="width:100%"><tr><td><div id="headerlink" style="padding:0px;margin:0px"><span style="margin-right:20px;width:45%px"></span><span style="float:right;margin-right:5px;width:45%"><a href="http://www.javatpoint.com/contribute-us" style="text-decoration:none;color:#6666CC">Contribute Us</a> | <a href="http://www.javatpoint.com/asknewquestion.jsp" style="text-decoration:none;color:#6666CC">Ask Question</a> | <a href='http://www.javatpoint.com/login.jsp' style='text-decoration:none;color:#6666CC'>login</a> <a target="_blank" href="http://feeds.feedburner.com/javatpointsonoo"><img src="http://www.javatpoint.com/images/social/r.png" alt="RSS Feed"/></a><a target="_blank" href="http://feedburner.google.com/fb/a/mailverify?uri=javatpointsonoo"><img src="http://www.javatpoint.com/images/social/m.png" alt="Subscribe to Get Email Alerts"/></a><a target="_blank" href="https://www.facebook.com/javatpoint"><img src="http://www.javatpoint.com/images/social/f.png" alt="Facebook Page"/></a><a target="_blank" href="https://plus.google.com/u/0/113973042385691981314/posts"><img src="http://www.javatpoint.com/images/social/g.png" alt="Google Page"/></a><a target="_blank" href="https://twitter.com/pagejavatpoint"><img src="http://www.javatpoint.com/images/social/t.png" alt="Twitter Page"/></a></span><hr class="upperhr"/></div> </td></tr><tr><td><!--<div style="float:left;width:230px;"><img src="http://www.javatpoint.com/images/logo/log2.png" alt="javatpoint.com"/></div>--><div style="margin:0px;padding:0px;float:left;width:23%;margin-left:10px;margin-bottom:0px"><a href="http://www.javatpoint.com" style="text-decoration:none;"><span style="color:orange;font-size:28px;font-weight:bold;">Java</span><span style="color:#666600;font-size:40px;font-weight:bold;">T</span><span style="color:red;font-size:28px;font-weight:bold;">point</span></a></div><div style="float:left;width:50%;"><form class="navbar-search" method="get" action="http://www.google.com/search" target="_blank"> <input type="text" name="q" class="search-query span2" placeholder="Search on javatpoint..." title="Search on Javatpoint"/><input type="hidden" name="sitesearch" value="www.javatpoint.com"/></form><!--<span style="margin-left:100px;color:orange;font-size:20px;font-weight:bold;">Happy </span><span style="color:red;font-size:20px;font-weight:bold;">New </span><span style="color:#666600;font-size:20px;font-weight:bold;">Year</span><span style="color:#666600;font-size:30px;font-weight:bold;"> 2015</span>--></div><div style="width:25%;float:right"><div style="padding:0px;margin:0px;margin-right:10px;margin-top:10px;float:right"><a target="_blank" style="background-color:#6699CC;text-decoration:none;color:white;border-radius:5px;font-weight:bold;padding:6px 10px 6px 10px;" href='http://www.javatpoint.com/subscribe.jsp'>Subscribe Us</a></div><div style="padding:0px;margin:0px;margin-right:10px;float:right"><p style="padding:0px;margin:0px;margin-top:5px;color:#983688;font-weight:bold;">91-9990449935</p><p style="padding:0px;margin:0px;color:#983688;font-weight:bold;">&nbsp;0120-4256464</p></div></div></td></tr></table> </div><div class="headermobile"><div style="margin:0px;padding:0px;text-align:left;margin-left:10px;"><a href="http://www.javatpoint.com" style="text-decoration:none;"><span style="color:orange;font-size:25px;font-weight:bold;">Java</span><span style="color:#666600;font-size:35px;font-weight:bold;">T</span><span style="color:red;font-size:25px;font-weight:bold;">point</span></a></div><div style="margin:0px;padding:0px;clear:both"><form class="navbar-search-m" method="get" action="http://www.google.com/search" target="_blank"> <input type="text" name="q" class="search-query span2-m" placeholder="Search on javatpoint..." title="Search on Javatpoint"/><input type="hidden" name="sitesearch" value="www.javatpoint.com"/></form></div></div><div id="link" style="clear:both"> <div id="smoothmenu1" class="ddsmoothmenu">
+<ul>
+<li><a href="http://www.javatpoint.com">Home</a></li>
+<li><a href="java-tutorial" class="selected">Core Java</a></li>
+<li><a href="servlet-tutorial">Servlet</a></li>
+<li><a href="jsp-tutorial">JSP</a></li>
+<li><a href="ejb-tutorial">EJB</a></li>
+<li><a href="struts-2-tutorial">Struts2</a></li>
+<li><a href="java-mail-api-tutorial">Mail</a></li>
+<li><a href="hibernate-tutorial">Hibernate</a></li>
+<li><a href="spring-tutorial">Spring</a></li>
+<li><a href="android-tutorial">Android</a></li>
+<li><a href="design-patterns-in-java">Design P</a></li>
+<li><a href="examaccess">Quiz</a></li>
+<li><a href="free-java-projects">Projects</a></li>
+<li><a href="corejava-interview-questions">Interview Q</a>
+<li><a href="comment.jsp">Comment</a>
+<li><a href="forum">Forum</a>
+<li><a href="training">Training</a>
+</li>
+</ul>
+<br style="clear: left" />
+</div>
+</div><div id="mobilemenu" style="clear:both"> <button onmouseover="style.color='khaki' " onmouseout="style.color='white'" onclick="showmenu()">Content Menu &#x25bc;</button></div><div id="mobilemenu" style="clear:both"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><!-- responsivemobile --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4699858549023382" data-ad-slot="1236815518" data-ad-format="auto"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div><div id="menu"><div class="leftmenu2" >
+<a href="java-tutorial"><span>Basics of Java </span></a>
+</div>
+<div class="leftmenu2" >
+<h2 class="spanh2"><span class="spanh2">Java OOPs Concepts</span></h2>
+</div>
+
+<div class="leftmenu" >
+<a href="java-oops-concepts" class="l1">Advantage of OOPs</a>
+<a href="java-naming-conventions" class="l1">Naming Convention</a>
+<a href="object-and-class-in-java" class="l1">Object and Class</a>
+<a href="method-overloading-in-java" class="l1">Method Overloading</a>
+<a href="constructor" class="l1">Constructor</a>
+<a href="static-keyword-in-java" class="l1">static keyword </a>
+<a href="this-keyword" class="l1">this keyword</a>
+<a href="inheritance-in-java" class="l1">Inheritance(IS-A)</a>
+<a href="aggregation-in-java" class="l1">Aggregation(HAS-A)</a>
+<a href="method-overriding-in-java" class="l1">Method Overriding</a>
+<a href="covariant-return-type" class="l1">Covariant Return Type</a>
+<a href="super-keyword" class="l1">super keyword</a>
+<a href="instance-initializer-block" class="l1">Instance Initializer block</a>
+<a href="final-keyword" class="l1">final keyword</a>
+<a href="runtime-polymorphism-in-java" class="l1">Runtime Polymorphism</a>
+<a href="static-binding-and-dynamic-binding" class="l1">Dynamic Binding</a>
+<a href="downcasting-with-instanceof-operator" class="l1">instanceof operator</a>
+<a href="abstract-class-in-java" class="l1">Abstract class</a>
+<a href="interface-in-java" class="l1">Interface</a>
+<a href="difference-between-abstract-class-and-interface" class="l1">Abstract vs Interface</a>
+<a href="package" class="l1">Package</a>
+<a href="access-modifiers" class="l1">Access Modifiers</a>
+<a href="encapsulation" class="l1">Encapsulation</a>
+<a href="object-class" class="l1">Object class </a>
+<a href="object-cloning" class="l1">Object Cloning</a>
+<a href="array-in-java" class="l1">Java Array</a>
+<a href="call-by-value-and-call-by-reference-in-java" class="l1">Call By Value </a>
+<a href="strictfp-keyword" class="l1">strictfp keyword</a>
+<a href="creating-api-document" class="l1">API Document</a>
+<a href="command-line-argument" class="l1">Command Line Arg</a>
+<a href="difference-between-object-and-class" class="l1">Object vs Class</a>
+<a href="method-overloading-vs-method-overriding-in-java" class="l1">Overloading vs Overriding</a>
+<a href="/directload.jsp?val=86">Array Quiz-1</a>
+<a href="/directload.jsp?val=87">Array Quiz-2</a>
+<a href="/directload.jsp?val=10">OOPs Quiz-1</a>
+<a href="/directload.jsp?val=83">OOPs Quiz-2</a>
+<a href="/directload.jsp?val=84">OOPs Quiz-3</a>
+<a href="/directload.jsp?val=85">OOPs Quiz-4</a>
+</div>
+
+<div class="leftmenu2" >
+<a href="java-string"><span>Java String</span></a>
+<a href="java-regex"><span>Java Regex</span></a>
+<a href="exception-handling-in-java"><span>Exception Handling</span></a>
+<a href="java-inner-class"><span>Java Inner classes</span></a>
+<a href="multithreading-in-java"><span>Multithreading</span></a>
+<a href="synchronization-in-java"><span>Synchronization</span></a>
+<a href="java-io"><span>I/O</span></a>
+<a href="serialization-in-java"><span>Serialization</span></a>
+<a href="java-networking"><span>Networking</span></a>
+<a href="java-awt"><span>AWT</span></a>
+<a href="event-handling-in-java"><span>Event Handling</span></a>
+<a href="java-swing"><span>Swing</span></a>
+<a href="java-layout-manager"><span>LayoutManager</span></a>
+<a href="java-applet"><span>Applet</span></a>
+<a href="java-reflection"><span>Reflection API</span></a>
+<a href="java-date"><span>Java Date</span></a>
+<a href="collections-in-java"><span>Collection</span></a>
+<a href="java-jdbc"><span>JDBC</span></a>
+<a href="New-features-in-java" ><span>Java New Features</span></a>
+<a href="RMI" ><span>RMI</span></a>
+<a href="internationalization-in-java"><span>Internationalization</span></a>
+
+</div><table id="leftad"><tr><td><img src="images/wh.JPG" alt="space"/></td></tr><tr><td><script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins class="adsbygoogle" style="display:inline-block;width:160px;height:600px" data-ad-client="ca-pub-4699858549023382" data-ad-slot="4476401222"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script></td></tr></table></div><div class="onlycontent" style="margin-left:10px;margin-top:15px;width:65%;margin-auto;float:left;"><div id="right1024" style=""><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><!-- javatpointheader --><ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-4699858549023382" data-ad-slot="1219987637"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div><div style="margin-left:0px;"><div id="city">
+
+<table>
+<tr><td>
+<div id="bottomnextup">
+<a class="next" href="method-overloading-in-java">next &rarr;</a>
+<a class="next" href="naming-convention">&larr; prev</a>
+
+</div>
+
+
+<h1 class="h1">Object and Class in Java</h1>
+
+<div id="upr">
+<ol>
+<li><a href="#object">Object in Java</a></li>
+<li><a href="#class">Class in Java</a></li>
+<li><a href="#objectinstancevariable">Instace Variable in Java</a></li>
+<li><a href="#objectmethod">Method in Java</a></li>
+<li><a href="#objectex2">Example of Object and class that maintains the records of student</a></li>
+<li><a href="#objectannonymous">Annonymous Object</a></li>
+</ol>
+</div>
+
+
+<p>In this page, we will learn about java objects and classes. In object-oriented programming technique, we design a program using objects and classes.</p>
+<p>Object is the physical as well as logical entity whereas class is the logical entity only. </p>
+
+<a id="object"></a>
+<h3 class="h2">Object in Java</h3>
+<img src="images/objects.jpg" alt="object in java" width="350" height="350" style="margin-left:20px;float:right;" />
+<p>An entity that has state and behavior is known as an object e.g. chair, bike, marker, pen, table, car etc. It can be physical or logical (tengible and intengible). The example of integible object is banking system.
+</p>
+<p>An object has three characteristics:</p>
+<ul>
+<li><strong>state:</strong> represents data (value) of an object.</li>
+<li><strong>behavior:</strong> represents the behavior (functionality) of an object such as deposit, withdraw etc.</li>
+<li><strong>identity:</strong> Object identity is typically implemented via a unique ID. The value of the ID is not visible to the external user. But,it is used internally by the JVM to identify each object uniquely.</li>
+</ul>
+
+
+<table  >
+<tr><td>For Example: Pen is an object. Its name is Reynolds, color is white etc. known as its state. It is used to write, so writing is its behavior.
+</td></tr>
+</table>
+
+<table  >
+<tr><td><strong>Object is an instance of a class.</strong> Class is a template or blueprint from which objects are created. So object is the instance(result) of a class.
+</td></tr>
+</table>
+
+<hr/>
+<a id="class"></a>
+<h3 class="h2">Class in Java</h3>
+<table  >
+<tr><td>A class is a group of objects that has common properties. It is a template or blueprint from which objects are created.
+</td></tr>
+</table>
+
+<p>A class in java can contain:</p>
+<ul>
+<li><strong>data member</strong></li>
+<li><strong>method</strong></li>
+<li><strong>constructor</strong></li>
+<li><strong>block</strong></li>
+<li><strong>class and interface</strong></li>
+</ul>
+
+
+<h3 class="h4">Syntax to declare a class:</h3>
+<div class="codeblock"><textarea name="code" class="java" >
+class &lt;class_name&gt;{
+    data member;
+    method;
+}
+</textarea></div>
+
+<h3 class="h3ex">Simple Example of Object and Class</h3>
+<p>In this example, we have created a Student class that have two data members id and name.
+We are creating the object of the Student class by new keyword and printing the objects value.
+</p>
+
+<div class="codeblock"><textarea name="code" class="java">
+class Student1{
+ int id;//data member (also instance variable)
+ String name;//data member(also instance variable)
+
+ public static void main(String args[]){
+  Student1 s1=new Student1();//creating an object of Student
+  System.out.println(s1.id);
+  System.out.println(s1.name);
+ }
+}
+</textarea></div>
+<span class="testit"><a href="http://www.javatpoint.com/opr/test.jsp?filename=Student1" target="_blank">Test it Now</a></span>
+
+<div class="codeblock3"><pre>
+Output:0 null
+     
+</pre></div>
+<hr/>
+<a id="objectinstancevariable"></a>
+<h3 class="h4">Instance variable in Java</h3>
+<table  >
+<tr><td>A variable that is created inside the class but outside the method, is known as instance variable.Instance variable doesn't get memory at compile time.It gets memory at runtime when object(instance) is created.That is why, it is known as instance variable.
+</td></tr>
+</table>
+<a id="objectmethod"></a>
+<h3 class="h4">Method in Java</h3>
+<table  >
+<tr><td>In java, a method is like function i.e. used to expose behaviour of an object.
+</td></tr>
+</table>
+<a id="objectadvantageofmethod"></a>
+<h4 class="h4">Advantage of Method</h4>
+<ul>
+<li>Code Reusability</li>
+<li>Code Optimization</li>
+</ul>
+<a id="objectnewkeyword"></a>
+<h3 class="h4">new keyword</h3>
+<table  >
+<tr><td>The new keyword is used to allocate memory at runtime.</td></tr>
+</table>
+
+<hr/>
+<a id="objectex2"></a>
+<h3 class="h3ex">Example of Object and class that maintains the records of students</h3>
+<table  >
+<tr><td>In this example, we are creating the two objects of Student class and initializing the value to these objects by invoking the insertRecord method on it.
+Here, we are displaying the state (data) of the objects by invoking the displayInformation method.
+</td></tr>
+</table>
+
+<div class="codeblock"><textarea name="code" class="java">
+class Student2{
+ int rollno;
+ String name;
+
+ void insertRecord(int r, String n){  //method
+  rollno=r;
+  name=n;
+ }
+
+ void displayInformation(){System.out.println(rollno+" "+name);}//method
+
+ public static void main(String args[]){
+  Student2 s1=new Student2();
+  Student2 s2=new Student2();
+
+  s1.insertRecord(111,"Karan");
+  s2.insertRecord(222,"Aryan");
+
+  s1.displayInformation();
+  s2.displayInformation();
+
+ }
+}
+</textarea></div>
+<span class="testit"><a href="http://www.javatpoint.com/opr/test.jsp?filename=Student2" target="_blank">Test it Now</a></span>
+
+<div class="codeblock3"><pre>
+Output:111 Karan
+       222 Aryan
+     
+</pre></div>
+<div id="download">
+<a href="src/oops/object1.zip">download this example of object and class</a>
+</div>
+
+<img alt="This Value" src="images/thisvalue.JPG"/>
+
+<table  >
+<tr><td>As you see in the above figure, object gets the memory in Heap area and reference variable refers to the object allocated in the Heap memory area.
+Here, s1 and s2 both are reference variables that refer to the objects allocated in memory.
+</td></tr>
+</table>
+
+<hr/>
+
+<h3 class="h3ex">Another Example of Object and Class</h3>
+<table  >
+<tr><td>There is given another example that maintains the records of Rectangle class. Its exaplanation is same as in the above Student class example.
+</td></tr>
+</table>
+
+<div class="codeblock"><textarea name="code" class="java">
+
+class Rectangle{
+ int length;
+ int width;
+
+ void insert(int l,int w){
+  length=l;
+  width=w;
+ }
+
+ void calculateArea(){System.out.println(length*width);}
+
+ public static void main(String args[]){
+  Rectangle r1=new Rectangle();
+  Rectangle r2=new Rectangle();
+
+  r1.insert(11,5);
+  r2.insert(3,15);
+
+  r1.calculateArea();
+  r2.calculateArea();
+}
+}
+</textarea></div>
+<div class="codeblock3"><pre>
+Output:55 
+       45     
+</pre></div>
+
+<hr/>
+<a id="objectways"></a>
+<h3 class="h4">What are the different ways to create an object in Java?</h3>
+<table  >
+<tr><td>There are many ways to create an object in java. They are:
+<ul>
+<li>By new keyword</li>
+<li>By newInstance() method</li>
+<li>By clone() method</li>
+<li>By factory method etc.</li>
+</ul>
+We will learn, these ways to create the object later.
+</td></tr>
+</table>
+<hr/>
+<a id="objectannonymous"></a>
+<h3 class="h3">Annonymous object</h3>
+<table  >
+<tr><td>Annonymous simply means nameless.An object that have no reference is known as annonymous object.
+</td></tr>
+<tr><td>If you have to use an object only once, annonymous object is a good approach.</td></tr>
+</table>
+
+<div class="codeblock"><textarea name="code" class="java">
+
+class Calculation{
+
+ void fact(int  n){
+  int fact=1;
+  for(int i=1;i<=n;i++){
+   fact=fact*i;
+  }
+ System.out.println("factorial is "+fact);
+}
+
+public static void main(String args[]){
+ new Calculation().fact(5);//calling method with annonymous object
+}
+}
+</textarea></div>
+<div class="codeblock3"><pre>
+Output:Factorial is 120
+</pre></div>
+
+<hr/>
+<a id="objectbyonetype"></a>
+<h3 class="h3">Creating multiple objects by one type only</h3>
+<table  >
+<tr><td>We can create multiple objects by one type only as we do in case of primitives.</td></tr>
+</table>
+
+<div class="codeblock"><textarea name="code" class="java">
+
+Rectangle r1=new Rectangle(),r2=new Rectangle();//creating two objects
+
+</textarea></div>
+
+<table  >
+<tr><td>Let's see the example:</td></tr>
+</table>
+
+<div class="codeblock"><textarea name="code" class="java">
+
+class Rectangle{
+ int length;
+ int width;
+
+ void insert(int l,int w){
+  length=l;
+  width=w;
+ }
+
+ void calculateArea(){System.out.println(length*width);}
+
+ public static void main(String args[]){
+  Rectangle r1=new Rectangle(),r2=new Rectangle();//creating two objects
+  
+  r1.insert(11,5);
+  r2.insert(3,15);
+
+  r1.calculateArea();
+  r2.calculateArea();
+}
+}
+</textarea></div>
+<div class="codeblock3"><pre>
+Output:55 
+       45     
+</pre></div>
+
+<div class="nexttopicdiv">
+<span class="nexttopictext">Next Topic</span><span class="nexttopiclink"><a href="method-overloading-in-java">Method Overloading in java</a></span>
+</div>
+
+<!-- link -->
+<br/><br/>
+<div id="bottomnext">
+<a style="float:left" class="next" href="naming-convention">&larr; prev</a>
+<a style="float:right" class="next" href="method-overloading-in-java">next &rarr;</a>
+</div>
+<br/><br/>
+
+</td></tr>
+</table>
+
+</div></div><br/><div id="mobilemenu" style="clear:both"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><!-- responsivemobile --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4699858549023382" data-ad-slot="1236815518" data-ad-format="auto"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div></div><div id="right" style="width:15%;float:left;margin-left:10px;margin-top:10px;"><script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins class="adsbygoogle" style="display:inline-block;width:160px;height:600px" data-ad-client="ca-pub-4699858549023382" data-ad-slot="4476401222"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({});</script><br/><br/><br/><br/><script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins class="adsbygoogle" style="display:inline-block;width:160px;height:600px" data-ad-client="ca-pub-4699858549023382" data-ad-slot="4476401222"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({});</script><br/><br/><br/><br/>
+<!--<script id="mNCC" language="javascript"> medianet_width='160'; medianet_height= '600'; medianet_crid='694759290'; </script> <script id="mNSC" src="http://contextual.media.net/nmedianet.js?cid=8CU74TD10" language="javascript"></script> -->
+</div><div id="right1024" style="float:left;margin-left:10px;margin-top:120px;"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><!-- right1024only --><ins class="adsbygoogle" style="display:inline-block;width:120px;height:600px" data-ad-client="ca-pub-4699858549023382" data-ad-slot="2180118716"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>
+<div id="footer" style="clear:both;width:100%">
+
+<script type="text/javascript"> var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-24880427-1']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })();</script><hr/><div style="padding:0px;margin:0px;text-align:center"><sup style="font:16px arial;">Like/Subscribe us for latest updates or newsletter </sup><a target="_blank" href="http://feeds.feedburner.com/javatpointsonoo"><img src="http://www.javatpoint.com/images/social/rss1.png" alt="RSS Feed"/></a><a target="_blank" href="http://feedburner.google.com/fb/a/mailverify?uri=javatpointsonoo"><img src="http://www.javatpoint.com/images/social/mail1.png" alt="Subscribe to Get Email Alerts"/></a><a target="_blank" href="https://www.facebook.com/javatpoint"><img src="http://www.javatpoint.com/images/social/facebook1.jpg" alt="Facebook Page"/></a><a target="_blank" rel="author" href="https://plus.google.com/u/0/113973042385691981314/posts"><img src="http://www.javatpoint.com/images/social/google1.png" alt="Google Page"/></a><a target="_blank" href="https://twitter.com/pagejavatpoint"><img src="http://www.javatpoint.com/images/social/twitter1.png" alt="Twitter Page"/></a><a target="_blank" href="http://javatpoint.blogspot.com"><img src="http://www.javatpoint.com/images/social/blog.png" alt="Blog Page"/></a><a href="#" style="font:bold 18px arial;text-decoration:none;"><sup>&uarr;Top</sup></a></div><div style="margin:auto 0px;line-height:20px;padding:0px 40px;font-size:12px;height:390px;background:#6699CC;color: white; font-family:serif; border-bottom: solid 1px #A3AE7E;"> <div id="innerfooter" > <div><span style="text-decoration:none;font-size:larger;font-family:serif;color:white;font-weight:bolder;">Tutorials</span> <hr/><ul class="footer-list"> <li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/java-tutorial">&raquo; Core Java Tutorial</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/servlet-tutorial">&raquo; Servlet Tutorial</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/jsp-tutorial">&raquo; JSP Tutorial</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/java-mail-api-tutorial">&raquo; Mail API Tutorial</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/design-patterns-in-java">&raquo; Design Pattern Tutorial</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/struts-2-tutorial">&raquo; Struts Tutorial</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/spring-tutorial">&raquo; Spring Tutorial</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/hibernate-tutorial">&raquo; Hibernate Tutorial</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/android-tutorial">&raquo; Android Tutorial</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/javascript-tutorial">&raquo; JavaScript Tutorial</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/sql-tutorial">&raquo; SQL Tutorial</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/c-programming-language-tutorial">&raquo; C Tutorial</a></li> <li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/ajax-tutorial">&raquo; AJAX Tutorial</a></li> <li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/junit-tutorial">&raquo; JUnit Tutorial</a></li> <li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/jaxb-tutorial">&raquo; JAXB Tutorial</a></li> <li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/maven-tutorial">&raquo; Maven Tutorial</a></li></ul> </div> <div><span style="text-decoration:none;font-size:larger;font-family:serif;color:white;font-weight:bolder;">Interview Questions</span> <hr/><ul class="footer-list"> <li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/corejava-interview-questions">&raquo; Java Interview</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/servletinterview">&raquo; Servlet Interview</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/jspinterview">&raquo; JSP Interview</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/hibernate-interview-questions">&raquo; Hibernate Interview</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/spring-interview-questions">&raquo; Spring Interview</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/android-interview-questions">&raquo; Android Interview</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/sql-interview-questions">&raquo; SQL Interview</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/pl-sql-interview-questions">&raquo; PL/SQL Interview</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/oracle-interview-questions">&raquo; Oracle Interview</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/mysql-interview-questions">&raquo; MySQL Interview</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/sql-server-interview-questions">&raquo; SQL Server Interview</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/mongodb-interview-questions">&raquo; MongoDB Interview</a></li> <li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/cloud-computing-interview-questions">&raquo; Cloud Interview</a></li> </ul> </div><div ><a style="font-weight:bolder;text-decoration: none;text-align:center;font-size:larger;font-family:serif;color:white;" target="_blank" href="http://www.javatpoint.com/examaccess">Quizzes</a><hr/><ul class="footer-list"><li><a target="_blank" href="http://www.javatpoint.com/core-java-quiz" style="text-decoration: none;font-family:serif;color:white;">&raquo; Core Java quiz</a></li><li><a target="_blank" href="http://www.javatpoint.com/servlet-quiz" style="text-decoration: none;font-family:serif;color:white;">&raquo; Servlet quiz</a></li><li><a target="_blank" href="http://www.javatpoint.com/jsp-quiz" style="text-decoration: none;font-family:serif;color:white;">&raquo; JSP quiz</a></li><li><a target="_blank" href="http://www.javatpoint.com/struts-quiz" style="text-decoration: none;font-family:serif;color:white;">&raquo; Struts2 quiz</a></li><li><a target="_blank" href="http://www.javatpoint.com/android-quiz" style="text-decoration: none;font-family:serif;color:white;">&raquo; Android quiz</a></li><li><a target="_blank" href="http://www.javatpoint.com/scjp-quiz" style="text-decoration: none;font-family:serif;color:white;">&raquo; OCJP quiz</a></li><li><a target="_blank" href="http://www.javatpoint.com/scwcd-quiz" style="text-decoration: none;font-family:serif;color:white;">&raquo; OCWCD quiz</a></li><li><a target="_blank" href="http://www.javatpoint.com/hibernate-quiz" style="text-decoration: none;font-family:serif;color:white;">&raquo; Hibernate quiz</a></li><li><a target="_blank" href="http://www.javatpoint.com/spring-quiz" style="text-decoration: none;font-family:serif;color:white;">&raquo; Spring quiz</a></li><li><a target="_blank" href="http://www.javatpoint.com/c-quiz" style="text-decoration: none;font-family:serif;color:white;">&raquo; C quiz</a></li><li><a target="_blank" href="http://www.javatpoint.com/cloud-computing-quiz" style="text-decoration: none;font-family:serif;color:white;">&raquo; Cloud Computing quiz</a></li><li><a target="_blank" href="http://www.javatpoint.com/javascript-quiz" style="text-decoration: none;font-family:serif;color:white;">&raquo; JavaScript quiz</a></li><li><a target="_blank" href="http://www.javatpoint.com/sql-quiz" style="text-decoration: none;font-family:serif;color:white;">&raquo; SQL quiz</a></li></ul></div><div><a style="font-weight:bolder;text-decoration: none;font-size:larger;font-family:serif;color:white;text-align:center;" target="_blank" href="http://www.javatpoint.com/forum">Forum</a><hr/><ul class="footer-list"><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/forum.jsp?category=corejava">&raquo; Core Java Ques.</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/forum.jsp?category=servlet">&raquo; Servlet Ques.</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/forum.jsp?category=jsp">&raquo; JSP Ques.</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/forum.jsp?category=struts">&raquo; Struts Ques.</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/forum.jsp?category=spring">&raquo; Spring Ques.</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/forum.jsp?category=hibernate">&raquo; Hibernate Ques.</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/forum.jsp?category=android">&raquo; Android Ques.</a></li></ul><hr/><a style="font-weight:bolder;text-decoration: none;text-align:center;font-size:larger;font-family:serif;color:white;" href="http://www.javatpoint.com/free-java-projects">Projects</a><hr/><a style="font-weight:bolder;text-decoration: none;font-size:larger;font-family:serif;text-align:center;color:white;" href="http://www.sssit.org" rel="nofollow">SSS IT PVT LTD</a><hr/><ul class="footer-list"><li><a rel="nofollow" href="http://www.sssit.org/development" style="text-decoration: none;font-family:serif;color:white;">&raquo; Development</a></li><li><a href="training" style="text-decoration: none;font-family:serif;color:white;">&raquo; Training</a></li><li><a rel="nofollow" href="http://www.sssit.org/seo" style="text-decoration: none;font-family:serif;color:white;">&raquo; SEO</a></li><li><a rel="nofollow" href="http://www.sssit.org/consultancy" style="text-decoration: none;font-family:serif;color:white;">&raquo; Consultancy</a></li></ul></div><div style="border-right:2px solid white;"><span style="font-weight:bolder;text-decoration: none;font-size:larger;font-family:serif;color:white;float:right;padding-right:16px;" >CONTACT US</span><br/><hr/><p style="text-align:center;border-bottom:1px solid white;padding-bottom:30px;">Tel. : 0120-4256464<br/>Mob. : +91 9990449935<br/>Email : enquiry@sssit.org<br/>Address: Plot - 6, GT Road,<br/>Near MMX Mall, <br/>Mohan Nagar, Ghaziabad,<br/>201007, UP, India<br/><a href="http://www.javatpoint.com/contact-us" style="text-decoration: none;font-family:serif;color:white;">&raquo; Contact Us</a><br/><a href="http://www.javatpoint.com/privacy-policy" style="text-decoration: none;font-family:serif;color:white;">&raquo; Privacy Policy</a></p><p style="text-align:center;border-bottom:1px solid white;padding-bottom:30px;padding-left:none;"><br/>&copy; 2011-2014 Javatpoint.<br/> All Rights Reserved.<br/><a href="http://www.dmca.com/Protection/Status.aspx?ID=e8b533d5-7356-47f5-820b-72c890f03a4e" rel="nofollow" title="DMCA"> <img src ="http://images.dmca.com/Badges/dmca_protected_sml_120c.png?ID=e8b533d5-7356-47f5-820b-72c890f03a4e" alt="DMCA.com" /></a></p></div></div></div>
+</div></div></div><script src="js/shcoreandbrush.js"></script><script type="text/javascript"> dp.SyntaxHighlighter.HighlightAll('code'); </script></body> </html> 
