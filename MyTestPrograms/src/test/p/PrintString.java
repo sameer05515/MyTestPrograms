@@ -4,13 +4,13 @@ public class PrintString {
 
 	public static void main(String[] args) {
 		for(String s:sectionNames) {
-			System.out.printf("{\n" + 
+			System.out.printf("   {\n" + 
 					"       \"sectionName\":\"%s\",\n" + 
 					"       \"description\":[],\n" + 
 					"       \"topics\":[\n" + 
 					"\n" + 
 					"       ]\n" + 
-					"   },",s);
+					"   },\n",s);
 		}
 
 	}
