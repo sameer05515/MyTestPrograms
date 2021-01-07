@@ -19,7 +19,7 @@ import com.google.gson.JsonObject;
 public class AwsServicesHelper {
 
 	private static final String[] TOKEN_ARRAY = { "===start===", "===end===" };
-	private static String rawFileLocation = "/home/premendra/Downloads/apache-tomcat-8.5.40/webapps/my-pages/other-sample-application/aws-services/js/data/raw-services-overview-2.txt";
+	private static String rawFileLocation = "/home/premendra/Downloads/apache-tomcat-8.5.40/webapps/my-pages/other-sample-application/aws-services/data/raw-services-overview-2.txt";
 
 	private static final int CURRENT = 0;
 	private static final int NEXT = 1;
@@ -146,7 +146,7 @@ public class AwsServicesHelper {
 //			PrintStream ps = new PrintStream(new File(
 //					"/home/premendra/Downloads/apache-tomcat-8.5.40/webapps/my-pages/other-sample-application/aws-services/js/data/raw-services-overview-2.json"));
 			printJsonElementToFile(sectionArray,
-					"/home/premendra/Downloads/apache-tomcat-8.5.40/webapps/my-pages/other-sample-application/aws-services/js/data/raw-services-overview-2.json");
+					"/home/premendra/Downloads/apache-tomcat-8.5.40/webapps/my-pages/other-sample-application/aws-services/data/raw-services-overview-2.json");
 			System.out.println(sectionArray.size());
 
 		} catch (FileNotFoundException e) {
