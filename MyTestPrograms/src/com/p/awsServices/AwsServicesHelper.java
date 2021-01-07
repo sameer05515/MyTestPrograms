@@ -5,7 +5,9 @@ import java.io.FileNotFoundException;
 import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Scanner;
 
 import com.google.gson.Gson;
@@ -16,36 +18,50 @@ import com.google.gson.JsonObject;
 
 public class AwsServicesHelper {
 
-	
-	private static final String[] TOKEN_ARRAY = { "===start===",  "===end===" };
-	private static String rawFileLocation="/home/premendra/Downloads/apache-tomcat-8.5.40/webapps/my-pages/other-sample-application/aws-services/js/data/raw-services-overview-2.txt";
-	
+	private static final String[] TOKEN_ARRAY = { "===start===", "===end===" };
+	private static String rawFileLocation = "/home/premendra/Downloads/apache-tomcat-8.5.40/webapps/my-pages/other-sample-application/aws-services/js/data/raw-services-overview-2.txt";
+
 	private static final int CURRENT = 0;
 	private static final int NEXT = 1;
 	@SuppressWarnings("unused")
 	private static final int PREVIOUS = -1;
 	private static final List<String> TOKEN_LIST = Arrays.asList(TOKEN_ARRAY);
-	
-	
+
 	public static void main(String[] args) {
-		
+		step1ConvertRawToJsonArray();
+	}
+
+	/**
+	 * 
+	 * CONVERT RAW DATA IN SECTION ARRAY CONTAINING SERVICE ARRAY
+	 * 
+	 */
+	private static void step1ConvertRawToJsonArray() {
+
 		try {
 			List<String> rawDataList = getRawList(rawFileLocation);
-			JsonArray sectionArray=new JsonArray();
-			
+			JsonArray sectionArray = new JsonArray();
+
 			if (rawDataList != null && rawDataList.size() > 0) {
-				for(String line:rawDataList) {
+				for (String line : rawDataList) {
 //					System.out.println(line);
-				}		
+				}
 
 				JsonObject currentSectionObject = null;
 				String currentKey = null;
 				boolean hasMoreToken = true;
 				int tokenTraversalIndex = 0;
 				int rawListSize = rawDataList.size();
+				
+				int sectionIdIndex=1;
+				int serviceIdIndex=1;
+				
+				Map<String, String> serviceIdMap=new HashMap<String, String>();
+				
 				while (hasMoreToken && tokenTraversalIndex < rawListSize) {
 					int nextTokenIndex = getTokenIndex(rawDataList, tokenTraversalIndex);
-					//System.out.printf("nextTokenIndex == %s rawListSize %s %n", nextTokenIndex, rawListSize);
+					// System.out.printf("nextTokenIndex == %s rawListSize %s %n", nextTokenIndex,
+					// rawListSize);
 					tokenTraversalIndex = nextTokenIndex;
 
 					if (tokenTraversalIndex == rawListSize - 1) {
@@ -61,8 +77,8 @@ public class AwsServicesHelper {
 						currentKey = key;
 						System.out.printf("==================== %ncurrentKey == %s%n", currentKey);
 
-//						int nextNonEmptyIndex = skipEmptyLines(rawDataList, tokenTraversalIndex);
-//						tokenTraversalIndex = nextNonEmptyIndex;
+						int nextNonEmptyIndex = skipEmptyLines(rawDataList, tokenTraversalIndex);
+						tokenTraversalIndex = nextNonEmptyIndex;
 						JsonObject nextLineObject = getLineJson(rawDataList, tokenTraversalIndex, CURRENT);
 
 						if (nextLineObject != null && nextLineObject.get("isToken").getAsBoolean()) {
@@ -70,40 +86,50 @@ public class AwsServicesHelper {
 							continue;
 						} else {
 							nextTokenIndex = getTokenIndex(rawDataList, tokenTraversalIndex);
-							if ("start".equals(currentKey)) {							
-								currentSectionObject = new JsonObject();								
-								JsonArray servicesArr=new JsonArray();
-								JsonObject service=null;
-								int pointer=0;
+							if ("start".equals(currentKey)) {
+								currentSectionObject = new JsonObject();
+								JsonArray servicesArr = new JsonArray();
+								JsonObject service = null;
+								int pointer = 0;
 //								int id=0;
 								while (tokenTraversalIndex < nextTokenIndex) {
 									String line = nextLineObject.get("line").getAsString();
-									
-									if(pointer==0) {										
+
+									if (pointer == 0) {
 										System.out.println(line);
 										currentSectionObject.addProperty("sectionName", line);
+										currentSectionObject.addProperty("id", "SECTION-"+sectionIdIndex++ +"-"+line.replaceAll(" ", "-"));
 										currentSectionObject.add("description", new JsonArray());
-									}else if(pointer%2==1) {
-										service=new JsonObject();
+									} else if (pointer % 2 == 1) {
+										service = new JsonObject();
 										service.addProperty("serviceName", line);
+										///
+										String serviceId="";
+										if(serviceIdMap.containsKey(line)) {
+											serviceId=serviceIdMap.get(line);
+										}else {
+											serviceId="SERVICE-"+serviceIdIndex++ +"-"+line.replaceAll(" ", "-");
+											serviceIdMap.put(line, serviceId);
+										}
+										service.addProperty("id", serviceId);
+										///
 										service.addProperty("expansionOfAcronym", "");
 										service.add("description", new JsonArray());
-									}else if(pointer%2==0) {
+									} else if (pointer % 2 == 0) {
 										service.addProperty("shortDescription", line);
 										servicesArr.add(service);
-									}	
+									}
 									pointer++;
 									nextLineObject = getLineJson(rawDataList, tokenTraversalIndex++, NEXT);
-								}								
+								}
 								currentSectionObject.add("services", servicesArr);
 								tokenTraversalIndex = nextTokenIndex;
-							} else if ("end".equals(currentKey)) {								
+							} else if ("end".equals(currentKey)) {
 								sectionArray.add(currentSectionObject);
-								
+
 								currentSectionObject = null;
 								tokenTraversalIndex = nextTokenIndex;
-							} 
-							else {
+							} else {
 								tokenTraversalIndex = nextTokenIndex;
 								hasMoreToken = true;
 								continue;
@@ -114,27 +140,46 @@ public class AwsServicesHelper {
 					}
 
 				}
-			
+
 			}
-			
-			PrintStream ps = new PrintStream(new File("/home/premendra/Downloads/apache-tomcat-8.5.40/webapps/my-pages/other-sample-application/aws-services/js/data/raw-services-overview-2.json"));
-			printJsonElement(sectionArray, ps);
+
+//			PrintStream ps = new PrintStream(new File(
+//					"/home/premendra/Downloads/apache-tomcat-8.5.40/webapps/my-pages/other-sample-application/aws-services/js/data/raw-services-overview-2.json"));
+			printJsonElementToFile(sectionArray,
+					"/home/premendra/Downloads/apache-tomcat-8.5.40/webapps/my-pages/other-sample-application/aws-services/js/data/raw-services-overview-2.json");
 			System.out.println(sectionArray.size());
-			
+
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
-		}catch (Exception e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 
 	}
-	
+
+	/**
+	 * 
+	 * HELPER METHODS
+	 * 
+	 */
+	private static void printJsonElementToFile(JsonElement element, String filePath) throws FileNotFoundException {
+		try (PrintStream printStreamObject = new PrintStream(new File(filePath))) {
+			Gson prettyJson = new GsonBuilder().setPrettyPrinting().create();
+			printStreamObject.println(prettyJson.toJson(element));
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+			throw e;
+		}
+
+		// printStreamObject.close();
+	}
+
 	private static void printJsonElement(JsonElement element, PrintStream printStreamObject) {
 		Gson prettyJson = new GsonBuilder().setPrettyPrinting().create();
 		printStreamObject.println(prettyJson.toJson(element));
-		//printStreamObject.close();
+		// printStreamObject.close();
 	}
-	
+
 	public static List<String> getRawList(String filePath) throws FileNotFoundException {
 		Scanner scanner = new Scanner(new File(filePath));
 		List<String> rawDataList = new ArrayList<>();
@@ -145,7 +190,7 @@ public class AwsServicesHelper {
 		scanner.close();
 		return rawDataList;
 	}
-	
+
 	private static JsonObject getLineJson(List<String> rawDataList, int index, int direction) {
 		JsonObject lineJson = null;
 		if (rawDataList != null) {
