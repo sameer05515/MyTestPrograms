@@ -3,12 +3,13 @@
     <div class="row">
         <div class="col-sm-16 headingBg">
             <div class="row">
-                <span>{{chapterObj.chapterTitleForChapterPage}}</span>
+            <span>{{verseObj.verseHeader}} : </span>
+                <!-- <span>{{chapterObj.chapterTitleForChapterPage}}</span> -->
                 ( <span style="font-size: smaller;">{{chapterObj.chapterSubTitleForChapterPage}}</span> )
             </div>
-            <div class="row">
+            <!-- <div class="row">
                 <span>{{verseObj.verseHeader}}</span>
-            </div>
+            </div> -->
 
             <div class="row" style="text-align: center;font-size: smaller;color: #f1f5f0;">
                 <a href="#/"><b>HOME</b></a>
@@ -40,19 +41,19 @@
             <span>{{verseObj.oneLiner}}</span>
         </div> -->
         <br>
-        <div class="col-sm-16">
+        <div class="col-sm-8">
             <div style="font-size:16px; font-style: italic; font-weight: bold;text-align: center;"
                 ng-repeat="shlokData in verseObj.shlok">
                 {{shlokData.value}}</div>
-        </div>
+        <!-- </div>
 
-        <div class="col-sm-16">
+        <div class="col-sm-16"> -->
             <div style="font-size:16px; font-style: italic; font-weight: bold;text-align: center;"
                 ng-repeat="shlokEngData in verseObj.shlokEng">
                 {{shlokEngData.value}}</div>
         </div>
 
-        <div class="col-sm-16">
+        <div class="col-sm-8">
             <!-- autoplay loop -->
             <div style="font-size:16px; font-style: italic; font-weight: bold;text-align: center;">
                 <audio loop="{{loopCurrentSong}}" controls controlslist="nodownload" src="{{verseObj.shlokPath}}">
