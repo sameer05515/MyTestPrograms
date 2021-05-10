@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Implementation-Title: boot-logging-file.example
 Implementation-Version: 1.0-SNAPSHOT
-Built-By: premendra.kumar
+Built-By: premendra
 Implementation-Vendor-Id: com.logicbig.example
-Build-Jdk: 1.8.0_271
+Build-Jdk: 1.8.0_292
 Implementation-URL: http://projects.spring.io/spring-boot/boot-logging
  -file.example/
 Created-By: Maven Integration for Eclipse
