@@ -11,6 +11,25 @@ public class Student {
 	private String gender;
 	
 	private List<String> activities = new ArrayList<String>();
+	
+	public void printListOfActivities() {
+		System.out.println(activities);
+	}
+	
+	
+
+	public Student(String name) {
+		super();
+		this.name = name;
+	}
+
+
+
+	public Student() {
+		super();
+	}
+
+
 
 	public Student(String name, int gradeLevel, double gpa, String gender, List<String> activities) {
 		super();
