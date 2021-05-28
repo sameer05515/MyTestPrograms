@@ -9,6 +9,7 @@ public class Student {
 	private int gradeLevel;
 	private double gpa;
 	private String gender;
+	private int notebooks;
 	
 	private List<String> activities = new ArrayList<String>();
 	
@@ -17,6 +18,18 @@ public class Student {
 	}
 	
 	
+
+	public Student(String name, int gradeLevel, double gpa, String gender, int notebooks, List<String> activities) {
+		super();
+		this.name = name;
+		this.gradeLevel = gradeLevel;
+		this.gpa = gpa;
+		this.gender = gender;
+		this.notebooks = notebooks;
+		this.activities = activities;
+	}
+
+
 
 	public Student(String name) {
 		super();
@@ -83,7 +96,19 @@ public class Student {
 	@Override
 	public String toString() {
 		return "Student [name=" + name + ", gradeLevel=" + gradeLevel + ", gpa=" + gpa + ", gender=" + gender
-				+ ", activities=" + activities + "]";
+				+ ", notebooks=" + notebooks + ", activities=" + activities + "]";
+	}
+
+
+
+	public int getNotebooks() {
+		return notebooks;
+	}
+
+
+
+	public void setNotebooks(int notebooks) {
+		this.notebooks = notebooks;
 	}
 	
 	

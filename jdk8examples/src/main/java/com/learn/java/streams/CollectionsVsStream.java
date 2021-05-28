@@ -1,6 +1,7 @@
 package com.learn.java.streams;
 
 import java.util.ArrayList;
+import java.util.stream.Stream;
 
 public class CollectionsVsStream {
 
@@ -16,6 +17,16 @@ public class CollectionsVsStream {
 		
 		System.out.println(names);
 		
+		Stream<String> nameStream= names.stream();
+		
+		try {
+			nameStream.forEach(System.out::println);
+			nameStream.forEach(System.out::println);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		names.stream().forEach(System.out::println);
 		
 
 	}
