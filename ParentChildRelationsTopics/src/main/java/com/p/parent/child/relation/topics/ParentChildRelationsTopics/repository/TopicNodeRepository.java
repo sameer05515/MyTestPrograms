@@ -33,7 +33,7 @@ public class TopicNodeRepository {
 	
 	public TopicNode findById(int id) {
 
-        String sql = "SELECT * FROM PARENT_CHILD_RELATION_TOPICS.T_VIEWS WHERE ID = ?";
+        String sql = "SELECT * FROM PARENT_CHILD_RELATION_TOPICS.t_views WHERE ID = ?";
 
         return jdbcTemplate.queryForObject(sql, new Object[]{id}, (rs, rowNum) ->
                 new TopicNode(
@@ -46,7 +46,7 @@ public class TopicNodeRepository {
 	
 	public List<TopicNode> findTopElements() {
 
-        String sql = "SELECT * FROM PARENT_CHILD_RELATION_TOPICS.T_VIEWS WHERE PARENT_ID IS NULL";
+        String sql = "SELECT * FROM PARENT_CHILD_RELATION_TOPICS.t_views WHERE PARENT_ID IS NULL";
 
         List<TopicNode> customers = new ArrayList<>();
 
@@ -68,7 +68,7 @@ public class TopicNodeRepository {
 	
 	public List<TopicNode> findChildrenByParentId(int pId) {
 
-        String sql = "SELECT * FROM PARENT_CHILD_RELATION_TOPICS.T_VIEWS WHERE PARENT_ID = ?";
+        String sql = "SELECT * FROM PARENT_CHILD_RELATION_TOPICS.t_views WHERE PARENT_ID = ?";
 
         List<TopicNode> customers = new ArrayList<>();
 
@@ -90,7 +90,7 @@ public class TopicNodeRepository {
 	
 	public List<TopicNode> findAll() {
 
-        String sql = "SELECT * FROM T_VIEWS";
+        String sql = "SELECT * FROM t_views";
 
         List<TopicNode> customers = new ArrayList<>();
 
