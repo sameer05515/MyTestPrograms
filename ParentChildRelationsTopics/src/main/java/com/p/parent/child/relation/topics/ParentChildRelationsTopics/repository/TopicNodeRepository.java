@@ -20,20 +20,27 @@ public class TopicNodeRepository {
 	public int save(TopicNode customer) {
 		
 		System.out.println(customer);
-        return jdbcTemplate.update(
-                "insert into parent_child_relation_topics.t_views (title, parent_id) values(?,?)",
-                customer.getTitle(), customer.getParentId());
+		if(customer.getParentId()<=0) {
+			return jdbcTemplate.update(
+	                "insert into t_views (title) values(?)",
+	                customer.getTitle());
+		}else {
+			return jdbcTemplate.update(
+	                "insert into t_views (title, parent_id) values(?,?)",
+	                customer.getTitle(), customer.getParentId());
+		}
+        
     }
 	
 	public int update(TopicNode customer) {
         return jdbcTemplate.update(
-                "update parent_child_relation_topics.t_views set title=?, parent_id=? where id=?",
+                "update t_views set title=?, parent_id=? where id=?",
                 customer.getTitle(), customer.getParentId(),customer.getId());
     }
 	
 	public TopicNode findById(int id) {
 
-        String sql = "SELECT * FROM PARENT_CHILD_RELATION_TOPICS.t_views WHERE ID = ?";
+        String sql = "SELECT * FROM t_views WHERE ID = ?";
 
         return jdbcTemplate.queryForObject(sql, new Object[]{id}, (rs, rowNum) ->
                 new TopicNode(
@@ -46,7 +53,7 @@ public class TopicNodeRepository {
 	
 	public List<TopicNode> findTopElements() {
 
-        String sql = "SELECT * FROM PARENT_CHILD_RELATION_TOPICS.t_views WHERE PARENT_ID IS NULL";
+        String sql = "SELECT * FROM t_views WHERE PARENT_ID IS NULL";
 
         List<TopicNode> customers = new ArrayList<>();
 
@@ -68,7 +75,7 @@ public class TopicNodeRepository {
 	
 	public List<TopicNode> findChildrenByParentId(int pId) {
 
-        String sql = "SELECT * FROM PARENT_CHILD_RELATION_TOPICS.t_views WHERE PARENT_ID = ?";
+        String sql = "SELECT * FROM t_views WHERE PARENT_ID = ?";
 
         List<TopicNode> customers = new ArrayList<>();
 
