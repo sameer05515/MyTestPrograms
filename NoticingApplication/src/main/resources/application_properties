@@ -1,0 +1,3 @@
+server.port=8881
+spring.profiles.active=uat
+notic.cronExpression.resetMaxSeqNoNextDay=0 0 9 ? * SUN,MON,TUE,WED,THU,FRI,SAT

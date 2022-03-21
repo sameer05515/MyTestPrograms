@@ -1,0 +1,9 @@
+<div ng-repeat="row in ctrl.rows track by $index">
+  <div ng-repeat="cell in row track by $index">
+    <div multiplication-cell
+         x="$index+1"
+         y="$parent.$index+1"
+         ng-transclude>
+    </div>
+  </div>
+</div>

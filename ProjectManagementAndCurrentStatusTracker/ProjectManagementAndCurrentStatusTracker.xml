@@ -1,0 +1,71 @@
+<tracker>
+<users>
+<user id="1" name="Premendra Kumar" address="" dob="31/05/1986" />
+</users>
+
+<projects>
+<project id="1" name="ProjectManagementAndCurrentStatusTracker" type="java|flex|javascript|jsp|servlet|spring|struts1|struts2|general_life_cycle_project|others" createdById="1" currentlyLookedById="1" createdOn="10/10/2013"/>
+</projects>
+
+<tickets>
+<ticket id="1" linkeProjectId="1">
+<otherDetails>
+<otherDetail id="1" />
+</otherDetails>
+</ticket>
+</tickets>
+
+<ticketHistories>
+
+<ticketHistory>
+<id>1</id>
+<createdOn>
+10/10/2013
+</createdOn>
+<description>
+Project started
+</description>
+<statusChangedTo>
+New|Assigened|Analysis|Developing|Developed|Testing|Tested|Deployed|Maintainace|Closed|Reopen
+</statusChangedTo>
+<linkedTicketHistoryIdAfterReopen>
+100
+</linkedTicketHistoryIdAfterReopen>
+</ticketHistory>
+
+<ticketHistory>
+<id>2</id>
+<createdOn>
+10/10/2013
+</createdOn>
+<description>
+Project started
+</description>
+<statusChangedTo>
+New|Assigened|Analysis|Developing|Developed|Testing|Tested|Deployed|Maintainace|Closed|Reopen
+</statusChangedTo>
+<linkedTicketHistoryIdAfterReopen>
+100
+</linkedTicketHistoryIdAfterReopen>
+</ticketHistory>
+
+<ticketHistory>
+<id>3</id>
+<createdOn>
+10/10/2013
+</createdOn>
+<description>
+Project started
+</description>
+<statusChangedTo>
+New|Assigened|Analysis|Developing|Developed|Testing|Tested|Deployed|Maintainace|Closed|Reopen
+</statusChangedTo>
+<linkedTicketHistoryIdAfterReopen>
+100
+</linkedTicketHistoryIdAfterReopen>
+</ticketHistory>
+
+</ticketHistories>
+
+
+</tracker>

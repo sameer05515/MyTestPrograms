@@ -1,0 +1,363 @@
+ <!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>Spring and Struts 2 Integration - javatpoint</title><link rel="SHORTCUT ICON" href="images/logo/icon.png" /><link rel="stylesheet" type="text/css" href="/link.css" /><meta name="keywords" content=""/><meta name="description" content="Spring and Struts 2 Integration with examples, spring aop tutorial, spring dependency injection, spring mvc tutorial, spring jdbctemplate, spring hibernate, spring data jpa, spring remoting"/><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><link rel="canonical" href="http://www.javatpoint.com/spring-and-struts2-integration" /><meta property="og:locale" content="en_US" /><meta property="og:type" content="article" /><meta name="twitter:title" property="og:title" content="Spring and Struts 2 Integration - javatpoint" /><meta name="twitter:description" property="og:description" content="Spring and Struts 2 Integration with examples, spring aop tutorial, spring dependency injection, spring mvc tutorial, spring jdbctemplate, spring hibernate, spring data jpa, spring remoting" /><meta property="og:url" content="http://www.javatpoint.com/spring-and-struts2-integration" /><meta property="og:site_name" content="www.javatpoint.com" /><meta name="twitter:card" content="summary"/><meta name="twitter:site" content="@pagejavatpoint"/><meta name="twitter:domain" content="www.javatpoint.com"/><meta name="twitter:creator" content="@pagejavatpoint"/></head> <body onload="highlightlink()"> <div id="page" style="margin:-9px;background-color:#f5f5f4;"><div id="container"> <div class="header"><table style="width:100%"><tr><td><div id="headerlink" style="padding:0px;margin:0px"><span style="margin-right:20px;width:45%px"></span><span style="float:right;margin-right:5px;width:45%"><a href="http://www.javatpoint.com/contribute-us" style="text-decoration:none;color:#6666CC">Contribute Us</a> | <a href="http://www.javatpoint.com/asknewquestion.jsp" style="text-decoration:none;color:#6666CC">Ask Question</a> | <a href='http://www.javatpoint.com/login.jsp' style='text-decoration:none;color:#6666CC'>login</a> <a target="_blank" href="http://feeds.feedburner.com/javatpointsonoo"><img src="http://www.javatpoint.com/images/social/r.png" alt="RSS Feed"/></a><a target="_blank" href="http://feedburner.google.com/fb/a/mailverify?uri=javatpointsonoo"><img src="http://www.javatpoint.com/images/social/m.png" alt="Subscribe to Get Email Alerts"/></a><a target="_blank" href="https://www.facebook.com/javatpoint"><img src="http://www.javatpoint.com/images/social/f.png" alt="Facebook Page"/></a><a target="_blank" href="https://plus.google.com/u/0/113973042385691981314/posts"><img src="http://www.javatpoint.com/images/social/g.png" alt="Google Page"/></a><a target="_blank" href="https://twitter.com/pagejavatpoint"><img src="http://www.javatpoint.com/images/social/t.png" alt="Twitter Page"/></a></span><hr class="upperhr"/></div> </td></tr><tr><td><!--<div style="float:left;width:230px;"><img src="http://www.javatpoint.com/images/logo/log2.png" alt="javatpoint.com"/></div>--><div style="margin:0px;padding:0px;float:left;width:23%;margin-left:10px;margin-bottom:0px"><a href="http://www.javatpoint.com" style="text-decoration:none;"><span style="color:orange;font-size:28px;font-weight:bold;">Java</span><span style="color:#666600;font-size:40px;font-weight:bold;">T</span><span style="color:red;font-size:28px;font-weight:bold;">point</span></a></div><div style="float:left;width:50%;"><form class="navbar-search" method="get" action="http://www.google.com/search" target="_blank"> <input type="text" name="q" class="search-query span2" placeholder="Search on javatpoint..." title="Search on Javatpoint"/><input type="hidden" name="sitesearch" value="www.javatpoint.com"/></form><!--<span style="margin-left:100px;color:orange;font-size:20px;font-weight:bold;">Happy </span><span style="color:red;font-size:20px;font-weight:bold;">New </span><span style="color:#666600;font-size:20px;font-weight:bold;">Year</span><span style="color:#666600;font-size:30px;font-weight:bold;"> 2015</span>--></div><div style="width:25%;float:right"><div style="padding:0px;margin:0px;margin-right:10px;margin-top:10px;float:right"><a target="_blank" style="background-color:#6699CC;text-decoration:none;color:white;border-radius:5px;font-weight:bold;padding:6px 10px 6px 10px;" href='http://www.javatpoint.com/subscribe.jsp'>Subscribe Us</a></div><div style="padding:0px;margin:0px;margin-right:10px;float:right"><p style="padding:0px;margin:0px;margin-top:5px;color:#983688;font-weight:bold;">91-9990449935</p><p style="padding:0px;margin:0px;color:#983688;font-weight:bold;">&nbsp;0120-4256464</p></div></div></td></tr></table> </div><div class="headermobile"><div style="margin:0px;padding:0px;text-align:left;margin-left:10px;"><a href="http://www.javatpoint.com" style="text-decoration:none;"><span style="color:orange;font-size:25px;font-weight:bold;">Java</span><span style="color:#666600;font-size:35px;font-weight:bold;">T</span><span style="color:red;font-size:25px;font-weight:bold;">point</span></a></div><div style="margin:0px;padding:0px;clear:both"><form class="navbar-search-m" method="get" action="http://www.google.com/search" target="_blank"> <input type="text" name="q" class="search-query span2-m" placeholder="Search on javatpoint..." title="Search on Javatpoint"/><input type="hidden" name="sitesearch" value="www.javatpoint.com"/></form></div></div><div id="link" style="clear:both"> <div id="smoothmenu1" class="ddsmoothmenu">
+<ul>
+<li><a href="http://www.javatpoint.com" >Home</a></li>
+<li><a href="java-tutorial">Core Java</a></li>
+<li><a href="servlet-tutorial">Servlet</a></li>
+<li><a href="jsp-tutorial">JSP</a></li>
+<li><a href="struts-2-tutorial">Struts2</a></li>
+
+<li><a href="java-mail-api-tutorial">Mail API</a></li>
+<li><a href="hibernate-tutorial">Hibernate</a></li>
+<li><a href="spring-tutorial"  class="selected">Spring</a></li>
+<li><a href="android-tutorial">Android</a></li>
+<li><a href="design-patterns-in-java">Design Pattern</a></li>
+<li><a href="examaccess">Quiz</a></li>
+
+<li><a href="free-java-projects">Projects</a></li>
+<li><a href="corejava-interview-questions">Interview Q</a>
+<li><a href="comment.jsp">Comment</a>
+<li><a href="forum">Forum</a>
+</li>
+</ul>
+<br style="clear: left" />
+</div>
+
+</div><div id="mobilemenu" style="clear:both"> <button onmouseover="style.color='khaki' " onmouseout="style.color='white'" onclick="showmenu()">Content Menu &#x25bc;</button></div><div id="mobilemenu" style="clear:both"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><!-- responsivemobile --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4699858549023382" data-ad-slot="1236815518" data-ad-format="auto"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div><div id="menu"><div class="leftmenu2">
+<h2 class="spanh2"><span class="spanh2">Spring Tutorial</span></h2>
+</div>
+
+<div class="leftmenu">
+<a href="spring-tutorial" >What is Spring</a>
+<a href="spring-modules" >Spring Modules</a>
+<a href="steps-to-create-spring-application" >Spring Application</a>
+</div>
+
+<div class="leftmenu2">
+<h2 class="spanh2"><span class="spanh2">Spring in IDE</span></h2>
+</div>
+<div class="leftmenu">
+<a href="example-of-spring-application-in-myeclipse" >Spring  in Myeclipse</a>
+<a href="example-of-spring-application-in-eclipse" >Spring  in Eclipse</a>
+</div>
+<div class="leftmenu2">
+<h2 class="spanh2"><span class="spanh2">Dependency Injection</span></h2>
+</div>
+<div class="leftmenu">
+<a href="ioc-container"><span>IOC container</span></a>
+<a href="dependency-injection-in-spring"><span>Dependency Injection</span></a>
+<a href="spring-tutorial-dependency-injection-by-constructor" >Constructor Injection</a>
+<a href="spring-tutorial-constructor-injection-with-dependent-object" >CI Dependent Object</a>
+<a href="spring-tutorial-constructor-injection-with-collection" >CI with collection</a>
+<a href="spring-tutorial-constructor-injection-with-non-string-collection" >CI with collection 2</a>
+<a href="spring-tutorial-constructor-injection-with-map" >CI with Map</a>
+<a href="spring-tutorial-constructor-injection-with-non-string-map" >CI with Map2</a>
+<a href="spring-tutorial-inheriting-bean-in-spring" >CI Inheriting Bean</a>
+<a href="spring-tutorial-dependency-injection-by-setter-method" >Setter Injection</a>
+<a href="spring-tutorial-setter-injection-with-dependent-object" >SI Dependent Object</a>
+<a href="spring-tutorial-setter-injection-with-collection" >SI with Collection</a>
+<a href="spring-tutorial-setter-injection-with-non-string-collection" >SI with Collection 2</a>
+<a href="spring-tutorial-setter-injection-with-map" >SI with Map</a>
+<a href="spring-tutorial-setter-injection-with-non-string-map" >SI with Map 2</a>
+<a href="difference-between-constructor-and-setter-injection" >CI vs SI</a>
+<a href="autowiring-in-spring" >Autowiring</a>
+<a href="dependency-injection-with-factory-method" >Factory Method</a>
+</div>
+<div class="leftmenu2">
+<h2 class="spanh2"><span class="spanh2">Spring AOP</span></h2>
+</div>
+<div class="leftmenu">
+<a href="spring-aop-tutorial" >AOP Concepts</a>
+<a href="spring-aop-example" >Spring1.2 AOP DTD</a>
+<a href="spring-aop-aspectj-annotation-example" >SP AspectJ Annotation</a>
+<a href="spring-aop-aspectj-xml-configuration-example" >SP AspectJ XML</a>
+</div>
+<div class="leftmenu2">
+<h2 class="spanh2"><span class="spanh2">Spring JdbcTemplate</span></h2>
+</div>
+<div class="leftmenu">
+<a href="spring-JdbcTemplate-tutorial" >JdbcTemplate Example</a>
+<a href="example-of-PreparedStatement-in-Spring-JdbcTemplate" >PreparedStatement</a>
+<a href="ResultSetExtractor-example" >ResultSetExtractor</a>
+<a href="RowMapper-example" >RowMapper</a>
+<a href="spring-NamedParameterJdbcTemplate-example" >NamedParameter</a>
+<a href="spring-SimpleJdbcTemplate-example" >SimpleJdbcTemplate</a>
+</div>
+<div class="leftmenu2">
+<h2 class="spanh2"><span class="spanh2">Spring ORM</span></h2>
+</div>
+<div class="leftmenu">
+<a href="spring-with-orm-frameworks"><span>Spring with ORM</span></a>
+<a href="hibernate-and-spring-integration" >Spring with Hibernate</a>
+<a href="spring-and-jpa-integration" >Spring with JPA</a>
+</div>
+<div class="leftmenu2">
+<h2 class="spanh2"><span class="spanh2">SPEL</span></h2>
+</div>
+<div class="leftmenu">
+<a href="spring-expression-language-tutorial" >SpEL Examples</a>
+<a href="operators-in-spel" >Operators in SpEL</a>
+<a href="using-variable-in-spel" >variable in SpEL</a>
+</div>
+<div class="leftmenu2"  >
+<h2 class="spanh2"><span class="spanh2">Spring MVC</span></h2>
+</div>
+<div class="leftmenu"  >
+<a href="spring-3-mvc-tutorial"><span>Spring MVC</span></a>
+<a href="spring-3-mvc-tutorial#multiple"><span>Multiple Controller</span></a>
+<a href="spring-3-mvc-tutorial#login"><span>Login Form</span></a>
+</div>
+<div class="leftmenu2"  >
+<h2 class="spanh2"><span class="spanh2">Spring MVC Tiles</span></h2>
+</div>
+<div class="leftmenu"  >
+<a href="spring-mvc-tiles-example"><span>Spring MVC Tiles</span></a>
+</div>
+<div class="leftmenu2"  >
+<h2 class="spanh2"><span class="spanh2">Spring Remoting</span></h2>
+</div>
+<div class="leftmenu">
+<a href="remoting-in-spring-framework"><span>Remoting with Spring</span></a>
+<a href="spring-and-rmi-integration" >Spring with RMI</a>
+<a href="spring-remoting-by-http-invoker-example" >Http Invoker</a>
+<a href="spring-remoting-by-hessian-example" >Hessian</a>
+<a href="spring-remoting-by-burlap-example" >Burlap</a>
+<a href="spring-and-jms-integration" >Spring with JMS</a>
+</div>
+<div class="leftmenu2"  >
+<h2 class="spanh2"><span class="spanh2">Spring OXM</span></h2>
+</div>
+<div class="leftmenu">
+<a href="spring-and-jaxb-integration-example" >Spring with JAXB</a>
+<a href="spring-with-xstream-example" >Spring with Xstream</a>
+<a href="spring-with-castor-example" >Spring with Castor</a>
+</div>
+<div class="leftmenu2"  >
+<h2 class="spanh2"><span class="spanh2">Spring Java Mail</span></h2>
+</div>
+<div class="leftmenu"  >
+<a href="spring-java-mail-tutorial"><span>Spring Java Mail</span></a>
+</div>
+<div class="leftmenu2"  >
+<h2 class="spanh2"><span class="spanh2">Spring Web</span></h2>
+</div>
+<div class="leftmenu">
+<a href="spring-and-struts2-integration" >Spring with Struts2</a>
+<a href="login-example-with-struts-2-and-spring-integration" >Login Example</a>
+</div>
+<div class="leftmenu2"  >
+<h2 class="spanh2"><span class="spanh2">Spring Interview</span></h2>
+</div>
+<div class="leftmenu"  >
+<a href="spring-interview-questions"><span>Interview Questions</span></a>
+</div>
+<div class="leftmenu2"  >
+<h2 class="spanh2"><span class="spanh2">Spring Quiz</span></h2>
+</div>
+<div class="leftmenu"  >
+<a href="spring-quiz"><span>Spring Quiz</span></a>
+</div><table id="leftad"><tr><td><img src="images/wh.JPG" alt="space"/></td></tr><tr><td><script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins class="adsbygoogle" style="display:inline-block;width:160px;height:600px" data-ad-client="ca-pub-4699858549023382" data-ad-slot="4476401222"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script></td></tr></table></div><div class="onlycontent" style="margin-left:10px;margin-top:15px;width:65%;margin-auto;float:left;"><div id="right1024" style=""><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><!-- javatpointheader --><ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-4699858549023382" data-ad-slot="1219987637"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div><div style="margin-left:0px;"><div id="city">
+
+<table>
+<tr><td>
+<div id="bottomnextup">
+
+<a class="next" href="login-example-with-struts-2-and-spring-integration">next&gt;&gt;</a>
+
+<a class="next" href="spring-java-mail-tutorial">&lt;&lt;prev</a>
+</div>
+
+<h1 class="h1">Spring and Struts 2 Integration</h1>
+<div id="upr">
+<ol>
+<li><a href="#">Spring and Struts 2 Integration</a></li>
+<li><a href="#ex">Example of Spring and Struts 2 Integration</a></li>
+</ol>
+</div>
+
+<p>Spring framework provides an easy way to manage the dependency. It can be easily integrated with struts 2 framework.</p>
+<p>The <b>ContextLoaderListener</b> class is used to communicate spring application with struts 2. It must be specified in the web.xml file.</p>
+<hr/>
+<p>You need to follow following steps:</p>
+<ol>
+<li>Create struts2 application and add spring jar files.</li>
+<li>In <b>web.xml</b> file, define ContextLoaderListener class.</li>
+<li>In <b>struts.xml</b> file, define bean name for the action class.</li>
+<li>In <b>applicationContext.xml</b> file, create the bean. Its class name should be action class name e.g. com.javatpoint.Login and id should match with the action class of struts.xml file (e.g. login).</li>
+<li>In the <b>action class</b>, define extra property e.g. message.</li>
+</ol>
+
+<hr/>
+<a id="ex"></a>
+<h3 class="h3ex">Example of Spring and Struts 2 Integration</h3>
+<p>
+You need to create following files for simple spring and struts 2 application:
+</p>
+<ol>
+<li><strong>index.jsp</strong></li>
+<li><strong>web.xml</strong></li>
+<li><strong>struts.xml</strong></li>
+<li><strong>applicationContext.xml</strong></li>
+<li><strong>Login.java</strong></li>
+<li><strong>welcome.jsp</strong></li>
+<li><strong>error.jsp</strong></li>
+</ol>
+
+
+<strong>1) index.jsp</strong>
+<p>This page gets the name from the user.</p>
+<div class="codeblock"><textarea name="code" class="java" >
+&lt;%@ taglib uri="/struts-tags" prefix="s"%&gt;
+
+&lt;s:form action="login"&gt;
+&lt;s:textfield name="userName" label="UserName"&gt;&lt;/s:textfield&gt;
+&lt;s:submit&gt;&lt;/s:submit&gt;
+&lt;/s:form&gt;
+</textarea></div>
+<hr/>
+
+<strong>2) web.xml</strong>
+<p>It defines controller class for struts 2 and <b>ContextLoaderListener</b> listener class to make connection between struts2 and spring application.</p>
+<div class="codeblock"><textarea name="code" class="java" >
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"&gt;
+  &lt;welcome-file-list&gt;
+    &lt;welcome-file&gt;index.jsp&lt;/welcome-file&gt;
+  &lt;/welcome-file-list&gt;
+  &lt;filter&gt;
+  	&lt;filter-name&gt;struts2&lt;/filter-name&gt;
+  	&lt;filter-class&gt;
+  		org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter
+  	&lt;/filter-class&gt;
+  &lt;/filter&gt;
+  
+&lt;listener&gt; 
+&lt;listener-class&gt;org.springframework.web.context.ContextLoaderListener&lt;/listener-class&gt; 
+&lt;/listener&gt; 
+  
+  &lt;filter-mapping&gt;
+  	&lt;filter-name&gt;struts2&lt;/filter-name&gt;
+  	&lt;url-pattern&gt;/*&lt;/url-pattern&gt;
+  &lt;/filter-mapping&gt;
+  
+  &lt;/web-app&gt;
+
+</textarea></div>
+
+<hr/>
+<strong>3) struts.xml</strong>
+<p>It defines the package with action and result. Here, the action class name is login which will be searched in the applicationContext.xml file.</p>
+<div class="codeblock"><textarea name="code" class="java" >
+&lt;?xml version="1.0" encoding="UTF-8" ?&gt;
+&lt;!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" 
+"http://struts.apache.org/dtds/struts-2.1.dtd"&gt;
+&lt;struts&gt;
+&lt;package name="abc" extends="struts-default"&gt;
+&lt;action name="login" class="login"&gt;
+&lt;result name="success"&gt;welcome.jsp&lt;/result&gt;
+&lt;/action&gt;
+
+&lt;/package&gt;
+
+&lt;/struts&gt;    
+
+</textarea></div>
+<hr/>
+
+<strong>4) applicationContext.xml</strong>
+<p>It defines a bean with id login. This beans corresponds to the mypack.Login class. It will be considered as the action class here.</p>
+<p>It should be located inside the WEB-INF directory.</p>
+<div class="codeblock"><textarea name="code" class="java" >
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;beans
+	xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+http://www.springframework.org/schema/beans/spring-beans-2.5.xsd"&gt;
+
+&lt;bean id="login" class="mypack.Login"&gt;
+&lt;property name="message" value="Welcome Spring"&gt;&lt;/property&gt;
+&lt;/bean&gt;
+
+&lt;/beans&gt;
+</textarea></div>
+<hr/>
+<strong>5) Login.java</strong>
+<p>It defines two property userName and message with execute method where success is returned.</p>
+<div class="codeblock"><textarea name="code" class="java" >
+package mypack;
+public class Login {
+private String userName,message;
+
+public String getMessage() {
+	return message;
+}
+public void setMessage(String message) {
+	this.message = message;
+}
+public String getUserName() {
+	return userName;
+}
+public void setUserName(String userName) {
+	this.userName = userName;
+}
+public String execute(){
+	return "success";
+}
+}
+</textarea></div>
+<hr/>
+<strong>6) welcome.jsp</strong>
+<p>It prints values of userName and message properties.</p>
+<div class="codeblock"><textarea name="code" class="java" >
+&lt;%@ taglib uri="/struts-tags" prefix="s"%&gt;
+
+Welcome, &lt;s:property value="userName"/&gt;&lt;br/&gt;
+${message} 
+</textarea></div>
+<hr/>
+<strong>7) error.jsp</strong>
+<p>It is the error page. But it is not required in this example because we are not defining any logic in the execute method of action class.</p>
+<div class="codeblock"><textarea name="code" class="java" >
+Sorry! 
+</textarea></div>
+
+<div id="download">
+<a href="src/sp/strutsInteg.zip">download this example (developed using Myeclipse IDE)</a>
+</div>
+
+<h4 class="h4">Output</h4>
+<img src="sppages/images/struts2integration1.jpg" alt="struts 2 and spring integration 1"/><br>
+<img src="sppages/images/struts2integration2.jpg" alt="spring and struts 2 integration 2"/><br>
+
+<div class="nexttopicdiv">
+<span class="nexttopictext">Next Topic</span><span class="nexttopiclink"><a href="login-example-with-struts-2-and-spring-integration">Login example with struts 2 and spring integration</a></span>
+</div>
+
+<!-- link -->
+<br/><br/>
+
+<div id="bottomnext">
+<a style="float:left" class="next" href="spring-java-mail-tutorial">&lt;&lt;prev</a>
+
+<a style="float:right" class="next" href="login-example-with-struts-2-and-spring-integration">next&gt;&gt;</a>
+
+</div>
+
+<br/><br/>
+
+</td></tr>
+</table>
+
+</div>
+</div><br/><div id="mobilemenu" style="clear:both"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><!-- responsivemobile --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4699858549023382" data-ad-slot="1236815518" data-ad-format="auto"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div></div><div id="right" style="width:15%;float:left;margin-left:10px;margin-top:10px;"><script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins class="adsbygoogle" style="display:inline-block;width:160px;height:600px" data-ad-client="ca-pub-4699858549023382" data-ad-slot="4476401222"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({});</script><br/><br/><br/><br/><script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins class="adsbygoogle" style="display:inline-block;width:160px;height:600px" data-ad-client="ca-pub-4699858549023382" data-ad-slot="4476401222"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({});</script><br/><br/><br/><br/>
+<!--<script id="mNCC" language="javascript"> medianet_width='160'; medianet_height= '600'; medianet_crid='694759290'; </script> <script id="mNSC" src="http://contextual.media.net/nmedianet.js?cid=8CU74TD10" language="javascript"></script> -->
+</div><div id="right1024" style="float:left;margin-left:10px;margin-top:120px;"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><!-- right1024only --><ins class="adsbygoogle" style="display:inline-block;width:120px;height:600px" data-ad-client="ca-pub-4699858549023382" data-ad-slot="2180118716"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>
+<div id="footer" style="clear:both;width:100%">
+
+<script type="text/javascript"> var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-24880427-1']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })();</script><hr/><div style="padding:0px;margin:0px;text-align:center"><sup style="font:16px arial;">Like/Subscribe us for latest updates or newsletter </sup><a target="_blank" href="http://feeds.feedburner.com/javatpointsonoo"><img src="http://www.javatpoint.com/images/social/rss1.png" alt="RSS Feed"/></a><a target="_blank" href="http://feedburner.google.com/fb/a/mailverify?uri=javatpointsonoo"><img src="http://www.javatpoint.com/images/social/mail1.png" alt="Subscribe to Get Email Alerts"/></a><a target="_blank" href="https://www.facebook.com/javatpoint"><img src="http://www.javatpoint.com/images/social/facebook1.jpg" alt="Facebook Page"/></a><a target="_blank" rel="author" href="https://plus.google.com/u/0/113973042385691981314/posts"><img src="http://www.javatpoint.com/images/social/google1.png" alt="Google Page"/></a><a target="_blank" href="https://twitter.com/pagejavatpoint"><img src="http://www.javatpoint.com/images/social/twitter1.png" alt="Twitter Page"/></a><a target="_blank" href="http://javatpoint.blogspot.com"><img src="http://www.javatpoint.com/images/social/blog.png" alt="Blog Page"/></a><a href="#" style="font:bold 18px arial;text-decoration:none;"><sup>&uarr;Top</sup></a></div><div style="margin:auto 0px;line-height:20px;padding:0px 40px;font-size:12px;height:390px;background:#6699CC;color: white; font-family:serif; border-bottom: solid 1px #A3AE7E;"> <div id="innerfooter" > <div><span style="text-decoration:none;font-size:larger;font-family:serif;color:white;font-weight:bolder;">Tutorials</span> <hr/><ul class="footer-list"> <li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/java-tutorial">&raquo; Core Java Tutorial</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/servlet-tutorial">&raquo; Servlet Tutorial</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/jsp-tutorial">&raquo; JSP Tutorial</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/java-mail-api-tutorial">&raquo; Mail API Tutorial</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/design-patterns-in-java">&raquo; Design Pattern Tutorial</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/struts-2-tutorial">&raquo; Struts Tutorial</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/spring-tutorial">&raquo; Spring Tutorial</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/hibernate-tutorial">&raquo; Hibernate Tutorial</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/android-tutorial">&raquo; Android Tutorial</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/javascript-tutorial">&raquo; JavaScript Tutorial</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/sql-tutorial">&raquo; SQL Tutorial</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/c-programming-language-tutorial">&raquo; C Tutorial</a></li> <li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/ajax-tutorial">&raquo; AJAX Tutorial</a></li> <li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/junit-tutorial">&raquo; JUnit Tutorial</a></li> <li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/jaxb-tutorial">&raquo; JAXB Tutorial</a></li> <li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/maven-tutorial">&raquo; Maven Tutorial</a></li></ul> </div> <div><span style="text-decoration:none;font-size:larger;font-family:serif;color:white;font-weight:bolder;">Interview Questions</span> <hr/><ul class="footer-list"> <li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/corejava-interview-questions">&raquo; Java Interview</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/servletinterview">&raquo; Servlet Interview</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/jspinterview">&raquo; JSP Interview</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/hibernate-interview-questions">&raquo; Hibernate Interview</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/spring-interview-questions">&raquo; Spring Interview</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/android-interview-questions">&raquo; Android Interview</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/sql-interview-questions">&raquo; SQL Interview</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/pl-sql-interview-questions">&raquo; PL/SQL Interview</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/oracle-interview-questions">&raquo; Oracle Interview</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/mysql-interview-questions">&raquo; MySQL Interview</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/sql-server-interview-questions">&raquo; SQL Server Interview</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/mongodb-interview-questions">&raquo; MongoDB Interview</a></li> <li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/cloud-computing-interview-questions">&raquo; Cloud Interview</a></li> </ul> </div><div ><a style="font-weight:bolder;text-decoration: none;text-align:center;font-size:larger;font-family:serif;color:white;" target="_blank" href="http://www.javatpoint.com/examaccess">Quizzes</a><hr/><ul class="footer-list"><li><a target="_blank" href="http://www.javatpoint.com/core-java-quiz" style="text-decoration: none;font-family:serif;color:white;">&raquo; Core Java quiz</a></li><li><a target="_blank" href="http://www.javatpoint.com/servlet-quiz" style="text-decoration: none;font-family:serif;color:white;">&raquo; Servlet quiz</a></li><li><a target="_blank" href="http://www.javatpoint.com/jsp-quiz" style="text-decoration: none;font-family:serif;color:white;">&raquo; JSP quiz</a></li><li><a target="_blank" href="http://www.javatpoint.com/struts-quiz" style="text-decoration: none;font-family:serif;color:white;">&raquo; Struts2 quiz</a></li><li><a target="_blank" href="http://www.javatpoint.com/android-quiz" style="text-decoration: none;font-family:serif;color:white;">&raquo; Android quiz</a></li><li><a target="_blank" href="http://www.javatpoint.com/scjp-quiz" style="text-decoration: none;font-family:serif;color:white;">&raquo; OCJP quiz</a></li><li><a target="_blank" href="http://www.javatpoint.com/scwcd-quiz" style="text-decoration: none;font-family:serif;color:white;">&raquo; OCWCD quiz</a></li><li><a target="_blank" href="http://www.javatpoint.com/hibernate-quiz" style="text-decoration: none;font-family:serif;color:white;">&raquo; Hibernate quiz</a></li><li><a target="_blank" href="http://www.javatpoint.com/spring-quiz" style="text-decoration: none;font-family:serif;color:white;">&raquo; Spring quiz</a></li><li><a target="_blank" href="http://www.javatpoint.com/c-quiz" style="text-decoration: none;font-family:serif;color:white;">&raquo; C quiz</a></li><li><a target="_blank" href="http://www.javatpoint.com/cloud-computing-quiz" style="text-decoration: none;font-family:serif;color:white;">&raquo; Cloud Computing quiz</a></li><li><a target="_blank" href="http://www.javatpoint.com/javascript-quiz" style="text-decoration: none;font-family:serif;color:white;">&raquo; JavaScript quiz</a></li><li><a target="_blank" href="http://www.javatpoint.com/sql-quiz" style="text-decoration: none;font-family:serif;color:white;">&raquo; SQL quiz</a></li></ul></div><div><a style="font-weight:bolder;text-decoration: none;font-size:larger;font-family:serif;color:white;text-align:center;" target="_blank" href="http://www.javatpoint.com/forum">Forum</a><hr/><ul class="footer-list"><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/forum.jsp?category=corejava">&raquo; Core Java Ques.</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/forum.jsp?category=servlet">&raquo; Servlet Ques.</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/forum.jsp?category=jsp">&raquo; JSP Ques.</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/forum.jsp?category=struts">&raquo; Struts Ques.</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/forum.jsp?category=spring">&raquo; Spring Ques.</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/forum.jsp?category=hibernate">&raquo; Hibernate Ques.</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/forum.jsp?category=android">&raquo; Android Ques.</a></li></ul><hr/><a style="font-weight:bolder;text-decoration: none;text-align:center;font-size:larger;font-family:serif;color:white;" href="http://www.javatpoint.com/free-java-projects">Projects</a><hr/><a style="font-weight:bolder;text-decoration: none;font-size:larger;font-family:serif;text-align:center;color:white;" href="http://www.sssit.org" rel="nofollow">SSS IT PVT LTD</a><hr/><ul class="footer-list"><li><a rel="nofollow" href="http://www.sssit.org/development" style="text-decoration: none;font-family:serif;color:white;">&raquo; Development</a></li><li><a href="training" style="text-decoration: none;font-family:serif;color:white;">&raquo; Training</a></li><li><a rel="nofollow" href="http://www.sssit.org/seo" style="text-decoration: none;font-family:serif;color:white;">&raquo; SEO</a></li><li><a rel="nofollow" href="http://www.sssit.org/consultancy" style="text-decoration: none;font-family:serif;color:white;">&raquo; Consultancy</a></li></ul></div><div style="border-right:2px solid white;"><span style="font-weight:bolder;text-decoration: none;font-size:larger;font-family:serif;color:white;float:right;padding-right:16px;" >CONTACT US</span><br/><hr/><p style="text-align:center;border-bottom:1px solid white;padding-bottom:30px;">Tel. : 0120-4256464<br/>Mob. : +91 9990449935<br/>Email : enquiry@sssit.org<br/>Address: Plot - 6, GT Road,<br/>Near MMX Mall, <br/>Mohan Nagar, Ghaziabad,<br/>201007, UP, India<br/><a href="http://www.javatpoint.com/contact-us" style="text-decoration: none;font-family:serif;color:white;">&raquo; Contact Us</a><br/><a href="http://www.javatpoint.com/privacy-policy" style="text-decoration: none;font-family:serif;color:white;">&raquo; Privacy Policy</a></p><p style="text-align:center;border-bottom:1px solid white;padding-bottom:30px;padding-left:none;"><br/>&copy; 2011-2014 Javatpoint.<br/> All Rights Reserved.<br/><a href="http://www.dmca.com/Protection/Status.aspx?ID=e8b533d5-7356-47f5-820b-72c890f03a4e" rel="nofollow" title="DMCA"> <img src ="http://images.dmca.com/Badges/dmca_protected_sml_120c.png?ID=e8b533d5-7356-47f5-820b-72c890f03a4e" alt="DMCA.com" /></a></p></div></div></div>
+</div></div></div><script src="js/shcoreandbrush.js"></script><script type="text/javascript"> dp.SyntaxHighlighter.HighlightAll('code'); </script></body> </html> 

@@ -1,0 +1,860 @@
+[
+    {
+        "chapterTitle": "Chapter 1",
+        "id": "1",
+        "briefDescription": "Arjun Viṣhād Yog : Lamenting the Consequences of War",
+        "chapterTitleForChapterPage": "Chapter 1: Arjun Viṣhād Yog",
+        "chapterSubTitleForChapterPage": "Lamenting the Consequences of War",
+        "description": [
+            "The Bhagavad Gita, or the song of God, was revealed by Lord Shree Krishna to Arjun on the threshold of the epic war of Mahabharata. A decisive battle between two sets of cousins, the Kauravas and the Pandavas, was just about to commence on the battlefield of Kurukshetra. A detailed account of the reasons that led to such a colossal war; is given under Introduction-The Setting of the Bhagavad Gita.",
+            "The Bhagavad Gita is primarily a conversation between Lord Shree Krishna and Arjun. However, the first chapter begins with a dialogue between King Dhritarashtra and his minister Sanjay. Dhritarashtra being blind, could not leave his palace in Hastinapur but was eager to know the ongoings of the battlefield. Sanjay was a disciple of Sage Ved Vyas, the author of the epic Mahabharata and several other Hindu scriptures. Sage Ved Vyas possessed a mystic ability to see and hear events occurring in distant places. He had bestowed upon Sanjay the miraculous power of distant vision. Therefore, Sanjay could see and hear what transpired on the battleground of Kurukshetra, and gave a first-hand account to King Dhritarashtra, while still being in his palace."
+        ],
+        "verses": [
+            {
+                "verseHeader": "Bhagavad Gita 1.1",
+                "id": "1",
+                "oneLiner": "Dhritarashtra said: O Sanjay, after gathering on the holy field of Kurukshetra, and desiring to fight, what did my sons and the sons of Pandu do?"
+            },
+            {
+                "verseHeader": "Bhagavad Gita 1.2",
+                "id": "2",
+                "oneLiner": "Sanjay said: On observing the Pandava army standing in military formation, King Duryodhan approached his teacher Dronacharya, and said the following words."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 1.3",
+                "id": "3",
+                "oneLiner": "Duryodhan said: Respected teacher! Behold the mighty army of the sons of Pandu, so expertly arrayed for battle by your own gifted disciple, the son of Drupad."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 1.4 – 1.6",
+                "id": "4-6",
+                "oneLiner": "Behold in their ranks are many powerful warriors, like Yuyudhan, Virat, and Drupad, wielding mighty bows and equal in military prowess to Bheem and Arjun. There are also accomplished heroes like Dhrishtaketu, Chekitan, the gallant King of Kashi, Purujit, Kuntibhoj, and Shaibya—all the best of men. In their ranks, they also have the courageous Yudhamanyu, the gallant Uttamauja, the son of Subhadra, and the sons of Draupadi, who are all great warrior chiefs."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 1.7",
+                "id": "7",
+                "oneLiner": "O best of Brahmins, hear too about the principal generals on our side, who are especially qualified to lead. These I now recount unto you."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 1.8",
+                "id": "8",
+                "oneLiner": "There are personalities like yourself, Bheeshma, Karna, Kripa, Ashwatthama, Vikarn, and Bhurishrava, who are ever victorious in battle."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 1.9",
+                "id": "9",
+                "oneLiner": "Also, there are many other heroic warriors, who are prepared to lay down their lives for my sake. They are all skilled in the art of warfare, and equipped with various kinds of weapons."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 1.10",
+                "id": "10",
+                "oneLiner": "The strength of our army is unlimited and we are safely marshalled by Grandsire Bheeshma, while the strength of the Pandava army, carefully marshalled by Bheem, is limited."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 1.11",
+                "id": "11",
+                "oneLiner": "Therefore, I call upon all the generals of the Kaurava army now to give full support to Grandsire Bheeshma, even as you defend your respective strategic points."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 1.12",
+                "id": "12",
+                "oneLiner": "Then, the grand old man of the Kuru dynasty, the glorious patriarch Bheeshma, roared like a lion, and blew his conch shell very loudly, giving joy to Duryodhan."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 1.13",
+                "id": "13",
+                "oneLiner": "Thereafter, conches, kettledrums, bugles, trumpets, and horns suddenly blared forth, and their combined sound was overwhelming."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 1.14",
+                "id": "14",
+                "oneLiner": "Then, from amidst the Pandava army, seated in a glorious chariot drawn by white horses, Madhav and Arjun blew their Divine conch shells."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 1.15",
+                "id": "15",
+                "oneLiner": "Hrishikesh blew his conch shell, called Panchajanya, and Arjun blew the Devadutta. Bheem, the voracious eater and performer of herculean tasks, blew his mighty conch, called Paundra."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 1.16 – 1.18",
+                "id": "16-18",
+                "oneLiner": "King Yudhishthir, blew the Anantavijay, while Nakul and Sahadev blew the Sughosh and Manipushpak. The excellent archer and king of Kashi, the great warrior Shikhandi, Dhrishtadyumna, Virat, and the invincible Satyaki, Drupad, the five sons of Draupadi, and the mighty-armed Abhimanyu, son of Subhadra, all blew their respective conch shells, O Ruler of the earth."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 1.19",
+                "id": "19",
+                "oneLiner": "The terrific sound thundered across the sky and the earth, and shattered the hearts of your sons, O Dhritarasthra."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 1.20",
+                "id": "20",
+                "oneLiner": "At that time, the son of Pandu, Arjun, who had the insignia of Hanuman on the flag of his chariot, took up his bow. Seeing your sons arrayed against him, O King, Arjun then spoke the following words to Shree Krishna."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 1.21 – 1.22",
+                "id": "21-22",
+                "oneLiner": "Arjun said: O Infallible One, please take my chariot to the middle of both armies, so that I may look at the warriors arrayed for battle, whom I must fight in this great combat."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 1.23",
+                "id": "23",
+                "oneLiner": "I desire to see those who have come here to fight on the side of the evil-minded son of Dhritarasthra, wishing to please him."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 1.24",
+                "id": "24",
+                "oneLiner": "Sanjay said: O Dhritarasthra, having thus been addressed by Arjun, the conqueror of sleep, Shree Krishna then drew the magnificent chariot between the two armies."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 1.25",
+                "id": "25",
+                "oneLiner": "In the presence of Bheeshma, Dronacharya, and all the other kings, Shree Krishna said: O Parth, behold these Kurus gathered here."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 1.26",
+                "id": "26",
+                "oneLiner": "There, Arjun could see stationed in both armies, his fathers, grandfathers, teachers, maternal uncles, brothers, cousins, sons, nephews, grand-nephews, friends, fathers-in-law, and well-wishers."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 1.27",
+                "id": "27",
+                "oneLiner": "Seeing all his relatives present there, Arjun, the son of Kunti, was overwhelmed with compassion, and with deep sorrow, spoke the following words."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 1.28",
+                "id": "28",
+                "oneLiner": "Arjun said: O Krishna, seeing my own kinsmen arrayed for battle here and intent on killing each other, my limbs are giving way and my mouth is drying up."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 1.29 – 1.31",
+                "id": "29-31",
+                "oneLiner": "My whole body shudders; my hair is standing on end. My bow, the Gāṇḍīv, is slipping from my hand, and my skin is burning all over. My mind is in quandary and whirling in confusion; I am unable to hold myself steady any longer. O Krishna, killer of the Keshi demon, I only see omens of misfortune. I do not foresee how any good can come from killing my own kinsmen in this battle."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 1.32 – 1.33",
+                "id": "32-33",
+                "oneLiner": "O Krishna, I do not desire the victory, kingdom, or the happiness accruing it. Of what avail will be a kingdom, pleasures, or even life itself, when the very persons for whom we covet them, are standing before us for battle?"
+            },
+            {
+                "verseHeader": "Bhagavad Gita 1.34 – 1.35",
+                "id": "34-35",
+                "oneLiner": "Teachers, fathers, sons, grandfathers, maternal uncles, grandsons, fathers-in-law, grand-nephews, brothers-in-law, and other kinsmen are present here, staking their lives and riches. O Madhusudan, I do not wish to slay them, even if they attack me. If we kill the sons of Dhritarashtra, what satisfaction will we derive from the dominion over the three worlds, what to speak of this Earth?"
+            },
+            {
+                "verseHeader": "Bhagavad Gita 1.36 – 1.37",
+                "id": "36-37",
+                "oneLiner": "O Maintainer of all living entities, what pleasure will we derive from killing the sons of Dhritarasthra? Even though they may be aggressors, sin will certainly come upon us if we slay them. Hence, it does not behoove us to kill our own cousins, the sons of Dhritarashtra, and friends. O Madhav (Krishna), how can we hope to be happy by killing our own kinsmen?"
+            },
+            {
+                "verseHeader": "Bhagavad Gita 1.38 – 1.39",
+                "id": "38-39",
+                "oneLiner": "Their thoughts are overpowered by greed and they see no wrong in annihilating their relatives or wreaking treachery upon friends. Yet, O Janardan (Krishna), why should we, who can clearly see the crime in killing our kindred, not turn away from this sin?"
+            },
+            {
+                "verseHeader": "Bhagavad Gita 1.40",
+                "id": "40",
+                "oneLiner": "When a dynasty is destroyed, its traditions get vanquished, and the rest of the family becomes involved in irreligion."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 1.41",
+                "id": "41",
+                "oneLiner": "With the preponderance of vice, O Krishna, the women of the family become immoral; and from the immorality of women, O descendent of Vrishni, unwanted progeny are born."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 1.42",
+                "id": "42",
+                "oneLiner": "An increase in unwanted children results in hellish life both for the family and for those who destroy the family. Deprived of the sacrificial offerings, the ancestors of such corrupt families also fall."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 1.43",
+                "id": "43",
+                "oneLiner": "Through the evil deeds of those who destroy the family tradition and thus give rise to unwanted progeny, a variety of social and family welfare activities are ruined."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 1.44",
+                "id": "44",
+                "oneLiner": "O Janardan (Krishna), I have heard from the learned that those who destroy family traditions dwell in hell for an indefinite period of time."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 1.45 – 1.46",
+                "id": "45-46",
+                "oneLiner": "Alas! How strange it is that we have set our mind to perform this great sin. Driven by the desire for kingly pleasures, we are intent on killing our own kinsmen. It will be better if, with weapons in hand, the sons of Dhritarashtra kill me unarmed and unresisting on the battlefield."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 1.47",
+                "id": "47",
+                "oneLiner": "Sanjay said: Speaking thus, Arjun cast aside his bow and arrows, and sank into the seat of his chariot, his mind in distress and overwhelmed with grief."
+            }
+        ]
+    },
+    {
+        "chapterTitle": "Chapter 2",
+        "id": "2",
+        "briefDescription": "Sānkhya Yog : The Yog of Analytical Knowledge",
+        "chapterTitleForChapterPage": "Chapter 2 : Sānkhya Yog",
+        "chapterSubTitleForChapterPage": "The Yog of Analytical Knowledge",
+        "description": [
+            "In this chapter, Arjun reiterates to Shree Krishna that he is unable to cope with his current situation, where he has to kill his elders and teachers. He refuses to take part in such a battle and requests Shree Krishna to be his spiritual teacher and guide him on the proper path of action. Then the Supreme Lord starts imparting divine knowledge to Arjun. He begins with the immortal-nature of the soul, which is eternal and imperishable. Death only destroys the physical body, but the soul continues its journey.  Just as a person discards his old clothes and adorns new ones, the soul keeps changing bodies from one lifetime to another.",
+            "The Lord then reminds Arjun that his social responsibility as a warrior is to fight for upholding righteousness. He explains that performing one’s social duty is a virtuous act that can take him to the celestial abodes, while dereliction only leads to infamy and humiliation.",
+            "At first, Shree Krishna tries to motivate Arjun at a mundane level. Then he moves deeper and starts explaining to Arjun the Science of Work. He asks Arjun to perform his deeds without any attachment to their fruits. This science of working without desire for rewards is called the yog of the intellect or Buddhi-Yog. He further advises that the intellect should be used to control the desire for rewards from work. By working with such intent, the bondage-creating karmas get transformed into bondage-breaking karmas and a state beyond sorrows can be attained.",
+            "Arjun is curious to know more about those who are situated in divine consciousness. Shree Krishna, therefore, describes how persons who have attained transcendence are free from attachment, fear, and anger. They are undisturbed and equipoised in every situation. With their senses subdued, they keep their minds always absorbed in God. He also explains the progression of afflictions of the mind—such as greed, anger, lust, etc. and advises how these can be overcome."
+        ],
+        "verses": [
+            {
+                "verseHeader": "Bhagavad Gita 2.1",
+                "id": "1",
+                "oneLiner": "Sanjay said: Seeing Arjun overwhelmed with pity, his mind grief-stricken, and his eyes full of tears, Shree Krishna spoke the following words."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.2",
+                "id": "2",
+                "oneLiner": "The Supreme Lord said: My dear Arjun, how has this delusion overcome you in this hour of peril? It is not befitting an honorable person. It leads not to the higher abodes, but to disgrace."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.3",
+                "id": "3",
+                "oneLiner": "O Parth, it does not befit you to yield to this unmanliness. Give up such petty weakness of heart and arise, O vanquisher of enemies."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.4",
+                "id": "4",
+                "oneLiner": "Arjun said: O Madhusudan, how can I shoot arrows in battle on men like Bheeshma and Dronacharya, who are worthy of my worship, O destroyer of enemies?"
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.5",
+                "id": "5",
+                "oneLiner": "It would be better to live in this world by begging, than to enjoy life by killing these noble elders, who are my teachers. If we kill them, the wealth and pleasures we enjoy will be tainted with blood."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.6",
+                "id": "6",
+                "oneLiner": "We do not even know which result of this war is preferable for us—conquering them or being conquered by them. Even after killing them we will not desire to live. Yet they have taken the side of Dhritarasthra, and now stand before us on the battlefield."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.7",
+                "id": "7",
+                "oneLiner": "I am confused about my duty, and am besieged with anxiety and faintheartedness. I am your disciple, and am surrendered to you. Please instruct me for certain what is best for me."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.8",
+                "id": "8",
+                "oneLiner": "I can find no means of driving away this anguish that is drying up my senses. Even if I win a prosperous and unrivalled kingdom on the earth, or gain sovereignty like the celestial gods, I will be unable to dispel this grief."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.9",
+                "id": "9",
+                "oneLiner": "Sanjay said: Having thus spoken, Gudakesh, that chastiser of enemies, addressed Hrishikesh: “Govind, I shall not fight,” and became silent."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.10",
+                "id": "10",
+                "oneLiner": "O Dhritarashtra, thereafter, in the midst of both the armies, Shree Krishna smilingly spoke the following words to the grief-stricken Arjun."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.11",
+                "id": "11",
+                "oneLiner": "The Supreme Lord said: While you speak words of wisdom, you are mourning for that which is not worthy of grief. The wise lament neither for the living nor for the dead."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.12",
+                "id": "12",
+                "oneLiner": "Never was there a time when I did not exist, nor you, nor all these kings; nor in the future shall any of us cease to be."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.13",
+                "id": "13",
+                "oneLiner": "Just as the embodied soul continuously passes from childhood to youth to old age, similarly, at the time of death, the soul passes into another body. The wise are not deluded by this."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.14",
+                "id": "14",
+                "oneLiner": "O son of Kunti, the contact between the senses and the sense objects gives rise to fleeting perceptions of happiness and distress. These are non-permanent, and come and go like the winter and summer seasons. O descendent of Bharat, one must learn to tolerate them without being disturbed."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.15",
+                "id": "15",
+                "oneLiner": "O Arjun, noblest amongst men, that person who is not affected by happiness and distress, and remains steady in both, becomes eligible for liberation."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.16",
+                "id": "16",
+                "oneLiner": "Of the transient there is no endurance, and of the eternal there is no cessation. This has verily been observed by the seers of the truth, after studying the nature of both."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.17",
+                "id": "17",
+                "oneLiner": "That which pervades the entire body, know it to be indestructible. No one can cause the destruction of the imperishable soul."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.18",
+                "id": "18",
+                "oneLiner": "Only the material body is perishable; the embodied soul within is indestructible, immeasurable, and eternal. Therefore, fight, O descendent of Bharat."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.19",
+                "id": "19",
+                "oneLiner": "Neither of them is in knowledge—the one who thinks the soul can slay and the one who thinks the soul can be slain. For truly, the soul neither kills nor can it be killed."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.20",
+                "id": "20",
+                "oneLiner": "The soul is neither born, nor does it ever die; nor having once existed, does it ever cease to be. The soul is without birth, eternal, immortal, and ageless. It is not destroyed when the body is destroyed."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.21",
+                "id": "21",
+                "oneLiner": "O Parth, how can one who knows the soul to be imperishable, eternal, unborn, and immutable kill anyone or cause anyone to kill?"
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.22",
+                "id": "22",
+                "oneLiner": "As a person sheds worn-out garments and wears new ones, likewise, at the time of death, the soul casts off its worn-out body and enters a new one."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.23",
+                "id": "23",
+                "oneLiner": "Weapons cannot shred the soul, nor can fire burn it. Water cannot wet it, nor can the wind dry it."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.24",
+                "id": "24",
+                "oneLiner": "The soul is unbreakable and incombustible; it can neither be dampened nor dried. It is everlasting, in all places, unalterable, immutable, and primordial."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.25",
+                "id": "25",
+                "oneLiner": "The soul is spoken of as invisible, inconceivable, and unchangeable. Knowing this, you should not grieve for the body."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.26",
+                "id": "26",
+                "oneLiner": "If, however, you think that the self is subject to constant birth and death, O mighty-armed Arjun, even then you should not grieve like this."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.27",
+                "id": "27",
+                "oneLiner": "Death is certain for one who has been born, and rebirth is inevitable for one who has died. Therefore, you should not lament over the inevitable."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.28",
+                "id": "28",
+                "oneLiner": "O scion of Bharat, all created beings are unmanifest before birth, manifest in life, and again unmanifest on death. So why grieve?"
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.29",
+                "id": "29",
+                "oneLiner": "Some see the soul as amazing, some describe it as amazing, and some hear of the soul as amazing, while others, even on hearing, cannot understand it at all."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.30",
+                "id": "30",
+                "oneLiner": "O Arjun, the soul that dwells within the body is immortal; therefore, you should not mourn for anyone."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.31",
+                "id": "31",
+                "oneLiner": "Besides, considering your duty as a warrior, you should not waver. Indeed, for a warrior, there is no better engagement than fighting for upholding of righteousness."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.32",
+                "id": "32",
+                "oneLiner": "O Parth, happy are the warriors to whom such opportunities to defend righteousness come unsought, opening for them the stairway to the celestial abodes."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.33",
+                "id": "33",
+                "oneLiner": "If, however, you refuse to fight this righteous war, abandoning your social duty and reputation, you will certainly incur sin."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.34",
+                "id": "34",
+                "oneLiner": "People will speak of you as a coward and a deserter. For a respectable person, infamy is worse than death."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.35",
+                "id": "35",
+                "oneLiner": "The great generals who hold you in high esteem will think that you fled from the battlefield out of fear, and thus will lose their respect for you."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.36",
+                "id": "36",
+                "oneLiner": "Your enemies will defame and humiliate you with unkind words, disparaging your might. Alas, what could be more painful than that?"
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.37",
+                "id": "37",
+                "oneLiner": "If you fight, you will either be slain on the battlefield and go to the celestial abodes, or you will gain victory and enjoy the kingdom on earth. Therefore arise with determination, O son of Kunti, and be prepared to fight."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.38",
+                "id": "38",
+                "oneLiner": "Fight for the sake of duty, treating alike happiness and distress, loss and gain, victory and defeat. Fulfilling your responsibility in this way, you will never incur sin."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.39",
+                "id": "39",
+                "oneLiner": "Hitherto, I have explained to you Sānkhya Yog, or analytic knowledge regarding the nature of the soul. Now listen, O Parth, as I reveal Buddhi Yog, or the Yog of Intellect. When you work with such understanding, you will be freed from the bondage of karma."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.40",
+                "id": "40",
+                "oneLiner": "Working in this state of consciousness, there is no loss or adverse result, and even a little effort saves one from great danger."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.41",
+                "id": "41",
+                "oneLiner": "O descendent of the Kurus, the intellect of those who are on this path is resolute, and their aim is one-pointed. But the intellect of those who are irresolute is many-branched."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.42 – 2.43",
+                "id": "42-43",
+                "oneLiner": "Those with limited understanding, get attracted to the flowery words of the Vedas, which advocate ostentatious rituals for elevation to the celestial abodes, and presume no higher principle is described in them. They glorify only those portions of the Vedas that please their senses, and perform pompous ritualistic ceremonies for attaining high birth, opulence, sensual enjoyment, and elevation to the heavenly planets."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.44",
+                "id": "44",
+                "oneLiner": "With their minds deeply attached to worldly pleasures and their intellects bewildered by such things, they are unable to possess the resolute determination for success on the path to God."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.45",
+                "id": "45",
+                "oneLiner": "The Vedas deal with the three modes of material nature, O Arjun. Rise above the three modes to a state of pure spiritual consciousness. Freeing yourself from dualities, eternally fixed in truth, and without concern for material gain and safety, be situated in the self."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.46",
+                "id": "46",
+                "oneLiner": "Whatever purpose is served by a small well of water is naturally served in all respects by a large lake. Similarly, one who realizes the Absolute Truth also fulfills the purpose of all the Vedas."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.47",
+                "id": "47",
+                "oneLiner": "You have a right to perform your prescribed duties, but you are not entitled to the fruits of your actions. Never consider yourself to be the cause of the results of your activities, nor be attached to inaction."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.48",
+                "id": "48",
+                "oneLiner": "Be steadfast in the performance of your duty, O Arjun, abandoning attachment to success and failure. Such equanimity is called Yog."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.49",
+                "id": "49",
+                "oneLiner": "Seek refuge in divine knowledge and insight, O Arjun, and discard reward-seeking actions that are certainly inferior to works performed with the intellect established in Divine knowledge. Miserly are those who seek to enjoy the fruits of their works."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.50",
+                "id": "50",
+                "oneLiner": "One who prudently practices the science of work without attachment can get rid of both good and bad reactions in this life itself. Therefore, strive for Yog, which is the art of working skillfully (in proper consciousness)."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.51",
+                "id": "51",
+                "oneLiner": "The wise endowed with equanimity of intellect, abandon attachment to the fruits of actions, which bind one to the cycle of life and death. By working in such consciousness, they attain the state beyond all suffering."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.52",
+                "id": "52",
+                "oneLiner": "When your intellect crosses the quagmire of delusion, you will then acquire indifference to what has been heard and what is yet to be heard (about enjoyments in this world and the next)."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.53",
+                "id": "53",
+                "oneLiner": "When your intellect ceases to be allured by the fruitive sections of the Vedas and remains steadfast in divine consciousness, you will then attain the state of perfect Yog."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.54",
+                "id": "54",
+                "oneLiner": "Arjun said : O Keshav, what is the disposition of one who is situated in divine consciousness? How does an enlightened person talk? How does he sit? How does he walk?"
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.55",
+                "id": "55",
+                "oneLiner": "The Supreme Lord said: O Parth, when one discards all selfish desires and cravings of the senses that torment the mind, and becomes satisfied in the realization of the self, such a person is said to be transcendentally situated."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.56",
+                "id": "56",
+                "oneLiner": "One whose mind remains undisturbed amidst misery, who does not crave for pleasure, and who is free from attachment, fear, and anger, is called a sage of steady wisdom."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.57",
+                "id": "57",
+                "oneLiner": "One who remains unattached under all conditions, and is neither delighted by good fortune nor dejected by tribulation, he is a sage with perfect knowledge."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.58",
+                "id": "58",
+                "oneLiner": "One who is able to withdraw the senses from their objects, just as a tortoise withdraws its limbs into its shell, is established in divine wisdom."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.59",
+                "id": "59",
+                "oneLiner": "Aspirants may restrain the senses from their objects of enjoyment, but the taste for the sense objects remains. However, even this taste ceases for those who realizes the Supreme."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.60",
+                "id": "60",
+                "oneLiner": "The senses are so strong and turbulent, O son of Kunti, that they can forcibly carry away the mind even of a person endowed with discrimination and practicing self-control."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.61",
+                "id": "61",
+                "oneLiner": "They are established in perfect knowledge, who subdue their senses and keep their minds ever absorbed in me."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.62",
+                "id": "62",
+                "oneLiner": "While contemplating on the objects of the senses, one develops attachment to them. Attachment leads to desire, and from desire arises anger."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.63",
+                "id": "63",
+                "oneLiner": "Anger leads to clouding of judgment, which results in bewilderment of the memory. When the memory is bewildered, the intellect gets destroyed; and when the intellect is destroyed, one is ruined."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.64",
+                "id": "64",
+                "oneLiner": "But one who controls the mind, and is free from attachment and aversion, even while using the objects of the senses, attains the Grace of God."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.65",
+                "id": "65",
+                "oneLiner": "By divine grace comes the peace in which all sorrows end, and the intellect of such a person of tranquil mind soon becomes firmly established in God."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.66",
+                "id": "66",
+                "oneLiner": "But an undisciplined person, who has not controlled the mind and senses, can neither have a resolute intellect nor steady contemplation on God. For one who never unites the mind with God there is no peace; and how can one who lacks peace be happy?"
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.67",
+                "id": "67",
+                "oneLiner": "Just as a strong wind sweeps a boat off its chartered course on the water, even one of the senses on which the mind focuses can lead the intellect astray."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.68",
+                "id": "68",
+                "oneLiner": "Therefore, one who has restrained the senses from their objects, O mighty armed Arjun, is firmly established in transcendental knowledge."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.69",
+                "id": "69",
+                "oneLiner": "What all beings consider as day is the night of ignorance for the wise, and what all creatures see as night is the day for the introspective sage."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.70",
+                "id": "70",
+                "oneLiner": "Just as the ocean remains undisturbed by the incessant flow of waters from rivers merging into it, likewise the sage who is unmoved despite the flow of desirable objects all around him attains peace, and not the person who strives to satisfy desires."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.71",
+                "id": "71",
+                "oneLiner": "That person, who gives up all material desires and lives free from a sense of greed, proprietorship, and egoism, attains perfect peace."
+            },
+            {
+                "verseHeader": "Bhagavad Gita 2.72",
+                "id": "72",
+                "oneLiner": "O Parth, such is the state of an enlightened soul that having attained it, one is never again deluded. Being established in this consciousness even at the hour of death, one is liberated from the cycle of life and death and reaches the Supreme Abode of God."
+            }
+        ]
+    },
+    {
+        "chapterTitle": "Chapter 3",
+        "id": "3",
+        "briefDescription": "Karm Yog : The Yog of Action",
+        "chapterTitleForChapterPage": "Chapter 3 : Karm Yog",
+        "chapterSubTitleForChapterPage": "The Yog of Action",
+        "description": [
+            "Shree Krishna expounds Karm Yog or the Yog of Action in this chapter. He explains to Arjun that nobody can remain without action, even for a moment. Bound by their inherent modes of nature, all beings are always engaged in some work. Superior are those who practice Karm Yog and continue to work diligently to fulfill their responsibilities externally, but internally they are unattached to them. However, the hypocrites display external renunciation but internally dwell upon the objects of their senses.",
+            "Shree Krishna says that all living beings are an integral part of God’s creation and have roles and responsibilities to fulfill. Vedas prescribe performing yajña to please the celestial gods, who in-return bestow material gains. These yajñas cause rains to fall, which aids in the production of food grains for the sustenance of life on earth. Those who live only for the delight of their senses and do not accept their responsibility in this cycle— are sinful and living in vain. However, Shree Krishna says that when works or prescribed duties are performed as an obligation to God, they are also considered yajña (sacrifice).",
+            "He then explains that unlike the rest of the humankind, the enlightened souls are not obliged to fulfill their bodily responsibilities. They are situated in knowledge of the self and execute higher responsibilities of the soul. However, they do not abandon their social duties, as it may create disharmony in the minds of the common people who look up to them for inspiration. Therefore, the wise continue to work without any personal motive only to set good examples for others to follow, else, the ignorant may abandon their prescribed duties prematurely. Shree Krishna mentions one such example of the enlightened King Janak, who performed his earthly duties as an ideal king and father.",
+            "Arjun then asks Shree Krishna why people commit sin, even when unwilling, as if by some force. Lord Krishna explains that lust alone is the sinful all-devouring enemy. Similar to a fire that is covered by smoke or a mirror covered in dust, desire shrouds one’s knowledge and deludes the intellect. In the end, Shree Krishna advises Arjun that by controlling the senses, mind, and intellect—one can slay this enemy called desire, which is an embodiment of sin."
+        ],
+        "verses": [
+            {
+                "verseHeader": "",
+                "id": "",
+                "oneLiner": ""
+            }
+        ]
+    },
+    {
+        "chapterTitle": "Chapter 4",
+        "id": "4",
+        "briefDescription": "Jñāna Karm Sanyās Yog : The Yog of Knowledge and the Disciplines of Action",
+        "chapterTitleForChapterPage": "Chapter 4 : Jñāna Karm Sanyās Yog",
+        "chapterSubTitleForChapterPage": "The Yog of Knowledge and the Disciplines of Action",
+        "description": [
+            "To strengthen Arjun’s faith in the knowledge He is imparting, Shree Krishna reveals His pristine origin in this chapter. He says, “Arjun, as you are my devotee and a dear friend, I am revealing this supreme science of Yog to you. It is the same eternal science that I taught to the Sun God at the beginning of time. And in a continuous tradition, the same knowledge was passed to the saintly kings.” Arjun wonders how someone who is almost his age could exist so many eons ago. He asks Shree Krishna how is it possible that you gave this knowledge to the Sun God and the others so many years back in time. To clarify Arjun’s doubts, Shree Krishna discloses the divine mystery of his descension. He says that although God is unborn and eternal, it is to establish dharma (the path of righteousness) that He descends on this earth by His Yogmaya power. His birth and activities are divine and cannot get tainted by material imperfections. Once a devotee knows this secret and engages in devotion with great faith, he attains God and does not take birth in this world again.",
+            "Shree Krishna then continues to explain the nature of work and its three principles: action, in-action, and forbidden action. He explains—how the karm yogis, even while performing the most engaging task, are in the state of inaction and do not get entangled in the karmic reactions of such action. Knowing this—the ancient sages performed all their work as an act of sacrifice for the pleasure of God. They were not affected by happiness, distress, success, or failure. He explains that when sacrifice is suitably dedicated, performed with proper knowledge and pure sentiments, then its remnants become like nectar. And by partaking such nectar, the devotees are cleansed of all impurities. Even the biggest sinner can cross over the ocean of material miseries by boarding this boat of eternal knowledge. However, such knowledge should be acquired—only from a genuine spiritual master, who himself is God-realized. Being his Guru, Shree Krishna instructs Arjun to cut apart all doubts that have arisen in his heart with this sword of knowledge. He asks Arjun to now get up and perform his duty as a warrior."
+        ],
+        "verses": [
+            {
+                "verseHeader": "",
+                "id": "",
+                "oneLiner": ""
+            }
+        ]
+    },
+    {
+        "chapterTitle": "Chapter 5",
+        "id": "5",
+        "briefDescription": "Karm Sanyās Yog : The Yog of Renunciation",
+        "chapterTitleForChapterPage": "Chapter 5 : Karm Sanyās Yog",
+        "chapterSubTitleForChapterPage": "The Yog of Renunciation",
+        "description": [
+            "In this chapter, Shree Krishna compares karm sanyās yog (the path of renunciation of actions) with karm-yog (the path of work in devotion). He says: we can choose either of the two paths, as both lead to the same destination. However, he explains that renunciation of actions is rather challenging and can only be performed flawlessly by those whose minds are adequately pure. And purification of the mind can only be achieved by working in devotion. Therefore, karm-yog is a more appropriate path for the majority of humankind.",
+            "The karm yogis with a purified intellect perform their worldly duties without any attachment to its fruit. They dedicate all their works and its results to God. Just as a lotus leaf that floats on water does not get wet, the karm yogis also remain unaffected by sin. They are aware that the soul resides within the body that is like a city with nine gates. Therefore, they do not consider themselves to be the doer nor the enjoyer of their actions. Endowed with the vision of equality, they look equally upon a Brahmin, a cow, an elephant, a dog, and a dog-eater. Seated in the Absolute Truth, such truly learned people develop flawless qualities similar to God. The ignorant worldly people do not realize that the pleasures they strive to relish from their sense objects are the very source of their misery. However, the Karm Yogis do not get any joy from such worldly pleasures. Instead, they enjoy the bliss of God who resides inside them.",
+            "Lord Shree Krishna then describes karm sanyās yog or the path of renunciation. He says that the karm sanyāsīs control their mind, intellect, and senses by performing several austerities. By shutting out all their thoughts of external pleasures, they become free from fear, desire, and anger. And by including devotion to God in all their austerities, they attain long-lasting peace."
+        ],
+        "verses": [
+            {
+                "verseHeader": "",
+                "id": "",
+                "oneLiner": ""
+            }
+        ]
+    },
+    {
+        "chapterTitle": "Chapter 6",
+        "id": "6",
+        "briefDescription": "Dhyān Yog : The Yog of Meditation",
+        "chapterTitleForChapterPage": "Chapter 6 : Dhyān Yog",
+        "chapterSubTitleForChapterPage": "The Yog of Meditation",
+        "description": [
+            "Shree Krishna continues the comparative evaluation between Karm Yog (the practice of spirituality while performing worldly duties) and Karm Sanyas (the practice of spirituality in a renounced state) in this chapter. He reiterates that Karm Yog is a more practicable path than Karm Sanyas. When work is done with devotion, it purifies the mind and enhances the spiritual realization. The mind then becomes tranquil, and meditation becomes the primary means of elevation. The yogis strive to conquer the mind through meditation because, while a trained mind is the best friend, an untrained mind can be the worst enemy for a spiritual aspirant. He cautions Arjun that by merely engaging in severe austerities, one cannot progress on the spiritual path. Therefore, moderation must be maintained, even in basic necessities like food, sleep, work, recreation, etc.",
+            "Shree Krishna then explains yog sādhanā or the spiritual practice for uniting the mind with God. He says, similar to a lamp that does not flicker in a windless place: a sādhak should practice keeping his mind steady in meditation. He agrees that it is difficult to restrain the mind, but it can be controlled by practice and detachment. Therefore, whenever it wanders away, one needs to bring it back and continue to focus upon God. Then the mind gets purified and is established in transcendence or samādhi, which is a joyous state where one experiences infinite divine bliss.",
+            "Arjun asks what happens to those spiritual aspirants who begin their journey, but due to an unsteady mind, they are unable to reach their goal. Shree Krishna reassures him that those who strive for God-realization are able to overcome evil. God keeps an account of all our accumulated spiritual merits from past lives and reawakens their wisdom in future births.  In this way, they can continue their journey from where they had left off. And with the help of their accrued merits from previous lives, in their present life, the yogis fast track towards God.",
+            "The Lord then concludes this chapter with a declaration that the yogi (who strives to unite with God) is superior to the tapasvī (ascetic), the jñānī (person of learning), and the karmī (ritualistic performer). And highest among all the yogis is the one who engages in bhakti (loving devotion of God)."
+        ],
+        "verses": [
+            {
+                "verseHeader": "",
+                "id": "",
+                "oneLiner": ""
+            }
+        ]
+    },
+    {
+        "chapterTitle": "Chapter 7",
+        "id": "7",
+        "briefDescription": "Jñāna Vijñāna Yog : Yog through the Realization of Divine Knowledge",
+        "chapterTitleForChapterPage": "Chapter 7 : Jñāna Vijñāna Yog",
+        "chapterSubTitleForChapterPage": "Yog through the Realization of Divine Knowledge",
+        "description": [
+            "This chapter begins with Shree Krishna describing the material and spiritual dimensions of God’s energies. He explains that similar to beads strung on a single thread, all these energies have originated from Him and rest in Him. The entire creation begins and dissolves into Him. Although it is very difficult to overcome His material energy Maya, those who surrender to Him can easily cross over it by His grace.",
+            "He then describes the four kinds of people who engage in His devotion and the other four who do not surrender to Him. He says that those devotees who worship Him in knowledge with their mind and intellect merged in Him, are dearest to Him. Yet, some are deluded by material desires and surrender to the celestial gods, who bestow upon them temporary material prosperity. However, these celestial gods also get their powers from the Supreme Lord. Therefore, the worthiest object of devotion is the Almighty God Himself.",
+            "Shree Krishna further confirms that He is the ultimate truth and the highest authority. He possesses several divine attributes such as omnipotence, omnipresence, and omniscience. However, His divine Yogmaya power hides His imperishable nature and eternal divine form. Those devotees who surrender to Him and take His shelter receive the divine knowledge of the Supreme God, the self, and the entire field of the karmic actions."
+        ],
+        "verses": [
+            {
+                "verseHeader": "",
+                "id": "",
+                "oneLiner": ""
+            }
+        ]
+    },
+    {
+        "chapterTitle": "Chapter 8",
+        "id": "8",
+        "briefDescription": "Akṣhar Brahma Yog : The Yog of the Eternal God",
+        "chapterTitleForChapterPage": "Chapter 8 : Akṣhar Brahma Yog",
+        "chapterSubTitleForChapterPage": "The Yog of the Eternal God",
+        "description": [
+            "In this chapter, Shree Krishna briefly describes several significant concepts and terms that the Upanishads expound in detail. He also explains what decides the destination of the soul after death. He says that if we remember God at the time of death, we can definitely attain Him. Therefore, alongside doing our daily works, we must practice to always think of God. We can do this by thinking of His Qualities, Attributes, Virtues, etc. A persistent yogic meditation upon God by chanting His Names is also a good practice. Through exclusive devotion, when our mind is perfectly absorbed in Him, we will elevate from the material dimension to the spiritual realm.",
+            "Shree Krishna then talks about the various abodes in the material realm and the cycle of creation. He further explains how the multitudes of beings’ manifest on these abodes, and at the time of dissolution, everything absorbs back into Him. However, the divine Abode of God is untouched by this cycle of creation and dissolution. Those who progress on the path of light finally reach the divine abode and never return to the material world. Whereas those fallen souls who tread the path of darkness endlessly keep transmigrating in the cycle of birth, old age, sickness, and death."
+        ],
+        "verses": [
+            {
+                "verseHeader": "",
+                "id": "",
+                "oneLiner": ""
+            }
+        ]
+    },
+    {
+        "chapterTitle": "Chapter 9",
+        "id": "9",
+        "briefDescription": "Rāja Vidyā Yog : Yog through the King of Sciences",
+        "chapterTitleForChapterPage": "Chapter 9 : Rāja Vidyā Yog",
+        "chapterSubTitleForChapterPage": "Yog through the King of Sciences",
+        "description": [
+            "In the two previous chapters, the Supreme Lord Shree Krishna declared that among all, bhakti is the highest, yet the simplest path of attaining Yog, or union with the Supreme. In this chapter, He reveals His supreme glories that inspire reverence, devotion, and awe. Although Shree Krishna stands in front of Arjun in His personal form, this form should not be mistaken to possess human personality. At the beginning of creation, the Supreme Lord creates innumerable life-forms with His material energy. And at dissolution, He absorbs them back into Himself, and in the next cycle of creation, He manifests them again. All living beings’ dwell within Him, like the mighty winds that blow everywhere, yet always stay within the sky. However, He remains ever aloof and detached from all these activities as a neutral observer by His divine Yogmaya power.",
+            "To resolve the apparent confusion of the Hindu pantheon, Shree Krishna explains that there is only one God, who is the sole object of worship. For all living beings, He is the true friend, the support, refuge, and the final goal. Therefore, those souls who engage in exclusive devotion towards the Supreme Lord go to His abode and remain there. Those influenced by the ritualistic ceremonies described in the Vedas also attain the celestial abodes. However, when their merits are exhausted, they must return to earth. Saying this, Shree Krishna exalts the superiority of pure bhakti solely directed toward Him. Such a devotee lives in complete union with God’s will, doing everything for Him and offering everything to Him. Such pure devotion helps devotees attain the mystic union with God and releases them from the bondage of Karmas.",
+            "Shree Krishna asserts that He is impartial towards all creatures; He neither favors nor rejects anyone. Even if despicable sinners come to His shelter, He accepts them willingly and very quickly makes them pure and virtuous. Shree Krishna then says that He is seated within His devotees and will not let them perish. He preserves what they possess and provides them what they lack. Hence, we should dedicate our mind and body to Him, worship Him, always think of Him, and make Him our supreme goal."
+        ],
+        "verses": [
+            {
+                "verseHeader": "",
+                "id": "",
+                "oneLiner": ""
+            }
+        ]
+    },
+    {
+        "chapterTitle": "Chapter 10",
+        "id": "10",
+        "briefDescription": "Vibhūti Yog : Yog through Appreciating the Infinite Opulences of God",
+        "chapterTitleForChapterPage": "Chapter 10 : Vibhūti Yog",
+        "chapterSubTitleForChapterPage": "Yog through Appreciating the Infinite Opulences of God",
+        "description": [
+            "The previous chapter revealed the science of bhakti or loving devotion of God. In this chapter, Shree Krishna desires to increase Arjun’s bhakti by describing His infinite glories and opulence. The verses are not only pleasing to read, but also enchanting to hear. He helps Arjun to meditate on God by reflecting upon His magnificence.",
+            "He reveals that He is the source of all that exists. From His mind, the seven great sages, the four great saints, and the fourteen Manus were born. All the people of this world then descended from them. The various exceptional qualities in humans also arise from Him. Those devotees who know this engage in His devotion with great faith. They derive immense satisfaction by conversing about His glories and also help enlightening others about them. God dwells in the hearts of such devotees whose mind is always united in Him. He then bestows upon them His divine knowledge, through which they can attain God-realization.",
+            "Arjun is now fully convinced that Shree Krishna is the Supreme Divine Personality and requests Him to describe further His divine glories, which are like divine nectar. Then Lord Shree Krishna reveals that everything that exists is a manifestation of His energies. He is the beginning, middle, and end of all; the infinite reservoir of knowledge, power, beauty, and glory. All beings and things get their splendor from Him; He is the powerhouse of magnificence. Whatever catches our imagination and infuses us with bliss is nothing but a tiny spark of His opulence.",
+            "The rest of the chapter describes the personalities, objects, and activities that best display His magnificence. Shree Krishna finally says that the magnitude of His glory cannot be described in words, as within a fraction of His being, He upholds infinite universes. Since God is the source of all the splendor and glory, we must make Him the object of our devotion."
+        ],
+        "verses": [
+            {
+                "verseHeader": "",
+                "id": "",
+                "oneLiner": ""
+            }
+        ]
+    },
+    {
+        "chapterTitle": "Chapter 11",
+        "id": "11",
+        "briefDescription": "Viśhwarūp Darśhan Yog : Yog through Beholding the Cosmic Form of God",
+        "chapterTitleForChapterPage": "Chapter 11 : Viśhwarūp Darśhan Yog",
+        "chapterSubTitleForChapterPage": "Yog through Beholding the Cosmic Form of God",
+        "description": [
+            "In the previous chapter, Shree Krishna described his divine vibhūtis (opulences) to nourish and increase Arjun’s devotion. At the end, he faintly alluded to his universal cosmic form, by saying that all things beautiful, glorious, and powerful manifest from just a spark of his splendor. In this chapter, Arjun requests to see Shree Krishna’s viśhwarūp, or the infinite cosmic form of God that encompasses all the universes. Shree Krishna obliges by granting him divine vision. Arjun then sees the totality of creation in the body of the God of gods. He observes unlimited faces, eyes, arms, and stomachs in the wonderful and infinite form of the Lord. The form has no beginning or end, and extends infinitely in every direction. The splendor of that form is more than a thousand suns blazing forth together in the sky. The vision makes Arjun’s hair stand on end. He sees the three worlds trembling in fear of God’s laws. He witnesses the celestial gods taking shelter of him and the great sages extolling him with profuse hymns and prayers. He observers all the sons of Dhritarasthra along with their allied kings rushing headlong into the mouth of that fearsome form, as moths rushing with great speed into the fire to perish. Arjun then confesses that on beholding the universal form his heart is trembling with fear and he has lost his peace of mind. Terrified, he wishes to know the identity of this awesome God, who bears no resemblance now to the Krishna he had known as his teacher and friend. Shree Krishna responds by saying that in the form of time he is the destroyer of the three worlds. He declares that the great Kaurava warriors have already been killed by him, so being assured of victory, Arjun should get up and fight.",
+            "In response, Arjun praises him as the Lord who possesses infinite valor and power, and offers him repeated salutations. He asks for forgiveness if during their long friendship he has ever done anything to offend the Lord through mistaking him for a mere human being. He implores for grace and requests to see once again the pleasing form of God. Shree Krishna grants his desire and first returns to his four-armed form, and then to his gentle and loving two-armed form. He tells Arjun how difficult it is to have a vision of God in the manner that Arjun is seeing him. His personal form cannot be seen by the study of the Vedas, nor by penance, charity, or fire sacrifices. By unalloyed devotion alone can one know him as he is, standing before Arjun, and enter into union with him."
+        ],
+        "verses": [
+            {
+                "verseHeader": "",
+                "id": "",
+                "oneLiner": ""
+            }
+        ]
+    },
+    {
+        "chapterTitle": "Chapter 12",
+        "id": "12",
+        "briefDescription": "Bhakti Yog : The Yog of Devotion",
+        "chapterTitleForChapterPage": "Chapter 12 : Bhakti Yog",
+        "chapterSubTitleForChapterPage": "The Yog of Devotion",
+        "description": [
+            "This small chapter stresses on the super-excellence of the path of loving devotion over all other types of spiritual practices.  It begins with Arjun asking Shree Krishna whom He considers more perfect in Yog—those who are devoted to the personal form of God or those who worship the formless Brahman.  Shree Krishna responds by declaring that both paths lead to God-realization.  However, He regards the devotees of His personal form as the best yogis.  He explains that meditation on the impersonal unmanifest aspect of God is full of tribulations and is exceedingly difficult for embodied beings.  But devotees of the personal form, with their consciousness merged in Him and all their actions dedicated to Him, are swiftly delivered from the cycle of life and death.  Shree Krishna thus asks Arjun to surrender his intellect to Him, and fix his mind in exclusive loving devotion on Him alone. ",
+            "However, such love is often not forthcoming in the struggling soul.  So Shree Krishna gives other options, and says that if Arjun cannot immediately reach the stage of complete absorption of the mind in God, he should strive to reach that stage of perfection by constant practice.  Devotion is not a mysterious gift and can be cultivated by regular effort.  If Arjun cannot do even this much, he should still not admit defeat; rather he should work in devotion for the pleasure of Shree Krishna.  If this is also not possible, then he should merely renounce the fruits of his works and be situated in the self.  He then explains that higher than mechanical practice is the cultivation of knowledge; higher than the cultivation of knowledge is meditation; and higher than meditation is the renunciation of fruits of actions, which immediately leads to great peace.  The remaining verses of the chapter describe the wonderful qualities of God’s loving devotees who are very dear to Him."
+        ],
+        "verses": [
+            {
+                "verseHeader": "",
+                "id": "",
+                "oneLiner": ""
+            }
+        ]
+    },
+    {
+        "chapterTitle": "Chapter 13",
+        "id": "13",
+        "briefDescription": "Kṣhetra Kṣhetrajña Vibhāg Yog : Yog through Distinguishing the Field and the Knower of the Field",
+        "chapterTitleForChapterPage": "Chapter 13 : Kṣhetra Kṣhetrajña Vibhāg Yog",
+        "chapterSubTitleForChapterPage": "Yog through Distinguishing the Field and the Knower of the Field",
+        "description": [
+            "The Bhagavad Gita consists of eighteen chapters, which are composed of three segments.  The first set of six chapters describes karm-yog.  The second set describes the glories of bhakti, and for the nourishment of bhakti, it also dwells upon the opulences of God.  The third set of six chapters expounds upon tattva jñāna (knowledge scriptural terms and principles).  The present one is the first of the third set of chapters, and it introduces two terms—kṣhetra (the “field”) and kṣhetrajña (the “knower of the field”).  We may think of the field as the body and the knower of the field as the soul that resides within.  But this is a simplification, for the field is actually much more—it includes the mind, intellect, and ego, and all other components of the material energy that comprise our personality.  In this wider sense, the field of the body encompasses all aspects of our personality, except for the soul who is the “knower the field.” ",
+            "As a farmer sows seeds in a field and reaps the harvest from it, we sow the field of our body with good or bad thoughts and actions, and reap the consequent destiny.  The Buddha had explained: “All that we are is the result of what we have thought; it is founded on our thoughts; and it is made of our thoughts.”  Therefore, as we think, that is what we become.  The great American thinker, Ralph Waldo Emerson, said: “The ancestor of every action is thought.”  Thus, we must learn the art of cultivating the field of our body with appropriate thoughts and actions.  This requires knowledge of the distinction between the field and the knower of the field.  In the present chapter, Shree Krishna goes into a detailed analysis of this distinction.  He enumerates the elements of material nature that compose the field of the body.  He describes the modifications that arise in the field, in the form of emotions, sentiments, and feelings.  He also mentions the virtues and qualities that purify the field and illumine it with the light of knowledge.  Such knowledge helps us gain realization of the soul, who is the knower of the field.  The chapter then describes God, who is the supreme knower of the fields of all the living beings.  That Supreme Lord holds contradictory attributes, i.e. He possesses opposite qualities at the same time.  So, He is all-pervading in creation and yet seated in the hearts of all living beings.  He is thus the Supreme Soul of all living beings. ",
+            "Having described the soul, the Supreme Soul, and material nature, Shree Krishna then explains which of these is responsible for actions by living beings, and also which is responsible for cause and effect in the world at large.  Those, who can perceive these distinctions and properly pinpoint the causes of action, are the ones who actually see; and they are the ones who are situated in knowledge.  They observe the Supreme Soul present in all living beings, and so they do not degrade themselves by their mind.  They can see the variety of living beings situated in the same material nature.  And when they see the common spiritual substratum pervading all existence, they attain the realization of Brahman."
+        ],
+        "verses": [
+            {
+                "verseHeader": "",
+                "id": "",
+                "oneLiner": ""
+            }
+        ]
+    },
+    {
+        "chapterTitle": "Chapter 14",
+        "id": "14",
+        "briefDescription": "Guṇa Traya Vibhāg Yog : Yog through Understanding the Three Modes of Material Nature",
+        "chapterTitleForChapterPage": "Chapter 14 : Guṇa Traya Vibhāg Yog",
+        "chapterSubTitleForChapterPage": "Yog through Understanding the Three Modes of Material Nature",
+        "description": [
+            "The previous chapter explained in detail the distinction between the soul and the material body. This chapter describes the nature of the material energy, which is the source of the body and its elements, and is thus the origin of both mind and matter. Shree Krishna explains that material nature is constituted of three modes (guṇas)—goodness, passion, and ignorance. The body, mind, and intellect that are made from the material energy also possess these three modes, and the mix of the modes in our being determines the color of our personality. The mode of goodness is characterized by peacefulness, well-being, virtue, and serenity; the mode of passion gives rise to endless desires and insatiable ambitions for worldly enhancement; and the mode of ignorance is the cause for delusion, laziness, intoxication, and sleep. Until the soul attains illumination, it must learn to deal with these three powerful forces of material nature. Liberation lies in transcending all three of these modes.",
+            "Shree Krishna reveals a simple solution for breaking out of the bondage of these guṇas. The Supreme Lord is transcendental to the three modes, and if we attach ourselves to him, then our mind will also rise to the divine platform. At this point, Arjun enquires about the characteristics of those who have gone beyond the three guṇas. Shree Krishna then systematically explains the traits of such liberated souls. He explains that illumined persons remain ever equipoised; they are not disturbed when they see the guṇas functioning in the world, and their effects manifesting in persons, objects, and situations. They see everything as a manifestation of God’s energies, which are ultimately in his hands. Thus, worldly situations neither make them jubilant nor miserable, and without wavering, they remain established in the self. The chapter ends with Shree Krishna again reminding us of the power of devotion and its ability to make us transcend the three guṇas."
+        ],
+        "verses": [
+            {
+                "verseHeader": "",
+                "id": "",
+                "oneLiner": ""
+            }
+        ]
+    },
+    {
+        "chapterTitle": "Chapter 15",
+        "id": "15",
+        "briefDescription": "Puruṣhottam Yog : The Yog of the Supreme Divine Personality",
+        "chapterTitleForChapterPage": "Chapter 15 : Puruṣhottam Yog",
+        "chapterSubTitleForChapterPage": "The Yog of the Supreme Divine Personality",
+        "description": [
+            "In the previous chapter, Shree Krishna explained that by transcending the three modes of material nature one attains the divine goal.  He also revealed that the best means for going beyond the guṇas is to engage in exclusive devotion.  To engage in such devotion, we must detach the mind from the world and attach it to God alone.  Thus, it is necessary to understand the nature of the world.  In this chapter, Shree Krishna explains this material world in a graphic manner, to help Arjun develop detachment from it.   He compares the material world to an upside down aśhvatth tree (sacred fig).  The embodied soul wanders up and down the branches of the tree, from lifetime to lifetime, without comprehending from where it originated, how long it has existed, and how it keeps growing.  The roots of the tree are above, as it has its source in God.  The fruitive activities described in the Vedas are like its leaves.  The tree is irrigated by the three modes of material nature.  These modes create sense objects that are like the buds on the tree.  The buds sprout aerial roots that engender further growth of the tree.  The chapter describes this symbolism in detail, to convey the idea of how the embodied soul suffering in this material world only keeps perpetuating its bondage here, in ignorance of the nature of this tree of material existence.  Shree Krishna explains that the axe of detachment must be used to cut down the tree.  Then, we must search for the base of the tree, which is the Supreme Lord Himself.  Finding the source, we must surrender to Him in the manner described in this chapter, and then will attain the divine Abode of God, from where we will not return to the material world again.  ",
+            "Shree Krishna then describes how the souls in this world are divine, being His eternal fragmental parts.  But bound by material nature, they are struggling with the six senses including the mind.  He explains how the embodied soul, though divine, savors the material objects of the senses.  He also describes how the soul transmigrates to a new body at the time of death, carrying with it the mind and senses from the present life.  The ignorant neither realize the presence of the soul in the body, nor when it departs from it upon death.  But yogis perceive it with the eyes of knowledge and by the purity of their mind.  In the same way, God is also present in His creation, but He needs to be perceived with the eyes of knowledge.  Shree Krishna reveals how we can cognize the existence of God in this world through His glories that shine forth everywhere.  The chapter ends with explanations of the terms: kṣhar, akṣhar, and Puruṣhottam.  Kṣhar are the perishable beings of the material realm.  Akṣhar are the liberated beings in the Abode of God.  Puruṣhottam is the Supreme Divine Personality, who is the unchanging controller and sustainer of the world.  He is transcendental to both the perishable and imperishable beings.  He must be worshipped with all our being."
+        ],
+        "verses": [
+            {
+                "verseHeader": "",
+                "id": "",
+                "oneLiner": ""
+            }
+        ]
+    },
+    {
+        "chapterTitle": "Chapter 16",
+        "id": "16",
+        "briefDescription": "Daivāsura Sampad Vibhāg Yog : Yog through Discerning the Divine and Demoniac Natures",
+        "chapterTitleForChapterPage": "Chapter 16 : Daivāsura Sampad Vibhāg Yog",
+        "chapterSubTitleForChapterPage": "Yog through Discerning the Divine and Demoniac Natures",
+        "description": [
+            "In this chapter, Shree Krishna describes the two kinds of natures amongst human beings—the saintly and the demoniac. The saintly nature develops by following the instructions of the scriptures, cultivating the mode of goodness, and purifying the mind through spiritual practices. It leads to the enhancement of daivī sampatti (godly qualities), eventually culminating in God-realization. In contrast, there is also the demoniac nature that develops from associating with the modes of passion and ignorance, and embracing materialistic views. It breeds unwholesome traits in one’s personality, and eventually throws the soul into hellish kinds of existence.",
+            "The chapter begins by describing the saintly virtues of those endowed with a divine nature. It then goes on to describe the demoniac qualities that must be scrupulously shunned because they drag the soul further into ignorance and the samsara of life and death. Shree Krishna concludes the chapter by saying that the scriptures should be our authority in determining what should be done and what should not be done. We must understand these scriptural injunctions and then perform our actions in this world accordingly."
+        ],
+        "verses": [
+            {
+                "verseHeader": "",
+                "id": "",
+                "oneLiner": ""
+            }
+        ]
+    },
+    {
+        "chapterTitle": "Chapter 17",
+        "id": "17",
+        "briefDescription": "Śhraddhā Traya Vibhāg Yog : Yog through Discerning the Three Divisions of Faith",
+        "chapterTitleForChapterPage": "Chapter 17 : Śhraddhā Traya Vibhāg Yog",
+        "chapterSubTitleForChapterPage": "Yog through Discerning the Three Divisions of Faith",
+        "description": [
+            "In the fourteenth chapter, Shree Krishna had explained the three modes of material nature and the manner in which they hold sway over humans. In this seventeenth chapter, he goes into greater detail about the influence of the guṇas. First, he discusses the topic of faith and explains that nobody is devoid of faith, for it is an inseparable aspect of human nature. But depending upon the nature of their mind, people’s faith takes on a corresponding color—sāttvic, rājasic, or tāmasic. The nature of their faith determines the quality of their life. People also prefer food according to their dispositions. Shree Krishna classifies food into three categories and discusses the impact of each of these upon us. He then moves on to the topic of sacrifice (yajña) and how, in each of the three modes of nature, sacrifice takes on different forms. The chapter moves on to the subject of austerity (tapaḥ), and explains austerities of the body, speech, and mind. Each of these kinds of austerity takes on a different form as influenced by the mode of goodness, passion, or ignorance. The topic of charity (dān) is then discussed, and its three-fold divisions are described.",
+            "Finally, Shree Krishna goes beyond the three guṇas and explains the relevance and import of the words “Om Tat Sat,” which symbolize different aspects of the Absolute Truth. The syllable “Om” is a symbolic representation of the impersonal aspect of God; the syllable “Tat” is uttered for consecrating activities and ceremonies to the Supreme Lord; the syllable “Sat” means eternal goodness and virtue. Taken together, they usher the concept of transcendence. The chapter concludes by emphasizing the futility of acts of sacrifice, austerity, and charity, which are done without regard to the injunctions of the scriptures."
+        ],
+        "verses": [
+            {
+                "verseHeader": "",
+                "id": "",
+                "oneLiner": ""
+            }
+        ]
+    },
+    {
+        "chapterTitle": "Chapter 18",
+        "id": "18",
+        "briefDescription": "Mokṣha Sanyās Yog : Yog through the Perfection of Renunciation and Surrender",
+        "chapterTitleForChapterPage": "Chapter 18 : Mokṣha Sanyās Yog",
+        "chapterSubTitleForChapterPage": "Yog through the Perfection of Renunciation and Surrender",
+        "description": [
+            "The final chapter of the Bhagavad Gita is the longest and covers many subjects. Arjun initiates the topic of renunciation with a question about two commonly used Sanskrit words, sanyās (renunciation of actions) and tyāg (renunciation of desires). Both words come from roots words meaning “to abandon.” A sanyāsī (monk) is one who does not participate in family life and withdraws from society to practice sādhanā (spiritual discipline). A tyāgī is one who engages in activities but gives up selfish desire for enjoying the rewards of actions (this is the connotation of the word in the Gita). Shree Krishna recommends the second kind of renunciation. He advises that sacrifice, charity, penance, and other acts of duty should never be renounced, for they purify even the wise. Rather, they should be performed as a matter of duty simply because they ought to be done, without any attachment to the fruits of these actions.",
+            "Then, Shree Krishna goes into a detailed analysis of the three factors that motivate action, the three constituents of action, and the five factors that contribute to the result of action. He describes each of these in terms of the three guṇas. He establishes that those with deficient understanding see themselves as the only cause of their works. But the enlightened souls, with purified intellect, neither consider themselves as the doer nor the enjoyer of their actions. Ever detached from the fruits of what they do, they are not bound in karmic reactions. The chapter then explains why people differ in their motives and activities. According to the three modes of material nature, it describes the kinds of knowledge, the types of actions, and the categories of performers. It then offers the same analysis for the intellect, resolve, and happiness. The chapter then goes on to paint a picture of those who have attained perfection in spiritual life and are situated in Brahman-realization. It adds that even such perfect yogis find completion in their realization by engaging in bhakti. Thus, the secret of the Supreme Divine Personality can only be known through loving devotion.",
+            "Shree Krishna then reminds Arjun that God dwells in the hearts of all living beings, and directs their wanderings according to their karmas. If we remember him and dedicate all our activities to him, taking shelter of him and making him our supreme goal, then by his grace we will overcome all obstacles and difficulties. But if, motivated by pride, we act according to our whims, we will not attain success. Finally, Shree Krishna reveals that the most confidential knowledge is to abandon all varieties of religiosity and simply surrender to God. However, this knowledge should not be given to those who are not austere or devoted, for they will misinterpret it and mis-utilize it to irresponsibly abandon actions. But if we explain this confidential knowledge to qualified souls, it is the greatest act of love and is very pleasing to God.",
+            "Arjun then informs Shree Krishna that his illusion is dispelled and he is ready to act as instructed. In the end, Sanjay, who has been narrating the dialogue to the blind king Dhritarashtra remarks how amazed and astounded he is on hearing the divine conversation. His hair stands on end in ecstasy, as he recalls the sacred dialogue and remembers the stupendous cosmic form of God. He concludes with a profound pronouncement that victory will always be on the side of God and his pure devotee, and so will goodness, supremacy, and opulence, for the darkness of falsehood will always be vanquished by the light of the Absolute Truth."
+        ],
+        "verses": [
+            {
+                "verseHeader": "",
+                "id": "",
+                "oneLiner": ""
+            }
+        ]
+    }
+]

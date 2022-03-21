@@ -1,0 +1,50 @@
+<project name="BCE Links management" default="all" basedir="../">
+
+	<path id="compile.classpath">
+		<path location="${lib.home}" />
+	</path>
+
+	<!-- Should Java compilations set the debug compiler option? -->
+	<property name="compile.debug" value="true" />
+
+	<!-- Should Java compilations set the deprecation compiler option? -->
+	<property name="compile.deprecation" value="false" />
+
+	<!-- Should Java compilations set the optimize compiler option? -->
+	<property name="compile.optimize" value="true" />
+
+	<!-- The base directory for distribution targets -->
+	<property name="dist.home" value="dist" />
+
+	<!-- The base directory for release targets -->
+	<property name="classes.home" value="classes" />
+
+	<!-- The base directory for lib targets -->
+	<property name="lib.home" value="lib" />
+
+	<!-- Source directory -->
+	<property name="src.dir" value="src" />
+
+	<!--  Application name -->
+	<property name="app.name" value="com.prem.bce.links.mgmt-v1.2" />
+
+	<target name="init">
+		<echo message="--------- ${project.name} ${project.version} ---------" />
+		<echo message="" />
+
+		<echo message="java.class.path = ${java.class.path}" />
+		<echo message="java.home = ${java.home}" />
+		<echo message="user.home = ${user.home}" />
+	</target>
+
+	<target name="compile" depends="init">
+		<javac srcdir="${src.dir}" destdir="${classes.home}" debug="${compile.debug}" optimize="${compile.optimize}" deprecation="${compile.deprecation}">
+			<classpath refid="compile.classpath" />
+		</javac>
+
+		<jar jarfile="${dist.home}/${app.name}.jar" basedir="${classes.home}" includes="**" />
+	</target>
+
+	<target name="all" depends="compile" description="Clean and build library and web applications" />
+
+</project>

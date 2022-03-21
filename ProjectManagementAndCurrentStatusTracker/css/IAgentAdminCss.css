@@ -1,0 +1,84 @@
+/* CSS file */
+@namespace s "library://ns.adobe.com/flex/spark";
+@namespace mx "library://ns.adobe.com/flex/mx";
+
+
+global
+{
+	backgroundAlpha: 1.0; 
+	backgroundSize: "auto";
+
+
+	fillAlphas: 0.3, 0.3, 0.85, 0.75;
+	fillColors: #6C8AA4, #BFD5E8, #5AA0C3, #A8D0E2;
+	
+	
+	themeColor: #f29d49 ;	
+	rollOverColor: #f29d49 ;
+	selectionColor: #f29d49 ;
+	
+	modal-transparency-color:black;
+	disabled-color:black;
+	
+}
+
+
+s|Application{
+
+background-color:#e7e7e7;
+
+}
+
+mx|ApplicationControlBar
+{
+
+ padding-left:10;
+ horizontal-gap:15;
+ border-skin:Embed(source='css/icons/top header.jpg');
+
+}
+
+.myPanelInternal {
+	border-thickness-top:1; 
+	border-thickness-bottom:1;
+	border-thickness-left:1;
+	border-thickness-right:1;
+	
+	border-color:white; 
+	header-height:0px;
+
+}
+
+
+.myPanelStyle
+{
+	
+	background-alpha:1;
+	border-alpha:1;
+	border-color:#5798ea;  
+	/*  border-color:#3583ea; */
+	/*  border-color:#717171; */
+	/* font-family:"Avenir Book"; */
+	/* header-colors:#3583ea,#3583ea; */
+	
+	title-background-skin:Embed(source='css/icons/panelHeader.png');
+	border-thickness-top:0; 
+	border-thickness-bottom:2;
+	border-thickness-left:2;
+	border-thickness-right:2;
+	drop-shadow-enabled:false;
+	header-height:20px;
+	titleStyleName:"panelHeaderStyle";
+	color:#000000;
+		
+}
+
+.panelHeaderStyle
+{
+	
+	color:white;
+	font-size: 15pt; 
+	
+}
+
+

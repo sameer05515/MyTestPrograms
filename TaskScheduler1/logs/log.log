@@ -1,0 +1,9 @@
+08-09-2020 23:24:00.391 [scheduling-1] DEBUG c.e.T.TaskSchedulerApplication.run - CurrentDate - CurrentTime Tue-09-08-2324  2324
+08-09-2020 23:24:00.422 [scheduling-1] DEBUG c.e.T.TaskSchedulerApplication.run - hello
+08-09-2020 23:24:00.423 [scheduling-1] DEBUG c.e.T.TaskSchedulerApplication.run - =============================================
+08-09-2020 23:25:14.825 [main] INFO  c.e.T.TaskSchedulerApplicationTests.logStarting - Starting TaskSchedulerApplicationTests on ASFICPL270578L1 with PID 12368 (started by premendra.kumar in D:\Prem\GIT-PROJ\MyTestPrograms\TaskScheduler1)
+08-09-2020 23:25:14.832 [main] DEBUG c.e.T.TaskSchedulerApplicationTests.logStarting - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+08-09-2020 23:25:14.833 [main] INFO  c.e.T.TaskSchedulerApplicationTests.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+08-09-2020 23:25:15.705 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler.initialize - Initializing ExecutorService 'taskScheduler'
+08-09-2020 23:25:15.769 [main] INFO  c.e.T.TaskSchedulerApplicationTests.logStarted - Started TaskSchedulerApplicationTests in 1.24 seconds (JVM running for 2.809)
+08-09-2020 23:25:16.087 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler.shutdown - Shutting down ExecutorService 'taskScheduler'
