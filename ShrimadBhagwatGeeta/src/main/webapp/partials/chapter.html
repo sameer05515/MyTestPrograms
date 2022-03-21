@@ -1,0 +1,56 @@
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-sm-16 headingBg">
+            <div class="row">
+            <span>Bhagavad Gita : </span>
+                <span>{{chapterObj.chapterTitleForChapterPage}}</span>
+                ( <span style="font-size: smaller;">{{chapterObj.chapterSubTitleForChapterPage}}</span> )
+            </div>
+
+            <div class="row" style="text-align: center;font-size: smaller;color: #f1f5f0;">
+                <a href="#/"><b>HOME</b></a>
+            </div>
+
+            <div class="row" style="font-size: smaller;color: #f1f5f0;">
+                <div class="col-sm-6">
+                    <a href="{{chapterObj.previousChapterUrl}}" class="pull-left"><b>Previous Chapter</b></a>
+                </div>
+                <div class="col-sm-2"></div>
+                <div class="col-sm-6">
+                    <a href="{{chapterObj.nextChapterUrl}}" class="pull-right"><b>Next Chapter</b></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="col-sm-16">
+            <span>{{chapterObj.chapterTitleForChapterPage}}</span>
+        </div>
+        
+        <div class="col-sm-16">
+            <span>{{chapterObj.chapterSubTitleForChapterPage}}</span>
+        </div> -->
+        <br>
+        <div class="col-sm-16">
+            <div ng-repeat="desc in chapterObj.description">{{desc}}</div>
+        </div>
+        <div ng-repeat="verse in chapterObj.verses" class="col-sm-16 panel panel-default">
+            <!-- <pre>{{verse|json}}</pre> -->
+            <div class="panel-heading">
+                <a href="{{verse.currentVerseUrl}}">
+                    <b>{{verse.verseHeader}}</b>
+                </a>
+            </div>
+            <div class="panel-body">
+                <div style="font-style: italic; font-weight: bold;text-align: center;"
+                    ng-repeat="shlokData in verse.shlok">
+                    {{shlokData.value}}
+                </div>
+                <div>
+                    {{verse.oneLiner}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

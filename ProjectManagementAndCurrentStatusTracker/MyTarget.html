@@ -1,0 +1,421 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+	<head>
+	<!--<link rel="stylesheet" type="text/css;" href="css/lipstick.css">-->
+	<script src="http://127.0.0.1:8080/ProjectManagementAndCurrentStatusTracker/jquery/jquery-2.0.3.min.js" type="text/javascript"></script>
+	<script src="http://127.0.0.1:8080/ProjectManagementAndCurrentStatusTracker/jquery/customQuery.js" type="text/javascript"></script>
+	<style>
+	/* 
+		Document   : lipstick
+		Created on : Feb 25, 2012, 12:11:05 PM
+		Author     : PREMENDRA
+		Description:
+			Purpose of the stylesheet follows.
+	*/
+
+
+	h1#title{
+		color: red
+
+	}
+
+	table {
+	margin-left: 20px;
+	margin-right: 20px;
+	border: thin solid black;
+	border-collapse: collapse;
+	}
+	th {
+		border: 3px solid red;
+		background-color: #cc6600;
+	}
+	td{
+		border: 1px solid black ; font: 900;
+	}
+	head{
+		color: red
+
+	}
+	body {
+		text-decoration: deeppink;
+		background-color: #d2b31c;
+		margin-left: 5%;
+		margin-right: 5%;
+		border: 1px dotted gray;
+		padding: 10px 10px 10px 10px;
+		font-family: sans-serif;
+		
+		background-image: url(http://127.0.0.1:8080/ProjectManagementAndCurrentStatusTracker/css/prem.jpg);
+		/*
+		background-image: url(http://127.0.0.1:8080/bce/css/prem.jpg);
+		background-repeat: no-repeat;
+		background-position-x: center;
+		background-position-y: center;
+		*/
+		
+		/* background-image: url(prem.jpg);
+		background-image: url(cross1.png);
+		background-repeat: no-repeat;
+		background-position-x: middle;
+		background-position-y: center;*/
+		border-style: dashed;
+		border-color: red;
+	}
+
+	/**font{
+		color: white;
+	}*/
+	</style>
+	
+	<title>PROJECT MONITORING TOOL</title>
+	</head>
+
+
+	<body>
+		<!--
+		<div id="showtextuyt" style=" height:75%; width:50%; padding: 50px; overflow:scroll;">
+		-->
+		
+			<h1>MY TARGET</h1><br/>
+			<!--<h3>To have an idea for project database design please follow <a href="ProjectManagementAndCurrentStatusTracker.xml">this xml</a></h3>-->
+
+
+			<hr/>
+			
+			<!-- ######################################################################## -->
+			
+			DATED : 08/JULY/2014<span id="guess_box_ques_ans">
+								<img src="http://127.0.0.1:8080/ProjectManagementAndCurrentStatusTracker/css/icons/tab_navigator_long_header_b.png"/>
+								</span>
+			
+			<DIV ID="guess_box_ques_ans_div">
+				
+				<P>
+					<h2>PLAN : -<span id="guess_box">
+									<img src="http://127.0.0.1:8080/ProjectManagementAndCurrentStatusTracker/css/icons/Arrow_Right_Icon_orange.png"/>
+									</span></h2>
+					<DIV ID="guess_box_div">
+						<H3>
+							<UL>
+								<LI>CONFIDENCE
+									<UL>
+										<LI>MATHEMATICS</LI>
+										<LI>REASONING</LI>
+										<LI>GENERAL KNOWLEDGE</LI>
+										<LI>CURRENT AFFAIRS</LI>
+									</UL>
+								</LI>
+								
+								<LI>COMMUNICATION SKILLS
+									<UL>
+										<LI>ENGLISH GRAMMAR</LI>
+										<LI>VOCABULARY</LI>										
+									</UL>
+								</LI>
+								
+								<LI>INTERVIEW QUESTIONS
+									<UL>
+										<LI>CORE JAVA</LI>
+										<LI>REFLECTION API</LI>
+										<LI>STRUTS 1 & 2 </LI>
+										<LI>JSP/SERVLET</LI>
+										<LI>HIBERNATE</LI>
+										<LI>WEB SERVICES (APACHE AXIS API  & APACHE CXF)</LI>
+										<LI>COLLECTION API </LI>
+										<LI>JDBC </LI>
+										<LI>APACHE SOLR API</LI>
+										<LI>RMI</LI>
+										<LI>RPC</LI>
+										<LI>DBMS PACKAGES : ORACLE 9I, ACCESS, SQL SERVER, POSTGRESQL , SQLITE</LI>
+										<LI>OPERATING SYSTEMS: WINDOWS, LINUX</LI>
+										<LI>HTML, XML, UML</LI>
+										<LI>TCP/IP</LI>
+										<LI>WEB SERVERS	 : WEB LOGIC 8.1, WEB LOGIC 10.3, TOMCAT</LI>
+										<LI>ADOBE FLEX 4, JAVASCRIPT, CSS, APACHE ANT</LI>
+										<LI>ECLIPSE, NET BEANS, ADOBE FLASH BUILDER 4.1 & 4.6</LI>
+										<LI>APACHE BIRT</LI>
+										<LI>DESIGN PATTERNS</LI>
+										<LI>VOCTIONAL TRAINING : E-10B, OCB (TAX), &MOBILE COMMUNICATION(AN OVERVIEW OF GSM TECHNOLOGY)</LI>
+										<LI>CURRENT PROJECT:-
+											<UL>
+												<LI>(A) SERVICE-CHANNEL GENERATION MODULE</LI>
+												<LI>(B) USER-MANAGEMENT MODULE</LI>
+												<LI>(C) KNOWLEDGE-BASE MODULE</LI>
+												<LI>(D)SURVEY -USER AND ADMIN MODULE</LI>
+												<LI>(E) REPORT - GENERATION MODULE USING BIRT</LI>
+												<LI>(F) PDF- SEARCH USING APACHE SOLR</LI>
+											</UL>
+										</LI>
+									</UL>
+								</LI>
+							</UL>
+						</H3>
+					</DIV>
+				</P>
+				
+				<!--<p>
+					<h2>Generate the "Reporting part" : -<span id="guess_box_ques">
+									<img src="css/icons/Arrow_Right_Icon_blue.png"/>
+									</span></h2>
+					<div id="guess_box_ques_div">
+						<h3>
+							<ul>
+								<li>How many users are there in database?</li>
+								<li>How many projects are there in database?</li>
+								<li>What is current status of each project?</li>
+								<li>Total time elapsed in each project?</li>
+							</ul>
+						</h3>
+					</div>
+				</p>-->
+			</div>
+			<hr/>
+			
+			<!-- ######################################################################## -->
+			
+			<!--
+			dated : 13/10/2013<span id="guess_box_ques_ans_13">
+								<img src="css/icons/tab_navigator_long_header_b.png"/>
+								</span>
+			<div id="guess_box_ques_ans_div_13">
+						<p>
+							<h2>Table Design : -<span id="guess_box_13">
+											<img src="css/icons/Arrow_Right_Icon_orange.png"/>
+											</span></h2>
+							<div id="guess_box_div_13">
+								<h3>
+									<ul>
+										<li>Tables are designed in PostgreSql</li>
+										<li>Hibernate is used as ORM Persistence tool</li>
+										<li>Following tables are designed : -  
+											<ol>
+												<li>t_project
+													<ul>
+														<li>	table tructure :	
+																<p>
+																CREATE TABLE t_project
+																(
+																  id integer NOT NULL,
+																  "name" character varying(255) NOT NULL,
+																  created_by bigint NOT NULL,
+																  project_type integer NOT NULL,
+																  CONSTRAINT t_project_pkey PRIMARY KEY (id),
+																  CONSTRAINT fka9223e4ec161032e FOREIGN KEY (project_type)
+																	  REFERENCES t_project_type (id) MATCH SIMPLE
+																	  ON UPDATE NO ACTION ON DELETE NO ACTION,
+																  CONSTRAINT fka9223e4ecc5bd89e FOREIGN KEY (created_by)
+																	  REFERENCES t_user (id) MATCH SIMPLE
+																	  ON UPDATE NO ACTION ON DELETE NO ACTION
+																)
+																WITH (
+																  OIDS=FALSE
+																);
+																ALTER TABLE t_project OWNER TO postgres;
+																</p>														
+														</li>
+													</ul>												
+												</li>
+												
+												<li>t_project_history
+													<ul>
+														<li>	table tructure :	
+																<p>
+																CREATE TABLE t_project_history
+																(
+																  id integer NOT NULL,
+																  updated_on timestamp without time zone NOT NULL,
+																  assigned_to bigint,
+																  next_hand_over_to bigint,
+																  linked_project_history integer,
+																  linked_project integer NOT NULL,
+																  updated_by bigint NOT NULL,
+																  CONSTRAINT t_project_history_pkey PRIMARY KEY (id),
+																  CONSTRAINT fkeaad9ba3634d2427 FOREIGN KEY (linked_project)
+																	  REFERENCES t_project (id) MATCH SIMPLE
+																	  ON UPDATE NO ACTION ON DELETE NO ACTION,
+																  CONSTRAINT fkeaad9ba3691bc1eb FOREIGN KEY (updated_by)
+																	  REFERENCES t_user (id) MATCH SIMPLE
+																	  ON UPDATE NO ACTION ON DELETE NO ACTION,
+																  CONSTRAINT fkeaad9ba3ba989c08 FOREIGN KEY (linked_project_history)
+																	  REFERENCES t_project_history (id) MATCH SIMPLE
+																	  ON UPDATE NO ACTION ON DELETE NO ACTION,
+																  CONSTRAINT fkeaad9ba3d4db4f52 FOREIGN KEY (next_hand_over_to)
+																	  REFERENCES t_user (id) MATCH SIMPLE
+																	  ON UPDATE NO ACTION ON DELETE NO ACTION,
+																  CONSTRAINT fkeaad9ba3e28c1a1c FOREIGN KEY (assigned_to)
+																	  REFERENCES t_user (id) MATCH SIMPLE
+																	  ON UPDATE NO ACTION ON DELETE NO ACTION
+																)
+																WITH (
+																  OIDS=FALSE
+																);
+																ALTER TABLE t_project_history OWNER TO postgres;
+																</p>														
+														</li>
+													</ul>												
+												</li>
+												
+												<li>t_project_type
+													<ul>
+														<li>	table tructure :	
+																<p>
+																CREATE TABLE t_project_type
+																(
+																  id integer NOT NULL,
+																  deleted boolean NOT NULL,
+																  "name" character varying(255) NOT NULL,
+																  CONSTRAINT t_project_type_pkey PRIMARY KEY (id)
+																)
+																WITH (
+																  OIDS=FALSE
+																);
+																ALTER TABLE t_project_type OWNER TO postgres;
+																</p>														
+														</li>
+													</ul>												
+												</li>
+												
+												<li>t_ticket_detail
+													<ul>
+														<li>	table tructure :	
+																<p>
+																CREATE TABLE t_ticket_detail
+																(
+																  id integer NOT NULL,
+																  created_on timestamp without time zone NOT NULL,
+																  created_by bigint NOT NULL,
+																  linked_project integer NOT NULL,
+																  CONSTRAINT t_ticket_detail_pkey PRIMARY KEY (id),
+																  CONSTRAINT fk55fb5c59634d2427 FOREIGN KEY (linked_project)
+																	  REFERENCES t_project (id) MATCH SIMPLE
+																	  ON UPDATE NO ACTION ON DELETE NO ACTION,
+																  CONSTRAINT fk55fb5c59cc5bd89e FOREIGN KEY (created_by)
+																	  REFERENCES t_user (id) MATCH SIMPLE
+																	  ON UPDATE NO ACTION ON DELETE NO ACTION
+																)
+																WITH (
+																  OIDS=FALSE
+																);
+																ALTER TABLE t_ticket_detail OWNER TO postgres;
+																</p>														
+														</li>
+													</ul>												
+												</li>
+												
+												<li>t_ticket_history
+													<ul>
+														<li>	table tructure :	
+																<p>
+																CREATE TABLE t_ticket_history
+																(
+																  id integer NOT NULL,
+																  description character varying(2000),
+																  updated_on timestamp without time zone NOT NULL,
+																  linked_ticket integer NOT NULL,
+																  next_ticket integer,
+																  status_changed_to integer NOT NULL,
+																  updated_by bigint NOT NULL,
+																  CONSTRAINT t_ticket_history_pkey PRIMARY KEY (id),
+																  CONSTRAINT fk43d7218c34e60934 FOREIGN KEY (linked_ticket)
+																	  REFERENCES t_ticket_detail (id) MATCH SIMPLE
+																	  ON UPDATE NO ACTION ON DELETE NO ACTION,
+																  CONSTRAINT fk43d7218c691bc1eb FOREIGN KEY (updated_by)
+																	  REFERENCES t_user (id) MATCH SIMPLE
+																	  ON UPDATE NO ACTION ON DELETE NO ACTION,
+																  CONSTRAINT fk43d7218c6c512b9b FOREIGN KEY (next_ticket)
+																	  REFERENCES t_ticket_history (id) MATCH SIMPLE
+																	  ON UPDATE NO ACTION ON DELETE NO ACTION,
+																  CONSTRAINT fk43d7218ce5d573d3 FOREIGN KEY (status_changed_to)
+																	  REFERENCES t_ticket_states (id) MATCH SIMPLE
+																	  ON UPDATE NO ACTION ON DELETE NO ACTION
+																)
+																WITH (
+																  OIDS=FALSE
+																);
+																ALTER TABLE t_ticket_history OWNER TO postgres;
+																</p>														
+														</li>
+													</ul>												
+												</li>
+												
+												<li>t_ticket_states
+													<ul>
+														<li>	table tructure :	
+																<p>
+																CREATE TABLE t_ticket_states
+																(
+																  id integer NOT NULL,
+																  "name" character varying(255) NOT NULL,
+																  CONSTRAINT t_ticket_states_pkey PRIMARY KEY (id)
+																)
+																WITH (
+																  OIDS=FALSE
+																);
+																ALTER TABLE t_ticket_states OWNER TO postgres;
+																</p>														
+														</li>
+													</ul>												
+												</li>
+												
+												<li>t_user
+													<ul>
+														<li>	table tructure :	
+																<p>
+																CREATE TABLE t_user
+																(
+																  id bigint NOT NULL,
+																  address character varying(255) NOT NULL,
+																  date_of_birth timestamp without time zone NOT NULL,
+																  "name" character varying(255) NOT NULL,
+																  CONSTRAINT t_user_pkey PRIMARY KEY (id)
+																)
+																WITH (
+																  OIDS=FALSE
+																);
+																ALTER TABLE t_user OWNER TO postgres;
+																</p>														
+														</li>
+													</ul>												
+												</li>
+											</ol>
+										</li>
+									</ul>
+								</h3>
+							</div>
+						</p>
+			
+			</div>
+			<hr/>-->
+			
+			
+			<!-- ######################################################################## -->
+			<!--dated : 21/10/2013<span id="guess_box_ques_ans_21">
+								<img src="css/icons/tab_navigator_long_header_b.png"/>
+								</span>
+			<div id="guess_box_ques_ans_div_21">
+						<p>
+							<h2>Tasks Done Today : -<span id="guess_box_21">
+											<img src="css/icons/Arrow_Right_Icon_orange.png"/>
+											</span></h2>
+							<div id="guess_box_div_21">
+								<h3>
+									<ul>
+										<li>Flex application created</li>
+										<li>Java project created</li>
+										<li>Created build file</li>
+										<li>Deployed ticketing application in folder "C:\APPLN_SERVERS\apache-tomcat-6.0.35\apache-tomcat-6.0.35\webapps\jarupload"</li>
+										<li>Service created for fetching all project types from database and showing in flex application</li>
+									</ul>
+								</h3>
+							</div>
+			</div>
+			<hr/>-->
+			
+			<!-- ######################################################################## -->
+
+		<!--
+		</div>
+		-->
+	</body>
+</html>

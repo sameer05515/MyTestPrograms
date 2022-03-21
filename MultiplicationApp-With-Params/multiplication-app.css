@@ -1,0 +1,11 @@
+[multiplication-table] > div {
+  display:block;
+}
+
+[multiplication-table] > div > div{
+  display:inline-block;
+  border:1px solid #ddd;
+  width:30px;
+  line-height:20px;
+  text-align:center;
+}

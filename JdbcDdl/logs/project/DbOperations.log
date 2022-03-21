@@ -1,0 +1,366 @@
+2017-07-26 22:00:42 INFO  JdbcDdlExample:35 - 
+=======CREATE tutorialDb DATABASE=======
+2017-07-26 22:00:42 INFO  JdbcDdlExample:37 - 
+=======DATABASE IS SUCCESSFULLY CREATED=======
+
+2017-07-26 22:00:42 INFO  JdbcDdlExample:39 - 
+=======USING tutorialDb DATABASE=======
+
+2017-07-26 22:00:42 INFO  JdbcDdlExample:43 - 
+=======CREATE employee TABLE=======
+2017-07-26 22:00:43 INFO  JdbcDdlExample:45 - 
+=======TABLE IS SUCCESSFULLY CREATED=======
+
+2017-07-26 22:00:43 INFO  JdbcDdlExample:47 - 
+=======SHOW TABLE STRUCTURE=======
+2017-07-26 22:00:43 INFO  JdbcDdlExample:111 - employee Columns Are?= (emp_id, emp_fname, emp_lname)
+
+2017-07-26 22:00:43 INFO  JdbcDdlExample:51 - 
+=======ALTER employee TABLE=======
+2017-07-26 22:00:44 INFO  JdbcDdlExample:53 - 
+=======TABLE IS SUCCESSFULLY ALTERED=======
+
+2017-07-26 22:00:44 INFO  JdbcDdlExample:55 - 
+=======SHOW TABLE STRUCTURE=======
+2017-07-26 22:00:44 INFO  JdbcDdlExample:111 - employee Columns Are?= (emp_id, emp_fname, emp_lname, emp_joining_date)
+
+2017-07-26 22:00:44 INFO  JdbcDdlExample:59 - 
+=======ALTER employee TABLE WITH AFTER CLAUSE=======
+2017-07-26 22:00:45 INFO  JdbcDdlExample:61 - 
+=======TABLE IS SUCCESSFULLY ALTERED=======
+
+2017-07-26 22:00:45 INFO  JdbcDdlExample:63 - 
+=======SHOW TABLE STRUCTURE=======
+2017-07-26 22:00:45 INFO  JdbcDdlExample:111 - employee Columns Are?= (emp_id, emp_fname, emp_lname, emp_dob, emp_joining_date)
+
+2017-07-26 22:00:45 INFO  JdbcDdlExample:67 - 
+=======DROP COLUMN=======
+2017-07-26 22:00:45 INFO  JdbcDdlExample:69 - 
+=======COLUMN IS SUCCESSFULLY DROPPED FROM THE TABLE=======
+
+2017-07-26 22:00:45 INFO  JdbcDdlExample:71 - 
+=======SHOW TABLE STRUCTURE=======
+2017-07-26 22:00:45 INFO  JdbcDdlExample:111 - employee Columns Are?= (emp_id, emp_fname, emp_dob, emp_joining_date)
+
+2017-07-26 22:00:45 INFO  JdbcDdlExample:75 - 
+=======DROP TABLE=======
+2017-07-26 22:00:45 INFO  JdbcDdlExample:77 - 
+=======TABLE IS SUCCESSFULLY DROPPED FROM THE DATABASE=======
+
+2017-07-26 22:00:45 INFO  JdbcDdlExample:80 - 
+=======DROP DATABASE=======
+2017-07-26 22:00:46 INFO  JdbcDdlExample:82 - 
+=======DATABASE IS SUCCESSFULLY DROPPED=======
+2020-06-13 15:28:35 INFO  JdbcDdlExample:37 - 
+=======CREATE tutorialDb DATABASE=======
+2020-06-13 15:28:35 INFO  JdbcDdlExample:39 - 
+=======DATABASE IS SUCCESSFULLY CREATED=======
+
+2020-06-13 15:28:35 INFO  JdbcDdlExample:41 - 
+=======USING tutorialDb DATABASE=======
+
+2020-06-13 15:28:35 INFO  JdbcDdlExample:45 - 
+=======CREATE employee TABLE=======
+2020-06-13 15:28:35 INFO  JdbcDdlExample:47 - 
+=======TABLE IS SUCCESSFULLY CREATED=======
+
+2020-06-13 15:28:35 INFO  JdbcDdlExample:49 - 
+=======SHOW TABLE STRUCTURE=======
+2020-06-13 15:28:35 INFO  JdbcDdlExample:115 - employee Columns Are?= (emp_id, emp_fname, emp_lname)
+
+2020-06-13 15:28:35 INFO  JdbcDdlExample:53 - 
+=======ALTER employee TABLE=======
+2020-06-13 15:28:36 INFO  JdbcDdlExample:55 - 
+=======TABLE IS SUCCESSFULLY ALTERED=======
+
+2020-06-13 15:28:36 INFO  JdbcDdlExample:57 - 
+=======SHOW TABLE STRUCTURE=======
+2020-06-13 15:28:36 INFO  JdbcDdlExample:115 - employee Columns Are?= (emp_id, emp_fname, emp_lname, emp_joining_date)
+
+2020-06-13 15:28:36 INFO  JdbcDdlExample:61 - 
+=======ALTER employee TABLE WITH AFTER CLAUSE=======
+2020-06-13 15:28:37 INFO  JdbcDdlExample:63 - 
+=======TABLE IS SUCCESSFULLY ALTERED=======
+
+2020-06-13 15:28:37 INFO  JdbcDdlExample:65 - 
+=======SHOW TABLE STRUCTURE=======
+2020-06-13 15:28:37 INFO  JdbcDdlExample:115 - employee Columns Are?= (emp_id, emp_fname, emp_lname, emp_dob, emp_joining_date)
+
+2020-06-13 15:28:37 INFO  JdbcDdlExample:69 - 
+=======DROP COLUMN=======
+2020-06-13 15:28:37 INFO  JdbcDdlExample:71 - 
+=======COLUMN IS SUCCESSFULLY DROPPED FROM THE TABLE=======
+
+2020-06-13 15:28:37 INFO  JdbcDdlExample:73 - 
+=======SHOW TABLE STRUCTURE=======
+2020-06-13 15:28:37 INFO  JdbcDdlExample:115 - employee Columns Are?= (emp_id, emp_fname, emp_dob, emp_joining_date)
+
+2020-06-13 15:28:37 INFO  JdbcDdlExample:79 - 
+=======DROP TABLE=======
+2020-06-13 15:28:37 INFO  JdbcDdlExample:81 - 
+=======TABLE IS SUCCESSFULLY DROPPED FROM THE DATABASE=======
+
+2020-06-13 15:29:20 INFO  JdbcDdlExample:37 - 
+=======CREATE tutorialDb DATABASE=======
+2020-06-13 15:29:20 INFO  JdbcDdlExample:39 - 
+=======DATABASE IS SUCCESSFULLY CREATED=======
+
+2020-06-13 15:29:20 INFO  JdbcDdlExample:41 - 
+=======USING tutorialDb DATABASE=======
+
+2020-06-13 15:29:20 INFO  JdbcDdlExample:45 - 
+=======CREATE employee TABLE=======
+2020-06-13 15:29:20 INFO  JdbcDdlExample:47 - 
+=======TABLE IS SUCCESSFULLY CREATED=======
+
+2020-06-13 15:29:20 INFO  JdbcDdlExample:49 - 
+=======SHOW TABLE STRUCTURE=======
+2020-06-13 15:29:20 INFO  JdbcDdlExample:115 - employee Columns Are?= (emp_id, emp_fname, emp_lname)
+
+2020-06-13 15:29:20 INFO  JdbcDdlExample:53 - 
+=======ALTER employee TABLE=======
+2020-06-13 15:29:20 INFO  JdbcDdlExample:55 - 
+=======TABLE IS SUCCESSFULLY ALTERED=======
+
+2020-06-13 15:29:20 INFO  JdbcDdlExample:57 - 
+=======SHOW TABLE STRUCTURE=======
+2020-06-13 15:29:20 INFO  JdbcDdlExample:115 - employee Columns Are?= (emp_id, emp_fname, emp_lname, emp_joining_date)
+
+2020-06-13 15:29:20 INFO  JdbcDdlExample:61 - 
+=======ALTER employee TABLE WITH AFTER CLAUSE=======
+2020-06-13 15:29:21 INFO  JdbcDdlExample:63 - 
+=======TABLE IS SUCCESSFULLY ALTERED=======
+
+2020-06-13 15:29:21 INFO  JdbcDdlExample:65 - 
+=======SHOW TABLE STRUCTURE=======
+2020-06-13 15:29:21 INFO  JdbcDdlExample:115 - employee Columns Are?= (emp_id, emp_fname, emp_lname, emp_dob, emp_joining_date)
+
+2020-06-13 15:29:21 INFO  JdbcDdlExample:69 - 
+=======DROP COLUMN=======
+2020-06-13 15:29:21 INFO  JdbcDdlExample:71 - 
+=======COLUMN IS SUCCESSFULLY DROPPED FROM THE TABLE=======
+
+2020-06-13 15:29:21 INFO  JdbcDdlExample:73 - 
+=======SHOW TABLE STRUCTURE=======
+2020-06-13 15:29:21 INFO  JdbcDdlExample:115 - employee Columns Are?= (emp_id, emp_fname, emp_dob, emp_joining_date)
+
+2020-06-13 15:50:09 INFO  JdbcDdlExample:37 - 
+=======CREATE tutorialDb DATABASE=======
+2020-06-13 15:50:09 INFO  JdbcDdlExample:39 - 
+=======DATABASE IS SUCCESSFULLY CREATED=======
+
+2020-06-13 15:50:09 INFO  JdbcDdlExample:41 - 
+=======USING tutorialDb DATABASE=======
+
+2020-06-13 15:50:09 INFO  JdbcDdlExample:45 - 
+=======CREATE employee TABLE=======
+2020-06-13 15:50:10 INFO  JdbcDdlExample:47 - 
+=======TABLE IS SUCCESSFULLY CREATED=======
+
+2020-06-13 15:50:10 INFO  JdbcDdlExample:49 - 
+=======SHOW TABLE STRUCTURE=======
+2020-06-13 15:50:10 INFO  JdbcDdlExample:116 - employee Columns Are?= (emp_id, emp_fname, emp_lname)
+
+2020-06-13 15:50:10 INFO  JdbcDdlExample:53 - 
+=======ALTER employee TABLE=======
+2020-06-13 15:50:10 INFO  JdbcDdlExample:55 - 
+=======TABLE IS SUCCESSFULLY ALTERED=======
+
+2020-06-13 15:50:10 INFO  JdbcDdlExample:57 - 
+=======SHOW TABLE STRUCTURE=======
+2020-06-13 15:50:10 INFO  JdbcDdlExample:116 - employee Columns Are?= (emp_id, emp_fname, emp_lname, emp_joining_date)
+
+2020-06-13 15:50:10 INFO  JdbcDdlExample:61 - 
+=======ALTER employee TABLE WITH AFTER CLAUSE=======
+2020-06-13 15:50:11 INFO  JdbcDdlExample:63 - 
+=======TABLE IS SUCCESSFULLY ALTERED=======
+
+2020-06-13 15:50:11 INFO  JdbcDdlExample:65 - 
+=======SHOW TABLE STRUCTURE=======
+2020-06-13 15:50:11 INFO  JdbcDdlExample:116 - employee Columns Are?= (emp_id, emp_fname, emp_lname, emp_dob, emp_joining_date)
+
+2020-06-13 15:50:11 INFO  JdbcDdlExample:69 - 
+=======DROP COLUMN=======
+2020-06-13 15:50:11 INFO  JdbcDdlExample:71 - 
+=======COLUMN IS SUCCESSFULLY DROPPED FROM THE TABLE=======
+
+2020-06-13 15:50:11 INFO  JdbcDdlExample:73 - 
+=======SHOW TABLE STRUCTURE=======
+2020-06-13 15:50:11 INFO  JdbcDdlExample:116 - employee Columns Are?= (emp_id, emp_fname, emp_dob, emp_joining_date)
+
+2020-06-13 15:54:51 INFO  JdbcDdlExample:37 - 
+=======CREATE tutorialDb DATABASE=======
+2020-06-13 15:54:51 INFO  JdbcDdlExample:39 - 
+=======DATABASE IS SUCCESSFULLY CREATED=======
+
+2020-06-13 15:54:51 INFO  JdbcDdlExample:41 - 
+=======USING tutorialDb DATABASE=======
+
+2020-06-13 15:54:51 INFO  JdbcDdlExample:45 - 
+=======CREATE employee TABLE=======
+2020-06-13 15:54:51 INFO  JdbcDdlExample:47 - 
+=======TABLE IS SUCCESSFULLY CREATED=======
+
+2020-06-13 15:54:51 INFO  JdbcDdlExample:49 - 
+=======SHOW TABLE STRUCTURE=======
+2020-06-13 15:54:51 INFO  JdbcDdlExample:121 - employee Columns Are?= (emp_id, emp_fname, emp_lname)
+
+2020-06-13 15:54:51 INFO  JdbcDdlExample:53 - 
+=======ALTER employee TABLE=======
+2020-06-13 15:54:52 INFO  JdbcDdlExample:55 - 
+=======TABLE IS SUCCESSFULLY ALTERED=======
+
+2020-06-13 15:54:52 INFO  JdbcDdlExample:57 - 
+=======SHOW TABLE STRUCTURE=======
+2020-06-13 15:54:52 INFO  JdbcDdlExample:121 - employee Columns Are?= (emp_id, emp_fname, emp_lname, emp_joining_date)
+
+2020-06-13 15:54:52 INFO  JdbcDdlExample:61 - 
+=======ALTER employee TABLE WITH AFTER CLAUSE=======
+2020-06-13 15:54:53 INFO  JdbcDdlExample:63 - 
+=======TABLE IS SUCCESSFULLY ALTERED=======
+
+2020-06-13 15:54:53 INFO  JdbcDdlExample:65 - 
+=======SHOW TABLE STRUCTURE=======
+2020-06-13 15:54:53 INFO  JdbcDdlExample:121 - employee Columns Are?= (emp_id, emp_fname, emp_lname, emp_dob, emp_joining_date)
+
+2020-06-13 15:54:53 INFO  JdbcDdlExample:69 - 
+=======DROP COLUMN=======
+2020-06-13 15:54:53 INFO  JdbcDdlExample:71 - 
+=======COLUMN IS SUCCESSFULLY DROPPED FROM THE TABLE=======
+
+2020-06-13 15:54:53 INFO  JdbcDdlExample:73 - 
+=======SHOW TABLE STRUCTURE=======
+2020-06-13 15:54:53 INFO  JdbcDdlExample:121 - employee Columns Are?= (emp_id, emp_fname, emp_dob, emp_joining_date)
+
+2020-06-13 16:06:05 INFO  JdbcDdlExample:42 - 
+=======CREATE tutorialDb DATABASE=======
+2020-06-13 16:06:05 INFO  JdbcDdlExample:44 - 
+=======DATABASE IS SUCCESSFULLY CREATED=======
+
+2020-06-13 16:06:05 INFO  JdbcDdlExample:46 - 
+=======USING tutorialDb DATABASE=======
+
+2020-06-13 16:06:05 INFO  JdbcDdlExample:50 - 
+=======CREATE employee TABLE=======
+2020-06-13 16:06:05 INFO  JdbcDdlExample:52 - 
+=======TABLE IS SUCCESSFULLY CREATED=======
+
+2020-06-13 16:06:05 INFO  JdbcDdlExample:54 - 
+=======SHOW TABLE STRUCTURE=======
+2020-06-13 16:06:05 INFO  JdbcDdlExample:126 - employee Columns Are?= (emp_id, emp_fname, emp_lname)
+
+2020-06-13 16:06:05 INFO  JdbcDdlExample:58 - 
+=======ALTER employee TABLE=======
+2020-06-13 16:06:07 INFO  JdbcDdlExample:60 - 
+=======TABLE IS SUCCESSFULLY ALTERED=======
+
+2020-06-13 16:06:07 INFO  JdbcDdlExample:62 - 
+=======SHOW TABLE STRUCTURE=======
+2020-06-13 16:06:07 INFO  JdbcDdlExample:126 - employee Columns Are?= (emp_id, emp_fname, emp_lname, emp_joining_date)
+
+2020-06-13 16:06:07 INFO  JdbcDdlExample:66 - 
+=======ALTER employee TABLE WITH AFTER CLAUSE=======
+2020-06-13 16:06:08 INFO  JdbcDdlExample:68 - 
+=======TABLE IS SUCCESSFULLY ALTERED=======
+
+2020-06-13 16:06:08 INFO  JdbcDdlExample:70 - 
+=======SHOW TABLE STRUCTURE=======
+2020-06-13 16:06:08 INFO  JdbcDdlExample:126 - employee Columns Are?= (emp_id, emp_fname, emp_lname, emp_dob, emp_joining_date)
+
+2020-06-13 16:06:08 INFO  JdbcDdlExample:74 - 
+=======DROP COLUMN=======
+2020-06-13 16:06:08 INFO  JdbcDdlExample:76 - 
+=======COLUMN IS SUCCESSFULLY DROPPED FROM THE TABLE=======
+
+2020-06-13 16:06:08 INFO  JdbcDdlExample:78 - 
+=======SHOW TABLE STRUCTURE=======
+2020-06-13 16:06:08 INFO  JdbcDdlExample:126 - employee Columns Are?= (emp_id, emp_fname, emp_dob, emp_joining_date)
+
+2020-06-13 16:33:06 INFO  JdbcDdlExample:43 - 
+=======CREATE tutorialDb DATABASE=======
+2020-06-13 16:33:06 INFO  JdbcDdlExample:45 - 
+=======DATABASE IS SUCCESSFULLY CREATED=======
+
+2020-06-13 16:33:06 INFO  JdbcDdlExample:47 - 
+=======USING tutorialDb DATABASE=======
+
+2020-06-13 16:33:06 INFO  JdbcDdlExample:51 - 
+=======CREATE employee TABLE=======
+2020-06-13 16:33:06 INFO  JdbcDdlExample:53 - 
+=======TABLE IS SUCCESSFULLY CREATED=======
+
+2020-06-13 16:33:06 INFO  JdbcDdlExample:55 - 
+=======SHOW TABLE STRUCTURE=======
+2020-06-13 16:33:06 INFO  JdbcDdlExample:127 - employee Columns Are?= (emp_id, emp_fname, emp_lname)
+
+2020-06-13 16:33:06 INFO  JdbcDdlExample:59 - 
+=======ALTER employee TABLE=======
+2020-06-13 16:33:07 INFO  JdbcDdlExample:61 - 
+=======TABLE IS SUCCESSFULLY ALTERED=======
+
+2020-06-13 16:33:07 INFO  JdbcDdlExample:63 - 
+=======SHOW TABLE STRUCTURE=======
+2020-06-13 16:33:07 INFO  JdbcDdlExample:127 - employee Columns Are?= (emp_id, emp_fname, emp_lname, emp_joining_date)
+
+2020-06-13 16:33:07 INFO  JdbcDdlExample:67 - 
+=======ALTER employee TABLE WITH AFTER CLAUSE=======
+2020-06-13 16:33:07 INFO  JdbcDdlExample:69 - 
+=======TABLE IS SUCCESSFULLY ALTERED=======
+
+2020-06-13 16:33:07 INFO  JdbcDdlExample:71 - 
+=======SHOW TABLE STRUCTURE=======
+2020-06-13 16:33:07 INFO  JdbcDdlExample:127 - employee Columns Are?= (emp_id, emp_fname, emp_lname, emp_dob, emp_joining_date)
+
+2020-06-13 16:33:07 INFO  JdbcDdlExample:75 - 
+=======DROP COLUMN=======
+2020-06-13 16:33:07 INFO  JdbcDdlExample:77 - 
+=======COLUMN IS SUCCESSFULLY DROPPED FROM THE TABLE=======
+
+2020-06-13 16:33:07 INFO  JdbcDdlExample:79 - 
+=======SHOW TABLE STRUCTURE=======
+2020-06-13 16:33:08 INFO  JdbcDdlExample:127 - employee Columns Are?= (emp_id, emp_fname, emp_dob, emp_joining_date)
+
+2020-06-13 16:43:07 INFO  JdbcDdlExample:46 - 
+=======CREATE tutorialDb DATABASE=======
+2020-06-13 16:43:07 INFO  JdbcDdlExample:48 - 
+=======DATABASE IS SUCCESSFULLY CREATED=======
+
+2020-06-13 16:43:07 INFO  JdbcDdlExample:50 - 
+=======USING tutorialDb DATABASE=======
+
+2020-06-13 16:43:07 INFO  JdbcDdlExample:54 - 
+=======CREATE employee TABLE=======
+2020-06-13 16:43:08 INFO  JdbcDdlExample:56 - 
+=======TABLE IS SUCCESSFULLY CREATED=======
+
+2020-06-13 16:43:08 INFO  JdbcDdlExample:58 - 
+=======SHOW TABLE STRUCTURE=======
+2020-06-13 16:43:08 INFO  JdbcDdlExample:133 - employee Columns Are?= (emp_id, emp_fname, emp_lname)
+
+2020-06-13 16:43:08 INFO  JdbcDdlExample:62 - 
+=======ALTER employee TABLE=======
+2020-06-13 16:43:08 INFO  JdbcDdlExample:64 - 
+=======TABLE IS SUCCESSFULLY ALTERED=======
+
+2020-06-13 16:43:08 INFO  JdbcDdlExample:66 - 
+=======SHOW TABLE STRUCTURE=======
+2020-06-13 16:43:08 INFO  JdbcDdlExample:133 - employee Columns Are?= (emp_id, emp_fname, emp_lname, emp_joining_date)
+
+2020-06-13 16:43:08 INFO  JdbcDdlExample:70 - 
+=======ALTER employee TABLE WITH AFTER CLAUSE=======
+2020-06-13 16:43:08 INFO  JdbcDdlExample:72 - 
+=======TABLE IS SUCCESSFULLY ALTERED=======
+
+2020-06-13 16:43:08 INFO  JdbcDdlExample:74 - 
+=======SHOW TABLE STRUCTURE=======
+2020-06-13 16:43:09 INFO  JdbcDdlExample:133 - employee Columns Are?= (emp_id, emp_fname, emp_lname, emp_dob, emp_joining_date)
+
+2020-06-13 16:43:09 INFO  JdbcDdlExample:78 - 
+=======DROP COLUMN=======
+2020-06-13 16:43:09 INFO  JdbcDdlExample:80 - 
+=======COLUMN IS SUCCESSFULLY DROPPED FROM THE TABLE=======
+
+2020-06-13 16:43:09 INFO  JdbcDdlExample:82 - 
+=======SHOW TABLE STRUCTURE=======
+2020-06-13 16:43:09 INFO  JdbcDdlExample:133 - employee Columns Are?= (emp_id, emp_fname, emp_dob, emp_joining_date)
+

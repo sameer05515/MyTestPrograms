@@ -1,0 +1,209 @@
+
+<html>
+<head>
+<style>
+body{
+margin :30px;
+background: #c0c0c0;
+}
+
+.rectangle
+{
+/*margin-top:10px;*/
+width : 400px;
+/*width:200px;
+height:100px;*/
+background-color:#0C9;
+text-align:left;
+/*font-size:30px;*/
+color:yellow;
+}
+.rounded
+{
+width : 400px;
+margin-top:10px;
+/*
+width:200px;
+height:100px;
+*/
+border-radius:30px;
+background-color:#0c90c9;
+text-align:left;
+/*
+font-size:28px;
+*/
+color:yellow;
+}
+.bottom
+{
+margin-top:10px;
+width:200px;
+height:100px;
+border-bottom-left-radius:50px;
+border-top-right-radius:50px;
+background-color:#0C9;
+text-align:center;
+font-size:30px;
+color:#90F;
+}
+.circle
+{
+margin-top:10px;
+width:150px;
+height:150px;
+border-radius:100px;
+background-color:#0C9;
+text-align:center;
+font-size:30px;
+color:#90F;
+}
+.triangle
+{
+margin-top:10px;
+width:0;
+height:0;
+border-bottom:120px solid #00CC99;
+border-left:60px solid transparent;
+border-right:60px solid transparent;
+text-align:center;
+font-size:30px;
+color:#90F;
+}
+.diamond
+{
+margin-top:30px;
+width:150px;
+height:150px;
+background-color:#0C9;
+-webkit-transform:rotate(45deg);
+-moz-transform:rotate(45deg);
+transform:rotate(45deg);
+text-align:center;
+font-size:30px;
+color:#90F;
+transform:skew(20deg);
+text-align:center;
+font-size:30px;
+color:#90F;
+}
+</style>
+
+</head>
+
+
+<body>
+
+
+
+
+	<div>
+	I need one tool -->>
+		<p>
+			<ul>
+				<li>
+					Where I can track the issues I am facing while development at home.
+				</li>
+				<li>
+					Sometimes the issues may not be solved in a day, then in that tool I can schedule (or at least mark the current status) so that I may further solve the issue
+				</li>
+			</ul>
+		</p>
+	</div>
+	<hr/>
+	Steps to new requirement processing
+		<br/>
+	<div class="rounded">
+		
+		<span class="rectangle">
+		Customer logs one requirement
+		</span>
+		<br/>
+		<span class="rectangle">
+		defect/requirement repository
+		</span>
+		<br/>
+		<span class="rectangle">
+		on the basis of logged requirement tickets are raised to develop
+		</span>
+		<br/>
+		<span class="rectangle">
+		develper takes ticket and develop
+		</span>
+		<br/>
+		<span class="rectangle">
+		New requirement is added in new release
+		</span>
+	</div>
+	<hr/>
+	Steps to defect processing
+		<br/>
+	<div class="rounded">
+		
+		<span class="rectangle">
+		Customer logs one defect 
+		</span>
+		<br/>
+		<span class="rectangle">
+		defect/requirement repository
+		</span>
+		<br/>
+		<span class="rectangle">
+		On the basis of loged defect ticket raised to solve it and the defect is fixed in next coming release.
+		</span>
+		<br/>
+		<span class="rectangle">
+		Developer fixed the bug
+		</span>
+		<br/>
+		<span class="rectangle">
+		Bug fix goes in new release
+		</span>
+		<br/>		
+	</div>
+	<br/>
+	<!--
+	<div class="rectangle">Rectangle</div>
+<div class="rounded">Rounded rectangle</div>
+<div class="bottom">bottom left & top right</div>
+<div class="circle">circle</div>
+<div class="triangle">triangle</div>
+<div class="diamond">diamond</div>
+<div class="parallelogram">parallelogram</div>
+	-->
+	<hr/>
+	Roles
+	<div class="rounded">
+		<br/>
+		<div class="rectangle">
+		Admin who
+		<ol>
+			<li>assigns ticket in right queue/category, to right person or group</li>
+			<li>creates new category</li>
+			<li>adds new person in a group</li>						
+		</ol>
+		Developer who
+		<ol>
+			<li>develops the new requirement</li>
+			<li>does the bug fixes</li>
+			<li>Solves the assigned tickets</li>			
+		</ol>
+		User who
+		<ol>
+			<li>logs ticket</li>
+			<li>demands for new requirement</li>
+			<li>demands for bug fixes</li>
+			<li>Confirms and closes his ticket</li>
+			<li>Can re-open in case not satisfied with the new releases</li>			
+		</ol>
+		</div>
+	</div>
+
+	<hr/>
+	Note :- The css shapes have been created using pdfs of <a href="http://127.0.0.1:8080/bce/fileWriter?documentId=D:/ebooks/css">this</a> folder 
+	<hr/>
+</body>
+
+
+
+
+</html>

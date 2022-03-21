@@ -1,0 +1,10 @@
+08-09-2020 22:57:00.003 [scheduling-1] INFO  com.lankydan.service.MyServiceImpl.doStuff - doStuff took input - value
+08-09-2020 22:57:00.053 [scheduling-1] WARN  com.lankydan.service.MyServiceImpl.doStuff - doStuff needed to warn - value
+08-09-2020 22:57:00.054 [scheduling-1] ERROR com.lankydan.service.MyServiceImpl.doStuff - doStuff encountered an error with value - value
+08-09-2020 22:58:00.001 [scheduling-1] DEBUG com.lankydan.service.MyServiceImpl.doStuff - doStuff needed to debug - value
+08-09-2020 22:58:00.002 [scheduling-1] INFO  com.lankydan.service.MyServiceImpl.doStuff - doStuff took input - value
+08-09-2020 22:58:00.002 [scheduling-1] WARN  com.lankydan.service.MyServiceImpl.doStuff - doStuff needed to warn - value
+08-09-2020 22:58:00.003 [scheduling-1] ERROR com.lankydan.service.MyServiceImpl.doStuff - doStuff encountered an error with value - value
+08-09-2020 22:59:00.002 [scheduling-1] DEBUG com.lankydan.service.MyServiceImpl.doStuff - doStuff needed to debug - value
+08-09-2020 22:59:00.009 [scheduling-1] INFO  com.lankydan.service.MyServiceImpl.doStuff - doStuff took input - value
+08-09-2020 22:59:00.013 [scheduling-1] WARN  com.lankydan.service.MyServiceImpl.doStuff - doStuff needed to warn - value

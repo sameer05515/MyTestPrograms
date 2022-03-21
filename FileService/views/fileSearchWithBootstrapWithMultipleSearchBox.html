@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>File Introspector</title>
+
+	<script src="http://127.0.0.1:9999/jquery/jquery-2.0.3.min.js" type="text/javascript"></script>
+
+	<script src='http://127.0.0.1:9999/angular-1.5.5/angular.min.js'></script>
+	<link rel="stylesheet" href="../css/style-for-multiple-search.css">
+	<link rel="stylesheet" href="http://127.0.0.1:9999/bootstrap-3.3.6-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="http://127.0.0.1:9999/font-awesome-4.6.3/css/font-awesome.min.css">
+	<script src="../controller/fileSearchWithBootstrapWithMultipleSearchBox.js"></script>
+
+
+	<script src="http://127.0.0.1:9999/jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
+	<link rel="stylesheet" href="http://127.0.0.1:9999/jquery-ui-1.11.4.custom/jquery-ui.css">
+
+	<script src="http://127.0.0.1:9999/axis-master/dist/axis.min.js"></script>
+
+</head>
+
+
+<body data-ng-app="scopeExample">
+	<div data-ng-controller="fileSearchController">
+
+		<div class="container jumbotron">
+
+			Enter Timer Interval (In milli seconds): <input type="text" ng-model="timerInterval" name="" placeholder="Enter Timer Interval: ">
+
+
+			<fieldset data-ng-repeat="choice in choices">
+				Enter Folder Name: <input type="text" ng-model="choice.name" name="" placeholder="Enter Folder Name: ">
+
+				<button class="lalChaukor" ng-show="$last" ng-click="removeChoice()">-</button>
+
+				<button class="lalChaukor" ng-show="$last" ng-click="addNewChoice()">+</button>
+
+				<!-- <button class="lalChaukor" ng-show="$last" data-ng-click='loadMultiResult()'>
+					<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+				</button>  -->
+			</fieldset>
+
+			Select Extensions :- <span ng-repeat="fruit in fruits">
+				<input type='checkbox' value="{{fruit}}" check-list='checked_fruits'> {{fruit}} &nbsp;&nbsp;&nbsp;&nbsp;
+			</span>
+
+			<button class="lalChaukor" data-ng-click='loadMultiResult()'>
+				<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+			</button>
+
+
+			<div id="choicesDisplay">
+				{{ choices }}
+			</div>
+
+
+
+			<div id="resultsDisplay" ng-if="errorMessage.length>0">
+
+				<div ng-if="(loadingMessage.length<=0) && (fileNames.length>0)">
+					Loading Complete
+				</div>
+
+				<div ng-if="loadingMessage.length>0">
+					Loading data...
+				</div>
+
+				<!-- {{loadingMessage}} -->
+
+				<div data-ng-repeat="msg in errorMessage">
+					<!-- {{msg}}<br/> -->
+					<span ng-if="msg.type=='load'" class="loadMessage">
+						{{msg.message}}
+					</span>
+
+					<span ng-if="msg.type=='success'" class="successMessage">
+						{{msg.message}}
+					</span>
+
+					<span ng-if="msg.type=='fail'" class="errorMessage">
+						{{msg.message}}
+					</span>
+				</div>
+
+			</div>
+
+			<!-- <div class="jumbotron container">
+				{{fileNames}}
+			</div> -->
+
+		</div>
+		<!--End Container-->
+
+		<!--####################################################################################-->
+
+		<!--####################################################################################-->
+
+		<div class="container jumbotron">
+			Search: <input type="text" data-ng-model="searchText"> You
+			are typing "{{searchText}}" <br />
+
+			<div class="lighter roboto">
+				Number of filtered items: {{filteredItems.length}} <br />
+				<p ng-hide="filteredItems.length">There is no result</p>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-12 col-md-12">
+
+					<!--####################-->
+					<table class="friends">
+						<tr>
+							<th>
+								<button class="btn btn-xs btn-primary" ng-click="sortBy('name')">name</button>
+								<span class="sortorder" ng-show="propertyName === 'name'" ng-class="{reverse: reverse}"></span>
+							</th>
+							<th>
+								<button class="btn btn-xs btn-primary" ng-click="sortBy('filePath')">filePath</button> <span class="sortorder"
+								 ng-show="propertyName === 'filePath'" ng-class="{reverse: reverse}"></span>
+							</th>
+							<th>
+								<button class="btn btn-xs btn-primary" ng-click="sortBy('parentFile')">parentFile</button> <span class="sortorder"
+								 ng-show="propertyName === 'parentFile'" ng-class="{reverse: reverse}"></span>
+							</th>
+						</tr>
+
+					</table>
+					<!--####################-->
+
+
+					<div data-ng-repeat="file in ( filteredItems =(fileNames | filter:searchText |orderBy:propertyName:reverse))">
+						<span class="glyphicon glyphicon-asterisk" aria-hidden="true">
+							<!-- <a href="{{file.filePath}}">
+									{{file.name}}
+								</a> -->
+							<a data-ng-model="testAnchor[this]" data-ng-click="ppp('http://127.0.0.1:9999/FileService/my.jsp?documentId='+file.filePath,file.filePath,$index)">
+								[{{$index + 1}}]
+								<span class="loadMessage">
+									{{file.name}}
+								</span>
+
+								|
+								<span class="successMessage">
+									{{file.filePath}}
+								</span>
+								|
+								<span class="loadMessage">
+									{{file.parentFile}}
+								</span>
+							</a>
+						</span>
+					</div>
+
+					<hr>
+				</div>
+				<!--End Column-->
+
+			</div>
+			<!--End Row-->
+		</div>
+		<!--End Container-->
+
+		<!-- title="{{titleOfPdf}}" -->
+
+		<div class="container contentDisplay" data-ng-model="helloModel" id="hello"  width="100%"
+		 height="100%">
+
+			<button class="btn btn-xs btn-primary lalChaukor" data-ng-click="next()">
+				>>
+				<!-- <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> -->
+			</button>
+
+			<button class="btn btn-xs btn-primary lalChaukor" ng-if="!timerStarted" data-ng-click="slideShowStart()">
+				Show slideshow
+				<!-- <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> -->
+			</button>
+
+			<button class="btn btn-xs btn-primary lalChaukor" ng-if="timerStarted" data-ng-click="slideShowCancel()">
+				Cancel slideshow
+				<!-- <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> -->
+			</button>
+
+			<button class="btn btn-xs btn-primary lalChaukor" data-ng-click="previous()">
+				<< <!-- <span class="glyphicon" aria-hidden="true">Hide</span> -->
+			</button>
+
+			<!-- <span ng-if="!timerStarted" >Enter Timer Interval (In milli seconds):</span> <input type="text" ng-if="!timerStarted" ng-model="timerInterval" name="" placeholder="Enter Timer Interval: "> -->
+
+			<p>
+				<font face="Georgia" size="4">
+					{{titleOfPdf}}</font>
+			</p>
+
+			<embed id="objectToEmbed" src="" width="100%" height="90%" view="fit" />
+
+		</div>
+		<!--End of PDF viewer popup Container-->
+
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,200 @@
+<root>
+	<link-group name="hibernate tutorial">
+		<link>http://127.0.0.1:8080/hibTutorial/hibernate-release-4.3.6.Final/documentation/quickstart/en-US/html_single/index.html</link>
+		<link>http://127.0.0.1:8080/hibTutorial/hibernate-release-4.3.6.Final/documentation/quickstart/en-US/html/index.html</link>
+		<link>http://127.0.0.1:8080/hibTutorial/hibernate-release-4.3.6.Final/documentation/manual/en-US/html_single/index.html</link>
+		<link>http://127.0.0.1:8080/hibTutorial/hibernate-release-4.3.6.Final/documentation/manual/en-US/html/index.html</link>
+		<link>http://127.0.0.1:8080/hibTutorial/hibernate-release-4.3.6.Final/documentation/javadocs/index.html</link>
+		<link>http://127.0.0.1:8080/hibTutorial/hibernate-release-4.3.6.Final/documentation/javadocs/index-all.html</link>
+		<link>http://127.0.0.1:8080/hibTutorial/hibernate-release-4.3.6.Final/documentation/devguide/en-US/html_single/index.html</link>
+		<link>http://127.0.0.1:8080/hibTutorial/hibernate-release-4.3.6.Final/documentation/devguide/en-US/html/index.html</link>
+		<link>http://127.0.0.1:8080/hibTutorial/hibernate-release-4.3.6.Final/documentation/topical/html/index.html</link>
+	</link-group>
+	<link-group name="java tutorial">
+		<link>http://127.0.0.1:8080/hibTutorial/tutorial/index.html</link>
+		<link>http://en.wikipedia.org/wiki/Java_(programming_language)</link>
+		<link>http://127.0.0.1:8080/jndi-1_4_2-tutorial/index.html</link>
+	</link-group>
+	<link-group name="applications link group">
+		<link>http://127.0.0.1:8080/hibTutorial/linkGroup.jsp</link>
+		<link>http://127.0.0.1:8080/struts2-showcase/showcase.action</link>
+		<link>http://127.0.0.1:8080/hibTutorial/displayPDFContent.jsp</link>
+		<link>http://127.0.0.1:8080/hibTutorial/pdfContentViewer.jsp</link>
+	</link-group>
+	<link-group name="Experis IT/ WDC">
+		<link>http://utility.experisindia.com/Apps/wdcleappsys.nsf</link>
+	</link-group>
+	<link-group name="EJB">
+		<link>http://docs.oracle.com/cd/E13224_01/wlw/docs103/guide/ejb/tutorial/tutEJBIntro.html</link>
+	</link-group>
+	<link-group name="IT Helpdesk">
+		<link>http://helpdesk.concentrix.com/admin/</link>
+		<link>http://helpdesk.concentrix.com/</link>
+	</link-group>
+	<link-group name="other useful links">
+		<link>http://127.0.0.1:8080/hibTutorial/activewidgets-2.6.4-trial/ActiveWidgets/examples/index.htm</link>
+	</link-group>
+	<link-group name="json">
+		<link>http://json.org/</link>		
+	</link-group>
+	
+	<link-group name="apache commons beanutils">
+		<link>http://www.javaranch.com/journal/2003/07/TouringTheCommonsPart1.html</link>
+		<link>http://commons.apache.org/proper/commons-beanutils/download_beanutils.cgi</link>
+		<link>http://commons.apache.org/proper/commons-beanutils/javadocs/v1.9.2/apidocs/org/apache/commons/beanutils/package-summary.html#package_description</link>		
+	</link-group>
+	
+	<link-group name="jquery how to add new element and event">
+		<link>http://api.jquery.com/on/</link>
+		<link>http://stackoverflow.com/questions/203198/event-binding-on-dynamically-created-elements</link>
+		<link>http://jeasyui.com/</link>
+		<link>http://127.0.0.1:8080/hibTutorial/jquery-ui-1.11.2.custom/index.html</link>
+	</link-group>
+	
+	<link-group name="list of tags in html">
+		<link>http://htmldog.com/reference/htmltags/</link>
+		<link>http://www.tedmontgomery.com/tutorial/lists.html</link>
+		<link>http://www.w3.org/TR/html401/struct/lists.html</link>
+		<link>http://www.w3.org/TR/html401/cover.html#minitoc</link>
+	</link-group>
+	
+	<link-group name="List of tags in html5">
+		<link>http://www.w3.org/TR/2014/REC-html5-20141028/</link>
+		<link>http://www.w3schools.com/html/html5_new_elements.asp</link>
+		<link>http://www.w3.org/TR/html-markup/elements.html</link>
+		<link>http://www.tutorialspoint.com/html5/html5_tags.htm</link>
+		<link>http://www.html-5-tutorial.com/all-html-tags.htm</link>
+		<link>http://www.w3.org/html/wg/drafts/html/master/Overview.html</link>
+	</link-group>
+	
+	
+	<link-group name="struts 2">
+		<link>http://127.0.0.1:8080/hibTutorial/struts-2.3.16.3/docs/index.html</link>
+		<link>http://127.0.0.1:8080/struts2-mailreader</link>
+	</link-group>
+	
+	<link-group name="struts 456278">
+		<link>http://127.0.0.1:8080/hibTutorial/struts-2.3.16.3/docs/index.html</link>
+		<link>http://127.0.0.1:8080/struts2-mailreader</link>
+	</link-group>
+	
+	<link-group name="database management system">
+		<link>http://www.studytonight.com/dbms/database-normalization.php</link>
+	</link-group>
+	
+	<link-group name="java course">
+		<link>http://www.studytonight.com/java/overview-of-java</link>
+	</link-group>
+	
+	<link-group name="graph implementation in java">
+		<link>http://en.wikipedia.org/wiki/Graph_(abstract_data_type)</link>
+		<link>http://www.sanfoundry.com/java-program-describe-representation-graph-using-adjacency-list/</link>
+		<link>http://algs4.cs.princeton.edu/41undirected/</link>
+		
+		
+	</link-group>
+	
+	<link-group name="DTD">
+		<link>http://infohost.nmt.edu/tcc/help/pubs/dtd/index.html</link>
+	</link-group>
+	
+	<link-group name="English Grammar">
+		<link>http://free-english-study.com/home/grammar-index.html</link>
+	</link-group>
+	
+	
+	<link-group name="Official Application URLs">
+		<link>https://hcdy.login.us2.oraclecloud.com/oam/server/obrareq.cgi?encquery%3D9CKZMzP4jdzKzudCKnK2mxVfCFy%2BkBlyq0pFvlQnZKR4mBeXPCX68Ikpxg4mUUqMxt5bHa4d65s9QmPN7v0UkSuJCKgz76ySYNq5GEUFiBJqGw277yIj8DKeVJGok3B8WtlQOudCTuw%2FrqL8PukW%2Bp6R3jbIUzpmNtkHYu2iipzgO6giudUteSA7RZC0NZitNWHhw0D7pefSZVIAp%2BtUUCegc5fXyA6vFcVobQOLLTREt%2Bll%2BzYgbfC7BjnqlpLNpsp71PfvnLQjRm%2Bsl2H6qA56WiNd5wl7uvj0H4KDFvlly6FxI%2BARKiWNWTblYMhPvv94o40nHDZoErQIoh9yElpOTQi4OXSWGMxrtvli5iW%2B2WMijYIXL6nyWvH8GREvVNbqMeFZCQsFmB7HFqEniUyg2mt05ciWznEuEhVB5ucfLhi02GYRESoqYSN87y23luaQC5ojk%2FRjZ3jwy9tkVlEGB29RkQqH2jntnKnGeL7tIa3J%2Fr6KHzVEetUiLir4%20agentid%3DOraFusionApp_11AG%20ver%3D1%20crmethod%3D2</link>
+		
+		<link>https://116.90.243.58/OneTouch/</link>
+		
+		<link>https://hcdy.hcm.us2.oraclecloud.com/hcmCore/faces/HcmFusionHome</link>
+		
+		<link>https://116.90.243.15/ebucks/</link>
+		
+		<!--<link>https://helpdesk.concentrix.com/survey/helpdesk_reporting.php?dfrom=2015-02-26&dto=2015-02-27&submit=Generate&site=150&staff=0&status=any&escalated=0&scrubbed=all&keyword=&requestor=</link>-->
+		
+	</link-group>
+	
+	<link-group name="XML and DTD syntax">
+		<link>http://www.linuxfromscratch.org/alfs/view/dtd/alfs_dtd/xml_dtd-syntax.html</link>
+		<link>http://oak.cs.ucla.edu/cs144/reference/DTD.html</link>
+		<link>http://www.rpbourret.com/xml/xmldtd.htm</link>
+	</link-group>
+	
+	<link-group name="xml schema validation java">
+		<link>http://docs.oracle.com/javase/tutorial/jaxp/dom/validating.html</link>
+		<link>http://docs.oracle.com/javase/7/docs/api/javax/xml/validation/package-summary.html</link>
+		<link>http://www.journaldev.com/895/how-to-validate-xml-against-xsd-in-java</link>
+		<link>http://www.ibm.com/developerworks/library/x-javaxmlvalidapi/</link>
+		<link>http://stackoverflow.com/questions/17107596/xml-schema-validation-using-java-code</link>
+		<link>http://www.w3.org/TR/xmlschema-0/</link>
+		<link>http://www.edankert.com/validate.html</link>
+	</link-group>
+	
+	<link-group name="automate deployment of war file in websphere">
+		<link>http://www.ibm.com/developerworks/library/mo-worklight-deploy-raf/sidefile-fig1.html</link>
+		<link>https://www.packtpub.com/books/content/deploying-your-applications-websphere-application-server-70-part-1</link>
+	</link-group>
+	
+	
+	<link-group name="Installing the Eclipse Plugin for Android">
+		<link>http://developer.android.com/sdk/installing/installing-adt.html</link>
+		<link>http://developer.android.com/training/index.html</link>
+	</link-group>
+	
+	<link-group name="Deploying And Managing an application using ws_ant in IBM WebSphere Application Server">
+		<link>http://www.techpaste.com/2012/02/07/deploying-managing-application-ws_ant-ibm-websphere-application-server/</link>
+		<link>http://stackoverflow.com/questions/3117785/using-ant-to-deploy-ear-to-remote-websphere-application-server</link>
+		<link>https://blogs.perficient.com/ibm/2013/08/27/automated-build-and-deploy-in-websphere-message-broker-using-ant/</link>
+		<link>http://www.coderanch.com/t/462726/tools/Fully-Automate-Build-Deployment-Ant</link>
+		<link>http://tim.fanel.li/2011/03/scripted-ear-deployment-for-websphere-application-server/</link>
+		<link>https://myarch.com/was-automation</link>
+	</link-group>
+	
+	<link-group name="IBM High Availability Cluster Multiprocessing(HACMP)">
+		<link>http://en.wikipedia.org/wiki/IBM_High_Availability_Cluster_Multiprocessing</link>
+	</link-group>
+	
+	<link-group name=" java.security.cert.CertPathBuilderException: unable to find valid certification path to requested target">
+		<link>https://www.google.co.in/#q=+java.security.cert.CertPathBuilderException:+unable+to+find+valid+certification+path+to+requested+target</link>		
+		<link>https://blogs.oracle.com/gc/entry/unable_to_find_valid_certification</link>	
+		<link>https://www.ibm.com/developerworks/community/forums/html/topic?id=0ca7cdea-f613-49e8-b91d-dd252945511a</link>	
+		<link>https://confluence.atlassian.com/display/STASHKB/SSLHandshakeException+-+unable+to+find+valid+certification+path+to+requested+target</link>
+		<link>http://www.mkyong.com/webservices/jax-ws/suncertpathbuilderexception-unable-to-find-valid-certification-path-to-requested-target/</link>		
+		<link>http://stackoverflow.com/questions/13626965/how-to-ignore-pkix-path-building-failed-sun-security-provider-certpath-suncertp</link>	
+		<link>http://stackoverflow.com/questions/6047996/ignore-self-signed-ssl-cert-using-jersey-client</link>	
+		<link>http://stackoverflow.com/questions/875467/java-client-certificates-over-https-ssl</link>	
+		<link>http://sanjaal.com/java/tag/get-public-key-of-ssl-certificate-in-java/</link>	
+		<link>http://stackoverflow.com/questions/17388279/getting-error-pkix-path-building-failed-unable-to-find-valid-certification-pat</link>	
+		<link>https://www.google.co.in/#q=java+program+to+login+a+website+using+url+</link>	
+		<link>http://www.mkyong.com/java/how-to-automate-login-a-website-java-example/</link>	
+		
+	</link-group>
+	
+	<link-group name="java.io.IOException: HTTPS hostname wrong:  should be">
+		<link>http://www.java-samples.com/showtutorial.php?tutorialid=211</link>		
+		<link>http://docs.oracle.com/cd/E19159-01/820-1072/6ncp48v40/index.html</link>	
+	</link-group>
+	
+	
+	<link-group name="standalone java program to invoke web url with parameters programmatically">
+		<link>http://docs.oracle.com/javase/tutorial/networking/urls/readingWriting.html</link>		
+		<link>http://docs.oracle.com/cd/E19146-01/819-2634/gcozl/index.html</link>	
+		<link>http://stackoverflow.com/questions/5932372/how-to-programmatically-send-a-http-request-with-parameters</link>	
+		<link>http://viralpatel.net/blogs/http-proxy-setting-java-setting-proxy-java/</link>
+		<link>http://stackoverflow.com/questions/3324717/sending-http-post-request-in-java</link>
+		<link>http://stackoverflow.com/questions/16589417/programmatically-click-a-webpage-button</link>
+		
+	</link-group>
+	
+	<link-group name="page-partition">
+		<link>http://127.0.0.1:8080/hibTutorial/page-partitioning/</link>
+	</link-group>
+	<!--
+	<link-group name="">
+		<link></link>		
+	</link-group>
+	-->
+	
+</root>
