@@ -1,0 +1,354 @@
+<!--
+	* 	zero or more occurence
+	?	zero or one occurance
+	
+	Introduction to DTD
+
+by Jan Egil Refsnes
+Originally published at http://www.xmlfiles.com/dtd/
+Minor revision made by Junghoo "John" Cho for the CS188 class at UCLA
+
+The purpose of a DTD is to define the legal building blocks of an XML document. It defines the document structure with a list of legal elements. A DTD can be declared inline in your XML document, or as an external reference.
+
+Internal DTD
+
+This is an XML document with a Document Type Definition:
+
+<?xml version="1.0"?>
+<!DOCTYPE note [
+  <!ELEMENT note    (to,from,heading,body)>
+  <!ELEMENT to      (#PCDATA)>
+  <!ELEMENT from    (#PCDATA)>
+  <!ELEMENT heading (#PCDATA)>
+  <!ELEMENT body    (#PCDATA)>
+]>
+
+<note>
+  <to>Tove</to>
+  <from>Jani</from>
+  <heading>Reminder</heading>
+  <body>Don't forget me this weekend</body>
+</note>
+Like the above example, if the DTD is to be included in your XML source file, it should be wrapped in a DOCTYPE definition with the following syntax:
+
+<!DOCTYPE root-element [element-declarations]>
+In the above example, the DTD is interpreted like this:
+!ELEMENT note (in line 2) defines the element "note" as having four elements: "to,from,heading,body".
+!ELEMENT to (in line 3) defines the "to" element  to be of the type "CDATA".
+!ELEMENT from (in line 4) defines the "from" element to be of the type "CDATA"
+and so on.....
+
+External DTD
+
+This is the same XML document with an external DTD:
+
+<?xml version="1.0"?>
+
+<!DOCTYPE note SYSTEM "note.dtd">
+<note>
+   <to>Tove</to>
+   <from>Jani</from>
+   <heading>Reminder</heading>
+   <body>Don't forget me this weekend!</body>
+</note> 
+This is a copy of the file "note.dtd" containing the Document Type Definition:
+
+<?xml version="1.0"?>
+<!ELEMENT note (to,from,heading,body)>
+<!ELEMENT to (#PCDATA)>
+<!ELEMENT from (#PCDATA)>
+<!ELEMENT heading (#PCDATA)>
+<!ELEMENT body (#PCDATA)>
+
+The building blocks of XML documents
+
+XML documents (and HTML documents) are made up by the following building blocks:
+
+Elements, Tags, Attributes, Entities, #PCDATA, and CDATA
+
+We now briefly explain each of the building blocks:
+
+Elements
+
+Elements are the main building blocks of both XML and HTML documents.
+
+Examples of HTML elements are "body" and "table". Examples of XML elements could be "note" and "message". Elements can contain text, other elements, or be empty. Examples of empty HTML elements are "hr", "br" and "img".
+
+Tags
+
+Tags are used to markup elements.
+
+A starting tag like <element_name> mark up the beginning of an element, and an ending tag like </element_name>  mark up the end of  an element.
+
+Examples:
+A body element: <body>body text in between</body>.
+A message element: <message>some message in between</message>
+
+Attributes
+
+Attributes provide extra information about elements.
+
+Attributes are placed inside the start tag of an element. Attributes come in name/value pairs. The following "img" element has an additional information about a source file:
+
+<img src="computer.gif" />
+The name of the element is "img". The name of the attribute is "src". The value of the attribute is "computer.gif". Since the element itself is empty it is closed by a " /".
+
+#PCDATA
+
+#PCDATA means parsed character data.
+
+Think of character data as the text found between the start tag and the end tag of an XML element.
+
+#PCDATA is text that will be parsed by a parser. Tags inside the text will be treated as markup and entities will be expanded. 
+
+CDATA
+
+CDATA also means character data.
+
+CDATA is text that will NOT be parsed by a parser. Tags inside the text will NOT be treated as markup and entities will not be expanded.
+
+Entities
+
+Entities as variables used to define common text. Entity references are references to entities.
+
+Most of you will known the HTML entity reference: "&nbsp;"  that is used to insert an extra space in an HTML document. Entities are expanded when a document is parsed by an XML parser.
+
+The following entities are predefined in XML:
+
+Entity References	Character
+&lt;	<
+&gt;	>
+&amp;	&
+&quot;	"
+&apos;	'
+ 
+Declaring an Element
+
+In the DTD, XML elements are declared with an element declaration. An element declaration has the following syntax:
+
+<!ELEMENT element-name (element-content)>
+
+Empty elements
+
+Empty elements are declared with the keyword EMPTY inside the parentheses:
+
+<!ELEMENT element-name (EMPTY)>
+
+example:
+<!ELEMENT img (EMPTY)>
+
+Elements with data
+
+Elements with data are declared with the data type inside parentheses:
+
+<!ELEMENT element-name (#PCDATA)>
+or
+<!ELEMENT element-name (#PCDATA)>
+or
+<!ELEMENT element-name (ANY)>
+example:
+<!ELEMENT note (#PCDATA)>
+
+CDATA means the element contains character data that is not supposed to be parsed by a parser.
+#PCDATA means that the element contains data that IS going to be parsed by a parser.
+The keyword ANY declares an element with any content.
+If a #PCDATA section contains elements, these elements must also be declared.
+
+Elements with children (sequences)
+
+Elements with one or more children are defined with the name of the children elements inside the parentheses:
+
+<!ELEMENT element-name (child-element-name)>
+or
+<!ELEMENT element-name (child-element-name,child-element-name,.....)>
+example:
+<!ELEMENT note (to,from,heading,body)>
+
+When children are declared in a sequence separated by commas, the children must appear in the same sequence in the document. In a full declaration, the children must also be declared, and the children can also have children. The full declaration of the note document will be:
+<!ELEMENT note (to,from,heading,body)>
+<!ELEMENT to      (#PCDATA)>
+<!ELEMENT from    (#PCDATA)>
+<!ELEMENT heading (#PCDATA)>
+<!ELEMENT body    (#PCDATA)>
+
+Declaring only one occurrence of the same element 
+
+<!ELEMENT element-name (child-name)>
+example
+<!ELEMENT note (message)>
+The example declaration above declares that the child element message can only occur one time inside the note element.
+
+Declaring minimum one occurrence of the same element
+
+<!ELEMENT element-name (child-name+)>
+example
+<!ELEMENT note (message+)>
+The + sign in the example above declares that the child element message must occur one or more times inside the note element.
+
+Declaring zero or more occurrences of the same element 
+
+<!ELEMENT element-name (child-name*)>
+example
+<!ELEMENT note (message*)>
+The * sign in the example above declares that the child element message can occur zero or more times inside the note element.
+
+Declaring zero or one occurrences of the same element 
+
+<!ELEMENT element-name (child-name?)>
+example
+<!ELEMENT note (message?)>
+The ? sign in the example above declares that the child element message can occur zero or one times inside the note element.
+
+Declaring mixed content
+
+example
+<!ELEMENT note (to+,from,header,message*,#PCDATA)>
+The example above declares that the element note must contain at least one to child element, exactly one from child element, exactly one header, zero or more message, and some other parsed character data as well. Puh!
+
+Declaring Attributes
+
+In the DTD, XML element attributes are declared with an ATTLIST declaration. An attribute declaration has the following syntax:
+
+<!ATTLIST element-name attribute-name attribute-type default-value>
+
+As you can see from the syntax above, the ATTLIST declaration defines the element which can have the attribute, the name of the attribute, the type of the attribute, and the default attribute value.
+The attribute-type can have the following values:
+
+Value	Explanation
+CDATA
+The value is character data
+(eval|eval|..)
+The value must be an enumerated value
+ID
+The value is an unique id 
+IDREF
+The value is the id of another element
+IDREFS
+The value is a list of other ids
+NMTOKEN
+The value is a valid XML name
+NMTOKENS
+The value is a list of valid XML names
+ENTITY
+The value is an entity 
+ENTITIES
+The value is a list of entities
+NOTATION
+The value is a name of a notation
+xml:
+The value is predefined
+The attribute-default-value can have the following values:
+
+Value	Explanation
+value
+The attribute has the default value "value"
+#REQUIRED
+The attribute value must be included in the element
+#IMPLIED
+The attribute is optional and does not have to be included
+#FIXED value
+The attribute value is fixed
+
+Attribute declaration example
+
+DTD example:
+<!ELEMENT square (EMPTY)>
+<!ATTLIST square width CDATA "0">
+
+XML example:
+<square width="100"></square>
+
+In the above example the element square is defined to be an empty element with the attributes width of  type CDATA. The width attribute has a default value of 0. 
+Default attribute value
+
+Syntax:
+<!ATTLIST element-name attribute-name CDATA "default-value">
+
+DTD example:
+<!ATTLIST payment type CDATA "check">
+
+XML example:
+<payment type="check">
+
+Specifying a default value for an attribute, assures that the attribute will get a value even if the author of the XML document didn't include it.
+Implied attribute
+
+Syntax:
+<!ATTLIST element-name attribute-name attribute-type #IMPLIED>
+DTD example:
+<!ATTLIST contact fax CDATA #IMPLIED>
+
+XML example:
+<contact fax="555-667788">
+
+Use an implied attribute if you don't want to force the author to include an attribute and you don't have an option for a default value either. 
+Required attribute
+
+Syntax:
+<!ATTLIST element-name attribute_name attribute-type #REQUIRED>
+DTD example:
+<!ATTLIST person number CDATA #REQUIRED>
+
+XML example:
+<person number="5677">
+
+Use a required attribute if you don't have an option for a default value, but still want to force the attribute to be present.
+Fixed attribute value
+
+Syntax:
+<!ATTLIST element-name attribute-name attribute-type #FIXED "value">
+DTD example:
+<!ATTLIST sender company CDATA #FIXED "Microsoft">
+
+
+XML example:
+<sender company="Microsoft">
+
+Use a fixed attribute value when you want an attribute to have a fixed value without allowing the author to change it. If an author includes another value, the XML parser will return an error.
+Enumerated attribute values
+
+Syntax:
+<!ATTLIST element-name attribute-name (eval|eval|..) default-value>
+DTD example:
+<!ATTLIST payment type (check|cash) "cash">
+
+XML example:
+<payment type="check">
+or
+<payment type="cash">
+
+Use enumerated attribute values when you want the attribute values to be one of a fixed set of legal values.
+Entities
+
+Entities are "shortcuts" to common text and can be defined internally or externally.
+Internal Entity Declaration
+
+Syntax: 
+<!ENTITY entity-name "entity-value">
+
+DTD Example:
+<!ENTITY writer "Jan Egil Refsnes.">
+<!ENTITY copyright "Copyright XML101.">
+XML example:
+<author>&writer;&copyright;</author>
+ 
+External Entity Declaration
+
+Syntax: 
+<!ENTITY entity-name SYSTEM "URI/URL">
+
+DTD Example:
+<!ENTITY writer    SYSTEM "http://www.xml101.com/entities/entities.xml">
+<!ENTITY copyright SYSTEM "http://www.xml101.com/entities/entities.dtd">
+XML example:
+<author>&writer;&copyright;</author>
+	
+-->
+
+<!ELEMENT root (link-group*)>
+<!ELEMENT link-group (link*)>
+<!ELEMENT link (url)>
+<!ATTLIST link-group name CDATA #REQUIRED>
+
+<!ELEMENT url (#PCDATA)>
+<!--<!ELEMENT root (person-relation-list*)>-->

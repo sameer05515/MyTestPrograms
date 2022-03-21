@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Example - example-example42-production</title>
+
+
+<!-- <script src="../angular-1.2.16/angular.min.js"></script> -->
+<script src='http://127.0.0.1:8999/angular-1.5.5/angular.min.js'></script>
+<link rel="stylesheet" href="http://127.0.0.1:8999/bootstrap-3.3.6-dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://127.0.0.1:8999/font-awesome-4.6.3/css/font-awesome.min.css">
+<script src="../../controller/topic/script.js"></script>
+
+
+
+</head>
+<body data-ng-app="scopeExample">
+	<div data-ng-controller="fileSearchController">
+		
+	
+		<div class="container jumbotron">
+		
+			
+			<form class="form-horizontal" role="form">
+			<div class="form-group">
+				<label class="col-md-2 control-label">
+					Enter Topic Name:   
+				</label>
+				
+				<div class="col-md-10">
+					<input type="text" class="col-md-12" data-ng-model="topic.name">
+				</div>
+			
+			</div><!--End of row-->
+			
+			<div class="form-group">
+				<label class="col-md-2 control-label">
+					Enter Topic Content :	 
+				</label>
+				
+				<div class="col-md-10">
+					<textarea rows="3" class="col-md-12" data-ng-model="topic.content"></textarea>
+				</div>
+			
+			</div><!--End of row-->
+			
+			<div class="form-group">
+				<div class="col-md-10 col-md-offset-2">
+					<button class="btn btn-primary" data-ng-click='loadResult()'>
+						<span class="glyphicon glyphicon-search" aria-hidden="true"></span>Submit
+					</button>
+				</div>			
+			</div>
+			
+			</form>
+			
+			
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3">
+					You are typing "{{topic}}"
+				</div>
+			</div>
+			
+			
+			
+			
+			
+			
+		</div> <!--End Container-->
+		
+		
+		
+	</div>
+</body>
+</html>

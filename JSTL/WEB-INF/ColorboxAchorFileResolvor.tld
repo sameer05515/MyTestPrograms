@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib> 
+<tlibversion>1.0</tlibversion>
+<jspversion>1.1</jspversion>
+<shortname>substr</shortname>
+<info>Sample taglib for Substr operation</info>
+<uri>http://viralpatel.net/blogs/jsp/taglib/colorboxAchorFileResolvor</uri>
+<tag>
+    <name>colorboxAchorFileResolvor</name>
+    <tagclass>com.prem.tags.ColorboxAchorFileResolvor</tagclass>
+    <info>fileResolve function.</info>
+  <attribute>
+      <name>base</name>
+      <required>true</required>
+  </attribute>
+  <attribute>
+      <name>traverseSubFolder</name>
+      <required>true</required>
+  </attribute>
+  <attribute>
+      <name>allowedExtentions</name>
+      <required>true</required>
+  </attribute>
+  <attribute>
+      <name>classname</name>
+      <required>true</required>
+  </attribute>
+  <attribute>
+      <name>baseURLPrefix</name>
+      <required>true</required>
+  </attribute>
+</tag>
+</taglib> 

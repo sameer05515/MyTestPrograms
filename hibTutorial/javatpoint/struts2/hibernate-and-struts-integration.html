@@ -1,0 +1,395 @@
+ <!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>Hibernate and Struts Integration Example Tutorial- javatpoint</title><link rel="SHORTCUT ICON" href="images/logo/icon.png" /><link rel="stylesheet" type="text/css" href="/link.css" /><meta name="keywords" content="hibernate, struts, struts2, integration, example"/><meta name="description" content="Hibernate and Struts Integration. Let's see the simple example of hibernate and struts2 integration."/><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><link rel="canonical" href="http://www.javatpoint.com/hibernate-and-struts-integration" /><meta property="og:locale" content="en_US" /><meta property="og:type" content="article" /><meta name="twitter:title" property="og:title" content="Hibernate and Struts Integration Example Tutorial- javatpoint" /><meta name="twitter:description" property="og:description" content="Hibernate and Struts Integration. Let's see the simple example of hibernate and struts2 integration." /><meta property="og:url" content="http://www.javatpoint.com/hibernate-and-struts-integration" /><meta property="og:site_name" content="www.javatpoint.com" /><meta name="twitter:card" content="summary"/><meta name="twitter:site" content="@pagejavatpoint"/><meta name="twitter:domain" content="www.javatpoint.com"/><meta name="twitter:creator" content="@pagejavatpoint"/></head> <body onload="highlightlink()"> <div id="page" style="margin:-9px;background-color:#f5f5f4;"><div id="container"> <div class="header"><table style="width:100%"><tr><td><div id="headerlink" style="padding:0px;margin:0px"><span style="margin-right:20px;width:45%px"></span><span style="float:right;margin-right:5px;width:45%"><a href="http://www.javatpoint.com/contribute-us" style="text-decoration:none;color:#6666CC">Contribute Us</a> | <a href="http://www.javatpoint.com/asknewquestion.jsp" style="text-decoration:none;color:#6666CC">Ask Question</a> | <a href='http://www.javatpoint.com/login.jsp' style='text-decoration:none;color:#6666CC'>login</a> <a target="_blank" href="http://feeds.feedburner.com/javatpointsonoo"><img src="http://www.javatpoint.com/images/social/r.png" alt="RSS Feed"/></a><a target="_blank" href="http://feedburner.google.com/fb/a/mailverify?uri=javatpointsonoo"><img src="http://www.javatpoint.com/images/social/m.png" alt="Subscribe to Get Email Alerts"/></a><a target="_blank" href="https://www.facebook.com/javatpoint"><img src="http://www.javatpoint.com/images/social/f.png" alt="Facebook Page"/></a><a target="_blank" href="https://plus.google.com/u/0/113973042385691981314/posts"><img src="http://www.javatpoint.com/images/social/g.png" alt="Google Page"/></a><a target="_blank" href="https://twitter.com/pagejavatpoint"><img src="http://www.javatpoint.com/images/social/t.png" alt="Twitter Page"/></a></span><hr class="upperhr"/></div> </td></tr><tr><td><!--<div style="float:left;width:230px;"><img src="http://www.javatpoint.com/images/logo/log2.png" alt="javatpoint.com"/></div>--><div style="margin:0px;padding:0px;float:left;width:23%;margin-left:10px;margin-bottom:0px"><a href="http://www.javatpoint.com" style="text-decoration:none;"><span style="color:orange;font-size:28px;font-weight:bold;">Java</span><span style="color:#666600;font-size:40px;font-weight:bold;">T</span><span style="color:red;font-size:28px;font-weight:bold;">point</span></a></div><div style="float:left;width:50%;"><form class="navbar-search" method="get" action="http://www.google.com/search" target="_blank"> <input type="text" name="q" class="search-query span2" placeholder="Search on javatpoint..." title="Search on Javatpoint"/><input type="hidden" name="sitesearch" value="www.javatpoint.com"/></form><!--<span style="margin-left:100px;color:orange;font-size:20px;font-weight:bold;">Happy </span><span style="color:red;font-size:20px;font-weight:bold;">New </span><span style="color:#666600;font-size:20px;font-weight:bold;">Year</span><span style="color:#666600;font-size:30px;font-weight:bold;"> 2015</span>--></div><div style="width:25%;float:right"><div style="padding:0px;margin:0px;margin-right:10px;margin-top:10px;float:right"><a target="_blank" style="background-color:#6699CC;text-decoration:none;color:white;border-radius:5px;font-weight:bold;padding:6px 10px 6px 10px;" href='http://www.javatpoint.com/subscribe.jsp'>Subscribe Us</a></div><div style="padding:0px;margin:0px;margin-right:10px;float:right"><p style="padding:0px;margin:0px;margin-top:5px;color:#983688;font-weight:bold;">91-9990449935</p><p style="padding:0px;margin:0px;color:#983688;font-weight:bold;">&nbsp;0120-4256464</p></div></div></td></tr></table> </div><div class="headermobile"><div style="margin:0px;padding:0px;text-align:left;margin-left:10px;"><a href="http://www.javatpoint.com" style="text-decoration:none;"><span style="color:orange;font-size:25px;font-weight:bold;">Java</span><span style="color:#666600;font-size:35px;font-weight:bold;">T</span><span style="color:red;font-size:25px;font-weight:bold;">point</span></a></div><div style="margin:0px;padding:0px;clear:both"><form class="navbar-search-m" method="get" action="http://www.google.com/search" target="_blank"> <input type="text" name="q" class="search-query span2-m" placeholder="Search on javatpoint..." title="Search on Javatpoint"/><input type="hidden" name="sitesearch" value="www.javatpoint.com"/></form></div></div><div id="link" style="clear:both"> <div id="smoothmenu1" class="ddsmoothmenu">
+<ul>
+<li><a href="http://www.javatpoint.com">Home</a></li>
+<li><a href="java-tutorial">Core Java</a></li>
+<li><a href="servlet-tutorial">Servlet</a></li>
+<li><a href="jsp-tutorial">JSP</a></li>
+<li><a href="struts-2-tutorial">Struts2</a></li>
+<li><a href="java-mail-api-tutorial">Mail API</a></li>
+<li><a href="hibernate-tutorial" class="selected">Hibernate</a></li>
+<li><a href="spring-tutorial">Spring</a></li>
+
+<li><a href="android-tutorial">Android</a></li>
+<li><a href="design-patterns-in-java">Design Pattern</a></li>
+<li><a href="examaccess">Quiz</a></li>
+
+<li><a href="free-java-projects">Projects</a></li>
+<li><a href="corejava-interview-questions">Interview Q</a>
+<li><a href="comment.jsp">Comment</a>
+<li><a href="forum">Forum</a>
+</li>
+</ul>
+<br style="clear: left" />
+</div>
+
+</div><div id="mobilemenu" style="clear:both"> <button onmouseover="style.color='khaki' " onmouseout="style.color='white'" onclick="showmenu()">Content Menu &#x25bc;</button></div><div id="mobilemenu" style="clear:both"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><!-- responsivemobile --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4699858549023382" data-ad-slot="1236815518" data-ad-format="auto"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div><div id="menu"><div class="leftmenu2" >
+<h2 class="spanh2"><span class="spanh2">Hibernate Tutorial</span></h2>
+</div>
+
+<div class="leftmenu" >
+<a href="hibernate-tutorial">HB Introduction</a>
+<a href="hibernate-architecture">HB Architecture</a>
+<a href="steps-to-create-first-hibernate-application">Understanding First HB application</a>
+</div>
+<div class="leftmenu2" >
+<h2 class="spanh2"><span class="spanh2">Hibernate in IDE</span></h2>
+</div>
+<div class="leftmenu" >
+<a href="example-to-create-hibernate-application-in-eclipse-ide">HB  in Eclipse</a>
+<a href="example-to-create-hibernate-application-in-myeclipse-ide">HB  in MyEclipse</a>
+<!--<a href="example-to-create-hibernate-application-in-netbeans-ide">Hibernate Application in Netbeans</a>-->
+</div>
+<div class="leftmenu2" >
+<h2 class="spanh2"><span class="spanh2">Hibernate Example</span></h2>
+</div>
+<div class="leftmenu" >
+<a href="hibernate-with-annotation">HB with annotation</a>
+<a href="web-application-with-hibernate">HB Web application</a>
+<a href="generator-classes">HB Generator classes</a>
+<a href="dialects-in-hibernate">HB Dialects</a>
+</div>
+<div class="leftmenu2" >
+<h2 class="spanh2"><span class="spanh2">Hibernate Log4j</span></h2>
+</div>
+<div class="leftmenu" >
+<a href="hibernate-logging-by-log4j-using-xml-file" >HB with Log4j 1</a>
+<a href="hibernate-logging-by-log4j-using-properties-file" >HB with Log4j 2</a>
+</div>
+
+<div class="leftmenu2" >
+<h2 class="spanh2"><span class="spanh2">Inheritance Mapping</span></h2>
+</div>
+<div class="leftmenu" >
+<a href="hibernate-inheritance-mapping-tutorial"  ><span>Inheritance Mapping</span></a>
+<a href="hibernate-table-per-hierarchy-example-using-xml-file" >Table Per Hierarchy</a>
+<a href="hibernate-table-per-hierarchy-using-annotation-tutorial-example" >TPH using Annotation</a>
+<a href="table-per-concrete-class" >Table Per Concrete</a>
+<a href="hibernate-table-per-concrete-class-using-annotation-tutorial-example" >TPC using Annotation</a>
+<a href="table-per-subclass" >Table Per Subclass</a>
+<a href="hibernate-table-per-subclass-using-annotation-tutorial-example" >TPS using Annotation</a>
+</div>
+<div class="leftmenu2" >
+<h2 class="spanh2"><span class="spanh2">Collection Mapping</span></h2>
+</div>
+<div class="leftmenu" >
+<a href="collection-mapping"  ><span>Collection Mapping</span></a>
+<a href="mapping-list-in-collection-mapping" >Mapping List</a>
+<a href="list-one-to-many" >One-to-many by List</a>
+<a href="hibernate-one-to-many-mapping-using-annotation-example" >OTM Annotation</a>
+<a href="mapping-bag-in-collection-mapping" >Mapping Bag</a>
+<a href="bag-one-to-many" >One-to-many by Bag</a>
+
+<a href="mapping-set-in-collection-mapping" >Mapping Set</a>
+<a href="set-one-to-many" >One-to-many by Set</a>
+<a href="mapping-map-in-collection-mapping" >Mapping Map</a>
+<a href="many-to-many-mapping-in-hibernate-by-map-example" >Many-to-many by Map</a>
+
+<a href="bidirectional-association" >Bidirectional</a>
+<a href="lazy-collection" >Lazy Collection</a>
+</div>
+<div class="leftmenu2" >
+<h2 class="spanh2"><span class="spanh2">Component Mapping</span></h2>
+</div>
+<div class="leftmenu" >
+<a href="component-mapping"  ><span>Component Mapping</span></a>
+</div>
+<div class="leftmenu2" >
+<h2 class="spanh2"><span class="spanh2">Association Mapping</span></h2>
+</div>
+<div class="leftmenu" >
+<a href="one-to-one-mapping-in-hibernate-by-many-to-one-example" >One-to-one 1</a>
+<a href="one-to-one-mapping-in-hibernate-by-one-to-one-example" >One-to-one 2</a>
+</div>
+<div class="leftmenu2" >
+<h2 class="spanh2"><span class="spanh2">Tx Management</span></h2>
+</div>
+<div class="leftmenu" >
+<a href="hibernate-transaction-management-example"  ><span>Tx Management</span></a>
+</div>
+<div class="leftmenu2" >
+<h2 class="spanh2"><span class="spanh2">HQL</span></h2>
+</div>
+<div class="leftmenu" >
+<a href="hql"  ><span>HQL</span></a>
+</div>
+<div class="leftmenu2" >
+<h2 class="spanh2"><span class="spanh2">HCQL</span></h2>
+</div>
+<div class="leftmenu" >
+<a href="hcql"  ><span>HCQL</span></a>
+</div>
+<div class="leftmenu2" >
+<h2 class="spanh2"><span class="spanh2">Named Query</span></h2>
+</div>
+<div class="leftmenu" >
+<a href="hibernate-named-query"  ><span>Named Query</span></a>
+</div>
+<div class="leftmenu2" >
+<h2 class="spanh2"><span class="spanh2">Hibernate Caching</span></h2>
+</div>
+<div class="leftmenu" >
+<a href="Caching-in-hibernate"  ><span>Hibernate Caching</span></a>
+</div>
+<div class="leftmenu2" >
+<h2 class="spanh2"><span class="spanh2">Second Level Cache</span></h2>
+</div>
+<div class="leftmenu" >
+<a href="hibernate-second-level-cache" >Second Level Cache</a>
+</div>
+<div class="leftmenu2" >
+<h2 class="spanh2"><span class="spanh2">Integration</span></h2>
+</div>
+<div class="leftmenu" >
+<a href="hibernate-and-struts-integration" >Hibernate and Struts</a>
+<a href="hibernate-and-spring-integration" >Hibernate and Spring</a>
+</div>
+<div class="leftmenu2" >
+<h2 class="spanh2"><span class="spanh2">Hibernate Interview</span></h2>
+</div>
+<div class="leftmenu">
+<a href="hibernate-interview-questions"><span>Interview Questions</span></a>
+</div><table id="leftad"><tr><td><img src="images/wh.JPG" alt="space"/></td></tr><tr><td><script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins class="adsbygoogle" style="display:inline-block;width:160px;height:600px" data-ad-client="ca-pub-4699858549023382" data-ad-slot="4476401222"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({}); </script></td></tr></table></div><div class="onlycontent" style="margin-left:10px;margin-top:15px;width:65%;margin-auto;float:left;"><div id="right1024" style=""><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><!-- javatpointheader --><ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-4699858549023382" data-ad-slot="1219987637"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div><div style="margin-left:0px;"><div id="city">
+
+<table>
+<tr><td>
+<div id="bottomnextup">
+
+<a class="next" href="hibernate-and-spring-integration">next&gt;&gt;</a>
+<a class="next" href="hibernate-second-level-cache">&lt;&lt;prev</a>
+
+</div>
+
+<h1 id="h1">Hibernate and Struts 2 Integration</h1>
+<div id="upr">
+<ol>
+<li><a href="#">Hibernate and Struts2 Integration</a></li>
+<li><a href="#ex">Example of Hibernate and struts2 integration</a></li>
+</ol>
+</div>
+
+<p>We can integrate any <b>struts application with hibernate</b>. There is no requirement of extra efforts. </p>
+<p>In this example, we going to use struts 2 framework with hibernate. You need to have jar files for struts 2 and hibernate. </p>
+
+<hr/>
+<a name="ex"></a>
+<h3 id="h3ex">Example of Hibernate and struts2 integration</h3>
+<p>In this example,  we are creating the registration form using struts2 and storing this data into the database using Hibernate.
+Let's see the files that we should create to integrate the struts2 application with hibernate.</p>
+<ul>
+<li><strong>index.jsp</strong> file to get input from the user.</li>
+<li><strong>User.java</strong> A action class for handling the request. It uses the dao class to store the data.</li>
+<li><strong>RegisterDao.java</strong> A java class that uses DAO design pattern to store the data using hibernate.</li>
+<li><strong>user.hbm.xml</strong> A mapping file that contains information about the persistent class. In this case, action class works as the persistent class.</li>
+<li><strong>hibernate.cfg.xml</strong> A configuration file that contains informations about the database and mapping file.</li>
+<li><strong>struts.xml</strong> file contains information about the action class and result page to be invoked.</li>
+<li><strong>welcome.jsp</strong> A jsp file that displays the welcome information with username.</li>
+<li><strong>web.xml</strong> A web.xml file that contains information about the Controller of Struts framework.</li>
+</ul>
+
+
+<h4 id="h4">index.jsp</h4>
+<p>In this page, we have created a form using the struts tags. The action name for this form is register.</p>
+
+<div class="codeblock"><textarea name="code" class="java" >
+
+&lt;%@ taglib uri="/struts-tags" prefix="S" %&gt;
+
+&lt;S:form action="register"&gt;
+&lt;S:textfield name="name" label="Name"&gt;&lt;/S:textfield&gt;
+&lt;S:submit value="register"&gt;&lt;/S:submit&gt;
+
+&lt;/S:form&gt;
+
+
+</textarea></div>
+<hr/>
+<h4 class="h4">User.java</h4>
+<p>It is a simple POJO class. Here it works as the action class for struts and persistent class for hibernate. It calls the register method of RegisterDao class and returns success as the string.</p>
+
+<div class="codeblock"><textarea name="code" class="java" >
+
+package com.javatpoint;
+
+public class User {
+private int id;
+private String name;
+//getters and setters
+
+public String execute(){
+	RegisterDao.saveUser(this);
+	return "success";
+}
+
+}
+
+</textarea></div>
+<hr/>
+<h4 class="h4">RegisterDao.java</h4>
+<p>It is a java class that saves the object of User class using the Hibernate framework.</p>
+<div class="codeblock"><textarea name="code" class="java" >
+
+package com.javatpoint;
+
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+public class RegisterDao {
+
+public static int saveUser(User u){
+		
+Session session=new Configuration().
+configure("hibernate.cfg.xml").buildSessionFactory().openSession();
+		
+Transaction t=session.beginTransaction();
+int i=(Integer)session.save(u);
+t.commit();
+session.close();
+		
+return i;
+
+}
+
+}
+
+</textarea></div>
+<hr/>
+<h4 class="h4">user.hbm.xml</h4>
+<p>This mapping file contains all the information of the persitent class.</p>
+<div class="codeblock"><textarea name="code" class="java" >
+
+&lt;?xml version='1.0' encoding='UTF-8'?&gt;
+&lt;!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd"&gt;
+
+&lt;hibernate-mapping&gt;
+&lt;class name="com.javatpoint.User" table="user451"&gt;
+&lt;id name="id"&gt;
+&lt;generator class="increment"&gt;&lt;/generator&gt;
+&lt;/id&gt;
+&lt;property name="name"&gt;&lt;/property&gt;
+&lt;/class&gt;
+          
+&lt;/hibernate-mapping&gt;
+
+</textarea></div>
+<hr/>
+<h4 class="h4">hibernate.cfg.xml</h4>
+<p>This configuration file contains informations about the database and mapping file. Here, we are using the hb2ddl.auto property, so you don't need to create the table in the database.</p>
+
+<div class="codeblock"><textarea name="code" class="java" >
+
+&lt;?xml version='1.0' encoding='UTF-8'?&gt;
+&lt;!DOCTYPE hibernate-configuration PUBLIC
+          "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+          "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd"&gt;
+
+&lt;!-- Generated by MyEclipse Hibernate Tools.                   --&gt;
+&lt;hibernate-configuration&gt;
+
+&lt;session-factory&gt;
+&lt;property name="hbm2ddl.auto"&gt;update&lt;/property&gt;
+&lt;property name="dialect"&gt;org.hibernate.dialect.Oracle9Dialect&lt;/property&gt;
+&lt;property name="connection.url"&gt;jdbc:oracle:thin:@localhost:1521:xe&lt;/property&gt;
+&lt;property name="connection.username"&gt;system&lt;/property&gt;
+&lt;property name="connection.password"&gt;oracle&lt;/property&gt;
+&lt;property name="connection.driver_class"&gt;oracle.jdbc.driver.OracleDriver&lt;/property&gt;
+&lt;mapping resource="user.hbm.xml"/&gt;
+    
+&lt;/session-factory&gt;
+
+&lt;/hibernate-configuration&gt;
+
+</textarea></div>
+<hr/>
+
+<h4 class="h4">struts.xml</h4>
+<p>This files contains information about the action class to be invoked. Here the action class is User.</p>
+
+<div class="codeblock"><textarea name="code" class="java" >
+
+&lt;?xml version="1.0" encoding="UTF-8" ?&gt;
+&lt;!DOCTYPE struts PUBLIC "-//Apache Software Foundation
+//DTD Struts Configuration 2.1//EN" 
+"http://struts.apache.org/dtds/struts-2.1.dtd"&gt;
+&lt;struts&gt;
+
+&lt;package name="abc" extends="struts-default"&gt;
+&lt;action name="register" class="com.javatpoint.User"&gt;
+&lt;result name="success"&gt;welcome.jsp&lt;/result&gt;
+&lt;/action&gt;
+&lt;/package&gt;
+&lt;/struts&gt;    
+
+</textarea></div>
+<hr/>
+<h4 id="h4">welcome.jsp</h4>
+<p>It is the welcome file, that displays the welcome message with username.</p>
+
+<div class="codeblock"><pre name="code" class="java" >
+
+&lt;%@ taglib uri="/struts-tags" prefix="S" %>
+
+Welcome: &lt;S:property value="name"/>
+
+</textarea></div>
+<hr/>
+<h4 class="h4">web.xml</h4>
+<p>It is web.xml file that contains the information about the controller. In case of Struts2, StrutsPrepareAndExecuteFilter class works as the controller.</p>
+<div class="codeblock"><textarea name="code" class="java" >
+
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"&gt;
+  &lt;welcome-file-list&gt;
+    &lt;welcome-file&gt;index.jsp&lt;/welcome-file&gt;
+  &lt;/welcome-file-list&gt;
+  &lt;filter&gt;
+  	&lt;filter-name&gt;struts2&lt;/filter-name&gt;
+  	&lt;filter-class&gt;
+  org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter
+  	&lt;/filter-class&gt;
+  &lt;/filter&gt;
+  &lt;filter-mapping&gt;
+  	&lt;filter-name&gt;struts2&lt;/filter-name&gt;
+  	&lt;url-pattern&gt;/*&lt;/url-pattern&gt;
+  &lt;/filter-mapping&gt;
+&lt;/web-app&gt;
+
+</textarea></div>
+<hr/>
+
+<div class="download">
+<a href="src/hb/strutsinteg.zip">download this hibernate example</a>
+</div>
+
+<div class="nexttopicdiv">
+<span class="nexttopictext">Next Topic</span><span class="nexttopiclink"><a href="hibernate-and-spring-integration">Hibernate and Spring Integration</a></span>
+</div>
+
+<!-- link -->
+<br/><br/>
+
+<div id="bottomnext">
+<a style="float:left" class="next" href="hibernate-second-level-cache">&lt;&lt;prev</a>
+
+<a style="float:right" class="next" href="hibernate-and-spring-integration">next&gt;&gt;</a>
+</div>
+
+<br/><br/>
+
+</td></tr>
+</table>
+
+</div>
+</div><br/><div id="mobilemenu" style="clear:both"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><!-- responsivemobile --><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4699858549023382" data-ad-slot="1236815518" data-ad-format="auto"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div></div><div id="right" style="width:15%;float:left;margin-left:10px;margin-top:10px;"><script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins class="adsbygoogle" style="display:inline-block;width:160px;height:600px" data-ad-client="ca-pub-4699858549023382" data-ad-slot="4476401222"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({});</script><br/><br/><br/><br/><script async src="http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> <ins class="adsbygoogle" style="display:inline-block;width:160px;height:600px" data-ad-client="ca-pub-4699858549023382" data-ad-slot="4476401222"></ins> <script> (adsbygoogle = window.adsbygoogle || []).push({});</script><br/><br/><br/><br/>
+<!--<script id="mNCC" language="javascript"> medianet_width='160'; medianet_height= '600'; medianet_crid='694759290'; </script> <script id="mNSC" src="http://contextual.media.net/nmedianet.js?cid=8CU74TD10" language="javascript"></script> -->
+</div><div id="right1024" style="float:left;margin-left:10px;margin-top:120px;"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><!-- right1024only --><ins class="adsbygoogle" style="display:inline-block;width:120px;height:600px" data-ad-client="ca-pub-4699858549023382" data-ad-slot="2180118716"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div>
+<div id="footer" style="clear:both;width:100%">
+
+<script type="text/javascript"> var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-24880427-1']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })();</script><hr/><div style="padding:0px;margin:0px;text-align:center"><sup style="font:16px arial;">Like/Subscribe us for latest updates or newsletter </sup><a target="_blank" href="http://feeds.feedburner.com/javatpointsonoo"><img src="http://www.javatpoint.com/images/social/rss1.png" alt="RSS Feed"/></a><a target="_blank" href="http://feedburner.google.com/fb/a/mailverify?uri=javatpointsonoo"><img src="http://www.javatpoint.com/images/social/mail1.png" alt="Subscribe to Get Email Alerts"/></a><a target="_blank" href="https://www.facebook.com/javatpoint"><img src="http://www.javatpoint.com/images/social/facebook1.jpg" alt="Facebook Page"/></a><a target="_blank" rel="author" href="https://plus.google.com/u/0/113973042385691981314/posts"><img src="http://www.javatpoint.com/images/social/google1.png" alt="Google Page"/></a><a target="_blank" href="https://twitter.com/pagejavatpoint"><img src="http://www.javatpoint.com/images/social/twitter1.png" alt="Twitter Page"/></a><a target="_blank" href="http://javatpoint.blogspot.com"><img src="http://www.javatpoint.com/images/social/blog.png" alt="Blog Page"/></a><a href="#" style="font:bold 18px arial;text-decoration:none;"><sup>&uarr;Top</sup></a></div><div style="margin:auto 0px;line-height:20px;padding:0px 40px;font-size:12px;height:390px;background:#6699CC;color: white; font-family:serif; border-bottom: solid 1px #A3AE7E;"> <div id="innerfooter" > <div><span style="text-decoration:none;font-size:larger;font-family:serif;color:white;font-weight:bolder;">Tutorials</span> <hr/><ul class="footer-list"> <li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/java-tutorial">&raquo; Core Java Tutorial</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/servlet-tutorial">&raquo; Servlet Tutorial</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/jsp-tutorial">&raquo; JSP Tutorial</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/java-mail-api-tutorial">&raquo; Mail API Tutorial</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/design-patterns-in-java">&raquo; Design Pattern Tutorial</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/struts-2-tutorial">&raquo; Struts Tutorial</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/spring-tutorial">&raquo; Spring Tutorial</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/hibernate-tutorial">&raquo; Hibernate Tutorial</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/android-tutorial">&raquo; Android Tutorial</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/javascript-tutorial">&raquo; JavaScript Tutorial</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/sql-tutorial">&raquo; SQL Tutorial</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/c-programming-language-tutorial">&raquo; C Tutorial</a></li> <li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/ajax-tutorial">&raquo; AJAX Tutorial</a></li> <li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/junit-tutorial">&raquo; JUnit Tutorial</a></li> <li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/jaxb-tutorial">&raquo; JAXB Tutorial</a></li> <li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/maven-tutorial">&raquo; Maven Tutorial</a></li></ul> </div> <div><span style="text-decoration:none;font-size:larger;font-family:serif;color:white;font-weight:bolder;">Interview Questions</span> <hr/><ul class="footer-list"> <li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/corejava-interview-questions">&raquo; Java Interview</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/servletinterview">&raquo; Servlet Interview</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/jspinterview">&raquo; JSP Interview</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/hibernate-interview-questions">&raquo; Hibernate Interview</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/spring-interview-questions">&raquo; Spring Interview</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/android-interview-questions">&raquo; Android Interview</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/sql-interview-questions">&raquo; SQL Interview</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/pl-sql-interview-questions">&raquo; PL/SQL Interview</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/oracle-interview-questions">&raquo; Oracle Interview</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/mysql-interview-questions">&raquo; MySQL Interview</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/sql-server-interview-questions">&raquo; SQL Server Interview</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/mongodb-interview-questions">&raquo; MongoDB Interview</a></li> <li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/cloud-computing-interview-questions">&raquo; Cloud Interview</a></li> </ul> </div><div ><a style="font-weight:bolder;text-decoration: none;text-align:center;font-size:larger;font-family:serif;color:white;" target="_blank" href="http://www.javatpoint.com/examaccess">Quizzes</a><hr/><ul class="footer-list"><li><a target="_blank" href="http://www.javatpoint.com/core-java-quiz" style="text-decoration: none;font-family:serif;color:white;">&raquo; Core Java quiz</a></li><li><a target="_blank" href="http://www.javatpoint.com/servlet-quiz" style="text-decoration: none;font-family:serif;color:white;">&raquo; Servlet quiz</a></li><li><a target="_blank" href="http://www.javatpoint.com/jsp-quiz" style="text-decoration: none;font-family:serif;color:white;">&raquo; JSP quiz</a></li><li><a target="_blank" href="http://www.javatpoint.com/struts-quiz" style="text-decoration: none;font-family:serif;color:white;">&raquo; Struts2 quiz</a></li><li><a target="_blank" href="http://www.javatpoint.com/android-quiz" style="text-decoration: none;font-family:serif;color:white;">&raquo; Android quiz</a></li><li><a target="_blank" href="http://www.javatpoint.com/scjp-quiz" style="text-decoration: none;font-family:serif;color:white;">&raquo; OCJP quiz</a></li><li><a target="_blank" href="http://www.javatpoint.com/scwcd-quiz" style="text-decoration: none;font-family:serif;color:white;">&raquo; OCWCD quiz</a></li><li><a target="_blank" href="http://www.javatpoint.com/hibernate-quiz" style="text-decoration: none;font-family:serif;color:white;">&raquo; Hibernate quiz</a></li><li><a target="_blank" href="http://www.javatpoint.com/spring-quiz" style="text-decoration: none;font-family:serif;color:white;">&raquo; Spring quiz</a></li><li><a target="_blank" href="http://www.javatpoint.com/c-quiz" style="text-decoration: none;font-family:serif;color:white;">&raquo; C quiz</a></li><li><a target="_blank" href="http://www.javatpoint.com/cloud-computing-quiz" style="text-decoration: none;font-family:serif;color:white;">&raquo; Cloud Computing quiz</a></li><li><a target="_blank" href="http://www.javatpoint.com/javascript-quiz" style="text-decoration: none;font-family:serif;color:white;">&raquo; JavaScript quiz</a></li><li><a target="_blank" href="http://www.javatpoint.com/sql-quiz" style="text-decoration: none;font-family:serif;color:white;">&raquo; SQL quiz</a></li></ul></div><div><a style="font-weight:bolder;text-decoration: none;font-size:larger;font-family:serif;color:white;text-align:center;" target="_blank" href="http://www.javatpoint.com/forum">Forum</a><hr/><ul class="footer-list"><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/forum.jsp?category=corejava">&raquo; Core Java Ques.</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/forum.jsp?category=servlet">&raquo; Servlet Ques.</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/forum.jsp?category=jsp">&raquo; JSP Ques.</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/forum.jsp?category=struts">&raquo; Struts Ques.</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/forum.jsp?category=spring">&raquo; Spring Ques.</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/forum.jsp?category=hibernate">&raquo; Hibernate Ques.</a></li><li><a style="text-decoration: none;font-family:serif;color:white;" href="http://www.javatpoint.com/forum.jsp?category=android">&raquo; Android Ques.</a></li></ul><hr/><a style="font-weight:bolder;text-decoration: none;text-align:center;font-size:larger;font-family:serif;color:white;" href="http://www.javatpoint.com/free-java-projects">Projects</a><hr/><a style="font-weight:bolder;text-decoration: none;font-size:larger;font-family:serif;text-align:center;color:white;" href="http://www.sssit.org" rel="nofollow">SSS IT PVT LTD</a><hr/><ul class="footer-list"><li><a rel="nofollow" href="http://www.sssit.org/development" style="text-decoration: none;font-family:serif;color:white;">&raquo; Development</a></li><li><a href="training" style="text-decoration: none;font-family:serif;color:white;">&raquo; Training</a></li><li><a rel="nofollow" href="http://www.sssit.org/seo" style="text-decoration: none;font-family:serif;color:white;">&raquo; SEO</a></li><li><a rel="nofollow" href="http://www.sssit.org/consultancy" style="text-decoration: none;font-family:serif;color:white;">&raquo; Consultancy</a></li></ul></div><div style="border-right:2px solid white;"><span style="font-weight:bolder;text-decoration: none;font-size:larger;font-family:serif;color:white;float:right;padding-right:16px;" >CONTACT US</span><br/><hr/><p style="text-align:center;border-bottom:1px solid white;padding-bottom:30px;">Tel. : 0120-4256464<br/>Mob. : +91 9990449935<br/>Email : enquiry@sssit.org<br/>Address: Plot - 6, GT Road,<br/>Near MMX Mall, <br/>Mohan Nagar, Ghaziabad,<br/>201007, UP, India<br/><a href="http://www.javatpoint.com/contact-us" style="text-decoration: none;font-family:serif;color:white;">&raquo; Contact Us</a><br/><a href="http://www.javatpoint.com/privacy-policy" style="text-decoration: none;font-family:serif;color:white;">&raquo; Privacy Policy</a></p><p style="text-align:center;border-bottom:1px solid white;padding-bottom:30px;padding-left:none;"><br/>&copy; 2011-2014 Javatpoint.<br/> All Rights Reserved.<br/><a href="http://www.dmca.com/Protection/Status.aspx?ID=e8b533d5-7356-47f5-820b-72c890f03a4e" rel="nofollow" title="DMCA"> <img src ="http://images.dmca.com/Badges/dmca_protected_sml_120c.png?ID=e8b533d5-7356-47f5-820b-72c890f03a4e" alt="DMCA.com" /></a></p></div></div></div>
+</div></div></div><script src="js/shcoreandbrush.js"></script><script type="text/javascript"> dp.SyntaxHighlighter.HighlightAll('code'); </script></body> </html> 

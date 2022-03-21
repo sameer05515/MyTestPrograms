@@ -1,0 +1,125 @@
+<!DOCTYPE web-app
+	PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+	"http://java.sun.com/j2ee/dtds/web-app_2.3.dtd">
+<web-app>
+    <servlet>
+        <servlet-name>PaginationServlet</servlet-name>
+        <servlet-class>com.prem.servlet.pagination.PaginationServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PaginationServlet</servlet-name>
+        <url-pattern>/run1</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>MarkSheet</servlet-name>
+        <servlet-class>com.prem.servlet.tabledata.MarkSheet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MarkSheet</servlet-name>
+        <url-pattern>/run2</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ConfigServlet</servlet-name>
+        <servlet-class>com.prem.servlet.configtest.ConfigServlet</servlet-class>
+        <init-param>
+            <param-name>driver</param-name>
+            <param-value>sun.jdbc.odbc.JdbcOdbcDriver</param-value>
+        </init-param>
+        <init-param>
+            <param-name>image</param-name>
+            <param-value>new.jpg</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ConfigServlet</servlet-name>
+        <url-pattern>/run3</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>ListenerServlet</servlet-name>
+        <servlet-class>com.prem.servlet.cookieNlistener.ListenerServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListenerServlet</servlet-name>
+        <url-pattern>/run4</url-pattern>
+    </servlet-mapping>
+
+    <listener>
+        <listener-class>com.prem.servlet.cookieNlistener.MyListener</listener-class>
+    </listener>
+    
+    <servlet>
+        <servlet-name>MyFilterServlet</servlet-name>
+        <servlet-class>com.prem.servlet.filter.MyFilterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MyFilterServlet</servlet-name>
+        <url-pattern>/run5</url-pattern>
+    </servlet-mapping>
+    
+    <filter>
+        <filter-name>MyFilter</filter-name>
+        <filter-class>com.prem.servlet.filter.MyFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>MyFilter</filter-name>
+        <url-pattern>/run6</url-pattern>
+    </filter-mapping>
+    
+   
+    
+    
+    <servlet>
+        <servlet-name>RedirectServlet</servlet-name>
+        <servlet-class>com.prem.servlet.forwqrd.RedirectServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RedirectServlet</servlet-name>
+        <url-pattern>/RedirectServlet.prem</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>IncludeServlet</servlet-name>
+        <servlet-class>com.prem.servlet.include.IncludeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>IncludeServlet</servlet-name>
+        <url-pattern>/IncludeServlet.prem</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+        <servlet-name>ContextAttribute</servlet-name>
+        <servlet-class>com.prem.servlet.configtest.ContextAttribute</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ContextAttribute</servlet-name>
+        <url-pattern>/ContextAttribute.prem</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>HeaderServlet</servlet-name>
+        <servlet-class>com.prem.servlet.configtest.HeaderServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HeaderServlet</servlet-name>
+        <url-pattern>/HeaderServlet.prem</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ExcelServlet</servlet-name>
+        <servlet-class>com.prem.servlet.configtest.ExcelServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ExcelServlet</servlet-name>
+        <url-pattern>/ExcelServlet.prem</url-pattern>
+    </servlet-mapping>
+ 
+ 
+    <welcome-file-list>
+        <welcome-file>jsp/index.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>

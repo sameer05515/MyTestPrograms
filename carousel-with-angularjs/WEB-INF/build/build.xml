@@ -1,0 +1,47 @@
+<project name="file-service" default="dist" basedir=".">
+	<description>
+		simple example classes file
+	</description>
+	
+	<!-- set global properties for this classes -->
+	<property name="src" location="../src"/>
+	<property name="classes" location="../classes"/>
+	<property name="dist" location="../dist"/>
+	<property name="classpath" value="../lib"/>
+
+	<!-- Classpath for the project -->	
+	<path id="master-classpath">
+		<fileset dir="${classpath}">
+			<include name="*.jar"/>
+			<!--<include name="**/*.jar"/>-->
+		</fileset>
+	</path>
+
+	<target name="init">
+		<!-- Create the time stamp -->
+		<tstamp/>
+		<!-- Create the classes directory structure used by compile -->
+		<!--<mkdir dir="${classes}"/>-->
+	</target>
+
+	<target name="compile" depends="init" description="compile the source">
+		<!-- Compile the java code from ${src} into ${classes} -->
+		<javac srcdir="${src}" destdir="${classes}">
+			<classpath refid="master-classpath"/>
+		</javac>
+	</target>
+
+	<target name="dist" depends="compile" description="generate the distribution">
+		<!-- Create the distribution directory -->
+		<!--<mkdir dir="${dist}"/>-->
+
+		<!-- Put everything in ${classes} into the MyProject-${DSTAMP}.jar file -->
+		<jar jarfile="${dist}/file-service.jar" basedir="${classes}"/>
+	</target>
+
+	<target name="clean" description="clean up">
+		<!-- Delete the ${classes} and ${dist} directory trees -->
+		<delete dir="${classes}"/>
+		<delete dir="${dist}"/>
+	</target>
+</project>
