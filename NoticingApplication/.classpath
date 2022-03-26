@@ -29,6 +29,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/ojdbc6.jar"/>
+
 	<classpathentry kind="src" path="target/generated-sources/annotations">
 		<attributes>
 			<attribute name="optional" value="true"/>
@@ -46,5 +47,6 @@
 			<attribute name="test" value="true"/>
 		</attributes>
 	</classpathentry>
+
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
