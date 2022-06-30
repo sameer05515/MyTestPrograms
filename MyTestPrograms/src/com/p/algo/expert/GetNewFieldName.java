@@ -14,7 +14,16 @@ public class GetNewFieldName {
 
 	public static void main(String[] args) {
 		
-		List<String> rawIndexFieldNames= Arrays.asList("rAm","Ram0","Ram 0","Ram","Ram 2","Ram 3","Ram3","Ram ","Ram3","Ram ","Ram    3","Ram ","Ram ","Ram ","Ram ","Ram 5","ram","ram  ","ram 1");
+//		List<String> rawIndexFieldNames= Arrays.asList("Phone no1","Phone no1",
+//				"Phone no1","Phone no1","Phone no1","Phone no11",
+//				"Phone no11","Phone no11","Phone no11");
+		
+//		List<String> rawIndexFieldNames= Arrays.asList();
+		
+		List<String> rawIndexFieldNames= Arrays.asList("Doc","Doc","Doc","Doc","Doc1","Doc","Doc1","Doc1","Doc","Doc11");
+
+//		List<String> rawIndexFieldNames= Arrays.asList("01","011","01","011","1","3","2","1","02","02","02","02","03","03","03","03","3","3","3","3");
+		
 //		String[] output= new String[input.length];
 //		Set<String> outputSet=new LinkedHashSet<>();
 		HashMap<String, Integer> keyCountMap=new HashMap<String, Integer>() ;
@@ -41,8 +50,9 @@ public class GetNewFieldName {
 		LinkedHashSet<String> outputSet2=new LinkedHashSet<>();
 		List<String> keyNames = new ArrayList<>();
 		for(String rawIndexFieldName:rawIndexFieldNames) {	
+			rawIndexFieldName = rawIndexFieldName != null ? rawIndexFieldName.replaceAll("[\\s/\\\\:\\*\\-\\<\\>\\?”'\\.\\(\\)\\+\\!@#%\\^&;~\\{\\}\\|\\[\\]]", "") : "";
 			String newIndexFieldName=new String(rawIndexFieldName.trim());
-			newIndexFieldName = newIndexFieldName != null ? newIndexFieldName.replaceAll("[\\s/\\\\:\\*\\-\\<\\>\\?”'\\.\\(\\)\\+\\!@#%\\^&;~\\{\\}\\|\\[\\]]", "") : "";
+			
 			if(!newIndexFieldName.isEmpty()) {
 				while (keyNames.contains(newIndexFieldName.toLowerCase())) {
 		            int occurrenceCount = 0;
@@ -59,11 +69,37 @@ public class GetNewFieldName {
 			}			
 		}
 		
+		keyCountMap=new HashMap<String, Integer>() ;
+		LinkedHashSet<String> outputSet3=new LinkedHashSet<>();
+		List<String> keyNames1 = new ArrayList<>();
+		for(String rawIndexFieldName:rawIndexFieldNames) {	
+			rawIndexFieldName = rawIndexFieldName != null ? rawIndexFieldName.replaceAll("[\\s/\\\\:\\*\\-\\<\\>\\?”'\\.\\(\\)\\+\\!@#%\\^&;~\\{\\}\\|\\[\\]]", "") : "";
+			String newIndexFieldName=new String(rawIndexFieldName.trim());			
+			
+			String newIndexFieldNameLC=newIndexFieldName.toLowerCase();
+			if(!newIndexFieldName.isEmpty()) {
+				while (keyNames1.contains(newIndexFieldNameLC)) {
+		            int occurrenceCount = 1;
+		            if (keyCountMap.containsKey(newIndexFieldNameLC)) {
+		                occurrenceCount = keyCountMap.get(newIndexFieldNameLC) + 1;
+					} /*
+						 * else { occurrenceCount = 1; }
+						 */
+		            keyCountMap.put(newIndexFieldNameLC, occurrenceCount);
+		            newIndexFieldName = rawIndexFieldName.trim()+ String.valueOf(occurrenceCount);
+		            newIndexFieldNameLC=newIndexFieldName.toLowerCase();
+		        }
+				keyNames1.add(newIndexFieldNameLC);
+		        outputSet3.add(newIndexFieldName);
+			}			
+		}
+		
 		System.out.println(rawIndexFieldNames);
 		System.out.println(outputSet1);
 		System.out.println(outputSet2);
+		System.out.println(outputSet3);
 		System.out.println(
-				 (outputSet1.size()==rawIndexFieldNames.size())&& (rawIndexFieldNames.size()==outputSet2.size()));
+				 (outputSet2.size()==rawIndexFieldNames.size())&& (rawIndexFieldNames.size()==outputSet3.size()));
 		
 //		
 //		for(String s:rawIndexFieldNames)
@@ -72,15 +108,16 @@ public class GetNewFieldName {
 //		for(String s:outputSet1)
 //			System.out.print(s+"\t\t");
 //		System.out.println();
-//		for(String s:outputSet2)
+//		for(String s:outputSet2)F
 //			System.out.print(s+"\t\t");
 //		System.out.println();
 		Iterator<String> i1=rawIndexFieldNames.iterator();
 		Iterator<String> i2=outputSet1.iterator();
 		Iterator<String> i3=outputSet2.iterator();
+		Iterator<String> i4=outputSet3.iterator();
 		
-		for(;i1.hasNext()&&i2.hasNext()&&i3.hasNext();) {
-			System.out.println(i2.next()+"\t\t\t\t\t\t"+i3.next()+"\t\t\t\t\t\t"+i1.next());
+		for(;i1.hasNext()&&i2.hasNext()&&i3.hasNext()&&i4.hasNext();) {
+			System.out.println(i2.next()+"\t\t\t\t"+i3.next()+"\t\t\t\t"+i4.next()+"\t\t\t\t"+i1.next());
 		}
 
 	}

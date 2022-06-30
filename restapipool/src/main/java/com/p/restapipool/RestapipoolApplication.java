@@ -1,0 +1,13 @@
+package com.p.restapipool;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class RestapipoolApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(RestapipoolApplication.class, args);
+	}
+
+}

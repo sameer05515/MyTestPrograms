@@ -2,9 +2,12 @@ package net.sf.dynamicreports.examples;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.nio.file.Paths;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.util.Arrays;
+import java.util.List;
 
 import net.sf.dynamicreports.jasper.builder.JasperReportBuilder;
 import net.sf.dynamicreports.report.builder.DynamicReports;
@@ -36,7 +39,7 @@ public class SimpleReportExample {
 		Connection connection = null;
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-			connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/test","root", "");
+			connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/jtrac_28_dec_21","root", "admin@123");
 		} catch (SQLException e) {
 			e.printStackTrace();
 			return;
@@ -46,24 +49,36 @@ public class SimpleReportExample {
 		}
 
 		JasperReportBuilder report = DynamicReports.report();//a new report
+
+		/**
+		 * Report from database
+		 * */
 		report
 		  .columns(
 		  	Columns.column("Customer Id", "id", DataTypes.integerType())
 		  		.setHorizontalAlignment(HorizontalAlignment.LEFT),
-		  	Columns.column("First Name", "first_name", DataTypes.stringType()),
-		  	Columns.column("Last Name", "last_name", DataTypes.stringType()),
-		  	Columns.column("Date", "date", DataTypes.dateType())
+		  	Columns.column("First Name", "login_name", DataTypes.stringType()),
+		  	Columns.column("Last Name", "name", DataTypes.stringType()),
+		  	Columns.column("Email", "email", DataTypes.stringType())
 		  		.setHorizontalAlignment(HorizontalAlignment.LEFT)
 		  	)
 		  .title(//title of the report
 		  	Components.text("SimpleReportExample")
 		  		.setHorizontalAlignment(HorizontalAlignment.CENTER))
 		  .pageFooter(Components.pageXofY())//show page number on the page footer
-		  .setDataSource("SELECT id, first_name, last_name, date FROM customers", connection);
+		  .setDataSource("SELECT id, login_name, name, email FROM users", connection);
+
+//		/**
+//		 * Report from collection
+//		 * */
+//
+//		List<String > nameList= Arrays.asList("Ram","Shyam");
+//		report.setDataSource(nameList);
 
 		try {
 			report.show();//show the report
-			report.toPdf(new FileOutputStream("/Users/mkyong/Documents/workspace/report.pdf"));//export the report to a pdf file
+			String uploadFolderName = Paths.get("").toAbsolutePath().toString().concat("/src/test/resources");
+			report.toPdf(new FileOutputStream(uploadFolderName+"/report.pdf"));//export the report to a pdf file
 		} catch (DRException e) {
 			e.printStackTrace();
 		} catch (FileNotFoundException e) {
