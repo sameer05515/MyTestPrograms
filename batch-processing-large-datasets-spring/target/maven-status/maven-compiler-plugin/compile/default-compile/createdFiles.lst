@@ -1,0 +1,9 @@
+com\techshard\batch\configuration\BatchConfiguration.class
+com\techshard\batch\dao\repository\IVoltageRepository.class
+com\techshard\batch\Application.class
+com\techshard\batch\dao\entity\Voltage.class
+com\techshard\batch\configuration\VoltageProcessor.class
+com\techshard\batch\configuration\NotificationListener.class
+com\techshard\batch\TracePerformanceAspect.class
+com\techshard\batch\configuration\BatchConfiguration$1.class
+com\techshard\batch\configuration\VoltageFieldSetMapper.class

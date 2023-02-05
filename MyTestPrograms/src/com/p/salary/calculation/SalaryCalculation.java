@@ -17,7 +17,7 @@ public class SalaryCalculation {
 	}
 
 	public static void main(String[] args) {
-		double salary = 1050000d;
+		double salary = 3100000;
 		double daysInYear = 365d;
 		double leavesInYear = 0d;//52 * 2d;
 		double workingHour = 24d;//12d;

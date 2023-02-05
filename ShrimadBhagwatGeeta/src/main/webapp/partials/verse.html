@@ -62,6 +62,7 @@
             </div>
             <div ng-init="loopCurrentSong=false;" style="font-size:16px; font-style: italic; font-weight: bold;text-align: center;">
                 <div ng-click="loopCurrentSong=!loopCurrentSong;">
+                    {{verseObj.shlokPath}}
                     <span ng-if="loopCurrentSong">loop on</span>
                     <span ng-if="!loopCurrentSong">loop off</span>
                 </div>

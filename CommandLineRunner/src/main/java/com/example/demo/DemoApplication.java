@@ -8,6 +8,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import com.example.demo.util.SampleFileRunner;
 
+import java.nio.file.Paths;
+
 @SpringBootApplication
 public class DemoApplication implements CommandLineRunner {
 	
@@ -23,13 +25,12 @@ public class DemoApplication implements CommandLineRunner {
 	@Override
     public void run(String... args) {
         LOG.info("EXECUTING : command line runner");
- 
+		String uploadFolderName = Paths.get("").toAbsolutePath().toString().concat("/src/main/resources/arguments.bat");
 		if (args != null && args.length > 0) {
 			for (int i = 0; i < args.length; ++i) {
 				LOG.info("args[{}]: {}", i, args[i]);
 			}
-			
-			SampleFileRunner.run("C:\\Users\\premendra\\Desktop\\arguments.bat", args);
+			SampleFileRunner.run(uploadFolderName, args);
 		}else {
 			LOG.info("EXITING : no arguments passed");
 		}

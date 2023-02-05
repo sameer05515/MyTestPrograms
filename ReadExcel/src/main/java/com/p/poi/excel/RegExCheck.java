@@ -1,5 +1,6 @@
 package com.p.poi.excel;
 
+import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -21,6 +22,12 @@ public class RegExCheck {
 		isContainsExplicitGroup(explicitSearchString, value2);
 		isContainsExplicitGroup(def, value2);
 		
+		System.out.println("#####################################");
+		Map<String, Integer> regexMap = RegexProvider.getRegexMap();
+		for (String regexPattern : regexMap.keySet()) {
+			isContainsExplicitGroup(regexPattern, value2);
+		}
+		
 		
 	}
 	
@@ -35,7 +42,8 @@ public class RegExCheck {
         if(count>0 ) {
             containsExplicitGroup=true;
         }
-        System.out.println(count+" "+valueRegex+" "+valueText+" "+containsExplicitGroup);
+//        System.out.println(count+"                   "+valueRegex+"                   "+valueText+"                   "+containsExplicitGroup);
+        System.out.println(containsExplicitGroup+"\t\t"+valueRegex);
         return containsExplicitGroup;
     }
 
