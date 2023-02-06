@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-config>
+    <project-list>
+        <project addedOn="15-june-2014" id="project1106201401" label="java"/>
+        <project addedOn="15-june-2014" id="project1106201402" label="flex"/>
+        <project addedOn="15-june-2014" id="project1106201403" label="javascript"/>
+        <project addedOn="15-june-2014" id="project1106201404" label="jsp"/>
+        <project addedOn="15-june-2014" id="project1106201405" label="servlet"/>
+        <project addedOn="15-june-2014" id="project1106201406" label="spring"/>
+        <project addedOn="15-june-2014" id="project1106201407" label="struts1"/>
+        <project addedOn="15-june-2014" id="project1106201408" label="struts2"/>
+        <project addedOn="15-june-2014" id="project1106201409" label="general_life_cycle_project"/>
+        <project addedOn="15-june-2014" id="project1106201410" label="others"/>
+    </project-list>
+    <status-list>
+        <status addedOn="15-june-2014" id="status1106201401" label="New"/>
+        <status addedOn="15-june-2014" id="status1106201402" label="Assigened"/>
+        <status addedOn="15-june-2014" id="status1106201403" label="Analysis"/>
+        <status addedOn="15-june-2014" id="status1106201404" label="Developing"/>
+        <status addedOn="15-june-2014" id="status1106201405" label="Developed"/>
+        <status addedOn="15-june-2014" id="status1106201406" label="Testing"/>
+        <status addedOn="15-june-2014" id="status1106201407" label="Tested"/>
+        <status addedOn="15-june-2014" id="status1106201408" label="Deployed"/>
+        <status addedOn="15-june-2014" id="status1106201409" label="Maintainace"/>
+        <status addedOn="15-june-2014" id="status1106201410" label="Closed"/>
+        <status addedOn="15-june-2014" id="status1106201411" label="Reopen"/>
+    </status-list>
+    <tickets-list>
+        <ticket addedOn="15-june-2014" id="ticket1106201401" linkedProjectId="project1106201409"/>
+        <ticket addedOn="22-June-2014" id="ticket1403459011020" linkedProjectId="project1106201401"/>
+        <ticket addedOn="22-June-2014" id="ticket1403460592949" linkedProjectId="project1106201410"/>
+        <ticket addedOn="22-June-2014" id="ticket1403461529147" linkedProjectId="project1106201402"/>
+        <ticket addedOn="25-June-2014" id="ticket1403714022728" linkedProjectId="project1106201401"/>
+        <ticket addedOn="26-June-2014" id="ticket1403721265241" linkedProjectId="project1106201401"/>
+        <ticket addedOn="26-June-2014" id="ticket1403721297069" linkedProjectId="project1106201401"/>
+        <ticket addedOn="26-June-2014" id="ticket1403721332007" linkedProjectId="project1106201401"/>
+        <ticket addedOn="27-June-2014" id="ticket1403808229026" linkedProjectId="project1106201401"/>
+        <ticket addedOn="06-July-2014" id="ticket1404668733732" linkedProjectId="project1106201410"/>
+        <ticket addedOn="18-July-2014" id="ticket1405625200592" linkedProjectId="project1106201410"/>
+    </tickets-list>
+    <ticket-history-list>
+        <ticket-history id="ticketHistory1106201401"
+            linkedTicketId="ticket1106201401" loggedOn="15-june-2014"
+            nextId="ticketHistory1106201404" prevId="ticketHistory1106201401">
+            <description>New Ticket Logged</description>
+            <status-changed-to>status1106201401</status-changed-to>
+        </ticket-history>
+        <ticket-history id="ticketHistory1106201404"
+            linkedTicketId="ticket1106201401" loggedOn="15-june-2014"
+            nextId="ticketHistory2106201401" prevId="ticketHistory1106201401">
+            <description>Create a ticket tracker for following purpose:-
+	1. To maintain a track that what is my current requirements .
+	2. In which manner{how much time,by which help} these requirements are fulfilling.
+	3. To maintain the steps followed to get the requirement.</description>
+            <status-changed-to>status1106201402</status-changed-to>
+        </ticket-history>
+        <ticket-history id="ticketHistory2106201401"
+            linkedTicketId="ticket1106201401" loggedOn="20-june-2014"
+            nextId="ticketHistory2106201402" prevId="ticketHistory1106201404">
+            <description>view records for tickets, ticket history , project list, status list is almost completed</description>
+            <status-changed-to>status1106201402</status-changed-to>
+        </ticket-history>
+        <ticket-history id="ticketHistory2106201402"
+            linkedTicketId="ticket1106201401" loggedOn="21-june-2014"
+            nextId="ticketHistory2106201403" prevId="ticketHistory2106201401">
+            <description>work for today , 
+						1. add/log new ticket
+						2. add new ticket history
+						3. Modify ticket details . {one additional action named classify is proposed to add so that, time to time, project/tickets aim may be updated}</description>
+            <status-changed-to>status1106201402</status-changed-to>
+        </ticket-history>
+        <ticket-history id="ticketHistory2106201403"
+            linkedTicketId="ticket1106201401" loggedOn="21-june-2014"
+            nextId="ticketHistory2106201404" prevId="ticketHistory2106201402">
+            <description>work for today , 
+						1. add/log new ticket - java code created for adding a new node in a given xml
+						2. add new ticket history - java code created for adding a new node in a given xml
+						3. Modify ticket details . {one additional action named classify is proposed to add so that, time to time, project/tickets aim may be updated}</description>
+            <status-changed-to>status1106201402</status-changed-to>
+        </ticket-history>
+        <ticket-history id="ticketHistory2106201404"
+            linkedTicketId="ticket1106201401" loggedOn="22-june-2014"
+            nextId="ticketHistory1403460690848" prevId="ticketHistory2106201403">
+            <description>work for today , 
+						1. create flex code to add/log new ticket
+						2. add new ticket history - create flex code for the purpose
+						3. Modify ticket details . {one additional action named classify is proposed to add so that, time to time, project/tickets aim may be updated} - in progress</description>
+            <status-changed-to>status1106201402</status-changed-to>
+        </ticket-history>
+        <ticket-history id="ticketHistory1403459011020"
+            linkedTicketId="ticket1403459011020" loggedOn="22-June-2014"
+            nextId="ticketHistory1403460023556" prevId="ticketHistory1403459011020">
+            <description>Update for Mp3Player project - refresh table when playlist songs gets changed</description>
+            <status-changed-to>status1106201401</status-changed-to>
+        </ticket-history>
+        <ticket-history id="ticketHistory1403460023556"
+            linkedTicketId="ticket1403459011020" loggedOn="22-June-2014"
+            nextId="ticketHistory1404560470225" prevId="ticketHistory1403459011020">
+            <description>WorkWillBeStartedFromTomorrow.</description>
+            <status-changed-to>status1106201402</status-changed-to>
+        </ticket-history>
+        <ticket-history id="ticketHistory1403460592950"
+            linkedTicketId="ticket1403460592949" loggedOn="22-June-2014"
+            nextId="ticketHistory1403552561649" prevId="ticketHistory1403460592950">
+            <description>Read Book - D-ebooks-web-services-beginningcss.pdf</description>
+            <status-changed-to>status1106201401</status-changed-to>
+        </ticket-history>
+        <ticket-history id="ticketHistory1403460690848"
+            linkedTicketId="ticket1106201401" loggedOn="22-June-2014"
+            nextId="ticketHistory1403552462407" prevId="ticketHistory2106201404">
+            <description>Requirements - Highlight the newly added Ticket or Ticket History</description>
+            <status-changed-to>status1106201402</status-changed-to>
+        </ticket-history>
+        <ticket-history id="ticketHistory1403461529148"
+            linkedTicketId="ticket1403461529147" loggedOn="22-June-2014"
+            nextId="" prevId="ticketHistory1403461529148">
+            <description>Improve Look of bce-prem.mxml</description>
+            <status-changed-to>status1106201401</status-changed-to>
+        </ticket-history>
+        <ticket-history id="ticketHistory1403552462407"
+            linkedTicketId="ticket1106201401" loggedOn="24-June-2014"
+            nextId="ticketHistory1405662896373" prevId="ticketHistory1403460690848">
+            <description>Created one jsp page named - viewTicketHistory.jsp - to  view all ticket histories according to its date of creation and added some css styles to the view. Work in progress.</description>
+            <status-changed-to>status1106201402</status-changed-to>
+        </ticket-history>
+        <ticket-history id="ticketHistory1403552561649"
+            linkedTicketId="ticket1403460592949" loggedOn="24-June-2014"
+            nextId="ticketHistory1403721074634" prevId="ticketHistory1403460592950">
+            <description>Studying CHAPTER 1 INTRODUCING CASCADING STYLE SHEETS - read from page 4 to 15</description>
+            <status-changed-to>status1106201402</status-changed-to>
+        </ticket-history>
+        <ticket-history id="ticketHistory1403714022729"
+            linkedTicketId="ticket1403714022728" loggedOn="25-June-2014"
+            nextId="" prevId="ticketHistory1403714022729">
+            <description>One application - preferably desktop application is required - for maintain details about different bank accounts owned by us family members especially passwords and current balnces and different transactions</description>
+            <status-changed-to>status1106201401</status-changed-to>
+        </ticket-history>
+        <ticket-history id="ticketHistory1403721074634"
+            linkedTicketId="ticket1403460592949" loggedOn="26-June-2014"
+            nextId="" prevId="ticketHistory1403552561649">
+            <description>Studying CHAPTER 1 INTRODUCING CASCADING STYLE SHEETS - read from page 16 to 55- studied about class and selectors</description>
+            <status-changed-to>status1106201402</status-changed-to>
+        </ticket-history>
+        <ticket-history id="ticketHistory1403721265242"
+            linkedTicketId="ticket1403721265241" loggedOn="26-June-2014"
+            nextId="" prevId="ticketHistory1403721265242">
+            <description>Study core java</description>
+            <status-changed-to>status1106201401</status-changed-to>
+        </ticket-history>
+        <ticket-history id="ticketHistory1403721297069"
+            linkedTicketId="ticket1403721297069" loggedOn="26-June-2014"
+            nextId="" prevId="ticketHistory1403721297069">
+            <description>study jsp servlets jstl</description>
+            <status-changed-to>status1106201401</status-changed-to>
+        </ticket-history>
+        <ticket-history id="ticketHistory1403721332009"
+            linkedTicketId="ticket1403721332007" loggedOn="26-June-2014"
+            nextId="" prevId="ticketHistory1403721332009">
+            <description>study english reasoning</description>
+            <status-changed-to>status1106201401</status-changed-to>
+        </ticket-history>
+        <ticket-history id="ticketHistory1403808229028"
+            linkedTicketId="ticket1403808229026" loggedOn="27-June-2014"
+            nextId="" prevId="ticketHistory1403808229028">
+            <description>http127.0.0.18080bcestruts2mergedTut.jsp  read this link</description>
+            <status-changed-to>status1106201401</status-changed-to>
+        </ticket-history>
+        <ticket-history id="ticketHistory1404560470225"
+            linkedTicketId="ticket1403459011020" loggedOn="05-July-2014"
+            nextId="ticketHistory1405662632118" prevId="ticketHistory1403460023556">
+            <description>Make a separate utility to manipulate an operation on a song. Make separate utility to control thr view.</description>
+            <status-changed-to>status1106201402</status-changed-to>
+        </ticket-history>
+        <ticket-history id="ticketHistory1404668733733"
+            linkedTicketId="ticket1404668733732" loggedOn="06-July-2014"
+            nextId="" prevId="ticketHistory1404668733733">
+            <description>Main Task-1. Preparation of interview     1.1 English grammar and word meaning.      1.2 Reasoning and Mathematics      1.3 General Knowledge      1.4 Java and JSP and Servlets and related tecnologies interview Questions2. Body Shaping3. Ma Papa Didi and Baua</description>
+            <status-changed-to>status1106201401</status-changed-to>
+        </ticket-history>
+        <ticket-history id="ticketHistory1405625200593"
+            linkedTicketId="ticket1405625200592" loggedOn="18-July-2014"
+            nextId="ticketHistory1405625287567" prevId="ticketHistory1405625200593">
+            <description>read book  DebooksWebServicesMining the Social Web, 2nd Edition.pdf</description>
+            <status-changed-to>status1106201401</status-changed-to>
+        </ticket-history>
+        <ticket-history id="ticketHistory1405625287567"
+            linkedTicketId="ticket1405625200592" loggedOn="18-July-2014"
+            nextId="" prevId="ticketHistory1405625200593">
+            <description>read book from starting to before preface (till page xiii )</description>
+            <status-changed-to>status1106201402</status-changed-to>
+        </ticket-history>
+        <ticket-history id="ticketHistory1405662632118"
+            linkedTicketId="ticket1403459011020" loggedOn="18-July-2014"
+            nextId="" prevId="ticketHistory1404560470225">
+            <description>Make icon settings customizable. star icon is hard coded . it must be customizable.</description>
+            <status-changed-to>status1106201402</status-changed-to>
+        </ticket-history>
+        <ticket-history id="ticketHistory1405662896373"
+            linkedTicketId="ticket1106201401" loggedOn="18-July-2014"
+            nextId="" prevId="ticketHistory1403552462407">
+            <description>There is one requirement that the related ticket history must be updated in list after add or update</description>
+            <status-changed-to>status1106201402</status-changed-to>
+        </ticket-history>
+    </ticket-history-list>
+</project-config>
