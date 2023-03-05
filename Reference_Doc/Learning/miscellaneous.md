@@ -41,4 +41,4 @@
          }
          ```
        - Spring Security: Exploring JDBC Authentication, https://www.baeldung.com/spring-security-jdbc-authentication
-       - 
+ - Spring Security using Custom Authentication Provider, http://javainsimpleway.com/spring-security-using-custom-authentication-provider/
