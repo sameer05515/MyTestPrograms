@@ -42,3 +42,33 @@
          ```
        - Spring Security: Exploring JDBC Authentication, https://www.baeldung.com/spring-security-jdbc-authentication
  - Spring Security using Custom Authentication Provider, http://javainsimpleway.com/spring-security-using-custom-authentication-provider/
+
+
+ ## New lines inside paragraph in README.md
+ **Problem Statement**  
+ When editing an issue and clicking Preview the following markdown source:
+```
+a
+b
+c
+```  
+shows every letter on a new line.  
+However, it seems to me that pushing similar markdown source structure in README.md joins all the letters on one line.
+
+**Solution**
+The easiest way is to ensure that each line ends with two spaces. So, change
+```
+a
+b
+c
+```
+into
+```
+a__
+b__
+c
+```
+(where _ is a blank space).
+
+### NEXT
+- 
