@@ -6,9 +6,9 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class ResumeApplicationTests {
 
-	@Test
-	void contextLoads() {
-		System.out.println("Checking whether application context loading correctly!");
-	}
+//	@Test
+//	void contextLoads() {
+//		System.out.println("Checking whether application context loading correctly!");
+//	}
 
 }

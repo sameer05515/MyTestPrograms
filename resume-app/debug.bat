@@ -1,6 +1,6 @@
 @echo off
 cls
-SET JAVA_HOME=C:\Program Files\Java\jdk1.8.0_281\
+SET JAVA_HOME=C:\cust_inst\Java\jdk-20.0.1
 
 CALL mvn clean install
 

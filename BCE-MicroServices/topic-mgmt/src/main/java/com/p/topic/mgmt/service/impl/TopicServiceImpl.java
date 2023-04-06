@@ -41,8 +41,9 @@ public class TopicServiceImpl implements TopicService {
     }
 
     @Override
-    public boolean update(Topic lob) {
-        return false;
+    public Topic update(Topic lob) {
+        return topicRepository.save(lob);
+//        return lob;
     }
 
     @Override

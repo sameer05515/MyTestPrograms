@@ -19,6 +19,8 @@ import java.util.List;
 import java.util.StringJoiner;
 import java.util.stream.Collectors;
 
+import static com.p.topic.mgmt.util.Utility.generateUniqueId;
+
 @RestController
 @RequestMapping("/streaming")
 public class TestController {
@@ -67,7 +69,5 @@ public class TestController {
         };
     }
 
-    private String generateUniqueId() {
-        return RandomStringUtils.randomAlphabetic(20);
-    }
+
 }
