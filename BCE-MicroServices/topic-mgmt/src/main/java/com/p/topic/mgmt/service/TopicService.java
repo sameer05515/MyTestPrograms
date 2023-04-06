@@ -35,14 +35,14 @@ public interface TopicService {
     /**
      * Gets the Topic sessions grid.
      *
-     * @param accountId the account id
+     * @param accountId        the account id
      * @param publishAccStatus the publish acc status
-     * @param dateFrom the date from
-     * @param dateTo the date to
+     * @param dateFrom         the date from
+     * @param dateTo           the date to
      * @return the Topic sessions grid
      * @throws Exception the  Topic exception
      */
-    boolean update(Topic lob);
+    Topic update(Topic lob);
 
     List<Topic> updateAll(List<Topic> lob);
 

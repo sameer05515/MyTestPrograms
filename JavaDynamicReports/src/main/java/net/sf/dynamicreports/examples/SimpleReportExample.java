@@ -16,6 +16,7 @@ import net.sf.dynamicreports.report.builder.component.Components;
 import net.sf.dynamicreports.report.builder.datatype.DataTypes;
 import net.sf.dynamicreports.report.constant.HorizontalAlignment;
 import net.sf.dynamicreports.report.exception.DRException;
+import net.sf.jasperreports.engine.JasperExportManager;
 
 /**
  * SQL 
@@ -78,6 +79,8 @@ public class SimpleReportExample {
 		try {
 			report.show();//show the report
 			String uploadFolderName = Paths.get("").toAbsolutePath().toString().concat("/src/test/resources");
+			report.toJasperPrint();
+//			JasperExportManager.exportReportToPdf(report.toJasperPrint());
 			report.toPdf(new FileOutputStream(uploadFolderName+"/report.pdf"));//export the report to a pdf file
 		} catch (DRException e) {
 			e.printStackTrace();

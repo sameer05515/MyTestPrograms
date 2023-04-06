@@ -44,6 +44,7 @@ public class ExceptionHandling extends ResponseEntityExceptionHandler/*implement
     @ExceptionHandler(Exception.class)
     public ResponseEntity<HttpResponse> internalServerErrorException(Exception exception) {
         LOGGER.error(exception.getMessage());
+        exception.printStackTrace();
         return createHttpResponse(INTERNAL_SERVER_ERROR, INTERNAL_SERVER_ERROR_MSG);
     }
 

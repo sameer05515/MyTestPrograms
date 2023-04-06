@@ -32,11 +32,12 @@ public class Topic {
 		//this(0,null,null);
 	}
 	
-	public Topic(int id, String title, String description) {
+	public Topic(int id, String title, String description, String uniqueStrid) {
 		super();
 		this.id = id;
 		this.title = title;
 		this.description = description;
+		this.uniqueStrid= uniqueStrid;
 	}
 	/**
 	 * @return the id
