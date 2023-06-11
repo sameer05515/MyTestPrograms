@@ -23,7 +23,7 @@ import org.junit.jupiter.api.Test;
  * 
  */
 
-public class ValidateSeuence {
+public class ValidateSequence {
 	public static boolean isValidSubsequence(List<Integer> array, List<Integer> sequence) {
 		// Write your code here.
 
@@ -86,7 +86,7 @@ public class ValidateSeuence {
 	}
 
 	private boolean test(String testCaseName, List array, List sequence, boolean expectedResult) {
-		boolean testResult = ValidateSeuence.isValidSubsequence(array, sequence);
+		boolean testResult = ValidateSequence.isValidSubsequence(array, sequence);
 		boolean pass = testResult == expectedResult;
 		System.out.printf("==========%ntestCaseName = %s " + "%n array = %s %nsequence=%s "
 				+ "%nexpectedResult=%s testResult=%s " + "%npass = %s %n", testCaseName, array, sequence,
