@@ -17,7 +17,8 @@ public class CalculationService {
         int sum;
         if (!StringUtils.isEmpty(firstNumber) && !StringUtils.isEmpty(secondNumber)) {
             if (firstNumber.matches(regexToCheckIntegerOnly) && secondNumber.matches(regexToCheckIntegerOnly)) {
-                int longestLength = firstNumber.length() > secondNumber.length() ? firstNumber.length() : secondNumber.length();
+                int longestLength = firstNumber.length() > secondNumber.length() ? firstNumber.length()
+                        : secondNumber.length();
                 firstNumber = addPad(longestLength, '0', firstNumber);
                 secondNumber = addPad(longestLength, '0', secondNumber);
                 String[] fStr = firstNumber.split("");

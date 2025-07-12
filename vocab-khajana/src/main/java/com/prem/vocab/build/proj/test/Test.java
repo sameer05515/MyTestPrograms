@@ -4,14 +4,16 @@
 
 package com.prem.vocab.build.proj.test;
 
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.List;
 import java.io.IOException;
-import org.xml.sax.SAXException;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.TransformerException;
-import java.util.ArrayList;
+
+import org.xml.sax.SAXException;
+
 import com.prem.vocab.build.proj.util.XMLUtilityImpl;
 
 public class Test

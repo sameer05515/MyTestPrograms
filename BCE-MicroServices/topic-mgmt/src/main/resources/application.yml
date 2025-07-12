@@ -3,9 +3,9 @@ server:
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/topic-mgmt?autoReconnect=true
+    url: jdbc:mysql://localhost:3307/topic_mgmt?autoReconnect=true
     username: root
-    password:
+    password: root
     driver-class-name: com.mysql.jdbc.Driver
   mvc:
     throw-exception-if-no-handler-found: true

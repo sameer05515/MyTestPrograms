@@ -24,6 +24,18 @@ public class ResumeController {
 	public String healthCheck() {
 		return "OK";
 	}
+
+	@GetMapping("/dummyResume")
+	public String getResume() {
+		try {
+			return resumeService.getDummyUserResume();
+		} catch (InvalidInputSuppliedException e) {
+			ResponseEntity<Object> response = ResponseHandler.generateResponse(HttpStatus.INTERNAL_SERVER_ERROR, true, "Fail",
+					"Please contact administrator!");
+			e.printStackTrace();
+			return e.getMessage();
+		}
+	}
 	
 	@GetMapping("/user/{id}")
 	public ResponseEntity<Object> getUserDetails(@PathVariable("id") int id) {

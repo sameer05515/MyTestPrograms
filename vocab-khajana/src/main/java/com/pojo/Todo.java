@@ -1,50 +1,62 @@
 package com.pojo;
 
 import java.util.Date;
+
 public class Todo {
-    public Todo(int id, String user, 
-    String desc, Date targetDate, boolean isDone) {
+    public Todo(int id, String user,
+            String desc, Date targetDate, boolean isDone) {
         super();
-	this.id = id;
-	this.user = user;
-	this.desc = desc;
-	this.targetDate = targetDate;
-	this.isDone = isDone;
+        this.id = id;
+        this.user = user;
+        this.desc = desc;
+        this.targetDate = targetDate;
+        this.isDone = isDone;
     }
+
     private int id;
     private String user;
     private String desc;
     private Date targetDate;
     private boolean isDone;
+
     public int getId() {
-	return id;
+        return id;
     }
+
     public void setId(int id) {
-	this.id = id;
+        this.id = id;
     }
+
     public String getUser() {
-	return user;
+        return user;
     }
+
     public void setUser(String user) {
-	this.user = user;
+        this.user = user;
     }
+
     public String getDesc() {
-	return desc;
+        return desc;
     }
+
     public void setDesc(String desc) {
-	this.desc = desc;
+        this.desc = desc;
     }
+
     public Date getTargetDate() {
-	return targetDate;
+        return targetDate;
     }
+
     public void setTargetDate(Date targetDate) {
-	this.targetDate = targetDate;
+        this.targetDate = targetDate;
     }
+
     public boolean isDone() {
-	return isDone;
+        return isDone;
     }
+
     public void setDone(boolean isDone) {
         this.isDone = isDone;
     }
-    //Getters, Setters, Constructors, toString, equals and hash code
+    // Getters, Setters, Constructors, toString, equals and hash code
 }

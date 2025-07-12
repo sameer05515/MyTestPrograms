@@ -1,0 +1,1593 @@
+{
+  "uniqueId": "0f20819b-c89e-4bdc-8613-5a9a99445533",
+  "introduction": "My first resume",
+  "processedDetails": {
+    "metadata": {
+      "summarizedIntroduction": [
+        "Experienced Software Developer with 15 years of expertise in designing, developing, and deploying innovative software solutions. Proficient in various programming languages and technologies, with a strong focus on Java for backend development and React.js for frontend development. Demonstrated success in leading development teams, managing projects from conception to completion, and delivering high-quality products within tight deadlines. Proven ability to analyze complex problems, devise effective solutions, and communicate technical concepts to non-technical stakeholders. Notable achievements include leading a team for 3 years and successfully delivering new functionality for implementing NSDL/CDSL Edis 3rd party Restful web services in Shubhweb application. Experienced in working on over 16 projects with different technology stacks. Specialized in developing APIs to migrate data from legacy databases to target databases using Java concurrent API efficiently. Possess a strong exposure to cloud services, particularly AWS. Seeking to leverage extensive experience and technical proficiency to drive software excellence at a forward-thinking company.",
+        "My name is ABC Kumar, and I'm excited to meet you all today. I've been working in software development for over 15 years, mainly focusing on Java and related technologies.",
+        "I started my career in September 2009, where I learned Java/J2EE, JavaScript, Ajax, and CSS for building both backend and frontend parts of software. Over the years, I got better at testing with tools like JUnit and automating builds with ANT.",
+        "As I gained experience, I explored new technologies. I worked with Swing for frontend and Apache Solr and Hibernate for backend development, learning new things along the way.",
+        "Recently, I've been diving into modern development practices. I've been using Spring Boot, Spring Batch, and Spring REST for backend work and AngularJS and Bootstrap for frontend development, making sure the user experience is smooth.",
+        "I've also been learning about DevOps, which helps make the development process faster and more efficient. I've been using tools like AWS cloud services, Jenkins, and Docker and Kubernetes for deployment.",
+        "Overall, I've been on a journey of learning and growth, and I'm excited about the opportunity to bring my skills and experience to your team. Thank you for considering me for this opportunity."
+      ],
+      "personalDetails": {
+        "name": "Premendra Kumar",
+        "dateOfBirth": "31 May 1986",
+        "emails": [
+          "premendra.bce05515@gmail.com",
+          "premendra.bce05515@outlook.com"
+        ],
+        "contactNumbers": [
+          "+91 80106 45624",
+          "+91 87500 84750"
+        ]
+      },
+      "expertises": [
+        {
+          "stream": "java and related apis",
+          "duration": "15 years"
+        },
+        {
+          "stream": "ReactJS",
+          "duration": "5 years"
+        },
+        {
+          "stream": "AWS and related services",
+          "duration": "5 years"
+        }
+      ],
+      "degree": "B. Tech (CSE)"
+    },
+    "textType": "yaml"
+  },
+  "companies": [
+    {
+      "name": "GreenApple WebWare, New Delhi, India",
+      "processedDetails": {
+        "metadata": {
+          "company": "GreenApple WebWare, New Delhi, India",
+          "modeOfWork": "Work from office",
+          "officeAddress": "New Delhi",
+          "employmentType": "Contractual",
+          "aboutCompany": [
+            "This is my first company. Here I started my carreer.",
+            "This is start-up company."
+          ],
+          "domainOfCompany": [
+            "Service Oriented Company",
+            "Start-up company"
+          ],
+          "companyWebsiteURL": "https://greenapplesolutions.com/",
+          "overAllTenure": "Sep 2009 to Feb 2011",
+          "overAllTenureWithDate": "01 Sep 2009 to 28 Feb 2011",
+          "lastDesignation": "DEVELOPER",
+          "lastCTC": "1.2 LPA",
+          "lastEmployeeCode": "NA",
+          "lastReasonForChange": {
+            "actual": "Better opportunity to learn and earn",
+            "forHR": "Better opportunity to learn and earn"
+          },
+          "projects": [
+            "OSCART"
+          ],
+          "techStack": [
+            "Java/J2ee , JavaScript, Ajax , CSS",
+            "Junit to write unit cases",
+            "ANT to build project artifacts",
+            "JDBC for MySQL Database communication",
+            "JSP, HTML, JavaScript, Ajax , CSS for Frontend development",
+            "Tomcat 5 for Application deployment"
+          ],
+          "highlights": [
+            "Development in Online Shopping Cart Application using java, JSP, Servlets, JDBC, Apache tomcat 5, HTML, CSS, jQuery, AJAX",
+            "Fixed bugs identified by support team and shared through Mantis"
+          ],
+          "employmentHistories": [
+            {
+              "tenure": "Sep 2009 to Feb 2011",
+              "employeeCode": "NA",
+              "lastWorkingDay": "28 Feb 2011",
+              "dateOfJoining": "01 Sep 2009",
+              "designation": "DEVELOPER",
+              "reasonForJoining": "My first company.",
+              "reasonForChange": [
+                {
+                  "actual": "Better opportunity to learn and earn.",
+                  "forHR": "Better opportunity to learn and earn."
+                }
+              ],
+              "joiningCTC": "1.2 LPA",
+              "exitCTC": "1.2 LPA"
+            }
+          ],
+          "references": [
+            "Pankaj Kumar, Admin"
+          ]
+        },
+        "textType": "yaml"
+      },
+      "projects": [
+        {
+          "name": "OSCART",
+          "processedDetails": {
+            "metadata": {
+              "project": "OSCART",
+              "tenure": "Sep 2009 to Feb 2011",
+              "description": [
+                "This project is for development of eCommerce website OSCART, where Admin can add new products. Also it has login for customers, who can search products of their choice and add them into cart. It has also functionality to shop products from online transaction.",
+                "Role based, secure login is implemented in this product and application is deployed on Tomcat server hosted in on-premise Linux environment."
+              ],
+              "techStack": [
+                "Java/J2ee",
+                "JavaScript",
+                "Ajax",
+                "CSS",
+                "ANT to build project artifacts",
+                "JDBC for MySQL Database communication",
+                "JSP, HTML, JavaScript, Ajax , CSS for Frontend development",
+                "Tomcat 5 for Application deployment"
+              ],
+              "rolesAndResponsibilities": [
+                {
+                  "role": "Developer",
+                  "responsibilities": [
+                    "Added code for new requirements for creating views in JSP and Servlets",
+                    "Created methods in DAO persisten layer to save and retrieve data from database"
+                  ]
+                }
+              ]
+            },
+            "textType": "yaml"
+          },
+          "uniqueId": "1eafcf2a-1540-4059-97de-9f7985d183c2"
+        }
+      ],
+      "uniqueId": "cad35406-3caf-42a6-a886-960c6c725371"
+    },
+    {
+      "name": "HCL Infosystems Ltd, Noida, India",
+      "processedDetails": {
+        "metadata": {
+          "company": "HCL Infosystems Ltd, Noida, India",
+          "modeOfWork": "Work at client location (NIC Delhi)",
+          "officeAddress": "Noida",
+          "employmentType": "Contractual",
+          "aboutCompany": [
+            "Company is good.",
+            "They renew contarcts on time."
+          ],
+          "domainOfCompany": [
+            "Service-based"
+          ],
+          "companyWebsiteURL": "https://www.hclinfosystems.in/",
+          "overAllTenure": "March 2011 to Apr 2012",
+          "overAllTenureWithDate": "22 March 2011 to 30 Apr 2012",
+          "lastDesignation": "DEVELOPER",
+          "lastCTC": "1.68 LPA",
+          "lastEmployeeCode": "NA",
+          "lastReasonForChange": {
+            "actual": "A better opportunity to learn and earn was available to me. Additionally, I received a permanent job offer that I found very promising upon joining. I also had plans to settle in Faridabad, as it is equidistant from Gurgaon, Noida, and Delhi.",
+            "forHR": "better opportunity to learn and earn"
+          },
+          "projects": [
+            "CIPA/ CIPRUS"
+          ],
+          "techStack": [
+            "Java with JDBC, JasperReports for backend development",
+            "Junit to write unit cases",
+            "ANT to build project artifacts",
+            "JDBC for Postgres Database communication",
+            "Swing for Frontend development",
+            "JasperReports for Report generation"
+          ],
+          "highlights": [
+            "Added code for new requirements",
+            "Worked with team to guide for assigned task.",
+            "Fixed bugs identified by support team and shared through Mantis",
+            "Worked with vendor and project management team on a code change and new fix in upcoming Release."
+          ],
+          "employmentHistories": [
+            {
+              "tenure": "March 2011 to Apr 2012",
+              "employeeCode": "NA",
+              "lastWorkingDay": "30 Apr 2012",
+              "dateOfJoining": "22 March 2011",
+              "designation": "DEVELOPER",
+              "reasonForJoining": "HCLI is good name in market. I joined here for better growth and opportunity to better learn and earn.",
+              "reasonForChange": [
+                {
+                  "actual": "A better opportunity to learn and earn was available to me. Additionally, I received a permanent job offer that I found very promising upon joining. I also had plans to settle in Faridabad, as it is equidistant from Gurgaon, Noida, and Delhi..",
+                  "forHR": "better opportunity to learn and earn."
+                }
+              ],
+              "joiningCTC": "1.68 LPA",
+              "exitCTC": "1.68 LPA"
+            }
+          ],
+          "references": [
+            "Aditya Shukla, +91 95608 25577, Team-mate",
+            "Ashutosh, +91 88002 66221, Reporting Manager,",
+            "Sameer, HR-Recruitement,",
+            "Sajju, Sr. Manager, +91 90041 24002",
+            "Javed, Team-mate, +91 97181 88346",
+            "Nikhil , Team-mate, +91 95600 72932",
+            "Alok Rai, Sr. Manager, +91 98912 48433",
+            "Afzal Khan, Reporting Manager, +91 99111 26392"
+          ]
+        },
+        "textType": "yaml"
+      },
+      "projects": [
+        {
+          "name": "CIPRUS",
+          "processedDetails": {
+            "metadata": {
+              "project": "CIPA/CIPRUS (Common Integrated Police Application)",
+              "tenure": "Mar 2011 to Apr 2012",
+              "description": [
+                "The Common Integrated Police Application (CIPA) is a multilingual application to automate the processes (workflow) at primary sources of data itself e.g. Police Station and to build a crime & criminal Information system based on CrPC. It provides an efficient way of organizing crime records for generating queries/reports and crime analysis for decision support.",
+                "This is desktop application and can be installed in every police station.",
+                "Once all report logged into system, various reports can be generated from same application.."
+              ],
+              "techStack": [
+                "Core Java",
+                "Swing",
+                "JDBC",
+                "JasperReports"
+              ],
+              "rolesAndResponsibilities": [
+                {
+                  "role": "Developer",
+                  "responsibilities": [
+                    "Added code for new requirements to create views in Swing and attach it with Backend DAO layer to save/retrieve data",
+                    "Created methods in DAO persisten layer to save and retrieve data from database"
+                  ]
+                }
+              ]
+            },
+            "textType": "yaml"
+          },
+          "uniqueId": "5e8a0cd0-2b11-4a73-9bb3-4d5a4d71a8a6"
+        }
+      ],
+      "uniqueId": "c9b7d1af-02d2-450c-9cc2-9cba961bbbad"
+    },
+    {
+      "name": "Novelvox Software India Pvt Ltd (previously known as Integration Services & Technologies India PVT LTD), Faridabad, India",
+      "processedDetails": {
+        "metadata": {
+          "company": "Novelvox Software India Pvt Ltd (previously known as Integration Services & Technologies India PVT LTD), Faridabad, India",
+          "modeOfWork": "Work from office",
+          "officeAddress": "Faridabad",
+          "employmentType": "Permanent",
+          "aboutCompany": [
+            "Company is good.",
+            "This is start-up company."
+          ],
+          "domainOfCompany": [
+            "Product-based",
+            "Telecom Software Domain",
+            "Company was developing software solutions With Cisco API"
+          ],
+          "companyWebsiteURL": "https://www.novelvox.com/",
+          "overAllTenure": "May 2012 to Dec 2013",
+          "overAllTenureWithDate": "09 May 2012 to 06 Dec 2013",
+          "lastDesignation": "APPLICATION DEVELOPER",
+          "lastCTC": "3.41 LPA",
+          "lastEmployeeCode": "NA",
+          "lastReasonForChange": {
+            "actual": "At the time of joining I assumed that the company would send me to an Abroad site, but this did not occur. Also, no satisfactory hike was received.",
+            "forHR": "better opportunity to learn and earn."
+          },
+          "projects": [
+            "iAgent 4.0",
+            "Survey",
+            "KnowlegeBase"
+          ],
+          "techStack": [
+            "Java, J2ee, JDBC, Apache Solr, Hibernate, Jersey for backend development",
+            "Junit to write unit cases",
+            "ANT to build project artifacts",
+            "Hibernate, MySQL for Database communication",
+            "Flex4, CSS, JavaScript for Frontend development",
+            "Tomcat 8 for Application deployment"
+          ],
+          "highlights": [
+            "Development for iAgent web application to develop service generation module and service invocation module using Java, J2ee, JDBC, Apache Solr, Hibernate Flex4, CSS, JavaScript to develop views and backend services",
+            "Developed REST services to upload Pdf documents and used Apache Solr to create indexes for all uploaded pdf documents, so that search for given text could be faster",
+            "Worked in Agile mehodology to gather requirements from clients and created Epics and created stories for implementation",
+            "Worked with team to guide for assigned task.",
+            "Fixed bugs identified by support team and shared through Mantis",
+            "Worked with vendor and project management team on a code change and new fix in upcoming Release."
+          ],
+          "employmentHistories": [
+            {
+              "tenure": "May 2012 to Dec 2013",
+              "employeeCode": "NA",
+              "lastWorkingDay": "06 Dec 2013",
+              "dateOfJoining": "09 May 2012",
+              "designation": "APPLICATION DEVELOPER",
+              "reasonForJoining": "I received a permanent job offer that I found very promising upon joining. I also had plans to settle in Faridabad, as it is equidistant from Gurgaon, Noida, and Delhi.",
+              "reasonForChange": [
+                {
+                  "actual": "At the time of joining I assumed that the company would send me to an Abroad site, but this did not occur. Also, no satisfactory hike was received.",
+                  "forHR": "better opportunity to learn and earn."
+                }
+              ],
+              "joiningCTC": "3.41 LPA",
+              "exitCTC": "3.41 LPA"
+            }
+          ],
+          "references": [
+            "Amit Gandhi, +91 99993 11315, Reporting Manager",
+            "Ambuj, Team Lead, +91 97118 78641",
+            "Rajat Ghildiyal, Team Lead,",
+            "Amit Madan, HR Admin, +91 81308 55051",
+            "Gyan, Team-mate, +91 95552 71821",
+            "Manish Singh , Team-mate, +91 98869 90001",
+            "Pramod Parashar, Team-mate, +91 99539 93430",
+            "Robin, Team-mate, +91 78383 49738",
+            "Sonu Bandhan, Manager, +91 99103 94881"
+          ]
+        },
+        "textType": "yaml"
+      },
+      "projects": [
+        {
+          "name": "iAgent 4.0",
+          "processedDetails": {
+            "metadata": {
+              "project": "iAgent 4.0",
+              "tenure": "Mar 2011 to Apr 2012",
+              "description": [
+                "The Common Integrated Police Application (CIPA) is a multilingual application to automate the processes (workflow) at primary sources of data itself e.g. Police Station and to build a crime & criminal Information system based on CrPC. It provides an efficient way of organizing crime records for generating queries/reports and crime analysis for decision support.",
+                "This is desktop application and can be installed in every police station.",
+                "Once all report logged into system, various reports can be generated from same application.."
+              ],
+              "techStack": [
+                "Core Java",
+                "Swing",
+                "JDBC",
+                "JasperReports"
+              ],
+              "rolesAndResponsibilities": [
+                {
+                  "role": "Developer",
+                  "responsibilities": [
+                    "Added code for new requirements to create views in Swing and attach it with Backend DAO layer to save/retrieve data",
+                    "Created methods in DAO persisten layer to save and retrieve data from database"
+                  ]
+                }
+              ]
+            },
+            "textType": "yaml"
+          },
+          "uniqueId": "94c60456-778f-420a-84e2-a1175a70d3ce"
+        },
+        {
+          "name": "Survey",
+          "processedDetails": {
+            "metadata": {
+              "project": "Survey",
+              "tenure": "Mar 2011 to Apr 2012",
+              "description": [
+                "The Common Integrated Police Application (CIPA) is a multilingual application to automate the processes (workflow) at primary sources of data itself e.g. Police Station and to build a crime & criminal Information system based on CrPC. It provides an efficient way of organizing crime records for generating queries/reports and crime analysis for decision support.",
+                "This is desktop application and can be installed in every police station.",
+                "Once all report logged into system, various reports can be generated from same application.."
+              ],
+              "techStack": [
+                "Core Java",
+                "Swing",
+                "JDBC",
+                "JasperReports"
+              ],
+              "rolesAndResponsibilities": [
+                {
+                  "role": "Developer",
+                  "responsibilities": [
+                    "Added code for new requirements to create views in Swing and attach it with Backend DAO layer to save/retrieve data",
+                    "Created methods in DAO persisten layer to save and retrieve data from database"
+                  ]
+                }
+              ]
+            },
+            "textType": "yaml"
+          },
+          "uniqueId": "c1cbf56a-4ea5-4c61-bfd2-ccbcd3a29477"
+        },
+        {
+          "name": "KnowledgeBase",
+          "processedDetails": {
+            "metadata": {
+              "project": "KnowledgeBase",
+              "tenure": "Mar 2011 to Apr 2012",
+              "description": [
+                "The Common Integrated Police Application (CIPA) is a multilingual application to automate the processes (workflow) at primary sources of data itself e.g. Police Station and to build a crime & criminal Information system based on CrPC. It provides an efficient way of organizing crime records for generating queries/reports and crime analysis for decision support.",
+                "This is desktop application and can be installed in every police station.",
+                "Once all report logged into system, various reports can be generated from same application.."
+              ],
+              "techStack": [
+                "Core Java",
+                "Swing",
+                "JDBC",
+                "JasperReports"
+              ],
+              "rolesAndResponsibilities": [
+                {
+                  "role": "Developer",
+                  "responsibilities": [
+                    "Added code for new requirements to create views in Swing and attach it with Backend DAO layer to save/retrieve data",
+                    "Created methods in DAO persisten layer to save and retrieve data from database"
+                  ]
+                }
+              ]
+            },
+            "textType": "yaml"
+          },
+          "uniqueId": "763c4dc1-242d-468d-a1fc-62ad7f9f3e65"
+        }
+      ],
+      "uniqueId": "fc4b597a-1ff2-4f6d-83d5-e8855991c41c"
+    },
+    {
+      "name": "Concentrix Daksh Services India Private Limited, Gurgaon, India",
+      "processedDetails": {
+        "metadata": {
+          "company": "Concentrix Daksh Services India Private Limited, Gurgaon, India",
+          "modeOfWork": "Work from office",
+          "officeAddress": "Gurgaon",
+          "employmentType": "Permanent",
+          "aboutCompany": [
+            "Company is good.",
+            "I learnt a lot while work here"
+          ],
+          "domainOfCompany": [
+            "Product-based",
+            "Telecom Software Domain"
+          ],
+          "companyWebsiteURL": "https://www.concentrix.com/",
+          "overAllTenure": "Jan 2014 to Sep 2019",
+          "overAllTenureWithDate": "20 Jan 2014 to 27 Sep 2019",
+          "lastDesignation": "ASSISTANT MANAGER, IT APPLICATIONS",
+          "lastCTC": "6.79 LPA",
+          "lastEmployeeCode": 5032599,
+          "lastReasonForChange": {
+            "actual": "Better opportunity from Dhani stocks.",
+            "forHR": "better opportunity to learn and earn."
+          },
+          "projects": [
+            "Zetta",
+            "GIP",
+            "Gain Manager",
+            "ResolveJiffy",
+            "WebDOTS",
+            "QAA",
+            "UnI",
+            "eConvey"
+          ],
+          "techStack": [
+            "Java with Spring Boot, Spring Batch, Spring REST, Java, J2EE, Hibernate for backend development",
+            "Junit to write unit cases",
+            "Maven, NodeJS to build project artifacts and dependency management",
+            "Hibernate, IBatis for Database communication with MySQL,",
+            "JSF, and Struts2, AngularJS, Bootstrap for Frontend development",
+            "IBM WebSphere 8,  for Application deployment",
+            "As DevOps engineer, worked on AWS cloud using Jenkins, JIRA, AWS, BitBucket, Chef scripts."
+          ],
+          "highlights": [
+            "Worked in 2014 as L2/L3 support Engineer contractual employee from WDC, deployed in Concentrix India. During this period I worked with software development team of WebDOTS 4.1, QAA using Java, J2EE, Hibernate, JSF, and Struts2. These application runs on IBM WebSphere 8.",
+            "During 2015-17 I worked for development of Zetta application using Java, J2ee, AngularJS, REST, and Hibernate. Also I worked as DevOps engineer to configure Zetta application environments on AWS cloud using Jenkins, JIRA, AWS, BitBucket, Chef scripts.",
+            "Post 6 months gap, I rejoined Concentrix and worked for duration 2017-2019 for development of “Global Incentive Program(GIP)” application. Technologies used are Java/J2EE, Spring Boot, Hibernate, MySQL, AngularJS, Bootstrap.",
+            "Provided L2/L3 level support to WebDOTS 4.1, QAA application.",
+            "Updated and create incident management tickets in the ticket tracking application",
+            "Identified defects within WebDOTS 4.1, QAA application",
+            "Provided support for the successful deployment of multiple iterations of the WebDOTS 4.1, QAA application.",
+            "Provided L2/L3 level support to Zetta application.",
+            "Create, monitor and update defects in Jira",
+            "Installed applications in AWS environment using Jenkins, and AWS Cloudformation",
+            "Provided support for the successful deployment of multiple iterations of the Zetta application",
+            "Provided L2/L3 level support to GainManager and ResolveJiffy application.",
+            "Wrote and executed SQL queries for reporting and research purposes.",
+            "Provided support for the successful deployment of multiple iterations of the GM and RJ application",
+            "Worked with vendor and project management team on a code change and new fix in upcoming Release. This resulted increased efficiency in batch processing with no errors or transmissions missed and thus reduced the number of incidents.",
+            "Worked in Agile mehodology to gather requirements from clients and created Epics and created stories for implementation",
+            "Worked with team to guide for assigned task.",
+            "Fixed bugs identified by support team and shared through Jira",
+            "Worked with vendor and project management team on a code change and new fix in upcoming Release."
+          ],
+          "employmentHistories": [
+            {
+              "tenure": "Jan 2014 to Dec 2014",
+              "employeeCode": 8358,
+              "lastWorkingDay": "31 Dec 2014",
+              "dateOfJoining": "20 Jan 2014",
+              "designation": "SOFTWARE DEVELOPER",
+              "reasonForJoining": "Better opportunity to learn and earn.",
+              "reasonForChange": [
+                {
+                  "actual": "Internal switch for contractual to permanent position in Concentrix.",
+                  "forHR": "Internal switch for contractual to permanent position in Concentrix."
+                }
+              ],
+              "joiningCTC": "4.5 LPA",
+              "exitCTC": "4.5 LPA"
+            },
+            {
+              "tenure": "Jan 2015 to Mar 2017",
+              "employeeCode": 796412,
+              "lastWorkingDay": "21 Mar 2017",
+              "dateOfJoining": "01 Jan 2015",
+              "designation": "ASSISTANT MANAGER, IT APPLICATIONS",
+              "reasonForJoining": "Internal switch for contractual to permanent position in Concentrix.",
+              "reasonForChange": [
+                {
+                  "actual": "I had recieved good hike(9.5 LPA) from Accenture.",
+                  "forHR": "Better opportunity to learn and earn."
+                }
+              ],
+              "joiningCTC": "6.4 LPA",
+              "exitCTC": "6.4 LPA"
+            },
+            {
+              "tenure": "Nov 2017 to Sep 2019",
+              "employeeCode": 5032599,
+              "lastWorkingDay": "27 Sep 2019",
+              "dateOfJoining": "10 Nov 2017",
+              "designation": "ASSISTANT MANAGER, IT APPLICATIONS",
+              "reasonForJoining": "Due to resignation from Accenture due to location issue, I re-joined Concentrix.",
+              "reasonForChange": [
+                {
+                  "actual": "Better opportunity from Dhani stocks.",
+                  "forHR": "better opportunity to learn and earn."
+                }
+              ],
+              "joiningCTC": "6.4 LPA",
+              "exitCTC": "6.79 LPA"
+            }
+          ],
+          "references": [
+            "Amit Gupta, +91 , Senior Manager",
+            "Abdul Wahab Haindade, +91 , Reporting Manager",
+            "Sheikh Ibbrahim, +91 , Reporting Manager",
+            "Somen Bose, +91 , Reporting Manager",
+            "Yogesh Devgan, +91 , Manager",
+            "Sanjay Shankar Sharma, +91 , Team-mate",
+            "Anshul"
+          ]
+        },
+        "textType": "yaml"
+      },
+      "projects": [
+        {
+          "name": "QAA",
+          "processedDetails": {
+            "metadata": {
+              "project": "QAA",
+              "tenure": "Mar 2011 to Apr 2012",
+              "description": [
+                "The Common Integrated Police Application (CIPA) is a multilingual application to automate the processes (workflow) at primary sources of data itself e.g. Police Station and to build a crime & criminal Information system based on CrPC. It provides an efficient way of organizing crime records for generating queries/reports and crime analysis for decision support.",
+                "This is desktop application and can be installed in every police station.",
+                "Once all report logged into system, various reports can be generated from same application.."
+              ],
+              "techStack": [
+                "Core Java",
+                "Swing",
+                "JDBC",
+                "JasperReports"
+              ],
+              "rolesAndResponsibilities": [
+                {
+                  "role": "Developer",
+                  "responsibilities": [
+                    "Added code for new requirements to create views in Swing and attach it with Backend DAO layer to save/retrieve data",
+                    "Created methods in DAO persisten layer to save and retrieve data from database"
+                  ]
+                }
+              ]
+            },
+            "textType": "yaml"
+          },
+          "uniqueId": "70d3433d-f214-4a4e-9d87-3de7f8674936"
+        },
+        {
+          "name": "Webdots",
+          "processedDetails": {
+            "metadata": {
+              "project": "Webdots",
+              "tenure": "Mar 2011 to Apr 2012",
+              "description": [
+                "The Common Integrated Police Application (CIPA) is a multilingual application to automate the processes (workflow) at primary sources of data itself e.g. Police Station and to build a crime & criminal Information system based on CrPC. It provides an efficient way of organizing crime records for generating queries/reports and crime analysis for decision support.",
+                "This is desktop application and can be installed in every police station.",
+                "Once all report logged into system, various reports can be generated from same application.."
+              ],
+              "techStack": [
+                "Core Java",
+                "Swing",
+                "JDBC",
+                "JasperReports"
+              ],
+              "rolesAndResponsibilities": [
+                {
+                  "role": "Developer",
+                  "responsibilities": [
+                    "Added code for new requirements to create views in Swing and attach it with Backend DAO layer to save/retrieve data",
+                    "Created methods in DAO persisten layer to save and retrieve data from database"
+                  ]
+                }
+              ]
+            },
+            "textType": "yaml"
+          },
+          "uniqueId": "2a9dca4c-cec1-44ef-bc47-27f6ef418d81"
+        },
+        {
+          "name": "Econvey",
+          "processedDetails": {
+            "metadata": {
+              "project": "Econvey",
+              "tenure": "Mar 2011 to Apr 2012",
+              "description": [
+                "The Common Integrated Police Application (CIPA) is a multilingual application to automate the processes (workflow) at primary sources of data itself e.g. Police Station and to build a crime & criminal Information system based on CrPC. It provides an efficient way of organizing crime records for generating queries/reports and crime analysis for decision support.",
+                "This is desktop application and can be installed in every police station.",
+                "Once all report logged into system, various reports can be generated from same application.."
+              ],
+              "techStack": [
+                "Core Java",
+                "Swing",
+                "JDBC",
+                "JasperReports"
+              ],
+              "rolesAndResponsibilities": [
+                {
+                  "role": "Developer",
+                  "responsibilities": [
+                    "Added code for new requirements to create views in Swing and attach it with Backend DAO layer to save/retrieve data",
+                    "Created methods in DAO persisten layer to save and retrieve data from database"
+                  ]
+                }
+              ]
+            },
+            "textType": "yaml"
+          },
+          "uniqueId": "2aadfdf6-cc50-4c16-b331-07100fd3c942"
+        },
+        {
+          "name": "Zetta",
+          "processedDetails": {
+            "metadata": {
+              "project": "Zetta",
+              "tenure": "Mar 2011 to Apr 2012",
+              "description": [
+                "The Common Integrated Police Application (CIPA) is a multilingual application to automate the processes (workflow) at primary sources of data itself e.g. Police Station and to build a crime & criminal Information system based on CrPC. It provides an efficient way of organizing crime records for generating queries/reports and crime analysis for decision support.",
+                "This is desktop application and can be installed in every police station.",
+                "Once all report logged into system, various reports can be generated from same application.."
+              ],
+              "techStack": [
+                "Core Java",
+                "Swing",
+                "JDBC",
+                "JasperReports"
+              ],
+              "rolesAndResponsibilities": [
+                {
+                  "role": "Developer",
+                  "responsibilities": [
+                    "Added code for new requirements to create views in Swing and attach it with Backend DAO layer to save/retrieve data",
+                    "Created methods in DAO persisten layer to save and retrieve data from database"
+                  ]
+                }
+              ]
+            },
+            "textType": "yaml"
+          },
+          "uniqueId": "40f29195-02f4-4626-a30e-420ba04abc37"
+        },
+        {
+          "name": "ResolveJiffy",
+          "processedDetails": {
+            "metadata": {
+              "project": "ResolveJiffy",
+              "tenure": "Mar 2011 to Apr 2012",
+              "description": [
+                "The Common Integrated Police Application (CIPA) is a multilingual application to automate the processes (workflow) at primary sources of data itself e.g. Police Station and to build a crime & criminal Information system based on CrPC. It provides an efficient way of organizing crime records for generating queries/reports and crime analysis for decision support.",
+                "This is desktop application and can be installed in every police station.",
+                "Once all report logged into system, various reports can be generated from same application.."
+              ],
+              "techStack": [
+                "Core Java",
+                "Swing",
+                "JDBC",
+                "JasperReports"
+              ],
+              "rolesAndResponsibilities": [
+                {
+                  "role": "Developer",
+                  "responsibilities": [
+                    "Added code for new requirements to create views in Swing and attach it with Backend DAO layer to save/retrieve data",
+                    "Created methods in DAO persisten layer to save and retrieve data from database"
+                  ]
+                }
+              ]
+            },
+            "textType": "yaml"
+          },
+          "uniqueId": "638263f5-545b-4a38-bd8d-4624be57cf20"
+        },
+        {
+          "name": "UnI",
+          "processedDetails": {
+            "metadata": {
+              "project": "UnI",
+              "tenure": "Mar 2011 to Apr 2012",
+              "description": [
+                "The Common Integrated Police Application (CIPA) is a multilingual application to automate the processes (workflow) at primary sources of data itself e.g. Police Station and to build a crime & criminal Information system based on CrPC. It provides an efficient way of organizing crime records for generating queries/reports and crime analysis for decision support.",
+                "This is desktop application and can be installed in every police station.",
+                "Once all report logged into system, various reports can be generated from same application.."
+              ],
+              "techStack": [
+                "Core Java",
+                "Swing",
+                "JDBC",
+                "JasperReports"
+              ],
+              "rolesAndResponsibilities": [
+                {
+                  "role": "Developer",
+                  "responsibilities": [
+                    "Added code for new requirements to create views in Swing and attach it with Backend DAO layer to save/retrieve data",
+                    "Created methods in DAO persisten layer to save and retrieve data from database"
+                  ]
+                }
+              ]
+            },
+            "textType": "yaml"
+          },
+          "uniqueId": "e4b74d25-0e9d-4982-8ffb-f87884729bd6"
+        },
+        {
+          "name": "Gain Manager",
+          "processedDetails": {
+            "metadata": {
+              "project": "Gain Manager",
+              "tenure": "Mar 2011 to Apr 2012",
+              "description": [
+                "The Common Integrated Police Application (CIPA) is a multilingual application to automate the processes (workflow) at primary sources of data itself e.g. Police Station and to build a crime & criminal Information system based on CrPC. It provides an efficient way of organizing crime records for generating queries/reports and crime analysis for decision support.",
+                "This is desktop application and can be installed in every police station.",
+                "Once all report logged into system, various reports can be generated from same application.."
+              ],
+              "techStack": [
+                "Core Java",
+                "Swing",
+                "JDBC",
+                "JasperReports"
+              ],
+              "rolesAndResponsibilities": [
+                {
+                  "role": "Developer",
+                  "responsibilities": [
+                    "Added code for new requirements to create views in Swing and attach it with Backend DAO layer to save/retrieve data",
+                    "Created methods in DAO persisten layer to save and retrieve data from database"
+                  ]
+                }
+              ]
+            },
+            "textType": "yaml"
+          },
+          "uniqueId": "65adfdc9-2bbd-4e9e-96a1-9e09adf12239"
+        },
+        {
+          "name": "GIP",
+          "processedDetails": {
+            "metadata": {
+              "project": "GIP",
+              "tenure": "Mar 2011 to Apr 2012",
+              "description": [
+                "The Common Integrated Police Application (CIPA) is a multilingual application to automate the processes (workflow) at primary sources of data itself e.g. Police Station and to build a crime & criminal Information system based on CrPC. It provides an efficient way of organizing crime records for generating queries/reports and crime analysis for decision support.",
+                "This is desktop application and can be installed in every police station.",
+                "Once all report logged into system, various reports can be generated from same application.."
+              ],
+              "techStack": [
+                "Core Java",
+                "Swing",
+                "JDBC",
+                "JasperReports"
+              ],
+              "rolesAndResponsibilities": [
+                {
+                  "role": "Developer",
+                  "responsibilities": [
+                    "Added code for new requirements to create views in Swing and attach it with Backend DAO layer to save/retrieve data",
+                    "Created methods in DAO persisten layer to save and retrieve data from database"
+                  ]
+                }
+              ]
+            },
+            "textType": "yaml"
+          },
+          "uniqueId": "e4a00e29-daed-4e11-87e5-c6be2560053e"
+        }
+      ],
+      "uniqueId": "ed945b8a-97a6-4e7a-9893-c5aa5aa39448"
+    },
+    {
+      "name": "Accenture, Mumbai, India",
+      "processedDetails": {
+        "metadata": {
+          "company": "Accenture, Mumbai, India",
+          "modeOfWork": "Work from office",
+          "officeAddress": "Mumbai",
+          "employmentType": "Permanent",
+          "aboutCompany": [
+            "Company is good.",
+            "However I suffered a lot while work here due to multiple location changes during small tenure."
+          ],
+          "domainOfCompany": [
+            "Service-based company"
+          ],
+          "companyWebsiteURL": "https://www.accenture.com/in-en",
+          "overAllTenure": "Mar 2017 to Jul 2017",
+          "overAllTenureWithDate": "31 Mar 2017 to 31 Jul 2017",
+          "lastDesignation": "APPLICATION DEVELOPMENT SENIOR ANALYST",
+          "lastCTC": "9.5 LPA",
+          "lastEmployeeCode": 11361381,
+          "lastReasonForChange": {
+            "actual": "Due to location issues, I felt ill and came back to home at Faridabad.",
+            "forHR": "Due to location issues, I felt ill and came back to home at Faridabad."
+          },
+          "projects": [
+            "ZVR4 Data Migration"
+          ],
+          "techStack": [
+            "Java with Spring Boot, Spring Batch, Spring REST, Multithreading for backend development",
+            "Junit to write unit cases",
+            "Maven to build project artifacts and dependency management",
+            "Spring Boot JPA for Database communication with Oracle 12g",
+            "Talend tool for Data Migration"
+          ],
+          "highlights": [
+            "Development in ZVR4 Data Migration project with Talend tool and java API (Spring Batch, multithreading)",
+            "Worked to write java code to parallel process the blob data of table of legacy database and save to target database.",
+            "Co-ordinated with client team at Germany location to gather requirements",
+            "Worked in Agile mehodology to gather requirements from clients and created Epics and created stories for implementation",
+            "Worked with team to guide for assigned task.",
+            "Fixed bugs identified by support team and shared through Jira",
+            "Worked with vendor and project management team on a code change and new fix in upcoming Release."
+          ],
+          "employmentHistories": [
+            {
+              "tenure": "Mar 2017 to Jul 2017",
+              "employeeCode": 11361381,
+              "lastWorkingDay": "31 July 2017",
+              "dateOfJoining": "31 Mar 2017",
+              "designation": "APPLICATION DEVELOPMENT SENIOR ANALYST",
+              "reasonForJoining": "recieved good hike(9.5 LPA) from Accenture.",
+              "reasonForChange": [
+                {
+                  "actual": "Due to location issues, I felt ill and came back to home at Faridabad.",
+                  "forHR": "Due to location issues, I felt ill and came back to home at Faridabad."
+                }
+              ],
+              "joiningCTC": "9.5 LPA",
+              "exitCTC": "9.5 LPA"
+            }
+          ],
+          "references": [
+            "Abinash Pati, +91 98712 41280 , Team-mate",
+            "Jayesh , +91 98921 87267, Reporting Manager",
+            "Neha Sharma, HR-Representative, +91 87584 01537",
+            "Chirag, Team-mate, +91 77100 01655",
+            "Nimesh Joshi, +91 96325 45970, Team-mate"
+          ]
+        },
+        "textType": "yaml"
+      },
+      "projects": [
+        {
+          "name": "ZVR4",
+          "processedDetails": {
+            "metadata": {
+              "project": "ZVR4",
+              "tenure": "Mar 2011 to Apr 2012",
+              "description": [
+                "The Common Integrated Police Application (CIPA) is a multilingual application to automate the processes (workflow) at primary sources of data itself e.g. Police Station and to build a crime & criminal Information system based on CrPC. It provides an efficient way of organizing crime records for generating queries/reports and crime analysis for decision support.",
+                "This is desktop application and can be installed in every police station.",
+                "Once all report logged into system, various reports can be generated from same application.."
+              ],
+              "techStack": [
+                "Core Java",
+                "Swing",
+                "JDBC",
+                "JasperReports"
+              ],
+              "rolesAndResponsibilities": [
+                {
+                  "role": "Developer",
+                  "responsibilities": [
+                    "Added code for new requirements to create views in Swing and attach it with Backend DAO layer to save/retrieve data",
+                    "Created methods in DAO persisten layer to save and retrieve data from database"
+                  ]
+                }
+              ]
+            },
+            "textType": "yaml"
+          },
+          "uniqueId": "bfef2703-7f6b-447b-8fd2-86feb43248c5"
+        }
+      ],
+      "uniqueId": "44f016ec-9f7a-41d7-bcf2-10d510581357"
+    },
+    {
+      "name": "Dhani stocks Limited, (formerly Indiabulls security Ltd , Indiabulls ventures ltd), Gurgaon, India",
+      "processedDetails": {
+        "metadata": {
+          "company": "Dhani stocks Limited, (formerly Indiabulls security Ltd , Indiabulls ventures LTD), Gurgaon, India",
+          "aboutCompany": [
+            "comapny is good",
+            "However, No good hike."
+          ],
+          "domainOfCompany": [
+            "Product based company",
+            "Finance domain company",
+            "Main application is for Share market trading",
+            "Several helper projects for the main application"
+          ],
+          "companyWebsiteURL": "https://www.dhanistocks.com/",
+          "overAllTenure": "Sep 2019 to Oct 2021",
+          "overAllTenureWithDate": "28 Sep 2019 to 07 Oct 2021",
+          "lastDesignation": "TECHNICAL LEAD",
+          "lastCTC": "10.5 LPA",
+          "lastEmployeeCode": 283731,
+          "lastReasonForChange": {
+            "actual": "Better opportunity to learn and earn.",
+            "forHR": "Better opportunity to learn and earn."
+          },
+          "projects": [
+            "ShubhWeb",
+            "Notis API",
+            "KRA",
+            "SFTP"
+          ],
+          "techStack": [
+            "Java with Spring Boot, Spring Batch, Spring REST, Multithreading for backend development",
+            "Junit to write unit cases",
+            "Maven to build project artifacts and dependency management",
+            "Spring Boot JPA for Database communication with Oracle 12g"
+          ],
+          "highlights": [
+            "Development in “ShubhWeb” application. Technologies used are Java/J2EE, Spring Boot, Spring Batch, Spring REST, Hibernate, Oracle 12g, ReactJS, Bootstrap.",
+            "Worked for development of helper applications Notis API, KRA, SFTP projects",
+            "Worked as Team Lead and successfully delivered new functionality for implementation of NSDL/CDSL Edis 3rd party Resful web services in shubhweb application.",
+            "Migrated code from SVN to GITLab and GitHub Server",
+            "Served Scrum master responsibility to manage sprints",
+            "Worked in Agile mehodology to gather requirements from clients and created Epics and created stories for implementation",
+            "Worked with team to guide for assigned task.",
+            "Fixed bugs identified by support team and shared through Jira",
+            "Worked with vendor and project management team on a code change and new fix in upcoming Release."
+          ],
+          "employmentHistories": [
+            {
+              "tenure": "Sep 2019 to Jan 2021",
+              "employeeCode": 270578,
+              "lastWorkingDay": "06 Jan 2021",
+              "dateOfJoining": "28 Sep 2019",
+              "designation": "SENIOR SOFTWARE ENGINEER",
+              "reasonForJoining": "Better opportunity to learn and earn",
+              "reasonForChange": [
+                {
+                  "actual": "Better opportunity to learn and earn. Also due to late in revised offer letter with requested hike.",
+                  "forHR": "Better opportunity to learn and earn."
+                }
+              ],
+              "joiningCTC": "8.25 LPA",
+              "exitCTC": "8.25 LPA"
+            },
+            {
+              "tenure": "Mar 2021 to Oct 2021",
+              "employeeCode": 283731,
+              "lastWorkingDay": "07 Oct 2021",
+              "dateOfJoining": "05 Mar 2021",
+              "designation": "TECHNICAL LEAD",
+              "reasonForJoining": "No quality work assigned in last comapny (Mynd Integrated Solutions Ltd, Gurgaon, India). Also Dhani Stocks offered me with promotion as Team Lead.",
+              "reasonForChange": [
+                {
+                  "actual": "Better opportunity to learn and earn. Also good hike (23 LPA) from RSystems.",
+                  "forHR": "Better opportunity to learn and earn"
+                }
+              ],
+              "joiningCTC": "10.5 LPA",
+              "exitCTC": "10.5 LPA"
+            }
+          ],
+          "references": [
+            "Ajay Kumar Singh, +91 00000 00000, Reporting Manager",
+            "Shruti Jaiswal, +91 00000 00000, Team-mate"
+          ]
+        },
+        "textType": "yaml"
+      },
+      "projects": [
+        {
+          "name": "ShubhWeb",
+          "processedDetails": {
+            "metadata": {
+              "project": "ShubhWeb",
+              "tenure": "Mar 2011 to Apr 2012",
+              "description": [
+                "The Common Integrated Police Application (CIPA) is a multilingual application to automate the processes (workflow) at primary sources of data itself e.g. Police Station and to build a crime & criminal Information system based on CrPC. It provides an efficient way of organizing crime records for generating queries/reports and crime analysis for decision support.",
+                "This is desktop application and can be installed in every police station.",
+                "Once all report logged into system, various reports can be generated from same application.."
+              ],
+              "techStack": [
+                "Core Java",
+                "Swing",
+                "JDBC",
+                "JasperReports"
+              ],
+              "rolesAndResponsibilities": [
+                {
+                  "role": "Developer",
+                  "responsibilities": [
+                    "Added code for new requirements to create views in Swing and attach it with Backend DAO layer to save/retrieve data",
+                    "Created methods in DAO persisten layer to save and retrieve data from database"
+                  ]
+                }
+              ]
+            },
+            "textType": "yaml"
+          },
+          "uniqueId": "2fc7393c-7f7a-4d73-8619-2731edbac78c"
+        },
+        {
+          "name": "Notis API",
+          "processedDetails": {
+            "metadata": {
+              "project": "Notis API",
+              "tenure": "Mar 2011 to Apr 2012",
+              "description": [
+                "The Common Integrated Police Application (CIPA) is a multilingual application to automate the processes (workflow) at primary sources of data itself e.g. Police Station and to build a crime & criminal Information system based on CrPC. It provides an efficient way of organizing crime records for generating queries/reports and crime analysis for decision support.",
+                "This is desktop application and can be installed in every police station.",
+                "Once all report logged into system, various reports can be generated from same application.."
+              ],
+              "techStack": [
+                "Core Java",
+                "Swing",
+                "JDBC",
+                "JasperReports"
+              ],
+              "rolesAndResponsibilities": [
+                {
+                  "role": "Developer",
+                  "responsibilities": [
+                    "Added code for new requirements to create views in Swing and attach it with Backend DAO layer to save/retrieve data",
+                    "Created methods in DAO persisten layer to save and retrieve data from database"
+                  ]
+                }
+              ]
+            },
+            "textType": "yaml"
+          },
+          "uniqueId": "8a289656-8637-4dcc-97cd-7ec6b95833eb"
+        },
+        {
+          "name": "JasperReports",
+          "processedDetails": {
+            "metadata": {
+              "project": "JasperReports",
+              "tenure": "Mar 2011 to Apr 2012",
+              "description": [
+                "The Common Integrated Police Application (CIPA) is a multilingual application to automate the processes (workflow) at primary sources of data itself e.g. Police Station and to build a crime & criminal Information system based on CrPC. It provides an efficient way of organizing crime records for generating queries/reports and crime analysis for decision support.",
+                "This is desktop application and can be installed in every police station.",
+                "Once all report logged into system, various reports can be generated from same application.."
+              ],
+              "techStack": [
+                "Core Java",
+                "Swing",
+                "JDBC",
+                "JasperReports"
+              ],
+              "rolesAndResponsibilities": [
+                {
+                  "role": "Developer",
+                  "responsibilities": [
+                    "Added code for new requirements to create views in Swing and attach it with Backend DAO layer to save/retrieve data",
+                    "Created methods in DAO persisten layer to save and retrieve data from database"
+                  ]
+                }
+              ]
+            },
+            "textType": "yaml"
+          },
+          "uniqueId": "26787a0e-5d6f-45fd-8085-cb849c532de8"
+        },
+        {
+          "name": "KRA",
+          "processedDetails": {
+            "metadata": null,
+            "textType": "yaml"
+          },
+          "uniqueId": "8dcb67e2-bbad-4a8b-a1a8-4729a88970ac"
+        },
+        {
+          "name": "SFTP",
+          "processedDetails": {
+            "metadata": null,
+            "textType": "yaml"
+          },
+          "uniqueId": "60664c3d-6d2b-4960-8b8d-ee4d091e818e"
+        }
+      ],
+      "uniqueId": "b45b317f-fc94-4398-aeec-e4cbdee7ed06"
+    },
+    {
+      "name": "Mynd Integrated Solutions Ltd, Gurgaon, India",
+      "processedDetails": {
+        "metadata": {
+          "company": "Mynd Integrated Solutions Ltd, Gurgaon, India",
+          "aboutCompany": [
+            "comapny is good",
+            "However, Internal politics felt."
+          ],
+          "domainOfCompany": [
+            "Product based company",
+            "MSME related company"
+          ],
+          "companyWebsiteURL": "https://www.m1xchange.com/",
+          "overAllTenure": "Jan 2021 to Feb 2021",
+          "overAllTenureWithDate": "11 Jan 2021 to 26 Feb 2021",
+          "lastDesignation": "SENIOR SOFTWARE DEVELOPER",
+          "lastCTC": "10.5 LPA",
+          "lastEmployeeCode": "MS10931",
+          "lastReasonForChange": {
+            "actual": "Felt there was internal politics there. Reporting manager never agreed to communicate. Wrong stack work was assigned. I am from java background, but TL was forcing to work on Oracle PL/SQL programming. I felt difficulty in assigned task and asked several times my reporting manager to talk, but he never responded.",
+            "forHR": "No quality work assigned. Also my last company(Dhani Stocks) offered me with promotion as Team Lead."
+          },
+          "projects": [
+            "m1xchange"
+          ],
+          "techStack": [
+            "Java with Spring Boot, Spring Batch, Spring REST, Multithreading for backend development",
+            "Junit to write unit cases",
+            "Maven to build project artifacts and dependency management",
+            "Spring Boot JPA for Database communication with Oracle 12g"
+          ],
+          "highlights": [
+            "Development in “m1xchange” application. Technologies using Java/J2EE, , SQL Server, Spring Boot, Bootstrap.",
+            "Worked in Agile mehodology to gather requirements from clients and created Epics and created stories for implementation",
+            "Worked with team to guide for assigned task.",
+            "Fixed bugs identified by support team and shared through Jira",
+            "Worked with vendor and project management team on a code change and new fix in upcoming Release."
+          ],
+          "employmentHistories": [
+            {
+              "tenure": "Jan 2021 to Feb 2021",
+              "employeeCode": "MS10931",
+              "lastWorkingDay": "11 Jan 2021",
+              "dateOfJoining": "26 Feb 2021",
+              "designation": "SENIOR SOFTWARE DEVELOPER",
+              "reasonForJoining": "Better hike recieved on joining. Also, my updated offer letter with requested hike is recieved some late from last comapny(Dhani Stocks)",
+              "reasonForChange": [
+                {
+                  "actual": "Felt there was internal politics there. Reporting manager never agreed to communicate. Wrong stack work was assigned. I am from java background, but TL was forcing to work on Oracle PL/SQL programming. I felt difficulty in assigned task and asked several times my reporting manager to talk, but he never responded.",
+                  "forHR": "No quality work assigned. Also my last company(Dhani Stocks) offered me with promotion as Team Lead."
+                }
+              ],
+              "joiningCTC": "10.5 LPA",
+              "exitCTC": "10.5 LPA"
+            }
+          ],
+          "references": [
+            "Jasmine, +91 98757 23746, HR",
+            "Sangeeta, +91 99996 34991, HR",
+            "Ajeet Kumar, +91 94642 64649, TL",
+            "Anurag, +91 98712 95626, Reporting Manager",
+            "Megha Nagari, +91 70428 54152, Recruitement HR"
+          ]
+        },
+        "textType": "yaml"
+      },
+      "projects": [
+        {
+          "name": "TReDS",
+          "processedDetails": {
+            "metadata": {
+              "project": "TReDS",
+              "tenure": "Mar 2011 to Apr 2012",
+              "description": [
+                "The Common Integrated Police Application (CIPA) is a multilingual application to automate the processes (workflow) at primary sources of data itself e.g. Police Station and to build a crime & criminal Information system based on CrPC. It provides an efficient way of organizing crime records for generating queries/reports and crime analysis for decision support.",
+                "This is desktop application and can be installed in every police station.",
+                "Once all report logged into system, various reports can be generated from same application.."
+              ],
+              "techStack": [
+                "Core Java",
+                "Swing",
+                "JDBC",
+                "JasperReports"
+              ],
+              "rolesAndResponsibilities": [
+                {
+                  "role": "Developer",
+                  "responsibilities": [
+                    "Added code for new requirements to create views in Swing and attach it with Backend DAO layer to save/retrieve data",
+                    "Created methods in DAO persisten layer to save and retrieve data from database"
+                  ]
+                }
+              ]
+            },
+            "textType": "yaml"
+          },
+          "uniqueId": "c6d19854-9e41-45b9-8d51-e6ada2f9c07f"
+        }
+      ],
+      "uniqueId": "15853ccf-6375-4f44-96d7-814548d67ddd"
+    },
+    {
+      "name": "RSystems International Pvt Ltd, Noida, India",
+      "processedDetails": {
+        "metadata": {
+          "company": "RSystems International Pvt Ltd, Noida, India",
+          "aboutCompany": [
+            "company is good",
+            "gives much hike"
+          ],
+          "domainOfCompany": [
+            "Service domain"
+          ],
+          "companyWebsiteURL": "https://www.rsystems.com/",
+          "overAllTenure": "Oct 2021 to Dec 2022",
+          "overAllTenureWithDate": "11 Oct 2021 to 02 Dec 2022",
+          "lastDesignation": "PROJECT LEADER",
+          "lastCTC": "23 LPA",
+          "lastEmployeeCode": 13212,
+          "lastReasonForChange": {
+            "actual": "Better hike recieved. Also it was roumor that Ephesoft will be shut down soon.",
+            "forHR": "Better hike."
+          },
+          "projects": [
+            "Ephesoft Transact"
+          ],
+          "techStack": [
+            "Java with Spring Boot, Spring Batch, Spring REST, Multithreading for backend development",
+            "Junit to write unit cases",
+            "Maven to build project artifacts and dependency management",
+            "Spring Boot JPA for Database communication with Oracle 12g",
+            "GWT, Bootstrap, Angular for frontend development",
+            "Python to do bug fix for SRE service"
+          ],
+          "highlights": [
+            "Development in “Ephesoft Transact” application. Technologies used are Java/J2EE, Spring Boot, Spring REST, Spring Boot JPA, Oracle 12g, GWT, Bootstrap, Angular.",
+            "Added code for new requirements (SRE service integration)",
+            "Served Scrum master responsibility to manage sprints",
+            "Worked in Agile mehodology to gather requirements from clients and created Epics and created stories for implementation",
+            "Worked with team to guide for assigned task.",
+            "Fixed bugs identified by support team and shared through Jira",
+            "Worked with vendor and project management team on a code change and new fix in upcoming Release."
+          ],
+          "employmentHistories": [
+            {
+              "tenure": "Oct 2021 to Dec 2022",
+              "employeeCode": 13212,
+              "lastWorkingDay": "02 Dec 2022",
+              "dateOfJoining": "11 Oct 2021",
+              "designation": "PROJECT LEADER",
+              "reasonForJoining": "Better hike recieved on joining",
+              "reasonForChange": [
+                {
+                  "actual": "Better hike recieved. Also it was roumor that Ephesoft will be shut down soon.",
+                  "forHR": "Better hike."
+                }
+              ],
+              "joiningCTC": "23 LPA",
+              "exitCTC": "23 LPA"
+            }
+          ],
+          "references": [
+            "Aalok Payal, +91 95400 02218, Reporting Manager",
+            "Aditya Narayan Shukla",
+            "Deepak Shekhar, Team-mate, +91 96436 05499",
+            "Pullak Gupta, Team-mate, +91 95557 80278",
+            "Anu, HR-Recruitement, +91 80765 09209",
+            "Ashish Upreti, Team-mate, +91 70421 05908",
+            "Sunil Khanna, Team Lead, +91 80100 62013",
+            "Vishal Tiwari, Team-mate, +91 96950 42980"
+          ]
+        },
+        "textType": "yaml"
+      },
+      "projects": [
+        {
+          "name": "Ephesoft Transact",
+          "processedDetails": {
+            "metadata": {
+              "project": "Ephesoft Transact",
+              "tenure": "Mar 2011 to Apr 2012",
+              "description": [
+                "The Common Integrated Police Application (CIPA) is a multilingual application to automate the processes (workflow) at primary sources of data itself e.g. Police Station and to build a crime & criminal Information system based on CrPC. It provides an efficient way of organizing crime records for generating queries/reports and crime analysis for decision support.",
+                "This is desktop application and can be installed in every police station.",
+                "Once all report logged into system, various reports can be generated from same application.."
+              ],
+              "techStack": [
+                "Core Java",
+                "Swing",
+                "JDBC",
+                "JasperReports"
+              ],
+              "rolesAndResponsibilities": [
+                {
+                  "role": "Developer",
+                  "responsibilities": [
+                    "Added code for new requirements to create views in Swing and attach it with Backend DAO layer to save/retrieve data",
+                    "Created methods in DAO persisten layer to save and retrieve data from database"
+                  ]
+                }
+              ]
+            },
+            "textType": "yaml"
+          },
+          "uniqueId": "72fe07f3-ad91-4ea4-93af-ad015ed6372c"
+        }
+      ],
+      "uniqueId": "a754c952-9643-42b9-afa3-4c28c9ef4b7e"
+    },
+    {
+      "name": "EVC Ventures, Gurgaon, India",
+      "processedDetails": {
+        "metadata": {
+          "company": "EVC Ventures, Gurgaon, India",
+          "modeOfWork": "Work at client location (IIT Delhi)",
+          "officeAddress": "Gurgaon",
+          "employmentType": "Permanent",
+          "aboutCompany": [
+            "Company asks to sign contracts.",
+            "I suffered while work here due to no stable process."
+          ],
+          "domainOfCompany": [
+            "Product-based",
+            "Educational Software Domain"
+          ],
+          "companyWebsiteURL": "http://evc.ventures/",
+          "overAllTenure": "Dec 2022 to Feb 2023",
+          "overAllTenureWithDate": "06 Dec 2022 to 17 Feb 2023",
+          "lastDesignation": "SENIOR BACKEND DEVELOPER",
+          "lastCTC": "31.8 LPA",
+          "lastEmployeeCode": 1961,
+          "lastReasonForChange": {
+            "actual": "lay off.",
+            "forHR": "lay off."
+          },
+          "projects": [
+            "IITD-Admin",
+            "SPortal"
+          ],
+          "techStack": [
+            "Java/J2EE, Spring Boot, Spring REST for backend development",
+            "Junit to write unit cases",
+            "Maven, NodeJS to build project artifacts and dependency management",
+            "MyBatis for Database communication with MySQL",
+            "Spring MVC, ReactJS, Bootstrap for Frontend development",
+            "Tomcat for Application deployment"
+          ],
+          "highlights": [
+            "Worked to add JavaMelody and ShedLock to monitor and improve performance of application",
+            "Development in “IITD-Admin” and \"SPortal\" application. Technologies used are Java/J2EE, Spring Boot, Spring REST, MyBatis, Spring MVC, Bootstrap, ReactJS.",
+            "Added code for new requirements (Store and Purchase module)",
+            "Worked in Agile mehodology to gather requirements from clients and created Epics and created stories for implementation",
+            "Worked with team to guide for assigned task.",
+            "Fixed bugs identified by support team and shared through Jira",
+            "Worked with vendor and project management team on a code change and new fix in upcoming Release."
+          ],
+          "employmentHistories": [
+            {
+              "tenure": "Dec 2022 to Feb 2023",
+              "employeeCode": 1961,
+              "lastWorkingDay": "17 Feb 2023",
+              "dateOfJoining": "06 Dec 2022",
+              "designation": "SENIOR BACKEND DEVELOPER",
+              "reasonForJoining": "I was laid off from last company, EVC Ventures. Hence I was looking for new opportunity having CTC offer more than or equals my last drawn CTC at EVC Ventures.",
+              "reasonForChange": [
+                {
+                  "actual": "lay off.",
+                  "forHR": "lay off."
+                }
+              ],
+              "joiningCTC": "31.8 LPA",
+              "exitCTC": "31.8 LPA"
+            }
+          ],
+          "references": [
+            "Avadhesh Choudhary, +91 9654029010, Reporting Manager",
+            "Shweta, HR,",
+            "Shruti, HR",
+            "JaiHind, Team-mate, +91 77019 83236",
+            "Arvind Yadav, Team-mate, +91 92584 19033",
+            "Kushal , Team-mate, +91 84484 62928",
+            "Manish, HR-Recruitement, +91 92893 09430"
+          ]
+        },
+        "textType": "yaml"
+      },
+      "projects": [
+        {
+          "name": "IITD Admin",
+          "processedDetails": {
+            "metadata": {
+              "project": "IITD Admin",
+              "tenure": "June 2023 to Feb 2024",
+              "description": ["Project A is a mobile application designed to streamline task management for busy professionals. It features a user-friendly interface and powerful organizational tools.<br/>\nIt has good things to learn.\n"],
+              "techStack": [
+                "React Native",
+                "Firebase"
+              ],
+              "rolesAndResponsibilities": [
+                {
+                  "role": "Backend Developer",
+                  "responsibilities": [
+                    "Developed server-side APIs using Node.js and Express.js.",
+                    "Utilized MongoDB for database management."
+                  ]
+                },
+                {
+                  "role": "Frontend Developer",
+                  "responsibilities": [
+                    "Designed and implemented frontend components using React."
+                  ]
+                }
+              ]
+            },
+            "textType": "yaml"
+          },
+          "uniqueId": "68128013-ff63-4f6c-875f-199b14929cbb"
+        }
+      ],
+      "uniqueId": "ef1be755-dba2-42e1-bae1-cb22da5dbd3a"
+    },
+    {
+      "name": "Zycus Infotech Pvt. Ltd., Bangalore, India",
+      "processedDetails": {
+        "metadata": {
+          "company": "Zycus Infotech",
+          "modeOfWork": "WFH",
+          "officeAddress": "Bangalore",
+          "employmentType": "Permanent",
+          "aboutCompany": [
+            "The company is good.",
+            "I love to work here"
+          ],
+          "domainOfCompany": [
+            "Product-based",
+            "Procurement domain"
+          ],
+          "companyWebsiteURL": "https://www.zycus.com/",
+          "overAllTenure": "June 2023 to Feb 2024",
+          "overAllTenureWithDate": "07 June 2023 to 22 Feb 2024",
+          "lastCTC": "32.2 LPA",
+          "lastEmployeeCode": 5938,
+          "lastDesignation": "SENIOR STAFF ENGINEER",
+          "lastReasonForChange": {
+            "actual": "Due to confusion from HR. They interpreted my leave request due to ill health as my absconding. So they terminated myself from service. They did not pay my notice period recovery.",
+            "forHR": "Termination due to ill health."
+          },
+          "projects": [
+            "ESG Lythouse"
+          ],
+          "techStack": [
+            "Java/J2EE, Spring Boot, Spring GraphQL for backend development",
+            "Junit to write unit cases",
+            "Maven, NodeJS to build project artifacts and dependency management",
+            "Spring Boot JPA for Database communication with MongoDB",
+            "ReactJS, Bootstrap for Frontend development",
+            "Docker & K8s for Application orchestration and deployment"
+          ],
+          "highlights": [
+            "Development in “ESG Lythouse” application. Technologies used are Java/J2EE, Spring Boot, Spring GraphQL, MongoDB, and ReactJS.",
+            "Added code for new features (Category, EU Taxonomy, Goals, Initiatives, Metrics)",
+            "Worked in Agile methodology to gather requirements from clients and created Epics and created stories for implementation",
+            "Worked with the team to guide for the assigned task.",
+            "Worked with the implementation team to live the Lythouse application in QA and pre-prod environment for given clients.",
+            "Fixed bugs identified by the QA team and shared through Jira"
+          ],
+          "employmentHistories": [
+            {
+              "tenure": "June 2023 to Feb 2024",
+              "employeeCode": 5938,
+              "lastWorkingDay": "22 Feb 2024",
+              "dateOfJoining": "07 June 2023",
+              "designation": "SENIOR STAFF ENGINEER",
+              "reasonForJoining": "I was laid off from last company, EVC Ventures. Hence I was looking for new opportunity having CTC offer more than or equals my last drawn CTC at EVC Ventures.",
+              "reasonForChange": [
+                {
+                  "actual": "Due to confusion from HR. They interpreted my leave request due to ill health as my absconding. So they terminated myself from service. They did not pay my notice period recovery.",
+                  "forHR": "Termination due to ill health"
+                }
+              ],
+              "joiningCTC": "32.2 LPA",
+              "exitCTC": "32.2 LPA"
+            }
+          ],
+          "references": [
+            "Raveendra Vaddkoot, Reporting Manager, +91-95351 07459, email@domain.com",
+            "Feroz, Reporting Manager",
+            "Soham Niyogi, Reporting Manager",
+            "Jayant Nandulkar, Reporting Manager",
+            "Manish Das, HRBP, +91 95381 21119",
+            "Shrikant Irrabati , Team Lead",
+            "Anurag Singh, Team-mate, +91 90293 71298",
+            "Vikas Kosta, Team-mate, +9170607 28021"
+          ]
+        },
+        "textType": "yaml"
+      },
+      "projects": [
+        {
+          "name": "ESG Lythouse",
+          "processedDetails": {
+            "metadata": {
+              "project": "ESG Lythouse",
+              "tenure": "June 2023 to Feb 2024",
+              "description": [
+                "Project A is a mobile application designed to streamline task management for busy professionals. It features a user-friendly interface and powerful organizational tools.<br/>",
+                "It has good things to learn."
+              ],
+              "techStack": [
+                "React Native",
+                "Firebase"
+              ],
+              "rolesAndResponsibilities": [
+                {
+                  "role": "Backend Developer",
+                  "responsibilities": [
+                    "Developed server-side APIs using Node.js and Express.js.",
+                    "Utilized MongoDB for database management."
+                  ]
+                },
+                {
+                  "role": "Frontend Developer",
+                  "responsibilities": [
+                    "Designed and implemented frontend components using React."
+                  ]
+                }
+              ]
+            },
+            "textType": "yaml"
+          },
+          "uniqueId": "088ee538-5c99-4fad-bd1c-828337ed8142"
+        }
+      ],
+      "uniqueId": "8c0c03e4-1ac9-4b17-8c4d-9466e39f896e"
+    }
+  ],
+  "educations": [
+    {
+      "uniqueId": "167bbf57-30a4-46a8-bf53-01bc6e18c3f4",
+      "name": "BACHELOR OF ENGINEERING, COMPUTER SCIENCE AND ENGINEERING",
+      "processedDetails": {
+        "metadata": {
+          "name": "BACHELOR OF ENGINEERING, COMPUTER SCIENCE AND ENGINEERING",
+          "session": "2005-09",
+          "institution": "BCE Bhagalpur, Bhagalpur, Bihar",
+          "university": "TMBU University, Bhagalpur"
+        },
+        "textType": "yaml"
+      }
+    },
+    {
+      "uniqueId": "1475b7c4-2eb9-47dd-beed-a35b88694c31",
+      "name": "INTERMEDIATE OF SCIENCE, MATHEMATICS",
+      "processedDetails": {
+        "metadata": {
+          "name": "INTERMEDIATE OF SCIENCE, MATHEMATICS",
+          "session": "2002 - 2004",
+          "institution": "M. S. College, Motihari, Bihar",
+          "university": "BR University, Muzaffarpur"
+        },
+        "textType": "yaml"
+      }
+    },
+    {
+      "uniqueId": "62ce63f3-5285-43e8-9554-8f5e0be6b8aa",
+      "name": "MATRICULATION",
+      "processedDetails": null
+    }
+  ]
+}

@@ -10,7 +10,7 @@ public class UserPojo implements Cloneable, Serializable {
 
     private String email;
 
-    private List<UserObjective> objectives= new ArrayList<>();
+    private List<UserObjective> objectives = new ArrayList<>();
 
     public int getId() {
         return id;
