@@ -1,5 +1,18 @@
-c:
+@echo off
 
-cd C:/APPLN_SERVERS/apache-tomcat-6.0.35/apache-tomcat-6.0.35/webapps/JSTL/WEB-INF/src
+REM Compile and run the Spring Boot JSTL project
 
-javac -cp "C:/APPLN_SERVERS/apache-tomcat-6.0.35/apache-tomcat-6.0.35/webapps/JSTL/WEB-INF/lib/jstl.jar;C:/APPLN_SERVERS/apache-tomcat-6.0.35/apache-tomcat-6.0.35/webapps/JSTL/WEB-INF/lib/standard.jar;C:/APPLN_SERVERS/apache-tomcat-6.0.35/apache-tomcat-6.0.35/webapps/JSTL/WEB-INF/lib/servlet3.0-jsp2.2-api.jar" -d "C:/APPLN_SERVERS/apache-tomcat-6.0.35/apache-tomcat-6.0.35/webapps/JSTL/WEB-INF/classes" *.java
+REM [1] Navigate to the project root (adjust path if needed)
+cd /d %~dp0\..
+
+REM [2] Clean and build the project using Maven (ensure mvn is in your PATH)
+mvn clean package
+
+IF %ERRORLEVEL% NEQ 0 (
+    echo Maven build failed. Exiting.
+    exit /b 1
+)
+
+REM [3] Run the built Spring Boot jar
+REM Replace the JAR name below if it differs (see target\*.jar)
+java -jar target\jstl-demo-0.0.1-SNAPSHOT.jar

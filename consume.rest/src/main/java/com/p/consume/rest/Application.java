@@ -60,7 +60,7 @@ public class Application {
     }
 
     private void createHtml(JsonArray finalArr){
-        try(PrintStream ps=new PrintStream(new File("C:\\Users\\premendra\\Desktop\\aa.txt"))){
+        try(PrintStream ps=new PrintStream(new File("D:\\GIT\\MyTestPrograms\\consume.rest\\src\\main\\resources\\aa.txt"))){
             ps.println(HTML_PREFIX);
 
             int count=1;

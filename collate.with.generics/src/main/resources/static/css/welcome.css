@@ -1,0 +1,44 @@
+body {
+    background-color: #f4f4f9;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #4CAF50;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    color: #333;
+}
+
+.welcomeMessage{
+    whitespace: pre-wrap;
+    font-size: 16px;
+    color: white;
+    border: 2px solid #333;  /* Adding a border */
+    background-color: black;  /* Setting background color to yellow */
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px;  /* Optional: To make the corners rounded */
+}
+
+.milestoneMessage{
+    whitespace: pre-wrap;
+    font-size: 16px;
+    color: #f4f6f7;
+    border: 2px solid #333;  /* Adding a border */
+    background-color: #2e4053;  /* Setting background color to yellow */
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px;  /* Optional: To make the corners rounded */
+}
+
+.milestone_status_completed{
+background-color: #2ecc71;
+/**color: #dc9eaa;*/
+color: #f4f6f7;
+}

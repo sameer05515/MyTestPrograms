@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problem Details</title>
+</head>
+<body>
+<h1>Problem Details</h1>
+<p><strong>Title:</strong> <span th:text="${problem.title}"></span></p>
+<p><strong>Created On:</strong> <span th:text="${problem.createdOn}"></span></p>
+<p><strong>Status:</strong> <span th:text="${problem.status}"></span></p>
+
+<h2>Descriptions</h2>
+<table border="1">
+    <thead>
+    <tr>
+        <th>Description</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="desc : ${problem.descriptions}">
+        <td th:text="${desc.description}"></td>
+        <td>
+            <a th:href="@{'/problems/descriptions/edit/' + ${desc.id}}">Edit</a>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<h3>Add New Description</h3>
+<form action="/problems/descriptions/upsert" method="post">
+    <input type="hidden" name="problemId" th:value="${problem.id}">
+    <input type="text" name="description" placeholder="Enter description" required>
+    <button type="submit">Add</button>
+</form>
+
+<h2>Solutions</h2>
+<table border="1">
+    <thead>
+    <tr>
+        <th>Solution</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="solution : ${problem.solutions}">
+        <td th:text="${solution.solution}"></td>
+        <td>
+            <a th:href="@{'/problems/solutions/edit/' + ${solution.id}}">Edit</a>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<h3>Add New Solution</h3>
+<form action="/problems/solutions/upsert" method="post">
+    <input type="hidden" name="problemId" th:value="${problem.id}">
+    <input type="text" name="solution" placeholder="Enter solution" required>
+    <button type="submit">Add</button>
+</form>
+<a href="/problems">Back to Problem List</a>
+</body>
+</html>

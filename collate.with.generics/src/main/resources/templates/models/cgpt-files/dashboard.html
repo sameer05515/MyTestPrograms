@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard: ChatGPT: View all files</title>
+    <style>
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .card {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            word-break: break-all;
+        }
+
+        .card .bigger-font {
+            margin: 0 0 10px;
+            font-size: 13px;
+            color: #333;
+            word-break: break-all;
+        }
+
+        .card .heading {
+            font-weight: bold;
+            color: #555;
+            word-break: break-all;
+        }
+
+        .card .rating {
+            color: #888;
+        }
+
+        .private {
+            color: red;
+            font-weight: bold;
+        }
+
+        .heading .clickable {
+            cursor: pointer;
+            color: blue;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+<h1>Dashboard: ChatGPT: View all files</h1>
+
+<div class="card-container">
+    <div class="card" th:each="cgptFile : ${cgptFilesInfo}">
+        <div class="bigger-font" th:text="${cgptFile.name}"></div>
+        <div class="heading">
+            <span>Heading: </span>
+            <span th:text="${cgptFile.heading}"></span> <br/>
+            <a th:href="@{/models/cgpt-files/{id}(id=${cgptFile.uniqueId})}"
+               class="clickable">Details here</a>
+        </div>
+        <div class="rating">
+            Location: <span th:text="${cgptFile.location}"></span>
+        </div>
+        <div class="rating">
+            UniqueId: <span th:text="${cgptFile.uniqueId}"></span>
+        </div>
+        <div th:if="${cgptFile.latestFile}" class="private">
+            Latest ChatGPT File
+        </div>
+    </div>
+</div>
+</body>
+</html>
