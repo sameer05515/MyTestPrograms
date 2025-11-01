@@ -1,22 +1,19 @@
 package com.prem.java8;
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
-import java.util.stream.Stream;
+import java.util.function.Function;
+import java.util.stream.Collectors;
 
 public class Test112 {
     public static void main(String[] args) {
-        String name= "premendra";
-        Map<Character, Integer> charArr= new HashMap<>();
-        Arrays.asList(name.toCharArray()).stream().forEach(c-> {
-            if(charArr.containsKey(c)){
-                charArr.put(c, charArr.get(c)+1);
-            }else{
-                charArr.put(c, 0);
-            }
-        });
-
+        String name = "premendra";
+        Map<Character, Long> charCountMap = name.chars()
+            .mapToObj(c -> (char) c)
+            .collect(Collectors.groupingBy(
+                Function.identity(),
+                Collectors.counting()
+            ));
+        // Optional: Print result
+        System.out.println(charCountMap);
     }
 }
