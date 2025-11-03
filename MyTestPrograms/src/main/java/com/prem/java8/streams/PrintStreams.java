@@ -9,7 +9,7 @@ class PrintStreams {
                 "Geeks", "A",
                 "Computer", "Portal");
 
-        // Print the stream
-        stream.forEach(s -> System.out.println(s));
+        // Print the stream using method reference for better performance
+        stream.forEach(System.out::println);
     }
 }

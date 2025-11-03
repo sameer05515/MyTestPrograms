@@ -1,27 +1,23 @@
 package com.prem.java8.streams;// Java program to convert Stream to ArrayList
-// using Collectors.toList() method
+// using Collectors.toCollection() method
 
 import java.util.ArrayList;
-import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class GetArrayListFromStream {
 
-    // Function to get ArrayList from Stream
-    public static <T> ArrayList<T>
-    getArrayListFromStream(Stream<T> stream) {
-
-        // Convert the Stream to List
-        List<T>
-                list = stream.collect(Collectors.toList());
-
-        // Create an ArrayList of the List
-        ArrayList<T>
-                arrayList = new ArrayList<T>(list);
-
-        // Return the ArrayList
-        return arrayList;
+    /**
+     * Function to get ArrayList from Stream.
+     * Optimized version using toCollection() to avoid intermediate List conversion.
+     * 
+     * @param stream The stream to convert
+     * @return ArrayList containing stream elements
+     */
+    public static <T> ArrayList<T> getArrayListFromStream(Stream<T> stream) {
+        // Direct conversion from Stream to ArrayList using toCollection()
+        // This is more efficient than Stream -> List -> ArrayList
+        return stream.collect(Collectors.toCollection(ArrayList::new));
     }
 
     // Driver code

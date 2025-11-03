@@ -11,14 +11,19 @@ class PrintStreamsWithFilterAndPeek {
 										"GeeksForGeeks", "A",
 										"Computer", "Portal");
 
-		// Since the stream is not being consumed
-		// this will not throw any exception
+		// Using peek() to inspect stream elements during processing
+		// peek() is an intermediate operation that doesn't consume the stream
+		// .count() is used as a terminal operation to trigger stream processing
+		// This is useful for debugging/monitoring stream transformations
 
-		// Print the stream
-		stream.filter(s -> s.startsWith("G"))
+		// Print the stream elements as they flow through the pipeline
+		long count = stream.filter(s -> s.startsWith("G"))
 			.peek(s -> System.out.println("Filtered value: " + s))
 			.map(String::toUpperCase)
 			.peek(s -> System.out.println("Uppercase value :" + s))
 			.count();
+		
+		// Print the total count of elements that passed the filter
+		System.out.println("Total elements matching filter: " + count);
 	}
 }
