@@ -1,0 +1,28 @@
+{
+  "name": "vocab-khajana-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon --watch src --ext js,json --exec node src/server.js",
+    "dev:css": "tailwindcss -i ./src/styles/input.css -o ./public/css/tailwind.css --watch",
+    "build:css": "tailwindcss -i ./src/styles/input.css -o ./public/css/tailwind.css --minify",
+    "build": "npm run build:css",
+    "start": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.1.0",
+    "xml2js": "^0.6.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "nodemon": "^3.1.10",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.14"
+  }
+}

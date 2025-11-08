@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en" class="h-full">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Vocab Khajana</title>
+    <link rel="stylesheet" href="/css/tailwind.css" />
+  </head>
+  <body class="min-h-full">
+    <div x-data="wordList" class="max-w-6xl mx-auto px-4 py-10 space-y-8">
+      <header class="space-y-2 text-center">
+        <h1 class="text-4xl font-bold">Vocab Khajana</h1>
+        <p class="text-slate-300">
+          Explore the vocabulary list sourced from <code>khajana.xml</code>.
+        </p>
+      </header>
+
+      <section class="grid gap-4 md:grid-cols-3 md:items-end bg-slate-800/60 border border-slate-700 rounded-xl p-6">
+        <label class="md:col-span-2">
+          <span class="block text-sm font-semibold uppercase tracking-wide text-slate-400">Search</span>
+          <input
+            x-model="query"
+            type="search"
+            name="query"
+            placeholder="Search by word, meaning, or example..."
+            class="mt-2 w-full rounded-lg border border-slate-700 bg-slate-900/80 px-4 py-3 text-base text-slate-100 placeholder-slate-500 outline-none focus:border-indigo-500 focus:ring focus:ring-indigo-500/30"
+          />
+        </label>
+
+        <label>
+          <span class="block text-sm font-semibold uppercase tracking-wide text-slate-400">Filter by type</span>
+          <select
+            x-model="typeFilter"
+            class="mt-2 w-full rounded-lg border border-slate-700 bg-slate-900/80 px-4 py-3 text-base text-slate-100 outline-none focus:border-indigo-500 focus:ring focus:ring-indigo-500/30"
+          >
+            <template x-for="option in availableTypes" :key="option">
+              <option :value="option" x-text="optionLabel(option)"></option>
+            </template>
+          </select>
+        </label>
+      </section>
+
+      <section>
+        <div x-show="loading" class="flex justify-center py-12">
+          <div class="h-12 w-12 animate-spin rounded-full border-4 border-indigo-500 border-t-transparent"></div>
+        </div>
+
+        <template x-if="!loading && error">
+          <div class="rounded-xl border border-rose-500 bg-rose-500/10 p-6 text-center text-rose-100">
+            <h2 class="text-xl font-semibold">Unable to load words</h2>
+            <p class="mt-2" x-text="error"></p>
+          </div>
+        </template>
+
+        <template x-if="!loading && !error">
+          <div>
+            <p x-show="!filteredWords.length" class="rounded-xl border border-slate-700 bg-slate-800/80 p-6 text-center text-slate-300">
+              No words match your filters.
+            </p>
+
+            <div
+              x-show="filteredWords.length"
+              class="grid gap-6 md:grid-cols-2"
+              x-transition
+            >
+              <template x-for="word in filteredWords" :key="word.id">
+                <article class="flex flex-col gap-4 rounded-2xl border border-slate-700 bg-slate-800/70 p-6 shadow-lg shadow-slate-900/50">
+                  <header class="flex items-baseline justify-between gap-4">
+                    <h2 class="text-2xl font-semibold text-indigo-300" x-text="word.word"></h2>
+                    <span class="rounded-full bg-indigo-500/20 px-3 py-1 text-sm font-medium uppercase tracking-wide text-indigo-200">
+                      <span x-text="optionLabel(word.type)"></span>
+                    </span>
+                  </header>
+
+                  <section class="space-y-2">
+                    <h3 class="text-sm font-semibold uppercase tracking-wide text-slate-400">Meanings</h3>
+                    <ul class="list-disc space-y-1 pl-5 text-left text-slate-200">
+                      <template x-for="meaning in word.meanings" :key="meaning">
+                        <li x-text="meaning"></li>
+                      </template>
+                    </ul>
+                  </section>
+
+                  <section class="space-y-2">
+                    <h3 class="text-sm font-semibold uppercase tracking-wide text-slate-400">Examples</h3>
+                    <ul class="list-disc space-y-2 pl-5 text-slate-300">
+                      <template x-for="example in word.examples" :key="example">
+                        <li x-text="example"></li>
+                      </template>
+                    </ul>
+                  </section>
+                </article>
+              </template>
+            </div>
+          </div>
+        </template>
+      </section>
+    </div>
+
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+    <script src="/js/app.js" defer></script>
+  </body>
+</html>
+
