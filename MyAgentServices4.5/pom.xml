@@ -103,7 +103,7 @@
 			<artifactId>javax.wsdl</artifactId>
 			<version>1.4.0.v200706111329</version>
 			<scope>system</scope>
-			<systemPath>${basedir}/webapp/WEB-INF/lib/wsddl4j.jar</systemPath>
+			<systemPath>${basedir}/src/main/webapp/WEB-INF/lib/wsdl4j.jar</systemPath>
 		</dependency>
 
 
