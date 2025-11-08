@@ -55,6 +55,7 @@
         <a href="<c:url value='/quiz/result'/>">Quiz Result</a>
         <a href="<c:url value='/numbers'/>">Number Formatter</a>
         <a href="<c:url value='/colorbox'/>">Colorbox Notes</a>
+        <a href="<c:url value='/legacy'/>">Legacy Samples</a>
     </nav>
 </main>
 </body>
