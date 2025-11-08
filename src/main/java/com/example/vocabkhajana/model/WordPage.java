@@ -46,5 +46,13 @@ public class WordPage {
     public boolean hasPrevious() {
         return pageNumber > 0;
     }
+
+    public boolean isHasNext() {
+        return hasNext();
+    }
+
+    public boolean isHasPrevious() {
+        return hasPrevious();
+    }
 }
 
