@@ -33,9 +33,16 @@ public class WordController {
                 .boxed()
                 .toList();
 
+        boolean hasPrevious = wordPage.hasPrevious();
+        boolean hasNext = wordPage.hasNext();
+
         model.addAttribute("wordPage", wordPage);
         model.addAttribute("pageSize", pageSize);
         model.addAttribute("pageNumbers", pageNumbers);
+        model.addAttribute("hasPrevious", hasPrevious);
+        model.addAttribute("hasNext", hasNext);
+        model.addAttribute("previousPage", hasPrevious ? wordPage.getPageNumber() - 1 : wordPage.getPageNumber());
+        model.addAttribute("nextPage", hasNext ? wordPage.getPageNumber() + 1 : wordPage.getPageNumber());
 
         return "words";
     }

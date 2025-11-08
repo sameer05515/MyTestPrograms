@@ -54,5 +54,13 @@ public class WordPage {
     public boolean isHasPrevious() {
         return hasPrevious();
     }
+
+    public boolean getHasNext() {
+        return hasNext();
+    }
+
+    public boolean getHasPrevious() {
+        return hasPrevious();
+    }
 }
 

@@ -137,9 +137,9 @@
 
 <c:if test="${wordPage.totalElements > 0}">
     <nav>
-        <c:if test="${wordPage.hasPrevious}">
+        <c:if test="${hasPrevious}">
             <c:url value="/words" var="prevUrl">
-                <c:param name="page" value="${wordPage.pageNumber - 1}"/>
+                <c:param name="page" value="${previousPage}"/>
                 <c:param name="size" value="${pageSize}"/>
             </c:url>
             <a href="${prevUrl}">&laquo; Previous</a>
@@ -162,9 +162,9 @@
             </c:choose>
         </c:forEach>
 
-        <c:if test="${wordPage.hasNext}">
+        <c:if test="${hasNext}">
             <c:url value="/words" var="nextUrl">
-                <c:param name="page" value="${wordPage.pageNumber + 1}"/>
+                <c:param name="page" value="${nextPage}"/>
                 <c:param name="size" value="${pageSize}"/>
             </c:url>
             <a href="${nextUrl}">Next &raquo;</a>

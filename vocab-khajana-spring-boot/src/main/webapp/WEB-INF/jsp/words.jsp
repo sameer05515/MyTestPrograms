@@ -137,30 +137,43 @@
 
 <c:if test="${wordPage.totalElements > 0}">
     <nav>
-        <c:if test="${wordPage.hasPrevious}">
-            <a href="<c:url value='/words'><c:param name='page' value='${wordPage.pageNumber - 1}'/><c:param name='size' value='${pageSize}'/></c:url>">&laquo; Previous</a>
+        <c:if test="${hasPrevious}">
+            <c:url value="/words" var="prevUrl">
+                <c:param name="page" value="${previousPage}"/>
+                <c:param name="size" value="${pageSize}"/>
+            </c:url>
+            <a href="${prevUrl}">&laquo; Previous</a>
         </c:if>
 
         <c:forEach var="pageNumber" items="${pageNumbers}">
+            <c:url value="/words" var="pageUrl">
+                <c:param name="page" value="${pageNumber}"/>
+                <c:param name="size" value="${pageSize}"/>
+            </c:url>
             <c:choose>
                 <c:when test="${pageNumber == wordPage.pageNumber}">
                     <span class="active">${pageNumber + 1}</span>
                 </c:when>
                 <c:otherwise>
-                    <a href="<c:url value='/words'><c:param name='page' value='${pageNumber}'/><c:param name='size' value='${pageSize}'/></c:url>">
+                    <a href="${pageUrl}">
                         ${pageNumber + 1}
                     </a>
                 </c:otherwise>
             </c:choose>
         </c:forEach>
 
-        <c:if test="${wordPage.hasNext}">
-            <a href="<c:url value='/words'><c:param name='page' value='${wordPage.pageNumber + 1}'/><c:param name='size' value='${pageSize}'/></c:url>">Next &raquo;</a>
+        <c:if test="${hasNext}">
+            <c:url value="/words" var="nextUrl">
+                <c:param name="page" value="${nextPage}"/>
+                <c:param name="size" value="${pageSize}"/>
+            </c:url>
+            <a href="${nextUrl}">Next &raquo;</a>
         </c:if>
 
         <span class="spacer"></span>
         <span>Jump to page:</span>
-        <form method="get" action="<c:url value='/words'/>">
+        <c:url value="/words" var="wordsUrl"/>
+        <form method="get" action="${wordsUrl}">
             <input type="hidden" name="size" value="${pageSize}"/>
             <input type="number" name="page" min="1" max="${wordPage.totalPages}" value="${wordPage.pageNumber + 1}"
                    style="width: 4rem; padding: 0.25rem;"/>
