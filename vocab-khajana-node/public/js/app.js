@@ -1,4 +1,6 @@
-document.addEventListener('alpine:init', () => {
+function registerWordListComponent(Alpine) {
+  if (!Alpine) return;
+
   Alpine.data('wordList', () => ({
     words: [],
     query: '',
@@ -58,5 +60,13 @@ document.addEventListener('alpine:init', () => {
       });
     },
   }));
-});
+}
+
+if (window.Alpine) {
+  registerWordListComponent(window.Alpine);
+} else {
+  document.addEventListener('alpine:init', () => {
+    registerWordListComponent(window.Alpine);
+  });
+}
 
