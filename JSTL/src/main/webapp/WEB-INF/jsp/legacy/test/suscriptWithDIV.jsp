@@ -1,17 +1,97 @@
-<%@taglib prefix="test" uri="/WEB-INF/SubstrDescriptor.tld"%>
-<%@taglib prefix="prem" uri="/WEB-INF/FileResolvor.tld"%>
+<%@taglib prefix="test" uri="/WEB-INF/tlds/SubstrDescriptor.tld"%>
+<%@taglib prefix="prem" uri="/WEB-INF/tlds/FileResolvor.tld"%>
 <html>
 <head>
     <title>JSP Custom Taglib example: Substr function</title>
 	<link rel="stylesheet" href="http://127.0.0.1:8080/bce/struts2/link.css">
 	<!-- -->
-	<style type="text/css">
-		.fileClass:hover,.folderClass:hover,.fileClass:focus,.folderClass:focus{
-			FONT: 18px Verdana, Arial, Helvetica, sans-serif;
-		}
-	</style>
 	<link rel="stylesheet" href="link.css">
-		<script src="http://127.0.0.1:8080/bce/jquery/jquery-2.0.3.min.js" type="text/javascript"></script>
+		
+
+	<!-- -->
+</head>
+<body>
+    SUBSTR(GOODMORNING, 1, 6) is 
+    <!--
+	<font color="blue">
+    <test:substring input="GOODMORNING" start="1" end="6"/>
+	</font>
+	-->
+	
+	<br/>
+	<table border="3" width="100%" height="100%" >
+			<tr>
+				<td colspan="2" height="20">
+					<!--
+					<marquee direction="right" loop="20"><p id="selectedItemName" style="text-align: center">Currently Selected : None</p></marquee>
+					-->
+					<span>
+						<button id="btnListOfCategories">show</button>
+						<button id="btnShowDocsInFullScreen">show Docs in full screen</button>
+					</span>
+					<span  style='float: left;' id="prevPDF"><img src="http://127.0.0.1:8080/bce/images/prev_to_summary.png" width="35" height="15"/></span>
+					
+					<span  style='float: center;' id="repeatPDF"><img src="http://127.0.0.1:8080//bce/images/icon_refresh.png" width="35" height="15"/></span>
+					
+					<span  style='float: center;' id="playPausePDF"><img src="http://127.0.0.1:8080/bce/com/prem/style/icon/prem1.png" width="35" height="15"/></span>
+					
+					<span  style='float: right;' id="nextPDF"><img src="http://127.0.0.1:8080/bce/images/next_to_summary.png" width="35" height="15"/></span>
+					
+					<span id="selectedItemName" style="text-align: center">Currently Selected : None</span>
+					<span id="playerIsrunningName" style="text-align: center">Current</span>
+				</td>
+			</tr>
+			<tr>
+				<td width="10%" valign="top" id="rowFirst">
+					<div id="textSectionListOfCategories" style=" height:100%; width:100%; overflow:scroll;">
+						<table>
+						
+						<!--
+						<tr><td>
+						<prem:fileResolve base="d:/ebooks/db" traverseSubFolder="true" allowedExtentions=".pdf"/>
+						</td></tr>
+						
+						<tr><td>
+						<test:fileResolve base="d:/ebooks/AI" traverseSubFolder="true" allowedExtentions=".pdf"/>
+						</td></tr>
+						-->
+						
+						<%
+						  String myBasee=request.getParameter("myBasee");
+						  String myTraverseSubFolder="true";
+						  String myAllowedExtentions=request.getParameter("myAllowedExtentions");
+						%>
+						
+						<tr><td>
+						<test:fileResolve base="<%=myBasee%>" traverseSubFolder="<%=myTraverseSubFolder%>" allowedExtentions="<%=myAllowedExtentions%>"/>
+						</td></tr>
+						
+						<!--
+						<tr><td>
+						<test:fileResolve base="C:/APPLN_SERVERS/apache-tomcat-6.0.35/apache-tomcat-6.0.35/webapps/bce/struts2/basic"
+										  traverseSubFolder="true" 
+										  allowedExtentions=".pdf"/>
+						</td></tr>
+						
+						<tr><td>
+						<test:fileResolve base="C:/Users/VINU/Desktop/comics"
+										  traverseSubFolder="true" 
+										  allowedExtentions=".pdf"/>
+						</td></tr>
+						-->
+							
+						</table >
+					</div>
+				</td>
+				
+				<td width="90%" valign="top" id="rowSecond">
+					<embed id="gameHolder" src="" allowfullscreen="true" width="100%" height="100%" >
+				</td>
+			</tr>
+		</table >
+		
+
+		<script type="text/javascript" src="http://127.0.0.1:8080/jquerytest/a/jquery-1.3.2.min.js"></script>
 		
 		<script>
 		var currenturl="";
@@ -23,11 +103,18 @@
 			var res=idAttrValue.substr(idAttrValue.indexOf(placeHolder) + placeHolder.length);
 			res=parseInt(res);
 			selectedVal=res;
+			
+			//--Solution to run the file in IE 9-- 'file:///' is additionally found in the source variable value
+			var fileKiPunch='file:///';
+			if(source.indexOf(fileKiPunch)>=0){
+				source=source.substr(source.indexOf(fileKiPunch) + fileKiPunch.length);			
+			}
 			//--- To set focus of selected element
 			whichgame.focus();
 			//alert("selected id == "+res);
 			//-------------------
-		  source="http://127.0.0.1:8080/bce/fileWriter?documentId="+source;
+		  source='http://127.0.0.1:8080/bce/fileWriter?documentId='+source;
+		  //alert('This is going to be invoked : '+source);
 		  currenturl=source;
 		  var game=document.getElementById("gameHolder");
 		  var clone=game.cloneNode(true);
@@ -67,11 +154,6 @@
 			var idCounter=0;
 			$("ul li").each(function() {  
 				$(this).children('a').each(function () {
-				
-					if($(this).hasClass('fileClass')==false){
-						return;
-					}
-					
 					$(this).attr("id","myanch"+idCounter);
 					optionTexts.push(this);
 					idCounter=idCounter+1;
@@ -109,6 +191,45 @@
 			$("#repeatPDF").click( function() {
 				jumppTo(1-1);
 			});
+			
+			var playFlag=1;			
+			$("#playPausePDF").click( function() {
+			
+				changuRamdarban();					
+			});
+			
+			function changuRamdarban(){
+				//playFlag=(playFlag==0)?1:0;
+				playPausePDFContents();
+			}
+			
+			function playPausePDFContents(){
+				//if(playFlag>0){
+					jumppTo(1);
+					document.getElementById('playerIsrunningName').innerText ='Running'+getElapsedTime();
+					setTimeout('playPausePDFContents()', 1000);
+				//}else{
+					//document.getElementById('playerIsrunningName').innerText ='Not Running'+getElapsedTime();
+				//}
+			}
+			
+		var min=0;
+		var secon=0;
+		var hour =0;
+		var days =0;
+		function getElapsedTime(){
+			secon=secon+1;				
+			if(secon==60){ 	secon=0; 	min=min+1; 	}			
+			if(min==60){ 	min=0; 		hour=hour+1; }			
+			if(hour==24){ 	hour=0; 		days=days+1; }			
+			var mytxt='';			
+			mytxt=(days>0)?(mytxt+days+' Days '):(mytxt+'');
+			mytxt=(hour>0)?(mytxt+hour+' Hours '):(mytxt+'');
+			mytxt=(min>0)?(mytxt+min+' Minutes '):(mytxt+'');
+			mytxt=(secon>0)?(mytxt+secon+' Seconds '):(mytxt+'');
+			
+			return ' Total time elapsed : '+mytxt;
+		}
 			
 			function jumppTo(steppVal) {				
 				var nextValue=(selectedVal + (optionTexts.length) +steppVal)%(optionTexts.length);
@@ -166,8 +287,6 @@
 					color:white;
 					background-color:#66cc55;
 					padding:2px 2px 2px;
-					word-break: break-all;
-					white-space: normal;
 				}
 				
 			body {
@@ -187,92 +306,7 @@
 					::-webkit-scrollbar-corner { background-color: #999;}}
 					::-webkit-resizer { background-color: #666;}
 				}
-				
-				a{
-					word-break: break-all;
-					white-space: normal;
-
-				}
 		</style>
-
-	<!-- -->
-</head>
-<body>
-    SUBSTR(GOODMORNING, 1, 6) is 
-    <!--
-	<font color="blue">
-    <test:substring input="GOODMORNING" start="1" end="6"/>
-	</font>
-	-->
-	
-	<br/>
-	<table border="3" width="100%" height="100%" >
-			<tr>
-				<td colspan="2" height="20">
-					<!--
-					<marquee direction="right" loop="20"><p id="selectedItemName" style="text-align: center">Currently Selected : None</p></marquee>
-					-->
-					<span>
-						<button id="btnListOfCategories">show</button>
-						<button id="btnShowDocsInFullScreen">show Docs in full screen</button>
-					</span>
-					<span  style='float: left;' id="prevPDF"><img src="http://127.0.0.1:8080/bce/images/prev_to_summary.png" width="35" height="15"/></span>
-					
-					<span  style='float: center;' id="repeatPDF"><img src="http://127.0.0.1:8080//bce/images/icon_refresh.png" width="35" height="15"/></span>
-					
-					<span  style='float: right;' id="nextPDF"><img src="http://127.0.0.1:8080/bce/images/next_to_summary.png" width="35" height="15"/></span>
-					
-					<span id="selectedItemName" style="text-align: center">Currently Selected : None</span>
-				</td>
-			</tr>
-			<tr>
-				<td width="10%" valign="top" id="rowFirst">
-					<div id="textSectionListOfCategories" style=" height:100%; width:100%; overflow:scroll;">
-						<table>
-						
-						<!--
-						<tr><td>
-						<prem:fileResolve base="d:/ebooks/db" traverseSubFolder="true" allowedExtentions=".pdf"/>
-						</td></tr>
-						
-						<tr><td>
-						<test:fileResolve base="d:/ebooks/AI" traverseSubFolder="true" allowedExtentions=".pdf"/>
-						</td></tr>
-						-->
-						
-						<%
-						  String myBasee=request.getParameter("myBasee");
-						  String myTraverseSubFolder="true";
-						  String myAllowedExtentions=request.getParameter("myAllowedExtentions");
-						%>
-						
-						<tr><td>
-						<test:fileResolve base="<%=myBasee%>" traverseSubFolder="<%=myTraverseSubFolder%>" allowedExtentions="<%=myAllowedExtentions%>"/>
-						</td></tr>
-						
-						<!--
-						<tr><td>
-						<test:fileResolve base="C:/APPLN_SERVERS/apache-tomcat-6.0.35/apache-tomcat-6.0.35/webapps/bce/struts2/basic"
-										  traverseSubFolder="true" 
-										  allowedExtentions=".pdf"/>
-						</td></tr>
-						
-						<tr><td>
-						<test:fileResolve base="C:/Users/VINU/Desktop/comics"
-										  traverseSubFolder="true" 
-										  allowedExtentions=".pdf"/>
-						</td></tr>
-						-->
-							
-						</table >
-					</div>
-				</td>
-				
-				<td width="90%" valign="top" id="rowSecond">
-					<embed id="gameHolder" src="" allowfullscreen="true" width="100%" height="100%" >
-				</td>
-			</tr>
-		</table >
 	
 </body>
 </html>

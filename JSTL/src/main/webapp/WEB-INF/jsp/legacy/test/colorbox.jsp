@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
-<%@taglib prefix="test" uri="/WEB-INF/ColorboxAchorFileResolvor.tld"%>
+<%@taglib prefix="test" uri="/WEB-INF/tlds/ColorboxAchorFileResolvor.tld"%>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <html>
 	<head>
@@ -11,7 +12,7 @@
 			a:link, a:visited{text-decoration:none; color:#416CE5; border-bottom:1px solid #416CE5;}
 			h2{font-size:13px; margin:15px 0 0 0;}
 		</style>
-		<link rel="stylesheet" href="example112345/colorbox.css" />
+		<link rel="stylesheet" href="<c:url value='/example112345/colorbox.css'/>" />
 		<script src="http://127.0.0.1:8888/colorbox-master/jquery/jquery-2.0.3.min.js"></script>
 		<script src="http://127.0.0.1:8888/colorbox-master/jquery.colorbox.js"></script>
 		<script>
@@ -63,11 +64,14 @@
 		<p><a class="group2" href="http://127.0.0.1:8888/colorbox-master/content/ohoopee3.jpg" title="On the Ohoopee as an adult">Grouped Photo 3</a></p>
 		
 		<h2>No Transition + fixed width and height (75% of screen size)</h2>
-		<test:colorboxAchorFileResolvor baseURLPrefix="http://127.0.0.1:8080/bce/fileWriter?documentId="
-										classname="group3"
-										base="C:/Users/VINU/Desktop/rimi"
-										traverseSubFolder="true"
-										allowedExtentions=".jpg"/>
+		
+		<%
+		  String myBasee=request.getParameter("myBasee");
+		  String myTraverseSubFolder="true";
+		  String myAllowedExtentions=request.getParameter("myAllowedExtentions");
+		%>
+		
+		<test:colorboxAchorFileResolvor baseURLPrefix="http://127.0.0.1:8080/bce/fileWriter?documentId=" classname="group3" base="<%=myBasee%>" traverseSubFolder="true" allowedExtentions="<%=myAllowedExtentions%>"/>
 		<!--
 		<p><a class="group3" href="http://127.0.0.1:8888/colorbox-master/content/ohoopee1.jpg" title="Me and my grandfather on the Ohoopee.">Grouped Photo 1</a></p>
 		<p><a class="group3" href="http://127.0.0.1:8888/colorbox-master/content/ohoopee2.jpg" title="On the Ohoopee as a child">Grouped Photo 2</a></p>

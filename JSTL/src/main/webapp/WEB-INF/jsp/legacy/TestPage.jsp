@@ -1,4 +1,4 @@
-<%@taglib uri="/WEB-INF/CustomTags.tld" prefix="tag"%>
+<%@taglib uri="/WEB-INF/tlds/CustomTags.tld" prefix="tag"%>
 <html>
 	<body>
 		<tag:check paramName ="opt">

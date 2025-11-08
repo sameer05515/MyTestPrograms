@@ -1,12 +1,17 @@
-<%@taglib prefix="test" uri="/WEB-INF/SubstrDescriptor.tld"%>
-<%@taglib prefix="prem" uri="/WEB-INF/FileResolvor.tld"%>
+<%@taglib prefix="test" uri="/WEB-INF/tlds/SubstrDescriptor.tld"%>
+<%@taglib prefix="prem" uri="/WEB-INF/tlds/FileResolvor.tld"%>
 <html>
 <head>
     <title>JSP Custom Taglib example: Substr function</title>
-	<link rel="stylesheet" href="../bce/struts2/link.css">
+	<link rel="stylesheet" href="http://127.0.0.1:8080/bce/struts2/link.css">
 	<!-- -->
+	<style type="text/css">
+		.fileClass:hover,.folderClass:hover,.fileClass:focus,.folderClass:focus{
+			FONT: 18px Verdana, Arial, Helvetica, sans-serif;
+		}
+	</style>
 	<link rel="stylesheet" href="link.css">
-		<script src="../bce/jquery/jquery-2.0.3.min.js" type="text/javascript"></script>
+		<script src="http://127.0.0.1:8080/bce/jquery/jquery-2.0.3.min.js" type="text/javascript"></script>
 		
 		<script>
 		var currenturl="";
@@ -62,6 +67,11 @@
 			var idCounter=0;
 			$("ul li").each(function() {  
 				$(this).children('a').each(function () {
+				
+					if($(this).hasClass('fileClass')==false){
+						return;
+					}
+					
 					$(this).attr("id","myanch"+idCounter);
 					optionTexts.push(this);
 					idCounter=idCounter+1;
@@ -156,6 +166,8 @@
 					color:white;
 					background-color:#66cc55;
 					padding:2px 2px 2px;
+					word-break: break-all;
+					white-space: normal;
 				}
 				
 			body {
@@ -175,9 +187,10 @@
 					::-webkit-scrollbar-corner { background-color: #999;}}
 					::-webkit-resizer { background-color: #666;}
 				}
+				
 				a{
 					word-break: break-all;
-			white-space: normal;
+					white-space: normal;
 
 				}
 		</style>
@@ -217,6 +230,7 @@
 					<div id="textSectionListOfCategories" style=" height:100%; width:100%; overflow:scroll;">
 						<table>
 						
+						<!--
 						<tr><td>
 						<prem:fileResolve base="d:/ebooks/db" traverseSubFolder="true" allowedExtentions=".pdf"/>
 						</td></tr>
@@ -224,17 +238,19 @@
 						<tr><td>
 						<test:fileResolve base="d:/ebooks/AI" traverseSubFolder="true" allowedExtentions=".pdf"/>
 						</td></tr>
+						-->
 						
 						<%
-						  String myBasee="D:/ebooks/web services";
+						  String myBasee=request.getParameter("myBasee");
 						  String myTraverseSubFolder="true";
-						  String myAllowedExtentions=".pdf";
+						  String myAllowedExtentions=request.getParameter("myAllowedExtentions");
 						%>
 						
 						<tr><td>
 						<test:fileResolve base="<%=myBasee%>" traverseSubFolder="<%=myTraverseSubFolder%>" allowedExtentions="<%=myAllowedExtentions%>"/>
 						</td></tr>
 						
+						<!--
 						<tr><td>
 						<test:fileResolve base="C:/APPLN_SERVERS/apache-tomcat-6.0.35/apache-tomcat-6.0.35/webapps/bce/struts2/basic"
 										  traverseSubFolder="true" 
@@ -246,6 +262,7 @@
 										  traverseSubFolder="true" 
 										  allowedExtentions=".pdf"/>
 						</td></tr>
+						-->
 							
 						</table >
 					</div>
