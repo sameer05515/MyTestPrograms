@@ -9,6 +9,7 @@ This project modernises the original Log4j rotation demo by turning it into a Sp
 - Configurable scheduled emitter that generates log messages at a fixed interval.
 - Log4j2 rolling-file configuration that keeps the latest five archives (time + size based policies).
 - Actuator starter included for future operational endpoints.
+- Interactive OpenAPI (Swagger) documentation via Springdoc.
 
 ## Prerequisites
 
@@ -22,6 +23,11 @@ mvn spring-boot:run
 ```
 
 Logs are written to the console and to `logs/example.log`. Archived files live in `logs/archive`.
+
+OpenAPI documentation is available at:
+
+- Swagger UI: <http://localhost:8080/swagger-ui/index.html>
+- Raw OpenAPI spec: <http://localhost:8080/v3/api-docs>
 
 ## Triggering Logs Manually
 

@@ -17,16 +17,29 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.media.Content;
+import io.swagger.v3.oas.annotations.media.Schema;
+import io.swagger.v3.oas.annotations.responses.ApiResponse;
+import io.swagger.v3.oas.annotations.responses.ApiResponses;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
 
 @Validated
 @RestController
 @RequestMapping("/api/logs")
+@Tag(name = "Logs", description = "Endpoints for emitting Log4j2 log messages")
 public class LogController {
 
 	private static final Logger logger = LogManager.getLogger(LogController.class);
 
 	@PostMapping
+	@Operation(summary = "Write a log entry", description = "Emit a log entry with the provided message and optional level.")
+	@ApiResponses({
+			@ApiResponse(responseCode = "202", description = "Log accepted for processing",
+					content = @Content(mediaType = "application/json", schema = @Schema(implementation = LogResponse.class))),
+			@ApiResponse(responseCode = "400", description = "Invalid log level supplied", content = @Content)
+	})
 	ResponseEntity<LogResponse> createLog(@Valid @RequestBody LogMessageRequest request) {
 		Level level = resolveLevel(request.level());
 		log(level, request.message());
