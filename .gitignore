@@ -1,9 +1,46 @@
+# Maven / Gradle
 **/target/
-
-**/.settings/
-**/.idea/
-**/*.class
-**/*.iml
+**/build/
+**/out/
+**/.gradle/
 **/.mvn/**
-**/.gradle/**
 
+# Java
+**/*.class
+hs_err_pid*
+replay_pid*
+
+# IDE
+**/.idea/
+**/*.iml
+**/.settings/
+
+# Logs
+**/*.log
+**/logs/
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Node / front-end (Angular/React apps under this repo)
+**/node_modules/
+**/dist/
+**/.angular/
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/.pnpm-debug.log*
+
+# Python
+**/__pycache__/
+**/*.py[cod]
+**/.venv/
+**/venv/
+**/.eggs/
+**/*.egg-info/
+
+# Secrets / local env (do not commit)
+**/.env
+**/.env.*.local
