@@ -1,0 +1,22 @@
+/target/
+/build/
+/out/
+
+# Local runtime data
+/data/
+*.db
+*.mv.db
+*.trace.db
+
+# Logs
+*.log
+logs/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
