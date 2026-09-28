@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problems</title>
+</head>
+<body>
+<h1>Problem List</h1>
+<table border="1">
+    <thead>
+    <tr>
+        <th>Title</th>
+        <th>Created On</th>
+        <th>Status</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="problem : ${problems}">
+        <td th:text="${problem.title}"></td>
+        <td th:text="${problem.createdOn}"></td>
+        <td th:text="${problem.status}"></td>
+        <td>
+            <a th:href="@{'/problems/' + ${problem.id}}">View</a>
+            <a th:href="@{'/problems/edit/' + ${problem.id}}">Edit</a>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+<h2>Add New Problem</h2>
+<form action="/problems/upsert" method="post">
+    <input type="hidden" name="id" value="">
+    <label>Title:</label>
+    <input type="text" name="title" required>
+    <label>Status:</label>
+    <select name="status" required>
+        <option value="OPEN">Open</option>
+        <option value="WIP">WIP</option>
+        <option value="ON_HOLD">On Hold</option>
+        <option value="CLOSED">Closed</option>
+    </select>
+    <button type="submit">Save</button>
+</form>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib xmlns="https://jakarta.ee/xml/ns/jakartaee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-jsptaglibrary_3_0.xsd"
+        version="3.0">
+
+    <description>Sample taglib for substring and file resolution</description>
+    <display-name>Substring &amp; File Resolver Library</display-name>
+    <tlib-version>1.0</tlib-version>
+    <short-name>substr</short-name>
+    <uri>https://viralpatel.net/blogs/jsp/taglib/substr</uri>
+
+    <tag>
+        <name>substring</name>
+        <tag-class>com.prem.tags.SubstrTagHandler</tag-class>
+        <body-content>empty</body-content>
+        <description>Substring function.</description>
+        <attribute>
+            <name>input</name>
+            <required>true</required>
+        </attribute>
+        <attribute>
+            <name>start</name>
+            <required>true</required>
+        </attribute>
+        <attribute>
+            <name>end</name>
+            <required>true</required>
+        </attribute>
+    </tag>
+
+    <tag>
+        <name>fileResolve</name>
+        <tag-class>com.prem.tags.FileResolvor</tag-class>
+        <body-content>empty</body-content>
+        <description>Lists files beneath the provided base path.</description>
+        <attribute>
+            <name>base</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <name>traverseSubFolder</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <name>allowedExtentions</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+</taglib>
+

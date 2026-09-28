@@ -1,0 +1,64 @@
+<div class="page">
+
+  <div class="card">
+
+    <h1>Image to PDF</h1>
+
+    <p class="subtitle">
+      Generate a PDF from images in a folder
+    </p>
+
+    <div class="form-group">
+
+      <label for="folderPath">
+        Folder Path
+      </label>
+
+      <input
+        id="folderPath"
+        type="text"
+        [(ngModel)]="folderPath"
+        placeholder="D:/photos"
+        [disabled]="loading"
+        (keyup.enter)="generatePdf()"
+      />
+
+      <small>
+        Example: D:/photos
+      </small>
+
+    </div>
+
+    <button
+      type="button"
+      (click)="generatePdf()"
+      [disabled]="loading"
+    >
+
+      <span *ngIf="!loading">
+        Generate PDF
+      </span>
+
+      <span *ngIf="loading">
+        Generating...
+      </span>
+
+    </button>
+
+    <div
+      class="message success"
+      *ngIf="message"
+    >
+      {{ message }}
+    </div>
+
+    <div
+      class="message error"
+      *ngIf="error"
+    >
+      {{ error }}
+    </div>
+
+  </div>
+
+</div>

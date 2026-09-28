@@ -1,0 +1,57 @@
+/* Basic reset for margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333; /* Dark background for the header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    display: flex; /* Align items in a row */
+    justify-content: center; /* Center the navigation items */
+}
+
+nav ul li {
+    margin: 0 15px; /* Add some space between each link */
+}
+
+nav ul li a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Darken background on hover */
+}
+
+/* Responsive Design: Stack the items on small screens */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column; /* Stack links vertically */
+    }
+
+    nav ul li {
+        margin: 10px 0; /* Add margin between links when stacked */
+    }
+}

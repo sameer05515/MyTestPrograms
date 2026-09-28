@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Extracted data Analysis</title>
+    <!--    <link rel="stylesheet" type="text/css" href="/css/welcome.css">-->
+    <style>
+        /* Add card-specific styles */
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .card {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+
+        .card h2 {
+            margin: 0 0 10px;
+            font-size: 18px;
+            color: #333;
+        }
+
+        .card .heading {
+            font-weight: bold;
+            color: #555;
+        }
+
+        .card .rating {
+            color: #888;
+        }
+
+        .private {
+            color: red;
+            font-weight: bold;
+        }
+
+
+        .custom-table {
+    width: 100%; /* Full width */
+    border-collapse: collapse; /* Remove spacing between borders */
+    margin: 20px 0; /* Margin for spacing */
+    font-size: 16px; /* Font size */
+}
+
+.custom-table th, .custom-table td {
+    border: 1px solid #ddd; /* Light gray border */
+    padding: 12px; /* Padding for cells */
+    text-align: left; /* Align text to the left */
+}
+
+.custom-table th {
+    background-color: #4CAF50; /* Green background for headers */
+    color: white; /* White text color for headers */
+}
+
+.custom-table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray background for even rows */
+}
+
+.custom-table tr:hover {
+    background-color: #ddd; /* Light gray background on row hover */
+}
+
+
+    </style>
+</head>
+<body>
+<h1>Extracted data Analysis: for type: <span th:text="${analysisResult.dataType}"></span> </h1>
+
+<!-- Loop through questionOfExtractPhases and render each in a card -->
+<div class="card-container">
+    <div class="card">
+        <h2 th:text="${analysisResult.dataType}"></h2>
+        <div class="heading">
+            <span>Total Extracted Result: </span>
+            <span th:text="${analysisResult.totalExtractedResult}"></span>
+        </div>
+
+    </div>
+    <div class="card">
+
+        <h2>Data Count by Rating</h2>
+        <table class="custom-table">
+            <thead>
+            <tr>
+                <th>Rating</th>
+                <th>Count</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="entry : ${analysisResult.dataCountAsPerRating}">
+                <td th:text="${entry.key}"></td>
+                <td th:text="${entry.value}"></td>
+            </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+    <div class="card">
+
+        <h2>Data Count by Private field</h2>
+        <table class="custom-table">
+            <thead>
+            <tr>
+                <th>Privacy</th>
+                <th>Count</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="entry : ${analysisResult.dataCountAsPerPrivate}">
+                <td th:text="${entry.key?'Private':'Public'}"></td>
+                <td th:text="${entry.value}"></td>
+            </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+
+    <div class="card">
+
+        <h2>Data Count by Parent Id</h2>
+        <table class="custom-table">
+            <thead>
+            <tr>
+                <th>Parent Id</th>
+                <th>Count</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="entry : ${analysisResult.dataCountAsPerParentId}">
+                <td th:text="${entry.key}"></td>
+                <td th:text="${entry.value}"></td>
+            </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome Page</title>
+    <link rel="stylesheet" type="text/css" href="/css/welcome.css">
+    <link rel="stylesheet" th:href="@{/css/header.css}">
+</head>
+<body>
+<!-- Include the header fragment -->
+<div th:replace="fragments/header :: header"></div>
+<h1>Welcome!</h1>
+<pre class="welcomeMessage" th:text="${welcomeMessage}"></pre>
+<pre class="milestoneMessage milestone_status_completed" th:text="${milestone_0_details}"></pre>
+<pre class="milestoneMessage" th:text="${milestone_1_details}"></pre>
+<!--<a href="/models" target="_blank">Models </a> <br/>-->
+<a href="/models/v1" target="_blank">ModelsV1 </a>
+<a href="/models/questions/page/v3">Questions page v3 (rendering Analysis data in a model) </a> <br/>
+<a href="/models/topics/page/v3">Topics page v3 (rendering Analysis data in a model) </a> <br/>
+<a href="/models/tasks/page/v3">Tasks page v3 (rendering Analysis data in a model) </a> <br/>
+
+<a href="/models/cgpt-files/">Dashboard: ChatGPT </a> <br/>
+</body>
+</html>

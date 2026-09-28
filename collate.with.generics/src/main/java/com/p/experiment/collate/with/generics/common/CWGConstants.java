@@ -1,0 +1,11 @@
+package com.p.experiment.collate.with.generics.common;
+
+public enum CWGConstants {
+    MILESTONE_STATUS_PLANNED,
+    MILESTONE_STATUS_IN_PROGRESS,
+    MILESTONE_STATUS_ON_HOLD,
+    MILESTONE_STATUS_COMPLETED,
+
+    ACTIVITY_TYPE_COMPLETED,
+    ACTIVITY_TYPE_PLANNED,
+}

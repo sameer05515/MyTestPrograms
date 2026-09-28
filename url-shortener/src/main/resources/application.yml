@@ -1,0 +1,37 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:h2:file:./data/urlshortener;AUTO_SERVER=TRUE
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        jdbc:
+          batch_size: 50
+        order_updates: true
+        order_inserts: true
+    open-in-view: false
+  cache:
+    cache-names: short-url-cache
+    caffeine:
+      spec: maximumSize=50000,expireAfterWrite=15m
+
+app:
+  base-url: http://localhost:8080
+  jwt:
+    secret: 6YUnuN2mVkB1QzK2e9Jr7Cf4Jd2xM8sR6xK9Qj5Vt2Lw8Bh3Dn6fP4wY1cN7uT9
+    expiration-minutes: 120
+  rate-limit:
+    requests-per-window: 120
+    window-seconds: 60
+    max-concurrent-requests: 20

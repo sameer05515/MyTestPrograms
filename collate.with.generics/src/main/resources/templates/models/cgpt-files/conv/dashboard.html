@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard: ChatGPT: View all files</title>
+    <!--    <link rel="stylesheet" type="text/css" href="/css/welcome.css">-->
+    <style>
+        /* Add card-specific styles */
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .card {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            word-break: break-all;
+        }
+
+        .card .bigger-font {
+            margin: 0 0 10px;
+            font-size: 13px;
+            color: #333;
+            word-break: break-all;
+        }
+
+        .card .heading {
+            font-weight: bold;
+            color: #555;
+            word-break: break-all;
+        }
+
+        .card .rating {
+            color: #888;
+        }
+
+        .private {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<h1>Dashboard: ChatGPT: View all conversation for selected file : <span th:text="${cgptFile.heading}"></span> </h1>
+
+<div class="card">
+    <div class="bigger-font" th:text="${cgptFile.name}"></div>
+    <div class="heading">
+        <span>Heading: </span>
+        <span th:text="${cgptFile.heading}"></span>
+    </div>
+    <div class="rating">
+        Location: <span th:text="${cgptFile.location}"></span>
+    </div>
+    <div class="rating">
+        UniqueId: <span th:text="${cgptFile.uniqueId}"></span>
+    </div>
+    <div th:if="${cgptFile.latestFile}" class="private">
+        Latest ChatGPT File
+    </div>
+</div>
+
+<!-- Loop through questionOfExtractPhases and render each in a card -->
+<div class="card-container">
+    <div class="card" th:each="conv : ${cgptFile.conversations}">
+        <div class="bigger-font" th:text="${conv.name}"></div>
+        <div class="heading">
+            <span>Heading: </span>
+            <span th:text="${conv.heading}"></span>
+        </div>
+        <div class="rating">
+            LinkedCGPTFileId: <span th:text="${cgptFile.uniqueId}"></span>
+        </div>
+        <div class="rating">
+            UniqueId: <span th:text="${conv.uniqueId}"></span>
+        </div>
+        <div class="rating">
+            Order: <span th:text="${conv.order}"></span>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Problem</title>
+</head>
+<body>
+<h1>Edit Problem</h1>
+<form action="/problems/upsert" method="post">
+    <input type="hidden" name="id" th:value="${problem.id}">
+    <label>Title:</label>
+    <input type="text" name="title" th:value="${problem.title}" required>
+    <label>Status:</label>
+    <select name="status" required>
+        <option th:value="OPEN" th:selected="${problem.status == 'OPEN'}">Open</option>
+        <option th:value="WIP" th:selected="${problem.status == 'WIP'}">WIP</option>
+        <option th:value="ON_HOLD" th:selected="${problem.status == 'ON_HOLD'}">On Hold</option>
+        <option th:value="CLOSED" th:selected="${problem.status == 'CLOSED'}">Closed</option>
+    </select>
+    <button type="submit">Save</button>
+</form>
+<a href="/problems">Back to Problem List</a>
+</body>
+</html>

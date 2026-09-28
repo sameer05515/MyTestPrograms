@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: studentdb
+  application:
+    name: mongo-playground
+server:
+  port: 8080
