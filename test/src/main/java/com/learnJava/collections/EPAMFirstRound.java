@@ -3,7 +3,7 @@ package com.learnJava.collections;
 import java.util.Arrays;
 import java.util.stream.Collectors;
 
-public class HashTag {
+public class EPAMFirstRound {
 
     public static void main(String[] args) {
         String input="Hello World Abc";
