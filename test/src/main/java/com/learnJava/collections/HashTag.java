@@ -8,7 +8,7 @@ public class HashTag {
     public static void main(String[] args) {
         String input="Hello World Abc";
         System.out.println(hashtag(input));
-        System.out.println(Arrays.toString(iii(new int[]{2, 3, 7, 5, 4, 8}, 5)));
+        System.out.println(Arrays.toString(stablePartitionByThreshold(new int[]{2, 3, 7, 5, 4, 8}, 5)));
 
     }
 
@@ -22,19 +22,19 @@ public class HashTag {
                 }).collect(Collectors.joining("","#",""));
     }
 
-    public static int[] iii(int[] input, int threshold){
+    public static int[] stablePartitionByThreshold(int[] input, int threshold){
         int[] result= new int[input.length];
 
         int counter=0;
-        for(int i=0;i<input.length;i++){
-            if(input[i]<threshold){
-                result[counter++]=input[i];
+        for (int j : input) {
+            if (j < threshold) {
+                result[counter++] = j;
             }
         }
 
-        for(int i=0;i<input.length;i++){
-            if(input[i]>=threshold){
-                result[counter++]=input[i];
+        for (int j : input) {
+            if (j >= threshold) {
+                result[counter++] = j;
             }
         }
 
