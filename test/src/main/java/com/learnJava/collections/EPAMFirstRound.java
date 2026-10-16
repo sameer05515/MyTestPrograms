@@ -9,7 +9,8 @@ public class EPAMFirstRound {
         String input="Hello World Abc";
         System.out.println(hashtag(input));
         System.out.println(Arrays.toString(stablePartitionByThreshold(new int[]{2, 3, 7, 5, 4, 8}, 5)));
-
+        System.out.println(Arrays.toString("  Hello world    Abc".trim().split(" ")));
+        System.out.println(Arrays.toString("  Hello world    Abc".trim().split("\\s+")));
     }
 
     public static String hashtag(String input){
